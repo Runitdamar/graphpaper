@@ -108,7 +108,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 GraphPaper</a>
 <nav aria-label="Main" style="position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:22px;font-weight:700">
 <a href="#/updates">Updates</a><a href="#/home?s=boards">Boards</a><a href="#/class">Study shelf</a>
-<a href="#/alerts" class="btn dark" style="height:48px;min-height:0;padding:0 22px;box-sizing:border-box;align-self:center">Get alerts</a>
 <details id="clsmenu">
 <summary style="cursor:pointer;display:flex;align-items:center;gap:8px;background:var(--a1);border:2px solid var(--ink);border-radius:999px;padding:10px 18px;min-height:44px;box-sizing:border-box;font-weight:700;box-shadow:0 4px 0 var(--ink)"><span>Class</span><span id="clsnum"></span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
 <div class="menu" style="position:absolute;top:calc(100% + 10px);z-index:5;width:248px;max-width:calc(100vw - 64px);background:var(--card);border:2px solid var(--ink);border-radius:24px;padding:18px;box-shadow:0 6px 0 var(--a1)">
@@ -217,7 +216,7 @@ function clsLabel(){ return ST.cls ? "Class " + ST.cls : "Class 11 and 12"; }
 
 /* ---------- views ---------- */
 var VIEWS = {};
-var TITLES = {home:"GraphPaper", welcome:"Welcome | GraphPaper", updates:"All updates | GraphPaper", notice:"Notice | GraphPaper", "class":"Study shelf | GraphPaper", books:"NCERT books | GraphPaper", syllabus:"Syllabus | GraphPaper", board:"Boards | GraphPaper", about:"About | GraphPaper", alerts:"Get alerts | GraphPaper", contact:"Contact | GraphPaper", terms:"Terms | GraphPaper", privacy:"Privacy | GraphPaper"};
+var TITLES = {home:"GraphPaper", welcome:"Welcome | GraphPaper", updates:"All updates | GraphPaper", notice:"Notice | GraphPaper", "class":"Study shelf | GraphPaper", books:"NCERT books | GraphPaper", syllabus:"Syllabus | GraphPaper", board:"Boards | GraphPaper", about:"About | GraphPaper", contact:"Contact | GraphPaper", terms:"Terms | GraphPaper", privacy:"Privacy | GraphPaper"};
 
 VIEWS.welcome = function(){
   var sel = ST.wc, cb = "";
@@ -422,30 +421,19 @@ VIEWS.board = function(r){
    (b.url ? '<div class="badge" style="margin-bottom:18px">Official source: ' + esc(host(b.url)) + '</div>' : '') + '<div style="display:flex;flex-wrap:wrap;gap:12px">' + btns + '</div></div></div>' + body + '</div>';
 };
 
-var CONTACT_EMAIL = "";   // set to a real address to turn the contact form on
+var CONTACT_EMAIL = "134556788854fgjgdtggft@gmail.com";
 var ISSUES = "https://github.com/Runitdamar/graphpaper/issues/new";
 function legal(title, lead, secs, upd){
   return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>' + title + '</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">' + title + '</h1>' +
    '<p style="margin:0 0 8px;color:var(--mut)">' + lead + '</p>' + (upd ? '<div class="meta" style="margin-bottom:24px">Last updated: ' + upd + '</div>' : '') + '<div style="display:flex;flex-direction:column;gap:22px">' +
    secs.map(function(p, i){ return '<section class="card" style="--sh:var(' + ["--a1","--a3","--a4","--a2"][i % 4] + ');gap:8px;padding:24px 26px"><h2 style="font-size:24px;margin:0">' + p[0] + '</h2><div>' + p[1] + '</div></section>'; }).join("") + '</div></div>';
 }
-VIEWS.alerts = function(){
-  var feed = location.origin + location.pathname.replace(/[^\/]*$/, "") + "feed.xml";
-  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Get alerts</b></div>' +
-   '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">Get alerts</h1><p style="margin:0 0 28px;color:var(--mut);max-width:560px">Hear about new notices for ' + esc(clsLabel()) + ' without opening the site.</p>' +
-   '<div class="grid g3" style="align-items:start">' +
-   '<section class="card" style="--sh:var(--a3)"><span class="pill" style="background:var(--a3);align-self:flex-start">Works today</span><h2 style="font-size:24px;margin:0">Follow with a feed reader</h2><div>Add this address to any feed reader (Feedly, Inoreader and others) and every approved CBSE notice shows up there.</div>' +
-   '<div style="border:2px solid var(--ink);border-radius:16px;padding:12px 14px;background:var(--bg);word-break:break-all;font-weight:700;font-size:15px" id="feedurl">' + esc(feed) + '</div>' +
-   '<button class="btn dark" type="button" data-act="copyfeed">Copy feed address</button><div id="copymsg" class="meta" role="status"></div></section>' +
-   '<section class="card" style="--sh:var(--a4)"><span class="pill" style="background:var(--a4);align-self:flex-start">Coming soon</span><h2 style="font-size:24px;margin:0">Email, WhatsApp and SMS</h2><div>Alerts for your class and board straight to your phone or inbox. These need a sending service that GraphPaper does not have yet, so there is nothing to sign up for today and we are not collecting any contact details.</div></section>' +
-   '<section class="card" style="--sh:var(--a1)"><h2 style="font-size:24px;margin:0">What alerts will cover</h2><div class="meta" style="font-size:16px">Class: ' + esc(clsLabel()) + '<br>Board: CBSE<br>Types: circulars, date sheets, syllabus changes, results</div><a class="btn" href="#/updates">See the latest updates</a></section></div></div>';
-};
 VIEWS.contact = function(){
   var form = CONTACT_EMAIL ? '<form class="card" data-act="csend" style="--sh:var(--a1)">' +
     '<label for="cname" class="fr" style="font-weight:500">Your name</label><input id="cname" style="border:2px solid var(--ink);border-radius:16px;padding:12px;font-size:17px;background:var(--bg);color:var(--ink)">' +
     '<label for="ctopic" class="fr" style="font-weight:500">Topic</label><select id="ctopic" style="border:2px solid var(--ink);border-radius:16px;padding:12px;font-size:17px;background:var(--bg);color:var(--ink)"><option>General question</option><option>Report a wrong or missing notice</option><option>Suggest a feature</option><option>Something else</option></select>' +
     '<label for="cmsg" class="fr" style="font-weight:500">Message</label><textarea id="cmsg" rows="5" style="border:2px solid var(--ink);border-radius:16px;padding:12px;font-size:17px;background:var(--bg);color:var(--ink);font-family:inherit"></textarea>' +
-    '<button class="btn dark" type="submit">Open in my email app</button></form>'
+    '<button class="btn dark" type="submit">Open in my email app</button><div class="meta">Or write to ' + esc(CONTACT_EMAIL) + '</div></form>'
     : '<section class="card" style="--sh:var(--a4)"><span class="pill" style="background:var(--a4);align-self:flex-start">Coming soon</span><h2 style="font-size:24px;margin:0">Message form</h2><div>The contact form is not switched on yet. For now, use the link on the right to report a wrong or missing notice.</div></section>';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Contact</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">Contact us</h1>' +
    '<p style="margin:0 0 28px;color:var(--mut);max-width:560px">Found a wrong notice or have an idea? Tell us.</p><div class="grid g3" style="align-items:start">' + form +
