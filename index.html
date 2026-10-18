@@ -224,7 +224,6 @@ h2{font-size:clamp(1.35rem,5.5vw,1.6rem);margin:0;font-weight:600}
       hl.href="updates.html?id="+encodeURIComponent(x.id);hl.textContent=x.title;h.appendChild(hl);
       var tm=document.createElement("time");tm.setAttribute("datetime",x.date);tm.textContent=fmt(x.date);
       body.appendChild(h);body.appendChild(tm);
-      if(x.summary){var p=document.createElement("p");p.textContent=x.summary;body.appendChild(p);}
       var src=document.createElement("a");src.className="src";src.href=safe(x.url);src.target="_blank";src.rel="noopener";src.innerHTML="View official source "+ICON;
       var ext=document.createElement("a");ext.className="ext";ext.href=safe(x.url);ext.target="_blank";ext.rel="noopener";ext.setAttribute("aria-label","Open official source");ext.innerHTML=ICON;
       a.appendChild(tag);a.appendChild(body);a.appendChild(src);a.appendChild(ext);list.appendChild(a);
