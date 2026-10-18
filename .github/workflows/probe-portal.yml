@@ -1,0 +1,29 @@
+name: Probe NCERT portal
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scripts/requirements.txt
+      - run: python scripts/probe_portal.py
+      - name: Commit probe result
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain scripts/ncert_portal.txt)" ]; then
+            git config user.name "graphpaper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add scripts/ncert_portal.txt
+            git commit -m "Save NCERT portal probe"
+            git push
+          fi
