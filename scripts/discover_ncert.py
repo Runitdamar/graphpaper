@@ -67,7 +67,7 @@ def stage_a():
             if ok:
                 return prefix
         return None
-    with ThreadPoolExecutor(16) as ex:
+    with ThreadPoolExecutor(24) as ex:
         for res in ex.map(work, combos):
             if res:
                 found.append(res)
