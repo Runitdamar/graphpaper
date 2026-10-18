@@ -73,6 +73,16 @@ def parse_date(text):
     return None
 
 
+EXCLUDE_WORDS = ["recruitment", "vacancy", "tier-i", "tier-ii", "tender", "empanelment"]
+
+
+def clean_title(title):
+    """Drop file-size tags like "(812 KB)" and a trailing dd/mm/yyyy from link text."""
+    title = re.sub(r"\s*\(\s*[\d.,]+\s*(?:KB|MB)\s*\)", "", title, flags=re.I)
+    title = re.sub(r"\s+\d{1,2}/\d{1,2}/\d{4}\s*$", "", title)
+    return " ".join(title.split())
+
+
 def classify(title):
     low = title.lower()
     for tag, words in TAG_RULES:
@@ -85,6 +95,8 @@ def is_relevant(title):
     if not RELEVANT_WORDS:
         return True
     low = title.lower()
+    if any(w in low for w in EXCLUDE_WORDS):
+        return False
     return any(w in low for w in RELEVANT_WORDS)
 
 
@@ -104,7 +116,7 @@ def extract_items(html, base_url):
         d = parse_date(context) or parse_date(href)
         if not d:
             continue  # no trustworthy date: skip rather than guess
-        found.append({"title": title, "date": d, "url": urljoin(base_url, href)})
+        found.append({"title": clean_title(title), "date": d, "url": urljoin(base_url, href)})
     return found
 
 
@@ -143,6 +155,8 @@ def main():
             status.append(f"FAILED {src} (HTTP {code}): {type(e).__name__}")
             errors += 1
             continue
+        if not r.encoding or r.encoding.lower() in ("iso-8859-1", "latin-1"):
+            r.encoding = r.apparent_encoding or "utf-8"  # avoid garbled characters in titles
         items = extract_items(r.text, src)
         print(f"{src}: {len(items)} candidate links")
         status.append(f"OK {src} (HTTP {r.status_code}, {len(r.text)} bytes, {len(items)} candidate links)")
