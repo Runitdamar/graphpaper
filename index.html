@@ -353,8 +353,9 @@ VIEWS["class"] = function(){
    '<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px"><h2 style="margin:0">NCERT books</h2>' + streams + '</div>' +
    '<div class="grid g4" style="margin-bottom:48px">' + subs + '</div>' +
    '<h2>Syllabus and notes</h2><div class="grid g3" style="margin-bottom:48px">' +
-   (live ? '<a class="card" href="#/syllabus" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus</h3><div class="meta">Official 2026-27 syllabus for Physics, Chemistry, Maths and Biology.</div><span class="more">Open →</span></a>' :
-     '<div class="card" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div class="meta">Official syllabus for Class ' + c + '.</div></div>') +
+   (live ? '<a class="card" href="#/syllabus" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus</h3><div class="meta">Official 2026-27 syllabus for Physics, Chemistry, Maths and Biology.</div><span class="more">Open \u2192</span></a>' :
+     n >= 9 ? '<a class="card" href="https://cbseacademic.nic.in/curriculum_2027.html" target="_blank" rel="noopener" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus</h3><div class="meta">The official CBSE curriculum page lists the 2026-27 syllabus for each subject of Class ' + c + '.</div><span class="more">Open on CBSE Academic \u2197</span></a>' :
+     '<div class="card" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div class="meta">Syllabus for Class ' + c + '.</div></div>') +
    '<div class="card" style="--sh:var(--a5)"><h3 style="font-size:22px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div class="meta">Chapter notes and quick revision sheets.</div></div></div>' +
    latest + '</div>';
 };
