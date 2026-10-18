@@ -235,7 +235,7 @@ VIEWS.welcome = function(){
    '<div style="background:var(--card);border:2px solid var(--ink);border-radius:32px;padding:28px 24px;text-align:left;display:flex;flex-direction:column;gap:22px;box-shadow:0 6px 0 var(--a1)">' +
    '<div>' + step(1, "wh1", "Your class") + '<div role="group" aria-labelledby="wh1" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">' + cb + '</div>' +
    '<div style="font-size:14px;color:var(--mut);margin-top:12px">Colors grow up with you, from candy pastels to calm, deep tones.</div></div>' +
-   '<div>' + step(2, "wh2", "Your board") + '<div role="group" aria-labelledby="wh2" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">' + bd("CBSE", "--a1", "on") + bd("NCERT", "--a3", "off", "Books only") + bd("ICSE", "--a4", "off", "Coming soon") + bd("State boards", "--a2", "off", "Coming soon") + '</div>' +
+   '<div>' + step(2, "wh2", "Your board") + '<div role="group" aria-labelledby="wh2" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">' + bd("CBSE", "--a1", "on") + bd("ICSE", "--a4", "off", "Coming soon") + bd("State boards", "--a2", "off", "Coming soon") + '</div>' +
    '<div style="font-size:14px;color:var(--mut);margin-top:12px">CBSE notices are live. Other boards are on the way. Class 11 and 12 Science have the most for now.</div></div>' +
    '<div id="werr" role="alert" hidden style="background:var(--a2);border:2px solid var(--ink);border-radius:16px;padding:10px 16px;font-weight:700">Please pick your class first.</div>' +
    '<button class="btn dark" data-act="wgo" style="min-height:56px;font-size:19px;padding:14px 32px">Take me in</button></div>' +
@@ -244,7 +244,7 @@ VIEWS.welcome = function(){
 
 VIEWS.home = function(){
   var it = ST.items, latest3 = it.slice(0, 3);
-  var board = [["CBSE","--a1","C",false],["NCERT","--a3","N",false],["ICSE","--a4","I",true],["State boards","--a2","S",true]].map(function(b){
+  var board = [["CBSE","--a1","C",false],["ICSE","--a4","I",true],["State boards","--a2","S",true]].map(function(b){
     return '<a class="bcard" href="#/board/' + encodeURIComponent(b[0]) + '" style="background:var(' + b[1] + ')">' + b[0] + (b[3] ? '<div style="font-family:Nunito,sans-serif;font-weight:700;font-size:13px;margin-top:4px">Coming soon</div>' : '') + '</a>';
   }).join("");
   var fresh = it.filter(function(x){ return ST.hf === "all" || x.tag === ST.hf; }).slice(0, 4);
@@ -289,7 +289,7 @@ VIEWS.updates = function(r){
     return '<button class="f" data-act="ut" data-v="' + esc(p[0]) + '" aria-pressed="' + (ST.type === p[0] ? "true" : "false") + '">' + esc(p[1]) + '</button>';
   }).join("");
   var l = listHtml();
-  var bf = ["all","CBSE","NCERT","ICSE","State boards"].map(function(v){ return '<button class="f" data-act="ub" data-v="' + v + '" aria-pressed="' + (ST.ub === v ? "true" : "false") + '">' + (v === "all" ? "All boards" : v) + '</button>'; }).join("");
+  var bf = ["all","CBSE","ICSE","State boards"].map(function(v){ return '<button class="f" data-act="ub" data-v="' + v + '" aria-pressed="' + (ST.ub === v ? "true" : "false") + '">' + (v === "all" ? "All boards" : v) + '</button>'; }).join("");
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Updates</b></div>' +
     '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">All updates</h1><p style="margin:0 0 24px;color:var(--mut)">Every CBSE notice, newest first.</p>' +
     '<div class="search" style="max-width:560px;margin-bottom:20px"><label for="uq" style="position:absolute;left:-9999px">Search updates</label><input id="uq" type="search" placeholder="Search updates" value="' + esc(ST.q) + '" autocomplete="off"></div>' +
@@ -399,7 +399,6 @@ VIEWS.syllabus = function(){
 
 var BOARDS = {
   "CBSE":{c:"--a1", l:"C", soon:false, url:"https://www.cbse.gov.in/", line:"The Central Board of Secondary Education runs the Class 10 and 12 board exams and publishes circulars, date sheets and results."},
-  "NCERT":{c:"--a3", l:"N", soon:false, url:"https://ncert.nic.in/", line:"NCERT publishes the textbooks used in CBSE schools. GraphPaper links to its chapter PDFs."},
   "ICSE":{c:"--a4", l:"I", soon:true, line:"ICSE notices are not on GraphPaper yet."},
   "State boards":{c:"--a2", l:"S", soon:true, line:"State board notices are not on GraphPaper yet."}
 };
@@ -409,8 +408,6 @@ VIEWS.board = function(r){
   if (b.soon) {
     btns = '<a class="btn dark" href="#/board/CBSE" style="display:inline-flex">See CBSE notices</a>';
     body = '<div class="card" style="--sh:var(--a4)"><h3 style="font-size:22px">Coming soon</h3><div class="meta">For now GraphPaper covers CBSE for Class 11 and 12 Science.</div></div>';
-  } else if (name === "NCERT") {
-    btns = '<a class="btn dark" href="#/books" style="display:inline-flex">Browse NCERT books</a><a class="btn" href="' + b.url + '" target="_blank" rel="noopener" style="display:inline-flex">Open official site ↗</a>';
   } else {
     btns = '<a class="btn dark" href="' + b.url + '" target="_blank" rel="noopener" style="display:inline-flex">Open official site ↗</a>';
     var counts = TYPE_KEYS.map(function(k){ var n = ST.items.filter(function(x){ return x.tag === k; }).length; return '<a class="card sm" href="#/updates?type=' + encodeURIComponent(k) + '" style="--sh:var(' + TYPES[k].c + ')"><h3>' + TYPES[k].plural + '</h3><div class="meta">' + n + ' notice' + (n === 1 ? '' : 's') + '</div><span class="more">See all →</span></a>'; }).join("");
