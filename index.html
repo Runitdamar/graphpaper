@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Graphpaper: CBSE updates, syllabus and NCERT books for Class 11 and 12 Science.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Graphpaper: Your CBSE Companion</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap">
+<style>
+:root{--bg:#ffffff;--panel:#ffffff;--soft:#eef2f8;--ink:#12274a;--mute:#5f7394;--line:#e1e8f2;--acc:#1f5fd1;--ibg:#e6ecff;--ibg2:#dff3fb;--ibg3:#efe6ff;
+--c1:#e4efff;--t1:#1f5fd1;--c2:#e3f6e8;--t2:#1c6b3c;--c3:#ece6ff;--t3:#5b3fc4;--c4:#ffeadb;--t4:#b4531a;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;overflow-x:hidden;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:15px;line-height:1.45;padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+background-image:linear-gradient(rgba(31,95,209,.14) 1px,transparent 1px),linear-gradient(90deg,rgba(31,95,209,.14) 1px,transparent 1px),linear-gradient(rgba(31,95,209,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(31,95,209,.06) 1px,transparent 1px);
+background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+-webkit-mask-image:radial-gradient(ellipse 90% 70% at 70% 0%,#000 0%,rgba(0,0,0,.55) 45%,transparent 85%);mask-image:radial-gradient(ellipse 90% 70% at 70% 0%,#000 0%,rgba(0,0,0,.55) 45%,transparent 85%)}
+.serif,h1,h2,.logo,.hero p.big{font-family:"Source Serif 4",Georgia,serif;font-weight:600}
+svg.i{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex:none}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.side{display:none}
+.main{padding:16px clamp(14px,4.5vw,20px);min-width:0}
+.head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.logo{font-size:clamp(1.6rem,7vw,1.9rem)}
+.av{width:40px;height:40px;border-radius:50%;background:var(--soft);display:grid;place-items:center;color:var(--mute);font-weight:500;font-size:.9rem}
+.search{display:flex;align-items:center;gap:12px;background:var(--soft);border-radius:14px;padding:0 16px;color:var(--mute);margin-bottom:16px}
+.search input{flex:1;border:0;background:none;font:inherit;font-size:16px;color:var(--ink);padding:14px 0;min-width:0}
+.search input:focus-visible{outline:none}
+.search:focus-within{outline:3px solid var(--acc)}
+.hero{position:relative;overflow:hidden;border-radius:12px;color:#fff;padding:22px;min-height:clamp(200px,58vw,240px);background:linear-gradient(110deg,#1e262d 0%,#2c3640 55%,#3b3d3a 100%);margin-bottom:16px}
+.hero .big{font-size:clamp(1.35rem,6.4vw,1.65rem);line-height:1.2;margin:0 0 14px;max-width:11ch}
+.hero hr{width:38px;border:0;border-top:2px solid rgba(255,255,255,.7);margin:0 0 14px}
+.hero p.sm{margin:0;font-size:.95rem;max-width:20ch;color:#e6ebf0}
+.hero svg.books{position:absolute;right:-8px;bottom:0;width:58%;height:78%}
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(8px,3vw,12px);margin-bottom:26px}
+.tile{display:block;position:relative;min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:clamp(12px,4vw,16px)}
+.tile .ic{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;color:var(--ink);margin-bottom:10px}
+.tile h3{margin:0 0 4px;font-size:1.05rem;font-weight:500}
+.tile p{margin:0;color:var(--mute);font-size:.88rem}
+.tile .ch{position:absolute;top:44px;right:14px;width:16px;height:16px;color:var(--mute)}
+.sec{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}
+h2{font-size:clamp(1.35rem,5.5vw,1.6rem);margin:0;font-weight:600}
+.sec a{color:var(--acc);font-size:.95rem}
+.list{background:transparent}
+.up{display:grid;grid-template-columns:104px 1fr 24px;gap:10px;padding:14px 0;border-bottom:1px solid var(--line);align-items:start}
+.up:last-child{border-bottom:0}
+.tag{justify-self:start;font-size:.82rem;font-weight:500;padding:4px 12px;border-radius:999px;background:var(--bg-t);color:var(--fg-t);white-space:nowrap}
+.up>div{min-width:0}
+.up h3{margin:0;overflow-wrap:anywhere;font-size:.95rem;font-weight:500}
+.up time{display:block;color:var(--mute);font-size:.82rem;margin:2px 0 4px}
+.up p{margin:0;color:var(--mute);font-size:.88rem}
+.up .src{display:none}
+.up .ext{color:var(--acc);width:18px;height:18px}
+.rail{display:none}
+.tabs{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:space-around;background:var(--panel);border-top:1px solid var(--line);padding:10px 8px calc(10px + env(safe-area-inset-bottom,0px))}
+.tabs a{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:.72rem;color:var(--mute)}
+.tabs a[aria-current]{color:var(--acc)}
+.foot{margin:28px 0 0;color:var(--mute);font-size:.8rem}
+.d{display:none}
+@media (max-width:420px){
+  .up{grid-template-columns:minmax(0,1fr) 22px;grid-template-areas:"tag ext" "body body";row-gap:8px}
+  .up .tag{grid-area:tag}.up>div{grid-area:body}.up .ext{grid-area:ext;justify-self:end}
+  .hero svg.books{width:52%}
+}
+@media (max-width:340px){
+  .tiles{grid-template-columns:minmax(0,1fr)}
+  .tile .ch{top:30px}
+}
+@media (min-width:600px) and (max-width:899px){
+  .main{max-width:720px;margin:0 auto;width:100%}
+  .tiles{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .tile p{font-size:.82rem}
+}
+@media (min-width:900px){
+  body{padding-bottom:0;display:grid;grid-template-columns:260px 1fr;min-height:100vh}
+  .tabs,.m{display:none}
+  .d{display:block}
+  .side{display:flex;flex-direction:column;background:var(--panel);border-right:1px solid var(--line);padding:30px 18px;position:sticky;top:0;height:100vh}
+  .side .logo{padding:0 12px;margin-bottom:26px;font-size:2rem}
+  .side nav{display:grid;gap:4px}
+  .side nav a{display:flex;align-items:center;gap:14px;padding:12px;border-radius:10px;color:var(--ink)}
+  .side nav a[aria-current]{background:var(--soft)}
+  .later{margin-left:auto;font-size:.75rem;background:var(--ibg3);color:var(--t3);padding:3px 10px;border-radius:999px}
+  .side .meta{margin-top:auto;border-top:1px solid var(--line);padding:14px 12px 0;color:var(--mute);font-size:.85rem}
+  .wrapper{display:grid;grid-template-columns:1fr 330px;grid-template-rows:auto 1fr;min-width:0}
+  .topbar{grid-column:1/-1;display:flex;gap:20px;align-items:center;padding:18px 30px;border-bottom:1px solid var(--line);background:var(--panel)}
+  .topbar .search{flex:1;max-width:590px;margin:0}
+  .topbar .av{margin-left:auto}
+  .main{padding:34px 30px}
+  .main h1{font-size:2.7rem;margin:0 0 6px}
+  .main .subt{color:var(--mute);margin:0 0 28px;font-size:1.05rem}
+  .tiles{grid-template-columns:repeat(4,1fr);margin-bottom:34px}
+  .tile .ch{top:26px}
+  .up{grid-template-columns:110px 1fr auto;padding:18px 20px}
+  .list{background:var(--panel);border:1px solid var(--line);border-radius:12px}
+  .up .ext{display:none}
+  .up .src{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:8px;padding:8px 14px;color:var(--acc);font-size:.85rem;background:var(--panel)}
+  .up .src svg{width:16px;height:16px}
+  .rail{display:grid;gap:16px;align-content:start;padding:30px 30px 30px 0}
+  .rail .hero{margin:0;min-height:250px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
+  .card h3{margin:0 0 6px;font-size:1.1rem;font-weight:600}
+  .ql{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+  .ql:last-child{border-bottom:0}
+  .ql .ic{width:42px;height:42px;border-radius:50%;background:var(--soft);display:grid;place-items:center}
+  .ql b{display:block;font-weight:500;font-size:.9rem}
+  .ql small{color:var(--mute);font-size:.8rem}
+  .ql .go{margin-left:auto;color:var(--acc);width:16px;height:16px}
+  .quote{color:var(--mute);font-family:"Source Serif 4",Georgia,serif;font-size:1.1rem}
+  .m-hero,.m-head,.m-search{display:none}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="home" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z"/></symbol>
+  <symbol id="doc" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M9 11h7M9 15h7M9 7h3"/></symbol>
+  <symbol id="book" viewBox="0 0 24 24"><path d="M3 5c3-1 6-1 9 1 3-2 6-2 9-1v14c-3-1-6-1-9 1-3-2-6-2-9-1z"/><path d="M12 6v14"/></symbol>
+  <symbol id="layers" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5M3 17l9 5 9-5"/></symbol>
+  <symbol id="edit" viewBox="0 0 24 24"><path d="M6 3h8l4 4v6M6 3v18h7"/><path d="M13 20l1-3 7-7 2 2-7 7z"/></symbol>
+  <symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+  <symbol id="srch" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></symbol>
+  <symbol id="globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></symbol>
+  <symbol id="cal" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16"/></symbol>
+</svg>
+
+<aside class="side d">
+  <div class="logo">Graphpaper</div>
+  <nav aria-label="Main">
+    <a href="index.html" aria-current="page"><svg class="i"><use href="#home"/></svg>Home</a>
+    <a href="updates.html"><svg class="i"><use href="#doc"/></svg>Updates</a>
+    <a href="#"><svg class="i"><use href="#book"/></svg>Syllabus</a>
+    <a href="#"><svg class="i"><use href="#layers"/></svg>NCERT Books</a>
+    <a href="#"><svg class="i"><use href="#edit"/></svg>Notes &amp; Extras<span class="later">Later</span></a>
+  </nav>
+  <div class="meta">CBSE &bull; Class 11 and 12</div>
+</aside>
+
+<div class="wrapper">
+  <div class="topbar d">
+    <label class="search"><svg class="i"><use href="#srch"/></svg><input type="search" placeholder="Search updates, subjects, or topics..." aria-label="Search"></label>
+    <div class="av">AS</div>
+  </div>
+
+  <main class="main">
+    <div class="head m-head m"><span class="logo">Graphpaper</span><div class="av">AS</div></div>
+    <label class="search m"><svg class="i"><use href="#srch"/></svg><input type="search" placeholder="Search updates, subjects, or topics..." aria-label="Search"></label>
+
+    <h1 class="d">Your CBSE Companion</h1>
+    <p class="subt d">Latest updates, syllabus, NCERT books and more, all in one place.</p>
+
+    <div class="hero m">
+      <p class="big">Study smarter with the right resources.</p><hr>
+      <p class="sm">CBSE updates, syllabus, NCERT books and more, all in one place.</p>
+      <svg class="books" viewBox="0 0 200 160" aria-hidden="true"><rect x="30" y="20" width="170" height="34" rx="4" fill="#a8845a"/><rect x="30" y="26" width="170" height="4" fill="#d8c19a"/><rect x="10" y="58" width="190" height="38" rx="4" fill="#1c2a38"/><rect x="10" y="64" width="190" height="4" fill="#3a4c60"/><rect x="40" y="100" width="170" height="40" rx="4" fill="#8c6a43"/><rect x="40" y="106" width="170" height="4" fill="#cdb287"/></svg>
+    </div>
+
+    <div class="tiles">
+      <a class="tile" href="updates.html"><div class="ic" style="background:var(--ibg)"><svg class="i"><use href="#doc"/></svg></div><svg class="i ch"><use href="#chev"/></svg><h3>Updates</h3><p>CBSE circulars, date sheets, syllabus changes and results.</p></a>
+      <a class="tile" href="#"><div class="ic" style="background:var(--ibg3)"><svg class="i"><use href="#book"/></svg></div><svg class="i ch"><use href="#chev"/></svg><h3>Syllabus</h3><p>Current-year syllabus per subject and what changed this year.</p></a>
+      <a class="tile" href="#"><div class="ic" style="background:var(--ibg2)"><svg class="i"><use href="#layers"/></svg></div><svg class="i ch"><use href="#chev"/></svg><h3>NCERT Books</h3><p>Chapter-wise PDFs, linked from the official NCERT site.</p></a>
+      <a class="tile" href="#"><div class="ic" style="background:var(--ibg3)"><svg class="i"><use href="#edit"/></svg></div><svg class="i ch"><use href="#chev"/></svg><h3>Notes &amp; Extras</h3><p>Added later, chapter by chapter.</p></a>
+    </div>
+
+    <div class="sec"><h2>Latest Updates</h2><a href="updates.html">View all</a></div>
+    <div class="list">
+      <article class="up"><span class="tag" style="--bg-t:var(--c1);--fg-t:var(--t1)">Circular</span><div><h3>CBSE releases guidelines for practical exams 2025</h3><time>Apr 12, 2025</time><p>New instructions for conducting practical exams, including assessment format and key dates.</p></div><a class="src" href="#">View official source <svg class="i"><use href="#ext"/></svg></a><svg class="i ext"><use href="#ext"/></svg></article>
+      <article class="up"><span class="tag" style="--bg-t:var(--c2);--fg-t:var(--t2)">Date Sheet</span><div><h3>CBSE Class 10, 12 date sheet 2025 released</h3><time>Mar 28, 2025</time><p>Exam schedule for Class 10 and 12 is now available on the CBSE website.</p></div><a class="src" href="#">View official source <svg class="i"><use href="#ext"/></svg></a><svg class="i ext"><use href="#ext"/></svg></article>
+      <article class="up"><span class="tag" style="--bg-t:var(--c3);--fg-t:var(--t3)">Syllabus Change</span><div><h3>Minor changes in Class 10 Science syllabus</h3><time>Mar 15, 2025</time><p>Removed one chapter and updated a few learning objectives for better alignment with real-world applications.</p></div><a class="src" href="#">View official source <svg class="i"><use href="#ext"/></svg></a><svg class="i ext"><use href="#ext"/></svg></article>
+      <article class="up"><span class="tag" style="--bg-t:var(--c4);--fg-t:var(--t4)">Result</span><div><h3>CBSE Class 12 results declared</h3><time>May 13, 2025</time><p>Results for Class 12 are now available on the official CBSE portal.</p></div><a class="src" href="#">View official source <svg class="i"><use href="#ext"/></svg></a><svg class="i ext"><use href="#ext"/></svg></article>
+    </div>
+    <p class="foot">Sample content for the design. Real updates will come from official CBSE sources.</p>
+  </main>
+
+  <aside class="rail d">
+    <div class="hero">
+      <p class="big">Study smarter with the right resources.</p><hr>
+      <p class="sm">CBSE updates, syllabus, NCERT books and more, all in one place.</p>
+      <svg class="books" viewBox="0 0 200 160" aria-hidden="true"><rect x="30" y="20" width="170" height="34" rx="4" fill="#a8845a"/><rect x="30" y="26" width="170" height="4" fill="#d8c19a"/><rect x="10" y="58" width="190" height="38" rx="4" fill="#1c2a38"/><rect x="10" y="64" width="190" height="4" fill="#3a4c60"/><rect x="40" y="100" width="170" height="40" rx="4" fill="#8c6a43"/><rect x="40" y="106" width="170" height="4" fill="#cdb287"/></svg>
+    </div>
+    <div class="card">
+      <h3>Quick Links</h3>
+      <a class="ql" href="https://cbse.gov.in" target="_blank" rel="noopener"><span class="ic"><svg class="i"><use href="#globe"/></svg></span><span><b>CBSE Official Website</b><small>Latest circulars, results and more</small></span><svg class="i go"><use href="#ext"/></svg></a>
+      <a class="ql" href="https://ncert.nic.in" target="_blank" rel="noopener"><span class="ic"><svg class="i"><use href="#globe"/></svg></span><span><b>NCERT Official Website</b><small>Books and resources</small></span><svg class="i go"><use href="#ext"/></svg></a>
+      <a class="ql" href="#"><span class="ic"><svg class="i"><use href="#cal"/></svg></span><span><b>Academic Calendar</b><small>Key dates for the academic year</small></span><svg class="i go"><use href="#ext"/></svg></a>
+    </div>
+    <div class="card quote">Better preparation today, brighter tomorrow.</div>
+  </aside>
+</div>
+
+<nav class="tabs m" aria-label="Main">
+  <a href="index.html" aria-current="page"><svg class="i"><use href="#home"/></svg>Home</a>
+  <a href="#"><svg class="i"><use href="#book"/></svg>Syllabus</a>
+  <a href="#"><svg class="i"><use href="#doc"/></svg>NCERT Books</a>
+  <a href="#"><svg class="i"><use href="#menu"/></svg>More</a>
+</nav>
+</body>
+</html>
