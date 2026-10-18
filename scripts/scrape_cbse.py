@@ -73,7 +73,7 @@ def parse_date(text):
     return None
 
 
-EXCLUDE_WORDS = ["recruitment", "vacancy", "tier-i", "tier-ii", "tender", "empanelment"]
+EXCLUDE_WORDS = ["recruitment", "vacancy", "tier-i", "tier-ii", "tender", "empanelment", "deputation", "walk-in", "walk in", "engagement of", "advertisement"]
 
 
 def clean_title(title):
@@ -92,12 +92,9 @@ def classify(title):
 
 
 def is_relevant(title):
-    if not RELEVANT_WORDS:
-        return True
+    """Keep everything except notices that are clearly not for students (jobs, tenders)."""
     low = title.lower()
-    if any(w in low for w in EXCLUDE_WORDS):
-        return False
-    return any(w in low for w in RELEVANT_WORDS)
+    return not any(w in low for w in EXCLUDE_WORDS)
 
 
 def extract_items(html, base_url):
