@@ -77,6 +77,10 @@ h3{font-weight:500;margin:0}
 .hr{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:48px;align-items:center;padding-top:40px;padding-bottom:56px}
 a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
 #view:focus{outline:none}
+.menu{left:0}
+@media (min-width:760px){.menu{left:auto;right:0}}
+.ic,.bi{display:flex;align-items:center;justify-content:center;color:var(--ink)}
+.sq{display:flex;align-items:center;justify-content:center;color:var(--ink);border:2px solid var(--ink)}
 @media (max-width:600px){.wrap{padding:0 18px}.tile{width:84px;height:84px;font-size:44px;border-radius:24px}h2{font-size:26px}.hr{gap:32px}}
 @media (prefers-reduced-motion:reduce){.r *{transition:none}.bq:hover{transform:none}}
 </style>
@@ -92,7 +96,7 @@ GraphPaper</a>
 <a href="#/updates">Updates</a><a href="#/home?s=boards">Boards</a><a href="#/class">Study shelf</a>
 <details id="clsmenu" style="position:relative">
 <summary style="cursor:pointer;display:flex;align-items:center;gap:8px;background:var(--a1);border:2px solid var(--ink);border-radius:999px;padding:10px 18px;min-height:44px;box-sizing:border-box;font-weight:700;box-shadow:0 4px 0 var(--ink)"><span>Class</span><span id="clsnum"></span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
-<div style="position:absolute;right:0;top:calc(100% + 10px);z-index:5;width:248px;background:var(--card);border:2px solid var(--ink);border-radius:24px;padding:18px;box-shadow:0 6px 0 var(--a1)">
+<div class="menu" style="position:absolute;top:calc(100% + 10px);z-index:5;width:248px;max-width:calc(100vw - 36px);background:var(--card);border:2px solid var(--ink);border-radius:24px;padding:18px;box-shadow:0 6px 0 var(--a1)">
 <div class="fr" style="font-weight:600;font-size:20px;margin-bottom:12px">Pick your class</div>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
 <button class="f fr" data-act="setcls" data-v="11" style="font-size:20px;min-height:48px">11</button>
@@ -145,6 +149,17 @@ var BBASE = "https://ncert.nic.in/textbook/pdf/";
 var BPORTAL = "https://ncert.nic.in/textbook.php";
 var SBASE = "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/";
 var SYLLABUS = [{name:"Physics",code:"042",file:"Physics_SecP2_2026-27.pdf"},{name:"Chemistry",code:"043",file:"Chemistry_SecP2_2026-27.pdf"},{name:"Mathematics",code:"041",file:"Maths_SecP2_2026-27.pdf"},{name:"Biology",code:"044",file:"Biology_SecP2_2026-27.pdf"}];
+var P = {
+ book:'<path d="M5 4h10a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3V4z"/><path d="M5 17a3 3 0 0 1 3-3h10"/>',
+ doc:'<path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/>',
+ notes:'<path d="M4 20l1-4L16 5l3 3L8 19z"/><path d="M14 7l3 3"/>',
+ news:'<path d="M4 10v4h3l6 4V6L7 10z"/><path d="M16 9a4 4 0 0 1 0 6"/>',
+ Physics:'<circle cx="12" cy="12" r="2"/><ellipse cx="12" cy="12" rx="9" ry="4"/><ellipse cx="12" cy="12" rx="9" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="4" transform="rotate(120 12 12)"/>',
+ Chemistry:'<path d="M9 3h6M10 3v6l-5 10a1 1 0 0 0 1 2h12a1 1 0 0 0 1-2l-5-10V3"/><path d="M8 15h8"/>',
+ Maths:'<path d="M17 5H7l6 7-6 7h10"/>',
+ Biology:'<path d="M5 19C5 10 10 5 19 5c0 9-5 14-14 14z"/><path d="M5 19l8-8"/>'
+};
+function ico(n, sz){ return '<svg width="' + (sz || 26) + '" height="' + (sz || 26) + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + P[n] + '</svg>'; }
 var D = document;
 function $(s, r){ return (r || D).querySelector(s); }
 function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
@@ -216,9 +231,9 @@ VIEWS.home = function(){
     return '<button class="f" data-act="hf" data-v="' + esc(p[0]) + '" aria-pressed="' + (ST.hf === p[0] ? "true" : "false") + '">' + esc(p[1]) + '</button>';
   }).join("");
   var made = ST.cls ? '<div class="wrap sec" id="foryou"><h2>Made for Class ' + ST.cls + ' · CBSE Science</h2><div class="grid g4">' +
-    '<a class="bq" href="#/updates" style="--sh:var(--a1)"><span class="ic" style="background:var(--a1)"></span><b>Latest notices</b><span style="color:var(--mut);font-size:15px">Everything new from CBSE</span><span style="font-weight:700">Open →</span></a>' +
-    '<a class="bq" href="#/books" style="--sh:var(--a3)"><span class="ic" style="background:var(--a3)"></span><b>NCERT books</b><span style="color:var(--mut);font-size:15px">Chapter PDFs for Class ' + ST.cls + '</span><span style="font-weight:700">Open →</span></a>' +
-    '<a class="bq" href="#/syllabus" style="--sh:var(--a2)"><span class="ic" style="background:var(--a2)"></span><b>Syllabus</b><span style="color:var(--mut);font-size:15px">Official 2026-27 PDFs</span><span style="font-weight:700">Open →</span></a></div></div>' : "";
+    '<a class="bq" href="#/updates" style="--sh:var(--a1)"><span class="ic" style="background:var(--a1)">'+ico("news")+'</span><b>Latest notices</b><span style="color:var(--mut);font-size:15px">Everything new from CBSE</span><span style="font-weight:700">Open →</span></a>' +
+    '<a class="bq" href="#/books" style="--sh:var(--a3)"><span class="ic" style="background:var(--a3)">'+ico("book")+'</span><b>NCERT books</b><span style="color:var(--mut);font-size:15px">Chapter PDFs for Class ' + ST.cls + '</span><span style="font-weight:700">Open →</span></a>' +
+    '<a class="bq" href="#/syllabus" style="--sh:var(--a2)"><span class="ic" style="background:var(--a2)">'+ico("doc")+'</span><b>Syllabus</b><span style="color:var(--mut);font-size:15px">Official 2026-27 PDFs</span><span style="font-weight:700">Open →</span></a></div></div>' : "";
   return '<div class="wrap hr"><div>' +
     '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">' + (ST.cls ? 'Class ' + ST.cls + ' · CBSE Science · Change' : 'For Class 11 and 12 Science') + '</a>' +
     '<h1 style="font-size:clamp(38px,6vw,66px);line-height:1.08;margin:20px 0 16px">Every CBSE circular, date sheet and result. One cozy place.</h1>' +
@@ -236,9 +251,9 @@ VIEWS.home = function(){
     '<div style="text-align:center;margin-top:32px"><a class="btn dark" href="#/updates" style="display:inline-flex;padding:14px 32px">See all updates</a></div></div>' +
     '<div id="shelf" style="background:var(--shelf);padding:64px 0"><div class="wrap"><h2 style="font-size:34px;margin:0 0 8px">Your study shelf</h2><p style="margin:0 0 28px;color:var(--mut);max-width:560px">Books, syllabus and notes for Class 11 and 12 Science, right next to the notices.</p>' +
     '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr))">' +
-    '<a href="#/books" style="background:var(--card);border-radius:28px;padding:28px;display:block"><div style="width:56px;height:56px;border-radius:18px;background:var(--a3);margin-bottom:16px"></div><h3 style="font-size:22px;margin:0 0 6px">NCERT books</h3><div style="color:var(--mut)">Class 11 and 12, subject by subject</div></a>' +
-    '<a href="#/syllabus" style="background:var(--card);border-radius:28px;padding:28px;display:block"><div style="width:56px;height:56px;border-radius:18px;background:var(--a2);margin-bottom:16px"></div><h3 style="font-size:22px;margin:0 0 6px">Syllabus</h3><div style="color:var(--mut)">Official 2026-27 syllabus per subject</div></a>' +
-    '<div style="background:var(--card);border-radius:28px;padding:28px"><div style="width:56px;height:56px;border-radius:18px;background:var(--a5);margin-bottom:16px"></div><h3 style="font-size:22px;margin:0 0 6px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div style="color:var(--mut)">Chapter notes and quick revision sheets</div></div></div></div></div>';
+    '<a href="#/books" style="background:var(--card);border-radius:28px;padding:28px;display:block"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a3);margin-bottom:16px">'+ico("book",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">NCERT books</h3><div style="color:var(--mut)">Class 11 and 12, subject by subject</div></a>' +
+    '<a href="#/syllabus" style="background:var(--card);border-radius:28px;padding:28px;display:block"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a2);margin-bottom:16px">'+ico("doc",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">Syllabus</h3><div style="color:var(--mut)">Official 2026-27 syllabus per subject</div></a>' +
+    '<div style="background:var(--card);border-radius:28px;padding:28px"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a5);margin-bottom:16px">'+ico("notes",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div style="color:var(--mut)">Chapter notes and quick revision sheets</div></div></div></div></div>';
 };
 
 function listHtml(){
@@ -287,7 +302,7 @@ VIEWS.notice = function(r){
 VIEWS["class"] = function(){
   var c = ST.cls || "12";
   var subs = [["Physics","--a1"],["Chemistry","--a3"],["Maths","--a4"],["Biology","--a2"]].map(function(s){
-    return '<a class="bq" href="#/books?sub=' + s[0] + '" style="--sh:var(' + s[1] + ')"><span class="ic" style="background:var(' + s[1] + ')"></span><b>' + s[0] + '</b><span style="color:var(--mut);font-size:15px">Class ' + c + ' NCERT</span><span style="font-weight:700">Open →</span></a>';
+    return '<a class="bq" href="#/books?sub=' + s[0] + '" style="--sh:var(' + s[1] + ')"><span class="ic" style="background:var(' + s[1] + ')">' + ico(s[0]) + '</span><b>' + s[0] + '</b><span style="color:var(--mut);font-size:15px">Class ' + c + ' NCERT</span><span style="font-weight:700">Open →</span></a>';
   }).join("");
   var mine = ST.items.filter(classOf).slice(0, 3);
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Study shelf</b></div>' +
@@ -313,7 +328,7 @@ function booksHtml(){
       if (file) return '<div class="chr"><span class="no">' + b.label + ' ' + h[0] + '</span><a class="tt" style="font-weight:700" href="' + BBASE + b.code + (file < 10 ? "0" : "") + file + '.pdf" target="_blank" rel="noopener">' + esc(h[1]) + '</a><span aria-hidden="true">↗</span></div>';
       return '<div class="chr na"><span class="no">' + b.label + ' ' + h[0] + '</span><span class="tt">' + esc(h[1]) + '</span><span></span><small>PDF not found. Open the book on the NCERT site.</small></div>';
     }).join("");
-    out += '<details class="book" style="--sh:var(' + cols[b.sub] + ')"' + (q || ST.bopen[b.code] ? ' open' : '') + ' data-code="' + b.code + '"><summary><span class="bi" style="background:var(' + cols[b.sub] + ')"></span><span class="bt"><b>Class ' + b.cls + ' ' + esc(b.title) + '</b><span>' + chs.length + ' chapter' + (chs.length === 1 ? '' : 's') + (q ? ' match' : '') + '</span></span><svg class="car" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3l5 5-5 5" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><div class="chs">' + rows +
+    out += '<details class="book" style="--sh:var(' + cols[b.sub] + ')"' + (q || ST.bopen[b.code] ? ' open' : '') + ' data-code="' + b.code + '"><summary><span class="bi" style="background:var(' + cols[b.sub] + ')">' + ico(b.sub, 24) + '</span><span class="bt"><b>Class ' + b.cls + ' ' + esc(b.title) + '</b><span>' + chs.length + ' chapter' + (chs.length === 1 ? '' : 's') + (q ? ' match' : '') + '</span></span><svg class="car" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3l5 5-5 5" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><div class="chs">' + rows +
       '<a class="btn" href="' + BPORTAL + '" target="_blank" rel="noopener" style="margin-top:12px">Open NCERT textbook page ↗</a></div></details>';
   });
   return {n:n, html: out || '<div class="card" style="box-shadow:0 6px 0 var(--a1)">No chapters found.</div>'};
@@ -336,7 +351,7 @@ VIEWS.books = function(r){
 VIEWS.syllabus = function(){
   var cols = {Physics:"--a1", Chemistry:"--a3", Mathematics:"--a4", Biology:"--a2"};
   var cards = SYLLABUS.map(function(s){
-    return '<article class="card" style="--sh:var(' + cols[s.name] + ')"><div style="display:flex;align-items:center;gap:14px"><span style="flex:none;width:48px;height:48px;border-radius:14px;border:2px solid var(--ink);background:var(' + cols[s.name] + ')"></span><div><h3 style="font-size:24px">' + s.name + '</h3><div class="meta">Code ' + s.code + ' · Classes XI–XII · 2026-27</div></div></div>' +
+    return '<article class="card" style="--sh:var(' + cols[s.name] + ')"><div style="display:flex;align-items:center;gap:14px"><span class="sq" style="flex:none;width:48px;height:48px;border-radius:14px;background:var(' + cols[s.name] + ')">' + ico(s.name === "Mathematics" ? "Maths" : s.name, 24) + '</span><div><h3 style="font-size:24px">' + s.name + '</h3><div class="meta">Code ' + s.code + ' · Classes XI–XII · 2026-27</div></div></div>' +
       '<a class="btn dark" href="' + SBASE + s.file + '" target="_blank" rel="noopener">Open syllabus PDF ↗</a><a class="btn" href="#/books?sub=' + (s.name === "Mathematics" ? "Maths" : s.name) + '">See NCERT chapters</a></article>';
   }).join("");
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>Syllabus</b></div>' +
