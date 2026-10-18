@@ -47,7 +47,7 @@ TAG_RULES = [
 DEFAULT_TAG = "Circular"
 
 # Only keep items that look relevant to Class 11/12. Set to [] to keep everything.
-RELEVANT_WORDS = ["xi", "xii", "11", "12", "senior secondary", "secondary", "board", "science", "practical", "exam"]
+RELEVANT_WORDS = ["loc", "candidates", "xi", "xii", "11", "12", "senior secondary", "secondary", "board", "science", "practical", "exam"]
 
 DATE_PATTERNS = [
     (r"\b(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})\b", "dmy"),
