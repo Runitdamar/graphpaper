@@ -77,7 +77,7 @@ h1{font-size:clamp(1.6rem,7vw,2.2rem);margin:4px 0 4px;line-height:1.15}
 .note{margin:14px 0 0;padding:10px 12px;border-radius:10px;background:var(--soft);color:var(--mute);font-size:.82rem}
 .foot{margin:22px 0 0;color:var(--mute);font-size:.8rem}
 .tabs{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:space-around;background:var(--panel);border-top:1px solid var(--line);padding:10px 8px calc(10px + env(safe-area-inset-bottom,0px))}
-.tabs a{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:.72rem;color:var(--mute)}
+.tabs a{flex:1;min-width:0;white-space:nowrap;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:.72rem;color:var(--mute)}
 .tabs a[aria-current]{color:var(--acc)}
 .d{display:none}
 @media (min-width:600px) and (max-width:899px){.main{max-width:720px;margin:0 auto;width:100%}}
@@ -125,7 +125,7 @@ h1{font-size:clamp(1.6rem,7vw,2.2rem);margin:4px 0 4px;line-height:1.15}
     <a href="index.html"><svg class="i"><use href="#home"/></svg>Home</a>
     <a href="updates.html" aria-current="page"><svg class="i"><use href="#doc"/></svg>Updates</a>
     <a href="#"><svg class="i"><use href="#book"/></svg>Syllabus</a>
-    <a href="#"><svg class="i"><use href="#layers"/></svg>NCERT Books</a>
+    <a href="books.html"><svg class="i"><use href="#layers"/></svg>NCERT Books</a>
     <a href="#"><svg class="i"><use href="#edit"/></svg>Notes &amp; Extras<span class="later">Later</span></a>
   </nav>
   <div class="meta">CBSE &bull; Class 11 and 12 &bull; Science</div>
@@ -160,6 +160,7 @@ h1{font-size:clamp(1.6rem,7vw,2.2rem);margin:4px 0 4px;line-height:1.15}
   <a href="index.html"><svg class="i"><use href="#home"/></svg>Home</a>
   <a href="updates.html" aria-current="page"><svg class="i"><use href="#doc"/></svg>Updates</a>
   <a href="#"><svg class="i"><use href="#book"/></svg>Syllabus</a>
+  <a href="books.html"><svg class="i"><use href="#layers"/></svg>Books</a>
   <a href="#"><svg class="i"><use href="#menu"/></svg>More</a>
 </nav>
 
