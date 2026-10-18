@@ -138,6 +138,14 @@ def main():
         items = extract_items(r.text, src)
         print(f"{src}: {len(items)} candidate links")
         status.append(f"OK {src} (HTTP {r.status_code}, {len(r.text)} bytes, {len(items)} candidate links)")
+        if not items:
+            # Diagnostic: show what the page contains so the parser can be fixed.
+            soup = BeautifulSoup(r.text, "html.parser")
+            status.append("  page title: " + (soup.title.get_text(strip=True)[:100] if soup.title else "none"))
+            anchors = soup.find_all("a", href=True)
+            status.append(f"  total links: {len(anchors)}, scripts: {len(soup.find_all('script'))}")
+            for a in anchors[:40]:
+                status.append("  - " + " ".join(a.get_text(" ", strip=True).split())[:60] + " -> " + a["href"][:110])
         for it in items:
             iid = item_id(it["url"])
             if iid in known_ids or it["url"] in known_urls or not is_relevant(it["title"]):
