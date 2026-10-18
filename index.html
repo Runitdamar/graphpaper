@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="CBSE circulars, date sheets and results for Class 11 and 12 Science, with NCERT books and the syllabus, in one place.">
 <title>GraphPaper</title>
+<link rel="alternate" type="application/atom+xml" href="feed.xml" title="GraphPaper notices">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
@@ -13,6 +14,16 @@ a{color:inherit;text-decoration:none}
 a:hover{text-decoration:underline}
 button,input,select{font-family:inherit}
 .r{--bg:#FFF8F0;--card:#fff;--ink:#2B2A4C;--mut:#4F4D70;--a1:#D9CCFF;--a2:#FFCDB5;--a3:#BDEBD3;--a4:#FFE7A0;--a5:#BFE3FF;--shelf:#EFE8FF;--gl:#E6E0F5;--gr:185,165,240}
+.r[data-c="1"]{--bg:#FFF0F6;--card:#fff;--ink:#4A2A52;--mut:#7A5A80;--a1:#FFC8E0;--a2:#FFD3A8;--a3:#B8F0D8;--a4:#FFF0A0;--a5:#B8E6FF;--shelf:#FFE0EE;--gl:#F8D9E8;--gr:255,150,200}
+.r[data-c="2"]{--bg:#FFF3EA;--card:#fff;--ink:#52301F;--mut:#80593F;--a1:#FFC4A8;--a2:#FFE0A3;--a3:#C5EBC3;--a4:#FFD6E0;--a5:#C2E3F7;--shelf:#FFE6D6;--gl:#F6DFD0;--gr:255,170,130}
+.r[data-c="3"]{--bg:#FFFBE8;--card:#fff;--ink:#4A3F1C;--mut:#75692F;--a1:#FFE58A;--a2:#FFD0A8;--a3:#CDEFA9;--a4:#F7C8E0;--a5:#BEE6F5;--shelf:#FFF3C4;--gl:#F2EBC8;--gr:230,200,80}
+.r[data-c="4"]{--bg:#FFF8F0;--card:#fff;--ink:#2B2A4C;--mut:#4F4D70;--a1:#D9CCFF;--a2:#FFCDB5;--a3:#BDEBD3;--a4:#FFE7A0;--a5:#BFE3FF;--shelf:#EFE8FF;--gl:#E6E0F5;--gr:185,165,240}
+.r[data-c="5"]{--bg:#F2F8FF;--card:#fff;--ink:#1F3A5F;--mut:#4A6485;--a1:#BFD9FF;--a2:#FFD3C2;--a3:#BDEBDD;--a4:#FFE6A8;--a5:#D3C8FF;--shelf:#E1EEFF;--gl:#D8E7F7;--gr:140,180,235}
+.r[data-c="6"]{--bg:#F1FAF4;--card:#fff;--ink:#1E4034;--mut:#44695A;--a1:#B5E8CC;--a2:#F9D3B5;--a3:#CFE3FF;--a4:#F3E6A0;--a5:#DCCCF5;--shelf:#DDF2E5;--gl:#D3EADB;--gr:130,200,160}
+.r[data-c="7"]{--bg:#F7E4E4;--card:#FFF7F6;--ink:#3E2C3A;--mut:#6A4F5C;--a1:#DDA5B5;--a2:#E6B58E;--a3:#A9CDAE;--a4:#E3C97E;--a5:#A3BCD9;--shelf:#EBC9CE;--gl:#E8CBCB;--gr:200,120,135}
+.r[data-c="8"]{--bg:#E3EBD5;--card:#F9FCF3;--ink:#2F3B2F;--mut:#4A5A45;--a1:#A7C79B;--a2:#E0B48F;--a3:#9FC2D1;--a4:#D8C477;--a5:#B9A9D3;--shelf:#CBDDB8;--gl:#CFDCBF;--gr:120,160,100}
+.r[data-c="9"]{--bg:#DCE5F5;--card:#F6F9FE;--ink:#1F2A4A;--mut:#44557A;--a1:#9DB4E0;--a2:#E0AE92;--a3:#92C4B5;--a4:#DCC678;--a5:#B5A5D6;--shelf:#C3D2EE;--gl:#C9D6EC;--gr:100,130,200}
+.r[data-c="10"]{--bg:#D3EAE8;--card:#F3FBFA;--ink:#12383C;--mut:#2F5A5E;--a1:#86C1BE;--a2:#E3AD8C;--a3:#A8CC9A;--a4:#DBC46F;--a5:#9DB4DC;--shelf:#B5DAD7;--gl:#BFDDDA;--gr:70,155,150}
 .r[data-c="11"]{--bg:#E8D9EE;--card:#FBF5FD;--ink:#2E1C38;--mut:#5A4366;--a1:#C79FD6;--a2:#E3A98C;--a3:#9FCBB0;--a4:#DEC274;--a5:#9EAEDB;--shelf:#D6BEDF;--gl:#DCC8E3;--gr:150,100,170}
 .r[data-c="12"]{--bg:#F0DCCB;--card:#FFF8F2;--ink:#2E1A14;--mut:#5E3F33;--a1:#D99A7A;--a2:#C9A15B;--a3:#8DB5A0;--a4:#E0B94F;--a5:#9AA9CB;--shelf:#E3C3A8;--gl:#E6CDB8;--gr:190,130,90}
 .r{background-color:var(--bg);background-image:linear-gradient(rgba(var(--gr),.38) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--gr),.38) 1px,transparent 1px),linear-gradient(rgba(var(--gr),.16) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--gr),.16) 1px,transparent 1px);background-size:128px 128px,128px 128px,32px 32px,32px 32px;background-position:-1px -1px;color:var(--ink);font-family:'Nunito',sans-serif;font-size:17px;line-height:1.5;min-height:100vh;display:flex;flex-direction:column}
@@ -78,10 +89,13 @@ h3{font-weight:500;margin:0}
 a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
 #view:focus{outline:none}
 .menu{left:0}
+.cgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.f[disabled]{opacity:.55;cursor:default}
+.bcard{display:block;border-radius:24px;padding:28px 12px;text-align:center;font-family:Fredoka,sans-serif;font-weight:500;font-size:22px}
 @media (min-width:760px){.menu{left:auto;right:0}}
 .ic,.bi{display:flex;align-items:center;justify-content:center;color:var(--ink)}
 .sq{display:flex;align-items:center;justify-content:center;color:var(--ink);border:2px solid var(--ink)}
-@media (max-width:600px){.wrap{padding:0 18px}.tile{width:84px;height:84px;font-size:44px;border-radius:24px}h2{font-size:26px}.hr{gap:32px}}
+@media (max-width:600px){.tile{width:84px;height:84px;font-size:44px;border-radius:24px}h2{font-size:26px}.hr{gap:32px}}
 @media (prefers-reduced-motion:reduce){.r *{transition:none}.bq:hover{transform:none}}
 </style>
 </head>
@@ -92,17 +106,16 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 <a href="#/home" class="fr" style="display:flex;align-items:center;gap:10px;font-weight:600;font-size:26px">
 <svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="10" style="fill:var(--a1);stroke:var(--ink)" stroke-width="2"/><path d="M13 3v30M23 3v30M3 13h30M3 23h30" style="stroke:var(--ink)" stroke-width="1.5" opacity=".35"/><circle cx="18" cy="18" r="4" style="fill:var(--a2);stroke:var(--ink)" stroke-width="2"/></svg>
 GraphPaper</a>
-<nav aria-label="Main" style="display:flex;flex-wrap:wrap;align-items:center;gap:22px;font-weight:700">
+<nav aria-label="Main" style="position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:22px;font-weight:700">
 <a href="#/updates">Updates</a><a href="#/home?s=boards">Boards</a><a href="#/class">Study shelf</a>
-<details id="clsmenu" style="position:relative">
+<a href="#/alerts" class="btn dark" style="height:48px;min-height:0;padding:0 22px;box-sizing:border-box;align-self:center">Get alerts</a>
+<details id="clsmenu">
 <summary style="cursor:pointer;display:flex;align-items:center;gap:8px;background:var(--a1);border:2px solid var(--ink);border-radius:999px;padding:10px 18px;min-height:44px;box-sizing:border-box;font-weight:700;box-shadow:0 4px 0 var(--ink)"><span>Class</span><span id="clsnum"></span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
-<div class="menu" style="position:absolute;top:calc(100% + 10px);z-index:5;width:248px;max-width:calc(100vw - 36px);background:var(--card);border:2px solid var(--ink);border-radius:24px;padding:18px;box-shadow:0 6px 0 var(--a1)">
+<div class="menu" style="position:absolute;top:calc(100% + 10px);z-index:5;width:248px;max-width:calc(100vw - 64px);background:var(--card);border:2px solid var(--ink);border-radius:24px;padding:18px;box-shadow:0 6px 0 var(--a1)">
 <div class="fr" style="font-weight:600;font-size:20px;margin-bottom:12px">Pick your class</div>
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
-<button class="f fr" data-act="setcls" data-v="11" style="font-size:20px;min-height:48px">11</button>
-<button class="f fr" data-act="setcls" data-v="12" style="font-size:20px;min-height:48px">12</button></div>
+<div class="cgrid" id="cgrid"><button class="f fr" data-act="setcls" data-v="1" style="font-size:18px;min-height:44px;padding:6px">1</button><button class="f fr" data-act="setcls" data-v="2" style="font-size:18px;min-height:44px;padding:6px">2</button><button class="f fr" data-act="setcls" data-v="3" style="font-size:18px;min-height:44px;padding:6px">3</button><button class="f fr" data-act="setcls" data-v="4" style="font-size:18px;min-height:44px;padding:6px">4</button><button class="f fr" data-act="setcls" data-v="5" style="font-size:18px;min-height:44px;padding:6px">5</button><button class="f fr" data-act="setcls" data-v="6" style="font-size:18px;min-height:44px;padding:6px">6</button><button class="f fr" data-act="setcls" data-v="7" style="font-size:18px;min-height:44px;padding:6px">7</button><button class="f fr" data-act="setcls" data-v="8" style="font-size:18px;min-height:44px;padding:6px">8</button><button class="f fr" data-act="setcls" data-v="9" style="font-size:18px;min-height:44px;padding:6px">9</button><button class="f fr" data-act="setcls" data-v="10" style="font-size:18px;min-height:44px;padding:6px">10</button><button class="f fr" data-act="setcls" data-v="11" style="font-size:18px;min-height:44px;padding:6px">11</button><button class="f fr" data-act="setcls" data-v="12" style="font-size:18px;min-height:44px;padding:6px">12</button></div>
 <a href="#/class" class="btn dark" style="margin-top:14px;min-height:44px">Open my class page</a>
-<div style="margin-top:14px;font-size:14px;color:var(--mut)">Science stream, CBSE. Colors change with your class.</div></div></details>
+<div style="margin-top:14px;font-size:14px;color:var(--mut)">Colors grow up with you, from candy pastels to calm, deep tones.</div></div></details>
 </nav>
 </div>
 
@@ -111,7 +124,7 @@ GraphPaper</a>
 <div id="foot" style="background:var(--ink);color:var(--bg);padding:48px 0;margin-top:24px">
 <div class="wrap" style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:32px">
 <div style="max-width:380px"><div class="fr" style="font-weight:600;font-size:26px;margin-bottom:8px">GraphPaper</div><div style="color:var(--a1);font-size:15px">GraphPaper is not an official board website. Always verify notices at the source.</div></div>
-<div style="display:flex;flex-wrap:wrap;gap:24px;font-weight:700;align-items:flex-start"><a href="#/about">About</a><a href="#/privacy">Privacy</a></div>
+<div style="display:flex;flex-wrap:wrap;gap:24px;font-weight:700;align-items:flex-start"><a href="#/about">About</a><a href="#/contact">Contact</a><a href="#/privacy">Privacy</a><a href="#/terms">Terms</a></div>
 </div>
 </div>
 
@@ -175,8 +188,8 @@ var TYPES = {
   "Result":{label:"Result", plural:"Results", c:"--a2"}
 };
 var TYPE_KEYS = ["Circular", "Date Sheet", "Syllabus Change", "Result"];
-var ST = {cls:"", wc:"", items:[], loaded:false, q:"", type:"all", hf:"all", bsub:"All", bq:""};
-try { var sv = localStorage.getItem("gp-class"); if (sv === "11" || sv === "12") ST.cls = sv; } catch(e){}
+var ST = {ub:"all", stream:"Science", cls:"", wc:"", items:[], loaded:false, q:"", type:"all", hf:"all", bsub:"All", bq:""};
+try { var sv = localStorage.getItem("gp-class"); if (/^(1[0-2]|[1-9])$/.test(sv || "")) ST.cls = sv; } catch(e){}
 
 function typeOf(x){ return TYPES[x.tag] || TYPES.Circular; }
 function pill(x, extra){ var t = typeOf(x); return '<span class="pill" style="background:var(' + t.c + ')">' + esc(t.label) + '</span>' + (extra || ""); }
@@ -186,7 +199,7 @@ function noticeCard(x, small){
     '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;font-weight:700;font-size:14px">' + pill(x) +
     (isNew(x.date) ? '<span class="pill" style="background:var(--a3)">New</span>' : '<span>CBSE</span>') + '</div>' +
     '<h3><a href="#/notice/' + encodeURIComponent(x.id) + '">' + esc(x.title) + '</a></h3>' +
-    '<div class="meta">' + esc(fmt(x.date)) + ' · CBSE</div>' +
+    '<div class="meta">' + esc(fmt(x.date)) + ' \u00b7 ' + esc(noticeClass(x)) + '</div>' +
     '<a class="more" href="#/notice/' + encodeURIComponent(x.id) + '">Read notice →</a></article>';
 }
 function loadingOrEmpty(msg){ return '<div class="card" style="grid-column:1/-1;text-align:center;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? esc(msg) : 'Loading notices...') + '</div>'; }
@@ -196,26 +209,35 @@ function classOf(x){
   if (ST.cls === "11") return /\bXI\b|\bclass[- ]?11\b/i.test(t);
   return true;
 }
+function noticeClass(x){
+  var a = /\bXI\b|\bclass[- ]?11\b/i.test(x.title), b = /\bXII\b|\bclass[- ]?12\b/i.test(x.title);
+  return a && b ? "Class 11 and 12" : b ? "Class 12" : a ? "Class 11" : "All classes";
+}
 function clsLabel(){ return ST.cls ? "Class " + ST.cls : "Class 11 and 12"; }
 
 /* ---------- views ---------- */
 var VIEWS = {};
-var TITLES = {home:"GraphPaper", welcome:"Welcome | GraphPaper", updates:"All updates | GraphPaper", notice:"Notice | GraphPaper", "class":"Study shelf | GraphPaper", books:"NCERT books | GraphPaper", syllabus:"Syllabus | GraphPaper", board:"Boards | GraphPaper", about:"About | GraphPaper", privacy:"Privacy | GraphPaper"};
+var TITLES = {home:"GraphPaper", welcome:"Welcome | GraphPaper", updates:"All updates | GraphPaper", notice:"Notice | GraphPaper", "class":"Study shelf | GraphPaper", books:"NCERT books | GraphPaper", syllabus:"Syllabus | GraphPaper", board:"Boards | GraphPaper", about:"About | GraphPaper", alerts:"Get alerts | GraphPaper", contact:"Contact | GraphPaper", terms:"Terms | GraphPaper", privacy:"Privacy | GraphPaper"};
 
 VIEWS.welcome = function(){
-  var sel = ST.wc;
-  function b(v){ return '<button class="f fr" data-act="wc" data-v="' + v + '" aria-pressed="' + (sel === v ? "true" : "false") + '" style="font-weight:600;font-size:28px;min-height:72px;padding:8px">' + v + '</button>'; }
+  var sel = ST.wc, cb = "";
+  for (var i = 1; i <= 12; i++) cb += '<button class="f fr" data-act="wc" data-v="' + i + '" aria-pressed="' + (sel === String(i) ? "true" : "false") + '" style="font-weight:600;font-size:22px;min-height:56px;padding:6px">' + i + '</button>';
+  function bd(n, c, state, note){
+    return '<button class="f fr" ' + (state === "on" ? 'aria-pressed="true"' : 'disabled aria-disabled="true"') + ' style="background:var(' + c + ');color:var(--ink);font-weight:500;font-size:20px;min-height:72px;border-radius:24px;padding:8px">' + n + (note ? '<span style="display:block;font-family:Nunito,sans-serif;font-weight:700;font-size:12px">' + note + '</span>' : '') + '</button>';
+  }
+  function step(n, id, t){ return '<div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><span class="fr" style="flex:none;width:34px;height:34px;border-radius:50%;background:var(--a1);border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-weight:600;font-size:17px">' + n + '</span><div id="' + id + '" class="fr" style="font-weight:600;font-size:22px">' + t + '</div></div>'; }
   return '<div style="position:relative;max-width:720px;margin:0 auto;padding:40px 24px 64px;text-align:center">' +
    '<div style="position:absolute;top:24px;right:12px;width:90px;height:90px;border-radius:50%;background:var(--a4);pointer-events:none"></div>' +
    '<div style="position:absolute;top:150px;left:8px;width:64px;height:64px;border-radius:22px;background:var(--a3);transform:rotate(14deg);pointer-events:none"></div>' +
    '<div style="position:relative"><svg width="64" height="64" viewBox="0 0 36 36" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="10" style="fill:var(--a1);stroke:var(--ink)" stroke-width="2"/><path d="M13 3v30M23 3v30M3 13h30M3 23h30" style="stroke:var(--ink)" stroke-width="1.5" opacity=".35"/><circle cx="18" cy="18" r="4" style="fill:var(--a2);stroke:var(--ink)" stroke-width="2"/></svg>' +
    '<div class="fr" style="font-weight:600;font-size:28px;margin:8px 0 28px">GraphPaper</div>' +
    '<h1 style="font-size:clamp(34px,7vw,56px);margin-bottom:12px">Hi there! Which class are you in?</h1>' +
-   '<p style="margin:0 auto 32px;color:var(--mut);max-width:460px">Pick your class and we’ll set up your page. GraphPaper covers CBSE Science for now.</p>' +
+   '<p style="margin:0 auto 32px;color:var(--mut);max-width:460px">Pick your class and board and we’ll set up your page.</p>' +
    '<div style="background:var(--card);border:2px solid var(--ink);border-radius:32px;padding:28px 24px;text-align:left;display:flex;flex-direction:column;gap:22px;box-shadow:0 6px 0 var(--a1)">' +
-   '<div><div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><span class="fr" style="flex:none;width:34px;height:34px;border-radius:50%;background:var(--a1);border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-weight:600;font-size:17px">1</span><div id="wh1" class="fr" style="font-weight:600;font-size:22px">Your class</div></div>' +
-   '<div role="group" aria-labelledby="wh1" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">' + b("11") + b("12") + '</div></div>' +
-   '<div style="font-size:14px;color:var(--mut);margin-top:-8px">Colors change with your class. You can switch any time from the top right.</div>' +
+   '<div>' + step(1, "wh1", "Your class") + '<div role="group" aria-labelledby="wh1" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">' + cb + '</div>' +
+   '<div style="font-size:14px;color:var(--mut);margin-top:12px">Colors grow up with you, from candy pastels to calm, deep tones.</div></div>' +
+   '<div>' + step(2, "wh2", "Your board") + '<div role="group" aria-labelledby="wh2" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">' + bd("CBSE", "--a1", "on") + bd("NCERT", "--a3", "off", "Books only") + bd("ICSE", "--a4", "off", "Coming soon") + bd("State boards", "--a2", "off", "Coming soon") + '</div>' +
+   '<div style="font-size:14px;color:var(--mut);margin-top:12px">CBSE notices are live. Other boards are on the way. Class 11 and 12 Science have the most for now.</div></div>' +
    '<div id="werr" role="alert" hidden style="background:var(--a2);border:2px solid var(--ink);border-radius:16px;padding:10px 16px;font-weight:700">Please pick your class first.</div>' +
    '<button class="btn dark" data-act="wgo" style="min-height:56px;font-size:19px;padding:14px 32px">Take me in</button></div>' +
    '<div style="margin-top:20px"><a href="#/home" style="font-weight:700;text-decoration:underline">Skip for now</a></div></div></div>';
@@ -224,18 +246,14 @@ VIEWS.welcome = function(){
 VIEWS.home = function(){
   var it = ST.items, latest3 = it.slice(0, 3);
   var board = [["CBSE","--a1","C",false],["NCERT","--a3","N",false],["ICSE","--a4","I",true],["State boards","--a2","S",true]].map(function(b){
-    return '<a href="#/board/' + encodeURIComponent(b[0]) + '" style="background:var(' + b[1] + ');border-radius:24px;padding:28px 12px;text-align:center;font-family:Fredoka,sans-serif;font-weight:500;font-size:22px;position:relative;display:block">' + b[0] + (b[3] ? '<div style="font-family:Nunito,sans-serif;font-weight:700;font-size:13px;margin-top:4px">Coming soon</div>' : '') + '</a>';
+    return '<a class="bcard" href="#/board/' + encodeURIComponent(b[0]) + '" style="background:var(' + b[1] + ')">' + b[0] + (b[3] ? '<div style="font-family:Nunito,sans-serif;font-weight:700;font-size:13px;margin-top:4px">Coming soon</div>' : '') + '</a>';
   }).join("");
   var fresh = it.filter(function(x){ return ST.hf === "all" || x.tag === ST.hf; }).slice(0, 4);
   var f = [["all","All"]].concat(TYPE_KEYS.map(function(k){ return [k, TYPES[k].plural]; })).map(function(p){
     return '<button class="f" data-act="hf" data-v="' + esc(p[0]) + '" aria-pressed="' + (ST.hf === p[0] ? "true" : "false") + '">' + esc(p[1]) + '</button>';
   }).join("");
-  var made = ST.cls ? '<div class="wrap sec" id="foryou"><h2>Made for Class ' + ST.cls + ' · CBSE Science</h2><div class="grid g4">' +
-    '<a class="bq" href="#/updates" style="--sh:var(--a1)"><span class="ic" style="background:var(--a1)">'+ico("news")+'</span><b>Latest notices</b><span style="color:var(--mut);font-size:15px">Everything new from CBSE</span><span style="font-weight:700">Open →</span></a>' +
-    '<a class="bq" href="#/books" style="--sh:var(--a3)"><span class="ic" style="background:var(--a3)">'+ico("book")+'</span><b>NCERT books</b><span style="color:var(--mut);font-size:15px">Chapter PDFs for Class ' + ST.cls + '</span><span style="font-weight:700">Open →</span></a>' +
-    '<a class="bq" href="#/syllabus" style="--sh:var(--a2)"><span class="ic" style="background:var(--a2)">'+ico("doc")+'</span><b>Syllabus</b><span style="color:var(--mut);font-size:15px">Official 2026-27 PDFs</span><span style="font-weight:700">Open →</span></a></div></div>' : "";
   return '<div class="wrap hr"><div>' +
-    '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">' + (ST.cls ? 'Class ' + ST.cls + ' · CBSE Science · Change' : 'For Class 11 and 12 Science') + '</a>' +
+    '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">' + (ST.cls ? 'Class ' + ST.cls + ' \u00b7 CBSE \u00b7 Change' : 'Class 1 to 12 \u00b7 Science 11 and 12 live') + '</a>' +
     '<h1 style="font-size:clamp(38px,6vw,66px);line-height:1.08;margin:20px 0 16px">Every CBSE circular, date sheet and result. One cozy place.</h1>' +
     '<p style="color:var(--mut);margin:0 0 28px;max-width:520px">Official notices from CBSE, gathered and sorted so you never miss one. NCERT books and the syllabus sit right next to them.</p>' +
     '<form class="search" data-act="hsearch"><label for="hq" style="position:absolute;left:-9999px">Search notices</label><input id="hq" placeholder="Search notices, e.g. date sheet" autocomplete="off"><button class="go" type="submit">Search</button></form>' +
@@ -244,8 +262,8 @@ VIEWS.home = function(){
     '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:36px;background:var(--a3);transform:rotate(14deg)"></div>' +
     '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:14px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">Today on the board</div>' +
     (latest3.length ? latest3.map(function(x){ return '<a href="#/notice/' + encodeURIComponent(x.id) + '" style="display:block;background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + pill(x) + '<div style="margin-top:6px;font-weight:700;overflow-wrap:anywhere">' + esc(x.title) + '</div></a>'; }).join("") : '<div style="background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + (ST.loaded ? 'No notices yet.' : 'Loading notices...') + '</div>') +
-    '</div></div></div>' + made +
-    '<div id="boards" class="wrap sec"><h2 style="font-size:34px">Follow your board</h2><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(170px,100%),1fr));gap:16px">' + board + '</div></div>' +
+    '</div></div></div>' +
+    '<div id="boards" class="wrap sec"><h2 style="font-size:34px">Follow your board</h2><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:16px">' + board + '</div></div>' +
     '<div id="updates" class="wrap sec" style="padding-bottom:64px"><div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px"><h2 style="font-size:34px;margin:0">Fresh from the boards</h2><div class="chips">' + f + '</div></div>' +
     '<div class="grid g3">' + (fresh.length ? fresh.map(function(x){ return noticeCard(x); }).join("") : loadingOrEmpty("No notices of this type yet.")) + '</div>' +
     '<div style="text-align:center;margin-top:32px"><a class="btn dark" href="#/updates" style="display:inline-flex;padding:14px 32px">See all updates</a></div></div>' +
@@ -260,9 +278,10 @@ function listHtml(){
   var q = ST.q.trim().toLowerCase();
   var shown = ST.items.filter(function(x){
     if (ST.type !== "all" && x.tag !== ST.type) return false;
+    if (ST.ub !== "all" && ST.ub !== "CBSE") return false;
     return !q || (x.title + " " + typeOf(x).label + " " + (x.summary || "")).toLowerCase().indexOf(q) !== -1;
   });
-  return {n: shown.length, html: shown.length ? shown.map(function(x){ return noticeCard(x); }).join("") : loadingOrEmpty("No notices found.")};
+  return {n: shown.length, html: shown.length ? shown.map(function(x){ return noticeCard(x); }).join("") : loadingOrEmpty(ST.ub !== "all" && ST.ub !== "CBSE" ? ST.ub + " notices are coming soon." : "No notices found.")};
 }
 VIEWS.updates = function(r){
   var t = r.q.get("type"); if (t && (t === "all" || TYPES[t])) ST.type = t;
@@ -271,9 +290,11 @@ VIEWS.updates = function(r){
     return '<button class="f" data-act="ut" data-v="' + esc(p[0]) + '" aria-pressed="' + (ST.type === p[0] ? "true" : "false") + '">' + esc(p[1]) + '</button>';
   }).join("");
   var l = listHtml();
+  var bf = ["all","CBSE","NCERT","ICSE","State boards"].map(function(v){ return '<button class="f" data-act="ub" data-v="' + v + '" aria-pressed="' + (ST.ub === v ? "true" : "false") + '">' + (v === "all" ? "All boards" : v) + '</button>'; }).join("");
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Updates</b></div>' +
     '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">All updates</h1><p style="margin:0 0 24px;color:var(--mut)">Every CBSE notice, newest first.</p>' +
     '<div class="search" style="max-width:560px;margin-bottom:20px"><label for="uq" style="position:absolute;left:-9999px">Search updates</label><input id="uq" type="search" placeholder="Search updates" value="' + esc(ST.q) + '" autocomplete="off"></div>' +
+    '<div class="chips" role="group" aria-label="Board" style="margin-bottom:12px">' + bf + '</div>' +
     '<div class="chips" role="group" aria-label="Type" style="margin-bottom:16px">' + f + '</div>' +
     '<div class="meta" id="ucount" aria-live="polite" style="margin-bottom:16px">Showing ' + l.n + ' notice' + (l.n === 1 ? '' : 's') + '</div><div class="grid g3" id="ulist">' + l.html + '</div></div>';
 };
@@ -299,24 +320,37 @@ VIEWS.notice = function(r){
    '<div style="margin-top:56px"><h2>More from CBSE</h2><div class="grid g3">' + more.map(function(i){ return noticeCard(i, true); }).join("") + '</div></div></div>';
 };
 
+var SUBJ = {
+  a:["English","Hindi","Mathematics","EVS","Art"], b:["English","Hindi","Mathematics","Science","Social Science","Sanskrit"], c:["English","Hindi","Mathematics","Science","Social Science"],
+  Science:["Physics","Chemistry","Mathematics","Biology","English"], Commerce:["Accountancy","Business Studies","Economics","Mathematics","English"], Humanities:["History","Political Science","Geography","Psychology","English"]
+};
 VIEWS["class"] = function(){
-  var c = ST.cls || "12";
-  var subs = [["Physics","--a1"],["Chemistry","--a3"],["Maths","--a4"],["Biology","--a2"]].map(function(s){
-    return '<a class="bq" href="#/books?sub=' + s[0] + '" style="--sh:var(' + s[1] + ')"><span class="ic" style="background:var(' + s[1] + ')">' + ico(s[0]) + '</span><b>' + s[0] + '</b><span style="color:var(--mut);font-size:15px">Class ' + c + ' NCERT</span><span style="font-weight:700">Open →</span></a>';
+  var c = ST.cls || "4", n = +c, hi = n >= 11, live = hi && ST.stream === "Science";
+  var list = hi ? SUBJ[ST.stream] : (n <= 5 ? SUBJ.a : n <= 8 ? SUBJ.b : SUBJ.c);
+  var cols = ["--a1","--a2","--a3","--a4","--a5"], sub2books = {Physics:"Physics", Chemistry:"Chemistry", Mathematics:"Maths", Biology:"Biology"};
+  var subs = list.map(function(x, i){
+    var col = cols[i % 5], real = live && sub2books[x], icon = real ? ico(sub2books[x]) : ico("book");
+    var inner = '<span class="ic" style="background:var(' + col + ')">' + icon + '</span><b>' + esc(x) + '</b><span style="color:var(--mut);font-size:15px">NCERT textbook</span>' +
+      (real ? '<span style="font-weight:700">Open →</span>' : '<span class="pill" style="background:var(--a4);align-self:flex-start;font-size:13px">Coming soon</span>');
+    return real ? '<a class="bq" href="#/books?sub=' + sub2books[x] + '" style="--sh:var(' + col + ')">' + inner + '</a>' : '<div class="bq" style="--sh:var(' + col + ')">' + inner + '</div>';
   }).join("");
-  var mine = ST.items.filter(classOf).slice(0, 3);
+  var streams = hi ? '<div class="chips" role="group" aria-label="Stream">' + ["Science","Commerce","Humanities"].map(function(v){ return '<button class="f" data-act="st" data-v="' + v + '" aria-pressed="' + (ST.stream === v ? "true" : "false") + '">' + v + '</button>'; }).join("") + '</div>' : '';
+  var mine = live ? ST.items.filter(classOf).slice(0, 3) : [];
+  var latest = live ? '<h2>Latest for Class ' + c + '</h2><div class="grid g3">' + (mine.length ? mine.map(function(x){ return noticeCard(x, true); }).join("") : '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? 'No notices that mention Class ' + c + ' yet. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all updates</a>.' : 'Loading notices...') + '</div>') + '</div>'
+    : '<h2>Latest for Class ' + c + '</h2><div class="card" style="box-shadow:0 6px 0 var(--a1)">Notices for this class are coming soon. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a>.</div>';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Study shelf</b></div>' +
-   '<div class="head"><div class="tile" style="background:var(--a1)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Class ' + c + '</h1><p>Books, syllabus and notes for Class ' + c + ' Science, all on one shelf. Change your class from the top right.</p></div></div>' +
-   '<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px"><h2 style="margin:0">NCERT books</h2><div class="chips"><span class="f" style="background:var(--ink);color:var(--bg);display:inline-flex;align-items:center">Science</span></div></div>' +
+   '<div class="head"><div class="tile" style="background:var(--a1)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Class ' + c + '</h1><p>Books, syllabus and notes for Class ' + c + ', all on one shelf. Change your class from the top right.</p></div></div>' +
+   '<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px"><h2 style="margin:0">NCERT books</h2>' + streams + '</div>' +
    '<div class="grid g4" style="margin-bottom:48px">' + subs + '</div>' +
    '<h2>Syllabus and notes</h2><div class="grid g3" style="margin-bottom:48px">' +
-   '<a class="card" href="#/syllabus" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus</h3><div class="meta">Official 2026-27 syllabus for Physics, Chemistry, Maths and Biology.</div><span class="more">Open →</span></a>' +
+   (live ? '<a class="card" href="#/syllabus" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus</h3><div class="meta">Official 2026-27 syllabus for Physics, Chemistry, Maths and Biology.</div><span class="more">Open →</span></a>' :
+     '<div class="card" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div class="meta">Official syllabus for Class ' + c + '.</div></div>') +
    '<div class="card" style="--sh:var(--a5)"><h3 style="font-size:22px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div class="meta">Chapter notes and quick revision sheets.</div></div></div>' +
-   '<h2>Latest for Class ' + c + '</h2><div class="grid g3">' + (mine.length ? mine.map(function(x){ return noticeCard(x, true); }).join("") : '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? 'No notices that mention Class ' + c + ' yet. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all updates</a>.' : 'Loading notices...') + '</div>') + '</div></div>';
+   latest + '</div>';
 };
 
 function booksHtml(){
-  var c = +(ST.cls || "12"), q = ST.bq.trim().toLowerCase(), out = "", n = 0, i = 0;
+  var c = +bcls(), q = ST.bq.trim().toLowerCase(), out = "", n = 0, i = 0;
   var cols = {Physics:"--a1", Chemistry:"--a3", Maths:"--a4", Biology:"--a2"};
   BOOKS.forEach(function(b){
     if (b.cls !== c || (ST.bsub !== "All" && b.sub !== ST.bsub)) return;
@@ -334,14 +368,16 @@ function booksHtml(){
   return {n:n, html: out || '<div class="card" style="box-shadow:0 6px 0 var(--a1)">No chapters found.</div>'};
 }
 ST.bopen = {};
+function bcls(){ return ST.cls === "11" ? "11" : "12"; }
 VIEWS.books = function(r){
   var s = r.q.get("sub"); if (s && ["Physics","Chemistry","Maths","Biology"].indexOf(s) > -1) ST.bsub = s;
-  var c = ST.cls || "12";
+  var c = bcls();
   var chips = ["All","Physics","Chemistry","Maths","Biology"].map(function(s){ return '<button class="f" data-act="bs" data-v="' + s + '" aria-pressed="' + (ST.bsub === s ? "true" : "false") + '">' + s + '</button>'; }).join("");
   var cls = ["11","12"].map(function(v){ return '<button class="f" data-act="setcls" data-v="' + v + '" aria-pressed="' + (c === v ? "true" : "false") + '">Class ' + v + '</button>'; }).join("");
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>NCERT books</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a3)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">NCERT books</h1><p>Chapter-wise PDFs for Class ' + c + ' Science, linked from the official NCERT site.</p></div></div>' +
    '<div class="chips" style="margin-bottom:14px">' + cls + '</div>' +
+   (ST.cls && ST.cls !== "11" && ST.cls !== "12" ? '<div class="badge" style="margin-bottom:14px;background:var(--a4)">NCERT chapter links are ready for Class 11 and 12 Science. Other classes are coming soon.</div>' : '') +
    '<div class="search" style="max-width:560px;margin-bottom:16px"><label for="bq" style="position:absolute;left:-9999px">Search chapters</label><input id="bq" type="search" placeholder="Search chapters" value="' + esc(ST.bq) + '" autocomplete="off"></div>' +
    '<div class="chips" role="group" aria-label="Subject" style="margin-bottom:20px">' + chips + '</div>' +
    '<div class="grid" id="blist" style="grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));align-items:start">' + booksHtml().html + '</div>' +
@@ -386,6 +422,44 @@ VIEWS.board = function(r){
    (b.url ? '<div class="badge" style="margin-bottom:18px">Official source: ' + esc(host(b.url)) + '</div>' : '') + '<div style="display:flex;flex-wrap:wrap;gap:12px">' + btns + '</div></div></div>' + body + '</div>';
 };
 
+var CONTACT_EMAIL = "";   // set to a real address to turn the contact form on
+var ISSUES = "https://github.com/Runitdamar/graphpaper/issues/new";
+function legal(title, lead, secs, upd){
+  return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>' + title + '</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">' + title + '</h1>' +
+   '<p style="margin:0 0 8px;color:var(--mut)">' + lead + '</p>' + (upd ? '<div class="meta" style="margin-bottom:24px">Last updated: ' + upd + '</div>' : '') + '<div style="display:flex;flex-direction:column;gap:22px">' +
+   secs.map(function(p, i){ return '<section class="card" style="--sh:var(' + ["--a1","--a3","--a4","--a2"][i % 4] + ');gap:8px;padding:24px 26px"><h2 style="font-size:24px;margin:0">' + p[0] + '</h2><div>' + p[1] + '</div></section>'; }).join("") + '</div></div>';
+}
+VIEWS.alerts = function(){
+  var feed = location.origin + location.pathname.replace(/[^\/]*$/, "") + "feed.xml";
+  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Get alerts</b></div>' +
+   '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">Get alerts</h1><p style="margin:0 0 28px;color:var(--mut);max-width:560px">Hear about new notices for ' + esc(clsLabel()) + ' without opening the site.</p>' +
+   '<div class="grid g3" style="align-items:start">' +
+   '<section class="card" style="--sh:var(--a3)"><span class="pill" style="background:var(--a3);align-self:flex-start">Works today</span><h2 style="font-size:24px;margin:0">Follow with a feed reader</h2><div>Add this address to any feed reader (Feedly, Inoreader and others) and every approved CBSE notice shows up there.</div>' +
+   '<div style="border:2px solid var(--ink);border-radius:16px;padding:12px 14px;background:var(--bg);word-break:break-all;font-weight:700;font-size:15px" id="feedurl">' + esc(feed) + '</div>' +
+   '<button class="btn dark" type="button" data-act="copyfeed">Copy feed address</button><div id="copymsg" class="meta" role="status"></div></section>' +
+   '<section class="card" style="--sh:var(--a4)"><span class="pill" style="background:var(--a4);align-self:flex-start">Coming soon</span><h2 style="font-size:24px;margin:0">Email, WhatsApp and SMS</h2><div>Alerts for your class and board straight to your phone or inbox. These need a sending service that GraphPaper does not have yet, so there is nothing to sign up for today and we are not collecting any contact details.</div></section>' +
+   '<section class="card" style="--sh:var(--a1)"><h2 style="font-size:24px;margin:0">What alerts will cover</h2><div class="meta" style="font-size:16px">Class: ' + esc(clsLabel()) + '<br>Board: CBSE<br>Types: circulars, date sheets, syllabus changes, results</div><a class="btn" href="#/updates">See the latest updates</a></section></div></div>';
+};
+VIEWS.contact = function(){
+  var form = CONTACT_EMAIL ? '<form class="card" data-act="csend" style="--sh:var(--a1)">' +
+    '<label for="cname" class="fr" style="font-weight:500">Your name</label><input id="cname" style="border:2px solid var(--ink);border-radius:16px;padding:12px;font-size:17px;background:var(--bg);color:var(--ink)">' +
+    '<label for="ctopic" class="fr" style="font-weight:500">Topic</label><select id="ctopic" style="border:2px solid var(--ink);border-radius:16px;padding:12px;font-size:17px;background:var(--bg);color:var(--ink)"><option>General question</option><option>Report a wrong or missing notice</option><option>Suggest a feature</option><option>Something else</option></select>' +
+    '<label for="cmsg" class="fr" style="font-weight:500">Message</label><textarea id="cmsg" rows="5" style="border:2px solid var(--ink);border-radius:16px;padding:12px;font-size:17px;background:var(--bg);color:var(--ink);font-family:inherit"></textarea>' +
+    '<button class="btn dark" type="submit">Open in my email app</button></form>'
+    : '<section class="card" style="--sh:var(--a4)"><span class="pill" style="background:var(--a4);align-self:flex-start">Coming soon</span><h2 style="font-size:24px;margin:0">Message form</h2><div>The contact form is not switched on yet. For now, use the link on the right to report a wrong or missing notice.</div></section>';
+  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Contact</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">Contact us</h1>' +
+   '<p style="margin:0 0 28px;color:var(--mut);max-width:560px">Found a wrong notice or have an idea? Tell us.</p><div class="grid g3" style="align-items:start">' + form +
+   '<section class="card" style="--sh:var(--a3)"><h2 style="font-size:24px;margin:0">Report a wrong or missing notice</h2><div>Open a report on GitHub (a free GitHub account is needed). Please include the notice title and what looks wrong.</div><a class="btn dark" href="' + ISSUES + '?title=' + encodeURIComponent("Notice problem: ") + '" target="_blank" rel="noopener">Open a report ↗</a></section></div></div>';
+};
+VIEWS.terms = function(){
+  return legal("Terms", "The simple rules for using GraphPaper.", [
+   ["Using GraphPaper", "GraphPaper is free to use. It gathers links to official notices, books and syllabus pages so they are easier to find."],
+   ["Not an official website", "GraphPaper is not run by CBSE, NCERT or any other board. Notices and dates can change, so always confirm them at the official source before you act on them."],
+   ["Other people's files", "GraphPaper does not host board or NCERT files. Links open the official sites, which have their own terms."],
+   ["No promises", "We try to keep things correct and current, but we cannot promise that nothing is missing or out of date. If you spot a mistake, please tell us from the Contact page."],
+   ["Changes", "We may update these terms as GraphPaper grows. The latest version is always on this page."]]);
+};
+
 VIEWS.about = function(){
   function sec(t, tx, sh){ return '<section class="card" style="--sh:' + sh + ';gap:8px;border-radius:28px;padding:24px 26px"><h2 style="font-size:24px;margin:0">' + t + '</h2><div>' + tx + '</div></section>'; }
   return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>About</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">About GraphPaper</h1>' +
@@ -399,7 +473,7 @@ VIEWS.privacy = function(){
   function sec(t, tx){ return '<section class="card" style="--sh:var(--a1);gap:8px;padding:24px 26px"><h2 style="font-size:24px;margin:0">' + t + '</h2><div>' + tx + '</div></section>'; }
   return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>Privacy</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">Privacy</h1>' +
    '<p style="margin:0 0 28px;color:var(--mut)">Short version: GraphPaper does not ask for your name, email or phone number.</p><div style="display:flex;flex-direction:column;gap:22px">' +
-   sec("What stays on your device", "There are no accounts. The class you pick (11 or 12) is saved in your own browser so the site can remember it. It is never sent to us.") +
+   sec("What stays on your device", "There are no accounts and no forms that collect your details. The class you pick is saved in your own browser so the site can remember it. It is never sent to us.") +
    sec("What other services see", "The site is hosted on Vercel, which may keep standard technical logs such as IP addresses. Fonts load from Google Fonts. Links to cbse.gov.in, ncert.nic.in and cbseacademic.nic.in leave this site, and those sites have their own privacy practices.") +
    sec("Your choices", "To forget your class choice, clear this site's data in your browser settings.") + '</div></div>';
 };
@@ -413,16 +487,19 @@ function parse(){
 function applyClass(){
   $("#app").dataset.c = ST.cls;
   $("#clsnum").textContent = ST.cls;
+  D.querySelectorAll("#cgrid button").forEach(function(b){ b.setAttribute("aria-pressed", b.dataset.v === ST.cls ? "true" : "false"); });
 }
 function route(keepScroll){
   var r = parse(), name = r.name;
   if (!name) name = ST.cls ? "home" : "welcome";
   if (!VIEWS[name]) name = "home";
   if (!keepScroll){
-    if (name !== "updates" || !ST.fromSearch){ if (name === "updates" || ST.navFrom === "updates"){ ST.type = "all"; ST.q = ""; } }
+    if (name !== "updates" || !ST.fromSearch){ if (name === "updates" || ST.navFrom === "updates"){ ST.type = "all"; ST.q = ""; ST.ub = "all"; } }
     if (name !== "books"){ ST.bq = ""; ST.bsub = "All"; }
     ST.fromSearch = false; ST.navFrom = name;
   }
+  $("#topnav").hidden = $("#foot").hidden = (name === "welcome");
+  if (name !== "welcome") applyClass();
   $("#view").innerHTML = VIEWS[name](r);
   var d = $("#clsmenu"); if (d) d.open = false;
   document.title = (name === "notice" ? (function(){ var t = $("#pg"); return (t && t.textContent ? t.textContent.slice(0, 80) + " | GraphPaper" : TITLES.notice); })() : (name === "board" ? (BOARDS[r.arg] ? r.arg : "CBSE") + " | GraphPaper" : TITLES[name]));
@@ -443,10 +520,13 @@ D.addEventListener("click", function(e){
   var el = e.target.closest("[data-act]"); if (!el) return;
   var a = el.dataset.act, v = el.dataset.v;
   if (a === "setcls"){ setClass(v); route(true); var d = $("#clsmenu"); if (d) d.open = false; }
-  else if (a === "wc"){ ST.wc = v; route(true); }
+  else if (a === "wc"){ ST.wc = v; route(true); $("#app").dataset.c = v; }
+  else if (a === "copyfeed"){ var fu = $("#feedurl").textContent, cm = $("#copymsg"); if (navigator.clipboard) navigator.clipboard.writeText(fu).then(function(){ cm.textContent = "Copied."; }, function(){ cm.textContent = "Press and hold the address to copy it."; }); else cm.textContent = "Press and hold the address to copy it."; }
   else if (a === "wgo"){ if (!ST.wc){ $("#werr").hidden = false; return; } setClass(ST.wc); location.hash = "#/home"; if (!/^#\/home/.test(location.hash)) route(); }
   else if (a === "hf"){ ST.hf = v; route(true); }
-  else if (a === "ut"){ ST.type = v; var u = $("#ulist"); route(true); }
+  else if (a === "ut"){ ST.type = v; route(true); }
+  else if (a === "ub"){ ST.ub = v; route(true); }
+  else if (a === "st"){ ST.stream = v; route(true); }
   else if (a === "bs"){ ST.bsub = v; route(true); }
   else if (a === "share"){
     var url = location.href, title = D.title, msg = $("#shmsg");
@@ -456,6 +536,7 @@ D.addEventListener("click", function(e){
   }
 });
 D.addEventListener("submit", function(e){
+  if (e.target.dataset && e.target.dataset.act === "csend"){ e.preventDefault(); location.href = "mailto:" + CONTACT_EMAIL + "?subject=" + encodeURIComponent("GraphPaper: " + $("#ctopic").value) + "&body=" + encodeURIComponent($("#cmsg").value + "\n\n" + $("#cname").value); return; }
   if (e.target.dataset && e.target.dataset.act === "hsearch"){ e.preventDefault(); ST.q = $("#hq").value; ST.type = "all"; ST.fromSearch = true; location.hash = "#/updates"; if (!/^#\/updates/.test(location.hash)) route(); }
 });
 D.addEventListener("input", function(e){
