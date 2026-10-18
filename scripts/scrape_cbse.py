@@ -27,8 +27,8 @@ STATUS_FILE = ROOT / "scripts" / "last_run.txt"  # short result of the latest ru
 
 # Pages to check. Add or fix URLs here if CBSE moves them.
 SOURCES = [
-    "https://www.cbse.gov.in/cbsenew/circulars.html",
-    "https://www.cbse.gov.in/cbsenew/examination.html",
+    "https://cbseacademic.nic.in/circulars.html",   # academic circulars (Class 11/12 mostly)
+    "https://www.cbse.gov.in/",                      # home page notices
 ]
 
 HEADERS = {
