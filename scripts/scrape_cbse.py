@@ -23,6 +23,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "updates.json"
+STATUS_FILE = ROOT / "scripts" / "last_run.txt"  # short result of the latest run, committed so it can be read without Actions logs
 
 # Pages to check. Add or fix URLs here if CBSE moves them.
 SOURCES = [
@@ -118,16 +119,20 @@ def main():
 
     added = []
     errors = 0
+    status = []
     for src in SOURCES:
         try:
             r = requests.get(src, headers=HEADERS, timeout=30)
             r.raise_for_status()
         except requests.RequestException as e:
+            code = getattr(getattr(e, "response", None), "status_code", None)
             print(f"FAILED to fetch {src}: {e}", file=sys.stderr)
+            status.append(f"FAILED {src} (HTTP {code}): {type(e).__name__}")
             errors += 1
             continue
         items = extract_items(r.text, src)
         print(f"{src}: {len(items)} candidate links")
+        status.append(f"OK {src} (HTTP {r.status_code}, {len(r.text)} bytes, {len(items)} candidate links)")
         for it in items:
             iid = item_id(it["url"])
             if iid in known_ids or it["url"] in known_urls or not is_relevant(it["title"]):
@@ -146,6 +151,8 @@ def main():
     if added:
         existing.extend(added)
         DATA_FILE.write_text(json.dumps(existing, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    status.append(f"Added {len(added)} new pending item(s).")
+    STATUS_FILE.write_text("\n".join(status) + "\n", encoding="utf-8")
     print(f"Added {len(added)} new pending item(s).")
     if errors == len(SOURCES):
         sys.exit(1)  # every source failed: make the run show as failed

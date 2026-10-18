@@ -18,12 +18,13 @@ jobs:
           python-version: "3.12"
       - run: pip install -r scripts/requirements.txt
       - run: python scripts/scrape_cbse.py
-      - name: Commit new pending items
+      - name: Commit new pending items and run status
+        if: always()
         run: |
-          if [ -n "$(git status --porcelain updates.json)" ]; then
+          if [ -n "$(git status --porcelain updates.json scripts/last_run.txt)" ]; then
             git config user.name "graphpaper-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add updates.json
-            git commit -m "Add new pending CBSE updates"
+            git add updates.json scripts/last_run.txt
+            git commit -m "Update CBSE check results"
             git push
           fi
