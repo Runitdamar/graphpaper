@@ -56,7 +56,7 @@ h2{font-size:clamp(1.35rem,5.5vw,1.6rem);margin:0;font-weight:600}
 .up .ext{color:var(--acc);width:18px;height:18px}
 .rail{display:none}
 .tabs{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:space-around;background:var(--panel);border-top:1px solid var(--line);padding:10px 8px calc(10px + env(safe-area-inset-bottom,0px))}
-.tabs a{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:.72rem;color:var(--mute)}
+.tabs a{flex:1;min-width:0;white-space:nowrap;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:.72rem;color:var(--mute)}
 .tabs a[aria-current]{color:var(--acc)}
 .foot{margin:28px 0 0;color:var(--mute);font-size:.8rem}
 .d{display:none}
@@ -139,7 +139,7 @@ h2{font-size:clamp(1.35rem,5.5vw,1.6rem);margin:0;font-weight:600}
     <a href="index.html" aria-current="page"><svg class="i"><use href="#home"/></svg>Home</a>
     <a href="updates.html"><svg class="i"><use href="#doc"/></svg>Updates</a>
     <a href="#"><svg class="i"><use href="#book"/></svg>Syllabus</a>
-    <a href="#"><svg class="i"><use href="#layers"/></svg>NCERT Books</a>
+    <a href="books.html"><svg class="i"><use href="#layers"/></svg>NCERT Books</a>
     <a href="#"><svg class="i"><use href="#edit"/></svg>Notes &amp; Extras<span class="later">Later</span></a>
   </nav>
   <div class="meta">CBSE &bull; Class 11 and 12</div>
@@ -167,7 +167,7 @@ h2{font-size:clamp(1.35rem,5.5vw,1.6rem);margin:0;font-weight:600}
     <div class="tiles">
       <a class="tile" href="updates.html"><div class="ic" style="background:var(--ibg)"><svg class="i"><use href="#doc"/></svg></div><svg class="i ch"><use href="#chev"/></svg><h3>Updates</h3><p>CBSE circulars, date sheets, syllabus changes and results.</p></a>
       <a class="tile" href="#"><div class="ic" style="background:var(--ibg3)"><svg class="i"><use href="#book"/></svg></div><svg class="i ch"><use href="#chev"/></svg><h3>Syllabus</h3><p>Current-year syllabus per subject and what changed this year.</p></a>
-      <a class="tile" href="#"><div class="ic" style="background:var(--ibg2)"><svg class="i"><use href="#layers"/></svg></div><svg class="i ch"><use href="#chev"/></svg><h3>NCERT Books</h3><p>Chapter-wise PDFs, linked from the official NCERT site.</p></a>
+      <a class="tile" href="books.html"><div class="ic" style="background:var(--ibg2)"><svg class="i"><use href="#layers"/></svg></div><svg class="i ch"><use href="#chev"/></svg><h3>NCERT Books</h3><p>Chapter-wise PDFs, linked from the official NCERT site.</p></a>
       <a class="tile" href="#"><div class="ic" style="background:var(--ibg3)"><svg class="i"><use href="#edit"/></svg></div><svg class="i ch"><use href="#chev"/></svg><h3>Notes &amp; Extras</h3><p>Added later, chapter by chapter.</p></a>
     </div>
 
@@ -199,8 +199,9 @@ h2{font-size:clamp(1.35rem,5.5vw,1.6rem);margin:0;font-weight:600}
 
 <nav class="tabs m" aria-label="Main">
   <a href="index.html" aria-current="page"><svg class="i"><use href="#home"/></svg>Home</a>
+  <a href="updates.html"><svg class="i"><use href="#doc"/></svg>Updates</a>
   <a href="#"><svg class="i"><use href="#book"/></svg>Syllabus</a>
-  <a href="#"><svg class="i"><use href="#doc"/></svg>NCERT Books</a>
+  <a href="books.html"><svg class="i"><use href="#layers"/></svg>Books</a>
   <a href="#"><svg class="i"><use href="#menu"/></svg>More</a>
 </nav>
 <script>
