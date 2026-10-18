@@ -112,6 +112,10 @@ h2{font-size:clamp(1.35rem,5.5vw,1.6rem);margin:0;font-weight:600}
   .quote{color:var(--mute);font-family:"Source Serif 4",Georgia,serif;font-size:1.1rem}
   .m-hero,.m-head,.m-search{display:none}
 }
+.up a.ext{display:block;color:var(--acc)}
+.up a.ext svg{width:18px;height:18px}
+.up h3 a:hover{color:var(--acc)}
+@media (min-width:900px){.up a.ext{display:none}}
 </style>
 </head>
 <body>
@@ -168,13 +172,13 @@ h2{font-size:clamp(1.35rem,5.5vw,1.6rem);margin:0;font-weight:600}
     </div>
 
     <div class="sec"><h2>Latest Updates</h2><a href="updates.html">View all</a></div>
-    <div class="list">
+    <div class="list" id="latest">
       <article class="up"><span class="tag" style="--bg-t:var(--c1);--fg-t:var(--t1)">Circular</span><div><h3>CBSE releases guidelines for practical exams 2025</h3><time>Apr 12, 2025</time><p>New instructions for conducting practical exams, including assessment format and key dates.</p></div><a class="src" href="#">View official source <svg class="i"><use href="#ext"/></svg></a><svg class="i ext"><use href="#ext"/></svg></article>
       <article class="up"><span class="tag" style="--bg-t:var(--c2);--fg-t:var(--t2)">Date Sheet</span><div><h3>CBSE Class 10, 12 date sheet 2025 released</h3><time>Mar 28, 2025</time><p>Exam schedule for Class 10 and 12 is now available on the CBSE website.</p></div><a class="src" href="#">View official source <svg class="i"><use href="#ext"/></svg></a><svg class="i ext"><use href="#ext"/></svg></article>
       <article class="up"><span class="tag" style="--bg-t:var(--c3);--fg-t:var(--t3)">Syllabus Change</span><div><h3>Minor changes in Class 10 Science syllabus</h3><time>Mar 15, 2025</time><p>Removed one chapter and updated a few learning objectives for better alignment with real-world applications.</p></div><a class="src" href="#">View official source <svg class="i"><use href="#ext"/></svg></a><svg class="i ext"><use href="#ext"/></svg></article>
       <article class="up"><span class="tag" style="--bg-t:var(--c4);--fg-t:var(--t4)">Result</span><div><h3>CBSE Class 12 results declared</h3><time>May 13, 2025</time><p>Results for Class 12 are now available on the official CBSE portal.</p></div><a class="src" href="#">View official source <svg class="i"><use href="#ext"/></svg></a><svg class="i ext"><use href="#ext"/></svg></article>
     </div>
-    <p class="foot">Sample content for the design. Real updates will come from official CBSE sources.</p>
+    <p class="foot" id="samplenote">Sample content for the design. Real updates will come from official CBSE sources.</p>
   </main>
 
   <aside class="rail d">
@@ -199,5 +203,35 @@ h2{font-size:clamp(1.35rem,5.5vw,1.6rem);margin:0;font-weight:600}
   <a href="#"><svg class="i"><use href="#doc"/></svg>NCERT Books</a>
   <a href="#"><svg class="i"><use href="#menu"/></svg>More</a>
 </nav>
+<script>
+(function(){
+  var COL={"Circular":["--c1","--t1"],"Date Sheet":["--c2","--t2"],"Syllabus Change":["--c3","--t3"],"Result":["--c4","--t4"]};
+  var ICON='<svg class="i"><use href="#ext"/></svg>';
+  function fmt(d){var t=new Date(d+"T00:00:00");return isNaN(t)?d:t.toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"});}
+  function safe(u){return /^https?:\/\//i.test(u||"")?u:"https://www.cbse.gov.in";}
+  fetch("updates.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){
+    var items=(Array.isArray(d)?d:[]).filter(function(x){return x&&x.status==="approved"&&!x.sample;})
+      .sort(function(a,b){return a.date<b.date?1:a.date>b.date?-1:0;}).slice(0,4);
+    if(!items.length)return;
+    var list=document.getElementById("latest");list.textContent="";
+    items.forEach(function(x){
+      var c=COL[x.tag]||COL.Circular;
+      var a=document.createElement("article");a.className="up";
+      var tag=document.createElement("span");tag.className="tag";tag.textContent=x.tag;
+      tag.style.setProperty("--bg-t","var("+c[0]+")");tag.style.setProperty("--fg-t","var("+c[1]+")");
+      var body=document.createElement("div");
+      var h=document.createElement("h3");var hl=document.createElement("a");
+      hl.href="updates.html?id="+encodeURIComponent(x.id);hl.textContent=x.title;h.appendChild(hl);
+      var tm=document.createElement("time");tm.setAttribute("datetime",x.date);tm.textContent=fmt(x.date);
+      body.appendChild(h);body.appendChild(tm);
+      if(x.summary){var p=document.createElement("p");p.textContent=x.summary;body.appendChild(p);}
+      var src=document.createElement("a");src.className="src";src.href=safe(x.url);src.target="_blank";src.rel="noopener";src.innerHTML="View official source "+ICON;
+      var ext=document.createElement("a");ext.className="ext";ext.href=safe(x.url);ext.target="_blank";ext.rel="noopener";ext.setAttribute("aria-label","Open official source");ext.innerHTML=ICON;
+      a.appendChild(tag);a.appendChild(body);a.appendChild(src);a.appendChild(ext);list.appendChild(a);
+    });
+    var n=document.getElementById("samplenote");if(n)n.textContent="Latest notices from CBSE. Tap a title to read it here, or open the official source.";
+  }).catch(function(){});
+})();
+</script>
 </body>
 </html>
