@@ -7,6 +7,7 @@ plus the opening text of each (used to read the chapter title). Result: scripts/
 import io
 import json
 import sys
+import time
 from pathlib import Path
 
 import requests
@@ -24,14 +25,18 @@ CODES = ["keph1", "keph2", "kech1", "kech2", "kemh1", "kebo1",
 
 
 def get(url):
-    r = requests.get(url, headers=HEADERS, timeout=40)
+    r = requests.get(url, headers=HEADERS, timeout=(8, 25))
     return r
 
 
 def main():
     result = {}
     blocked = 0
+    start = time.time()
     for code in CODES:
+        if time.time() - start > 420:   # stop after 7 minutes, keep what we have
+            result["_stopped_early_at"] = code
+            break
         chapters, misses = [], 0
         for n in range(1, 21):
             url = f"{BASE}{code}{n:02d}.pdf"
@@ -61,6 +66,7 @@ def main():
                 if misses >= 2:
                     break
         result[code] = chapters
+        OUT.write_text(json.dumps(result, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     result["_blocked_403"] = blocked
     OUT.write_text(json.dumps(result, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
 
