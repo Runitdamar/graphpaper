@@ -1,3 +1,32 @@
 OK https://www.cbse.gov.in/cbsenew/circulars.html (HTTP 200, 15952 bytes, 0 candidate links)
+  page title: CBSE - Central Board of Secondary Education
+  total links: 27, scripts: 15
+  - Government of India -> #
+  - Central Board of Secondary Education -> #
+  - Skip to main content -> #skipCont
+  - Skip to main content -> #skipCont
+  - A + -> javascript:void(0);
+  - A -> javascript:void(0);
+  - A - -> javascript:void(0);
+  - A -> javascript:void(0);
+  - A -> javascript:void(0);
+  -  -> cbsehindi.html
+  -  -> screen.html
+  -  -> https://www.instagram.com/cbse_hq_1929/
+  -  -> https://twitter.com/cbseindia29
+  -  -> https://www.facebook.com/cbseindia29
+  -  -> https://www.youtube.com/channel/UCAre7caIM9EvmD-mcSy6VyA?view_as=subscriber
+  -  -> https://www.bing.com/
+  -  -> cbse.html
+  -  -> #
+  - Circulars- 2020 -> http://cbseacademic.nic.in/circulars.html
+  - Circulars- 2019 -> http://cbseacademic.nic.in/circulars2019.html
+  - Circulars- 2018 -> http://cbseacademic.nic.in/circulars2018.html
+  - Circulars- 2017 -> http://cbseacademic.nic.in/circulars2017.html
+  - Circulars- 2016 -> http://cbseacademic.nic.in/circulars2016.html
+  - Circulars- 2015 -> http://cbseacademic.nic.in/circulars2015.html
+  - Circulars- 2014 -> http://cbseacademic.nic.in/circulars2014.html
+  - Circulars- 2013 -> http://cbseacademic.nic.in/circulars2013.html
+  - Circulars- 2012 -> http://cbseacademic.nic.in/circulars2012.html
 FAILED https://www.cbse.gov.in/cbsenew/examination.html (HTTP 404): HTTPError
 Added 0 new pending item(s).
