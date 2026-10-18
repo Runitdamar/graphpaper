@@ -1,0 +1,764 @@
+{
+ "keph1": [
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/keph102.pdf",
+   "kb": 1394,
+   "pages": 14,
+   "head": "CHAPTER TWO MOTION IN A STRAIGHT LINE 2.1 Introduction 2.2 Instantaneous velocity and speed 2.3 Acceleration 2.4 Kinematic equations for uniformly accelerated motion 2.5 Relative velocity Summary Points to ponder Exercis"
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/keph103.pdf",
+   "kb": 2147,
+   "pages": 22,
+   "head": "CHAPTER THREE MOTION IN A PLANE 3.1 INTRODUCTION In the last chapter we developed the concepts of position, displacement, velocity and acceleration that are needed to describe the motion of an object along a straight lin"
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/keph104.pdf",
+   "kb": 2057,
+   "pages": 22,
+   "head": "CHAPTER FOUR LAWS OF MOTION 4.1 INTRODUCTION In the preceding Chapter, our concern was to describe the motion of a particle in space quantitatively. W e saw that uniform motion needs the concept of velocity alone whereas"
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/keph105.pdf",
+   "kb": 1942,
+   "pages": 21,
+   "head": "CHAPTER FIVE WORK, ENERGY AND POWER 5.1 INTRODUCTION The terms ‘work’, ‘energy’ and ‘power’ are frequently used in everyday language. A farmer ploughing the field, a construction worker carrying bricks, a student studyin"
+  },
+  {
+   "n": 6,
+   "url": "https://ncert.nic.in/textbook/pdf/keph106.pdf",
+   "kb": 4126,
+   "pages": 35,
+   "head": "CHAPTER SIX SYSTEMS OF PARTICLES AND ROTATIONAL MOTION 6.1 INTRODUCTION In the earlier chapters we primarily consider ed the motion of a single particle. (A particle is ideally represented as a point mass having no size."
+  },
+  {
+   "n": 7,
+   "url": "https://ncert.nic.in/textbook/pdf/keph107.pdf",
+   "kb": 1761,
+   "pages": 17,
+   "head": "     "
+  }
+ ],
+ "keph2": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/keph201.pdf",
+   "kb": 1194,
+   "pages": 13,
+   "head": "CHAPTER EIGHT MECHANICAL PROPERTIES OF SOLIDS 8.1 INTRODUCTION In Chapter 6, we studied the rotation of the bodies and then realised that the motion of a body depends on how mass is distributed within the body. We restri"
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/keph202.pdf",
+   "kb": 2135,
+   "pages": 22,
+   "head": "CHAPTER NINE MECHANICAL PROPERTIES OF FLUIDS 9.1 INTRODUCTION In this chapter , we shall study some common physical properties of liquids and gases. Liquids and gases can flow and are therefore, called fluids. I t is thi"
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/keph203.pdf",
+   "kb": 2206,
+   "pages": 24,
+   "head": "CHAPTER TEN THERMAL PROPERTIES OF MATTER 10.1 INTRODUCTION We all have common sense notions of heat and temperature. Temperature is a measur e of ‘hotness’ of a body. A kettle with boiling water is hotter than a box cont"
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/keph204.pdf",
+   "kb": 1768,
+   "pages": 18,
+   "head": "CHAPTER ELEVEN THERMODYNAMICS 11.1 INTRODUCTION In previous chapter we have studied thermal properties of matter. In this chapter we shall study laws that gover n thermal energy. We shall study the processes where work i"
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/keph205.pdf",
+   "kb": 1443,
+   "pages": 15,
+   "head": "CHAPTER TWELVE KINETIC THEORY 12.1 INTRODUCTION Boyle discovered the law named after him in 1661. Boyle, Newton and several others tried to explain the behaviour of gases by considering that gases are made up of tiny ato"
+  },
+  {
+   "n": 6,
+   "url": "https://ncert.nic.in/textbook/pdf/keph206.pdf",
+   "kb": 1558,
+   "pages": 19,
+   "head": "CHAPTER THIRTEEN OSCILLATIONS 13.1 INTRODUCTION In our daily life we come across various kinds of motions. You have already learnt about some of them, e.g., rectilinear motion and motion of a projectile. Both these motio"
+  },
+  {
+   "n": 7,
+   "url": "https://ncert.nic.in/textbook/pdf/keph207.pdf",
+   "kb": 1978,
+   "pages": 22,
+   "head": "CHAPTER FOURTEEN WAVES 14.1 INTRODUCTION In the pr evious Chapter, we studied the motion of objects oscillating in isolation. What happens in a system, which is a collection of such objects? A material medium provides su"
+  }
+ ],
+ "kech1": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/kech101.pdf",
+   "kb": 3913,
+   "pages": 28,
+   "head": "UNIT 1 SOME BASIC CONCEPTS OF CHEMISTRY Science can be viewed as a continuing human effort to systematise knowledge for describing and understanding nature. You have learnt in your previous classes that we come across di"
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/kech102.pdf",
+   "kb": 5355,
+   "pages": 45,
+   "head": "The rich diversity of chemical behaviour of different elements can be traced to the differences in the internal structure of atoms of these elements. Unit 2 strUctUre of atom After studying this unit you will be able to "
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/kech103.pdf",
+   "kb": 3361,
+   "pages": 26,
+   "head": "The Periodic Table is arguably the most important concept in chemistry, both in principle and in practice. It is the everyday support for students, it suggests new avenues of research to professionals, and it provides a "
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/kech104.pdf",
+   "kb": 4437,
+   "pages": 36,
+   "head": "Scientists are constantly discovering new compounds, orderly arranging the facts about them, trying to explain with the existing knowledge, organising to modify the earlier views or evolve theories for explaining the new"
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/kech105.pdf",
+   "kb": 5003,
+   "pages": 32,
+   "head": "Thermodynamics It is the only physical theory of universal content concerning which I am convinced that, within the framework of the applicability of its basic concepts, it will never be overthrown. Albert Einstein Chemi"
+  },
+  {
+   "n": 6,
+   "url": "https://ncert.nic.in/textbook/pdf/kech106.pdf",
+   "kb": 5540,
+   "pages": 53,
+   "head": "Unit 6 EqUilibriUm Chemical equilibria are important in numerous biological and environmental processes. For example, equilibria involving O2 molecules and the protein hemoglobin play a crucial role in the transport and "
+  }
+ ],
+ "kech2": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/kech201.pdf",
+   "kb": 1884,
+   "pages": 21,
+   "head": "235REDOX REACTIONS Chemistry deals with varieties of matter and change of one kind of matter into the other. Transformation of matter from one kind into another occurs through the various types of reactions. One importan"
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/kech202.pdf",
+   "kb": 4357,
+   "pages": 39,
+   "head": "\u0015\u0018\u0019 chemistry Organic chemistry – sOme Basic PrinciPles and techniques aIWHU VWXG\\LQJ WKLV XQLW\u000f \\RX ZLOO EH DEOH WR  XQGHUVWDQG UHDVRQV IRU WHWUDYDOHQFH RI FDUERQ DQG VKDSHV RI RUJDQLF PROHFXOHV  ZULWH VWUXFWXUHV RI R"
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/kech203.pdf",
+   "kb": 3219,
+   "pages": 33,
+   "head": "295HYDROCARBONS UNIT 9 After studying this unit, you will be able to  name hydrocarbons according to IUPAC system of nomenclature;  recognise and write structures of isomers of alkanes, alkenes, alkynes and aromatic hy"
+  }
+ ],
+ "kemh1": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh101.pdf",
+   "kb": 2171,
+   "pages": 23,
+   "head": "Chapter 1 SETS Georg Cantor (1845-1918) vIn these days of conflict between ancient and modern studies; there must surely be something to be said for a study which did not begin with Pythagoras and will not end with Einst"
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh102.pdf",
+   "kb": 2000,
+   "pages": 19,
+   "head": "vMathematics is the indispensable instrument of all physical research. – BERTHELOT v 2.1 Introduction Much of mathematics is about finding a pattern – a recognisable link between quantities that change. In our daily life"
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh103.pdf",
+   "kb": 2965,
+   "pages": 33,
+   "head": "vA mathematician knows how to solve a problem, he can not solve it. – MILNE v 3.1 Introduction The word ‘trigonometry’ is derived from the Greek words ‘trigon’ and ‘metron’ and it means ‘measuring the sides of a triangle"
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh104.pdf",
+   "kb": 1523,
+   "pages": 13,
+   "head": "76 MA THEMATICS Chapter COMPLEX NUMBERS AND QUADRATIC EQUATIONS W. R. Hamilton (1805-1865) vMathematics is the Queen of Sciences and Arithmetic is the Queen of Mathematics. – GAUSS v 4.1 Introduction In earlier classes, "
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh105.pdf",
+   "kb": 1329,
+   "pages": 11,
+   "head": "5Chapter vMathematics is the art of saying many things in many different ways. – MAXWELLv 5.1 Introduction In earlier classes, we have studied equations in one variable and two variables and also solved some statement pr"
+  },
+  {
+   "n": 6,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh106.pdf",
+   "kb": 2351,
+   "pages": 26,
+   "head": "100 MA THEMATICS vEvery body of discovery is mathematical in form because there is no other guidance we can have – DARWIN v 6.1 Introduction Suppose you have a suitcase with a number lock. The number lock has 4 wheels ea"
+  },
+  {
+   "n": 7,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh107.pdf",
+   "kb": 1256,
+   "pages": 9,
+   "head": "126 MA THEMATICS vMathematics is a most exact science and its conclusions are capable of absolute proofs. – C.P. STEINMETZv 7.1 Introduction In earlier classes, we have learnt how to find the squares and cubes of binomia"
+  },
+  {
+   "n": 8,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh108.pdf",
+   "kb": 1680,
+   "pages": 16,
+   "head": "vNatural numbers are the product of human spirit. – DEDEKIND v 8.1 Introduction In mathematics, the word, “sequence” is used in much the same way as it is in ordinary English. When we say that a collection of objects is "
+  },
+  {
+   "n": 9,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh109.pdf",
+   "kb": 2410,
+   "pages": 25,
+   "head": "vG GG GG eometry, as a logical system, is a means and even the most powerful means to make children feel the strength of the human spirit that is of their own spirit. – H. FREUDENTHALv 9.1 Introduction We are familiar wi"
+  },
+  {
+   "n": 10,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh110.pdf",
+   "kb": 2974,
+   "pages": 32,
+   "head": "176 MA THEMATICS vLet the relation of knowledge to real life be very visible to your pupils and let them understand how by knowledge the world could be transformed. – BERTRAND RUSSELL v 10.1 Introduction In the preceding"
+  },
+  {
+   "n": 11,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh111.pdf",
+   "kb": 1226,
+   "pages": 9,
+   "head": "208 MATHEMATICS vMathematics is both the queen and the hand-maiden of all sciences – E.T. BELLv 11.1 Introduction You may recall that to locate the position of a point in a plane, we need two intersecting mutually perpen"
+  },
+  {
+   "n": 12,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh112.pdf",
+   "kb": 3346,
+   "pages": 40,
+   "head": "vWith the Calculus as a key , Mathematics can be successfully applied to the explanation of the course of Nature – WHITEHEAD v 12.1 Introduction This chapter is an introduction to Calculus. Calculus is that branch of mat"
+  },
+  {
+   "n": 13,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh113.pdf",
+   "kb": 2784,
+   "pages": 32,
+   "head": "v“Statistics may be rightly called the science of averages and their estimates.” – A.L.BOWLEY & A.L. BODDINGT ON v 13.1 Introduction We know that statistics deals with data collected for specific purposes. We can make de"
+  },
+  {
+   "n": 14,
+   "url": "https://ncert.nic.in/textbook/pdf/kemh114.pdf",
+   "kb": 2274,
+   "pages": 25,
+   "head": "vWhere a mathematical reasoning can be had, it is as great a folly to make use of any other , as to grope for a thing in the dark, when you have a candle in your hand. – JOHN ARBUTHNOT v 14.1 Event We have studied about "
+  }
+ ],
+ "kebo1": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo101.pdf",
+   "kb": 2210,
+   "pages": 9,
+   "head": "Biology is the science of life forms and living processes. The living world comprises an amazing diversity of living organisms. Early man could easily perceive the difference between inanimate matter and living organisms"
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo102.pdf",
+   "kb": 3216,
+   "pages": 13,
+   "head": "10 BIOLOGY Since the dawn of civilisation, there have been many attempts to classify living organisms. It was done instinctively not using criteria that were scientific but borne out of a need to use organisms for our ow"
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo103.pdf",
+   "kb": 5059,
+   "pages": 14,
+   "head": "PLANT KINGDOM 23 In the previous chapter, we looked at the broad classification of living organisms under the system proposed by Whittaker (1969) wherein he suggested the Five Kingdom classification viz. Monera, Protista"
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo104.pdf",
+   "kb": 6072,
+   "pages": 18,
+   "head": "ANIMAL KINGDOM 3737 When you look around, you will observe different animals with different structures and forms. As over a million species of animals have been described till now, the need for classification becomes all"
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo105.pdf",
+   "kb": 3351,
+   "pages": 16,
+   "head": "UNIT 2 The description of the diverse forms of life on earth was made only by observation – through naked eyes or later through magnifying lenses and microscopes. This description is mainly of gross structural features, "
+  },
+  {
+   "n": 6,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo106.pdf",
+   "kb": 1855,
+   "pages": 8,
+   "head": "ANATOMY OF FLOWERING PLANTS 71 You can very easily see the structural similarities and variations in the external morphology of the larger living organism, both plants and animals. Similarly, if we were to study the inte"
+  },
+  {
+   "n": 7,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo107.pdf",
+   "kb": 988,
+   "pages": 6,
+   "head": "STRUCTURAL ORGANISATION IN ANIMALS 79 In the preceding chapters you came across a large variety of organisms, both unicellular and multicellular, of the animal kingdom. In unicellular organisms, all functions like digest"
+  },
+  {
+   "n": 8,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo108.pdf",
+   "kb": 6821,
+   "pages": 19,
+   "head": "UNIT 3 Biology is the study of living organisms. The detailed description of their form and appearance only brought out their diversity. It is the cell theory that emphasised the unity underlying this diversity of forms,"
+  },
+  {
+   "n": 9,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo109.pdf",
+   "kb": 1808,
+   "pages": 16,
+   "head": "104 BIOLOGY There is a wide diversity in living organisms in our biosphere. Now a question that arises in our minds is: Are all living organisms made of the same chemicals, i.e., elements and compounds? Y ou have lear nt"
+  },
+  {
+   "n": 10,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo110.pdf",
+   "kb": 2430,
+   "pages": 11,
+   "head": "120 BIOLOGY Are you aware that all organisms, even the largest, start their life from a single cell? You may wonder how a single cell then goes on to form such large organisms. Growth and reproduction are characteristics"
+  },
+  {
+   "n": 11,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo111.pdf",
+   "kb": 2614,
+   "pages": 22,
+   "head": "UNIT 4 The description of structure and variation of living organisms over a period of time, ended up as two, apparently irreconcilable perspectives on biology. The two perspectives essentially rested on two levels of or"
+  },
+  {
+   "n": 12,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo112.pdf",
+   "kb": 1613,
+   "pages": 13,
+   "head": "RESPIRATION IN PLANTS 153 All of us breathe to live, but why is breathing so essential to life? What happens when we breathe? Also, do all living organisms, including plants and microbes, breathe? If so, how? All living "
+  },
+  {
+   "n": 13,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo113.pdf",
+   "kb": 1876,
+   "pages": 15,
+   "head": "166 BIOLOGY You have already studied the organisation of a flowering plant in Chapter 5. Have you ever thought about where and how the structures like roots, stems, leaves, flowers, fruits and seeds arise and that too in"
+  },
+  {
+   "n": 14,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo114.pdf",
+   "kb": 2003,
+   "pages": 12,
+   "head": "UNIT 5 The reductionist approach to study of life forms resulted in increasing use of physico-chemical concepts and techniques. Majority of these studies employed either surviving tissue model or straightaway cell- free "
+  },
+  {
+   "n": 15,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo115.pdf",
+   "kb": 3032,
+   "pages": 12,
+   "head": "BODY FLUIDS AND CIRCULATION 193 You have learnt that all living cells have to be provided with nutrients, O2 and other essential substances. Also, the waste or harmful substances produced, have to be removed continuously"
+  },
+  {
+   "n": 16,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo116.pdf",
+   "kb": 1730,
+   "pages": 12,
+   "head": "EXCRETORY PRODUCTS AND THEIR ELIMINATION 205 Animals accumulate ammonia, urea, uric acid, carbon dioxide, water and ions like Na+, K+, Cl–, phosphate, sulphate, etc., either by metabolic activities or by other means like"
+  },
+  {
+   "n": 17,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo117.pdf",
+   "kb": 4394,
+   "pages": 13,
+   "head": "LOCOMOTION AND MOVEMENT 217 Movement is one of the significant features of living beings. Animals and plants exhibit a wide range of movements. Streaming of protoplasm in the unicellular organisms like Amoeba is a simple"
+  },
+  {
+   "n": 18,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo118.pdf",
+   "kb": 4153,
+   "pages": 9,
+   "head": "230 BIOLOGY As you know, the functions of the organs/organ systems in our body must be coordinated to maintain homeostasis. Coordination is the process through which two or more organs interact and complement the functio"
+  },
+  {
+   "n": 19,
+   "url": "https://ncert.nic.in/textbook/pdf/kebo119.pdf",
+   "kb": 2079,
+   "pages": 14,
+   "head": "239239CHEMICAL COORDINATION AND INTEGRATION You have alr eady lear nt that the neural system pr ovides a point -to-point rapid coordination among organs. The neural coordination is fast but short-lived. As the nerve fibr"
+  }
+ ],
+ "leph1": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/leph101.pdf",
+   "kb": 3857,
+   "pages": 44,
+   "head": "Chapter One ELECTRIC CHARGES AND FIELDS 1.1 INTRODUCTION All of us have the experience of seeing a spark or hearing a crackle when we take off our synthetic clothes or sweater, particularly in dry weather. Have you ever "
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/leph102.pdf",
+   "kb": 3786,
+   "pages": 36,
+   "head": "2.1 I 2.1 I2.1 I 2.1 I2.1 I NTRODUCTIONNTRODUCTIONNTRODUCTIONNTRODUCTIONNTRODUCTION In Chapters 5 and 7 (Class XI), the notion of potential energy was introduced. When an external force does work in taking a body from a "
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/leph103.pdf",
+   "kb": 2114,
+   "pages": 26,
+   "head": "3.1 INTRODUCTION In Chapter 1, all charges whether free or bound, were considered to be at rest. Charges in motion constitute an electric current. Such currents occur naturally in many situations. Lightning is one such p"
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/leph104.pdf",
+   "kb": 3606,
+   "pages": 29,
+   "head": "4.1 INTRODUCTION Both Electricity and Magnetism have been known for more than 2000 years. However, it was only about 200 years ago, in 1820, that it was realised that they were intimately related. During a lecture demons"
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/leph105.pdf",
+   "kb": 1875,
+   "pages": 18,
+   "head": "Physics 136 5.1 INTRODUCTION Magnetic phenomena are universal in nature. Vast, distant galaxies, the tiny invisible atoms, humans and beasts all are permeated through and through with a host of magnetic fields from a var"
+  },
+  {
+   "n": 6,
+   "url": "https://ncert.nic.in/textbook/pdf/leph106.pdf",
+   "kb": 2333,
+   "pages": 23,
+   "head": "Physics 154 6.1 INTRODUCTION Electricity and magnetism were considered separate and unrelated phenomena for a long time. In the early decades of the nineteenth century, experiments on electric current by Oersted, Ampere "
+  },
+  {
+   "n": 7,
+   "url": "https://ncert.nic.in/textbook/pdf/leph107.pdf",
+   "kb": 2351,
+   "pages": 24,
+   "head": "7.1 INTRODUCTION We have so far considered direct current (dc) sources and circuits with dc sources. These currents do not change direction with time. But voltages and currents that vary with time are very common. The el"
+  },
+  {
+   "n": 8,
+   "url": "https://ncert.nic.in/textbook/pdf/leph108.pdf",
+   "kb": 1332,
+   "pages": 14,
+   "head": "Chapter Eight ELECTROMAGNETIC WAVES 8.1 INTRODUCTION In Chapter 4, we learnt that an electric current produces magnetic field and that two current-carrying wires exert a magnetic force on each other. Further, in Chapter "
+  }
+ ],
+ "leph2": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/leph201.pdf",
+   "kb": 3312,
+   "pages": 34,
+   "head": "Chapter Nine RAY OPTICS AND OPTICAL INSTRUMENTS 9.1 INTRODUCTION Nature has endowed the human eye (retina) with the sensitivity to detect electromagnetic waves within a small range of the electromagnetic spectrum. Electr"
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/leph202.pdf",
+   "kb": 2619,
+   "pages": 19,
+   "head": "255 Wave Optics Chapter Ten WAVE OPTICS 10.1 INTRODUCTION In 1637 Descartes gave the corpuscular model of light and derived Snell’s law. It explained the laws of reflection and refraction of light at an interface. The co"
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/leph203.pdf",
+   "kb": 1749,
+   "pages": 16,
+   "head": "Physics 274 11.1 INTRODUCTION The Maxwell’s equations of electromagnetism and Hertz experiments on the generation and detection of electromagnetic waves in 1887 strongly established the wave nature of light. Towards the "
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/leph204.pdf",
+   "kb": 2006,
+   "pages": 16,
+   "head": "Physics 290 12.1 INTRODUCTION By the nineteenth century, enough evidence had accumulated in favour of atomic hypothesis of matter. In 1897, the experiments on electric discharge through gases carried out by the English p"
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/leph205.pdf",
+   "kb": 1787,
+   "pages": 17,
+   "head": "Physics 306 13.1 INTRODUCTION In the previous chapter, we have learnt that in every atom, the positive charge and mass are densely concentrated at the centre of the atom forming its nucleus. The overall dimensions of a n"
+  },
+  {
+   "n": 6,
+   "url": "https://ncert.nic.in/textbook/pdf/leph206.pdf",
+   "kb": 1838,
+   "pages": 21,
+   "head": "14.1 INTRODUCTION Devices in which a controlled flow of electrons can be obtained are the basic building blocks of all the electronic circuits. Before the discovery of transistor in 1948, such devices were mostly vacuum "
+  }
+ ],
+ "lech1": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/lech101.pdf",
+   "kb": 3852,
+   "pages": 30,
+   "head": "After studying this Unit, you will be able to • describe the formation of different types of solutions; • express concentration of solution in different units; • state and explain Henry’s law and Raoult’s law; • distingu"
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/lech102.pdf",
+   "kb": 4281,
+   "pages": 30,
+   "head": "Electrochemistry is the study of production of electricity from energy released during spontaneous chemical reactions and the use of electrical energy to bring about non-spontaneous chemical transformations. The subject "
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/lech103.pdf",
+   "kb": 3891,
+   "pages": 28,
+   "head": "Chemistry, by its very nature, is concerned with change. Substances with well defined properties are converted by chemical reactions into other substances with different properties. For any chemical reaction, chemists tr"
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/lech104.pdf",
+   "kb": 4089,
+   "pages": 29,
+   "head": "The d-block of the periodic table contains the elements of the groups 3-12 in which the d orbitals are progressively filled in each of the four long periods. The f-block consists of elements in which 4 f and 5 f orbitals"
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/lech105.pdf",
+   "kb": 3611,
+   "pages": 23,
+   "head": "118Chemistry In the previous Unit we learnt that the transition metals form a large number of complex compounds in which the metal atoms are bound to a number of anions or neutral molecules by sharing of electrons. In mo"
+  }
+ ],
+ "lech2": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/lech201.pdf",
+   "kb": 4245,
+   "pages": 34,
+   "head": "The replacement of hydrogen atom(s) in a n aliphatic or aromatic hydrocarbon by halogen atom(s) results in the formation of alkyl halide (haloalkane) and aryl halide (haloarene), respectively. Haloalkanes contain halogen"
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/lech202.pdf",
+   "kb": 4487,
+   "pages": 34,
+   "head": "After studying this Unit, you will be able to • name alcohols, phenols and ethers according to the IUPAC system of nomenclature; • discuss the reactions involved in the preparation of alcohols from alkenes, aldehydes, ke"
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/lech203.pdf",
+   "kb": 4284,
+   "pages": 32,
+   "head": "After studying this Unit, you will be able to • write the common and IUPAC names of aldehydes, ketones and carboxylic acids; • write the structures of the compounds containing functional groups namely carbonyl and carbox"
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/lech204.pdf",
+   "kb": 2851,
+   "pages": 22,
+   "head": "Amines constitute an important class of organic compounds derived by replacing one or more hydrogen atoms of ammonia molecule by alkyl/aryl group(s). In nature, they occur among proteins, vitamins, alkaloids and hormones"
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/lech205.pdf",
+   "kb": 3051,
+   "pages": 22,
+   "head": "A living system grows, sustains and reproduces itself. The most amazing thing about a living system is that it is composed of non-living atoms and molecules. The pursuit of knowledge of what goes on chemically within a l"
+  }
+ ],
+ "lemh1": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh101.pdf",
+   "kb": 1372,
+   "pages": 17,
+   "head": "vThere is no permanent place in the world for ugly mathematics ... . It may be very hard to define mathematical beauty but that is just as true of beauty of any kind, we may not know quite what we mean by a beautiful poe"
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh102.pdf",
+   "kb": 1399,
+   "pages": 16,
+   "head": "18 MATHEMA TICS vMathematics, in general, is fundamentally the science of self-evident things. — FELIX KLEIN v 2.1 Introduction In Chapter 1, we have studied that the inverse of a function f, denoted by f –1, exists if f"
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh103.pdf",
+   "kb": 3356,
+   "pages": 42,
+   "head": "34 MATHEMA TICS vThe essence of Mathematics lies in its freedom. — CANTOR v 3.1 Introduction The knowledge of matrices is necessary in various branches of mathematics. Matrices are one of the most powerful tools in mathe"
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh104.pdf",
+   "kb": 2004,
+   "pages": 28,
+   "head": "76 MATHEMA TICS v All Mathematical truths are relative and conditional. — C.P. STEINMETZ v 4.1 Introduction In the previous chapter , we have studied about matrices and algebra of matrices. We have also learnt that a sys"
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh105.pdf",
+   "kb": 3145,
+   "pages": 43,
+   "head": "MATHEMATICS104 vThe whole of science is nothing more than a refinement of everyday thinking. ” — ALBERT EINSTEIN v 5.1 Introduction This chapter is essentially a continuation of our study of differentiation of functions "
+  },
+  {
+   "n": 6,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh106.pdf",
+   "kb": 3206,
+   "pages": 40,
+   "head": "v With the Calculus as a key , Mathematics can be successfully applied to the explanation of the course of Nature.” — WHITEHEAD v 6.1 Introduction In Chapter 5, we have learnt how to find derivative of composite function"
+  }
+ ],
+ "lemh2": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh201.pdf",
+   "kb": 5529,
+   "pages": 67,
+   "head": "INTEGRALS 225 /xrhombus Just as a mountaineer climbs a mountain – because it is there, so a good mathematics student studies new material because it is there. — JAMES B. BRISTOL /xrhombus 7.1 Introduction Differential Ca"
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh202.pdf",
+   "kb": 1363,
+   "pages": 8,
+   "head": "292 MATHEMA TICS Fig 8.1 /xrhombus One should study Mathematics because it is only through Mathematics that nature can be conceived in harmonious form. – BIRKHOFF /xrhombus 8.1 Introduction In geometry, we have learnt fo"
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh203.pdf",
+   "kb": 3298,
+   "pages": 38,
+   "head": "MATHEMA TICS300 /xrhombus He who seeks for methods without having a definite problem in mind seeks for the most part in vain. – D. HILBERT /xrhombus 9.1 Introduction In Class XI and in Chapter 5 of the present book, we d"
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh204.pdf",
+   "kb": 4891,
+   "pages": 39,
+   "head": "MATHEMATICS338 /xrhombus In most sciences one generation tears down what another has built and what one has established another undoes. In Mathematics alone each generation builds a new story to the old structure. – HERM"
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh205.pdf",
+   "kb": 2014,
+   "pages": 17,
+   "head": "THREE DIMENSIONAL GEOMETR Y 377 /xrhombus The moving power of mathematical invention is not reasoning but imagination. – A .DEMORGAN /xrhombus 11.1 Introduction In Class XI, while studying Analytical Geometry in two dime"
+  },
+  {
+   "n": 6,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh206.pdf",
+   "kb": 1531,
+   "pages": 12,
+   "head": "394 MATHEMA TICS /xrhombus The mathematical experience of the student is incomplete if he never had the opportunity to solve a problem invented by himself. – G. POLYA /xrhombus 12.1 Introduction In earlier classes, we ha"
+  },
+  {
+   "n": 7,
+   "url": "https://ncert.nic.in/textbook/pdf/lemh207.pdf",
+   "kb": 2854,
+   "pages": 33,
+   "head": "406 MATHEMA TICS /xrhombus The theory of probabilities is simply the Science of logic quantitatively treated. – C.S. PEIRCE /xrhombus 13.1 Introduction In earlier Classes, we have studied the probability as a measure of "
+  }
+ ],
+ "lebo1": [
+  {
+   "n": 1,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo101.pdf",
+   "kb": 35940,
+   "pages": 25,
+   "head": "Biology in essence is the story of life on earth. While individual organisms die without fail, species continue to live through millions of years unless threatened by natural or anthropogenic extinction. Reproduction bec"
+  },
+  {
+   "n": 2,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo102.pdf",
+   "kb": 62941,
+   "pages": 15,
+   "head": "As you are aware, humans are sexually reproducing and viviparous. The reproductive events in humans include formation of gametes (gametogenesis), i.e., sperms in males and ovum in females, transfer of sperms into the fem"
+  },
+  {
+   "n": 3,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo103.pdf",
+   "kb": 1228,
+   "pages": 10,
+   "head": "You have learnt about human reproductive system and its functions in Chapter 2. Now, let’s discuss a closely related topic – reproductive health. What do we understand by this term? The term simply refers to healthy repr"
+  },
+  {
+   "n": 4,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo104.pdf",
+   "kb": 18759,
+   "pages": 28,
+   "head": "The work of Mendel and others who followed him gave us an idea of inheritance patterns. However the nature of those ‘factors’ which determine the phenotype was not very clear. As these ‘factors’ represent the genetic bas"
+  },
+  {
+   "n": 5,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo105.pdf",
+   "kb": 4036,
+   "pages": 31,
+   "head": "CHAPTER 5 MOLECULAR BASIS OF INHERITANCE 5.1 The DNA 5.2 The Search for Genetic Material 5.3 RNA World 5 .4 Replication 5.5 Transcription 5.6 Genetic Code 5.7 Translation 5.8 Regulation of Gene Expression 5.9 Human Genom"
+  },
+  {
+   "n": 6,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo106.pdf",
+   "kb": 12424,
+   "pages": 17,
+   "head": "110 BIOLOGY Evolutionary Biology is the study of history of life forms on earth. What exactly is evolution? To understand the changes in flora and fauna that have occurred over millions of years on earth, we must have an"
+  },
+  {
+   "n": 7,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo107.pdf",
+   "kb": 4397,
+   "pages": 22,
+   "head": "Chapter 7 Human Health and Disease Chapter 8 Microbes in Human Welfare Biology is the youngest of the formalised disciplines of natural science. Progress in physics and chemistry proceeded much faster than in Biology. Ap"
+  },
+  {
+   "n": 8,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo108.pdf",
+   "kb": 12636,
+   "pages": 12,
+   "head": "Besides macroscopic plants and animals, microbes are the major components of biological systems on this earth. You have studied about the diversity of living organisms in Class XI. Do you remember which Kingdoms among th"
+  },
+  {
+   "n": 9,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo109.pdf",
+   "kb": 3063,
+   "pages": 16,
+   "head": "Ever since the days of Rene Descartes, the French philosopher, mathematician and biologist of seventeenth century, all human knowledge especially natural sciences were directed to develop technologies which add to the cr"
+  },
+  {
+   "n": 10,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo110.pdf",
+   "kb": 1458,
+   "pages": 11,
+   "head": "Biotechnology, as you would have learnt from the previous chapter, essentially deals with industrial scale production of biopharmaceuticals and biologicals using genetically modified microbes, fungi, plants and animals. "
+  },
+  {
+   "n": 11,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo111.pdf",
+   "kb": 1518,
+   "pages": 17,
+   "head": "Diversity is not only a characteristic of living organisms but also of content in biology textbooks. Biology is presented either as botany, zoology and microbiology or as classical and modern. The latter is a euphemism f"
+  },
+  {
+   "n": 12,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo112.pdf",
+   "kb": 2358,
+   "pages": 11,
+   "head": "An ecosystem can be visualised as a functional unit of nature, where living organisms interact among themselves and also with the surrounding physical environment. Ecosystem varies greatly in size from a small pond to a "
+  },
+  {
+   "n": 13,
+   "url": "https://ncert.nic.in/textbook/pdf/lebo113.pdf",
+   "kb": 2289,
+   "pages": 13,
+   "head": "If an alien from a distant galaxy were to visit our planet Earth, the first thing that would amaze and baffle him would most probably be the enormous diversity of life that he would encounter. Even for humans, the rich v"
+  }
+ ],
+ "_blocked_403": 0
+}
