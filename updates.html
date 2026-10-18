@@ -49,6 +49,17 @@ h1{font-size:clamp(1.6rem,7vw,2.2rem);margin:4px 0 4px;line-height:1.15}
 .body p{margin:0;color:var(--mute);font-size:.88rem}
 .ext{grid-area:ext;justify-self:end;color:var(--acc);width:18px;height:18px}
 .src{display:none}
+.body h3 a{color:inherit}
+.body h3 a:hover{color:var(--acc)}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--acc);font-size:.92rem;margin:4px 0 14px}
+.detail{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px clamp(14px,4vw,24px)}
+.detail .tag{display:inline-block;margin-bottom:10px}
+.detail h1{font-size:clamp(1.3rem,5.5vw,1.8rem);margin:0 0 6px;line-height:1.25;overflow-wrap:anywhere}
+.detail time{display:block;color:var(--mute);font-size:.9rem;margin-bottom:14px}
+.detail p{margin:0 0 16px;color:var(--ink)}
+.detail .go{display:inline-flex;align-items:center;gap:8px;background:var(--acc);color:#fff;border-radius:10px;padding:12px 18px;font-weight:500}
+.detail .go svg{width:18px;height:18px}
+.detail .hint{margin:14px 0 0;color:var(--mute);font-size:.82rem}
 .empty{padding:30px 6px;text-align:center;color:var(--mute)}
 .note{margin:14px 0 0;padding:10px 12px;border-radius:10px;background:var(--soft);color:var(--mute);font-size:.82rem}
 .foot{margin:22px 0 0;color:var(--mute);font-size:.8rem}
@@ -117,6 +128,19 @@ h1{font-size:clamp(1.6rem,7vw,2.2rem);margin:4px 0 4px;line-height:1.15}
     <div class="head m"><span class="logo">Graphpaper</span><div class="av">AS</div></div>
     <label class="search m"><svg class="i"><use href="#srch"/></svg><input type="search" id="q1" placeholder="Search updates..." aria-label="Search updates"></label>
 
+    <section id="detail" hidden>
+      <a class="back" href="updates.html">&larr; All updates</a>
+      <article class="detail">
+        <span class="tag" id="d-tag"></span>
+        <h1 id="d-title"></h1>
+        <time id="d-date"></time>
+        <p id="d-sum"></p>
+        <a class="go" id="d-go" href="#" target="_blank" rel="noopener">Open official notice <svg class="i"><use href="#ext"/></svg></a>
+        <p class="hint">The notice itself is hosted by CBSE. Always confirm details on the official source.</p>
+      </article>
+    </section>
+
+    <div id="listview">
     <h1>Updates</h1>
     <p class="subt">CBSE circulars, date sheets, syllabus changes and results.</p>
 
@@ -125,6 +149,7 @@ h1{font-size:clamp(1.6rem,7vw,2.2rem);margin:4px 0 4px;line-height:1.15}
 
     <div class="list" id="list"></div>
     <p class="note" id="note" hidden>Sample content for the design. Real updates will come from official CBSE sources.</p>
+    </div>
     <p class="foot">Always confirm on the official CBSE website before acting on any update.</p>
   </main>
 </div>
@@ -149,7 +174,7 @@ var SAMPLE = [
   {id:"s4",tag:"Result",title:"Sample: results declared",date:"2026-09-15",summary:"Placeholder item showing how a result update will look.",url:"https://www.cbse.gov.in",status:"approved",sample:true}
 ];
 var TAGS = ["All","Circular","Date Sheet","Syllabus Change","Result"];
-var items = [], active = "All", query = "";
+var items = [], active = "All", query = "", loaded = false;
 var listEl = document.getElementById("list"), countEl = document.getElementById("count"),
     chipsEl = document.getElementById("chips"), noteEl = document.getElementById("note"),
     q1 = document.getElementById("q1"), q2 = document.getElementById("q2");
@@ -190,7 +215,9 @@ function render(){
     var a = document.createElement("article"); a.className = "up";
     var tag = document.createElement("span"); tag.className = "tag"; tag.dataset.tag = x.tag; tag.textContent = x.tag;
     var body = document.createElement("div"); body.className = "body";
-    var h = document.createElement("h3"); h.textContent = x.title;
+    var h = document.createElement("h3");
+    var hl = document.createElement("a"); hl.href = "updates.html?id=" + encodeURIComponent(x.id); hl.textContent = x.title;
+    h.appendChild(hl);
     var tm = document.createElement("time"); tm.setAttribute("datetime", x.date); tm.textContent = fmt(x.date);
     var p = document.createElement("p"); p.textContent = x.summary || "";
     body.appendChild(h); body.appendChild(tm); if (x.summary) body.appendChild(p);
@@ -208,6 +235,24 @@ function setData(data){
     .sort(function(a,b){ return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
   noteEl.hidden = !items.some(function(x){ return x.sample; });
   render();
+  route();
+}
+
+function route(){
+  var id = new URLSearchParams(location.search).get("id");
+  var it = null;
+  if (id) items.forEach(function(x){ if (x.id === id) it = x; });
+  var detail = document.getElementById("detail"), lv = document.getElementById("listview");
+  if (id && !it && !loaded){ detail.hidden = true; lv.hidden = true; return; }
+  if (!it){ detail.hidden = true; lv.hidden = false; document.title = "Updates | Graphpaper"; return; }
+  lv.hidden = true; detail.hidden = false;
+  var t = document.getElementById("d-tag"); t.textContent = it.tag; t.className = "tag"; t.dataset.tag = it.tag;
+  document.getElementById("d-title").textContent = it.title;
+  var dd = document.getElementById("d-date"); dd.textContent = fmt(it.date); dd.setAttribute("datetime", it.date);
+  document.getElementById("d-sum").textContent = it.summary || "Open the official notice below for the full details.";
+  document.getElementById("d-go").href = safeUrl(it.url);
+  document.title = it.title + " | Graphpaper";
+  window.scrollTo(0, 0);
 }
 
 function onSearch(e){ query = e.target.value; q1.value = query; q2.value = query; render(); }
@@ -217,8 +262,8 @@ buildChips();
 setData(SAMPLE);
 fetch("updates.json", {cache:"no-store"})
   .then(function(r){ if(!r.ok) throw 0; return r.json(); })
-  .then(function(d){ if (Array.isArray(d) && d.length) setData(d); })
-  .catch(function(){});
+  .then(function(d){ loaded = true; if (Array.isArray(d) && d.length) setData(d); else route(); })
+  .catch(function(){ loaded = true; route(); });
 </script>
 </body>
 </html>
