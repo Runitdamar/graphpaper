@@ -1,12 +1,4 @@
+  SSL error on https://cbseacademic.nic.in/circulars.html; retrying over http
 FAILED https://cbseacademic.nic.in/circulars.html (HTTP None): SSLError
-OK https://www.cbse.gov.in/ (HTTP 200, 6080 bytes, 0 candidate links)
-  page title: CBSE - Central Board of Secondary Education
-  total links: 7, scripts: 0
-  - à¤®à¥à¤à¥à¤¯ à¤µà¥à¤¬à¤¸à¤¾à¤à¤ MAIN WEBSITE -> http://cbse.gov.in/cbsenew/cbse.html
-  - à¤ªà¤°à¥à¤à¥à¤·à¤¾ à¤¸à¤à¤à¤® PARIKSHA SANGAM -> https://parikshasangam.cbse.gov.in/ps
-  - à¤ªà¤°à¤¿à¤£à¤¾à¤® RESULTS -> https://results.digilocker.gov.in/
-  - à¤¸à¤°à¤¸ SARAS -> https://saras.cbse.gov.in/SARAS
-  - à¤¶à¥à¤à¥à¤·à¤£à¤¿à¤ à¤µà¥à¤¬à¤¸à¤¾à¤à¤ ACADEMIC WEBS -> https://cbseacademic.nic.in/
-  - à¤à¥à¤¶à¤² à¤¶à¤¿à¤à¥à¤·à¤¾ à¤µà¥à¤¬à¤¸à¤¾à¤à¤ SKILL  -> https://skilleducation.cbseit.in/
-  - à¤ªà¥à¤°à¤¶à¤¿à¤à¥à¤·à¤£ à¤¤à¥à¤°à¤¿à¤µà¥à¤£à¥ PRASHIK -> https://training.cbseit.in/ET/frmlisting
-Added 0 new pending item(s).
+OK https://www.cbse.gov.in/cbsenew/cbse.html (HTTP 200, 232498 bytes, 63 candidate links)
+Added 23 new pending item(s).
