@@ -28,7 +28,7 @@ STATUS_FILE = ROOT / "scripts" / "last_run.txt"  # short result of the latest ru
 # Pages to check. Add or fix URLs here if CBSE moves them.
 SOURCES = [
     "https://cbseacademic.nic.in/circulars.html",   # academic circulars (Class 11/12 mostly)
-    "https://www.cbse.gov.in/",                      # home page notices
+    "https://www.cbse.gov.in/cbsenew/cbse.html",     # main website (notices / what's new)
 ]
 
 HEADERS = {
@@ -127,7 +127,15 @@ def main():
     status = []
     for src in SOURCES:
         try:
-            r = requests.get(src, headers=HEADERS, timeout=30)
+            try:
+                r = requests.get(src, headers=HEADERS, timeout=30)
+            except requests.exceptions.SSLError:
+                # cbseacademic.nic.in has a broken certificate chain. We only READ public
+                # listings here and every item waits for your approval, so fall back to http.
+                insecure = src.replace("https://", "http://", 1)
+                status.append(f"  SSL error on {src}; retrying over http")
+                r = requests.get(insecure, headers=HEADERS, timeout=30)
+                src = insecure
             r.raise_for_status()
         except requests.RequestException as e:
             code = getattr(getattr(e, "response", None), "status_code", None)
