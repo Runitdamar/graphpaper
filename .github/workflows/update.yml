@@ -1,0 +1,29 @@
+name: Check CBSE updates
+
+on:
+  schedule:
+    - cron: "30 */6 * * *"   # every 6 hours
+  workflow_dispatch: {}       # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scripts/requirements.txt
+      - run: python scripts/scrape_cbse.py
+      - name: Commit new pending items
+        run: |
+          if [ -n "$(git status --porcelain updates.json)" ]; then
+            git config user.name "graphpaper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add updates.json
+            git commit -m "Add new pending CBSE updates"
+            git push
+          fi
