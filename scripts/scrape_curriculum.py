@@ -18,8 +18,15 @@ URL = "https://cbseacademic.nic.in/curriculum_2027.html"
 H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
      "Referer": "https://cbseacademic.nic.in/"}
 
-r = requests.get(URL, headers=H, timeout=60)
+try:
+    r = requests.get(URL, headers=H, timeout=60)
+except Exception as e:
+    OUT.write_text(json.dumps({"error": "%s: %s" % (type(e).__name__, str(e)[:300])}, indent=1), encoding="utf-8")
+    raise
 print("status", r.status_code, len(r.text), file=sys.stderr)
+if r.status_code != 200:
+    OUT.write_text(json.dumps({"error": "HTTP %d" % r.status_code, "body": r.text[:300]}, indent=1), encoding="utf-8")
+    raise SystemExit(1)
 soup = BeautifulSoup(r.text, "html.parser")
 
 
