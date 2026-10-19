@@ -367,7 +367,7 @@ VIEWS["class"] = function(){
    latest + '</div>';
 };
 
-var SUBCOL = {Physics:"--a1", Chemistry:"--a3", Maths:"--a4", Biology:"--a2", Mathematics:"--a4", Science:"--a3", English:"--a1", "Social Science":"--a2", "Environmental Studies":"--a3", Arts:"--a5", "Physical Education":"--a1", "Vocational Education":"--a5", "Skill Education":"--a5", Hindi:"--a4", Sanskrit:"--a5", "Other books":"--a5"};
+var SUBCOL = {Physics:"--a1", Chemistry:"--a3", Maths:"--a4", Biology:"--a2", Mathematics:"--a4", Science:"--a3", English:"--a1", "Social Science":"--a2", "Environmental Studies":"--a3", Arts:"--a5", "Physical Education":"--a1", "Vocational Education":"--a5", "Skill Education":"--a5", Hindi:"--a4", Sanskrit:"--a5", Urdu:"--a4", "Other books":"--a5"};
 var SUBICON = {Physics:"Physics", Chemistry:"Chemistry", Maths:"Maths", Biology:"Biology", Mathematics:"Maths", Science:"Biology"};
 function subCol(s){ return SUBCOL[s] || "--a1"; }
 function subIcon(s){ return ico(SUBICON[s] || "book", 24); }
@@ -379,7 +379,7 @@ function classSubs(c){
   if (+c === 10) o.sort(function(a, b){ return FOLD10.indexOf(a) - FOLD10.indexOf(b); });
   return o;
 }
-var ORDER10 = ["jeff1","jefp1","jhks1","jhkr1","jhsp1","jhsy1","jemh1","jesc1","jess3","jess4","jess2","jess1","jehp1","jhsk1","jhva1"];
+var ORDER10 = ["jeff1","jefp1","jhks1","jhkr1","jhsp1","jhsy1","jemh1","jesc1","jess3","jess4","jess2","jess1","jehp1","jhsk1","jhva1","june1","juge1","jujp1","judp1","jusr1","juuq1"];
 function pdfUrl(b, f){ return BBASE + (typeof f === "string" ? f : b.code + (f < 10 ? "0" : "") + f + ".pdf"); }
 function chRows(b, chs){
   return chs.map(function(h){
