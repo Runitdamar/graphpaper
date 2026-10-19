@@ -124,6 +124,42 @@ C10_EXTRA = {
  "jhsy1": {"lp": "लेखक परिचय (author introductions)"},
  "jhva1": {"a1": "Appendix 1: शब्दरूपाणि", "a2": "Appendix 2: धातुरूपाणि"},
 }
+# Urdu-subject books (Urdu-medium file names start with "ju"). Chapter names come from the PDFs' own
+# document titles (scripts/class10_urdu_heads.json), cleaned up; chapters without a usable title stay "Chapter N".
+urdu = json.loads((root / "class10_urdu.json").read_text(encoding="utf-8"))["books"]
+urdu_heads = json.loads((root / "class10_urdu_heads.json").read_text(encoding="utf-8"))
+
+
+def clean_meta(m):
+    if not m or "..." in m or "\u2026" in m:
+        return None
+    t = re.sub(r"\.cdr$", "", m.strip(), flags=re.I)
+    t = re.sub(r"^(CH|Ch)[ _\-]*\d*[ _\-]*", "", t)
+    t = re.sub(r"^\d+\s*-\s*", "", t).strip(" _-")
+    if t.startswith("(") and t.endswith(")") and t.count("(") == 1:
+        t = t[1:-1].strip()
+    if len(t) < 3 or t.lower().startswith("ch"):
+        return None
+    return t.title() if t.isupper() else t
+
+
+URDU = {
+ "june1": ("Nawa-e-Urdu", "Urdu \u00b7 Nawa-e-Urdu"),
+ "juge1": ("Gulzar-e-Urdu (supplementary reader)", "Urdu \u00b7 Gulzar-e-Urdu"),
+ "jujp1": ("Jaan Pahechan", "Urdu \u00b7 Jaan Pahechan"),
+ "judp1": ("Door-Paas (supplementary reader)", "Urdu \u00b7 Door-Paas"),
+ "jusr1": ("Sab Rang", "Urdu \u00b7 Sab Rang"),
+ "juuq1": ("Urdu grammar and composition", "Urdu \u00b7 Grammar and composition"),
+}
+for code, (title, short) in URDU.items():
+    rows = urdu_heads[code][1:]
+    names = [clean_meta(r.get("meta")) for r in rows]
+    C10[code] = ("Other books", "Urdu", title, short, names)
+    zips[code] = {"files": [{"name": Path(z["name"]).name} for z in urdu[code]["zip"]]}
+    for e in urdu[code]["extra"]:
+        if e["name"].endswith("dd.zip"):
+            zip_mb[e["name"]] = round(int(e["size"]) / 1048576)
+
 books = [b for b in books if b["cls"] != 10]
 for code, (fold, sub, title, short, names) in C10.items():
     files = {Path(f["name"]).name: f for f in zips[code]["files"]}
