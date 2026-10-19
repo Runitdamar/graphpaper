@@ -7045,7 +7045,7585 @@
   ]
  },
  "exemplar": {
-  "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  "url": "https://ncert.nic.in/exemplar-problems.php?ln=en",
+  "links": [
+   {
+    "href": "https://ncert.nic.in/pdf/leading_the_change.pdf",
+    "text": "50 years of NCERT",
+    "row": [],
+    "heads": [],
+    "ok": true,
+    "size": "20695803"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep101.pdf",
+    "text": "Unit 1 (Number System)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "200373"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep102.pdf",
+    "text": "Unit 2 (Geometry)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "307680"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep103.pdf",
+    "text": "Unit 3 (Integers)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "199711"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep104.pdf",
+    "text": "Unit 4 (Fractions & Decimals)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "266738"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep105.pdf",
+    "text": "Unit 5 (Data Handling)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "522060"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep106.pdf",
+    "text": "Unit 6 (Mensuration)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "219326"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep107.pdf",
+    "text": "Unit 7 (Algebra)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "211459"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep108.pdf",
+    "text": "Unit 8 (Ratio & Proportion)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "240575"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep109.pdf",
+    "text": "Unit 9 (Symmetry & Practical Geometry)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "221588"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep1an.pdf",
+    "text": "Answers",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "207517"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep101.pdf",
+    "text": "यूनिट 1 (संख्या प्रणाली)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "201481"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep102.pdf",
+    "text": "यूनिट 2 (ज्यामिति)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "290175"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep103.pdf",
+    "text": "यूनिट 3 (पूर्णांक)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "172153"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep104.pdf",
+    "text": "यूनिट 4 (भिन्न और दशमलव))",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "225322"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep105.pdf",
+    "text": "यूनिट 5 (आकड़ो का प्रबंधन)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "347828"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep106.pdf",
+    "text": "यूनिट 6 (क्षेत्रमिति)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "193658"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep107.pdf",
+    "text": "यूनिट 7 (बीजगणित)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "192406"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep108.pdf",
+    "text": "यूनिट 8 (अनुपात और समानुपात)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "205848"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep109.pdf",
+    "text": "यूनिट 9 (सममिति और प्रायोगिक ज्यामिति)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "201005"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep1an.pdf",
+    "text": "उत्तरमाला",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "242396"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep201.pdf",
+    "text": "1.Food: Where Does It Come From?",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "442770"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep202.pdf",
+    "text": "2.Components of Food",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "988275"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep203.pdf",
+    "text": "3.Fibre to Fabric",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "130971"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep204.pdf",
+    "text": "4.Sorting Materials and Groups",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "406770"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep205.pdf",
+    "text": "5.Separation of Substances",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "161254"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep206.pdf",
+    "text": "6.Changes Around Us",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "139843"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep207.pdf",
+    "text": "7.Getting to Know Plants",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "224962"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep208.pdf",
+    "text": "8.Body Movement",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "150085"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep209.pdf",
+    "text": "9.The Living Organisms and their Surroundings",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "229098"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep210.pdf",
+    "text": "10.Motion and Measurement of Distances",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "327519"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep211.pdf",
+    "text": "11.Light",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "839581"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep212.pdf",
+    "text": "12.Electricity and Circuits",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "414991"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep213.pdf",
+    "text": "13.Fun with Magnets",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "792461"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep214.pdf",
+    "text": "14.Water",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "191670"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep215.pdf",
+    "text": "15.Air Around Us",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "247651"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep216.pdf",
+    "text": "16.Garbage in, Garbage out",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "589997"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep2an.pdf",
+    "text": "Answers",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1705426"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp101.pdf",
+    "text": "Unit 1(Integers)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "306210"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp102.pdf",
+    "text": "Unit 2(Fractions & Decimals)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1472711"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp103.pdf",
+    "text": "Unit 3(Data Handling)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1589005"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp104.pdf",
+    "text": "Unit 4(Simple Equations)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "4460393"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp105.pdf",
+    "text": "Unit 5(Lines & Angles)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "838701"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp106.pdf",
+    "text": "Unit 6(Triangles)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "671639"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp107.pdf",
+    "text": "Unit 7(Comparing Quantities)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "4564057"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp108.pdf",
+    "text": "Unit 8(Rationals Numbers)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "470760"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp109.pdf",
+    "text": "Unit 9(Perimeter & Area)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1082142"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp110.pdf",
+    "text": "Unit 10(Algebraic Expressions)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1095732"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp111.pdf",
+    "text": "Unit 11(Exponents & Powers)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "376455"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp112.pdf",
+    "text": "Unit 12(Practical Geometry Symmetry & Visualising Solid Shapes)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "502772"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp1a1.pdf",
+    "text": "Answers",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "9990065"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep101.pdf",
+    "text": "Unit 1(Nutrition in Plants)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "222346"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep102.pdf",
+    "text": "Unit 2(Nutrition in Animals)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2594704"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep103.pdf",
+    "text": "Unit 3(Fibre to Fabric)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1821887"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep104.pdf",
+    "text": "Unit 4(Heat)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "362393"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep105.pdf",
+    "text": "Unit 5(Acids, Bases and Salts)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1833059"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep106.pdf",
+    "text": "Unit 6(Physical and Chemical Changes)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "119827"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep107.pdf",
+    "text": "Unit 7(Weather, Climate and Adaptation of Animals to Climate)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "132917"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep108.pdf",
+    "text": "Unit 8(Wind, Storm and Cyclone)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "6332376"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep109.pdf",
+    "text": "Unit 9(Soil)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "285928"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep110.pdf",
+    "text": "Unit 10(Respiration in Organisms)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "227259"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep111.pdf",
+    "text": "Unit 11(Transportation in Animals and Plants)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "146252"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep112.pdf",
+    "text": "Unit 12(Reproduction in Plants)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "234181"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep113.pdf",
+    "text": "Unit 13(Motion and Time)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "454658"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep114.pdf",
+    "text": "Unit 14(Electric Current and Its Effects)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "172138"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep115.pdf",
+    "text": "Unit 15(Light)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "114503"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep116.pdf",
+    "text": "Unit 16(Water : A Precious Resource)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "167432"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep117.pdf",
+    "text": "Unit 17(Forests : Our Lifeline)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "265326"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep118.pdf",
+    "text": "Unit 18(Wastewater Story)",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "142543"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep1an.pdf",
+    "text": "Answers",
+    "row": [],
+    "heads": [
+     "Science",
+     "Mathematics",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "9407969"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep201.pdf",
+    "text": "Unit 1(Rational Numbers)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "496110"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep202.pdf",
+    "text": "Unit 2(Data Handling)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1851586"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep203.pdf",
+    "text": "Unit 3(Square-Square Root & Cube-Cube Root)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "548133"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep204.pdf",
+    "text": "Unit 4(Linear Equation In One Variable)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "293550"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep205.pdf",
+    "text": "Unit 5(Understanding Quadrilaterals & Practical Geometry)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "646525"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep206.pdf",
+    "text": "Unit 6(Visualising The Solid Shapes)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "3967579"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep207.pdf",
+    "text": "Unit 7(Algebraic Expression, Identities & Factorisation)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "362264"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep208.pdf",
+    "text": "Unit 8(Exponents & Powers)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "880002"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep209.pdf",
+    "text": "Unit 9(Comparing Quantities)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "409892"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep210.pdf",
+    "text": "Unit 10(Direct & Inverse Proportions)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "542235"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep211.pdf",
+    "text": "Unit 11(Mensuration)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "372490"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep212.pdf",
+    "text": "Unit 12(Introduct To Graphs)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1141719"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep213.pdf",
+    "text": "Unit 13(Playing With Numbers)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "212647"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep2an.pdf",
+    "text": "Answers",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "618646"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep201.pdf",
+    "text": "यूनिट 1 (परिमेय संख्याएँ)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "521044"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep202.pdf",
+    "text": "यूनिट 2 (आंकड़ों का प्रबंधन)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1905191"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep203.pdf",
+    "text": "यूनिट 3 (वर्ग- वर्गमूल धन- धनमूल)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "752073"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep204.pdf",
+    "text": "यूनिट 4(एक चर वाले रैखिक समीकरण )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "299655"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep205.pdf",
+    "text": "यूनिट 5(चतुर्भुजों को समझना और प्रायोगिक ज्यामिति )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "937070"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep206.pdf",
+    "text": "यूनिट 6(ठोस आकारों का चित्रण )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "3711584"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep207.pdf",
+    "text": "यूनिट 7(बीजीय व्यंजक , सरवसमिकएं और गुणनखण्डन )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "354557"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep208.pdf",
+    "text": "यूनिट 8(घातांक और घात )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "618384"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep209.pdf",
+    "text": "यूनिट 9(राशियों की तुलना )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "515309"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep210.pdf",
+    "text": "यूनिट 10(अनुलोम और प्रतिलोम समानुपात )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "379401"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep211.pdf",
+    "text": "यूनिट 11(क्षेत्रमिति )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "459379"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep212.pdf",
+    "text": "यूनिट 12(आलेखों का परिचय )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "895279"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep213.pdf",
+    "text": "यूनिट 13(सख्याओं के साथ खेलना )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "183958"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep2an.pdf",
+    "text": "उत्तरमाला",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "445825"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep101.pdf",
+    "text": "Unit 1(Crop Production and Management)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "811727"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep102.pdf",
+    "text": "Unit 2(Microorganisms : Friend and Foe)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "235741"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep103.pdf",
+    "text": "Unit 3(Synthetic Fibres and Plastics)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "132467"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep104.pdf",
+    "text": "Unit 4(Materials : Metals and Non-Metals)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "683991"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep105.pdf",
+    "text": "Unit 5(Coal and Petroleum)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "184870"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep106.pdf",
+    "text": "Unit 6(Combustion and Flame)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "123081"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep107.pdf",
+    "text": "Unit 7(Conservation of Plants and Animals)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "104757"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep108.pdf",
+    "text": "Unit 8(Cell—Structure and Functions)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "149924"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep109.pdf",
+    "text": "Unit 9(Reproduction in Animals)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "196630"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep110.pdf",
+    "text": "Unit 10(Reaching the Age of Adolescence)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "196649"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep111.pdf",
+    "text": "Unit 11(Force)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "307698"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep112.pdf",
+    "text": "Unit 12(Friction)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "254749"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep113.pdf",
+    "text": "Unit 13(Sound)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "116819"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep114.pdf",
+    "text": "Unit 14(Chemical Effects of Electric Current)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "511583"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep115.pdf",
+    "text": "Unit 15(Some Natural Phenomena)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "142315"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep116.pdf",
+    "text": "Unit 16(Light)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "233135"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep117.pdf",
+    "text": "Unit 17(Stars and Solar System)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "418066"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep118.pdf",
+    "text": "Unit 18(Pollution of Air and Water)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "120580"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep1an.pdf",
+    "text": "Answers",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "663154"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep101.pdf",
+    "text": "यूनिट 1(फसल उत्पादन और प्रबंध्न)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "155493"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep102.pdf",
+    "text": "यूनिट 2(सूक्ष्मजीव मित्रा और शत्राु)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "258028"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep103.pdf",
+    "text": "यूनिट 3(संश्लेषित रेशे और प्लास्टिक)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "118174"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep104.pdf",
+    "text": "यूनिट 4(पदार्थ धातु और अधातु)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "171733"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep105.pdf",
+    "text": "यूनिट 5(कोयला और पेट्रोलियम)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "172238"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep106.pdf",
+    "text": "यूनिट 6(दहन और ज्वाला)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "126490"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep107.pdf",
+    "text": "यूनिट 7(पौधे एवं जंतुओं का संरक्षण)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "108284"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep108.pdf",
+    "text": "यूनिट 8(कोशिका संरचना और कार्य)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "153775"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep109.pdf",
+    "text": "यूनिट 9(प्राणियों में जनन)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "199723"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep110.pdf",
+    "text": "यूनिट 10(किशोरावस्था की ओर)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "598923"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep111.pdf",
+    "text": "यूनिट 11(बल तथा दाब)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "102931"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep112.pdf",
+    "text": "यूनिट 12(घर्षण)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "249433"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep113.pdf",
+    "text": "यूनिट 13(ध्वनि)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "120601"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/heep114.pdf",
+    "text": "यूनिट 14(विद्युत धारा के रासायनिक प्रभाव)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "511583"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep115.pdf",
+    "text": "यूनिट 15(कुछ प्राकृतिक परिघटनाएँ)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "152612"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep116.pdf",
+    "text": "यूनिट 16(प्रकाश)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "262915"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep117.pdf",
+    "text": "यूनिट 17(तारे एवं सौर परिवार)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "407164"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep118.pdf",
+    "text": "यूनिट 18(वायु तथा जल का प्रदूषण)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "125894"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep1an.pdf",
+    "text": "उत्तरमाला",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "610517"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep201.pdf",
+    "text": "Unit 1(Number Systems)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "183348"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep202.pdf",
+    "text": "Unit 2(Polynomials)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "172369"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep203.pdf",
+    "text": "Unit 3(Coordinate Geometry)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "605084"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep204.pdf",
+    "text": "Unit 4(Linear Equation In Two Variables)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "192516"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep205.pdf",
+    "text": "Unit 5(Introduction To Euclid's Geometry)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "170166"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep206.pdf",
+    "text": "Unit 6(Lines & Angles)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "202719"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep207.pdf",
+    "text": "Unit 7(Triangles)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "172679"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep208.pdf",
+    "text": "Unit 8(Quadrilaterals)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "170952"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep209.pdf",
+    "text": "Unit 9(Areas of Parallelograms & Triangles)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "223820"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep210.pdf",
+    "text": "Unit 10(Circles)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "204055"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep211.pdf",
+    "text": "Unit 11(Construction)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "119455"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep212.pdf",
+    "text": "Unit 12(Heron's Formula)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "188529"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep213.pdf",
+    "text": "Unit 13(Surface Area & Volumes)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "145591"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep214.pdf",
+    "text": "Unit 14(Statistics & Probability)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "271989"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep215.pdf",
+    "text": "Design Of The Question Paper-Set I",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "233066"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep216.pdf",
+    "text": "Design Of The Question Paper-Set II",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "258892"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep2an.pdf",
+    "text": "Answers",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "183163"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep201.pdf",
+    "text": "यूनिट 1 (संख्या पद्धितिया)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "206998"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep202.pdf",
+    "text": "यूनिट 2 (बहुपद )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "193255"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep203.pdf",
+    "text": "यूनिट 3 (निर्देशांक ज्यामिति )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "807338"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep204.pdf",
+    "text": "यूनिट 4(दो चरो वाले रैखिक समीकरण )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "218634"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep205.pdf",
+    "text": "यूनिट 5(यूक्लिड की जयमित का परिचय )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "197244"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep206.pdf",
+    "text": "यूनिट 6(रेखाएं और कोण )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "227905"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep207.pdf",
+    "text": "यूनिट 7(बीजीय व्यंजक , सरवसमिकएं त्रिभुज)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "197952"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep208.pdf",
+    "text": "यूनिट 8(चतुर्भुज)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "203464"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep209.pdf",
+    "text": "यूनिट 9(रसमान्तर चतुर्भुजों और त्रिभुजों का क्षेत्रफल)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "262513"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep210.pdf",
+    "text": "यूनिट 10(वृत्त )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "234503"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep211.pdf",
+    "text": "यूनिट 11(रचनायें)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "137076"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep212.pdf",
+    "text": "यूनिट 12(हीरोन का सूत्र)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "215702"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep213.pdf",
+    "text": "यूनिट 13(पृष्ठीय क्षेत्रफल एवं आयतन)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "172485"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep214.pdf",
+    "text": "यूनिट 14(सांख्यिकी और प्रायिकता )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "237906"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep215.pdf",
+    "text": "यूनिट 15(प्रश्न पत्र का डिज़ाइन सेट 1)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "273065"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep216.pdf",
+    "text": "यूनिट 16(प्रश्न पत्र का डिज़ाइन सेट II)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "231583"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep2an.pdf",
+    "text": "उत्तरमाला",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "218607"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep101.pdf",
+    "text": "Unit 1(Matter In Our Surroundings)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "242135"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep102.pdf",
+    "text": "Unit 2(Is Matter Around Us Pure)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "564925"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep103.pdf",
+    "text": "Unit 3(Atoms & Molecules)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1530743"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep104.pdf",
+    "text": "Unit 4(Structure Of The Atoms)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "168427"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep105.pdf",
+    "text": "Unit 5(The Fundamental Unit Of Life)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "144326"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep106.pdf",
+    "text": "Unit 6(Tissues)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "137609"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep107.pdf",
+    "text": "Unit 7(Diversity In Living Organism)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "285152"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep108.pdf",
+    "text": "Unit 8(Motion)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "173737"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep109.pdf",
+    "text": "Unit 9(Force & Laws Of Motion)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "141049"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep110.pdf",
+    "text": "Unit 10(Gravitation)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "133783"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep111.pdf",
+    "text": "Unit 11(Work & Energy)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "147930"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep112.pdf",
+    "text": "Unit 12(Sound)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "214296"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep113.pdf",
+    "text": "Unit 13(Why Do We Fall Ill)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "132393"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep114.pdf",
+    "text": "Unit 14(Natural Resources)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "137461"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep115.pdf",
+    "text": "Unit 15 (Impovement In Food Resources)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "298128"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep116.pdf",
+    "text": "Sample Question Paper I",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "255120"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep117.pdf",
+    "text": "Sample Question Paper II",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "238689"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep1an.pdf",
+    "text": "Answers",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "16336380"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep101.pdf",
+    "text": "यूनिट 1 (हमारे आस पास के पदार्थ )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "185840"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep102.pdf",
+    "text": "यूनिट 2 (क्या हमारे आस पास के पदार्थ शुद्ध है?)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2427929"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep103.pdf",
+    "text": "यूनिट 3 (परमाणु एवं अणु)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1076921"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep104.pdf",
+    "text": "ययूनिट 4(परमाणु की संरचना)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "164473"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep105.pdf",
+    "text": "यूनिट 5(जीवन की मौलिक इकाई)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "139677"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep106.pdf",
+    "text": "यूनिट 6(ऊतक)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "138171"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep107.pdf",
+    "text": "यूनिट 7(जीवो में विविधता )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "217337"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep108.pdf",
+    "text": "यूनिट 8(गति )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "147841"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep109.pdf",
+    "text": "यूनिट 9(बल तथा गति के नियम)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "137172"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep110.pdf",
+    "text": "यूनिट 10(गुरुत्वकर्षण )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "136043"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep111.pdf",
+    "text": "ययूनिट 11(कार्य एवं ऊर्जा )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "148601"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep112.pdf",
+    "text": "यूनिट 12(ध्वनि)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "169333"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep113.pdf",
+    "text": "यूनिट 13(हम बीमार क्यों होते है?)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "132152"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep114.pdf",
+    "text": "यूनिट 14(प्राकृतिक सम्पदा )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "137281"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep115.pdf",
+    "text": "ययूनिट 15(खाद्य संसाधनों में सुधार )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "328918"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep116.pdf",
+    "text": "नमूना प्रश्नपत्र एक-I",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "250055"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep117.pdf",
+    "text": "नमूना प्रश्नपत्र एक-II",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "181812"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep1an.pdf",
+    "text": "उत्तरमाला",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "6973150"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep201.pdf",
+    "text": "Unit 1(Real Numbers)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "148875"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep202.pdf",
+    "text": "Unit 2(Polynomials)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "158962"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep203.pdf",
+    "text": "Unit 3(Pair of Liner Equation in Two Variable)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "240322"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep204.pdf",
+    "text": "Unit 4(Quadatric Equation)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "172278"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep205.pdf",
+    "text": "Unit 5(Arithematic Progressions)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "186306"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep206.pdf",
+    "text": "Unit 6(Triangles)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "549971"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep207.pdf",
+    "text": "Unit 7(Coordinate Geometry)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "214936"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep208.pdf",
+    "text": "Unit 8(Introduction to Trignometry & its Equation)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "220777"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep209.pdf",
+    "text": "Unit 9(Circles)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "296476"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep210.pdf",
+    "text": "Unit 10(Construction)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "142628"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep211.pdf",
+    "text": "Unit 11(Area Related To Circles)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "315582"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep212.pdf",
+    "text": "Unit 12(Surface Areas & Volumes)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "251893"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep213.pdf",
+    "text": "Unit 13(Statistics and Probability)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "211194"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep214.pdf",
+    "text": "Design of the Question Paper- Set I",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "290815"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep215.pdf",
+    "text": "Design of the Question Paper- Set II",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "340471"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep2an.pdf",
+    "text": "Answers",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "450344"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep201.pdf",
+    "text": "यूनिट 1 (वास्तविक संख्याएँ )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "158805"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep202.pdf",
+    "text": "यूनिट 2 (बहुपद)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "160930"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep203.pdf",
+    "text": "यूनिट 3 (दो चारो वाले रैखिक समीकरणों का युग्म )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "231412"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep204.pdf",
+    "text": "यूनिट 4(द्विघात समीकरण )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "203218"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep205.pdf",
+    "text": "यूनिट 5(समान्तर श्रेढी )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "185688"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep206.pdf",
+    "text": "यूनिट 6(त्रिभुज)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "898556"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep207.pdf",
+    "text": "यूनिट 7(निर्देशांक ज्यामिति)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "213779"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep208.pdf",
+    "text": "यूनिट 8(त्रिकोणमिति का परिचय और उसके अनुप्रयोग )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "219554"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep209.pdf",
+    "text": "यूनिट 9(वित्त )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "246664"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep210.pdf",
+    "text": "यूनिट 10(रचनायें )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "149801"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep211.pdf",
+    "text": "यूनिट 11(वृत्त से सम्बंधित क्षेत्रफल)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "276255"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep212.pdf",
+    "text": "यूनिट 12(वृत्त से सम्बंधित क्षेत्रफल और आयतन )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "235851"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep213.pdf",
+    "text": "यूनिट 13(सांख्यिकी और प्रायिकता )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "263811"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep214.pdf",
+    "text": "नमूना प्रश्नपत्र एक-I",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "251624"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep214.pdf",
+    "text": "नमूना प्रश्नपत्र एक-II",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "251624"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep2an.pdf",
+    "text": "उत्तरमाला 1",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "213253"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep101.pdf",
+    "text": "Unit 1(Chemical Reactions and Equations)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1129209"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep102.pdf",
+    "text": "Unit 2(Acids, Bases and Salts)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1446012"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep103.pdf",
+    "text": "Unit 3(Metals and Non-metals)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1475483"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep104.pdf",
+    "text": "Unit 4(Carbon and its Compounds)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "4826223"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep105.pdf",
+    "text": "Unit 5(Periodic कक्षाification of Elements)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1896650"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep106.pdf",
+    "text": "Unit 6(Life Processes)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1442333"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep107.pdf",
+    "text": "Unit 7(Control and Coordination)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2068263"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep108.pdf",
+    "text": "Unit 8(How do Organisms Reproduce?)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1607637"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep109.pdf",
+    "text": "Unit 9(Heredity and Evolution)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "912351"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep110.pdf",
+    "text": "Unit 10(Light – Reflection and Refraction)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1013431"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep111.pdf",
+    "text": "Unit 11(The Human Eye and the Colourful World)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "650509"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep112.pdf",
+    "text": "Unit 12(Electricity)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1029941"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep113.pdf",
+    "text": "Unit 13 (Magnetic Effects of Electric Current)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "812891"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep114.pdf",
+    "text": "Unit 14 (Sources of Energy)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "979960"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep115.pdf",
+    "text": "Unit 15(Our Environment)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "700556"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep116.pdf",
+    "text": "Unit 16(Management of Natural Resources)",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1048559"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep117.pdf",
+    "text": "SAMPLE QUESTION PAPER-Set I",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "3066951"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep118.pdf",
+    "text": "SAMPLE QUESTION PAPER-Set II",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1529594"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep1an.pdf",
+    "text": "Answers",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "12532380"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep119.pdf",
+    "text": "APPENDIX-1",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "84413"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep120.pdf",
+    "text": "APPENDIX-2",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "84515"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep121.pdf",
+    "text": "APPENDIX-3",
+    "row": [],
+    "heads": [
+     "Science",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "86911"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep101.pdf",
+    "text": "यूनिट 1 (रासायनिक अभिक्रियाएं एवं समीकरण )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "583073"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep102.pdf",
+    "text": "यूनिट 2 (अम्ल, क्षारक एवं लवण )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "933197"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep103.pdf",
+    "text": "यूनिट 3 (धातु एवं अधातु)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "703435"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep104.pdf",
+    "text": "यूनिट 4(कार्बन एवं उसके यौगिक )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2410712"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep105.pdf",
+    "text": "यूनिट 5(तत्वों का आर्वत वर्गीकरण )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "950264"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep106.pdf",
+    "text": "यूनिट 6(जैव प्रक्रम )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "677435"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep107.pdf",
+    "text": "यूनिट 7(नियंत्रण एवं समन्वय)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1098588"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep108.pdf",
+    "text": "यूनिट 8(जीव जनन कैसे करते है)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1053351"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep109.pdf",
+    "text": "यूनिट 9(आनुवंशिकता एवं जैव विकास )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "452605"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep110.pdf",
+    "text": "यूनिट 10(प्रकाश- परावर्तन एवं अपरवर्तन)",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "513259"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep111.pdf",
+    "text": "यूनिट 11(मानव नेत्र तथा रंग बिरंगा संसार )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "335743"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep112.pdf",
+    "text": "यूनिट 12(विद्दुत )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "523798"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep113.pdf",
+    "text": "यूनिट 13(विद्दुत धरा के चुम्बकीय प्रभाव )",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "411353"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep114.pdf",
+    "text": "ऊर्जा के स्त्रोत",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "641771"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep115.pdf",
+    "text": "हमारा पर्यावरण",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "367733"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep116.pdf",
+    "text": "प्राकृतिक संसाधनों का प्रबंधन",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "659260"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep117.pdf",
+    "text": "प्रतिदर्श प्रश्न पत्र का प्रारूप-1",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "3129393"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep118.pdf",
+    "text": "प्रतिदर्श प्रश्न पत्र का प्रारूप-2",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "90371"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep120.pdf",
+    "text": "प्रतिदर्श प्रश्न पत्र का प्रारूप-3",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "92654"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep119.pdf",
+    "text": "उत्तर",
+    "row": [],
+    "heads": [
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Mathematics",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "6589989"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep201.pdf",
+    "text": "Unit 1(Sets)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2084901"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep202.pdf",
+    "text": "Unit 2(Relations And Functions)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1786194"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep203.pdf",
+    "text": "Unit 3(Trigonometric Functions)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "3028385"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep204.pdf",
+    "text": "Unit 4(Principle Of Mathematical Induction)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1465299"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep205.pdf",
+    "text": "Unit 5(Complex Numbers And Quadratic Equations)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2839250"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep206.pdf",
+    "text": "Unit 6(Linear Inequalities)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1906749"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep207.pdf",
+    "text": "Unit 7(Permutations And Combinations)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1747349"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep208.pdf",
+    "text": "Unit 8(Binomial Theorem)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2101088"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep209.pdf",
+    "text": "Unit 9(Sequence And Series)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2082158"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep210.pdf",
+    "text": "Unit 10(Straight Lines)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2407235"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep211.pdf",
+    "text": "Unit 11(Conic Sections)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2608654"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep212.pdf",
+    "text": "Unit 12(Introduction To Three Dimensional Geometry)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2032452"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep213.pdf",
+    "text": "Unit 13(Limits And Derivatives)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2406847"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep214.pdf",
+    "text": "Unit 14(Mathematical Reasoning)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2634985"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep215.pdf",
+    "text": "Unit 15(Statistics)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1671272"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep216.pdf",
+    "text": "Unit 16(Probability)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2166365"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep217.pdf",
+    "text": "(Answers)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2072622"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep218.pdf",
+    "text": "(Design Of The Question)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "गणित",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1682570"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep201.pdf",
+    "text": "यूनिट 1 (सम्मुच्य)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1888164"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep202.pdf",
+    "text": "यूनिट 2 (संबंध एव फलन)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1692324"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep203.pdf",
+    "text": "यूनिट 3 (तिरिकोंमितिया फलन )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2543584"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep204.pdf",
+    "text": "यूनिट 4(गणितीय आगमन का सिद्धांत )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1474613"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep205.pdf",
+    "text": "यूनिट 5(सम्मिश्र संख्याएँ और द्विघात समीकरण )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2420005"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep206.pdf",
+    "text": "यूनिट 6(रैखिक अस्मिकाए)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1776858"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep207.pdf",
+    "text": "यूनिट 7(क्रमचय और संचय )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1646692"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep208.pdf",
+    "text": "यूनिट 8(दिवपद परमए )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1904320"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep209.pdf",
+    "text": "यूनिट 9(अनुकर्म तथा श्रेणी )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1892884"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep210.pdf",
+    "text": "यूनिट 10(सरल रेखाएं )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2119271"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep211.pdf",
+    "text": "यूनिट 11(शंकु परिच्छेद )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2271548"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep212.pdf",
+    "text": "यूनिट 12(त्रिविमीय ज्यामिति का परिचिया)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1881282"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep213.pdf",
+    "text": "यूनिट 13(सीमा और अवकलज )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2114829"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep214.pdf",
+    "text": "यूनिट 14(गणितीय विवेचन )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "2281279"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep215.pdf",
+    "text": "यूनिट 15(सांख्यिकी)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1599446"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep216.pdf",
+    "text": "यूनिट 16(प्रायिकता )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1942268"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep217.pdf",
+    "text": "(उत्तरमाला)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1618037"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep218.pdf",
+    "text": "(प्रश्न पत्र का प्रारूप)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science",
+     "Exemplar Problem"
+    ],
+    "ok": true,
+    "size": "1616390"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep301.pdf",
+    "text": "Chapter 1 (Introduction)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "877030"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep302.pdf",
+    "text": "Chapter 2 (Units and Measurements)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1151362"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep303.pdf",
+    "text": "Chapter 3 (Motion In a Straight Line)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1032885"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep304.pdf",
+    "text": "Chapter 4 (Motion In a Plane)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "3331634"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep305.pdf",
+    "text": "Chapter 5 (Laws of Motion)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1263687"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep306.pdf",
+    "text": "Chapter 6 (Work, Energy and Power)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1451345"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep307.pdf",
+    "text": "Chapter 7 (System of Particles and Rotational Motion)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1118695"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep308.pdf",
+    "text": "Chapter 8 (Gravitation)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1165756"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep309.pdf",
+    "text": "Chapter 9 (Mechanical Properties of Solids)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1127759"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep310.pdf",
+    "text": "Chapter 10 (Mechanical Properties of Fluids)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "962811"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep311.pdf",
+    "text": "Chapter 11 (Thermal Properties of Matter)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1042688"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep312.pdf",
+    "text": "Chapter 12 (Thermodynamics)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1121646"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep313.pdf",
+    "text": "Chapter 13 (Kinetic Theory)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1104896"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep314.pdf",
+    "text": "Chapter 14 (Oscillations)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1194305"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep315.pdf",
+    "text": "Chapter 15 (Waves)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "1175092"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep316.pdf",
+    "text": "Chapter 16 (Answers)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "5358496"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep317.pdf",
+    "text": "Chapter 17 (Design of Question Paper)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान",
+     "Science"
+    ],
+    "ok": true,
+    "size": "2689355"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep301.pdf",
+    "text": "अध्याय 1 (भूमिका)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "875425"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep302.pdf",
+    "text": "अध्याय 2 (मात्रक ओर मापन)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1163066"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep303.pdf",
+    "text": "अध्याय 3 (सरल रेखा मे गति)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1042838"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep304.pdf",
+    "text": "अध्याय 4 (समतल मे गति)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1346336"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep305.pdf",
+    "text": "अध्याय 5 (गति के नियम)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1275623"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep306.pdf",
+    "text": "अध्याय 6 (कार्य, ऊर्जा ओर शक्ति)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1462573"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep307.pdf",
+    "text": "अध्याय 7 (कणो के निकास तथा घूर्णी गति)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1128274"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep308.pdf",
+    "text": "अध्याय 8 (गुरुत्वाकर्षण)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1173456"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep309.pdf",
+    "text": "अध्याय 9 (ठोसों के यांत्रिक गुण )",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1111573"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep310.pdf",
+    "text": "अध्याय 10 (द्रवों के यांत्रिक गुण)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "974803"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep311.pdf",
+    "text": "अध्याय 11 (द्रव्य के तापीय गुण)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1045208"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep312.pdf",
+    "text": "अध्याय 12 (ऊष्मागतिकी))",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1134287"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep313.pdf",
+    "text": "अध्याय 13 (अनुगति सिद्धांत)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1114366"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep314.pdf",
+    "text": "अध्याय 14 (दोलन)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1211184"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep315.pdf",
+    "text": "अध्याय 15 (तरंगे)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "1184294"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep316.pdf",
+    "text": "अध्याय 16 (उत्तर)",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "5437166"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep317.pdf",
+    "text": "अध्याय 17 (प्रश्न पत्र का डिज़ाइन )",
+    "row": [],
+    "heads": [
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "विज्ञान"
+    ],
+    "ok": true,
+    "size": "2712115"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep401.pdf",
+    "text": "Chapter 1 (THE LIVING WORLD)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1063404"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep402.pdf",
+    "text": "Chapter 2 (BIOLOGICAL CLASSIFICATION)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "939979"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep403.pdf",
+    "text": "Chapter 3 (PLANT KINGDOM)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "938719"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep404.pdf",
+    "text": "Chapter 4 (ANIMAL KINGDOM)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1150755"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep405.pdf",
+    "text": "Chapter 5 (MORPHOLOGY OF FLOWERING PLANTS)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1238373"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep406.pdf",
+    "text": "Chapter 6 (ANATOMY OF FLOWERING PLANTS)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1083630"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep407.pdf",
+    "text": "Chapter 7 (STRUCTURAL ORGANISATION IN ANIMALS)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "973455"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep408.pdf",
+    "text": "Chapter 8 (CELL : THE UNIT OF LIFE)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1067252"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep409.pdf",
+    "text": "Chapter 9 (BIOMOLECULES)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1153631"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep410.pdf",
+    "text": "Chapter 10 (CELL CYCLE AND CELL DIVISION)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1275712"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep411.pdf",
+    "text": "Chapter 11 (TRANSPORT IN PLANTS)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1405152"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep412.pdf",
+    "text": "Chapter 12 (MINERAL NUTRITION)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1108374"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep413.pdf",
+    "text": "Chapter 13 (PHOTOSYNTHESIS IN HIGHER PLANTS)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1937559"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep414.pdf",
+    "text": "Chapter 14 (RESPIRATION IN PLANTS)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1709282"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep415.pdf",
+    "text": "Chapter 15 (PLANT GROWTH AND DEVELOPMENT)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1253662"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep416.pdf",
+    "text": "Chapter 16 (DIGESTION AND ABSORPTION)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "984738"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep417.pdf",
+    "text": "Chapter 17 (BREATHING AND EXCHANGE OF GASES)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "990021"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep418.pdf",
+    "text": "Chapter 18 BODY FLUIDS AND CIRCULATION)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "2861615"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep419.pdf",
+    "text": "Chapter 19 (EXCRETORY PRODUCTS AND THEIR ELIMINATION)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1156807"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep420.pdf",
+    "text": "Chapter 20 (LOCOMOTION AND MOVEMENT)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1286356"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep421.pdf",
+    "text": "Chapter 21 (NEURAL CONTROL AND COORDINATION)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "941773"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep422.pdf",
+    "text": "Chapter 22 (CHEMICAL COORDINATION AND INTEGRATION)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1113676"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep423.pdf",
+    "text": "Chapter 23 (ANSWERS TO MULTIPLE CHOICE QUESTIONS)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "977565"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep424.pdf",
+    "text": "Chapter 24 (MODEL ANSWERS TO DESCRIPTIVE QUESTIONS)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "4227372"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep425.pdf",
+    "text": "Chapter 25 (MODEL QUESTION PAPER)",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "2312157"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep401.pdf",
+    "text": "अध्याय 1 (जीव जगत)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1018815"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep402.pdf",
+    "text": "अध्याय 2 (जीव जगत का वर्गीकरण)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "953738"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep403.pdf",
+    "text": "अध्याय 3 (पादप जगत)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "945883"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep404.pdf",
+    "text": "अध्याय 4 (प्राणि जगत)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1150148"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep405.pdf",
+    "text": "अध्याय 5 (पुष्पी पादपो की आकारिकी)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1087792"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep406.pdf",
+    "text": "अध्याय 6 (पुष्पी पादपो का शारीर)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1141185"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep407.pdf",
+    "text": "अध्याय 7 (प्राणियों मे संरचनात्मक संगठान)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1012079"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep408.pdf",
+    "text": "अध्याय 8 (कोशिका - जीवन की इकाई)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1010677"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep409.pdf",
+    "text": "अध्याय 9 (जैव अणु)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1080372"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep410.pdf",
+    "text": "अध्याय 10 (कोशिका चक्र ओर कोशिका विभाजन)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1153707"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep411.pdf",
+    "text": "अध्याय 11 (पौधों मे परिवहन)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1302096"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep412.pdf",
+    "text": "अध्याय 12 (खनिज पोषण)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1054106"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep413.pdf",
+    "text": "अध्याय 13 (उच्च पादपो मे प्रकाश - संश्लेषण )",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1361471"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep414.pdf",
+    "text": "अध्याय 14 (पादप मे श्वसन)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1443209"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep415.pdf",
+    "text": "अध्याय 15 (पादप व्रधि एवं परिवर्धन)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1156860"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep416.pdf",
+    "text": "अध्याय 16 (पाचन ओर अवशोषण)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1014451"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep417.pdf",
+    "text": "अध्याय 17 (श्वसन ओर गैसो का विनियम)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1013566"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep418.pdf",
+    "text": "अध्याय 18 ( शरीर द्रव तथा परिसंचरण)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "3186120"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep419.pdf",
+    "text": "अध्याय 19 (उत्सर्जी उत्पाद एवं उनका निष्काशन)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1086598"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep420.pdf",
+    "text": "अध्याय 20 (गमन एवं संचलन)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1313688"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep421.pdf",
+    "text": "अध्याय 21 (तंत्रकीय नियंत्रण एवं समन्वय )",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1031758"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep422.pdf",
+    "text": "अध्याय 22 (रासायनिक समन्वय तथा एकीकरण )",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "1142430"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep423.pdf",
+    "text": "अध्याय 23 (बहु विकल्पीय प्रश्नो के उत्तर)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "944196"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep424.pdf",
+    "text": "अध्याय 24 (वर्णनात्मक प्रश्नो के मॉडल उत्तर)",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "3415714"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep425.pdf",
+    "text": "अध्याय 25 (मॉडल प्रश्न पत्र )",
+    "row": [],
+    "heads": [
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "2286661"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep501.pdf",
+    "text": "Unit 1 (SOME BASIC CONCEPTS OF CHEMISTRY)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1485787"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep502.pdf",
+    "text": "Unit 2 (SSTRUCTURE OF A TURE OF ATOM)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1760194"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep503.pdf",
+    "text": "Unit 3 (कक्षाification of Elements and Periodicity in Propertie)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1452898"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep504.pdf",
+    "text": "Unit 4 (CHEMICAL BONDING AND MOLECULAR STRUCTURE)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1731287"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep505.pdf",
+    "text": "Unit 5 (STATES OF MATTER)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1682791"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep506.pdf",
+    "text": "Unit 6 (THERMODYNAMICS)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1916846"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep507.pdf",
+    "text": "Unit 7 (EQUILIBRIUM)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1838375"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep508.pdf",
+    "text": "Unit 8 (REDOX REACTIONS)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1308040"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep509.pdf",
+    "text": "Unit 9 (HYDROGEN)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1505164"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep510.pdf",
+    "text": "Unit 10 (THE s -BLOCK ELEMENTS)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1270836"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep511.pdf",
+    "text": "Unit 11 (THE p -BLOCK ELEMENTS)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1358125"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep512.pdf",
+    "text": "Unit 12 (ORGANIC CHEMISTRY SOME BASIC PRINCIPLES AND TECHNIQUES)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "2060412"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep513.pdf",
+    "text": "Unit 13 (HHYDROCARBONS)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1862277"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep514.pdf",
+    "text": "Unit 14 (ENVIRONMENTAL CHEMISTRY)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1318165"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep515.pdf",
+    "text": "I (Design of the Sample Question Paper)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1600692"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep516.pdf",
+    "text": "APPENDIX I (ELEMENTS, THEIR ATOMIC NUMBER AND MOLAR MASS)",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "1749791"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep501.pdf",
+    "text": "एकक 1 (रसायन विज्ञान की कुछ मूल अवधारणाए)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1573105"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep502.pdf",
+    "text": "एकक 2 (परमाणु की संरचना)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1576635"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep503.pdf",
+    "text": "एकक 3 (तत्वो का वर्गीकरण एवं गुणधर्मो मे आवर्तिता)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1464060"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep504.pdf",
+    "text": "एकक 4 (रसायनिक आबंधन तथा आणिवक संरचना)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1672877"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep505.pdf",
+    "text": "एकक 5 ( द्रव्य की अवस्धाएँ)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1687458"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep506.pdf",
+    "text": "एकक 6 (उष्मागतिकी)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1928640"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep507.pdf",
+    "text": "एकक 7 (साम्याव्यथा)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1795778"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep508.pdf",
+    "text": "एकक 8 (अपचयोपचय अभिक्रियाएं)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1325521"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep509.pdf",
+    "text": "एकक 9 (हाइड्रोजन)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1444367"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep510.pdf",
+    "text": "एकक 10 (s-ब्लॉक तत्व )",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1303218"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep511.pdf",
+    "text": "एकक 11 ( p-ब्लॉक तत्व)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1380040"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep512.pdf",
+    "text": "एकक 12 (कार्बनिक रसायन - कुछ आधारभूत सिधान्त तथा तकनीके)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "2039028"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep513.pdf",
+    "text": "एकक 13 (हयड्रोकार्बोन)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1776094"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep514.pdf",
+    "text": "एकक 14 (पर्यावर्णीय रसायन)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1293459"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep515.pdf",
+    "text": "I( नमूना प्रश्नपत्र की योजना)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1635065"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep516.pdf",
+    "text": "परिशिष्ट I (तत्व, उनकी परमाणु-संख्या ऑर मोलर द्रव्यमान)",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology",
+     "भौतिक विज्ञान"
+    ],
+    "ok": true,
+    "size": "1591746"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep201.pdf",
+    "text": "Unit 1(Relations And Functions)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1151672"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep202.pdf",
+    "text": "Unit 2(Inverse Trigonometric Functions)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1631547"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep203.pdf",
+    "text": "Unit 3(Matrices)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1517723"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep204.pdf",
+    "text": "Unit 4(Determinants)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1429365"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep205.pdf",
+    "text": "Unit 5(Continuity And Differentiability)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "2079553"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep206.pdf",
+    "text": "Unit 6(Application Of Derivatives)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1820561"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep207.pdf",
+    "text": "Unit 7(Integrals)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1823073"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep208.pdf",
+    "text": "Unit 8(Application Of Integrals)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "870094"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep209.pdf",
+    "text": "Unit 9(Differential Equations)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1658452"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep210.pdf",
+    "text": "Unit 10(Vector Algebra)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1116473"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep211.pdf",
+    "text": "Unit 11(Three Dimensional Geometry)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1514429"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep212.pdf",
+    "text": "Unit 12(Linear Programming)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1591474"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep213.pdf",
+    "text": "Unit 13(Probability)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1940811"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep214.pdf",
+    "text": "(Design Of The Question Paper-Set I)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "2107978"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep215.pdf",
+    "text": "(Design Of The Question Paper-Set II)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1595285"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep216.pdf",
+    "text": "(Answers)",
+    "row": [],
+    "heads": [
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान",
+     "Biology"
+    ],
+    "ok": true,
+    "size": "1291741"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep201.pdf",
+    "text": "यूनिट 1 (संबंध एव फलन)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "226216"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep202.pdf",
+    "text": "यूनिट 2 (प्रतिलोम तिरिकोंमितिया फलन)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "272349"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep203.pdf",
+    "text": "यूनिट 3 (आव्यूह )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "255569"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep204.pdf",
+    "text": "यूनिट 4(सारणिक)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "225110"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep205.pdf",
+    "text": "यूनिट 5(सांतत्य और अवकलनीयता )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "320406"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep206.pdf",
+    "text": "यूनिट 6(अवकलज के अनुप्रयोग )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "302975"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep207.pdf",
+    "text": "यूनिट 7(समाकल )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "266752"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep208.pdf",
+    "text": "यूनिट 8(स्माकलो के अनुप्रयोग )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "298231"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep209.pdf",
+    "text": "यूनिट 9(अवकल समीकरण)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "246362"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep210.pdf",
+    "text": "यूनिट 10(सदिश बीजगणित )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "250785"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep211.pdf",
+    "text": "यूनिट 11(त्रिविमयि ज्यामिति )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "260733"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep212.pdf",
+    "text": "यूनिट 12(रैखिक प्रोग्रामन)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "406068"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep213.pdf",
+    "text": "यूनिट 13(प्रायिकता )",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "271545"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep214.pdf",
+    "text": "(प्रश्न पत्र का डिज़ाइन सेट 1)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "365639"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep215.pdf",
+    "text": "(प्रश्न पत्र का डिज़ाइन सेट 2)",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "267026"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep216.pdf",
+    "text": "उत्तरमाला",
+    "row": [],
+    "heads": [
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry",
+     "जीवविज्ञान"
+    ],
+    "ok": true,
+    "size": "221697"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep101.pdf",
+    "text": "Unit 1(Electric Charges And Fields)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "192273"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep102.pdf",
+    "text": "Unit 2(Electrostatic Potential And Capacitance)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "146105"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep103.pdf",
+    "text": "Unit 3(Current Electricity)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "140710"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep104.pdf",
+    "text": "Unit 4(Moving Charges And Magnetism)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "139033"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep105.pdf",
+    "text": "Unit 5(Magnetism And Matter)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "122462"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep106.pdf",
+    "text": "Unit 6(Electromagnetic Induction)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "152106"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep107.pdf",
+    "text": "Unit 7(Alternating Current)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "134313"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep108.pdf",
+    "text": "Unit 8(Electromagnetic Waves)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "141739"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep109.pdf",
+    "text": "Unit 9(Ray Optics And Optical Instruments)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "142709"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep110.pdf",
+    "text": "Unit 10(Wave Optics)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "130231"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep111.pdf",
+    "text": "Unit 11(Dual Nature Of Radiation And Matter)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "135015"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep112.pdf",
+    "text": "Unit 12(Atoms)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "122778"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep113.pdf",
+    "text": "Unit 13 (Nuclei)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "125249"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep114.pdf",
+    "text": "Unit 14 (Semiconductor Electronics)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "162483"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep115.pdf",
+    "text": "Unit 15(Communication Systems)",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "132584"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep116.pdf",
+    "text": "Sample Question Paper-Set I",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "230073"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep117.pdf",
+    "text": "Answers",
+    "row": [],
+    "heads": [
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान",
+     "Chemistry"
+    ],
+    "ok": true,
+    "size": "735946"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep101.pdf",
+    "text": "अध्याय 1(वैधयुत आवेश तथा क्षेत्र)",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "203475"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep102.pdf",
+    "text": "अध्याय 2 (स्थिर वैधयुत विभव तथा धारिता )",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "154984"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep103.pdf",
+    "text": "अध्याय 3(विद्युत धारा)",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "153541"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep104.pdf",
+    "text": "अध्याय 4(गतिमान आवेश और चुम्बकत्व )",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "151986"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep105.pdf",
+    "text": "अध्याय 5(चुम्बकत्व एवं द्रव्य)",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "135245"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep106.pdf",
+    "text": "अध्याय 6(वैधयुतचुम्बकीय प्रेरण )",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "175010"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep107.pdf",
+    "text": "अध्याय 7(प्रत्यावर्ती धारा )",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "147859"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep108.pdf",
+    "text": "अध्याय 8(विद्युत चुम्बकीय तरंगे )",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "157076"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep109.pdf",
+    "text": "अध्याय 9(किरण प्रकाशिकी एवं प्रकाशिक यंत्र )",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "151502"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep110.pdf",
+    "text": "अध्याय 10(तरंग- प्रकाशिकी )",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "145708"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep111.pdf",
+    "text": "अध्याय 11(विकिरण तथा द्रव्य कि द्वैत प्रकृति )",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "150526"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep112.pdf",
+    "text": "अध्याय 12(परमाणु)",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "135013"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep113.pdf",
+    "text": "अध्याय 13 (नाभिक )",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "139345"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep114.pdf",
+    "text": "अध्याय 14 (अर्धचालक इलेक्ट्रॉनिकी - पदार्थ , युक्तियाँ तथा सरल परिपथ )",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "185635"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep115.pdf",
+    "text": "अध्याय 15(संचार व्यवस्था )",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "151451"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep116.pdf",
+    "text": "प्रतिदर्श प्रश्नपत्र",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "240351"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep117.pdf",
+    "text": "उत्तर",
+    "row": [],
+    "heads": [
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics",
+     "रसायन विज्ञान"
+    ],
+    "ok": true,
+    "size": "773068"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep401.pdf",
+    "text": "1.REPRODUCTION IN ORGANISMS",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "948975"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep402.pdf",
+    "text": "2.SEXUAL REPRODUCTION IN FLOWERING PLANTS",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1842744"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep403.pdf",
+    "text": "3.HUMAN REPRODUCTION",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "174121"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep404.pdf",
+    "text": "4.REPRODUCTIVE HEALTH",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "107422"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep405.pdf",
+    "text": "5.PRINCIPLE OF INHERITANCE AND VARIATION",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "120934"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep406.pdf",
+    "text": "6.MOLECULAR BASIS OF INHERITANCE",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "155673"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep407.pdf",
+    "text": "7.EVOLUTION",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "119120"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep408.pdf",
+    "text": "8.HUMAN HEALTH AND DISEASES",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "230847"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep409.pdf",
+    "text": "9.STRATEGIES FOR ENHANCEMENT IN FOOD PRODUCTION",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "125460"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep410.pdf",
+    "text": "10.MICROBES IN HUMAN WELFARE",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "120565"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep411.pdf",
+    "text": "11.BIOTECHNOLOGY : PRINCIPLES AND PROCESSESt",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "156739"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep412.pdf",
+    "text": "12.BIOTECHNOLOGY AND ITS APPLICATIONS",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "115204"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep413.pdf",
+    "text": "13.ORGANISMS AND POPULATIONS",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "297102"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep414.pdf",
+    "text": "14.ECOSYSTEM",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1381664"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep415.pdf",
+    "text": "15.BIODIVERSITY AND CONSERVATION",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "218589"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep416.pdf",
+    "text": "16.ENVIRONMENTAL ISSUES",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "738082"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep417.pdf",
+    "text": "17.ANSWERS TO MULTIPLE -CHOICE QUESTIONS",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "106269"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep418.pdf",
+    "text": "18.MODEL ANSWERS TO DESCRIPTIVE QUESTIONS",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "4545547"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep419.pdf",
+    "text": "19.MODEL QUESTION PAPER",
+    "row": [],
+    "heads": [
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित",
+     "Mathematics"
+    ],
+    "ok": true,
+    "size": "1128535"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep501.pdf",
+    "text": "1.Solid States",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "4886949"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep502.pdf",
+    "text": "2.Solutions",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "499277"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep503.pdf",
+    "text": "3.Electrochemistry",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "638819"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep504.pdf",
+    "text": "4.Chemical Kinetics",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "282027"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep505.pdf",
+    "text": "5.Surface Chemistry",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "178177"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep506.pdf",
+    "text": "6.General Principle and Processes of Isolation of Elements",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "171596"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep507.pdf",
+    "text": "7.The p-block Elements",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "184293"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep508.pdf",
+    "text": "8.The d-and f-Block Elements",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "164204"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep509.pdf",
+    "text": "9.Coordination Compounds",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "239522"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep510.pdf",
+    "text": "10.Haloalkanes and Haloarenes",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "405188"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep511.pdf",
+    "text": "11.Alcohols, Phenols and Ethers",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "281300"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep512.pdf",
+    "text": "12.Aldehydes, Ketones and Carboxylic Acids",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "361269"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep513.pdf",
+    "text": "13.Amines",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "538011"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep514.pdf",
+    "text": "14.Biomolecules",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "295875"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep515.pdf",
+    "text": "15.Polymers",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "195709"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep516.pdf",
+    "text": "16.Chemistry In Everyday Life",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "213849"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep517.pdf",
+    "text": "17.Design of the Sample Question Paper",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "214212"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep518.pdf",
+    "text": "18.Model Question Paper-II",
+    "row": [],
+    "heads": [
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics",
+     "गणित"
+    ],
+    "ok": true,
+    "size": "236538"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep401.pdf",
+    "text": "1.ठोस अवस्था",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "5084037"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep402.pdf",
+    "text": "2.विलयन",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "474287"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep403.pdf",
+    "text": "3.विद्युत रसायन",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "661410"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep404.pdf",
+    "text": "4.रासायनिक बलगतिकी",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "250236"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep405.pdf",
+    "text": "5.प्रष्ठ रसायन",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "226252"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep406.pdf",
+    "text": "6.तत्वो के प्रथक्करण के सामान्य सिधान्न्त एवं प्रक्रम",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "180533"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep407.pdf",
+    "text": "7.p-ब्लॉक तत्व",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "198456"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep408.pdf",
+    "text": "8.d-एवं f - ब्लॉक तत्व",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "181857"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep409.pdf",
+    "text": "9.उपसहसंयोजन यौगिक",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "255784"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep410.pdf",
+    "text": "10.हैलोऐलकेन तथा हैलोऐरीन",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "408710"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep411.pdf",
+    "text": "11.ऐल्कोहॉल, फीनौल एवं ईथर",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "289779"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep412.pdf",
+    "text": "12.ऐल्डिहाइड, कीटोन एवं कार्बोकिसलिक अल्म",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "359180"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep413.pdf",
+    "text": "13.ऐमीन",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "545315"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep414.pdf",
+    "text": "14.जैव अणु",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "299545"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep415.pdf",
+    "text": "15.बहुलक",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "203022"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep416.pdf",
+    "text": "16.दैनिक जीवन मे रसायन",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "215203"
+   },
+   {
+    "href": "https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep417.pdf",
+    "text": "17.परिशिस्ट",
+    "row": [],
+    "heads": [
+     "रसायन विज्ञान",
+     "Chemistry",
+     "Biology",
+     "भौतिकी",
+     "Physics"
+    ],
+    "ok": true,
+    "size": "274804"
+   }
+  ]
  },
  "outcomes": {
   "url": "https://ncert.nic.in/learning-outcome.php?ln=en",
