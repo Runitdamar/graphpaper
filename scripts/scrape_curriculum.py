@@ -11,15 +11,19 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
+import urllib3
 from bs4 import BeautifulSoup
 
 OUT = Path(__file__).resolve().parent / "curriculum_links.json"
 URL = "https://cbseacademic.nic.in/curriculum_2027.html"
+# cbseacademic.nic.in serves an incomplete certificate chain that fails verification on GitHub runners.
+# This job only reads public pages and sends no credentials, so verification is skipped here.
+urllib3.disable_warnings()
 H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
      "Referer": "https://cbseacademic.nic.in/"}
 
 try:
-    r = requests.get(URL, headers=H, timeout=60)
+    r = requests.get(URL, headers=H, timeout=60, verify=False)
 except Exception as e:
     OUT.write_text(json.dumps({"error": "%s: %s" % (type(e).__name__, str(e)[:300])}, indent=1), encoding="utf-8")
     raise
@@ -57,7 +61,7 @@ print(len(rows), "pdf links", file=sys.stderr)
 
 def ok(h):
     try:
-        x = requests.get(h, headers=H, timeout=(8, 30), stream=True)
+        x = requests.get(h, headers=H, timeout=(8, 30), stream=True, verify=False)
         head = next(x.iter_content(4), b"") if x.status_code == 200 else b""
         x.close()
         return x.status_code == 200 and head[:2] in (b"%P", b"PK")
