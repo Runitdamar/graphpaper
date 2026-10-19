@@ -89,34 +89,60 @@ for code, b in sorted(disc.items()):
         books.append({"cls": CLS[code[0]], "sub": sub, "title": name, "code": code, "label": "Chapter", "ch": chs})
 
 
-# --- Class 10 refinement -------------------------------------------------------------------
-# scripts/class10_refined.json (scripts/refine_class10.py) found chapter files the first pass missed
-# (Political Science had 5, not 1). Titles below were checked against each chapter's first page.
-C10_TITLES = {
- "jeff1": ["A Letter to God", "Nelson Mandela: Long Walk to Freedom", "Two Stories about Flying", "From the Diary of Anne Frank", "Glimpses of India", "Mijbil the Otter", "Madam Rides the Bus", "The Sermon at Benares", "The Proposal"],
- "jefp1": ["A Triumph of Surgery", "The Thief\u2019s Story", "The Midnight Visitor", "A Question of Trust", "Footprints without Feet", "The Making of a Scientist", "The Necklace", "Bholi", "The Book That Saved the Earth"],
- "jemh1": ["Real Numbers", "Polynomials", "Pair of Linear Equations in Two Variables", "Quadratic Equations", "Arithmetic Progressions", "Triangles", "Coordinate Geometry", "Introduction to Trigonometry", "Some Applications of Trigonometry", "Circles", "Areas Related to Circles", "Surface Areas and Volumes", "Statistics", "Probability"],
- "jesc1": ["Chemical Reactions and Equations", "Acids, Bases and Salts", "Metals and Non-metals", "Carbon and its Compounds", "Life Processes", "Control and Coordination", "How do Organisms Reproduce?", "Heredity", "Light \u2013 Reflection and Refraction", "The Human Eye and the Colourful World", "Electricity", "Magnetic Effects of Electric Current", "Our Environment"],
- "jess1": ["Resources and Development", "Forest and Wildlife Resources", "Water Resources", "Agriculture", "Minerals and Energy Resources", "Manufacturing Industries", "Lifelines of National Economy"],
- "jess2": ["Development", "Sectors of the Indian Economy", "Money and Credit", "Globalisation and the Indian Economy", "Consumer Rights"],
- "jess3": ["The Rise of Nationalism in Europe", "Nationalism in India", "The Making of a Global World", "The Age of Industrialisation", "Print Culture and the Modern World"],
- "jess4": ["Power-sharing", "Federalism", "Gender, Religion and Caste", "Political Parties", "Outcomes of Democracy"],
+# --- Class 10 ----------------------------------------------------------------------------
+# Class 10 is built from scripts/class10_zips.json (the real file list inside each whole-book ZIP on
+# ncert.nic.in) plus scripts/class10_extras.json (ZIP sizes). Chapter titles below were checked against
+# each chapter's first page; Hindi/Sanskrit titles were matched to the PDFs' author names and page text.
+zips = json.loads((root / "class10_zips.json").read_text(encoding="utf-8"))
+extras = json.loads((root / "class10_extras.json").read_text(encoding="utf-8"))
+zip_mb = {x["name"]: round(int(x["size"]) / 1048576) for x in extras["whole"] if x["type"] == "zip"}
+
+# code -> (folder, subject, full title, short name shown inside a folder, chapter titles or None)
+C10 = {
+ "jeff1": ("English", "English", "First Flight", "First Flight", ["A Letter to God", "Nelson Mandela: Long Walk to Freedom", "Two Stories about Flying", "From the Diary of Anne Frank", "Glimpses of India", "Mijbil the Otter", "Madam Rides the Bus", "The Sermon at Benares", "The Proposal"]),
+ "jefp1": ("English", "English", "Footprints without Feet", "Footprints without Feet", ["A Triumph of Surgery", "The Thief\u2019s Story", "The Midnight Visitor", "A Question of Trust", "Footprints without Feet", "The Making of a Scientist", "The Necklace", "Bholi", "The Book That Saved the Earth"]),
+ "jhks1": ("Hindi", "Hindi", "Kshitij Part 2 (Hindi A)", "Hindi A \u00b7 Kshitij Part 2", ["सूरदास – पद", "तुलसीदास – राम-लक्ष्मण-परशुराम संवाद", "जयशंकर प्रसाद – आत्मकथ्य", "सूर्यकांत त्रिपाठी ‘निराला’ – उत्साह, अट नहीं रही है", "नागार्जुन – यह दंतुरित मुस्कान, फसल", "मंगलेश डबराल – संगतकार", "स्वयं प्रकाश – नेताजी का चश्मा", "रामवृक्ष बेनीपुरी – बालगोबिन भगत", "यशपाल – लखनवी अंदाज़", "मन्नू भंडारी – एक कहानी यह भी", "यतींद्र मिश्र – नौबतखाने में इबादत", "भदंत आनंद कौसल्यायन – संस्कृति"]),
+ "jhkr1": ("Hindi", "Hindi", "Kritika Part 2 (Hindi A)", "Hindi A \u00b7 Kritika Part 2", ["माता का अँचल", "साना-साना हाथ जोड़ि…", "मैं क्यों लिखता हूँ?"]),
+ "jhsp1": ("Hindi", "Hindi", "Sparsh Part 2 (Hindi B)", "Hindi B \u00b7 Sparsh Part 2", ["कबीर – साखी", "मीरा – पद", "मैथिलीशरण गुप्त – मनुष्यता", "सुमित्रानंदन पंत – पर्वत प्रदेश में पावस", "वीरेन डंगवाल – तोप", "कैफ़ी आज़मी – कर चले हम फ़िदा", "रवींद्रनाथ ठाकुर – आत्मत्राण", "प्रेमचंद – बड़े भाई साहब", "सीताराम सेकसरिया – डायरी का एक पन्ना", "तताँरा-वामीरो कथा", "प्रह्लाद अग्रवाल – तीसरी कसम के शिल्पकार शैलेंद्र", "निदा फ़ाज़ली – अब कहाँ दूसरे के दुख से दुखी होने वाले", "रवींद्र केलेकर – पतझर में टूटी पत्तियाँ", "हबीब तनवीर – कारतूस"]),
+ "jhsy1": ("Hindi", "Hindi", "Sanchayan Part 2 (Hindi B)", "Hindi B \u00b7 Sanchayan Part 2", ["हरिहर काका", "सपनों के-से दिन", "टोपी शुक्ला"]),
+ "jemh1": ("Mathematics", "Mathematics", "Mathematics", "Mathematics", ["Real Numbers", "Polynomials", "Pair of Linear Equations in Two Variables", "Quadratic Equations", "Arithmetic Progressions", "Triangles", "Coordinate Geometry", "Introduction to Trigonometry", "Some Applications of Trigonometry", "Circles", "Areas Related to Circles", "Surface Areas and Volumes", "Statistics", "Probability"]),
+ "jesc1": ("Science", "Science", "Science", "Science", ["Chemical Reactions and Equations", "Acids, Bases and Salts", "Metals and Non-metals", "Carbon and its Compounds", "Life Processes", "Control and Coordination", "How do Organisms Reproduce?", "Heredity", "Light \u2013 Reflection and Refraction", "The Human Eye and the Colourful World", "Electricity", "Magnetic Effects of Electric Current", "Our Environment"]),
+ "jess3": ("Social Science", "Social Science", "History: India and the Contemporary World II", "History", ["The Rise of Nationalism in Europe", "Nationalism in India", "The Making of a Global World", "The Age of Industrialisation", "Print Culture and the Modern World"]),
+ "jess4": ("Social Science", "Social Science", "Political Science: Democratic Politics II", "Political Science", ["Power-sharing", "Federalism", "Gender, Religion and Caste", "Political Parties", "Outcomes of Democracy"]),
+ "jess2": ("Social Science", "Social Science", "Economics: Understanding Economic Development", "Economics", ["Development", "Sectors of the Indian Economy", "Money and Credit", "Globalisation and the Indian Economy", "Consumer Rights"]),
+ "jess1": ("Social Science", "Social Science", "Geography: Contemporary India II", "Geography", ["Resources and Development", "Forest and Wildlife Resources", "Water Resources", "Agriculture", "Minerals and Energy Resources", "Manufacturing Industries", "Lifelines of National Economy"]),
+ "jehp1": ("Other books", "Physical Education", "Health and Physical Education", "Health and Physical Education", None),
+ "jhsk1": ("Other books", "Sanskrit", "Shemushi Part 2 (Sanskrit)", "Sanskrit \u00b7 Shemushi Part 2", ["शुचिपर्यावरणम्", "बुद्धिर्बलवती सदा", "शिशुलालनम्", "जननी तुल्यवत्सला", "सुभाषितानि", "सौहार्दं प्रकृतेः शोभा", "विचित्रः साक्षी", "सूक्तयः", "भूकम्पविभीषिका", "अन्योक्तयः"]),
+ "jhva1": ("Other books", "Sanskrit", "Vyakaranvithi (Sanskrit grammar)", "Sanskrit \u00b7 Vyakaranvithi", None),
 }
-refined_path = root / "class10_refined.json"
-refined = json.loads(refined_path.read_text(encoding="utf-8")) if refined_path.exists() else {}
-for b in books:
-    if b["cls"] != 10:
-        continue
-    have = {c[0] for c in b["ch"]}
-    for c in refined.get(b["code"], []):
-        idx = int(c["file"][len(b["code"]):])
-        if idx not in have:
-            b["ch"].append([idx, None, idx])
-    b["ch"].sort(key=lambda c: c[0])
-    names = C10_TITLES.get(b["code"])
-    if names and len(names) == len(b["ch"]):
-        for c in b["ch"]:
-            c[1] = names[c[0] - 1]
+# extra files beside the chapters: code -> {suffix: label}
+C10_EXTRA = {
+ "jemh1": {"a1": "Appendix A1: Proofs in Mathematics", "a2": "Appendix A2: Mathematical Modelling", "an": "Answers and hints"},
+ "jesc1": {"an": "Answers"},
+ "jess1": {"a1": "Appendix I: Websites you can visit"},
+ "jhkr1": {"lp": "लेखक परिचय (author introductions)"},
+ "jhsy1": {"lp": "लेखक परिचय (author introductions)"},
+ "jhva1": {"a1": "Appendix 1: शब्दरूपाणि", "a2": "Appendix 2: धातुरूपाणि"},
+}
+books = [b for b in books if b["cls"] != 10]
+for code, (fold, sub, title, short, names) in C10.items():
+    files = {Path(f["name"]).name: f for f in zips[code]["files"]}
+    chs = []
+    for fn in sorted(files):
+        m = re.match(r"^%s(\d\d)\.{1,2}pdf$" % code, fn)
+        if m:
+            n = int(m.group(1))
+            chs.append([n, (names[n - 1] if names and n <= len(names) else None), fn if ".." in fn else n])
+    extra = []
+    for suf, label in C10_EXTRA.get(code, {}).items():
+        if code + suf + ".pdf" in files:
+            extra.append([label, code + suf + ".pdf"])
+    if code + "ps.pdf" in files:
+        extra.append(["Preface and contents", code + "ps.pdf"])
+    if names and len(names) != len(chs):
+        raise SystemExit("%s: %d titles but %d chapter files" % (code, len(names), len(chs)))
+    books.append({"cls": 10, "sub": sub, "fold": fold, "title": title, "short": short, "code": code, "label": "Chapter",
+                  "ch": chs, "zip": code + "dd.zip", "mb": zip_mb.get(code + "dd.zip"), "extra": extra})
 # -------------------------------------------------------------------------------------------
 
 books.sort(key=lambda b: (b["cls"], b["sub"], b["code"]))
