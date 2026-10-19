@@ -1,4 +1,4 @@
   SSL error on https://cbseacademic.nic.in/circulars.html; retrying over http
 FAILED https://cbseacademic.nic.in/circulars.html (HTTP None): SSLError
 OK https://www.cbse.gov.in/cbsenew/cbse.html (HTTP 200, 233020 bytes, 65 candidate links)
-Added 2 new pending item(s).
+Added 0 new pending item(s).
