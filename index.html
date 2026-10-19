@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="CBSE circulars, date sheets and results for Class 11 and 12 Science, with NCERT books and the syllabus, in one place.">
+<meta name="description" content="CBSE circulars, date sheets and results for Class 1 to 12, with NCERT books and the syllabus, in one place.">
 <title>GraphPaper</title>
 <link rel="alternate" type="application/atom+xml" href="feed.xml" title="GraphPaper notices">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -248,7 +248,7 @@ VIEWS.welcome = function(){
    '<div>' + step(1, "wh1", "Your class") + '<div role="group" aria-labelledby="wh1" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">' + cb + '</div>' +
    '<div style="font-size:14px;color:var(--mut);margin-top:12px">Colors grow up with you, from candy pastels to calm, deep tones.</div></div>' +
    '<div>' + step(2, "wh2", "Your board") + '<div role="group" aria-labelledby="wh2" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">' + bd("CBSE", "--a1", "on") + bd("ICSE", "--a4", "off", "Coming soon") + bd("State boards", "--a2", "off", "Coming soon") + '</div>' +
-   '<div style="font-size:14px;color:var(--mut);margin-top:12px">CBSE notices are live. Other boards are on the way. Class 11 and 12 Science have the most for now.</div></div>' +
+   '<div style="font-size:14px;color:var(--mut);margin-top:12px">CBSE notices are live. Other boards are on the way. Books and notices are live for Class 1 to 12. Syllabus pages are growing.</div></div>' +
    '<div id="werr" role="alert" hidden style="background:var(--a2);border:2px solid var(--ink);border-radius:16px;padding:10px 16px;font-weight:700">Please pick your class first.</div>' +
    '<button class="btn dark" data-act="wgo" style="min-height:56px;font-size:19px;padding:14px 32px">Take me in</button></div>' +
    '<div style="margin-top:20px"><a href="#/home" style="font-weight:700;text-decoration:underline">Skip for now</a></div></div></div>';
@@ -264,7 +264,7 @@ VIEWS.home = function(){
     return '<button class="f" data-act="hf" data-v="' + esc(p[0]) + '" aria-pressed="' + (ST.hf === p[0] ? "true" : "false") + '">' + esc(p[1]) + '</button>';
   }).join("");
   return '<div class="wrap hr"><div>' +
-    '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">' + (ST.cls ? 'Class ' + ST.cls + ' \u00b7 CBSE \u00b7 Change' : 'Class 1 to 12 \u00b7 Science 11 and 12 live') + '</a>' +
+    '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">' + (ST.cls ? 'Class ' + ST.cls + ' \u00b7 CBSE \u00b7 Change' : 'Class 1 to 12 \u00b7 NCERT books and CBSE notices') + '</a>' +
     '<h1 style="font-size:clamp(38px,6vw,66px);line-height:1.08;margin:20px 0 16px">Every CBSE circular, date sheet and result. One cozy place.</h1>' +
     '<p style="color:var(--mut);margin:0 0 28px;max-width:520px">Official notices from CBSE, gathered and sorted so you never miss one. NCERT books and the syllabus sit right next to them.</p>' +
     '<form class="search" data-act="hsearch"><label for="hq" style="position:absolute;left:-9999px">Search notices</label><input id="hq" placeholder="Search notices, e.g. date sheet" autocomplete="off"><button class="go" type="submit">Search</button></form>' +
@@ -278,9 +278,9 @@ VIEWS.home = function(){
     '<div id="updates" class="wrap sec" style="padding-bottom:64px"><div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px"><h2 style="font-size:34px;margin:0">Fresh from the boards</h2><div class="chips">' + f + '</div></div>' +
     '<div class="grid g3">' + (fresh.length ? fresh.map(function(x){ return noticeCard(x); }).join("") : loadingOrEmpty("No notices of this type yet.")) + '</div>' +
     '<div style="text-align:center;margin-top:32px"><a class="btn dark" href="#/updates" style="display:inline-flex;padding:14px 32px">See all updates</a></div></div>' +
-    '<div id="shelf" style="background:var(--shelf);padding:64px 0"><div class="wrap"><h2 style="font-size:34px;margin:0 0 8px">Your study shelf</h2><p style="margin:0 0 28px;color:var(--mut);max-width:560px">Books, syllabus and notes for Class 11 and 12 Science, right next to the notices.</p>' +
+    '<div id="shelf" style="background:var(--shelf);padding:64px 0"><div class="wrap"><h2 style="font-size:34px;margin:0 0 8px">Your study shelf</h2><p style="margin:0 0 28px;color:var(--mut);max-width:560px">Books, syllabus and notes for your class, right next to the notices.</p>' +
     '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr))">' +
-    '<a href="#/books" style="background:var(--card);border-radius:28px;padding:28px;display:block"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a3);margin-bottom:16px">'+ico("book",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">NCERT books</h3><div style="color:var(--mut)">Class 11 and 12, subject by subject</div></a>' +
+    '<a href="#/books" style="background:var(--card);border-radius:28px;padding:28px;display:block"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a3);margin-bottom:16px">'+ico("book",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">NCERT books</h3><div style="color:var(--mut)">Class 1 to 12, subject by subject</div></a>' +
     '<a href="#/syllabus" style="background:var(--card);border-radius:28px;padding:28px;display:block"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a2);margin-bottom:16px">'+ico("doc",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">Syllabus</h3><div style="color:var(--mut)">Official 2026-27 syllabus per subject</div></a>' +
     '<div style="background:var(--card);border-radius:28px;padding:28px"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a5);margin-bottom:16px">'+ico("notes",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div style="color:var(--mut)">Chapter notes and quick revision sheets</div></div></div></div></div>';
 };
@@ -337,14 +337,19 @@ var SUBJ = {
 };
 VIEWS["class"] = function(){
   var c = ST.cls || "4", n = +c, hi = n >= 11, live = hi && ST.stream === "Science";
-  var list = hi ? SUBJ[ST.stream] : (n <= 5 ? SUBJ.a : n <= 8 ? SUBJ.b : SUBJ.c);
-  var cols = ["--a1","--a2","--a3","--a4","--a5"], sub2books = {Physics:"Physics", Chemistry:"Chemistry", Mathematics:"Maths", Biology:"Biology"};
-  var subs = list.map(function(x, i){
-    var col = cols[i % 5], real = live && sub2books[x], icon = real ? ico(sub2books[x]) : ico("book");
-    var inner = '<span class="ic" style="background:var(' + col + ')">' + icon + '</span><b>' + esc(x) + '</b><span style="color:var(--mut);font-size:15px">NCERT textbook</span>' +
-      (real ? '<span style="font-weight:700">Open →</span>' : '<span class="pill" style="background:var(--a4);align-self:flex-start;font-size:13px">Coming soon</span>');
-    return real ? '<a class="bq" href="#/books?sub=' + sub2books[x] + '" style="--sh:var(' + col + ')">' + inner + '</a>' : '<div class="bq" style="--sh:var(' + col + ')">' + inner + '</div>';
-  }).join("");
+  var subs, cols = ["--a1","--a2","--a3","--a4","--a5"], s2b = {Physics:"Physics", Chemistry:"Chemistry", Mathematics:"Maths", Biology:"Biology"};
+  function card(label, href, icon, col, note){
+    var inner = '<span class="ic" style="background:var(' + col + ')">' + icon + '</span><b>' + esc(label) + '</b><span style="color:var(--mut);font-size:15px">' + note + '</span>' + (href ? '<span style="font-weight:700">Open →</span>' : '<span class="pill" style="background:var(--a4);align-self:flex-start;font-size:13px">Coming soon</span>');
+    return href ? '<a class="bq" href="' + href + '" style="--sh:var(' + col + ')">' + inner + '</a>' : '<div class="bq" style="--sh:var(' + col + ')">' + inner + '</div>';
+  }
+  if (!hi) {
+    var cs = classSubs(c);
+    subs = cs.length ? cs.map(function(x, i){ var k = classBooks(c).filter(function(b){ return b.sub === x; }).length; return card(x, '#/books?sub=' + encodeURIComponent(x), subIcon(x), subCol(x), k + ' NCERT book' + (k === 1 ? '' : 's')); }).join("") :
+      '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.booksLoaded ? 'No books found for this class yet.' : 'Loading books...') + '</div>';
+  } else {
+    var list = SUBJ[ST.stream];
+    subs = list.map(function(x, i){ var real = live && s2b[x]; return card(x, real ? '#/books?sub=' + s2b[x] : "", real ? ico(s2b[x]) : ico("book"), cols[i % 5], 'NCERT textbook'); }).join("");
+  }
   var streams = hi ? '<div class="chips" role="group" aria-label="Stream">' + ["Science","Commerce","Humanities"].map(function(v){ return '<button class="f" data-act="st" data-v="' + v + '" aria-pressed="' + (ST.stream === v ? "true" : "false") + '">' + v + '</button>'; }).join("") + '</div>' : '';
   var mine = ST.items.filter(function(x){ return classOf(x, c); }).slice(0, 3);
   var latest = '<h2>Latest for Class ' + c + '</h2><div class="grid g3">' + (mine.length ? mine.map(function(x){ return noticeCard(x, true); }).join("") : '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? 'No notices that mention Class ' + c + ' yet. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a>.' : 'Loading notices...') + '</div>') + '</div>';
@@ -360,39 +365,46 @@ VIEWS["class"] = function(){
    latest + '</div>';
 };
 
+var SUBCOL = {Physics:"--a1", Chemistry:"--a3", Maths:"--a4", Biology:"--a2", Mathematics:"--a4", Science:"--a3", English:"--a1", "Social Science":"--a2", "Environmental Studies":"--a3", Arts:"--a5", "Physical Education":"--a1", "Vocational Education":"--a5", "Skill Education":"--a5"};
+var SUBICON = {Physics:"Physics", Chemistry:"Chemistry", Maths:"Maths", Biology:"Biology", Mathematics:"Maths", Science:"Biology"};
+function subCol(s){ return SUBCOL[s] || "--a1"; }
+function subIcon(s){ return ico(SUBICON[s] || "book", 24); }
+function classBooks(c){ return BOOKS.filter(function(b){ return b.cls === +c; }); }
+function classSubs(c){ var o = []; classBooks(c).forEach(function(b){ if (o.indexOf(b.sub) < 0) o.push(b.sub); }); return o; }
 function booksHtml(){
-  var c = +bcls(), q = ST.bq.trim().toLowerCase(), out = "", n = 0, i = 0;
-  var cols = {Physics:"--a1", Chemistry:"--a3", Maths:"--a4", Biology:"--a2"};
+  var c = +bcls(), q = ST.bq.trim().toLowerCase(), out = "", n = 0;
   BOOKS.forEach(function(b){
     if (b.cls !== c || (ST.bsub !== "All" && b.sub !== ST.bsub)) return;
-    var chs = b.ch.filter(function(h){ return !q || (h[1] + " " + b.title + " " + b.sub).toLowerCase().indexOf(q) !== -1; });
+    var chs = b.ch.filter(function(h){ return !q || ((h[1] || "") + " " + b.label + " " + h[0] + " " + b.title + " " + b.sub).toLowerCase().indexOf(q) !== -1; });
     if (!chs.length) return;
     n++;
     var rows = chs.map(function(h){
-      var file = h[2];
-      if (file) return '<div class="chr"><span class="no">' + b.label + ' ' + h[0] + '</span><a class="tt" style="font-weight:700" href="' + BBASE + b.code + (file < 10 ? "0" : "") + file + '.pdf" target="_blank" rel="noopener">' + esc(h[1]) + '</a><span aria-hidden="true">↗</span></div>';
-      return '<div class="chr na"><span class="no">' + b.label + ' ' + h[0] + '</span><span class="tt">' + esc(h[1]) + '</span><span></span><small>PDF not found. Open the book on the NCERT site.</small></div>';
+      var file = h[2], lbl = '<span class="no">' + b.label + ' ' + h[0] + '</span>';
+      if (file) return '<div class="chr">' + lbl + '<a class="tt" style="font-weight:700" href="' + BBASE + b.code + (file < 10 ? "0" : "") + file + '.pdf" target="_blank" rel="noopener">' + esc(h[1] || "Open chapter PDF") + '</a><span aria-hidden="true">↗</span></div>';
+      return '<div class="chr na">' + lbl + '<span class="tt">' + esc(h[1] || "") + '</span><span></span><small>PDF not found. Open the book on the NCERT site.</small></div>';
     }).join("");
-    out += '<details class="book" style="--sh:var(' + cols[b.sub] + ')"' + (q || ST.bopen[b.code] ? ' open' : '') + ' data-code="' + b.code + '"><summary><span class="bi" style="background:var(' + cols[b.sub] + ')">' + ico(b.sub, 24) + '</span><span class="bt"><b>Class ' + b.cls + ' ' + esc(b.title) + '</b><span>' + chs.length + ' chapter' + (chs.length === 1 ? '' : 's') + (q ? ' match' : '') + '</span></span><svg class="car" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3l5 5-5 5" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><div class="chs">' + rows +
+    var col = subCol(b.sub), nm = b.sub === b.title ? b.sub : b.sub + ": " + b.title;
+    out += '<details class="book" style="--sh:var(' + col + ')"' + (q || ST.bopen[b.code] ? ' open' : '') + ' data-code="' + b.code + '"><summary><span class="bi" style="background:var(' + col + ')">' + subIcon(b.sub) + '</span><span class="bt"><b>' + (b.cls <= 10 ? esc(nm) : 'Class ' + b.cls + ' ' + esc(b.title)) + '</b><span>' + chs.length + ' chapter' + (chs.length === 1 ? '' : 's') + (q ? ' match' : '') + '</span></span><svg class="car" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3l5 5-5 5" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><div class="chs">' + rows +
       '<a class="btn" href="' + BPORTAL + '" target="_blank" rel="noopener" style="margin-top:12px">Open NCERT textbook page ↗</a></div></details>';
   });
-  return {n:n, html: out || '<div class="card" style="box-shadow:0 6px 0 var(--a1)">No chapters found.</div>'};
+  return {n:n, html: out || '<div class="card" style="box-shadow:0 6px 0 var(--a1)">' + (ST.booksLoaded || c > 10 ? 'No books found.' : 'Loading books...') + '</div>'};
 }
 ST.bopen = {};
-function bcls(){ return ST.cls === "11" ? "11" : "12"; }
+function bcls(){ return /^(1[0-2]|[1-9])$/.test(ST.cls || "") ? ST.cls : "12"; }
 VIEWS.books = function(r){
-  var s = r.q.get("sub"); if (s && ["Physics","Chemistry","Maths","Biology"].indexOf(s) > -1) ST.bsub = s;
-  var c = bcls();
-  var chips = ["All","Physics","Chemistry","Maths","Biology"].map(function(s){ return '<button class="f" data-act="bs" data-v="' + s + '" aria-pressed="' + (ST.bsub === s ? "true" : "false") + '">' + s + '</button>'; }).join("");
-  var cls = ["11","12"].map(function(v){ return '<button class="f" data-act="setcls" data-v="' + v + '" aria-pressed="' + (c === v ? "true" : "false") + '">Class ' + v + '</button>'; }).join("");
+  var c = bcls(), subs = classSubs(c), s = r.q.get("sub");
+  if (s && subs.indexOf(s) > -1) ST.bsub = s;
+  if (ST.bsub !== "All" && subs.indexOf(ST.bsub) < 0) ST.bsub = "All";
+  var chips = ["All"].concat(subs).map(function(s){ return '<button class="f" data-act="bs" data-v="' + esc(s) + '" aria-pressed="' + (ST.bsub === s ? "true" : "false") + '">' + esc(s) + '</button>'; }).join("");
+  var cls = ""; for (var i = 1; i <= 12; i++) cls += '<button class="f" data-act="setcls" data-v="' + i + '" aria-pressed="' + (c === String(i) ? "true" : "false") + '">' + i + '</button>';
+  var lead = +c >= 11 ? 'Chapter-wise PDFs for Class ' + c + ' Science, linked from the official NCERT site.' : 'Chapter-wise PDFs for Class ' + c + ', linked from the official NCERT site. Chapter titles show where they could be read from the PDF.';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>NCERT books</b></div>' +
-   '<div class="head"><div class="tile" style="background:var(--a3)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">NCERT books</h1><p>Chapter-wise PDFs for Class ' + c + ' Science, linked from the official NCERT site.</p></div></div>' +
-   '<div class="chips" style="margin-bottom:14px">' + cls + '</div>' +
-   (ST.cls && ST.cls !== "11" && ST.cls !== "12" ? '<div class="badge" style="margin-bottom:14px;background:var(--a4)">NCERT chapter links are ready for Class 11 and 12 Science. Other classes are coming soon.</div>' : '') +
+   '<div class="head"><div class="tile" style="background:var(--a3)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">NCERT books</h1><p>' + lead + '</p></div></div>' +
+   '<div class="chips" role="group" aria-label="Class" style="margin-bottom:14px">' + cls + '</div>' +
    '<div class="search" style="max-width:560px;margin-bottom:16px"><label for="bq" style="position:absolute;left:-9999px">Search chapters</label><input id="bq" type="search" placeholder="Search chapters" value="' + esc(ST.bq) + '" autocomplete="off"></div>' +
    '<div class="chips" role="group" aria-label="Subject" style="margin-bottom:20px">' + chips + '</div>' +
    '<div class="grid" id="blist" style="grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));align-items:start">' + booksHtml().html + '</div>' +
-   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every chapter opens on ncert.nic.in. GraphPaper does not host NCERT files.</p></div>';
+   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every chapter opens on ncert.nic.in. GraphPaper does not host NCERT files. English-medium books only for now.</p></div>';
 };
 
 VIEWS.syllabus = function(){
@@ -419,7 +431,7 @@ VIEWS.board = function(r){
   var btns, body = "";
   if (b.soon) {
     btns = '<a class="btn dark" href="#/board/CBSE" style="display:inline-flex">See CBSE notices</a>';
-    body = '<div class="card" style="--sh:var(--a4)"><h3 style="font-size:22px">Coming soon</h3><div class="meta">For now GraphPaper covers CBSE for Class 11 and 12 Science.</div></div>';
+    body = '<div class="card" style="--sh:var(--a4)"><h3 style="font-size:22px">Coming soon</h3><div class="meta">For now GraphPaper covers CBSE notices and NCERT books for Class 1 to 12.</div></div>';
   } else {
     btns = '<a class="btn dark" href="' + b.url + '" target="_blank" rel="noopener" style="display:inline-flex">Open official site ↗</a>';
     var counts = TYPE_KEYS.map(function(k){ var n = ST.items.filter(function(x){ return x.tag === k; }).length; return '<a class="card sm" href="#/updates?type=' + encodeURIComponent(k) + '" style="--sh:var(' + TYPES[k].c + ')"><h3>' + TYPES[k].plural + '</h3><div class="meta">' + n + ' notice' + (n === 1 ? '' : 's') + '</div><span class="more">See all →</span></a>'; }).join("");
@@ -461,8 +473,8 @@ VIEWS.about = function(){
   function sec(t, tx, sh){ return '<section class="card" style="--sh:' + sh + ';gap:8px;border-radius:28px;padding:24px 26px"><h2 style="font-size:24px;margin:0">' + t + '</h2><div>' + tx + '</div></section>'; }
   return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>About</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">About GraphPaper</h1>' +
    '<p style="margin:0 0 28px;color:var(--mut)">Every school notice, in one calm place.</p><div style="display:flex;flex-direction:column;gap:22px">' +
-   sec("Our idea", "Students should not have to hunt through several websites for a circular, date sheet or result. GraphPaper gathers the official CBSE notices for Class 11 and 12 Science, sorts them, and links to the original so you can read the real thing.", "var(--a1)") +
-   sec("What you will find here", "<b>Notices:</b> CBSE circulars, date sheets, syllabus changes and results.<br><b>Books:</b> NCERT chapter PDFs for Class 11 and 12 Science, linked from ncert.nic.in.<br><b>Syllabus:</b> the official 2026-27 syllabus for Physics, Chemistry, Maths and Biology.<br><b>Notes:</b> coming later.", "var(--a3)") +
+   sec("Our idea", "Students should not have to hunt through several websites for a circular, date sheet or result. GraphPaper gathers the official CBSE notices, sorts them, and links to the original so you can read the real thing.", "var(--a1)") +
+   sec("What you will find here", "<b>Notices:</b> CBSE circulars, date sheets, syllabus changes and results.<br><b>Books:</b> NCERT chapter PDFs for Class 1 to 12, linked from ncert.nic.in (English-medium books for now).<br><b>Syllabus:</b> the official 2026-27 syllabus for Physics, Chemistry, Maths and Biology.<br><b>Notes:</b> coming later.", "var(--a3)") +
    '<section style="background:var(--a4);border:2px solid var(--ink);border-radius:28px;padding:24px 26px;box-shadow:0 6px 0 var(--ink)"><h2 style="font-size:24px;margin:0 0 8px">Not an official website</h2><div>GraphPaper is not run by any board. Notices can change, so always check them at the official source before you act on them.</div></section>' +
    '</div></div>';
 };
@@ -550,6 +562,7 @@ window.addEventListener("hashchange", function(){ route(); });
 /* ---------- data ---------- */
 applyClass();
 route();
+fetch("books_1_10.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ if (Array.isArray(d)) d.forEach(function(b){ BOOKS.push(b); }); }).catch(function(){}).then(function(){ ST.booksLoaded = true; var n = parse().name; if (n === "books" || n === "class") route(true); });
 fetch("updates.json", {cache: "no-store"}).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){
   ST.items = (Array.isArray(d) ? d : []).filter(function(x){ return x && x.status === "approved" && !x.sample; }).sort(function(a, b){ return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
 }).catch(function(){}).then(function(){ ST.loaded = true; route(true); });
