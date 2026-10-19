@@ -110,13 +110,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 GraphPaper</a>
 <nav aria-label="Main" style="position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:22px;font-weight:700">
 <a href="#/updates">Updates</a><a href="#/home?s=boards">Boards</a><a href="#/class">Study shelf</a>
-<details id="clsmenu">
-<summary style="cursor:pointer;display:flex;align-items:center;gap:8px;background:var(--a1);border:2px solid var(--ink);border-radius:999px;padding:10px 18px;min-height:44px;box-sizing:border-box;font-weight:700;box-shadow:0 4px 0 var(--ink)"><span>Class</span><span id="clsnum"></span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
-<div class="menu" style="position:absolute;top:calc(100% + 10px);z-index:5;width:248px;max-width:calc(100vw - 64px);background:var(--card);border:2px solid var(--ink);border-radius:24px;padding:18px;box-shadow:0 6px 0 var(--a1)">
-<div class="fr" style="font-weight:600;font-size:20px;margin-bottom:12px">Pick your class</div>
-<div class="cgrid" id="cgrid"><button class="f fr" data-act="setcls" data-v="1" style="font-size:18px;min-height:44px;padding:6px">1</button><button class="f fr" data-act="setcls" data-v="2" style="font-size:18px;min-height:44px;padding:6px">2</button><button class="f fr" data-act="setcls" data-v="3" style="font-size:18px;min-height:44px;padding:6px">3</button><button class="f fr" data-act="setcls" data-v="4" style="font-size:18px;min-height:44px;padding:6px">4</button><button class="f fr" data-act="setcls" data-v="5" style="font-size:18px;min-height:44px;padding:6px">5</button><button class="f fr" data-act="setcls" data-v="6" style="font-size:18px;min-height:44px;padding:6px">6</button><button class="f fr" data-act="setcls" data-v="7" style="font-size:18px;min-height:44px;padding:6px">7</button><button class="f fr" data-act="setcls" data-v="8" style="font-size:18px;min-height:44px;padding:6px">8</button><button class="f fr" data-act="setcls" data-v="9" style="font-size:18px;min-height:44px;padding:6px">9</button><button class="f fr" data-act="setcls" data-v="10" style="font-size:18px;min-height:44px;padding:6px">10</button><button class="f fr" data-act="setcls" data-v="11" style="font-size:18px;min-height:44px;padding:6px">11</button><button class="f fr" data-act="setcls" data-v="12" style="font-size:18px;min-height:44px;padding:6px">12</button></div>
-<a href="#/class" class="btn dark" style="margin-top:14px;min-height:44px">Open my class page</a>
-<div style="margin-top:14px;font-size:14px;color:var(--mut)">Colors grow up with you, from candy pastels to calm, deep tones.</div></div></details>
 </nav>
 </div>
 
@@ -701,8 +694,6 @@ function parse(){
 }
 function applyClass(){
   $("#app").dataset.c = ST.cls;
-  $("#clsnum").textContent = ST.cls;
-  D.querySelectorAll("#cgrid button").forEach(function(b){ b.setAttribute("aria-pressed", b.dataset.v === ST.cls ? "true" : "false"); });
 }
 function route(keepScroll){
   var r = parse(), name = r.name;
@@ -719,7 +710,6 @@ function route(keepScroll){
   $("#topnav").hidden = $("#foot").hidden = (name === "welcome");
   if (name !== "welcome") applyClass();
   $("#view").innerHTML = VIEWS[name](r);
-  var d = $("#clsmenu"); if (d){ d.open = false; d.hidden = true; }
   document.title = (name === "notice" ? (function(){ var t = $("#pg"); return (t && t.textContent ? t.textContent.slice(0, 80) + " | GraphPaper" : TITLES.notice); })() : (name === "board" ? (BOARDS[r.arg] ? r.arg : "CBSE") + " | GraphPaper" : TITLES[name]));
   if (!keepScroll){
     var s = r.q.get("s"), tgt = s && D.getElementById(s);
