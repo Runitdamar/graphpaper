@@ -1,0 +1,4431 @@
+{
+ "partial": false,
+ "prefixes": [
+  "leac",
+  "lebo",
+  "lebs",
+  "lebt",
+  "leca",
+  "lech",
+  "lecs",
+  "leec",
+  "lefa",
+  "lefl",
+  "legy",
+  "lehe",
+  "lehh",
+  "lehs",
+  "leip",
+  "lekl",
+  "lemh",
+  "leph",
+  "leps",
+  "lepy",
+  "lesy",
+  "levt",
+  "lhac",
+  "lhan",
+  "lhar",
+  "lhat",
+  "lhbo",
+  "lhbs",
+  "lhch",
+  "lhec",
+  "lhfa",
+  "lhgy",
+  "lhhs",
+  "lhmh",
+  "lhph",
+  "lhps",
+  "lhpy",
+  "lhsk",
+  "lhsy",
+  "lhvt",
+  "luab",
+  "luac",
+  "lubo",
+  "lubs",
+  "luch",
+  "lucw",
+  "ludh",
+  "lufh",
+  "luga",
+  "lugy",
+  "luhc",
+  "luis",
+  "luku",
+  "lume",
+  "lumh",
+  "luna",
+  "luph",
+  "lups",
+  "lupy",
+  "luth"
+ ],
+ "books": {
+  "leac1": {
+   "front": "Accountancy Partnership Accounts Textbook for Class XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "leac101",
+     "pages": 47,
+     "head": "Y ou have learnt about the preparation of financial statements for a sole proprietary concern. As the business expands, one needs more capital and larger number of people to manage the business and sh"
+    },
+    {
+     "file": "leac102",
+     "pages": 59,
+     "head": "2 LEARNING OBJECTIVES After studying this chapter you will be able to: • Explain the concept of reconstitution of a partnership firm; • Identify the matters that need adjustments in the books of firm "
+    },
+    {
+     "file": "leac103",
+     "pages": 49,
+     "head": "Reconstitution of a Partnership Firm – Retirement/Death of a Partner 3 Y ou have lear nt that r etirement or death of a partner also leads to reconstitution of a partnership firm. On the retirement or"
+    },
+    {
+     "file": "leac104",
+     "pages": 39,
+     "head": "Y ou have lear nt about the r econstitution of a partnership firm which takes place on account of admission, retirement or death of a partner. In such a situation while the existing partnership is dis"
+    }
+   ],
+   "extras": {
+    "ps": 2116295,
+    "dd": 15217270
+   }
+  },
+  "leac2": {
+   "front": "Accountancy Company Accounts and Analysis of Financial Statements Textbook for Class XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "leac201",
+     "pages": 74,
+     "head": "A company form of organisation is the third stage in the evolution of forms of organisation. Its capital is contributed by a large number of persons called shareholders who are the real owners of the "
+    },
+    {
+     "file": "leac202",
+     "pages": 69,
+     "head": "A company raises its capital by means of issue of shares. But the funds raised by the issue of shares are seldom adequate to meet their long term financial needs of a company. Hence, most companies tu"
+    },
+    {
+     "file": "leac203",
+     "pages": 27,
+     "head": "144 Accountancy : Company Accounts and Analysis of Financial Statements H aving understood how a company raises its capital, we have to learn the nature, objectives and types of financial statements i"
+    },
+    {
+     "file": "leac204",
+     "pages": 23,
+     "head": "171Analysis of Financial Statements Y ou have learnt about the financial statements (Income Statement and Balance Sheet) of companies. Basically, these are summarised financial reports which provide t"
+    },
+    {
+     "file": "leac205",
+     "pages": 47,
+     "head": "F inancial statements aim at providing financial information about a business enterprise to meet the information needs of the decision-makers. Financial statements prepared by a business enterprise in"
+    },
+    {
+     "file": "leac206",
+     "pages": 46,
+     "head": "T iill now you have learnt about the financial statements being primarily inclusive of Position Statement (showing the financial position of an enterprise as on a particular date) and Income Statement"
+    }
+   ],
+   "extras": {
+    "ps": 1684905,
+    "dd": 22072948
+   }
+  },
+  "lebo1": {
+   "front": "BIOLOGY TEXTBOOK FOR CLASS XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lebo101",
+     "pages": 25,
+     "head": "Biology in essence is the story of life on earth. While individual organisms die without fail, species continue to live through millions of years unless threatened by natural or anthropogenic extincti"
+    },
+    {
+     "file": "lebo102",
+     "pages": 15,
+     "head": "As you are aware, humans are sexually reproducing and viviparous. The reproductive events in humans include formation of gametes (gametogenesis), i.e., sperms in males and ovum in females, transfer of"
+    },
+    {
+     "file": "lebo103",
+     "pages": 10,
+     "head": "You have learnt about human reproductive system and its functions in Chapter 2. Now, let’s discuss a closely related topic – reproductive health. What do we understand by this term? The term simply re"
+    },
+    {
+     "file": "lebo104",
+     "pages": 28,
+     "head": "The work of Mendel and others who followed him gave us an idea of inheritance patterns. However the nature of those ‘factors’ which determine the phenotype was not very clear. As these ‘factors’ repre"
+    },
+    {
+     "file": "lebo105",
+     "pages": 31,
+     "head": "CHAPTER 5 MOLECULAR BASIS OF INHERITANCE 5.1 The DNA 5.2 The Search for Genetic Material 5.3 RNA World 5 .4 Replication 5.5 Transcription 5.6 Genetic Code 5.7 Translation 5.8 Regulation of Gene Expres"
+    },
+    {
+     "file": "lebo106",
+     "pages": 17,
+     "head": "110 BIOLOGY Evolutionary Biology is the study of history of life forms on earth. What exactly is evolution? To understand the changes in flora and fauna that have occurred over millions of years on ea"
+    },
+    {
+     "file": "lebo107",
+     "pages": 22,
+     "head": "Chapter 7 Human Health and Disease Chapter 8 Microbes in Human Welfare Biology is the youngest of the formalised disciplines of natural science. Progress in physics and chemistry proceeded much faster"
+    },
+    {
+     "file": "lebo108",
+     "pages": 12,
+     "head": "Besides macroscopic plants and animals, microbes are the major components of biological systems on this earth. You have studied about the diversity of living organisms in Class XI. Do you remember whi"
+    },
+    {
+     "file": "lebo109",
+     "pages": 16,
+     "head": "Ever since the days of Rene Descartes, the French philosopher, mathematician and biologist of seventeenth century, all human knowledge especially natural sciences were directed to develop technologies"
+    },
+    {
+     "file": "lebo110",
+     "pages": 11,
+     "head": "Biotechnology, as you would have learnt from the previous chapter, essentially deals with industrial scale production of biopharmaceuticals and biologicals using genetically modified microbes, fungi, "
+    },
+    {
+     "file": "lebo111",
+     "pages": 17,
+     "head": "Diversity is not only a characteristic of living organisms but also of content in biology textbooks. Biology is presented either as botany, zoology and microbiology or as classical and modern. The lat"
+    },
+    {
+     "file": "lebo112",
+     "pages": 11,
+     "head": "An ecosystem can be visualised as a functional unit of nature, where living organisms interact among themselves and also with the surrounding physical environment. Ecosystem varies greatly in size fro"
+    },
+    {
+     "file": "lebo113",
+     "pages": 13,
+     "head": "If an alien from a distant galaxy were to visit our planet Earth, the first thing that would amaze and baffle him would most probably be the enormous diversity of life that he would encounter. Even fo"
+    }
+   ],
+   "extras": {
+    "ps": 573875,
+    "dd": 160520741
+   }
+  },
+  "lebs1": {
+   "front": "Business studies Part i PrinciPles and Functions oF ManageMent Textbook for Class XII Prelims.indd 1 29-08-2022 12:25:24 Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lebs101",
+     "pages": 29,
+     "head": "After studying this chapter, you should be able to: n Describe the characteristics of management and its importance in an organisation; n Explain the nature of management as an art, science and profes"
+    },
+    {
+     "file": "lebs102",
+     "pages": 39,
+     "head": "2 PRINCIPLES OF MANAGEMENT CHAPTER LEARNING OBJECTIVES T oyota follows certain well-defined business principles guiding its functioning. These are: 1. Honour the language and spirit of law of every na"
+    },
+    {
+     "file": "lebs103",
+     "pages": 22,
+     "head": "3BUSINESS ENVIRONMENT CHAPTER After studying this chapter you will be able to: n Explain the meaning of business environment; n Discuss the importance of business environment; n Describe the various e"
+    },
+    {
+     "file": "lebs104",
+     "pages": 18,
+     "head": "Planning CHAPTER IOCL: Fuelling Sustainable Future Indian Oil, a Maharatna PSU, is India’s foremost integrated energy conglomerate. As a leader, the company dedicates itself to delivering sustainable "
+    },
+    {
+     "file": "lebs105",
+     "pages": 30,
+     "head": "ORGANISING CHAPTER 5 It’s not quite there yet, but the goal is certainly within reach. One of India’s largest IT solutions providers, Wipro T echnologies, is taking on the likes of IBM and Accenture i"
+    },
+    {
+     "file": "lebs106",
+     "pages": 30,
+     "head": "STAFFING CHAPTER “Our assets walk out of the door each evening. We have to make sure that they come back the next morning” (as stated by Narayana Murthy former, CEO of INFOSYS.) At a time when organis"
+    },
+    {
+     "file": "lebs107",
+     "pages": 32,
+     "head": "DIRECTING CHAPTER 7 LEARNING OBJECTIVES After studying this chapter, you should be able to: n Explain the concept of directing and its importance in business organisations; n Understand the principles"
+    },
+    {
+     "file": "lebs108",
+     "pages": 14,
+     "head": "CONTROLLING CHAPTER LEARNING OBJECTIVES 8 After studying this chapter, you should be able to: n Explain the meaning of controlling; n State the importance of controlling; n Describe the relationship b"
+    }
+   ],
+   "extras": {
+    "ps": 2851720,
+    "dd": 22102905
+   }
+  },
+  "lebs2": {
+   "front": "Business studies Part ii Business Finance and Marketing Textbook for Class XII 0__Prelims.indd 1 01-09-2022 12:28:31",
+   "chapters": [
+    {
+     "file": "lebs201",
+     "pages": 27,
+     "head": "chapter 9 When TaTa STeel acquired coruS Tata Steel, the biggest steel producer in the Indian private sector acquired Corus, a Dutch Steel Company in a deal worth 12 billion USD in 2007. A financial d"
+    },
+    {
+     "file": "lebs202",
+     "pages": 47,
+     "head": "chapter 10 Where Do Companies Do Their Business? In the Markets or in the Society? It is an undisputed fact that a company’s survival does not depend upon its consumers alone, but a diverse set of sta"
+    },
+    {
+     "file": "lebs203",
+     "pages": 16,
+     "head": "chapter 11 Learning Objectives After studying this chapter, you should be able to: ¾ state the importance of consumer protection; ¾ briefly explain legal framework for consumer protection in India; ¾ "
+    }
+   ],
+   "extras": {
+    "ps": 2681633,
+    "dd": 11042478
+   }
+  },
+  "lebt1": {
+   "front": "Biotechnology Textbook for Class XII Prelims_XII_Final.indd 1 1/9/2025 4:30:12 PM Reprint 2025-26",
+   "chapters": [
+    {
+     "file": "lebt101",
+     "pages": 8,
+     "head": "UNIT I Recombinant DNA Technology Chapter 1: An Overview of Recombinant DNA Technology Chapter 2: Host–Vector System Chapter 3: Gene Cloning Chapter 4: Application of Recombinant DNA Technology Chapte"
+    },
+    {
+     "file": "lebt102",
+     "pages": 18,
+     "head": "Recombinant DNA technology is a two component system involving a compatible host and a vector. A variety of hosts as well as vectors are available for gene cloning. In this chapter, students will be e"
+    },
+    {
+     "file": "lebt103",
+     "pages": 40,
+     "head": "Gene cloning is a customary procedure to use a gene for its product in the biotechnology industry and various other purposes. Traditionally, it engages the transfer of a DNA fragment containing the ge"
+    },
+    {
+     "file": "lebt104",
+     "pages": 44,
+     "head": "Recombinant DNA (rDNA) technology has revolutionised our life in various ways. In recent years breakthrough discoveries have provided solutions to many of the problems. These include establishing the "
+    },
+    {
+     "file": "lebt105",
+     "pages": 30,
+     "head": "UNIT II Genome Engineering Chapter 5: Genome Technology and Engineering Chapter 5_Genome Technology.indd 111 23-01-2025 11:23:03 Reprint 2025-26"
+    },
+    {
+     "file": "lebt106",
+     "pages": 26,
+     "head": "UNIT III Microbial, Plant, Animal Cell, Organ Cultures and Bioprocessing Chapter 6: Microbial Culture Chapter 7: Plant Tissue Culture Chapter 8: Animal Cell Culture Chapter 9: Stem Cell Culture and Or"
+    },
+    {
+     "file": "lebt107",
+     "pages": 18,
+     "head": "Plant tissue culture (PTC) refers to the cultivation of undifferentiated plant cells, tissues or organs on synthetic media under aseptic environment and suitable controlled physical conditions. It is "
+    },
+    {
+     "file": "lebt108",
+     "pages": 24,
+     "head": "Animal cell culture is described as the in vitro maintenance and proliferation of animal cells that will continue to grow outside the living organism if supplied with appropriate nutrients and growth "
+    },
+    {
+     "file": "lebt109",
+     "pages": 22,
+     "head": "Stem cell study forms an exciting and attractive area of contemporary biomedical research that has enormous potential for both basic and translational research. Stem cells can be used for alleviating "
+    },
+    {
+     "file": "lebt110",
+     "pages": 22,
+     "head": "Students are already aware that living organisms especially microbes and biological processes therein are used for making various household products (curd/yoghurt, idli, kinema, etc.) and industrial p"
+    },
+    {
+     "file": "lebt111",
+     "pages": 36,
+     "head": "UNIT IV Bioremediation Chapter 11: Bioremediation Chapter 11_Bioremediation new correction.indd 253 23-01-2025 11:28:21 Reprint 2025-26"
+    },
+    {
+     "file": "lebt112",
+     "pages": 34,
+     "head": "UNIT V Recent Innovations in Biotechnology and Entrepreneurship Chapter 12: Recent Innovations in Biotechnology Chapter 13: Entrepreneurship Chapter 12_Recent Innovations in Biotechnology__230321.indd"
+    },
+    {
+     "file": "lebt113",
+     "pages": 20,
+     "head": "13.1 Concept of Entrepreneurship 13.2 Sources of Funds 13.3 Entrepreneurship in Biotechnology 13.4 Concept of IPR 13.5 Biopiracy Entrepreneurship13Chapter Entrepreneurs are the harbingers of prosperou"
+    }
+   ],
+   "extras": {
+    "ps": 1676207,
+    "dd": 35298477
+   }
+  },
+  "leca1": {
+   "front": "ACCOUNTANCY COMPUTERISED A CCOUNTING S YSTEM Textbook for Class XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "leca101",
+     "pages": 16,
+     "head": "OVERVIEW OF COMPUTERISED ACCOUNTING SYSTEM Introduction After studying this chapter you will be able to: • Understand the need of Computerised Accounting System. • Appreciate the impact of Information"
+    },
+    {
+     "file": "leca102",
+     "pages": 70,
+     "head": "SPREADSHEET Introduction After studying this chapter you will be able to understand: • Concept of Spreadsheet and its features. • How to use a Spreadsheet. 2 Learning Objectives A spreadsheet is a con"
+    },
+    {
+     "file": "leca103",
+     "pages": 18,
+     "head": "USE OF SPREADSHEET IN BUSINESS APPLICATIONS Introduction After studying this chapter you will be able to use spreadsheet for: • Computing employee’s gross salary. Making necessary deductions to calcul"
+    },
+    {
+     "file": "leca104",
+     "pages": 20,
+     "head": "GRAPHS AND CHARTS FOR BUSINESS DATA Introduction 4 Learning Objectives In the pr evious chapter , you wer e intr oduced to the basic features of spreadsheet and use of spreadsheet in accounting. Quite"
+    }
+   ],
+   "extras": {
+    "ps": 937002,
+    "dd": 15318928
+   }
+  },
+  "lech1": {
+   "front": "Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lech101",
+     "pages": 30,
+     "head": "After studying this Unit, you will be able to • describe the formation of different types of solutions; • express concentration of solution in different units; • state and explain Henry’s law and Raou"
+    },
+    {
+     "file": "lech102",
+     "pages": 30,
+     "head": "Electrochemistry is the study of production of electricity from energy released during spontaneous chemical reactions and the use of electrical energy to bring about non-spontaneous chemical transform"
+    },
+    {
+     "file": "lech103",
+     "pages": 28,
+     "head": "Chemistry, by its very nature, is concerned with change. Substances with well defined properties are converted by chemical reactions into other substances with different properties. For any chemical r"
+    },
+    {
+     "file": "lech104",
+     "pages": 29,
+     "head": "The d-block of the periodic table contains the elements of the groups 3-12 in which the d orbitals are progressively filled in each of the four long periods. The f-block consists of elements in which "
+    },
+    {
+     "file": "lech105",
+     "pages": 23,
+     "head": "118Chemistry In the previous Unit we learnt that the transition metals form a large number of complex compounds in which the metal atoms are bound to a number of anions or neutral molecules by sharing"
+    }
+   ],
+   "extras": {
+    "an": 949452,
+    "a1": 1507101,
+    "ps": 2854404,
+    "dd": 22674746
+   }
+  },
+  "lech2": {
+   "front": "Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lech201",
+     "pages": 34,
+     "head": "The replacement of hydrogen atom(s) in a n aliphatic or aromatic hydrocarbon by halogen atom(s) results in the formation of alkyl halide (haloalkane) and aryl halide (haloarene), respectively. Haloalk"
+    },
+    {
+     "file": "lech202",
+     "pages": 34,
+     "head": "After studying this Unit, you will be able to • name alcohols, phenols and ethers according to the IUPAC system of nomenclature; • discuss the reactions involved in the preparation of alcohols from al"
+    },
+    {
+     "file": "lech203",
+     "pages": 32,
+     "head": "After studying this Unit, you will be able to • write the common and IUPAC names of aldehydes, ketones and carboxylic acids; • write the structures of the compounds containing functional groups namely"
+    },
+    {
+     "file": "lech204",
+     "pages": 22,
+     "head": "Amines constitute an important class of organic compounds derived by replacing one or more hydrogen atoms of ammonia molecule by alkyl/aryl group(s). In nature, they occur among proteins, vitamins, al"
+    },
+    {
+     "file": "lech205",
+     "pages": 22,
+     "head": "A living system grows, sustains and reproduces itself. The most amazing thing about a living system is that it is composed of non-living atoms and molecules. The pursuit of knowledge of what goes on c"
+    }
+   ],
+   "extras": {
+    "an": 1132192,
+    "ps": 2388903,
+    "dd": 20494069
+   }
+  },
+  "lecs1": {
+   "front": "Computer Science TexTbook for Class xII Prelims.indd 1 9/11/2020 5:20:24 PM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lecs101",
+     "pages": 18,
+     "head": "In this Chapter » Introduction » Syntax Errors » Exceptions » Built-in Exceptions » Raising Exceptions » Handling Exceptions » Finally Clause Chapter “I like my code to be elegant and efficient. The l"
+    },
+    {
+     "file": "lecs102",
+     "pages": 20,
+     "head": "In this Chapter » Introduction to Files » Types of Files » Opening and Closing a Text File » Writing to a Text File » Reading from a Text File » Setting Offsets in a File » Creating and Traversing a T"
+    },
+    {
+     "file": "lecs103",
+     "pages": 14,
+     "head": "In this Chapter » Introduction » Stack » Operations on Stack » Implementation of Stack in Python » Notations for Arithmetic Expressions » Conversion From Infix To Postfix Notation » Evaluation of Post"
+    },
+    {
+     "file": "lecs104",
+     "pages": 14,
+     "head": "In this Chapter » Introduction to Queue » Operations on Queue » Implementation of Queue using Python » Introduction to Deque » Implementation of Deque using Python Chapter “We could say we want the We"
+    },
+    {
+     "file": "lecs105",
+     "pages": 14,
+     "head": "In this Chapter » Introduction » Bubble Sort » Selection Sort » Insertion Sort » Time Complexity of Algorithms Chapter “Every one of today's smartphones has thousands of times more processing power th"
+    },
+    {
+     "file": "lecs106",
+     "pages": 16,
+     "head": "In this Chapter » Introduction » Linear Search » Binary Search » Search by Hashing Chapter 6.1 IntroductIon We store many things in our home and find them out later as and when required. Sometimes we "
+    },
+    {
+     "file": "lecs107",
+     "pages": 14,
+     "head": "7.1 IntroductIon to data Many a time, people take decisions based on certain data or information. For example, while choosing a college for getting admission, one looks at placement data of previous y"
+    },
+    {
+     "file": "lecs108",
+     "pages": 20,
+     "head": "In this Chapter » Introduction » File System » Database Management System » Rational Data Model » Keys in a Relational Database Chapter “Inconsistency of your mind… Can damage your memory… Remove the "
+    },
+    {
+     "file": "lecs109",
+     "pages": 50,
+     "head": "In this Chapter » Introduction » Structured Query Language (SQL) » Data Types and Constraints in MySQL » SQL for Data Definition » SQL for Data Manipulation » SQL for Data Query » Data Updation and De"
+    },
+    {
+     "file": "lecs110",
+     "pages": 22,
+     "head": "In this Chapter » Introduction to Computer Networks » Evolution of Networking » Types of Networks » Network Devices » Networking Topologies » Identifying Nodes in a Networked Communication » Internet,"
+    },
+    {
+     "file": "lecs111",
+     "pages": 20,
+     "head": "In this Chapter » Concept of Communication » Components of Data Communication » Measuring Capacity of Communication Media » Types of Data Communication » Switching Techniques » Transmission Media » Mo"
+    },
+    {
+     "file": "lecs112",
+     "pages": 18,
+     "head": "In this Chapter » Threats and Prevention » Malware » Antivirus » Spam » HTTP vs HTTPS » Firewall » Cookies » Hackers and Crackers » Network Security Threats Chapter “Treat your password like your toot"
+    },
+    {
+     "file": "lecs113",
+     "pages": 8,
+     "head": "In this Chapter » Introduction » Approaches for Solving Projects » Teamwork » Project Descriptions Chapter “An idea that is developed and put into action is more important than idea that exists only a"
+    }
+   ],
+   "extras": {
+    "ps": 1359494,
+    "dd": 23704349
+   }
+  },
+  "leec1": {
+   "front": "Introductor IntroductorIntroductor IntroductorIntroductor y yy yy MacroeconomicsMacroeconomicsMacroeconomicsMacroeconomicsMacroeconomics Textbook in Economics for Class XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "leec101",
+     "pages": 8,
+     "head": "Chapter□1 Introduction IntroductionIntroductionIntroductionIntroduction You must have already been introduced to a study of basic microeconomics. This chapter begins by giving you a simplified account"
+    },
+    {
+     "file": "leec102",
+     "pages": 27,
+     "head": "National Income AccountingNational Income AccountingNational Income AccountingNational Income AccountingNational Income Accounting In this chapter we will introduce the fundamental functioning of a si"
+    },
+    {
+     "file": "leec103",
+     "pages": 17,
+     "head": "36 3636 3636Introductory Macroeconomics Money and BankingMoney and BankingMoney and BankingMoney and BankingMoney and Banking Money is the commonly accepted medium of exchange. In an economy which con"
+    },
+    {
+     "file": "leec104",
+     "pages": 13,
+     "head": "Chapter□4 Chapter□4 Determination of Income andDetermination of Income andDetermination of Income andDetermination of Income andDetermination of Income and EmploymentEmploymentEmploymentEmploymentEmpl"
+    },
+    {
+     "file": "leec105",
+     "pages": 19,
+     "head": "Chapter□5 Chapter□5 Governmen GovernmenGovernmenGovernmenGovernmen ttt tt Budget Budget Budget Budget Budget and the Economyand the Economyand the Economyand the Economyand the Economy We introduced t"
+    },
+    {
+     "file": "leec106",
+     "pages": 15,
+     "head": "Open EconomyOpen EconomyOpen EconomyOpen EconomyOpen Economy MacroeconomicsMacroeconomicsMacroeconomicsMacroeconomicsMacroeconomics An open economy is one which interacts with other countries through "
+    }
+   ],
+   "extras": {
+    "gl": 569408,
+    "ps": 1569596,
+    "dd": 10906706
+   }
+  },
+  "leec2": {
+   "front": "     Textbook in Economics for Class XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "leec201",
+     "pages": 7,
+     "head": "Chapter□1 Introduction IntroductionIntroduction IntroductionIntroduction 1.1 A SIMPLE ECONOMY Think of any society. People in the society need many goods and services1 in their everyday life including"
+    },
+    {
+     "file": "leec202",
+     "pages": 28,
+     "head": "Chapter□2 Theor TheorTheor TheorTheory of y ofy of y ofy of Consumer BehaviourConsumer BehaviourConsumer BehaviourConsumer BehaviourConsumer Behaviour In this chapter , we will study the behaviour of "
+    },
+    {
+     "file": "leec203",
+     "pages": 17,
+     "head": "Chapter□3 P PP PProduction and Costsroduction and Costsroduction and Costsroduction and Costsroduction and Costs A Firm Effort In the previous chapter, we have discussed the behaviour of the consumers"
+    },
+    {
+     "file": "leec204",
+     "pages": 18,
+     "head": "Chapter 4 The Theor The TheorThe Theor The TheorThe Theor y of the F y of the Fy of the F y of the Fy of the F irm irmirm irmirm under P under Punder P under Punder P er erer ererfect Competitionfect "
+    },
+    {
+     "file": "leec205",
+     "pages": 17,
+     "head": "Chapter□5 Price O Quantity SS DD p* pf q'1 q* q2 p1 q1q'1 Mark MarkMark MarkMarket Equilibriumet Equilibriumet Equilibriumet Equilibriumet Equilibrium This chapter will be built on the foundation laid"
+    }
+   ],
+   "extras": {
+    "gl": 370885,
+    "ps": 2071475,
+    "dd": 12905954
+   }
+  },
+  "lefa1": {
+   "front": "An IntroductIon to IndIAn Art Textbook in Fine Arts for Class XII PArt II 0_Prelims.indd 1 01 Sep 2020 03:02:09 PM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lefa101",
+     "pages": 9,
+     "head": "The Manuscript Painting Tradition 1 T he third Khanda of the Vishnudharmottara Purana, a fifth century text has a chapter Chitrasutra, which should be considered as a source book of Indian art in gene"
+    },
+    {
+     "file": "lefa102",
+     "pages": 25,
+     "head": "The Rajasthani Schools of Painting 2 T he term ‘Rajasthani Schools of Painting’ pertains to the schools of painting that prevailed in the princely kingdoms and thikanas of what roughly constitutes Raj"
+    },
+    {
+     "file": "lefa103",
+     "pages": 20,
+     "head": "3The Mughal School of Miniature Painting M ughal painting is the style of miniature painting that developed in the northern Indian subcontinent in the sixteenth century and continued till the mid–nine"
+    },
+    {
+     "file": "lefa104",
+     "pages": 12,
+     "head": "The Deccani Schools of Painting 4 T he history of Deccani Painting can largely be constructed from the late sixteenth century until the 1680s — the time when the Mughals conquered the Deccan. It is co"
+    },
+    {
+     "file": "lefa105",
+     "pages": 18,
+     "head": "The Pahari Schools of Painting 5 P ahari denotes ‘hilly or mountainous’ in origin. Pahari Schools of Painting includes towns, such as Basohli, Guler, Kangra, Kullu, Chamba, Mankot, Nurpur, Mandi, Bila"
+    },
+    {
+     "file": "lefa106",
+     "pages": 14,
+     "head": "Company Painting A rt in India had a different purpose prior to the coming of the British. It could be seen as statues on temple walls, miniature paintings that often illustrated manuscripts, decorati"
+    },
+    {
+     "file": "lefa107",
+     "pages": 28,
+     "head": "7The Modern Indian Art Introduction to Modernism in India F ine arts was seen as European by the British. They felt that Indians lacked training and sensibility to be able to create and appreciate fin"
+    },
+    {
+     "file": "lefa108",
+     "pages": 17,
+     "head": "8The Living Art Traditions of India T here has always been a timeless tradition of art forms, which have been practised for different reasons among people, living far from urban life in interior terra"
+    }
+   ],
+   "extras": {
+    "gl": 1383100,
+    "ps": 3943053,
+    "dd": 43979708
+   }
+  },
+  "lefl1": {
+   "front": "Flamingo Textbook in English for Class XII (Core Course) Prelims.indd 1 12/11/2024 11:16:59 AM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lefl101",
+     "pages": 12,
+     "head": "The Last Lesson Alphonse Daudet Lost Spring Anees Jung Deep Water William Douglas The Rattrap Selma Lagerlöf Indigo Louis Fischer Poets and Pancakes Asokamitran The Interview Christopher Silvester Umb"
+    },
+    {
+     "file": "lefl102",
+     "pages": 10,
+     "head": "Lost Spring Stories of Stolen Childhood About the author Anees Jung (1944) was born in Rourkela and spent her childhood and adolescence in Hyderabad. She received her education in Hyderabad and in the"
+    },
+    {
+     "file": "lefl103",
+     "pages": 9,
+     "head": "Deep Water About the author William Douglas (1898-1980) was born in Maine, Minnesota. After graduating with a Bachelors of Arts in English and Economics, he spent two years teaching high school in Yak"
+    },
+    {
+     "file": "lefl104",
+     "pages": 13,
+     "head": "The Rattrap About the author Selma Lagerlöf (1858-1940) was a Swedish writer whose stories have been translated into many languages. A universal theme runs through all of them — a belief that the esse"
+    },
+    {
+     "file": "lefl105",
+     "pages": 11,
+     "head": "Indigo About the author Louis Fischer (1896-1970) was born in Philadelphia. He served as a volunteer in the British Army between 1918 and 1920. Fischer made a career as a journalist and wrote for The "
+    },
+    {
+     "file": "lefl106",
+     "pages": 10,
+     "head": "Poets and Pancakes About the author Asokamitran (1931–2017), a Tamil writer, recounts his years at Gemini Studios in his book My Years with Boss which talks of the influence of movies on every aspect "
+    },
+    {
+     "file": "lefl107",
+     "pages": 9,
+     "head": "The Interview From the Introduction to The Penguin Book of Interviews edited by Christopher Silvester. About the Author Christopher Silvester (1959) was a student of history at Peterhouse, Cambridge. "
+    },
+    {
+     "file": "lefl108",
+     "pages": 12,
+     "head": "Going Places About the Author A. R. Barton is a modern writer, who lives in Zurich and writes in English. In the story Going Places, Barton explores the theme of adolescent fantasising and hero worshi"
+    }
+   ],
+   "extras": {
+    "ps": 1989663,
+    "dd": 15202351
+   }
+  },
+  "legy1": {
+   "front": "FUNDAMENTALS OF HUMAN GEOGRAPHY Textbook for Class XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "legy101",
+     "pages": 6,
+     "head": "Human Geography Nature and Scope You have alr eady studied ‘Geography as a Discipline’ in Chapter I of the book, Fundamentals of Physical Geography (NCERT , 2006). Do you recall the contents? This cha"
+    },
+    {
+     "file": "legy102",
+     "pages": 6,
+     "head": "Unit-II Chapter-2 The World Population Distribution, Density and Growth Not gold but only (Wo)men can make a people great and strong. (Wo)men who for truth and honour’s sake, st and fast and suf fer l"
+    },
+    {
+     "file": "legy103",
+     "pages": 9,
+     "head": "         "
+    },
+    {
+     "file": "legy104",
+     "pages": 14,
+     "head": "Fundamentals of Human Geography22 Unit-III Chapter-4 Primary Activities Human activities which generate income are known as economic activities. Economic activities are broadly grouped into primary, s"
+    },
+    {
+     "file": "legy105",
+     "pages": 9,
+     "head": "Fundamentals of Human Geography36 Unit-III Chapter-5 Secondary Activities All economic activities namely primary, secondary, tertiary and quaternary, revolve around obtaining and utilising resources n"
+    },
+    {
+     "file": "legy106",
+     "pages": 9,
+     "head": "Unit-III Chapter-6 Tertiary and Quaternary Activities When you fall ill you go to your family doctor or you call a doctor. Sometimes your parents take you to a hospital for treatment. While in school,"
+    },
+    {
+     "file": "legy107",
+     "pages": 16,
+     "head": "Fundamentals of Human Geography54 Unit-III Chapter-7 Transport and Communication Natural resources, economic activities and markets are rarely found in one place. Transport, communication and trade es"
+    },
+    {
+     "file": "legy108",
+     "pages": 7,
+     "head": "Fundamentals of Human Geography70 Unit-III Chapter-8 International Trade You are already familiar with the term “trade” as a tertiary activity which you have studied in Chapter 7 of this book. Y ou kn"
+    }
+   ],
+   "extras": {
+    "a1": 243989,
+    "gl": 831768,
+    "ps": 1715803,
+    "dd": 24177649
+   }
+  },
+  "legy2": {
+   "front": "INDIA PEOPLE AND ECONOMY TEXTBOOK IN GEOGRAPHY FOR C LASS XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "legy201",
+     "pages": 14,
+     "head": "Unit I Unit IUnit I Unit IUnit I Chapter 1 POPULATION Distribution, Density, Growth and Composition The people are very important component of a country. India is the second most populous country afte"
+    },
+    {
+     "file": "legy202",
+     "pages": 6,
+     "head": "Unit II Unit IIUnit II Unit IIUnit II Chapter 2 HUMAN SETTLEMENTS Human Settlement means cluster of dwellings of any type or size where human beings live. For this purpose, people may erect houses and"
+    },
+    {
+     "file": "legy203",
+     "pages": 20,
+     "head": "Unit III Unit IIIUnit III Unit IIIUnit III Chapter 3 LAND RESOURCES AND AGRICULTURE You must have observed that the land around you is put to different uses. Some land is occupied by rivers, some may "
+    },
+    {
+     "file": "legy204",
+     "pages": 12,
+     "head": "Unit III Unit IIIUnit III Unit IIIUnit III Chapter 4 WATER RESOURCES Do you think that what exists today will continue to be so, or the future is going to be different in some respects? It can be said"
+    },
+    {
+     "file": "legy205",
+     "pages": 13,
+     "head": "Unit III Unit IIIUnit III Unit IIIUnit III Chapter 5 MINERAL AND ENERGY RESOURCES India is endowed with a rich variety of mineral resources due to its varied geological structure. Bulk of the valuable"
+    },
+    {
+     "file": "legy206",
+     "pages": 9,
+     "head": "which reforms and reconstruction are often undertaken. Generally, there are two approaches to planning, i.e., sectoral planning and regional planning. Sectoral planning means formulation and implement"
+    },
+    {
+     "file": "legy207",
+     "pages": 11,
+     "head": "Unit IV Unit IVUnit IV Unit IVUnit IV Chapter 7 TRANSPORT AND COMMUNICATION We use many items in our daily life. Fr om toothpaste to our bed tea, milk, clothes, soaps, food items, etc., are required e"
+    },
+    {
+     "file": "legy208",
+     "pages": 9,
+     "head": "86 India : People and Economy Unit IV Unit IVUnit IV Unit IVUnit IV Chapter 8 INTERNATIONAL TRADE You have already studied about the various aspects of International trade in the book Fundamentals of "
+    },
+    {
+     "file": "legy209",
+     "pages": 11,
+     "head": "Unit V Unit VUnit V Unit VUnit V Chapter 9 GEOGRAPHICAL PERSPECTIVE ON SELECTED ISSUES AND PROBLEMS En EnEnEnEnvir virvir virvironmental Ponmental Ponmental Ponmental Ponmental Pollution ollutionollut"
+    }
+   ],
+   "extras": {
+    "a1": 981155,
+    "ps": 1670270,
+    "dd": 15598014
+   }
+  },
+  "legy3": {
+   "front": "PRACTICAL WORK in Geography PART II TEXTBOOK FOR CLASS XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "legy301",
+     "pages": 12,
+     "head": "You must have seen and used various forms of data. For example, at the end of almost every news bulletin on Television, the temperatures recorded on that day in major cities are displayed. Similarly, "
+    },
+    {
+     "file": "legy302",
+     "pages": 10,
+     "head": "You have learnt in previous chapter that organising and presenting data makes them comprehensible. It facilitates data processing. A number of statistical techniques are used to analyse the data e.g. "
+    },
+    {
+     "file": "legy303",
+     "pages": 23,
+     "head": "You must have seen graphs, diagrams and maps showing different types of data. For example, the thematic maps shown in Chapter 1 of book for Class XI entitled Practical Work in Geography, Part-I (NCERT"
+    },
+    {
+     "file": "legy304",
+     "pages": 19,
+     "head": "46 4646 4646 P PP PPractical W ractical Wractical W ractical Wractical W ork in Geography, Pork in Geography, Pork in Geography, Pork in Geography, Pork in Geography, P art-II art-IIart-II art-IIart-I"
+    }
+   ],
+   "extras": {
+    "ps": 1828900,
+    "dd": 8758757
+   }
+  },
+  "lehe1": {
+   "front": "Human Ecology and Family Sciences – Part 1 i HUMAN ECOLOGY AND FAMILY SCIENCES Textbook for Class XII PART I Prelims.indd 1 9/1/2022 9:20:45 AM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lehe101",
+     "pages": 28,
+     "head": "Unit I - Work, Livelihood and Career 1 WORK, LIVELIHOOD AND CAREER UNIT I Chapters.indd 1 8/12/2022 3:29:09 PM Reprint 2026-27"
+    },
+    {
+     "file": "lehe102",
+     "pages": 17,
+     "head": "Unit I - Work, Livelihood and Career 29 NUTRITION, FOOD SCIENCE AND TECHNOLOGY UNIT II Chapters.indd 29 8/12/2022 3:30:09 PM Reprint 2026-27"
+    },
+    {
+     "file": "lehe103",
+     "pages": 15,
+     "head": "Learning Objectives After completing this chapter the learner will be able to: zz understand the significance and scope of public nutrition. zz have knowledge about the nutritional problems of public "
+    },
+    {
+     "file": "lehe104",
+     "pages": 14,
+     "head": "Learning Objectives After completing this chapter the learner will be able to: zz understand what is food processing and technology, its history, development and present status zz explain the signific"
+    },
+    {
+     "file": "lehe105",
+     "pages": 24,
+     "head": "Learning Objectives After completing this chapter the learner will be able to: � explain the importance of various issues related to food safety and quality � understand how food-borne illnesses occur"
+    },
+    {
+     "file": "lehe106",
+     "pages": 17,
+     "head": "Unit I - Work, Livelihood and Career 99 HUMAN DEVELOPMENT AND FAMILY STUDIES UNIT III Chapters.indd 99 8/12/2022 12:16:55 PM Reprint 2026-27"
+    },
+    {
+     "file": "lehe107",
+     "pages": 37,
+     "head": "116 Chapter 7 Learning Objectives After completing this section the learner will be able to: zz explain why services, institutions and programmes are needed for children, youth and elderly zz describe"
+    }
+   ],
+   "extras": {
+    "ps": 3099059,
+    "dd": 18463244
+   }
+  },
+  "lehe2": {
+   "front": "Human Ecology and Family Sciences – Part 1 i HUMAN ECOLOGY AND FAMILY SCIENCES Textbook for Class XII PART II Prelims.indd 1 8/29/2022 2:23:41 PM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lehe201",
+     "pages": 23,
+     "head": "Unit IV - Fabric And Apparel 153 FABRIC AND APPAREL UNIT IV Chapters.indd 153 8/16/2022 12:28:32 PM Reprint 2026-27"
+    },
+    {
+     "file": "lehe202",
+     "pages": 14,
+     "head": "176 Learning Objectives After completing this section the learner will be able to: zz explain the significance of fashion design and merchandising in garment industry zz describe the fundamentals of f"
+    },
+    {
+     "file": "lehe203",
+     "pages": 15,
+     "head": "Chapter 10 Learning Objectives After completing this section the learner will be able to — zz discuss the significance of care and maintenance of fabrics and textile products zz describe the concept o"
+    },
+    {
+     "file": "lehe204",
+     "pages": 17,
+     "head": "Unit V - Resource Management 205 RESOURCE MANAGEMENT UNIT V Chapters.indd 205 8/16/2022 12:28:42 PM Reprint 2026-27"
+    },
+    {
+     "file": "lehe205",
+     "pages": 19,
+     "head": "222 Chapter 12 LEARNING OBJECTIVES After completing this chapter the learner will be able to — zz understand the importance and role of Consumer Education and Protection zz explain the basic concepts "
+    },
+    {
+     "file": "lehe206",
+     "pages": 15,
+     "head": "Unit VI - Communication and Extension 241 COMMUNICATION AND EXTENSION UNIT VI Chapters.indd 241 8/16/2022 12:28:45 PM Reprint 2026-27"
+    },
+    {
+     "file": "lehe207",
+     "pages": 33,
+     "head": "Chapter 14 Learning Objectives After completing this chapter, the learner will be able to— zz understand the meaning, significance and scope of Corporate Communication and Public Relations (PR) zz com"
+    }
+   ],
+   "extras": {
+    "ps": 3016974,
+    "dd": 17112142
+   }
+  },
+  "lehh1": {
+   "front": "Human Ecology and Family Sciences – Part 1 i मानव पारिस्थिसिकी एवं परिवाि सवज्ान भाग 1 कक्ा 12 क े सिए पाठ्यपु्िक HEFS classXII-Part 1 Prelims.indd HINDI.indd 1 10/14/2022 2:06:39 PM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lehh101",
+     "pages": 28,
+     "head": "1 इकाई I कार्य, आजीविका तथा जीविका कार्य, आजीविका तथा जीविका इकाई I Chapter 1.indd 1 10/14/2022 2:07:29 PM Reprint 2026-27"
+    },
+    {
+     "file": "lehh102",
+     "pages": 17,
+     "head": "29 इकाई I कार्य, आजीविका तथा जीविका पोषण, खाद्य विज्ान और प्रौद्योविकी इकाई II Chapters.indd 29 9/27/2022 9:54:14 AM Reprint 2026-27"
+    },
+    {
+     "file": "lehh103",
+     "pages": 15,
+     "head": "अधिगम उद्देश्‍य इस अध‍यया‍य को पढ़नदे कदे बयाद धिक्यार्थी — • जन पोषण कदे महत्त्व और कया‍य्यक्देत्र को समझ सक ें गदे, • जन सत्वयास‍थ‍य कदे महत्त्व की पोषण समस‍ययाओं कया ज्यान प्याप्‍त कर सक ें गदे, • "
+    },
+    {
+     "file": "lehh104",
+     "pages": 14,
+     "head": "अधिगम उद्देश्‍य इस अध‍यया‍य को पूरया पढ़नदे कदे बयाद धिक्यार्थी — • खयाद्य प्रसंस्करण और प्ररौद्योधगकी, इसकदे इधिहयास और वि्तमयान धस्र्धि‍यों िक इसकया धवकयास क‍यया है, समझ सक ें गदे, • धवष‍य कदे महत्व"
+    },
+    {
+     "file": "lehh105",
+     "pages": 22,
+     "head": "अधिगम उद्देश्‍य इस अध‍यया‍य को पढ़नदे कदे बयाद धिक्यार्थी — • खयाद्य सुरक्या और गुणवत्या सदे संबंधित धवधिन्न मुद्दों कदे महत्व को समझ सक ें गदे, • समझ सक ें गदे, खयाद्यजधनत रोग क ै सदे होतदे हैं, • रय"
+    },
+    {
+     "file": "lehh106",
+     "pages": 16,
+     "head": "97 इकाई I कार्य, आजीविका तथा जीविका मानव ववकास अौर पररवार अध्‍य‍यन इकाई III Chapters.indd 97 9/27/2022 9:57:48 AM Reprint 2026-27"
+    },
+    {
+     "file": "lehh107",
+     "pages": 26,
+     "head": "अधिगम उद्देश्‍य इस अध‍यया‍य को पढ़नदे कदे बयाद धिक्यार्थी — • ‍यह समझ सक ें गदे धक बच्‍चों, ‍युवयाओं और व ृद्धजनों कदे धिए सदेवयाओं, संसर्यानों और क या‍य्यक्रमों की आवश्‍यकतया क्‍यों है, • संसर्यानों "
+    }
+   ],
+   "extras": {
+    "ps": 1743321,
+    "dd": 16555950
+   }
+  },
+  "lehh2": {
+   "front": "मानव पारिस्थिसिकी एवं परिवाि सवज्ान भाग 2 कक्ा 12 क े सिए पाठ्यपु्िक Prelims.indd 1 1/25/2023 10:51:58 AM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lehh201",
+     "pages": 21,
+     "head": "इकाई IV वस्‍त्र एवं परिधान 139 वस्‍त्र एवं परिधान इकाई IV Unit 4 — Vastra avam Paridhan.indd 139 2/13/2023 9:43:44 AM Reprint 2026-27"
+    },
+    {
+     "file": "lehh202",
+     "pages": 12,
+     "head": "अधयताय 9 अनधगर उद्ेश्य इस अधयताय को पढने क े बताद नशक्ता्थी— • वसत्र उद्ोग रें फ ै ़शन निजताइन और वयतापतार क े रहत्व को सरझ सक ें गे, • फ ै ़शन की रूल अवधतारणताओं कता वणमान कर सक ें गे, • फ ै ़शन वयता"
+    },
+    {
+     "file": "lehh203",
+     "pages": 15,
+     "head": "अनधगर उद्ेश्य इस अधयताय को पढने क े बताद नशक्ता्थी— • कपड़ताें और वसत्र उतपतादों की देखभताल और रखरखताव क े रहत्व की चचतामा कर सक ें गे, • असप्‍तालों और हो‍टलों रें कपड़ताें की देखभताल और रखरखताव की सं"
+    },
+    {
+     "file": "lehh204",
+     "pages": 17,
+     "head": "इकाई V संसाधन प्रबंधन 187 संसाधन प्रबंधन इकाई V Unit 5 — Sansadhan Prabhandhan.indd 187 2/13/2023 9:43:58 AM Reprint 2026-27"
+    },
+    {
+     "file": "lehh205",
+     "pages": 15,
+     "head": "अकधगम उद्ेश्य इस अध्यता्य को पढ़ने क े बताद कशक्षताथथी — • उपभोक्ता कशक्षता औि संिक्षण क े महत्व को समझ सक ें गे, • उपभोक्ता कशक्षता औि संिक्षण से संबंकध् मूल संकलपनताओं को समझ सक ें गे, • िीकवकता (कर"
+    },
+    {
+     "file": "lehh206",
+     "pages": 15,
+     "head": "इकाई VI संचार एवं ववस्‍ार 219 संचार एवं ववस्ार इकाई VI Unit 6 — Sanchar avam Vistar.indd 219 2/13/2023 9:44:07 AM Reprint 2026-27"
+    },
+    {
+     "file": "lehh207",
+     "pages": 23,
+     "head": "अधिगम उद्देश्य इस अधयाय को पढ़ने क े बाद वशषिाथथी — • वनगवमत संप्रेरण तथा वनगम क े अथ्ष, महत्व और काय्षषिेत्र को समझ सक ें गे, • वनगवमत संप्रेरण और जनसंपक ्ष क े विए आव्‍यक प्रकायषों और कौशिों को समझ "
+    }
+   ],
+   "extras": {
+    "ps": 1743590,
+    "dd": 17319368
+   }
+  },
+  "lehs1": {
+   "front": "Textbook in History for Class XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lehs101",
+     "pages": 27,
+     "head": "1 Bricks, Beads and Bones The Har appan Civilisation THEME ONE The Harappan seal (Fig.1.1) is possibly the most distinctive artefact of the Harappan or Indus valley civilisation. Made of a stone calle"
+    },
+    {
+     "file": "lehs102",
+     "pages": 25,
+     "head": "THEMES IN INDIAN HISTORY28 THEME TWO There were several developments in different parts of the subcontinent during the long span of 1,500 years following the end of the Harappan civilisation. This was"
+    },
+    {
+     "file": "lehs103",
+     "pages": 29,
+     "head": "53 In the previous chapter we saw that there were several changes in economic and political life between c. 600 BCE and 600 CE. Some of these changes influenced societies as well. For instance, the ex"
+    },
+    {
+     "file": "lehs104",
+     "pages": 33,
+     "head": "THEMES IN INDIAN HISTORY82 In this chapter we shall go on a long journey across a thousand years to read about philosophers and their attempts to understand the world they inhabited. W e will also see"
+    }
+   ],
+   "extras": {
+    "ps": 2258845,
+    "dd": 23177241
+   }
+  },
+  "lehs2": {
+   "front": "i THEMES IN PART II INDIAN HISTORY Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lehs201",
+     "pages": 25,
+     "head": "115 Women and men have travelled in search of work, to escape from natural disasters, as traders, merchants, soldiers, priests, pilgrims, or driven by a sense of adventure. Those who visit or come to "
+    },
+    {
+     "file": "lehs202",
+     "pages": 30,
+     "head": "THEMES IN INDIAN HISTORY – PART II140 We saw in Chapter 4 that by the mid-first millennium CE the landscape of the subcontinent was dotted with a variety of religious structures – stupas , monasteries"
+    },
+    {
+     "file": "lehs203",
+     "pages": 26,
+     "head": "THEMES IN INDIAN HISTORY – PART II170 An Im perial Capit al Vijayanagara ( (( ((c cc cc. fourteenth to sixteenth century). fourteenth to sixteenth century). fourteenth to sixteenth century). fourteent"
+    },
+    {
+     "file": "lehs204",
+     "pages": 31,
+     "head": "THEMES IN INDIAN HISTORY – PART II196 During the sixteenth and seventeenth centuries about 85 per cent of the population of India lived in its villages. Both peasants and landed elites were involved i"
+    }
+   ],
+   "extras": {
+    "ps": 7210704,
+    "dd": 24034378
+   }
+  },
+  "lehs3": {
+   "front": "Textbook in History for Class XII THEMES IN PART III INDIAN HISTORY Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lehs301",
+     "pages": 31,
+     "head": "227 In this chapter you will see what colonial rule meant to those who lived in the countryside. Y ou will meet the zamindars of Bengal, travel to the Rajmahal hills where the Paharias and the Santhal"
+    },
+    {
+     "file": "lehs302",
+     "pages": 28,
+     "head": "THEMES IN INDIAN HISTORY – PART III258 Late in the afternoon of 10 May 1857, the sepoys in the cantonment of Meerut broke out in mutiny. It began in the lines of the native infantry, spread very swift"
+    },
+    {
+     "file": "lehs303",
+     "pages": 30,
+     "head": "THEMES IN INDIAN HISTORY – PART III286 Mahatma Gandhi and the Nationalist Movement Civil Disobedience and BeCivil Disobedience and BeCivil Disobedience and BeCivil Disobedience and BeCivil Disobedienc"
+    },
+    {
+     "file": "lehs304",
+     "pages": 29,
+     "head": "Fig. 15.2 Images of desolation and destruction continued to haunt members of the Constituent Assembly. Framing t he Cons titution The Beginning of a NThe Beginning of a NThe Beginning of a NThe Beginn"
+    }
+   ],
+   "extras": {
+    "ps": 2427559,
+    "dd": 15820340
+   }
+  },
+  "leip1": {
+   "front": "Informatics Practices TexTbook for Class xII Prelims.indd 1 11/26/2020 12:30:29 PM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "leip101",
+     "pages": 26,
+     "head": "1.1 Introduction In Class XI, we have understood database concepts and learned how to create databases using MySQL. We have also learnt how to populate, manipulate and retrieve data from a database us"
+    },
+    {
+     "file": "leip102",
+     "pages": 36,
+     "head": "2.1 IntroductIon to Python LIbrarIes Python libraries contain a collection of built- in modules that allow us to perform many actions without writing detailed programs for it. Each library in Python c"
+    },
+    {
+     "file": "leip103",
+     "pages": 42,
+     "head": "In this chapter » Introduction » Descriptive Statistics » Data Aggregations » Sorting a DataFrame » GROUP BY Functions » Altering the Index » Other DataFrame Operations » Handling Missing Values » Imp"
+    },
+    {
+     "file": "leip104",
+     "pages": 32,
+     "head": "4.1 IntroductIon We have learned how to organise and analyse data and perform various statistical operations on Pandas DataFrames. Likewise, in Class XI, we have learned how to analyse numerical data "
+    },
+    {
+     "file": "leip105",
+     "pages": 30,
+     "head": "5.1 IntroductIon to computer networks We are living in a connected world. Information is being produced, exchanged, and traced across the globe in real time. It's possible as almost everyone and every"
+    },
+    {
+     "file": "leip106",
+     "pages": 28,
+     "head": "In this chapter » Introduction » Digital Footprints » Digital Society and Netizen » Data Protection » Creative Commons » Cyber Crime » Indian Information Technology Act (IT Act) » E-waste: Hazards and"
+    },
+    {
+     "file": "leip107",
+     "pages": 16,
+     "head": "In this chapter » Introduction » Approaches for Solving Projects » Teamwork » Project Descriptions 7.1 IntroductIon Project based learning gives a thorough practical exposure to students regarding a p"
+    }
+   ],
+   "extras": {
+    "ps": 1602774,
+    "dd": 22476200
+   }
+  },
+  "lekl1": {
+   "front": "KALEIDOSCOPE Textbook in English (Elective) for Class XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lekl101",
+     "pages": 11,
+     "head": "1/I SELL MY DREAMS Short stories INTRODUCTION A short story is a prose narrative of limited length. It organises the action and thoughts of its characters into the pattern of a plot. The plot form may"
+    },
+    {
+     "file": "lekl102",
+     "pages": 9,
+     "head": "12/KALEIDOSCOPE 2 22 22 Eveline EvelineEveline EvelineEveline James Joyce is a major literary figure of the first quarter of the twentieth century. He is known for his bold experiments in narrative te"
+    },
+    {
+     "file": "lekl103",
+     "pages": 18,
+     "head": "21/A WEDDING IN BROWNSVILLE A Wedding in BrownsvilleA Wedding in BrownsvilleA Wedding in BrownsvilleA Wedding in BrownsvilleA Wedding in Brownsville Isaac Bashevis Singer was born in Poland. His fathe"
+    },
+    {
+     "file": "lekl104",
+     "pages": 32,
+     "head": "39/TOMORROW Tomorrow TomorrowTomorrow TomorrowTomorrow Joseph Conrad, born of Polish parents in the Russian Ukraine, began a seafaring life in 1874. He learnt English at the age of 21, and in 1886 bec"
+    },
+    {
+     "file": "lekl105",
+     "pages": 19,
+     "head": "71/ONE CENTIMETRE One CentimetreOne CentimetreOne CentimetreOne CentimetreOne Centimetre Bi Shu-min has been serving her country, China, as a doctor for over twenty years. She also has a Master’s degr"
+    }
+   ],
+   "extras": {
+    "ps": 1289867,
+    "dd": 31547275
+   }
+  },
+  "lemh1": {
+   "front": "MATHEMATICS Textbook for Class XII PART I Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lemh101",
+     "pages": 17,
+     "head": "vThere is no permanent place in the world for ugly mathematics ... . It may be very hard to define mathematical beauty but that is just as true of beauty of any kind, we may not know quite what we mea"
+    },
+    {
+     "file": "lemh102",
+     "pages": 16,
+     "head": "18 MATHEMA TICS vMathematics, in general, is fundamentally the science of self-evident things. — FELIX KLEIN v 2.1 Introduction In Chapter 1, we have studied that the inverse of a function f, denoted "
+    },
+    {
+     "file": "lemh103",
+     "pages": 42,
+     "head": "34 MATHEMA TICS vThe essence of Mathematics lies in its freedom. — CANTOR v 3.1 Introduction The knowledge of matrices is necessary in various branches of mathematics. Matrices are one of the most pow"
+    },
+    {
+     "file": "lemh104",
+     "pages": 28,
+     "head": "76 MATHEMA TICS v All Mathematical truths are relative and conditional. — C.P. STEINMETZ v 4.1 Introduction In the previous chapter , we have studied about matrices and algebra of matrices. We have al"
+    },
+    {
+     "file": "lemh105",
+     "pages": 43,
+     "head": "MATHEMATICS104 vThe whole of science is nothing more than a refinement of everyday thinking. ” — ALBERT EINSTEIN v 5.1 Introduction This chapter is essentially a continuation of our study of different"
+    },
+    {
+     "file": "lemh106",
+     "pages": 40,
+     "head": "v With the Calculus as a key , Mathematics can be successfully applied to the explanation of the course of Nature.” — WHITEHEAD v 6.1 Introduction In Chapter 5, we have learnt how to find derivative o"
+    }
+   ],
+   "extras": {
+    "an": 1263154,
+    "a1": 707655,
+    "a2": 1099978,
+    "ps": 1975316,
+    "dd": 17901352
+   }
+  },
+  "lemh2": {
+   "front": "MATHEMATICS PART II Textbook for Class XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lemh201",
+     "pages": 67,
+     "head": "INTEGRALS 225 /xrhombus Just as a mountaineer climbs a mountain – because it is there, so a good mathematics student studies new material because it is there. — JAMES B. BRISTOL /xrhombus 7.1 Introduc"
+    },
+    {
+     "file": "lemh202",
+     "pages": 8,
+     "head": "292 MATHEMA TICS Fig 8.1 /xrhombus One should study Mathematics because it is only through Mathematics that nature can be conceived in harmonious form. – BIRKHOFF /xrhombus 8.1 Introduction In geometr"
+    },
+    {
+     "file": "lemh203",
+     "pages": 38,
+     "head": "MATHEMA TICS300 /xrhombus He who seeks for methods without having a definite problem in mind seeks for the most part in vain. – D. HILBERT /xrhombus 9.1 Introduction In Class XI and in Chapter 5 of th"
+    },
+    {
+     "file": "lemh204",
+     "pages": 39,
+     "head": "MATHEMATICS338 /xrhombus In most sciences one generation tears down what another has built and what one has established another undoes. In Mathematics alone each generation builds a new story to the o"
+    },
+    {
+     "file": "lemh205",
+     "pages": 17,
+     "head": "THREE DIMENSIONAL GEOMETR Y 377 /xrhombus The moving power of mathematical invention is not reasoning but imagination. – A .DEMORGAN /xrhombus 11.1 Introduction In Class XI, while studying Analytical "
+    },
+    {
+     "file": "lemh206",
+     "pages": 12,
+     "head": "394 MATHEMA TICS /xrhombus The mathematical experience of the student is incomplete if he never had the opportunity to solve a problem invented by himself. – G. POLYA /xrhombus 12.1 Introduction In ea"
+    },
+    {
+     "file": "lemh207",
+     "pages": 33,
+     "head": "406 MATHEMA TICS /xrhombus The theory of probabilities is simply the Science of logic quantitatively treated. – C.S. PEIRCE /xrhombus 13.1 Introduction In earlier Classes, we have studied the probabil"
+    }
+   ],
+   "extras": {
+    "an": 2259848,
+    "ps": 1969919,
+    "dd": 23829951
+   }
+  },
+  "leph1": {
+   "front": "PHYSICS PART – I TEXTBOOK FOR CLASS XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "leph101",
+     "pages": 44,
+     "head": "Chapter One ELECTRIC CHARGES AND FIELDS 1.1 INTRODUCTION All of us have the experience of seeing a spark or hearing a crackle when we take off our synthetic clothes or sweater, particularly in dry wea"
+    },
+    {
+     "file": "leph102",
+     "pages": 36,
+     "head": "2.1 I 2.1 I2.1 I 2.1 I2.1 I NTRODUCTIONNTRODUCTIONNTRODUCTIONNTRODUCTIONNTRODUCTION In Chapters 5 and 7 (Class XI), the notion of potential energy was introduced. When an external force does work in t"
+    },
+    {
+     "file": "leph103",
+     "pages": 26,
+     "head": "3.1 INTRODUCTION In Chapter 1, all charges whether free or bound, were considered to be at rest. Charges in motion constitute an electric current. Such currents occur naturally in many situations. Lig"
+    },
+    {
+     "file": "leph104",
+     "pages": 29,
+     "head": "4.1 INTRODUCTION Both Electricity and Magnetism have been known for more than 2000 years. However, it was only about 200 years ago, in 1820, that it was realised that they were intimately related. Dur"
+    },
+    {
+     "file": "leph105",
+     "pages": 18,
+     "head": "Physics 136 5.1 INTRODUCTION Magnetic phenomena are universal in nature. Vast, distant galaxies, the tiny invisible atoms, humans and beasts all are permeated through and through with a host of magnet"
+    },
+    {
+     "file": "leph106",
+     "pages": 23,
+     "head": "Physics 154 6.1 INTRODUCTION Electricity and magnetism were considered separate and unrelated phenomena for a long time. In the early decades of the nineteenth century, experiments on electric current"
+    },
+    {
+     "file": "leph107",
+     "pages": 24,
+     "head": "7.1 INTRODUCTION We have so far considered direct current (dc) sources and circuits with dc sources. These currents do not change direction with time. But voltages and currents that vary with time are"
+    },
+    {
+     "file": "leph108",
+     "pages": 14,
+     "head": "Chapter Eight ELECTROMAGNETIC WAVES 8.1 INTRODUCTION In Chapter 4, we learnt that an electric current produces magnetic field and that two current-carrying wires exert a magnetic force on each other. "
+    }
+   ],
+   "extras": {
+    "an": 580793,
+    "ps": 2611580,
+    "dd": 22543941
+   }
+  },
+  "leph2": {
+   "front": "PHYSICS P ART – II TEXTBOOK FOR CLASS XII",
+   "chapters": [
+    {
+     "file": "leph201",
+     "pages": 34,
+     "head": "Chapter Nine RAY OPTICS AND OPTICAL INSTRUMENTS 9.1 INTRODUCTION Nature has endowed the human eye (retina) with the sensitivity to detect electromagnetic waves within a small range of the electromagne"
+    },
+    {
+     "file": "leph202",
+     "pages": 19,
+     "head": "255 Wave Optics Chapter Ten WAVE OPTICS 10.1 INTRODUCTION In 1637 Descartes gave the corpuscular model of light and derived Snell’s law. It explained the laws of reflection and refraction of light at "
+    },
+    {
+     "file": "leph203",
+     "pages": 16,
+     "head": "Physics 274 11.1 INTRODUCTION The Maxwell’s equations of electromagnetism and Hertz experiments on the generation and detection of electromagnetic waves in 1887 strongly established the wave nature of"
+    },
+    {
+     "file": "leph204",
+     "pages": 16,
+     "head": "Physics 290 12.1 INTRODUCTION By the nineteenth century, enough evidence had accumulated in favour of atomic hypothesis of matter. In 1897, the experiments on electric discharge through gases carried "
+    },
+    {
+     "file": "leph205",
+     "pages": 17,
+     "head": "Physics 306 13.1 INTRODUCTION In the previous chapter, we have learnt that in every atom, the positive charge and mass are densely concentrated at the centre of the atom forming its nucleus. The overa"
+    },
+    {
+     "file": "leph206",
+     "pages": 21,
+     "head": "14.1 INTRODUCTION Devices in which a controlled flow of electrons can be obtained are the basic building blocks of all the electronic circuits. Before the discovery of transistor in 1948, such devices"
+    }
+   ],
+   "extras": {
+    "an": 1661628,
+    "ps": 1718367,
+    "dd": 15708731
+   }
+  },
+  "leps1": {
+   "front": "Contemporary World politiCs textbook in politiCal sCienCe for Class xii Prelims.indd 1 14 September 2022 11:00:49 Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "leps101",
+     "pages": 14,
+     "head": "Overview The Berlin Wall, which had been built at the height of the Cold War and was its greatest symbol, was toppled by the people in 1989. This dramatic event was followed by an equally dramatic and"
+    },
+    {
+     "file": "leps102",
+     "pages": 14,
+     "head": "Overview After the end of the bipolar structure of world politics in the early 1990s, it became clear that alternative centres of political and economic power could limit America’s dominance. Thus, in"
+    },
+    {
+     "file": "leps103",
+     "pages": 16,
+     "head": "Overview Let us shift our gaze from the larger global developments in the post- Cold War era to developments in our own region, South Asia. When India and Pakistan joined the club of nuclear powers, t"
+    },
+    {
+     "file": "leps104",
+     "pages": 18,
+     "head": "Overview In this chapter we shall discuss the role of international organisations after the collapse of the Soviet Union. We shall examine how, in this emerging world, there were calls for the restruc"
+    },
+    {
+     "file": "leps105",
+     "pages": 18,
+     "head": "Overview In reading about world politics, we frequently encounter the terms ‘security’ or ‘national security’. Do we know what these terms mean? Often, they are used to stop debate and discussion. We "
+    },
+    {
+     "file": "leps106",
+     "pages": 18,
+     "head": "Overview This chapter examines the growing significance of environmental as well as resource issues in world politics. It analyses in a comparative perspective some of the important environmental move"
+    },
+    {
+     "file": "leps107",
+     "pages": 16,
+     "head": "Overview In this final chapter of the book we look at globalisation, something that has been referred to in many chapters of this book and textbooks of many other subjects. We begin by analysing the c"
+    }
+   ],
+   "extras": {
+    "ps": 2301858,
+    "dd": 42004000
+   }
+  },
+  "leps2": {
+   "front": "Politics in India since Independence TexTbook in poliTical science for class xii Prelims.indd 1 9/6/2022 3:29:42 PM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "leps201",
+     "pages": 24,
+     "head": "In this chapter… The first few years in the life of independent India were full of challenges. Some of the most pressing ones concerned national unity and territorial integrity of India. We begin the "
+    },
+    {
+     "file": "leps202",
+     "pages": 18,
+     "head": "Credit: Shankar In this chapter… The challenge of nation-building, covered in the last chapter, was accompanied by the challenge of instituting democratic politics. Thus, electoral competition among p"
+    },
+    {
+     "file": "leps203",
+     "pages": 10,
+     "head": "In this chapter… In the last two chapters we have studied how the leaders of independent India responded to the challenges of nation-building and establishing democracy. Let us now turn to the third c"
+    },
+    {
+     "file": "leps204",
+     "pages": 18,
+     "head": "In this chapter… Thus far we have focussed in this book on the developments within the country and on domestic challenges. We now turn to the external challenges. Here too our leaders faced the challe"
+    },
+    {
+     "file": "leps205",
+     "pages": 20,
+     "head": "In this chapter… In Chapter Two we read about the emergence of the Congress system. This system was first challenged during the 1960s. As political competition became more intense, the Congress found "
+    },
+    {
+     "file": "leps206",
+     "pages": 20,
+     "head": "In this chapter… We have seen in the last chapter that the Congress recovered after 1971, but was not the same kind of party. The difference became clear in a series of events between 1973 and 1975 th"
+    },
+    {
+     "file": "leps207",
+     "pages": 24,
+     "head": "In this chapter… In the first chapter of this book we studied the process of ‘nation-building’ in the first decade after Independence. But nation-building is not something that can be accomplished onc"
+    },
+    {
+     "file": "leps208",
+     "pages": 25,
+     "head": "In this chapter… In this last chapter we take a synoptic view of the last two decades of politics in India. These developments are complex, for various kinds of factors came together to produce unanti"
+    }
+   ],
+   "extras": {
+    "ps": 1311373,
+    "dd": 40873539
+   }
+  },
+  "lepy1": {
+   "front": "Psychology TEXTBOOK FOR CLASS XII Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lepy101",
+     "pages": 22,
+     "head": "Chapter 1 • Variations in Psychological Attributes 1 VARIA VARIAVARIAVARIAVARIATIONS IN PSYTIONS IN PSYTIONS IN PSYTIONS IN PSYTIONS IN PSY CHOLOGICALCHOLOGICALCHOLOGICAL CHOLOGICALCHOLOGICAL AT ATAT "
+    },
+    {
+     "file": "lepy102",
+     "pages": 27,
+     "head": "Chapter 2 • Self and Personality 23 SELF AND PERSONALITYSELF AND PERSONALITYSELF AND PERSONALITYSELF AND PERSONALITYSELF AND PERSONALITY Introduction Self and Personality Concept of Self Cognitive and"
+    },
+    {
+     "file": "lepy103",
+     "pages": 19,
+     "head": "Psychology50 MEETING LIFE CHALLENGESMEETING LIFE CHALLENGESMEETING LIFE CHALLENGESMEETING LIFE CHALLENGESMEETING LIFE CHALLENGES Introduction Nature, Types and Sources of Stress A Measure of Stressful"
+    },
+    {
+     "file": "lepy104",
+     "pages": 20,
+     "head": "Chapter 4 • Psychological Disorders 69 PSY PSYPSYPSYPSYCHOLOGICAL DISORDERSCHOLOGICAL DISORDERSCHOLOGICAL DISORDERSCHOLOGICAL DISORDERSCHOLOGICAL DISORDERS Introduction Concepts of Abnormality and Psy"
+    },
+    {
+     "file": "lepy105",
+     "pages": 15,
+     "head": "Chapter 5 • Therapeutic Approaches 89 THER THERTHERTHERTHER APEUTIC APPROACHESAPEUTIC APPROACHESAPEUTIC APPROACHESAPEUTIC APPROACHESAPEUTIC APPROACHES Nature and Process of Psychotherapy Therapeutic R"
+    },
+    {
+     "file": "lepy106",
+     "pages": 16,
+     "head": "Psychology104 AT ATAT ATATTITUDE AND SOCIAL COGNITIONTITUDE AND SOCIAL COGNITIONTITUDE AND SOCIAL COGNITIONTITUDE AND SOCIAL COGNITIONTITUDE AND SOCIAL COGNITION After reading this chapter, you would "
+    },
+    {
+     "file": "lepy107",
+     "pages": 12,
+     "head": "Psychology120 SOCIAL INFLUENCE AND GROUPSOCIAL INFLUENCE AND GROUPSOCIAL INFLUENCE AND GROUPSOCIAL INFLUENCE AND GROUPSOCIAL INFLUENCE AND GROUP PROCESSESPROCESSESPROCESSESPROCESSESPROCESSES After rea"
+    }
+   ],
+   "extras": {
+    "gl": 1463084,
+    "ps": 2849227,
+    "dd": 16978646
+   }
+  },
+  "lesy1": {
+   "front": "Indian Society TexTbook in Sociology for claSS xii Prelims.indd 1 9/6/2022 3:10:22 PM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lesy101",
+     "pages": 4,
+     "head": "Introducing Indian Society 1 Chapter 1.indd 1 6/17/2022 3:29:50 PM Reprint 2026-27"
+    },
+    {
+     "file": "lesy102",
+     "pages": 30,
+     "head": "The Demographic Structure of the Indian Society 5 Chapter 2.indd 5 9/1/2022 12:35:34 PM Reprint 2026-27"
+    },
+    {
+     "file": "lesy103",
+     "pages": 18,
+     "head": "Social Institutions: Continuity and Change 35 Chapter 3.indd 35 9/1/2022 2:07:50 PM Reprint 2026-27"
+    },
+    {
+     "file": "lesy104",
+     "pages": 16,
+     "head": "Chapter 4.indd 53 9/1/2022 2:56:19 PM Reprint 2026-27"
+    },
+    {
+     "file": "lesy105",
+     "pages": 28,
+     "head": "Chapter 5.indd 69 9/1/2022 5:09:07 PM Reprint 2026-27"
+    },
+    {
+     "file": "lesy106",
+     "pages": 20,
+     "head": "Chapter 6.indd 97 9/2/2022 12:52:44 PM Reprint 2026-27"
+    },
+    {
+     "file": "lesy107",
+     "pages": 12,
+     "head": "Suggestions for Project Work 117 Chapter 7.indd 117 9/2/2022 2:39:23 PM Reprint 2026-27"
+    }
+   ],
+   "extras": {
+    "ps": 3015565,
+    "dd": 19936165
+   }
+  },
+  "lesy2": {
+   "front": "Social Change and Development in India TexTbook in Sociology for claSS xii Prelims.indd 1 14 September 2022 12:01:51 Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lesy201",
+     "pages": 14,
+     "head": "Structural Change 1 Chapter 1.indd 1 14 September 2022 12:02:26 Reprint 2026-27"
+    },
+    {
+     "file": "lesy202",
+     "pages": 16,
+     "head": "Cultural Change2 Chapter 2.indd 15 14 September 2022 12:03:07 Reprint 2026-27"
+    },
+    {
+     "file": "lesy203",
+     "pages": 10,
+     "head": "The Constitution and Social Change3 Chapter 3.indd 31 14 September 2022 12:03:32 Reprint 2026-27"
+    },
+    {
+     "file": "lesy204",
+     "pages": 18,
+     "head": "Change and Development in Rural Society 4 Chapter 4.indd 41 14 September 2022 12:03:53 Reprint 2026-27"
+    },
+    {
+     "file": "lesy205",
+     "pages": 12,
+     "head": "Change and Development in Industrial Society 5 Chapter 5.indd 59 14 September 2022 12:04:14 Reprint 2026-27"
+    },
+    {
+     "file": "lesy206",
+     "pages": 18,
+     "head": "Globalisation and Social Change6 Chapter 6.indd 71 14 September 2022 12:04:33 Reprint 2026-27"
+    },
+    {
+     "file": "lesy207",
+     "pages": 20,
+     "head": "Mass Media and Communications7 Chapter 7.indd 89 14 September 2022 12:04:52 Reprint 2026-27"
+    },
+    {
+     "file": "lesy208",
+     "pages": 20,
+     "head": "Social Movements8 Chapter 8.indd 109 14 September 2022 12:05:16 Reprint 2026-27"
+    }
+   ],
+   "extras": {
+    "gl": 783902,
+    "ps": 3729723,
+    "dd": 21967931
+   }
+  },
+  "levt1": {
+   "front": "Supplementary Reader in English for Class XII (Core Course) Prelims.indd 1 12/18/2024 10:00:46 AM",
+   "chapters": [
+    {
+     "file": "levt101",
+     "pages": 7,
+     "head": "1 The Third Level Jack Finney Before you read Have you ever had any curious experience which others find hard to believe? THE presidents of the New York Central and the New York, New Haven and Hartfor"
+    },
+    {
+     "file": "levt102",
+     "pages": 10,
+     "head": "2 The Tiger King Kalki I Before you read What is the general attitude of human beings towards wild animals? THE Maharaja of Pratibandapuram is the hero of this story. He may be identified as His Highn"
+    },
+    {
+     "file": "levt103",
+     "pages": 6,
+     "head": "3 Journey to the end of the Earth Tishani Doshi Before you read If you want to know more about the planet’s past, present and future, the Antarctica is the place to go to. Bon Voyage! EARLY this year,"
+    },
+    {
+     "file": "levt104",
+     "pages": 23,
+     "head": "4 The Enemy Pearl S. Buck Before you Read It is the time of the World War. An American prisoner of war is washed ashore in a dying state and is found at the doorstep of a Japanese doctor. Should he sa"
+    },
+    {
+     "file": "levt105",
+     "pages": 15,
+     "head": "5 On The Face Of It Susan Hill Before you read This is a play featuring an old man and a small boy meeting in the former’s garden. The old man strikes up a friendship with the boy who is very withdraw"
+    },
+    {
+     "file": "levt106",
+     "pages": 7,
+     "head": "6 Memories of Childhood Zitkala-Sa and Bama Before you read This unit presents autobiographical episodes from the lives of two women from marginalised communities who look back on their childhood, and"
+    }
+   ],
+   "extras": {
+    "ps": 4159684,
+    "dd": 13362119
+   }
+  },
+  "lhac1": {
+   "front": "i ys[kk'kkL=k lk>snkjh [kkrs d{kk 12 osQ fy, ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhac101",
+     "pages": 48,
+     "head": "1lk>snkjh ys[kkadu μ vk/kjHkwr vo/kj.kk,¡ vHkh rd vkius ,dy LokfeRo osQ foÙkh; fooj.kksa osQ ckjs esa lh[kk gSA vr% tc O;olk; foLrkfjr gksrk gS rc O;olk; dh ns[kHkky rFkk mlosQ tksf[keksa dks mBkus os"
+    },
+    {
+     "file": "lhac102",
+     "pages": 61,
+     "head": "49lk>snkjh iQeZ dk iquxZBu% lk>snkj dk izos'k lk>snkjh nks ;k nks ls vfèkd O;fDr;ksa osQ eè; ,d le>kSrk gS tks ,d O;olk; osQ ykHkksa dks ck¡Vus osQ fy, lger gksrs gSa] ftudk lapkyu mu lcosQ }kjk ;k mu"
+    },
+    {
+     "file": "lhac103",
+     "pages": 53,
+     "head": "vki i<+ pqosQ gSa fd fdlh lk>snkj osQ lsokfuo`Ùk gksus ;k e`R;q gksus ij ,d lk>snkjh osQ iquxZBu dh vko';drk gksrh gSA fdlh lk>snkj osQ lsokfuo`Ùk ;k e`R;q gksus ij lk>snkjh foys[k dk vfLrRo lekIr gks"
+    },
+    {
+     "file": "lhac104",
+     "pages": 44,
+     "head": "163lk>snkjh iQeZ dk fo?kVu vkius lk>snkj osQ izos'k, lsokfuo`fÙk rFkk e`R;q osQ i'pkr lk>snkjh iQeZ osQ iquxZBu osQ lanHkZ esa vè;;u fd;k gSA ,slh fLFkfr esa orZeku lk>snkjh dk fo?kVu gksrk gS , fdarq"
+    }
+   ],
+   "extras": {
+    "ps": 1670516,
+    "dd": 16399250
+   }
+  },
+  "lhac2": {
+   "front": "ys[kk'kkL=k oaQiuh [kkrs ,oa foÙkh; fooj.kksa dk fo'ys\"k.k d{kk 12 osQ fy, ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhac201",
+     "pages": 76,
+     "head": "vf/xe mís'; bl vè;k; dks i<+us osQ mijkar vkiμ  O;olk; laxBu osQ Lo:i osQ :i esa la;qDr iw¡th oaQiuh dh ewy izÑfr rFkk oaQiuh osQ lnL;ksa osQ nkf;Ro osQ vk/kj ij oaQifu;ksa osQ fofHkUu izdkjks dk o.k"
+    },
+    {
+     "file": "lhac202",
+     "pages": 44,
+     "head": ",d oaQiuh viuh iw¡th va'kksa osQ fuxZe }kjk fu£er djrh gSA ysfdu va'k fuxZe }kjk mxkgs x, iaQM dHkh&dHkh oaQiuh dh nh?kZdkfyd foÙkh; vko';drkvksa dks iwjk djus osQ fy, i;kZIr ugha gksrs gSaA blhfy, vf"
+    },
+    {
+     "file": "lhac203",
+     "pages": 28,
+     "head": ";g le>us osQ ckn fd ,d oaQiuh foÙk oSQls v£tr djrh gS] bl vè;k; esa ge foÙkh; fooj.kksa dh izÑfr] mís';ksa dks le>us osQ lkFk&lkFk foÙkh; fooj.kksa osQ izdkj] mlosQ Lo:i ,oa fo\"k;&oLrq rFkk mlosQ mi;k"
+    },
+    {
+     "file": "lhac204",
+     "pages": 48,
+     "head": "fu.kZk;dksa dh lwpuk laca/h vko';drkvksa dh iwfrZ gsrq O;kolkf;d laxBu osQ lanHkZ esa foÙkh; lwpuk,¡ iznku djuk foÙkh; fooj.kksa dk izeq[k mís'; gSA rS;kj fd, x, foÙkh; fooj.k fuxe {ks=k osQ ,d O;kolk"
+    },
+    {
+     "file": "lhac205",
+     "pages": 50,
+     "head": "vHkh rd vkius foÙkh; fooj.kksa osQ ckjs esa i<+k gS_ fo'ks\"k :i ls rqyu&i=k (,d fof'k\"V frfFk ij ,d m|e dh foÙkh; fLFkfr dks n'kkZrs gq,) rFkk vk; fooj.k (,d fof'k\"V vofèk osQ ckn ,d m|e osQ izpkyu fØ"
+    }
+   ],
+   "extras": {
+    "ps": 1623313,
+    "dd": 18334994
+   }
+  },
+  "lhan1": {
+   "front": "v vv vvaaaaarjky rjkyrjky rjkyrjky Hkkx 2 d{kk 12 osQ fy, ¯gnh (,sfPNd) dh iwjd ikB~;iqLrd vvvvvaaaaarjky rjkyrjky rjkyrjky Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhan101",
+     "pages": 11,
+     "head": "ikB ifjp; 1 lwjnkl dh >ksaiM+h lwjnkl dh >ksaiM+h izsepan osQ miU;kl jaxHkwfe dk ,d va'k gSA ,d n`f\"Vghu O;fDr ftruk cscl vkSj ykpkj thou thus dks vfHk'kIr gksrk gS] lwjnkl dk pfj=k Bhd blosQ foijhr g"
+    },
+    {
+     "file": "lhan102",
+     "pages": 9,
+     "head": "12 / varjky ikB ifjp; 2 fcLdksgj dh ekVh izLrqr ikB fcLdksgj dh ekVh fo'oukFk f=kikBh dh vkRedFkk uaxkrykbZ dk xk¡o dk ,d va'k gSA vkRedFkkRed 'kSyh esa fy[kk x;k ;g ikB viuh vfHkO;atuk esa vR;ar jksp"
+    },
+    {
+     "file": "lhan103",
+     "pages": 12,
+     "head": "ikB ifjp; 3 viuk ekyok [kkmQ&mtkM+w lH;rk esa izHkk\"k tks'kh dk viuk ekyokµ[kkmQ&mtkM+w lH;rk esa ikB tulÙkk] 1 vDVwcj 2006 osQ dkxn dkjs LraHk ls fy;k x;k gSA bl ikB esa ys[kd us ekyok izns'k dh fe^h"
+    }
+   ],
+   "extras": {
+    "ps": 2079602,
+    "dd": 4997959
+   }
+  },
+  "lhar1": {
+   "front": "Hkkx 2 d{kk 12 osQ fy, ¯gnh (vk/kj) oQh ikB~;iqLrd vkjksg Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhar101",
+     "pages": 8,
+     "head": "dkO; [kaM dkO; [kaMdkO; [kaM dkO; [kaMdkO; [kaM Reprint 2026-27"
+    },
+    {
+     "file": "lhar102",
+     "pages": 6,
+     "head": "vkyksd èkUokvkyksd èkUokvkyksd èkUokvkyksd èkUokvkyksd èkUok tUe % lu~ 1948 bZ- eqaxsj (fcgkj) izeq[k jpuk,¡ % igyh dfork turk dk vkneh] 1972 esa izdkf'kr mlosQ ckn Hkkxh gqbZ yM+fd;k¡] czwuks dh csfV"
+    },
+    {
+     "file": "lhar103",
+     "pages": 6,
+     "head": "d dd dd¡qoj ukjk;.k¡qoj ukjk;.k¡qoj ukjk;.k¡qoj ukjk;.k¡qoj ukjk;.k tUe % 19 flracj] lu~ 1927 (mÙkj izns'k) izeq[k jpuk,¡ % pØO;wg (1956)] ifjos'k%ge rqe] vius lkeus] dksbZ nwljk ugha] bu fnuksa (dkO;"
+    },
+    {
+     "file": "lhar104",
+     "pages": 6,
+     "head": "j?kqohj lgk;j?kqohj lgk;j?kqohj lgk;j?kqohj lgk;j?kqohj lgk; tUe % lu~ 1929] y[kumQ (mÙkj izns'k) izeq[k jpuk,¡ % vKs; }kjk laikfnr nwljk lIrd (1951)esa] vkjafHkd dfork,¡] egÙoiw.kZ dkO;&ladyu lhf<+;k"
+    },
+    {
+     "file": "lhar105",
+     "pages": 5,
+     "head": "'ke'ksj cgknqj flag'ke'ksj cgknqj flag'ke'ksj cgknqj flag'ke'ksj cgknqj flag'ke'ksj cgknqj flag tUe % 13 tuojh] lu~ 1911 dks nsgjknwu (mÙkj izns'k vc mÙkjk[kaM esa) izdkf'kr jpuk,¡ % oqQN dfork,¡] oqQ"
+    },
+    {
+     "file": "lhar106",
+     "pages": 6,
+     "head": "lw;Zdkar f=ikBh ^fujkyk*lw;Zdkar f=ikBh ^fujkyk*lw;Zdkar f=ikBh ^fujkyk*lw;Zdkar f=ikBh ^fujkyk*lw;Zdkar f=ikBh ^fujkyk* tUe % lu~ 1899] efg\"kkny] (caxky osQ esfnuhiqj f”kys esa) ikfjokfjd xk¡o&x<+kdk"
+    },
+    {
+     "file": "lhar107",
+     "pages": 11,
+     "head": "xksLokeh rqylhnklxksLokeh rqylhnklxksLokeh rqylhnklxksLokeh rqylhnklxksLokeh rqylhnkl tUe % lu~ 1532] ck¡nk (mÙkj izns'k) f”kys osQ jktkiqj xk¡o esa ekuk tkrk gS izeq[k jpuk,¡ % jkepfjrekul] fou;if=kd"
+    },
+    {
+     "file": "lhar108",
+     "pages": 5,
+     "head": "fQjkd xksj[kiqjhfQjkd xksj[kiqjhfQjkd xksj[kiqjhfQjkd xksj[kiqjhfQjkd xksj[kiqjh ewy uke % j?kqifr lgk; ^fI+kQjkd* tUe % 28 vxLr] lu~ 1896] xksj[kiqj (mÙkj izns'k) f'k{kk % jkeo`Q\".k dh dgkfu;ksa ls '"
+    },
+    {
+     "file": "lhar109",
+     "pages": 5,
+     "head": "mek'kadj tks'khmek'kadj tks'khmek'kadj tks'khmek'kadj tks'khmek'kadj tks'kh tUe % lu~ 1911] xqtjkr esa izeq[k jpuk,¡ % fo'o 'kkafr] xaxks=kh] fu'khFk] izkphuk] vkfrF;] olar o\"kkZ] egkizLFkku] vfHkKk ("
+    },
+    {
+     "file": "lhar110",
+     "pages": 17,
+     "head": "x| [kaM x| [kaMx| [kaM x| [kaMx| [kaM Reprint 2026-27"
+    },
+    {
+     "file": "lhar111",
+     "pages": 13,
+     "head": "tSusanz dekjtSusanz dekjtSusanz dekjtSusanz dekjtSusanz dekj tUe % lu~ 1905] vyhx<+ (mÙkj izns'k) izeq[k jpuk,¡ % ij[k] vuke Lokeh] lquhrk] R;kxi=k] dY;k.kh] t;o¼Zu] eqfDrcksèk (miU;kl)_ okrk;u] ,d jk"
+    },
+    {
+     "file": "lhar112",
+     "pages": 9,
+     "head": "èkeZohj HkkjrhèkeZohj HkkjrhèkeZohj HkkjrhèkeZohj HkkjrhèkeZohj Hkkjrh tUe % lu~ 1926] bykgkckn (mÙkj izns'k) izeq[k jpuk,¡ % duqfiz;k] lkr&xhr o\"kZ] BaMk yksgk (dfork laxzg)_ can xyh dk vkf[kjh edku "
+    },
+    {
+     "file": "lhar113",
+     "pages": 12,
+     "head": "Q.kh'oj ukFk js.kqQ.kh'oj ukFk js.kqQ.kh'oj ukFk js.kqQ.kh'oj ukFk js.kqQ.kh'oj ukFk js.kq tUe % 4 ekpZ] lu~ 1921] vkSjkgh ¯gxuk (f”kyk iwf.Zk;k vc vjfj;k) fcgkj esa izeq[k jpuk,¡ % eSyk vk¡py] ijrh i"
+    },
+    {
+     "file": "lhar114",
+     "pages": 10,
+     "head": "gtkjh izlkn f}osnhgtkjh izlkn f}osnhgtkjh izlkn f}osnhgtkjh izlkn f}osnhgtkjh izlkn f}osnh tUe % lu~ 1907] vkjr nqcs dk Nijk] cfy;k (mÙkj izns'k) izeq[k jpuk,¡ % v'kksd osQ iwQy] dYiyrk] fopkj vkSj fo"
+    },
+    {
+     "file": "lhar115",
+     "pages": 9,
+     "head": "ckck lkgsc Hkhejko vkacsMdjckck lkgsc Hkhejko vkacsMdjckck lkgsc Hkhejko vkacsMdjckck lkgsc Hkhejko vkacsMdjckck lkgsc Hkhejko vkacsMdj tUe % 14 vizSy] lu~ 1891] egw (eè; izns'k)esa izeq[k jpuk,¡ % nW"
+    }
+   ],
+   "extras": {
+    "ps": 1985781,
+    "dd": 26097736
+   }
+  },
+  "lhat1": {
+   "front": "varjk Hkkx 2 d{kk 12 osQ fy, fganh (,sfPNd) dh ikB~;iqLrd Reprint 2025-26",
+   "chapters": [
+    {
+     "file": "lhat101",
+     "pages": 7,
+     "head": "Reprint 2025-26"
+    },
+    {
+     "file": "lhat102",
+     "pages": 6,
+     "head": "8@varjk lw;Zdkar f=kikBh ^fujkyk* (lu~ 1898&1961) fujkyk dk tUe caxky esa esfnuhiqj f”kys osQ efg\"kkny xk¡o esa gqvk FkkA mudk fir`xzke mÙkj izns'k dk x<+dksyk (mUuko) gSA muosQ cpiu dk uke lw;Z oqQek"
+    },
+    {
+     "file": "lhat103",
+     "pages": 6,
+     "head": "14@varjk lfPpnkuan ghjkuan okRL;k;u ^vKs;* (lu~ 1911&1987) vKs; dk ewy uke lfPpnkuan ghjkuan okRL;k;u gSA mUgksaus vKs; uke ls dkO;&jpuk dhA mudk tUe oqQ'khuxj (mÙkj izns'k) esa gqvk Fkk] ¯drq cpiu y["
+    },
+    {
+     "file": "lhat104",
+     "pages": 7,
+     "head": "20@varjk osQnkjukFk ¯lg (1934 µ 2018) osQnkjukFk ¯lg dk tUe cfy;k f”kys osQ pfd;k xk¡o esa gqvkA dk'kh ¯gnw fo'ofo|ky; ls ¯gnh esa ,e-,- djus osQ ckn mUgksaus ogha ls ^vkèkqfud ¯gnh dfork esa fcEc&foè"
+    },
+    {
+     "file": "lhat105",
+     "pages": 6,
+     "head": "j?kqohj lgk;@27 j?kqohj lgk; (lu~ 1929&1990) j?kqohj lgk; dk tUe y[kumQ (mÙkj izns'k) esa gqvk FkkA mudh laiw.kZ f'k{kk y[kumQ esa gh gqbZA ogha ls mUgksaus 1951 esa vaxzs”kh lkfgR; esa ,e-, fd;kA j?k"
+    },
+    {
+     "file": "lhat106",
+     "pages": 7,
+     "head": "rqylhnkl@33 rqylhnkl (lu~ 1532&1623) rqylhnkl dk tUe ck¡nk f”kys osQ jktkiqj xk¡o esa gqvk FkkA oqQN fo}ku mudk tUe LFkku lksjksa] ,Vk dks Hkh ekurs gSaA gkyk¡fd muosQ tUe LFkku osQ ckjs esa fo}kuksa "
+    },
+    {
+     "file": "lhat107",
+     "pages": 7,
+     "head": "40@varjk efyd eqgEen tk;lh (lu~ 1492&1542) efyd eqgEen tk;lh vesBh (mÙkj izns'k) osQ fudV tk;l osQ jgus okys FksA blh dkj.k os tk;lh dgyk,A os vius le; osQ fl¼ vkSj igq¡ps gq, I +kQdhj ekus tkrs FksA "
+    },
+    {
+     "file": "lhat108",
+     "pages": 6,
+     "head": "fo|kifr@47 fo|kifr (lu~ 1380&1460) fo|kifr dk tUe eèkqcuh (fcgkj) osQ fcLih xk¡o osQ ,d ,sls ifjokj esa gqvk tks fo|k vkSj Kku osQ fy, izfl¼ FkkA muosQ tUedky osQ lacaèk esa izkekf.kd lwpuk miyCèk ugh"
+    },
+    {
+     "file": "lhat109",
+     "pages": 4,
+     "head": "?kukuan@53 ?kukuan (lu~ 1673&1760) jhfrdky osQ jhfreqDr ;k LoPNan dkO;èkkjk osQ izfrfufèk dfo ?kukuan fnYyh osQ ckn'kkg eqgEen 'kkg osQ ehj eqa'kh FksA dgrs gSa fd lqtku uke dh ,d L=kh ls mudk vVwV iz"
+    },
+    {
+     "file": "lhat110",
+     "pages": 10,
+     "head": "Reprint 2025-26"
+    },
+    {
+     "file": "lhat111",
+     "pages": 9,
+     "head": "iafMr panzèkj 'kekZ xqysjh/67 iafMr paæèkj 'kekZ xqysjh (lu~ 1883&1922) iafMr panzèkj 'kekZ xqysjh dk tUe iqjkuh cLrh] t;iqj esa gqvkA xqysjh th cgqHkk\"kkfon~ FksA laLo`Qr] ikyh] izko`Qr] viHkza'k] cz"
+    },
+    {
+     "file": "lhat112",
+     "pages": 12,
+     "head": "76@varjk iQ.kh'ojukFk ^js.kq* (lu~ 1921&1977) iQ.kh'ojukFk ^js.kq* dk tUe fcgkj osQ iwf.kZ;k f”kys osQ vkSjkgh ¯gxuk ukeoQ xk¡o esa gqvk FkkA mUgksaus 1942 bZ- osQ ^Hkkjr NksM+ks* Lokèkhurk vkanksyu e"
+    },
+    {
+     "file": "lhat113",
+     "pages": 11,
+     "head": "88@varjk Hkh\"e lkguh (lu~ 1915&2003) Hkh\"e lkguh dk tUe jkoy¯iMh (vc ikfdLrku) esa gqvkA mudh izkjafHkd f'k{kk ?kj esa gh gqbZA bUgksaus mnwZ vkSj vaxzs”kh dk vè;;u LowQy esa fd;kA xouZesaV dkyst ykgk"
+    },
+    {
+     "file": "lhat114",
+     "pages": 9,
+     "head": "vlxj otkgr@99 vlxj otkgr (tUe lu~ 1946) vlxj otkgr dk tUe iQrsgiqj] mÙkj izns'k esa gqvkA mudh izkjafHkd f'k{kk iQrsgiqj esa gqbZ rFkk fo'ofo|ky; Lrj dh i<+kbZ mUgksaus vyhx<+ eqfLye fo'ofo|ky; ls dhA"
+    },
+    {
+     "file": "lhat115",
+     "pages": 8,
+     "head": "108@varjk fueZy oekZ (lu~ 1929&2005) fueZy oekZ dk tUe f'keyk (fgekpy izns'k) esa gqvkA mUgksaus fnYyh fo'ofo|ky; osQ lsaV LVhisaQl dkyst ls bfrgkl esa ,e-,- fd;k vkSj vè;kiu dk;Z djus yxsA psdksLykso"
+    },
+    {
+     "file": "lhat116",
+     "pages": 13,
+     "head": "116 @ varjk 116@varjk eerk dkfy;k (tUe lu~ 1940) eerk dkfy;k dk tUe eFkqjk mÙkj izns'k esa gqvkA mudh f'k{kk osQ dbZ iM+ko jgs tSls ukxiqj] iq.ks] bankSj] eqacbZ vkfnA fnYyh fo'ofo|ky; ls mUgksaus vax"
+    },
+    {
+     "file": "lhat117",
+     "pages": 12,
+     "head": "gtkjh izlkn f}osnh@129 gtkjh izlkn f}osnh (lu~ 1907&1979) gtkjh izlkn f}osnh dk tUe xk¡o vkjr nqcs dk Nijk] f”kyk cfy;k (m-iz-) esa gqvk FkkA laLÑr egkfo|ky;] dk'kh ls 'kkL=kh ijh{kk mÙkh.kZ djus osQ "
+    }
+   ],
+   "extras": {
+    "ps": 1479940,
+    "dd": 15784684
+   }
+  },
+  "lhbo1": {
+   "front": "tho foKku d{kk 12 Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhbo101",
+     "pages": 27,
+     "head": "tho foKku i`Foh ij thou dh xkFkk@dgkuh dk lkj@fupksM+ gSA ;|fi O;f\"V tho dk fuf'pr :i ls var gksrk gS ogha iztkfr;k¡ yk[kksa o\"kks± rd vfLrRo esa jgrh gSa] tc rd fd mUgsa izkÑfrd vFkok ekuoksn~Hkoh fo"
+    },
+    {
+     "file": "lhbo102",
+     "pages": 18,
+     "head": "tSlkfd vki tkurs gSa ekuo ySafxd :Ik ls tuu djus okyk vkSj lthoiztd ;k tjk;qt izk.kh gSA ekuoksa esa tuu ?kVuk osQ varxZr ;qXedksa dh jpuk (;qXedtuu) vFkkZr~ iq#\"k esa 'kqØk.kqvksa rFkk L=kh esa vaMk."
+    },
+    {
+     "file": "lhbo103",
+     "pages": 12,
+     "head": "fiNys vè;k; esa vkius tuu ra=k (fjizksMfDVo)vkSj mlosQ izdk;ks± osQ ckjs esa i<+k FkkA vc mlls tqM+s fudV 'kh\"kZd vFkkZr~ tuu&LokLF; osQ ckjs esa ppkZ djasxsA ge tuu LokLF; 'kCn ls D;k rkRi;Z le>rs gS"
+    },
+    {
+     "file": "lhbo104",
+     "pages": 30,
+     "head": "esaMy rFkk muosQ vuq;k;h ftUgksaus buosQ dk;ks± dks ljkgk vkSj mudk vuqlj.k fd;k_ oa'kkxfr izfr:i osQ fo\"k; esa gekjs lEeq[k vius fopkj izLrqr fd,A ;|fi] mu dkjdksa] tks y{k.kiz:i dk fu/kZj.k djrs gSa"
+    },
+    {
+     "file": "lhbo105",
+     "pages": 33,
+     "head": "vè;k; 5 oa'kkxfr OksQ vk.kfod vkèkkj 5.1 Mh,u, 5.2 vkuqoaf'kd inkFkZ dh [kkst 5.3 vkj,u, lalkj 5.4 izfro`Qfr 5.5 vuqys[ku 5.6 vkuqoaf'kd owQV 5.7 LFkkukarj.k 5.8 thu vfHkO;fDr dk fu;eu 5.9 ekuo thukse"
+    },
+    {
+     "file": "lhbo106",
+     "pages": 18,
+     "head": "fodklh; tho foKku i`Foh ij tho&:iksa osQ bfrgkl dk vè;;u gSA oLrqr% fodkl esa gS D;k\\ ouLifr ,oa izkf.k txr esa djksM+ksa o\"kZ iwoZ i`Foh ij gq, ifjorZuksa dks le>us osQ fy, thou dh mRifÙk osQ ckjs es"
+    },
+    {
+     "file": "lhbo107",
+     "pages": 25,
+     "head": "vè;k; 7 ekuo LokLF; rFkk jksx vè;k; 8 ekuo dY;k.k esa lw{etho tho foKku izÑr foKku dh lcls vifjiDo vkSipkfjd fo|k gSA tho foKku dh rqyuk esa HkkSfrdh rFkk jlk;u foKku esa izxfr dkiQh rhoz xfr ls gqbZ "
+    },
+    {
+     "file": "lhbo108",
+     "pages": 13,
+     "head": "vlw{e ikniksa rFkk izkf.k;ksa osQ vfrfjDr bl i`Foh ij tho foKkuh ra=k osQ izeq[k ?kVd lw{etho gSaA d{kk 11 esa vkius thfor thoksa esa ikbZ tkus okyh fofo/rk osQ ckjs esa vè;;u fd;k gksxkA D;k vkidks ;"
+    },
+    {
+     "file": "lhbo109",
+     "pages": 17,
+     "head": "17oha 'krkCnh osQ izQk¡lhlh nk'kZfud] xf.krK rFkk tho oSKkfud jSuh MSldkVhZt osQ fnuksa ls gh leLr ekuo Kku fo'ks\"kdj izÑr foKku izkS|ksfxdh osQ fodkl dh vksj fufnZ\"V gqvk_ ifj.kkeLo:i ekuo osQ thou e"
+    },
+    {
+     "file": "lhbo110",
+     "pages": 12,
+     "head": "rqe fiNys vè;k; esa tSo izkS|ksfxdh ftlosQ ckjs esa i<+ pqosQ gks] mlesa eq[;r;k vkuqoaf'kd :i ls :ikarfjr lw{ethoksa] dod] ikS/ksa o tarqvksa dk mi;ksx djrs gq, tSo HkS\"kftd o tSfod inkFkks± dk vkS|k"
+    },
+    {
+     "file": "lhbo111",
+     "pages": 18,
+     "head": "fofo/rk gh thfor thoksa dk osQoy y{k.k ugha gS_ cfYd tho foKku ikB~;iqLrd dk Hkh va'k gSA tho foKku dk izLrqrhdj.k ;k rks ouLifr foKku] izkf.k foKku rFkk lw{e tho foKku vFkok fpj izfrf\"Br rFkk vk/qfud"
+    },
+    {
+     "file": "lhbo112",
+     "pages": 12,
+     "head": "ikfjra=k dks izÑfr dh ,d fØ;k'khy bZdkbZ osQ :i esa ns[kk tkrk gS] tgk¡ ij tho/kjh vkil esa rFkk vkl ikl osQ HkkSfrd i;kZoj.k osQ lkFk ijLij fØ;k djrs gSaA ikfjra=k dk vkdkj ,d NksVs ls rkykc ls ysdj "
+    },
+    {
+     "file": "lhbo113",
+     "pages": 13,
+     "head": ";fn nwj fLFkr vkdk'kxaxk ls dksbZ vU;xzgh (,sfy;u) vk;k gqvk gekjs xzg i`Foh ij Hkze.k djs] rc lcls igys tks ckr mldks vpafHkr djsxh] og 'kk;n gekjs thou dh vfr fo'kky fofoèkrk gksxhA ge ekuo osQ fy, "
+    }
+   ],
+   "extras": {
+    "ps": 1053824,
+    "dd": 38637137
+   }
+  },
+  "lhbs1": {
+   "front": "O;olk; vè;;u Hkkx 1 çca/ osQ fl¼kar vkSj dk;Z d{kk 12 osQ fy, ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhbs101",
+     "pages": 28,
+     "head": "1 vè;k; izcaèk dh izÑfr ,oa egÙo vfèkxe mís'; bl vè;k; osQ vè;;u osQ i'pkr~ vkiµ /lozenge4 izcaèk dh izÑfr ,oa laxBu esa blosQ egÙo dks le>k losQaxs_ /lozenge4 izcaèk dh izÑfr dks dyk] foKku ,oa is'ks"
+    },
+    {
+     "file": "lhbs102",
+     "pages": 38,
+     "head": "2 vè;k; izcaèk osQ fl¼kar vfèkxe mís'; bl vè;k; osQ vè;;u osQ i'pkr~ vkiµ /lozenge4 izcaèk osQ fl¼karksa dk vFkZ] izÑfr ,oa egÙo dks crk losaQxs_ /lozenge4 Vsyj osQ oSKkfud izcaèk osQ fl¼kar ,oa rduhd"
+    },
+    {
+     "file": "lhbs103",
+     "pages": 23,
+     "head": "O;kolkf;d i;kZoj.k 67 3 vè;k; O;kolkf;d i;kZoj.k vfèkxe mís'; bl vè;k; osQ vè;;u osQ i'pkr~ vkiμ  O;kolkf;d i;kZoj.k dk vFkZ le>k losaQxs_  O;kolkf;d i;kZoj.k osQ egÙo dk o.kZu dj losaQxs_  O;kolkf"
+    },
+    {
+     "file": "lhbs104",
+     "pages": 19,
+     "head": "90 O;olk; vè;;u s fu;kstu osQ y{k.k rFkk egÙo dh O;k[;k dj loasQxs_ s fu;kstu dh lhekvksa dk o.kZu dj loasQxs_ s fu;kstu izfØ;k esa fufgr vko';d dneksa dk fo'ys\"k.k dj loasQxss_ s fofHkUu izdkj dh ;ks"
+    },
+    {
+     "file": "lhbs105",
+     "pages": 31,
+     "head": "laxBu 109 5 vè;k; laxBu vfèkxe mís'; bl vè;k; osQ vè;;u osQ i'pkr~ vkiµ /lozenge4 laxBu voèkkj.kk dks ifjHkkf\"kr dj losaQxs_ /lozenge4 laxBu izfØ;k dh O;k[;k dj losaQxs_ vkxs c<+us dk ekxZ] foizks!vkx"
+    },
+    {
+     "file": "lhbs106",
+     "pages": 35,
+     "head": "140 O;olk; vè;;u 6 vè;k; fu;qfDrdj.k vf/xe mís'; bl vè;k; osQ vè;;u osQ i'pkr~ vkiµ /lozenge4 fu;qfDrdj.k dks ifjHkkf\"kr dj losaQxs_ /lozenge4 ekuo lalk/u izca/ osQ varxZr fu;qfDr& dj.k osQ laca/ dks "
+    },
+    {
+     "file": "lhbs107",
+     "pages": 38,
+     "head": "funsZ'ku 175 èkjkryh; (xzkl:V) usr`Ro & iQksMZ eksVj oaQiuh èkjkryh; (xzkl:V) usr`Ro & iQksMZ eksVj oaQiuh 7 vè;k;funsZ'ku iQksMZ ges'kk ls gh oqQ'ky izcaèkdksa rFkk rduhf'k;uksa dks vkdf\"kZr rFkk izk"
+    },
+    {
+     "file": "lhbs108",
+     "pages": 14,
+     "head": "fu;a=k.k 213 fo\"k; izos'k LVfy±x dksfj;j osQ mnkgj.k ls ;g Li\"V gks tkrk gS fd fdl izdkj ,d lq;ksX; izcaèkd foijhr O;kolkf;d ifjfLFkfr;ksa dks fu;af=kr dj ysrk gSA blh mnkgj.k ls ;g Hkh Li\"V gks tkrk "
+    }
+   ],
+   "extras": {
+    "ps": 3190782,
+    "dd": 26673432
+   }
+  },
+  "lhbs2": {
+   "front": "व्‍यवसा‍य अध्‍य‍यन भाग 2 व्‍यवसा‍य, ववत्त एवं ववपणन कक्षा 12 क े लिए पषाठ्यपुस्‍तक Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhbs201",
+     "pages": 28,
+     "head": "जब टाटा स टटील द् ारा कोरस का अधिग्रहण धकया गया भारत की निजी क्षेत्र में सबस षे अनिक स्ील उत्ादक है, िषे कोरस का अ निग्रहण नकया है। जो एक डच कं ्िी है। यह अनिग्रहण वर्ष 2007 में 12 नबनल यि USD में हुआ"
+    },
+    {
+     "file": "lhbs202",
+     "pages": 42,
+     "head": "अधिगम उद्देश्य इस अध्या् क े अध््न क े पश्‍यात् आप — ¾ विपणन क े अर्थ को समझया सक ें गे; ¾ ‘विपणन’ एिं ‘विक्र्’ में अंतर कर सक ें गे; ¾ विपणन क े महत्िपूण्थ कया्यों को स ू्‍ीबद्ध कर सक ें गे; ¾ अर्थव्"
+    },
+    {
+     "file": "lhbs203",
+     "pages": 16,
+     "head": "उपभोक्‍ता संरक्षण एटीएम में लेन-देन की विफल ्‍ता और उसमें नकदी न होने क े वलए बैंक उत्तरदतायी एक ऐतिहातिक उपभोकिा मंच क े फ ैिले में अब अगर आपको एटीएम िे पैिे नहीं तमलिे हैं, िो इिे बैंक की ओर िे िेवा"
+    }
+   ],
+   "extras": {
+    "ps": 2556407,
+    "dd": 11041371
+   }
+  },
+  "lhch1": {
+   "front": "Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhch101",
+     "pages": 30,
+     "head": "foy;u nks ;k nks ls vf/d vo;oksa dk lekaxh feJ.k gksrk gSA lekaxh feJ.k ls gekjk rkRi;Z gS fd feJ.k esa lHkh txg bldk la?kVu o xq.k ,d leku gksrs gSaA lkekU;r% tks vo;o vf/d ek=kk esa mifLFkr gksrk gS"
+    },
+    {
+     "file": "lhch102",
+     "pages": 32,
+     "head": "oS|qrjlk;u Lor% izofrZr jklk;fud vfHkfØ;kvksa esa fuxZfer ÅtkZ ls fo|qr mRiknu ,oa fo|qrh; ÅtkZ osQ Lor% vizofrZr jklk;fud ifjorZuksa esa mi;ksx dk vè;;u gSA ;g fo\"k; lS¼kafrd ,oa izk;ksfxd nksuksa gh"
+    },
+    {
+     "file": "lhch103",
+     "pages": 28,
+     "head": "jklk;fud cyxfrdhjklk;fud cyxfrdh jlk;u LokHkkfod :i ls ifjorZu ls la cafèkr foKku gSA jklk;fud vfHkfØ;k }kjk fof'k\"V xq.kksa ls ;qDr inkFkks± dk vU; xq.kksa ls ;qDr fofHkUu inkFkks± esa ifjorZu gksrk "
+    },
+    {
+     "file": "lhch104",
+     "pages": 29,
+     "head": "vkorZ lkj.kh osQ d- CykWd esa oxZ 3 ls 12 osQ rRo vkrs gSa] ftlesa pkjksa nh?kZ vkorks± esa d d{kd Hkjs tkrs gSaA f- CykWd osQ rRo os gSa ftuesa nh?kZ vkorks± esa 4f rFkk 5f d{kd mÙkjksÙkj Hkjs tkrs g"
+    },
+    {
+     "file": "lhch105",
+     "pages": 26,
+     "head": "5-1 5-15-1 5-15-1 milgla;kstu milgla;kstumilgla;kstu milgla;kstumilgla;kstu ;kSfxdksa dk;kSfxdksa dk;kSfxdksa dk ;kSfxdksa dk;kSfxdksa dk ouZj dk fl)karouZj dk fl)karouZj dk fl)karouZj dk fl)karouZj d"
+    }
+   ],
+   "extras": {
+    "an": 820749,
+    "a1": 1567399,
+    "ps": 3152920,
+    "dd": 22436401
+   }
+  },
+  "lhch2": {
+   "front": "Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhch201",
+     "pages": 35,
+     "head": ",sfyiSQfVd vFkok ,sjkseSfVd gkbMªksdkcZu osQ gkbMªkstu ijek.kq (vFkok ijek.kqvksa) dk gSykstu ijek.kq (vFkok ijek.kqvksa) }kjk izfrLFkkiu gksus ls Øe'k% ,sfYdy gSykbM (gSyks,sYosQu) rFkk ,sfjy gSykbM "
+    },
+    {
+     "file": "lhch202",
+     "pages": 35,
+     "head": "198 jlk;u foKku vkius i<+k gS fd fdlh gkbMªksdkcZu osQ ,d ;k mlls vfèkd gkbMªkstu ijek.kqvksa osQ nwljs ijek.kq ;k ijek.kqvksa osQ lewgksa }kjk izfrLFkkiu ls iw.kZr% u, ;kSfxdksa dk fuekZ.k gksrk gS] "
+    },
+    {
+     "file": "lhch203",
+     "pages": 33,
+     "head": "233,sfYMgkbM] dhVksu ,oa dkcksZfDlfyd vEy fiNys ,dd esa vkius ,sls dkcZfud ;kSfxdksa dk vè;;u fd;k gS] ftuesa izdk;kZRed lewg esa dkcZu rFkk vkWDlhtu ijek.kq osQ eè; ,dy vkca/ ik;k tkrk gSA bl ,dd esa"
+    },
+    {
+     "file": "lhch204",
+     "pages": 22,
+     "head": "266 jlk;u foKku ,sehu] veksfu;k v.kq ls ,d vFkok vf/d gkbMªkstu ijek.kqvksa osQ ,sfYdy vFkok ,sfjy lewgksa }kjk foLFkkiu ls izkIr dkcZfud ;kSfxdksa dk ,d egRoiw.kZ oxZ cukrh gSaA izÑfr esa ;s izksVhu]"
+    },
+    {
+     "file": "lhch205",
+     "pages": 22,
+     "head": ",d tSo&ra=k Lo;a o`f¼ djrk gS] dk;e jgrk gS rFkk Lo;a dk iqutZuu djrk gSA tSo&ra=k dh lcls vk'p;Ztud ckr ;g gS fd ;g vtSfod ijek.kqvksa rFkk v.kqvksa ls feydj curk gSA thfor ra=k esa jlk;ur% D;k gksrk"
+    }
+   ],
+   "extras": {
+    "an": 1079528,
+    "ps": 2215838,
+    "dd": 22403293
+   }
+  },
+  "lhec1": {
+   "front": "lef\"V vFkZ'kkL=k ,d ifjp; d{kk 12 osQ fy, vFkZ'kkL=k dh ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhec101",
+     "pages": 8,
+     "head": "ifjp; O;f\"V vFkZ'kkL=k osQ ewyHkwr vè;;u ls vki vo'; gh iwoZ ifjfpr gksaxsA bl vè;k; osQ vkjaHk esa vkidks O;f\"V vFkZ'kkL=k vkSj lef\"V vFkZ'kkL=k osQ chp varj dk ,d ljyho`Qr fooj.k izLrqr fd;k x;k] ft"
+    },
+    {
+     "file": "lhec102",
+     "pages": 29,
+     "head": "vè;k; 2 jk\"Vªh; vk; dk ys[kkadu bl vè;k; esa ge ,d ljy vFkZO;oLFkk dh ewy dk;Zi¼fr dk ifjp; izkIr djsaxsA bl vè;k; osQ [kaM 2-1 esa geus oqQN izkjafHkd fopkjksa dk mYys[k fd;k gS] ftlosQ lkFk ge dk;Z "
+    },
+    {
+     "file": "lhec103",
+     "pages": 18,
+     "head": "vè;k; 3 eqæk vkSj cSa¯dx eqnzk fofue; dk ,d loZekU; ekè;e gSA ,slh vFkZO;oLFkk] tks O;fDr fo'ks\"k ls cuh gks] mlesa oLrqvksa dk dksbZ fofue; ugha gks ldrk vkSj blfy, ogk¡ eqnzk dh dksbZ Hkwfedk ugha g"
+    },
+    {
+     "file": "lhec104",
+     "pages": 14,
+     "head": "vè;k; 4 vk; vkSj jkstxkj osQ fuèkkZj.k vc rd geus jk\"Vªh; vk;] dher Lrj] C;kt dh nj bR;kfn osQ ewY;ksa dks fu;af=kr djus okyh 'kfDr;ksa dk vUos\"k.k fd;s fcuk gh ,d rnFkZ :i ls buosQ lacaèk esa ppkZ dh"
+    },
+    {
+     "file": "lhec105",
+     "pages": 20,
+     "head": "vè;k; 5 ljdkjh ctV ,oa vFkZO;oLFkk IkzFke vè;k; esa geus ljdkj dk ifjp; jkT; osQ :i esa djok;k FkkA geus dgk Fkk fd futh {ks=k osQ vfrfjDr] ljdkj gksrh gS tks ,d egRoiw.kZ Hkwfedk fuHkkrh gSA ,d vFkZO"
+    },
+    {
+     "file": "lhec106",
+     "pages": 16,
+     "head": "vè;k; 6 vè;k; 6 [kqyh vFkZO;oLFkk lef\"V vFkZ'kkL=k [kqyh vFkZO;oLFkk ,d ,slh vFkZO;oLFkk gS tks fofHkUu ekè;eksa }kjk vU; ns'kksa ls varZO;ogkj djrh gSA vc rd geus bl igyw ij fopkj ugha fd;k Fkk vkSj "
+    }
+   ],
+   "extras": {
+    "gl": 589465,
+    "ps": 1406024,
+    "dd": 10547997
+   }
+  },
+  "lhec2": {
+   "front": "O;f\"V vFkZ'kkL=k ,d ifjp; d{kk 12 osQ fy, vFkZ'kkL=k dh ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhec201",
+     "pages": 8,
+     "head": "1-1 lkekU; vFkZO;oLFkk fdlh Hkh lekt osQ fo\"k; esa lksfp,A lekt esa yksxksa dks [kkuk] oL=k] ?kj] lM+d o jsy lsokvksa tSls ;krk;kr osQ lk/uksa] Mkd lsokvksa rFkk fpfdRldksa&vè;kidksa tSlh cgqr&lh oLrq"
+    },
+    {
+     "file": "lhec202",
+     "pages": 32,
+     "head": "miHkksDrk osQ O;ogkj dk fl¼kar bl vè;k; esa ge ,d O;fDrxr miHkksDrk osQ O;ogkj dk vè;;u djsaxsA miHkksDrk dks ;g fu.kZ; djuk gksrk gS fd og viuh vk; dks fofHkUu oLrqvksa1 ij fdl çdkj O;; djsaA vFkZ'kk"
+    },
+    {
+     "file": "lhec203",
+     "pages": 20,
+     "head": "iQeZ iz;kl mRiknu rFkk ykxr iwoZ vè;k; esa geus miHkksDrk osQ O;ogkj osQ lacaèk esa ppkZ dh gSA bl vè;k; rFkk vxys vè;k; esa ge mRiknd osQ O;ogkj dh tk¡p djsaxsA ,d mRiknd vFkok iQeZ fofHkUu vkxrksa t"
+    },
+    {
+     "file": "lhec204",
+     "pages": 20,
+     "head": "iw.kZ izfrLi/kZ dh fLFkfr esa iQeZ dk fl¼kar iwoZ vè;k; esa geus iQeZ osQ mRiknu iQyu rFkk ykxr oØksa ls lacaf/r ladYiukvksa dk vè;;u fd;k gSA bl vè;k; dk osaQnz&fcanq fHkUu gSA ;gk¡ iz'u mBrk gS fd d"
+    },
+    {
+     "file": "lhec205",
+     "pages": 19,
+     "head": "ck”kkj larqyu ;g vè;k;] vè;k; 2 rFkk 4 dh uhao ij vkèkkfjr gS] ftuesa geus miHkksDrk rFkk iQeZ osQ O;ogkj dks dherµLohsdkjd osQ :i esa vè;;u fd;k gSA vè;k; 2 esa geus ns[kk fd fdlh oLrq osQ fy, ,d O;f"
+    }
+   ],
+   "extras": {
+    "gl": 800211,
+    "ps": 1253473,
+    "dd": 11157526
+   }
+  },
+  "lhfa1": {
+   "front": "भारतीय कला का पि‍रचय कक्ा 12 क े ि‍लए लि‍लत कला की पाठ्यपुसतक भाग 2 Prelims.indd 1 20-Feb-25 9:38:22 AM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhfa101",
+     "pages": 9,
+     "head": "पांडु लिलप लित्रकिा की पर ं परा 1 पाँचवीं शताब्दी में रच चत विष्णुधर्मोत्तर पणुरा् क े तदीसरे ख ंड में ‘च चत्रसूत्र’ नामक अध्‍ा्‍ को भारतदी्‍ कला और चवशेषकर चचत्रकला की स्ोत पुसतक क े रूप में सवदीकार "
+    },
+    {
+     "file": "lhfa102",
+     "pages": 25,
+     "head": "राजस्ानी चित्रकला शैली 2 रा जस्ानी चित्रकला शैली का तात्पर्य चित्रकला की उस शैली से है जो मुखर रू्प से राजस्ान एवं वत्यमान समर क े मधर प्रदेश क े कु छ शाही राज्रों एवं चिकानों में फ ै ली ्ीं, जैसे— मे"
+    },
+    {
+     "file": "lhfa103",
+     "pages": 20,
+     "head": "मुगलकालीन लघु चित्रकला 3 मुगल चित्रकला, लघु चित्रकला शैली है, जो सोलहवीं शताब् ी और उन्‍ीसवींशताब्ी क े मध्य तक भारती ्य उपमहाद् ीप में चवकचसत ह ुई। ्यह चित्रकला पररषककृ त तक ्‍ीक और चवष्यवसतु की चवचव"
+    },
+    {
+     "file": "lhfa104",
+     "pages": 12,
+     "head": "दक्कनी चित्र्कला शैली 4 द क्कनी चित्र ्कला ्के इचिहास ्को सोलहवीं श िाबदी ्के अंि से सत्रहवीं शिाबदी ्के अंि ि्क देखा जा स्किा है— जब मुगलों ने दक्कन पर अाचिपत्य स्‍ाचपि च्क्या। इस शैली ्का प्रभाव उनन"
+    },
+    {
+     "file": "lhfa105",
+     "pages": 18,
+     "head": "पहाड़ी चित्रकला शैली 5 प र्वतीय क्षेत्र में िरकिित िचत्रकला काषे पहाडी िचत्रकला शैली कषे नाम िषे जाना जाता है। ित्रहरीं िषे उननीिरीं शताब्‍ी कषे मधय बिोहली, ग ुलषेर, काँगडा, कु लललू, चंबा, मनकोट, न लूर"
+    },
+    {
+     "file": "lhfa106",
+     "pages": 14,
+     "head": "क ं पनी िचत्रकला अंग्रेज़ों करे आनरे सरे पूर्व भ ारत में कला का िन मा्वण िरिभनन उद्रेश्‍यों सरे िक‍या जाता था। कभ ी इसरे मंििर की िीरारों पर प्रितमाओं करे रूप में िरेखा ग‍या तो कभी झोपिि ‍यों की िीरार"
+    },
+    {
+     "file": "lhfa107",
+     "pages": 28,
+     "head": "भारतीय कला में आधुनिकता का पररचय अंग्रेज़ारें करे द़्ाऱा लललत कल़ा को य ूरोपीय रूप में दरेख़ा गय़ा। उन्होंनरे अनुभव लकय़ा लक भ ़ारतीयों करे प ़ास लल लत कल ़ाओं करे स ृजन और आस व़ादन करे ललए प्रलिक्षण"
+    },
+    {
+     "file": "lhfa108",
+     "pages": 26,
+     "head": "भा रत में वि वभन्‍न पारंपररक कलाएँ ह ैं जो गाँ ि-शहर, रेवगसता‍न, पहाड़ तक फ ै ली हैं। ये कलाएँ आज भी ज‍नमा‍नस द्ारा अप‍नाई जा रही ह ैं। अब तक, हम‍ने कला का अध यय‍न समय क े सापेक्ष वकया है। कला अिवि का"
+    }
+   ],
+   "extras": {
+    "ps": 3675823,
+    "dd": 48161432
+   }
+  },
+  "lhgy1": {
+   "front": "ekuo Hkwxksy ds ewy fl)kar d{kk 12 Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhgy101",
+     "pages": 6,
+     "head": "bdkbZ&1 bdkbZ&1bdkbZ&1 bdkbZ&1bdkbZ&1 vè;k;&1 vè;k;&1vè;k;&1 vè;k;&1vè;k;&1 ekuo Hkwxksy ekuo Hkwxksyekuo Hkwxksy ekuo Hkwxksyekuo Hkwxksy izo`Qfr ,oa fo\"k; {ks=k vki ^Hkwxksy ,d fo\"k; osQ :i esa* ^Hk"
+    },
+    {
+     "file": "lhgy102",
+     "pages": 6,
+     "head": "fdlh ns'k osQ fuoklh gh mlosQ okLrfod /u gksrs gSaA ;gh yksx okLrfod lalk/u gSa tks ns'k osQ vU; lalk/uksa dk mi;ksx djrs gSa vkSj mldh uhfr;¡k fu/kZfjr djrs gSaA varr% ,d ns'k dh igpku mlosQ yksxksa "
+    },
+    {
+     "file": "lhgy103",
+     "pages": 8,
+     "head": "ekuo fodkl 13 1313 1313 ^o`f¼* vkSj ^fodkl* 'kCn vkiosQ fy, u, ugha gSaA vius pkjksa vksj nsf[k,] yxHkx izR;sd oLrq ftls vki ns[k ldrs gSa (vkSj cgqr lh ftUgsa vki ugha ns[k ldrs) c<+rh vkSj fodflr gk"
+    },
+    {
+     "file": "lhgy104",
+     "pages": 14,
+     "head": "izkFkfed fØ;k,¡izkFkfed fØ;k,¡izkFkfed fØ;k,¡izkFkfed fØ;k,¡izkFkfed fØ;k,¡ 21 izkFkfed fØ;k,¡izkFkfed fØ;k,¡izkFkfed fØ;k,¡izkFkfed fØ;k,¡izkFkfed fØ;k,¡ bdkbZ&3 bdkbZ&3bdkbZ&3 bdkbZ&3bdkbZ&3 vè;k;&4"
+    },
+    {
+     "file": "lhgy105",
+     "pages": 9,
+     "head": "f}rh;d fozQ;k,¡f}rh;d fozQ;k,¡f}rh;d fozQ;k,¡f}rh;d fozQ;k,¡f}rh;d fozQ;k,¡ 35 f}rh;d fØ;k,¡f}rh;d fØ;k,¡f}rh;d fØ;k,¡f}rh;d fØ;k,¡f}rh;d fØ;k,¡ laiw.kZ vkfFkZd fØ;k,¡ pkgs oks izkFkfed] f}rh;d] r`rh;"
+    },
+    {
+     "file": "lhgy106",
+     "pages": 9,
+     "head": "ekuo Hkwxksy osQ ewy fl¼karekuo Hkwxksy osQ ewy fl¼karekuo Hkwxksy osQ ewy fl¼karekuo Hkwxksy osQ ewy fl¼karekuo Hkwxksy osQ ewy fl¼kar44 r`rh;d vkSj prqFkZr`rh;d vkSj prqFkZr`rh;d vkSj prqFkZr`rh;d v"
+    },
+    {
+     "file": "lhgy107",
+     "pages": 17,
+     "head": "ifjogu ,oa lapkjifjogu ,oa lapkjifjogu ,oa lapkjifjogu ,oa lapkjifjogu ,oa lapkj 53 izko`Qfrd lalk/uksa] vkfFkZd fØ;kdykiksa vkSj ck”kkj dk fdlh ,d gh LFkku ij ik;k tkuk nqyZHk gksrk gSA ifjogu] lapkj"
+    },
+    {
+     "file": "lhgy108",
+     "pages": 8,
+     "head": "ekuo Hkwxksy osQ ewy fl¼karekuo Hkwxksy osQ ewy fl¼karekuo Hkwxksy osQ ewy fl¼karekuo Hkwxksy osQ ewy fl¼karekuo Hkwxksy osQ ewy fl¼kar70 vki ,d ^r`rh;d fØ;kdyki* osQ :i esa ^O;kikj* 'kCn ls igys gh i"
+    }
+   ],
+   "extras": {
+    "a1": 228877,
+    "gl": 756112,
+    "ps": 1774709,
+    "dd": 15770490
+   }
+  },
+  "lhgy2": {
+   "front": "Hkkjr HkkjrHkkjrHkkjrHkkjr yksx vkSj vFkZO;oLFkkyksx vkSj vFkZO;oLFkkyksx vkSj vFkZO;oLFkkyksx vkSj vFkZO;oLFkkyksx vkSj vFkZO;oLFkk d{kk 12 osQ fy, Hkwxksy dh ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhgy201",
+     "pages": 14,
+     "head": "yksx fdlh ns'k osQ vR; ar egÙoiw.kZ ?kVd gksrs gSaA Hkkjr viuh 1 21-0 djksM+ (20 11) tula[;k osQ lkFk phu osQ ckn fo'o esa nwljk l?kure clk gqvk ns'k gSA Hkkjr dh tula[;k mÙkj vesfjdk] nf{k.k vesfjdk "
+    },
+    {
+     "file": "lhgy202",
+     "pages": 6,
+     "head": "ekuo cLrh dk vFkZ gS fdlh Hkh izdkj vkSj vkdkj osQ ?kjksa dk laoqQy ftuesa euq\"; jgrs gSaA bl mís'; osQ fy, yksx edkuksa vkSj vU; bekjrksa dk fuekZ.k djrs gSa vkSj vius vkfFkZd iks\"k.k&vkèkkj osQ fy, "
+    },
+    {
+     "file": "lhgy203",
+     "pages": 20,
+     "head": "vkius vius pkjksa vksj Hkwfe osQ dbZ mi;ksx ns[ks gksaxsA i`Foh osQ oqQN Hkkx ij ufn;k¡ gSa] oqQN ij o`{k gSa rFkk oqQN ij lM+osaQ o bekjrsa fufeZr gSaA fofHkUu izdkj dh Hkwfe fofHkUu dk;ks± gsrq mi;k"
+    },
+    {
+     "file": "lhgy204",
+     "pages": 12,
+     "head": "D;k vki lksprs gSa fd tks oqQN orZeku esa gS] ,slk gh jgsxk ;k Hkfo\"; oqQN i{kksa esa vyx gksus tk jgk gS\\ oqQN fuf'prrk osQ lkFk ;g dgk tk ldrk gS fd lekt tukafddh; ifjorZu] tula[;k dk HkkSxksfyd LFk"
+    },
+    {
+     "file": "lhgy205",
+     "pages": 12,
+     "head": "Hkkjr] viuh fofoèkrkiw.kZ HkwxfHkZd lajpuk osQ dkj.k fofoèk izdkj osQ [kfut lalkèkuksa ls laiUu gSA Hkkjh ek=kk esa cgqewY; [kfut iwoZ&iqjkthoh dky ;k izhiSykbtksbd ,st esa mn~Hkhr gSaA (lanHkZµvè;k;&"
+    },
+    {
+     "file": "lhgy206",
+     "pages": 9,
+     "head": "iqufuZekZ.k dk dk;Z fd;k tkrk FkkA lkekU;r% fu;kstu osQ nks mixeu gksrs gSa% [kaMh; (Sectoral) fu;kstu vkSj izknsf'kd fu;kstuA [kaMh; fu;kstu dk vFkZ gSµ vFkZO;oLFkk osQ fofHkUu lsDVjksa] tSlsµ Ñf\"k] "
+    },
+    {
+     "file": "lhgy207",
+     "pages": 10,
+     "head": "ge vius nSfud thou esa vusd oLrqvksa dk mi;ksx djrs gSaA nareatu ;k VwFkisLV ls ysdj lqcg dh pk;] nwèk] diM+s] lkcqu rFkk [kk| inkFkZ vkfn dh gesa izfrfnu vko';drk iM+rh gSA bu lHkh dks ck”kkj ls [kjh"
+    },
+    {
+     "file": "lhgy208",
+     "pages": 9,
+     "head": "84 8484 8484 Hkkjr % yksx vkSj vFkZO;oLFkk vki varjkZ\"Vªh; O;kikj osQ fofHkUu igyqvksa osQ ckjs esa igys gh ^ekuo Hkwxksy osQ ewy fl¼kar* uked iqLRkd esa i<+ pqosQ gSaA varjkZ\"Vªh; O;kikj lHkh ns'kksa"
+    },
+    {
+     "file": "lhgy209",
+     "pages": 11,
+     "head": "i;kZoj.k iznw\"k.k i;kZoj.k iznw\"k.k ekuoh; fØ;kdykiksa osQ vif'k\"V mRiknksa ls eqDr nzO; ,oa ÅtkZ dk ifj.kke gSA iznw\"k.k osQ vusd izdkj gSaA iznw\"kdksa osQ ifjofgr ,oa folfjr gksus osQ ekè;e osQ vkèk"
+    }
+   ],
+   "extras": {
+    "a1": 980185,
+    "ps": 1420927,
+    "dd": 15288967
+   }
+  },
+  "lhgy3": {
+   "front": "Hkwxksy esa ç;ksxkRed dk;Z Hkkx 2 d{kk 12 osQ fy, ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhgy301",
+     "pages": 12,
+     "head": "1 vkadM+s % Ïksr vkSj ladyu vki vkadM+ksa osQ fofHkUu izdkj ns[k vkSj mi;ksx dj pqosQ gSaA mnkgj.k osQ fy,] nwjn'kZu ij izR;sd lekpkj cqysfVu osQ var esa] eq[; 'kgjksa osQ vfHkfyf[kr rkieku iznf'kZr f"
+    },
+    {
+     "file": "lhgy302",
+     "pages": 10,
+     "head": "vkadM+ksa dk izØe.k 2 vki fiNys vè;k; esa i<+ pqosQ gSa fd vkadM+ksa dk laxBu rFkk izLrqrhdj.k mUgsa cks/xE; cukrk gSA blls vkadM+ksa dk izØe.k ljy gks tkrk gSaA vkadM+ksa osQ fo'ys\"k.k osQ fy, vusd f"
+    },
+    {
+     "file": "lhgy303",
+     "pages": 23,
+     "head": "vki vkadM+ksa osQ fofHkUu izdkjksa dks n'kkZus okys vkys[k] vkjs[k vkSj ekufp=k ns[k pqds gSaA mnkgj.k osQ fy,] X;kjgoha d{kk dh iqLrd] Hkwxksy esa iz;ksxkRed dk;Z] Hkkx&I (,u- lh- bZ- vkj- Vh-] 2006)"
+    },
+    {
+     "file": "lhgy304",
+     "pages": 19,
+     "head": "Hkwxksy esa iz;ksxkRed dk;Z] Hkkx&2 46 vki tkurs gSa fd oaQI;wVj vkadMs+ osQ izØe.k vkSj vkys[k] vkjs[k rFkk ekufp=kksa osQ vkys[ku esa gekjh lkeF;Z esa o`f¼ dj nsrs gSaA og fo|k'kk[kk tks vkadM+ksa o"
+    }
+   ],
+   "extras": {
+    "ps": 2310242,
+    "dd": 9997788
+   }
+  },
+  "lhhs1": {
+   "front": "d{kk 12 osQ fy, bfrgkl dh ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhhs101",
+     "pages": 27,
+     "head": "b±Vsa] euosQ rFkk vfLFk;k¡ gM+Iik lH;rk gM+IikbZ eqgj (fp=k 1.1) laHkor% gM+Iik vFkok ¯lèkq ?kkVh lH;rk dh lcls fof'k\"V iqjkoLrq gSA lsy[kM+h uked iRFkj ls cukbZ xbZ bu eqgjksa ij lkekU; :i ls tkuojks"
+    },
+    {
+     "file": "lhhs102",
+     "pages": 25,
+     "head": "Hkkjrh; bfrgkl osQ oqQN fo\"k;28 T HEME T WO gM+Iik lH;rk osQ ckn Ms<+ g”kkj o\"kks± osQ yacs varjky esa miegk}hi osQ fofHkUu Hkkxksa esa dbZ izdkj osQ fodkl gq,A ;gh og dky Fkk tc ¯lèkq unh vkSj bldh m"
+    },
+    {
+     "file": "lhhs103",
+     "pages": 29,
+     "head": "53 fiNys vè;k; esa geus i<+k fd yxHkx 600 bZ-iw- ls 600 bZloh rd osQ eè; vk£Fkd vkSj jktuhfrd thou esa vusd ifjorZu gq,A buesa ls oqQN ifjorZuksa us ledkyhu lekt ij viuk izHkko NksM+kA mnkgj.kr% ou {k"
+    },
+    {
+     "file": "lhhs104",
+     "pages": 33,
+     "head": "Hkkjrh; bfrgkl osQ oqQN fo\"k;82 bl vè;k; esa ge ,d g”kkj lky yach ;k=kk ij tk,¡xsA blesa ge nk'kZfudksa osQ ckjs esa i<+saxs vkSj ;g tkuus dh dksf'k'k djsaxs fd mUgksaus lekt esa viuh fLFkfr dks le>us"
+    }
+   ],
+   "extras": {
+    "ps": 4361830,
+    "dd": 26081004
+   }
+  },
+  "lhhs2": {
+   "front": "i d{kk 12 osQ fy, bfrgkl dh ikB~;iqLrd Hkkjrh; bfrgkl osQ oqQN fo\"k; Hkkx 2 Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhhs201",
+     "pages": 25,
+     "head": "efgykvksa vkSj iq#\"kksa us dk;Z dh ryk'k esa] izko`Qfrd vkinkvksa ls cpko osQ fy, O;kikfj;ksa] lSfudksa] iqjksfgrksa vkSj rhFkZ;kf=k;ksa osQ :i esa ;k fiQj lkgl dh Hkkouk ls izsfjr gksdj ;k=kk,¡ dh gS"
+    },
+    {
+     "file": "lhhs202",
+     "pages": 30,
+     "head": "140 Hkkjrh; bfrgkl osQ oqQN fo\"k; vè;k; pkj esa geus i<+k fd izFke lgÏkCnh osQ eè; rd vkrs&vkrs Hkkjrh; miegk}hi dk ifjos'k èkkfeZd bekjrksa µ Lrwi] fogkj vkSj eafnjksa esa fpfÉr gks x;kA ;fn ;g bekjr"
+    },
+    {
+     "file": "lhhs203",
+     "pages": 26,
+     "head": "170 Hkkjrh; bfrgkl osQ oqQN fo\"k; fot;uxj vFkok ¶fot; dk 'kgj¸ ,d 'kgj vkSj ,d lkezkT;] nksuksa osQ fy, iz;qDr uke FkkA bl lkezkT; dh LFkkiuk pkSngoha 'krkCnh esa dh xbZ FkhA vius pjeksRd\"kZ ij ;g mÙk"
+    },
+    {
+     "file": "lhhs204",
+     "pages": 29,
+     "head": "196 Hkkjrh; bfrgkl osQ oqQN fo\"k; lksygoha&l=kgoha lnh osQ nkSjku ¯gnqLrku esa djhc&djhc 85 I+kQhlnh yksx xk¡oksa esa jgrs FksA NksVs [ksfrgj vkSj Hkwfegj laHkzkar nksuksa gh o`Qf\"k mRiknu ls tqMs+ Fk"
+    }
+   ],
+   "extras": {
+    "ps": 6536951,
+    "dd": 22827601
+   }
+  },
+  "lhhs3": {
+   "front": "d{kk d{kkd{kk d{kkd{kk 12 osQ fy, osQ fy,osQ fy, osQ fy,osQ fy, bfrgkl dh ikB~;iqLrdbfrgkl dh ikB~;iqLrdbfrgkl dh ikB~;iqLrdbfrgkl dh ikB~;iqLrdbfrgkl dh ikB~;iqLrd Hkkjrh; bfrgkl Hkkjrh; bfrgklHkkjrh",
+   "chapters": [
+    {
+     "file": "lhhs301",
+     "pages": 31,
+     "head": "227mifuos'kokn vkSj nsgkrmifuos'kokn vkSj nsgkrmifuos'kokn vkSj nsgkrmifuos'kokn vkSj nsgkrmifuos'kokn vkSj nsgkr bl vè;k; eas vki ;g ns[ksaxs fd vkSifuosf'kd 'kklu dk vFkZ mu yksxksa osQ fy, D;k Fkk "
+    },
+    {
+     "file": "lhhs302",
+     "pages": 28,
+     "head": "258 Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k; 10 ebZ 1857 dh nksigj ckn esjB Nkouh esa flikfg;ks"
+    },
+    {
+     "file": "lhhs303",
+     "pages": 30,
+     "head": "286 Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k; fp=k 11-1 ekpZ 1930 esa ued ;k=kk 'kq: djus ls iwo"
+    },
+    {
+     "file": "lhhs304",
+     "pages": 29,
+     "head": "316 Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k;Hkkjrh; bfrgkl osQ oqQN fo\"k; Hkkjrh; lafoèkku 26 tuojh 1950 dks vfLrRo esa vk;k"
+    }
+   ],
+   "extras": {
+    "ps": 2428154,
+    "dd": 17286461
+   }
+  },
+  "lhmh1": {
+   "front": "xf.kr Hkkx & I d{kk 12 osQ fy, ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhmh101",
+     "pages": 19,
+     "head": "/xrhombusThere is no permanent place in the world for ugly mathematics ... . It may be very hard to define mathematical beauty but that is just as true of beauty of any kind, we may not know quite wha"
+    },
+    {
+     "file": "lhmh102",
+     "pages": 17,
+     "head": "20 xf.kr /xrhombusMathematics, in general, is fundamentally the science of self-evident things— FELIX KLEIN /xrhombus 2.1 Hkwfedk (Introduction) vè;k; 1 esa] ge i<+ pqosQ gSa fd fdlh iQyu f dk izrhd f"
+    },
+    {
+     "file": "lhmh103",
+     "pages": 42,
+     "head": "/xrhombusThe essence of mathematics lies in its freedom — CANTOR /xrhombus 3.1 Hkwfedk (Introduction) xf.kr dh fofo/ 'kk[kkvksa esa vkO;wg osQ Kku dh vko';drk iM+rh gSA vkO;wg] xf.kr osQ lokZf/d 'kfDr"
+    },
+    {
+     "file": "lhmh104",
+     "pages": 31,
+     "head": "/xrhombusAll Mathematical truths are relative and conditional — C.P. STEINMETZ /xrhombus 4.1 Hkwfedk (Introduction) fiNys vè;k; esa] geus vkO;wg vkSj vkO;wgksa osQ chtxf.kr osQ fo\"k; esa vè;;u fd;k gS"
+    },
+    {
+     "file": "lhmh105",
+     "pages": 46,
+     "head": "110 xf.kr /xrhombusThe whole of science is nothing more than a refinement of everyday thinking. ” — ALBERT EINSTEIN /xrhombus 5.1 Hkwfedk (Introduction) ;g vè;k; vfuok;Zr% d{kk 11 esa i<+s x, iQyuksa "
+    },
+    {
+     "file": "lhmh106",
+     "pages": 41,
+     "head": "156 xf.kr /xrhombusWith the Calculus as a key , Mathematics can be successfully applied to the explanation of the course of Nature — WHITEHEAD /xrhombus 6.1 Hkwfedk (Introduction) vè;k; 5 esa geus la;"
+    }
+   ],
+   "extras": {
+    "an": 1809491,
+    "a1": 1247155,
+    "a2": 1542491,
+    "ps": 1766499,
+    "dd": 22241082
+   }
+  },
+  "lhmh2": {
+   "front": "xf.kr d{kk 12 osQ fy, ikB~;iqLrd Hkkx & II Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhmh201",
+     "pages": 68,
+     "head": "/xrhombus Just as a mountaineer climbs a mountain – because it is there, so a good mathematics student studies new material because it is there. – JAMES B. BRISTOL /xrhombus 7.1 Hkwfedk (Introduction)"
+    },
+    {
+     "file": "lhmh202",
+     "pages": 8,
+     "head": "/xrhombus One should study Mathematics because it is only through Mathematics that nature can be conceived in harmonious form. – BIRKHOFF /xrhombus 8.1 Hkwfedk (Introduction) T;kfefr esa] ge us f=kHkq"
+    },
+    {
+     "file": "lhmh203",
+     "pages": 38,
+     "head": "/xrhombus He who seeks for methods without having a definite problem in mind seeks for the most part in vain – D. HILBERT /xrhombus 9.1 Hkwfedk (Introduction) d{kk XI ,oa bl iqLrd osQ vè;k; 5 esa geus"
+    },
+    {
+     "file": "lhmh204",
+     "pages": 37,
+     "head": "/xrhombus In most sciences one generation tears down what another has built and what one has established another undoes. In Mathematics alone each generation builds a new story to the old structure. –"
+    },
+    {
+     "file": "lhmh205",
+     "pages": 17,
+     "head": "386 xf.kr /xrhombusThe moving power of mathematical invention is not reasoning but imagination. – A.DEMORGAN /xrhombus 11.1 Hkwfedk (Introduction) d{kk XI esa] oS'ysf\"kd T;kfefr dk vè;;u djrs le; f}&f"
+    },
+    {
+     "file": "lhmh206",
+     "pages": 12,
+     "head": "/xrhombus The mathematical experience of the student is incomplete if he never had the opportunity to solve a problem invented by himself. — G POLYA /xrhombus 12.1 Hkwfedk (Introduction) fiNyh d{kkvks"
+    },
+    {
+     "file": "lhmh207",
+     "pages": 34,
+     "head": "/xrhombus The Theory of probabilities is simply the science of logic quantitatively treated – C.S. PEIRC E /xrhombus 13.1 Hkwfedk (Introduction) igys dh d{kkvksa esa geus izkf;drk dks fdlh ;kn`fPNd ij"
+    }
+   ],
+   "extras": {
+    "an": 1963977,
+    "ps": 1886758,
+    "dd": 20565529
+   }
+  },
+  "lhph1": {
+   "front": "HkkSfrdh Hkkx 1 d{kk 12 osQ fy, ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhph101",
+     "pages": 43,
+     "head": "1.1 Hkwfedk ge lHkh dks] fo'ks\"kdj 'kq\"d ekSle esa] LosVj vFkok laf'y\"V oL=kksa dks 'kjhj ls mrkjrs le; pV&pV dh èofu lquus vFkok fpuxkfj;k¡ ns[kus dk vuqHko gksxkA D;k vkius dHkh bl ifj?kVuk dk Li\"Vh"
+    },
+    {
+     "file": "lhph102",
+     "pages": 35,
+     "head": "44 HkkSfrdh 2.1 Hkwfedk vè;k; 5 rFkk 7 (d{kk 11) esa fLFkfrt ÅtkZ dh èkkj.kk ls vkidks ifjfpr djk;k x;k FkkA tc dksbZ cká cy fdlh oLrq dks ,d ¯cnq ls nwljs ¯cnq rd] fdlh vU; cy_ tSlsµfLaçx cy] xq#Roh;"
+    },
+    {
+     "file": "lhph103",
+     "pages": 26,
+     "head": "3.1 Hkwfedk vè;k; 1 esa lHkh vkos'kksa dks pkgs os Lora=k gksa vFkok ifjc¼] fojkekoLFkk esa ekuk x;k FkkA xfreku vkos'k fo|qr /kjk dk fuekZ.k djrs gSaA ,slh gh /kjk izo`Qfr esa cgqr&lh fLFkfr;ksa esa "
+    },
+    {
+     "file": "lhph104",
+     "pages": 30,
+     "head": "4.1 Hkwfedk 2000 o\"kZ ls Hkh igys fo|qr rFkk pqacdRo nksuksa gh osQ ckjs esa yksxksa dks Kku FkkA fiQj Hkh yxHkx 200 o\"kZ iwoZ] 1820 esa ;g Li\"V vuqHko fd;k x;k fd bu nksuksa esa vVwV laca/ gSA 1820 d"
+    },
+    {
+     "file": "lhph105",
+     "pages": 17,
+     "head": "5.1 Hkwfedk pqacdh; ifj?kVuk çÑfr esa lkoZHkkSfed gSA fo'kky nwjLFk xSysfDl;k¡] vfrlw{e vn`'; ijek.kq] euq\"; vkSj tkuoj] lcesa Hkk¡fr&Hkk¡fr osQ Ïksrksa ls mRiUu Hkk¡fr&Hkk¡fr osQ pqacdh; {ks=k O;kIr "
+    },
+    {
+     "file": "lhph106",
+     "pages": 22,
+     "head": "152 HkkSfrdh 6.1 Hkwfedk fo|qr rFkk paqcdRo dkiQh yacs le; rd vyx&vyx rFkk vlac¼ ifj?kVuk,¡ ekuh tkrh jgh gSaA mUuhloha 'krkCnh osQ izkjafHkd n'kdksa esa vkWLVsZM] ,sfEi;j rFkk oqQN vU; oSKkfudksa }kj"
+    },
+    {
+     "file": "lhph107",
+     "pages": 24,
+     "head": "174 HkkSfrdh 7.1 Hkwfedk vc rd geus fn\"V/kjk (dc) lzksrksa ,oa fn\"V/kjk lzksrksa ls ;qDr ifjiFkksa ij fopkj fd;k gSA le; osQ lkFk bu /kjkvksa dh fn'kk esa ifjorZu ugha gksrkA rFkkfi] le; osQ lkFk ifjo"
+    },
+    {
+     "file": "lhph108",
+     "pages": 14,
+     "head": "vè;k; 8 oS|qrpqacdh; rjaxsa 8.1 Hkwfedk vè;k; 4 esa geus lh[kk gS fd fo|qr èkkjk paqcdh; {ks=k mRiUu djrh gS rFkk nks èkkjkokgh rkj ijLij ,d&nwljs ij paqcdh; cy vkjksfir djrs gSaA blosQ vfrfjDr] vè;k;"
+    }
+   ],
+   "extras": {
+    "an": 744110,
+    "ps": 1854883,
+    "dd": 20455669
+   }
+  },
+  "lhph2": {
+   "front": "i HkkSfrdh Hkkx 2 d{kk 12 osQ fy, ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhph201",
+     "pages": 34,
+     "head": "vè;k; 9 fdj.k izdkf'kdh ,oa izdkf'kd ;a=k 9.1 Hkwfedk izÑfr us ekuo us=k (n`f\"V iVy) dks oS|qrpqacdh; LisDVªe osQ ,d NksVs ifjlj esa oS|qr pqacdh; rjaxksa dks lqxzkfgrk lfgr lalwfpr dj ldus ;ksX; cuk;"
+    },
+    {
+     "file": "lhph202",
+     "pages": 19,
+     "head": "10.1 Hkwfedk lu~~ 1637 esa ndkrsZ us izdk'k osQ df.kdk ekWMy dks izLrqr fd;k rFkk Lusy osQ fu;e dks O;qRiUu fd;kA bl ekWMy ls fdlh varjki`\"B ij izdk'k osQ ijkorZu rFkk viorZu osQ fu;eksa dh O;k[;k dh "
+    },
+    {
+     "file": "lhph203",
+     "pages": 16,
+     "head": "274 HkkSfrdh 11.1 Hkwfedk lu~ 1887 esa oS|qrpqacdh; fdj.kksa dh mRifÙk ,oa lalwpuk ij fo|qr pqacdRo osQ eSDlosy lehdj.k rFkk gVZ~”k osQ iz;ksxksa us izdk'k dh rjaxh; izo`Qfr dks vHkwriwoZ :i ls LFkkfi"
+    },
+    {
+     "file": "lhph204",
+     "pages": 16,
+     "head": "290 HkkSfrdh 12.1 Hkwfedk mUuhloha 'krkCnh rd inkFkZ dh ijek.oh; ifjdYiuk osQ leFkZu esa dkI+kQh lk{; ,df=kr gks x, FksA lu~ 1897 esa fczfV'k HkkSfrdfoKkuh tkslsiQ ts- VkWelu (1856 – 1940) us xSlksa d"
+    },
+    {
+     "file": "lhph205",
+     "pages": 17,
+     "head": "306 HkkSfrdh 13.1 Hkwfedk fiNys vè;k; esa geus i<+k gS fd izR;sd ijek.kq dk /ukos'k ?kuhHkwr gksdj blosQ osaQæ esa laosaQfær gks tkrk gS vkSj ijek.kq dk ukfHkd cukrk gSA ukfHkd dk oqQy lkb”k ijek.kq o"
+    },
+    {
+     "file": "lhph206",
+     "pages": 20,
+     "head": "14.1 Hkwfedk ,slh ;qfDr;k¡ ftuesa bysDVªkWuksa dk fu;af=kr izokg izkIr fd;k tk losQ] lHkh bysDVªkWfud ifjiFkksa dh ewyHkwr jpuk [kaM gksrh gSaA lu~ 1948 esa VªkaftLVj dh [kkst ls igys ,slh ;qfDr;k¡ vf"
+    }
+   ],
+   "extras": {
+    "an": 1697962,
+    "ps": 1706087,
+    "dd": 15525618
+   }
+  },
+  "lhps1": {
+   "front": "ledkyhu fo'o jktuhfr d{kk 12 osQ fy, jktuhfr foKku dh ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhps101",
+     "pages": 14,
+     "head": "ifjp; 'khr;q¼ osQ lcls ljX+keZ nkSj esa cfyZu&nhokj [kM+h dh xbZ Fkh vkSj ;g nhokj 'khr;q¼ dk lcls cM+k çrhd FkhA 1989 esa iwohZ teZuh dh vke turk us bl nhokj dks fxjk fn;kA bl ukVdh; ?kVuk osQ ckn vk"
+    },
+    {
+     "file": "lhps102",
+     "pages": 14,
+     "head": "ifjp; 1990 osQ n'kd osQ 'qk: esa fo'o jktuhfr esa nks&/qzoh; O;oLFkk osQ VwVus osQ ckn ;g Li\"V gks x;k fd jktuSfrd vkSj vkfFkZd lÙkk osQ oSdfYid osaQæ oqQN gn rd vejhdk osQ çHkqRo dks lhfer djsaxsA ;w"
+    },
+    {
+     "file": "lhps103",
+     "pages": 16,
+     "head": "ifjp; vkb,] vc ge 'khr ;q¼ osQ nkSj esa fo'o osQ ,d cM+s I+kQyd ij gq, cnykoksa ls u”kj gVk dj viuk è;ku vius {ks=k ;kuh nf{k.k ,f'k;k dh vksj eksM+saA chloha lnh osQ vkf[+kjh lkyksa esa tc Hkkjr vkSj"
+    },
+    {
+     "file": "lhps104",
+     "pages": 18,
+     "head": "ifjp; bl vè;k; esa ge lksfo;r la?k osQ fc[kjus osQ ckn varjkZ\"Vªh; laxBuksa dh Hkwfedk osQ ckjs esa i<+saxsA ge ns[ksaxs fd ,d mHkjrs gq, fo'o esa u;h pqukSfr;ksa dk lkeuk djus osQ fy, varjkZ\"Vªh; lax"
+    },
+    {
+     "file": "lhps105",
+     "pages": 18,
+     "head": "ifjp; fo'o&jktuhfr osQ ckjs esa i<+rs gq, vDlj gekjk lkeuk ^lqj{kk* vFkok ^jk\"Vªh; lqj{kk* tSls 'kCn ls gksrk gSA ge lksprs gSa fd bu 'kCnksa osQ vFkZ gesa ekywe gSA ysfdu] D;k lpeqp gesa bu 'kCnksa o"
+    },
+    {
+     "file": "lhps106",
+     "pages": 18,
+     "head": "ifjp; bl vè;k; esa fo'o&jktuhfr esa i;kZoj.k vkSj lalk/uksa osQ c<+rs egÙo dh ppkZ dh xbZ gSA 1960 osQ n'kd ls i;kZoj.k osQ elys us tksj idM+kA blh i`\"BHkwfe dks è;ku esa j[kdj bl vè;k; esa oqQN egÙoi"
+    },
+    {
+     "file": "lhps107",
+     "pages": 16,
+     "head": "ifjp; iqLrd osQ bl vafre vè;k; esa ge oS'ohdj.k ij ckr djsaxsA oS'ohdj.k dh ppkZ bl iqLrd osQ dbZ vè;k;ksa esa vkSj dbZ fo\"k;ksa dh iqLrd esa dh xbZ gSA ge 'kq#vkr oS'ohdj.k dh vo/kj.kk osQ fo'ys\"k.k "
+    },
+    {
+     "file": "lhps108",
+     "pages": 20,
+     "head": "Social Movements8 Chapter 8.indd 109 14 September 2022 12:05:16 Reprint 2026-27"
+    }
+   ],
+   "extras": {
+    "gl": 783902,
+    "ps": 1003643,
+    "dd": 14746599
+   }
+  },
+  "lhps2": {
+   "front": "Lora=k Hkkjr esa jktuhfr d{kk 12 osQ fy, jktuhfr foKku dh ikB~;iqLrd Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhps201",
+     "pages": 24,
+     "head": "bl vè;k; esa--- vk”kkn ¯gnqLrku osQ 'kq#vkrh oqQN lky pqukSfr;ksa ls Hkjs FksA lcls cM+h pqukSrh jk\"Vªh; ,drk vkSj v[kaMrk dh FkhA vk”kkn ¯gnqLrku jktuhfr osQ bfrgkl dh bl ppkZ dh 'kq#vkr ge bUgha pqu"
+    },
+    {
+     "file": "lhps202",
+     "pages": 18,
+     "head": "lkHkkj% 'kadj bl vè;k; esa--- fiNys vè;k; esa geus jk\"Vª&fuekZ.k dh pqukSrh osQ ckjs esa ppkZ dh FkhA jk\"Vª&fuekZ.k dh pqukSrh osQ rqjar ckn gekjs lkeus ,d vkSj pqukSrh yksdrkaf=kd jktuhfr dh ”kehu rS"
+    },
+    {
+     "file": "lhps203",
+     "pages": 10,
+     "head": "bl vè;k; esa--- fiNys nks vè;k;ksa esa geus i<+k fd Lora=k Hkkjr osQ usrkvksa us oSQls jk\"Vª&fuekZ.k vkSj yksdra=k dk;e djus dh pqukSfr;ksa dk lkeuk fd;kA vkb,] vc rhljh pqukSrh dh vksj jQ[k djsaA ;g "
+    },
+    {
+     "file": "lhps204",
+     "pages": 18,
+     "head": "bl vè;k; esa--- vc rd geus bl fdrkc esa ns'k esa gq, cnyko vkSj ?kjsyw pqukSfr;ksa ij viuh utj Mkyh gSA bl vè;k; essa ge ckgjh pqukSfr;ksa ds ckjs esa i<+saxsA bl ekspsZa ij Hkh vius ns'k osQ usrkvksa"
+    },
+    {
+     "file": "lhps205",
+     "pages": 20,
+     "head": "bl vè;k; esa--- bl fdrkc osQ nwljs vè;k; esa vkius dkaxzsl iz.kkyh osQ mn~Hko osQ ckjs esa i<+k FkkA bl iz.kkyh dks 1960 osQ n'kd esa igyh ckj pqukSrh feyhA jktuhfrd izfrLièkkZ xgu gks pyh Fkh vkSj ,s"
+    },
+    {
+     "file": "lhps206",
+     "pages": 20,
+     "head": "bl vè;k; esa--- ge ns[k pqosQ gSa fd 1971 osQ ckn dkaxzsl dks uothou feyk ysfdu bl ikVhZ esa vc igys okyh ckr ugha jghA dkaxszl ikVhZ vc cny pqdh FkhA 1973 ls 1975 osQ chp ?kVh ?kVukvksa ls ;g varj vk"
+    },
+    {
+     "file": "lhps207",
+     "pages": 24,
+     "head": "bl vè;k; esa--- vk”kknh osQ ckn osQ igys n'kd esa jk\"Vª&fuekZ.k dh izfØ;k pyhA geus blosQ ckjs esa bl fdrkc osQ igys vè;k; esa i<+k FkkA ysfdu jk\"Vª&fuekZ.k dh izfØ;k ,d gh ckj esa iwjh ugha gks tkrhA"
+    },
+    {
+     "file": "lhps208",
+     "pages": 23,
+     "head": "bl vè;k; esa--- bl vè;k; esa ge fiNys nks n'kdksa dh Hkkjrh; jktuhfr dk ,d laf{kIr tk;”kk ysaxsA bl vofèk esa oqQN tfVy fdLe osQ cnyko vk,A dbZ dkjdksa us ,d lkFk feydj bl vofèk esa vizR;kf'kr ifj.kke"
+    }
+   ],
+   "extras": {
+    "ps": 1428482,
+    "dd": 31412689
+   }
+  },
+  "lhpy1": {
+   "front": "i euksfoKku d{kk 12 osQ fy, ikB~;iqLrd Reprint 2025-26",
+   "chapters": [
+    {
+     "file": "lhpy101",
+     "pages": 24,
+     "head": "euksoSKkfud xq.kksa esa fofHkUurk,¡ Ikfjp; ekuo izdk;ks± esa O;fDrxr fHkUurk,¡ euksoSKkfud xq.kksa dk ewY;kadu cqf¼ cqf¼ osQ fl¼kar cgq&cqf¼ dk fl¼kar cqf¼ dk f=kpkih; fl¼kar cqf¼ dh ;kstuk] vo/ku&Hkk"
+    },
+    {
+     "file": "lhpy102",
+     "pages": 29,
+     "head": "vkRe ,oa O;fDrRo ifjp; vkRe ,oa O;fDrRo vkRe dk laizR;; vkRe osQ laKkukRed ,oa O;ogkjkRed i{k vkRe&lEeku] vkRe&l{kerk ,oa vkRe&fu;eu laLÑfr ,oa vkRe O;fDrRo dk laizR;; O;fDrRo ls lacafèkr 'kCn (ckWDl "
+    },
+    {
+     "file": "lhpy103",
+     "pages": 21,
+     "head": "euksfoKku54 thou dh pqukSfr;ksa dk lkeuk Ikfjp; ncko dh izÑfr] izdkj ,oa Ïksr nckoiw.kZ thou ?kVukvksa dh ,d ekiuh (ckWDl 3.1) euksoSKkfud izdk;Z rFkk LokLF; ij ncko dk izHkko ijh{kk nq¯'prk (ckWDl 3."
+    },
+    {
+     "file": "lhpy104",
+     "pages": 21,
+     "head": "vè;k; 4 • euksoSKkfud fodkj 75 euksoSKkfud fodkj Ikfjp; vilkekU;rk rFkk euksoSKkfud fodkj osQ laizR;; euksoSKkfud fodkjksa dk oxhZdj.k vilkekU; O;ogkj osQ varfuZfgr dkjd izeq[k euksoSKkfud fodkj nq¯'p"
+    },
+    {
+     "file": "lhpy105",
+     "pages": 15,
+     "head": "fpfdRlk mikxe euf'pfdRlk dh izo`Qfr ,oa izfØ;k fpfdRlkRed lacaèk fpfdRlk osQ izdkj lsokFkhZ osQ leL;k&fu:i.k esa varfuZfgr pj.k (ckWDl 5.1) O;ogkj fpfdRlk foJkafr dh fofèk;k¡ (ckWDl 5.2) laKkukRed fpf"
+    },
+    {
+     "file": "lhpy106",
+     "pages": 16,
+     "head": "vfHko`fÙk ,oa lkekftd laKku bl vè;k; dks Ik<+us osQ ckn vki vfHko`fÙk D;k gS vkSj bldk fuekZ.k ,oa ifjorZu fdl izdkj gksrk gS] dks le> losaQxsA Ikfjp; lkekftd O;ogkj dh O;k[;k djuk vfHko`fÙk dh izÑfr "
+    },
+    {
+     "file": "lhpy107",
+     "pages": 13,
+     "head": "lkekftd izHkko ,oa lewg izØe bl vè;k; dks Ik<+us osQ ckn vki lewg dh izÑfr ,oa izdkj rFkk lewgksa dk fuekZ.k fdl izdkj ls gksrk gS] ;g le> losaQxs] rFkk O;fDr osQ O;ogkj ij lewg izHkko dks tku losaQxs"
+    }
+   ],
+   "extras": {
+    "gl": 1060335,
+    "ps": 1104702,
+    "dd": 11197564
+   }
+  },
+  "lhsk1": {
+   "front": "HkkLorh f}rh;ks Hkkx% }kn'koxkZ; laLÑrL; ikB~;iqLrde~ (osQfUædikB~;Øe%) Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhsk101",
+     "pages": 5,
+     "head": "izFke% ikB% vuq'kklue~ izLrqr va'k oSfnd okÄ~e; esa vf}rh; LFkku j[kus okys rSfÙkjh; mifu\"kn~ osQ X;kjgosa vuqokd (f'k{kkoYyh) ls ladfyr gSA mifu\"knksa dk izknqHkkZo oSfnd Kku osQ fodkl :i esa gqvk gS"
+    },
+    {
+     "file": "lhsk102",
+     "pages": 11,
+     "head": "f}rh;% ikB% ekrqjkKk xjh;lh Hkkjrh; laLÑfr ekrk&firk rFkk xq# dks nsork dh rjg iwtuh; ,oa nsorqY; ekurh gSA mifu\"kr~ dky ls gh bu dh egÙkk izfrikfnr dh xbZ gSA u osQoy Hkkjrh; laLÑfr vfirq leLr fo'o e"
+    },
+    {
+     "file": "lhsk103",
+     "pages": 7,
+     "head": "r`rh;% ikB% iztkuqj×tdks u`i% izLrqr ikB egkdfo dkfynkl fojfpr j?kqoa'k osQ izFke lxZ ls fy;k x;k gSA bu vkjfEHkd 'yksdksa esa dkfynkl egku~ j?kqoqQy osQ jktkvksa osQ xq.kksa osQ o.kZu osQ ekè;e ls la"
+    },
+    {
+     "file": "lhsk104",
+     "pages": 9,
+     "head": "prqFkZ% ikB% nkSokfjdL; fu\"Bk izLrqr ikB f'kojktfot; uked laLÑr Hkk\"kk osQ izFke miU;kl ls fy;k x;k gS] ftlosQ ys[kd ia- vfEcdknÙkO;kl gSaA O;kl th dk tUe ml le; gqvk] tc Hkkjr ijk/hurk dh csfM+;ksa e"
+    },
+    {
+     "file": "lhsk105",
+     "pages": 9,
+     "head": "i×pe% ikB% lwfDr&lkSjHke~ fdlh Hkh Hkk\"kk dh lwfDr;k¡ ml lekt osQ euhf\"k;ksa }kjk 'krkfCn;ksa rd vuqHkwr muosQ nSfud thou osQ vuqHkoksa dks izdV djrh gSaA ;s lwfDr;k¡ dysoj esa LoYi gksrs gq, Hkh vius"
+    },
+    {
+     "file": "lhsk106",
+     "pages": 11,
+     "head": "\"k\"B% ikB% uSosQukfi lea xrk olqerh izLrqr ikB cYyky lsu jfpr HkkstizcU/ osQ ^HkkstjktL; jkT;izkfIrizcU/* va'k dk lEikfnr ,oa laf{kIr :ikUrj.k gSA euq\"; osQ eu esa tc yksHk Nk tkrk gS] rc og fdlh izdk"
+    },
+    {
+     "file": "lhsk107",
+     "pages": 9,
+     "head": "lIre% ikB% gYnh?kkVh HkkjrHkwfe 'krkfCn;ksa rd ijk/hu jgh] fons'kh vkØkUrkvksa osQ }kjk neu fd;s tkus ij Hkh Hkkjrh;ksa dh LorU=krk izkfIr dh bPNk lnSo cyorh jghA egkjk.kk izrki eqxy 'kkldksa ds lkFk "
+    },
+    {
+     "file": "lhsk108",
+     "pages": 10,
+     "head": "v\"Ve% ikB% enkylk izLrqr ikB tEewfo'ofo|ky; ls vodk'k izkIr vkpk;kZ osnoqQekjh ?kbZ }kjk jfpr ^iqjU/zhi×pde~* uked :idlaxzg ls ladfyr fd;k x;k gSA ^iqjU/zhi×pde~* vk/qfudukV~;ijEijk esa ,d lkef;d fo\"k"
+    },
+    {
+     "file": "lhsk109",
+     "pages": 7,
+     "head": "uoe% ikB% dk;kZdk;ZO;ofLFkfr% izLrqr i| Jhen~Hkxon~xhrk osQ \"kksM'k vè;k; ls ladfyr gSA eksgxzLr vtqZu dks dgs x, ;s opu ns'kdkykrhr gSa vFkkZr~ lkoZtuhu lkoZdkfyd ,oa lkoZHkkSfed gSaA vr% vkt Hkh ge "
+    },
+    {
+     "file": "lhsk110",
+     "pages": 10,
+     "head": "n'ke% ikB% fo|kLFkkukfu izLrqr ikB jkt'ks[kj dh dkO;ehekalk ls lax`ghr gSA dkO;ehekalk dkO;'kkL=k ijEijk esa ,d egÙoiw.kZ xzUFk gS] ftlesa dkO;'kkL=k dh fo'ks\"k O;k[;k osQ vfrfjDr laLo`Qr okÄ~e; dh lq"
+    }
+   ],
+   "extras": {
+    "ps": 1298086,
+    "dd": 7215652
+   }
+  },
+  "lhsk2": {
+   "front": "'kk'orh f}rh;ks Hkkx% }kn'koxkZ; laLÑrL; ikB~;iqLrde~ (,sfPNdikB~;Øe%) Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhsk201",
+     "pages": 9,
+     "head": "izFke% ikB% fo|;k¿e`re'uqrs izLrqr ikB bZ'kkokL;ksifu\"kr~ ls ladfyr gSA ^bZ'kkokL;e~* in ls vkjEHk gksus osQ dkj.k bls bZ'kkokL;ksifu\"kr~ dh laKk nh x;h gSA ;g mifu\"kr~ ;tqosZn dh ekè;fUnu ,oa dk.o la"
+    },
+    {
+     "file": "lhsk202",
+     "pages": 16,
+     "head": "f}rh;% ikB% j?kqdkSRllaokn% izLrqr ikBÔka'k egkdfo dkfynkl }kjk fojfpr j?kqoa'k egkdkO; osQ i×pe lxZ ls ladfyr gSA blesa egkjkt j?kq ,oa ojrUrq ½f\"k osQ f'k\"; dkSRl uked czãpkjh osQ eè; lkosQr uxjh es"
+    },
+    {
+     "file": "lhsk203",
+     "pages": 11,
+     "head": "r`rh;% ikB% ckydkSrqde~ izLrqr ikB d#.k jl osQ vuqie fprsjs egkdfo HkoHkwfr fojfpr ¶mÙkjjkepfjre~¸ uked izfl¼ ukVd osQ prqFkZ vad ls ladfyr fd;k x;k gSA jktk jke }kjk fuokZflrk Hkxorh lhrk osQ tqM+ok¡"
+    },
+    {
+     "file": "lhsk204",
+     "pages": 11,
+     "head": "prqFkZ% ikB% deZxkSjoe~ izLrqr ikB] Jhen~Hkxon~xhrk osQ f}rh; ,oe~ r`rh; vè;k;ksa ls lax`ghr gSA Jhen~Hkxon~xhrk og fo'oizfl¼ xzUFkjRu gS] fTklesa JhÑ\".k us fo\"kknxzLr vtqZu dks dÙkZO; dk mins'k nsdj "
+    },
+    {
+     "file": "lhsk205",
+     "pages": 10,
+     "head": "i×pe% ikB% 'kqduklksins'k% egkdfo ck.kHk^ laLÑr osQ lokZf/d izfrHkk'kkyh x|dkj gSaA bUgksaus dkU;oqQCt (dUukSt) osQ jktk g\"kZoèkZu osQ thou ij ^g\"kZpfjr* fy[kk gSA g\"kZo¼Zu dk jkT;dky 606 bZ- ls 648 b"
+    },
+    {
+     "file": "lhsk206",
+     "pages": 10,
+     "head": "\"k\"B% ikB% lwfDrlqèkk laLÑr lkfgR; esa lwfDr;ksa dk le`¼ Hk.Mkj gSA lwfDr dk vFkZ gS lqUnj opu] lqèkk dk vFkZ gS ve`r] lwfDrlqèkk dk vFkZ gS lqUnj opu :ih ve`rA bl ikB esa if.Mrjkt txUukFk] egkdfo ek?"
+    },
+    {
+     "file": "lhsk207",
+     "pages": 7,
+     "head": "lIre% ikB% foozQeL;kSnk;Ze~ ¶flagklu}kf=kaf'kdk¸ cÙkhl euksj×td dFkkvksa dk laxzg gSA blds osQoy x|e;] osQoy i|e;] x|µi|e;] ;s rhu ikB ik;s tkrs gSaA laxzg esa fLFkr izR;sd dFkk /kjk uxjh osQ jktk Hkk"
+    },
+    {
+     "file": "lhsk208",
+     "pages": 8,
+     "head": "v\"Ve% ikB% dk;± ok lk/;s;e~] nsga ok ikr;s;e~ izLrqr ikB vfEcdknÙkO;kl }kjk jfpr ^f'kojktfot;e~* uked ,sfrgkfld miU;kl osQ izFke fojke osQ prqFkZ fu%'okl ls ladfyr gSA blosQ jpf;rk vfEcdknÙkO;kl cgqeq"
+    },
+    {
+     "file": "lhsk209",
+     "pages": 6,
+     "head": "uoe% ikB% nhucU/q% Jhuk;kj% izLrqr ikB mfM+;k Hkk\"kk osQ iz[;kr lkfgR;dkj Jh pUnz'ks[kjnkloekZ }kjk fojfpr ^ik\"kk.khdU;k* dFkklaxzg osQ laLÑr vuqokn ls ladfyr gSA blosQ vuqoknd MkWñ ukjk;.k nk'k gSaA "
+    },
+    {
+     "file": "lhsk210",
+     "pages": 8,
+     "head": "n'ke% ikB% ;ksxL; oSf'k\"V~;e~ izLrqr ikB ir×tfy jfpr ;ksxlw=k ij vk/kfjr gSA ftlesa ;ksxkH;kl osQ ekè;e ls thou dkss la;fer cukus osQ fy, 'kkjhfjd] ekufld ,oa ckSf¼d :i ls fof'k\"V mik;ksa dk mYys[k fd"
+    },
+    {
+     "file": "lhsk211",
+     "pages": 18,
+     "head": ",dkn'k% ikB% dFka 'kCnkuq'kklua drZO;e~ ;g ikB egf\"kZ ir×tfy fojfpr egkHkk\"; ls m¼`r gSA blesa 'kCnksa osQ vuq'kklu dk o.kZu fd;k x;k gSA bl ikB esa o.kZu fd;k x;k gS fd gesa oSQls 'kCnksa dk mins'k d"
+    }
+   ],
+   "extras": {
+    "ps": 1469301,
+    "dd": 9492801
+   }
+  },
+  "lhsy1": {
+   "front": "Hkkjrh; lekt कक्षा 12 क े लिए समषाजशषास्‍त्र की पषाठ्यपुस्‍्तक Prelims.indd 1 8/30/2022 12:16:37 PM Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhsy101",
+     "pages": 6,
+     "head": "अध्या् 1 भारतीय समाज : एक पररचय Chapter 1.indd 1 19-Jul-22 16:21:10 Reprint 2026-27"
+    },
+    {
+     "file": "lhsy102",
+     "pages": 32,
+     "head": "अध्या् 2 भारतीय समाज की जनसांख्यकीय संरचना Chapter 2.indd 7 9/5/2022 9:58:34 AM Reprint 2026-27"
+    },
+    {
+     "file": "lhsy103",
+     "pages": 18,
+     "head": "अध्या् 3 सामाजिक स ंस्ाएँ : जिरंतरता एव ं पर रवत्ति Chapter 3.indd 39 9/5/2022 9:59:18 AM Reprint 2026-27"
+    },
+    {
+     "file": "lhsy104",
+     "pages": 16,
+     "head": "अध्या् 4 बाज़ार एक सामाजिक संस्ा क े रूप मेें Chapter 4.indd 57 20-Jul-22 16:54:36 Reprint 2026-27"
+    },
+    {
+     "file": "lhsy105",
+     "pages": 30,
+     "head": "अध्या् 5 सामाजिक जिषमता ए िं बजिषकार क े सिरूप Chapter 5.indd 73 20-Jul-22 16:56:12 Reprint 2026-27"
+    },
+    {
+     "file": "lhsy106",
+     "pages": 22,
+     "head": "अध्या् 6 सांस्कृ ति् तितिधिा ्ी चुनौतियाँ Chapter 6.indd 103 9/5/2022 10:15:43 AM Reprint 2026-27"
+    },
+    {
+     "file": "lhsy107",
+     "pages": 12,
+     "head": "परियोजना का य्य क े लिए सुझाव 125 अध्या् 7 परियोजना का य्य क े लिए सुझाव chapter 7.indd 125 8/26/2022 12:31:47 PM Reprint 2026-27"
+    },
+    {
+     "file": "lhsy108",
+     "pages": 20,
+     "head": "Social Movements8 Chapter 8.indd 109 14 September 2022 12:05:16 Reprint 2026-27"
+    }
+   ],
+   "extras": {
+    "gl": 1473925,
+    "ps": 3358400,
+    "dd": 21390234
+   }
+  },
+  "lhsy2": {
+   "front": "भारत में सामाजिक पररवत्तन एवं जवकास कक्ा 12 क े जिए समािशास्‍त्र की पाठ्यपुस्‍तक Final Prelims.indd 1 05-09-2022 11:43:53 Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhsy201",
+     "pages": 14,
+     "head": "संरचनात्मक पररवर्तन1 Chapter 1.indd 1 12 Aug 2022 16:48:37 Reprint 2026-27"
+    },
+    {
+     "file": "lhsy202",
+     "pages": 16,
+     "head": "सांस्कृ ति् परिवि्तन2 Chapter 2.indd 15 25-08-2022 15:49:03 Reprint 2026-27"
+    },
+    {
+     "file": "lhsy203",
+     "pages": 10,
+     "head": "संविधान एिं सामाविक परििर्तन3 Chapter 3.indd 31 12 Aug 2022 16:51:07 Reprint 2026-27"
+    },
+    {
+     "file": "lhsy204",
+     "pages": 16,
+     "head": "ग्रामीण समराज में विकरास एिं परििर्तन 4 Chapter 4.indd 41 12 Aug 2022 16:52:14 Reprint 2026-27"
+    },
+    {
+     "file": "lhsy205",
+     "pages": 14,
+     "head": "औद्योगिक समाज में परिवर्तन औि गवकास 5 Chapter 5.indd 57 12 Aug 2022 16:53:21 Reprint 2026-27"
+    },
+    {
+     "file": "lhsy206",
+     "pages": 20,
+     "head": "भूमंडलीकरण और सामाजिक पररवर्तन6 Chapter 6.indd 71 12 Aug 2022 16:54:25 Reprint 2026-27"
+    },
+    {
+     "file": "lhsy207",
+     "pages": 20,
+     "head": "जनसंपर ्क साधन और जनसंचार7 Chapter 7.indd 91 12 Aug 2022 16:55:22 Reprint 2026-27"
+    },
+    {
+     "file": "lhsy208",
+     "pages": 20,
+     "head": "सामाजिक आंदोलन 8 Chapter 8.indd 111 12 Aug 2022 16:56:18 Reprint 2026-27"
+    }
+   ],
+   "extras": {
+    "gl": 804602,
+    "ps": 2859313,
+    "dd": 21818327
+   }
+  },
+  "lhvt1": {
+   "front": "Hkkx 2 d{kk 12 ^vk/kj* ikB~;Øe osQ fy, ¯gnh oQh iwjd ikB~;iqLrd forku forkuforkuforkuforku Reprint 2026-27",
+   "chapters": [
+    {
+     "file": "lhvt101",
+     "pages": 20,
+     "head": "tc lsD'ku vkfI +kQlj okbZ-Mh- (;'kksèkj) iar us vkf[kjh I+kQkby dk yky iQhrk ck¡èkdj fuxkg es”k ls mBkbZ rc n Ý+rj dh iqjkuh nhokj ?kM+h ik¡p ctdj iPphl feuV ctk jgh FkhA mudh viuh dykbZ ?kM+h esa lk<"
+    },
+    {
+     "file": "lhvt102",
+     "pages": 14,
+     "head": "ikB'kkyk tkus osQ fy, eu rM+irk FkkA ysfdu nknk osQ lkeus [kM+s gksdj ;g dgus dh fgEer ugha gksrh fd] ¶eSa i<+us tkm¡QxkA¸ Mj yxrk Fkk fd gah&ilyh ,d dj nsxkA blfy, eSa bl rkd esa jgrk fd dksbZ nknk d"
+    },
+    {
+     "file": "lhvt103",
+     "pages": 18,
+     "head": "vHkh Hkh eqvutks&nM+ks1 vkSj gM+Iik2 izkphu Hkkjr osQ gh ugha] nqfu;k osQ nks lcls iqjkus fu;ksftr 'kgj ekus tkrss gSaA ;s flaèkq ?kkVh lH;rk osQ ijorhZ ;kuh ifjiDo nkSj osQ 'kgj gSaA [kqnkbZ esa vkSj"
+    }
+   ],
+   "extras": {
+    "lp": 219940,
+    "ps": 3806743,
+    "dd": 7251368
+   }
+  },
+  "luab1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "luab101",
+     "pages": 24,
+     "head": "2019-20"
+    },
+    {
+     "file": "luab102",
+     "pages": 20,
+     "head": "2019-20"
+    },
+    {
+     "file": "luab103",
+     "pages": 18,
+     "head": "2019-20"
+    },
+    {
+     "file": "luab104",
+     "pages": 20,
+     "head": "2019-20"
+    },
+    {
+     "file": "luab105",
+     "pages": 22,
+     "head": "2019-20"
+    },
+    {
+     "file": "luab106",
+     "pages": 26,
+     "head": "2019-20"
+    },
+    {
+     "file": "luab107",
+     "pages": 22,
+     "head": "2019-20"
+    },
+    {
+     "file": "luab108",
+     "pages": 26,
+     "head": "2019-20"
+    },
+    {
+     "file": "luab109",
+     "pages": 25,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 5483567,
+    "dd": 182069557
+   }
+  },
+  "luac1": {
+   "front": "",
+   "chapters": [
+    {
+     "file": "luac101",
+     "pages": 70,
+     "head": ""
+    },
+    {
+     "file": "luac102",
+     "pages": 70,
+     "head": ""
+    },
+    {
+     "file": "luac103",
+     "pages": 81,
+     "head": ""
+    },
+    {
+     "file": "luac104",
+     "pages": 70,
+     "head": ""
+    },
+    {
+     "file": "luac105",
+     "pages": 56,
+     "head": ""
+    }
+   ],
+   "extras": {
+    "ps": 2343005,
+    "dd": 92216706
+   }
+  },
+  "luac2": {
+   "front": null,
+   "chapters": [
+    {
+     "file": "luac201",
+     "pages": 101,
+     "head": "‰»ˆ!¿ !uât vÔ(^ÅZ g»ðZDw^~ŠZ%³ƒCìZ kÆuâñ Æa(,~®ZŠ~ßvZ¬-$™D/c144/c143zŠZ gBD/c1442tv ÆÇâ´ÌƒD/c144XpÓxß ÍV»vÅZOð~z¢8 e7ƒ@*ìZ z g:„tIh+{ Z%¦gHY @*ìX®ZtvZñgÆ Ä~ZLúÒz VÆîg6,1g e Wse Z],Ii»ZN[™CìX Æ¸Z2Åik,ô"
+    },
+    {
+     "file": "luac202",
+     "pages": 92,
+     "head": "vZCuâtZ`%Z‰Æf g ZùÐZ‰™CìÔpZ`%Z‰Æ f g)Z‰HŠHuâtvÅîsæCâ1C¢z gc*]7g Z™ä~ /c144áf z**Šg„» °ƒ@*ì®Z ic*Š{F,|VŒÛn**ñVÆÂËÐîs æCuâñÅY+$g c™C/c144X z {c*Â˜ëCZŠZ g z Vc*QúZ xÃP{ ÅZ¬-$Æae#-?ç EEFiYg ~™ÆuâtZ‰™C/c14"
+    },
+    {
+     "file": "luac203",
+     "pages": 35,
+     "head": "vÆâ1CÍØZ g} t™heÆˆÀvZCuât¾§bqÝ™CìZ k!*[~ë vÆf g)»gKYäz Záâ1CÍØZ g z VÅâÎÔ£œZ z g ZlxÆ‚BZ yÆqgY]{ÆÔ ZEw Z z g¶ŠÆ!*g}~Ì _·™,ÐXâ1CÍØZ g}ˆ!¿»Wy%~%³ƒD/c144X Z¹ 7Vˆ[ŠZ g ~¦g Z ]Ô Zßw Ô§T»g Z z g‡â ãâjwÅãCŠ6"
+    },
+    {
+     "file": "luac204",
+     "pages": 31,
+     "head": "â1CÍØZ g z V»‹t W\\vÆâ1CÍØZ g z V) WæãÍØZ g { Z z g›ÂZ i y (Æ!*g} ~Ô!*[~7,|`/c144XãCŠ~îg6,t¿â àg7g^ƒD/c144 ËvÅi /c143 /c129ÛZë™ZD/c144 ¥â] /c143vÆi}òZ z gâ àqª(Å »g™ŠÏZ z g ZOŠ~¡Åøá™äÆaÎŠqƒC/c144X Z kÆ"
+    },
+    {
+     "file": "luac205",
+     "pages": 59,
+     "head": "ˆ[ŠZ g ~Ú â1CÍØZ g z V»ÑË»g z!*g ~ ZŠZ g}Æ!*g}~â àZ:¬] /c129ÛZë™Z**ƒ@*ìTÐêhez ZßVÅ¥âC¢z gc*]7g ~ ƒÃXâ1CÍØZ g}»g7gf$I~Zq-»g z!*g ~^Æf g) Z z g/c129ÛZë™ZñYD/c144XtÍØZ g}â à /c144áù êhez ZßVÆa Z°ZŠzÑg½™Z"
+    },
+    {
+     "file": "luac206",
+     "pages": 63,
+     "head": "×g z ZãÍØZ g { Z [J-W\\äâ1CÍØZ g z VÆ!*g}~_·Hì/c143ãCŠ~îg6, ÍØZ g {qª() Zq-ºm@*gõ6,Ë»g z!*gÅ â1Cqª(ªCÙ™@*ì( Z z g WæãÍØZ g { ) Zq-ºmæ]ÆˆËZŠZ g}Åiu¤/ñVÆ }òÃªCÙ™@*ì(6,Œƒ@*ìX Zq-Z z gŠZ Zëâ àÍØZ g {Ìƒ@* ×"
+    }
+   ],
+   "extras": {}
+  },
+  "lubo1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "lubo101",
+     "pages": 19,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo102",
+     "pages": 24,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo103",
+     "pages": 17,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo104",
+     "pages": 10,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo105",
+     "pages": 30,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo106",
+     "pages": 33,
+     "head": "GC GC G G C C GC GC CG GC GC GC GC GC TA TA T T TT A A A A TA TA TA TA AT AT AT AT AT AT AT CG CG CG 5' 3' 2019-20"
+    },
+    {
+     "file": "lubo107",
+     "pages": 19,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo108",
+     "pages": 25,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo109",
+     "pages": 16,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo110",
+     "pages": 13,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo111",
+     "pages": 17,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo112",
+     "pages": 11,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo113",
+     "pages": 26,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubo114",
+     "pages": 18,
+     "head": "Organic rich soil 2019-20"
+    },
+    {
+     "file": "lubo115",
+     "pages": 13,
+     "head": "Vertebrates Plants Invertebrates 2019-20"
+    },
+    {
+     "file": "lubo116",
+     "pages": 21,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 3916525,
+    "dd": 260342343
+   }
+  },
+  "lubs1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "lubs101",
+     "pages": 33,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubs102",
+     "pages": 41,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubs103",
+     "pages": 26,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubs104",
+     "pages": 21,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubs105",
+     "pages": 37,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubs106",
+     "pages": 36,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubs107",
+     "pages": 40,
+     "head": "2019-20"
+    },
+    {
+     "file": "lubs108",
+     "pages": 26,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 1947992,
+    "dd": 126722404
+   }
+  },
+  "lubs2": {
+   "front": "",
+   "chapters": [
+    {
+     "file": "lubs201",
+     "pages": 33,
+     "head": ""
+    },
+    {
+     "file": "lubs202",
+     "pages": 30,
+     "head": ""
+    },
+    {
+     "file": "lubs203",
+     "pages": 75,
+     "head": ""
+    },
+    {
+     "file": "lubs204",
+     "pages": 20,
+     "head": ""
+    }
+   ],
+   "extras": {
+    "ps": 5801691,
+    "dd": 96270378
+   }
+  },
+  "luch1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "luch101",
+     "pages": 40,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch102",
+     "pages": 32,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch103",
+     "pages": 32,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch104",
+     "pages": 30,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch105",
+     "pages": 30,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch106",
+     "pages": 24,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch107",
+     "pages": 52,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch108",
+     "pages": 32,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch109",
+     "pages": 27,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 5053426,
+    "dd": 151666101
+   }
+  },
+  "luch2": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "luch201",
+     "pages": 38,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch202",
+     "pages": 38,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch203",
+     "pages": 38,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch204",
+     "pages": 24,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch205",
+     "pages": 26,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch206",
+     "pages": 14,
+     "head": "2019-20"
+    },
+    {
+     "file": "luch207",
+     "pages": 20,
+     "head": "~ 2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 5576092,
+    "dd": 116252056
+   }
+  },
+  "lucw1": {
+   "front": "NATIONAL□COUNCIL□OF□EDUCATIONAL□RESEARCH□AND□TRAINING",
+   "chapters": [
+    {
+     "file": "lucw101",
+     "pages": 18,
+     "head": ""
+    },
+    {
+     "file": "lucw102",
+     "pages": 50,
+     "head": ""
+    },
+    {
+     "file": "lucw103",
+     "pages": 30,
+     "head": ""
+    },
+    {
+     "file": "lucw104",
+     "pages": 19,
+     "head": ""
+    },
+    {
+     "file": "lucw105",
+     "pages": 12,
+     "head": ""
+    },
+    {
+     "file": "lucw106",
+     "pages": 10,
+     "head": ""
+    },
+    {
+     "file": "lucw107",
+     "pages": 11,
+     "head": ""
+    },
+    {
+     "file": "lucw108",
+     "pages": 6,
+     "head": ""
+    },
+    {
+     "file": "lucw109",
+     "pages": 9,
+     "head": ""
+    },
+    {
+     "file": "lucw110",
+     "pages": 6,
+     "head": ""
+    },
+    {
+     "file": "lucw111",
+     "pages": 7,
+     "head": ""
+    }
+   ],
+   "extras": {
+    "ps": 56593265,
+    "dd": 473961862
+   }
+  },
+  "ludh1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "ludh101",
+     "pages": 5,
+     "head": "2019-20"
+    },
+    {
+     "file": "ludh102",
+     "pages": 6,
+     "head": "(1910 1828) 2019-20"
+    },
+    {
+     "file": "ludh103",
+     "pages": 9,
+     "head": "(1936 1880) 2019-20"
+    },
+    {
+     "file": "ludh104",
+     "pages": 9,
+     "head": "2019-20"
+    },
+    {
+     "file": "ludh105",
+     "pages": 9,
+     "head": "(1902 1846) 2019-20"
+    },
+    {
+     "file": "ludh106",
+     "pages": 10,
+     "head": "2019-20"
+    },
+    {
+     "file": "ludh107",
+     "pages": 6,
+     "head": "2019-20"
+    },
+    {
+     "file": "ludh108",
+     "pages": 7,
+     "head": "2019-20"
+    },
+    {
+     "file": "ludh109",
+     "pages": 7,
+     "head": "2019-20"
+    },
+    {
+     "file": "ludh110",
+     "pages": 9,
+     "head": "2019-20"
+    },
+    {
+     "file": "ludh111",
+     "pages": 4,
+     "head": "(1953 1884) 2019-20"
+    },
+    {
+     "file": "ludh112",
+     "pages": 4,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 2228193,
+    "dd": 35213543
+   }
+  },
+  "lufh1": {
+   "front": "",
+   "chapters": [
+    {
+     "file": "lufh101",
+     "pages": 8,
+     "head": "2019-20"
+    },
+    {
+     "file": "lufh102",
+     "pages": 10,
+     "head": "2019-20"
+    },
+    {
+     "file": "lufh103",
+     "pages": 5,
+     "head": "2019-20"
+    },
+    {
+     "file": "lufh104",
+     "pages": 9,
+     "head": "2019-20"
+    },
+    {
+     "file": "lufh105",
+     "pages": 15,
+     "head": "2019-20"
+    },
+    {
+     "file": "lufh106",
+     "pages": 11,
+     "head": "2019-20"
+    },
+    {
+     "file": "lufh107",
+     "pages": 12,
+     "head": "2019-20"
+    },
+    {
+     "file": "lufh108",
+     "pages": 18,
+     "head": "8 III – – 2019-20"
+    },
+    {
+     "file": "lufh109",
+     "pages": 11,
+     "head": "9 III– – 2019-20"
+    },
+    {
+     "file": "lufh110",
+     "pages": 14,
+     "head": "10 IV– – 2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 3302831,
+    "dd": 70099830
+   }
+  },
+  "luga1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "luga101",
+     "pages": 9,
+     "head": "2019-20"
+    },
+    {
+     "file": "luga102",
+     "pages": 8,
+     "head": "2019-20"
+    },
+    {
+     "file": "luga103",
+     "pages": 13,
+     "head": "2019-20"
+    },
+    {
+     "file": "luga104",
+     "pages": 7,
+     "head": "2019-20"
+    },
+    {
+     "file": "luga105",
+     "pages": 9,
+     "head": "2019-20"
+    },
+    {
+     "file": "luga106",
+     "pages": 7,
+     "head": "2019-20"
+    },
+    {
+     "file": "luga107",
+     "pages": 7,
+     "head": "2019-20"
+    },
+    {
+     "file": "luga108",
+     "pages": 18,
+     "head": "2019-20"
+    },
+    {
+     "file": "luga109",
+     "pages": 8,
+     "head": "2019-20"
+    },
+    {
+     "file": "luga110",
+     "pages": 13,
+     "head": "2019-20"
+    },
+    {
+     "file": "luga111",
+     "pages": 22,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 2750752,
+    "dd": 30198665
+   }
+  },
+  "lugy1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "lugy101",
+     "pages": 15,
+     "head": "(Distribution□of□Population) 2019-20"
+    },
+    {
+     "file": "lugy102",
+     "pages": 9,
+     "head": "2019-20"
+    },
+    {
+     "file": "lugy103",
+     "pages": 11,
+     "head": "3 2019-20"
+    },
+    {
+     "file": "lugy104",
+     "pages": 10,
+     "head": "4 2019-20"
+    },
+    {
+     "file": "lugy105",
+     "pages": 23,
+     "head": "2019-20"
+    },
+    {
+     "file": "lugy106",
+     "pages": 13,
+     "head": "2019-20"
+    },
+    {
+     "file": "lugy107",
+     "pages": 15,
+     "head": "/B28/B54/B79/B70/B65/B73 /B6f/B66 /B4d/B69/B6e/B65/B72/B61/B6c /B52/B65/B73/B6f/B75/B72/B63/B65/B73/B29 2019-20"
+    },
+    {
+     "file": "lugy108",
+     "pages": 22,
+     "head": "(Types□of□Industries) 2019-20"
+    },
+    {
+     "file": "lugy109",
+     "pages": 11,
+     "head": "9 III 2019-20"
+    },
+    {
+     "file": "lugy110",
+     "pages": 13,
+     "head": "10 2019-20"
+    },
+    {
+     "file": "lugy111",
+     "pages": 11,
+     "head": "11 2019-20"
+    },
+    {
+     "file": "lugy112",
+     "pages": 14,
+     "head": "/B31/B32 2019-20"
+    }
+   ],
+   "extras": {
+    "gl": 6358841,
+    "ps": 2595477,
+    "dd": 89294011
+   }
+  },
+  "luhc1": {
+   "front": "",
+   "chapters": [
+    {
+     "file": "luhc101",
+     "pages": 12,
+     "head": ""
+    },
+    {
+     "file": "luhc102",
+     "pages": 19,
+     "head": ""
+    },
+    {
+     "file": "luhc103",
+     "pages": 11,
+     "head": ""
+    },
+    {
+     "file": "luhc104",
+     "pages": 15,
+     "head": ""
+    },
+    {
+     "file": "luhc105",
+     "pages": 19,
+     "head": ""
+    },
+    {
+     "file": "luhc106",
+     "pages": 15,
+     "head": ""
+    },
+    {
+     "file": "luhc107",
+     "pages": 19,
+     "head": ""
+    },
+    {
+     "file": "luhc108",
+     "pages": 17,
+     "head": ""
+    },
+    {
+     "file": "luhc109",
+     "pages": 21,
+     "head": ""
+    }
+   ],
+   "extras": {
+    "ps": 17592158
+   }
+  },
+  "luis1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "luis101",
+     "pages": 8,
+     "head": "2019-20"
+    },
+    {
+     "file": "luis102",
+     "pages": 32,
+     "head": "2019-20"
+    },
+    {
+     "file": "luis103",
+     "pages": 22,
+     "head": "2019-20"
+    },
+    {
+     "file": "luis104",
+     "pages": 20,
+     "head": "2019-20"
+    },
+    {
+     "file": "luis105",
+     "pages": 34,
+     "head": "2019-20"
+    },
+    {
+     "file": "luis106",
+     "pages": 30,
+     "head": "2019-20"
+    },
+    {
+     "file": "luis107",
+     "pages": 12,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 4181695,
+    "dd": 97314832
+   }
+  },
+  "luku1": {
+   "front": "",
+   "chapters": [
+    {
+     "file": "luku101",
+     "pages": 44,
+     "head": ""
+    },
+    {
+     "file": "luku102",
+     "pages": 42,
+     "head": ""
+    },
+    {
+     "file": "luku103",
+     "pages": 6,
+     "head": ""
+    },
+    {
+     "file": "luku104",
+     "pages": 14,
+     "head": ""
+    },
+    {
+     "file": "luku105",
+     "pages": 9,
+     "head": ""
+    },
+    {
+     "file": "luku106",
+     "pages": 17,
+     "head": ""
+    }
+   ],
+   "extras": {
+    "ps": 1782502,
+    "dd": 39669040
+   }
+  },
+  "lume1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "lume101",
+     "pages": 8,
+     "head": "(Introduction) (A□SIMPLE ECONOMY) 1.1 2019-20"
+    },
+    {
+     "file": "lume102",
+     "pages": 32,
+     "head": "(Theory of Consumer Behaviour) (UTILITY) 2019-20"
+    },
+    {
+     "file": "lume103",
+     "pages": 22,
+     "head": "(PRODUCTION FUNCTION) (Production□and□Costs) 2019-20"
+    },
+    {
+     "file": "lume104",
+     "pages": 22,
+     "head": "(The Theory Firm under Perfect Competition) of the 2019-20"
+    },
+    {
+     "file": "lume105",
+     "pages": 20,
+     "head": "O SS DD p* pf q'1 q* q2 p1 q1q'1 (Market Equilibrium) 5.1(EQUILIBRIUM, EXCESS DEMAND ,□EXCESS SUPPLY) 2019-20"
+    },
+    {
+     "file": "lume106",
+     "pages": 18,
+     "head": "(Non-competitive Markets) 2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 2627707,
+    "dd": 54021011
+   }
+  },
+  "lume2": {
+   "front": "2018-19",
+   "chapters": [
+    {
+     "file": "lume201",
+     "pages": 8,
+     "head": "2018-19"
+    },
+    {
+     "file": "lume202",
+     "pages": 29,
+     "head": "(SOME BASIC CONCEPTS OF MACROECONOMICS) 2018-19"
+    },
+    {
+     "file": "lume203",
+     "pages": 19,
+     "head": "(FUNCTIONS OF MONEY) (Money and Banking) 2018-19"
+    },
+    {
+     "file": "lume204",
+     "pages": 14,
+     "head": "(Determination of ) Income and Employment (AGGREGATE DEMAND AND ITS COMPONENTS) 2018-19"
+    },
+    {
+     "file": "lume205",
+     "pages": 21,
+     "head": "(GOVERNMENT BUDGET, MEANING AND ITS COMPONENTS) 2018-19"
+    },
+    {
+     "file": "lume206",
+     "pages": 21,
+     "head": "(Open Economy) (Macroeconomics) 2018-19"
+    }
+   ],
+   "extras": {
+    "ps": 5581783,
+    "dd": 133169553
+   }
+  },
+  "lumh1": {
+   "front": "2020-21",
+   "chapters": [
+    {
+     "file": "lumh101",
+     "pages": 41,
+     "head": "1 2020-21"
+    },
+    {
+     "file": "lumh102",
+     "pages": 57,
+     "head": "2 2020-21"
+    },
+    {
+     "file": "lumh103",
+     "pages": 50,
+     "head": "3 2020-21"
+    },
+    {
+     "file": "lumh104",
+     "pages": 47,
+     "head": "4 2020-21"
+    },
+    {
+     "file": "lumh105",
+     "pages": 52,
+     "head": "5 2020-21"
+    },
+    {
+     "file": "lumh106",
+     "pages": 60,
+     "head": "6 2020-21"
+    }
+   ],
+   "extras": {
+    "an": 1509142,
+    "a1": 2599351,
+    "a2": 2929473,
+    "ps": 2753059,
+    "dd": 63357940
+   }
+  },
+  "lumh2": {
+   "front": "2020-21",
+   "chapters": [
+    {
+     "file": "lumh201",
+     "pages": 21,
+     "head": "7"
+    },
+    {
+     "file": "lumh202",
+     "pages": 21,
+     "head": "8 2020-21"
+    },
+    {
+     "file": "lumh203",
+     "pages": 49,
+     "head": "9 2020-21"
+    },
+    {
+     "file": "lumh204",
+     "pages": 42,
+     "head": "10 2020-21"
+    },
+    {
+     "file": "lumh205",
+     "pages": 47,
+     "head": "11 2020-21"
+    },
+    {
+     "file": "lumh206",
+     "pages": 32,
+     "head": "2020-21"
+    },
+    {
+     "file": "lumh207",
+     "pages": 27,
+     "head": "2020-21"
+    }
+   ],
+   "extras": {
+    "an": 15207580,
+    "ps": 7522278,
+    "dd": 66719217
+   }
+  },
+  "luna1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "luna101",
+     "pages": 8,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna102",
+     "pages": 9,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna103",
+     "pages": 11,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna104",
+     "pages": 6,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna105",
+     "pages": 9,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna106",
+     "pages": 8,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna107",
+     "pages": 8,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna108",
+     "pages": 7,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna109",
+     "pages": 5,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna110",
+     "pages": 8,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna111",
+     "pages": 20,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna112",
+     "pages": 23,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna113",
+     "pages": 7,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna114",
+     "pages": 7,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna115",
+     "pages": 11,
+     "head": "2019-20"
+    },
+    {
+     "file": "luna116",
+     "pages": 7,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 2415109,
+    "dd": 46008231
+   }
+  },
+  "luph1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "luph101",
+     "pages": 61,
+     "head": "2019-20"
+    },
+    {
+     "file": "luph102",
+     "pages": 51,
+     "head": "2019-20"
+    },
+    {
+     "file": "luph103",
+     "pages": 49,
+     "head": "2019-20"
+    },
+    {
+     "file": "luph104",
+     "pages": 52,
+     "head": "2019-20"
+    },
+    {
+     "file": "luph105",
+     "pages": 40,
+     "head": "2019-20"
+    },
+    {
+     "file": "luph106",
+     "pages": 36,
+     "head": "2019-20"
+    },
+    {
+     "file": "luph107",
+     "pages": 44,
+     "head": "2019-20"
+    },
+    {
+     "file": "luph108",
+     "pages": 23,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 12367641,
+    "dd": 310163594
+   }
+  },
+  "luph2": {
+   "front": "",
+   "chapters": [
+    {
+     "file": "luph201",
+     "pages": 46,
+     "head": ""
+    },
+    {
+     "file": "luph202",
+     "pages": 41,
+     "head": ""
+    },
+    {
+     "file": "luph203",
+     "pages": 36,
+     "head": ""
+    },
+    {
+     "file": "luph204",
+     "pages": 29,
+     "head": ""
+    },
+    {
+     "file": "luph205",
+     "pages": 37,
+     "head": ""
+    },
+    {
+     "file": "luph206",
+     "pages": 40,
+     "head": ""
+    }
+   ],
+   "extras": {
+    "an": 19008745,
+    "ps": 12157620,
+    "dd": 176944755
+   }
+  },
+  "lups1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "lups101",
+     "pages": 16,
+     "head": "2019-20"
+    },
+    {
+     "file": "lups102",
+     "pages": 14,
+     "head": "2019-20"
+    },
+    {
+     "file": "lups103",
+     "pages": 20,
+     "head": "2019-20"
+    },
+    {
+     "file": "lups104",
+     "pages": 15,
+     "head": "2019-20"
+    },
+    {
+     "file": "lups105",
+     "pages": 16,
+     "head": "2019-20"
+    },
+    {
+     "file": "lups106",
+     "pages": 19,
+     "head": "2019-20"
+    },
+    {
+     "file": "lups107",
+     "pages": 18,
+     "head": "2019-20"
+    },
+    {
+     "file": "lups108",
+     "pages": 18,
+     "head": "2019-20"
+    },
+    {
+     "file": "lups109",
+     "pages": 16,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 4524264,
+    "dd": 88413037
+   }
+  },
+  "lupy1": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "lupy101",
+     "pages": 24,
+     "head": "2019-20"
+    },
+    {
+     "file": "lupy102",
+     "pages": 30,
+     "head": "2019-20"
+    },
+    {
+     "file": "lupy103",
+     "pages": 20,
+     "head": "2019-20"
+    },
+    {
+     "file": "lupy104",
+     "pages": 21,
+     "head": "2019-20"
+    },
+    {
+     "file": "lupy105",
+     "pages": 18,
+     "head": "2019-20"
+    },
+    {
+     "file": "lupy106",
+     "pages": 25,
+     "head": "2019-20"
+    },
+    {
+     "file": "lupy107",
+     "pages": 24,
+     "head": "2019-20"
+    },
+    {
+     "file": "lupy108",
+     "pages": 26,
+     "head": "2019-20"
+    },
+    {
+     "file": "lupy109",
+     "pages": 22,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 3952401,
+    "dd": 109963183
+   }
+  },
+  "luth1": {
+   "front": "1 2019-20",
+   "chapters": [
+    {
+     "file": "luth101",
+     "pages": 27,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth102",
+     "pages": 25,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth103",
+     "pages": 29,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth104",
+     "pages": 33,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 5725071,
+    "dd": 78364857
+   }
+  },
+  "luth2": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "luth201",
+     "pages": 26,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth202",
+     "pages": 31,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth203",
+     "pages": 27,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth204",
+     "pages": 30,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth205",
+     "pages": 34,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 6544859,
+    "dd": 100706453
+   }
+  },
+  "luth3": {
+   "front": "2019-20",
+   "chapters": [
+    {
+     "file": "luth301",
+     "pages": 33,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth302",
+     "pages": 29,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth303",
+     "pages": 32,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth304",
+     "pages": 33,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth305",
+     "pages": 32,
+     "head": "2019-20"
+    },
+    {
+     "file": "luth306",
+     "pages": 30,
+     "head": "2019-20"
+    }
+   ],
+   "extras": {
+    "ps": 15785024,
+    "dd": 200439233
+   }
+  }
+ },
+ "seconds": 1016
+}
