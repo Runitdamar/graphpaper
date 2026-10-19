@@ -6,6 +6,7 @@ Result: scripts/qbank_raw.json
 import json
 import re
 import sys
+import time
 import traceback
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -49,10 +50,16 @@ def check(h):
 
 out = {}
 for key, url in PAGES.items():
-    try:
-        r = requests.get(url, headers=H, timeout=60, verify=False)
-    except Exception as e:
-        out[key] = {"error": "%s: %s" % (type(e).__name__, str(e)[:200])}
+    r = None
+    for attempt in range(4):
+        try:
+            r = requests.get(url, headers=H, timeout=60, verify=False)
+            break
+        except Exception as e:
+            err = "%s: %s" % (type(e).__name__, str(e)[:200])
+            time.sleep(5 * (attempt + 1))
+    if r is None:
+        out[key] = {"error": err}
         continue
     print(key, r.status_code, len(r.text), file=sys.stderr, flush=True)
     if r.status_code != 200:
