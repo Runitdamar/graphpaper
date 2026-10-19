@@ -1,0 +1,1709 @@
+{
+ "prefixes": [
+  "judp",
+  "juge",
+  "jujp",
+  "jumh",
+  "june",
+  "jusc",
+  "jusr",
+  "juss",
+  "juuq"
+ ],
+ "books": {
+  "judp1": {
+   "chapters": [
+    {
+     "name": "judp101.pdf",
+     "size": "1681983"
+    },
+    {
+     "name": "judp102.pdf",
+     "size": "1634325"
+    },
+    {
+     "name": "judp103.pdf",
+     "size": "1289033"
+    },
+    {
+     "name": "judp104.pdf",
+     "size": "2444920"
+    },
+    {
+     "name": "judp105.pdf",
+     "size": "855000"
+    },
+    {
+     "name": "judp106.pdf",
+     "size": "1472786"
+    },
+    {
+     "name": "judp107.pdf",
+     "size": "1873732"
+    },
+    {
+     "name": "judp108.pdf",
+     "size": "1126763"
+    },
+    {
+     "name": "judp109.pdf",
+     "size": "577043"
+    },
+    {
+     "name": "judp110.pdf",
+     "size": "1120205"
+    },
+    {
+     "name": "judp111.pdf",
+     "size": "1818897"
+    },
+    {
+     "name": "judp112.pdf",
+     "size": "1292378"
+    },
+    {
+     "name": "judp113.pdf",
+     "size": "1249952"
+    },
+    {
+     "name": "judp114.pdf",
+     "size": "1649955"
+    },
+    {
+     "name": "judp115.pdf",
+     "size": "562833"
+    },
+    {
+     "name": "judp116.pdf",
+     "size": "1224502"
+    },
+    {
+     "name": "judp117.pdf",
+     "size": "1006283"
+    },
+    {
+     "name": "judp118.pdf",
+     "size": "1501659"
+    },
+    {
+     "name": "judp119.pdf",
+     "size": "644810"
+    }
+   ],
+   "extra": [
+    {
+     "name": "judp1ps.pdf",
+     "size": "3105756"
+    },
+    {
+     "name": "judp1dd.zip",
+     "size": "26686780"
+    }
+   ],
+   "zip": [
+    {
+     "name": "judp101.pdf",
+     "size": 1681983,
+     "pages": 5
+    },
+    {
+     "name": "judp102.pdf",
+     "size": 1634325,
+     "pages": 5
+    },
+    {
+     "name": "judp103.pdf",
+     "size": 1289033,
+     "pages": 4
+    },
+    {
+     "name": "judp104.pdf",
+     "size": 2444920,
+     "pages": 7
+    },
+    {
+     "name": "judp105.pdf",
+     "size": 855000,
+     "pages": 4
+    },
+    {
+     "name": "judp106.pdf",
+     "size": 1472786,
+     "pages": 5
+    },
+    {
+     "name": "judp107.pdf",
+     "size": 1873732,
+     "pages": 7
+    },
+    {
+     "name": "judp108.pdf",
+     "size": 1126763,
+     "pages": 4
+    },
+    {
+     "name": "judp109.pdf",
+     "size": 577043,
+     "pages": 3
+    },
+    {
+     "name": "judp110.pdf",
+     "size": 1120205,
+     "pages": 4
+    },
+    {
+     "name": "judp111.pdf",
+     "size": 1818897,
+     "pages": 7
+    },
+    {
+     "name": "judp112.pdf",
+     "size": 1292378,
+     "pages": 4
+    },
+    {
+     "name": "judp113.pdf",
+     "size": 1249952,
+     "pages": 4
+    },
+    {
+     "name": "judp114.pdf",
+     "size": 1649955,
+     "pages": 5
+    },
+    {
+     "name": "judp115.pdf",
+     "size": 562833,
+     "pages": 3
+    },
+    {
+     "name": "judp116.pdf",
+     "size": 1224502,
+     "pages": 4
+    },
+    {
+     "name": "judp117.pdf",
+     "size": 1006283,
+     "pages": 4
+    },
+    {
+     "name": "judp118.pdf",
+     "size": 1501659,
+     "pages": 5
+    },
+    {
+     "name": "judp119.pdf",
+     "size": 644810,
+     "pages": 4
+    },
+    {
+     "name": "judp1ps.pdf",
+     "size": 3105756,
+     "pages": 12
+    }
+   ]
+  },
+  "juge1": {
+   "chapters": [
+    {
+     "name": "juge101.pdf",
+     "size": "10873663"
+    },
+    {
+     "name": "juge102.pdf",
+     "size": "7532235"
+    },
+    {
+     "name": "juge103.pdf",
+     "size": "12206398"
+    },
+    {
+     "name": "juge104.pdf",
+     "size": "8350144"
+    },
+    {
+     "name": "juge105.pdf",
+     "size": "8754601"
+    },
+    {
+     "name": "juge106.pdf",
+     "size": "8791664"
+    },
+    {
+     "name": "juge107.pdf",
+     "size": "7798126"
+    },
+    {
+     "name": "juge108.pdf",
+     "size": "9326470"
+    },
+    {
+     "name": "juge109.pdf",
+     "size": "7382388"
+    },
+    {
+     "name": "juge110.pdf",
+     "size": "10819293"
+    },
+    {
+     "name": "juge111.pdf",
+     "size": "10991763"
+    },
+    {
+     "name": "juge112.pdf",
+     "size": "5933465"
+    }
+   ],
+   "extra": [
+    {
+     "name": "juge1ps.pdf",
+     "size": "3219293"
+    },
+    {
+     "name": "juge1dd.zip",
+     "size": "95991955"
+    }
+   ],
+   "zip": [
+    {
+     "name": "juge101.pdf",
+     "size": 10873663,
+     "pages": 10
+    },
+    {
+     "name": "juge102.pdf",
+     "size": 7532235,
+     "pages": 7
+    },
+    {
+     "name": "juge103.pdf",
+     "size": 12206398,
+     "pages": 11
+    },
+    {
+     "name": "juge104.pdf",
+     "size": 8350144,
+     "pages": 8
+    },
+    {
+     "name": "juge105.pdf",
+     "size": 8754601,
+     "pages": 8
+    },
+    {
+     "name": "juge106.pdf",
+     "size": 8791664,
+     "pages": 8
+    },
+    {
+     "name": "juge107.pdf",
+     "size": 7798126,
+     "pages": 7
+    },
+    {
+     "name": "juge108.pdf",
+     "size": 9326470,
+     "pages": 9
+    },
+    {
+     "name": "juge109.pdf",
+     "size": 7382388,
+     "pages": 6
+    },
+    {
+     "name": "juge110.pdf",
+     "size": 10819293,
+     "pages": 10
+    },
+    {
+     "name": "juge111.pdf",
+     "size": 10991763,
+     "pages": 10
+    },
+    {
+     "name": "juge112.pdf",
+     "size": 5933465,
+     "pages": 6
+    },
+    {
+     "name": "juge1ps.pdf",
+     "size": 3219293,
+     "pages": 12
+    }
+   ]
+  },
+  "jujp1": {
+   "chapters": [
+    {
+     "name": "jujp101.pdf",
+     "size": "1004102"
+    },
+    {
+     "name": "jujp102.pdf",
+     "size": "2121947"
+    },
+    {
+     "name": "jujp103.pdf",
+     "size": "1081400"
+    },
+    {
+     "name": "jujp104.pdf",
+     "size": "2117439"
+    },
+    {
+     "name": "jujp105.pdf",
+     "size": "769735"
+    },
+    {
+     "name": "jujp106.pdf",
+     "size": "1407645"
+    },
+    {
+     "name": "jujp107.pdf",
+     "size": "1441566"
+    },
+    {
+     "name": "jujp108.pdf",
+     "size": "687202"
+    },
+    {
+     "name": "jujp109.pdf",
+     "size": "2161584"
+    },
+    {
+     "name": "jujp110.pdf",
+     "size": "1184817"
+    },
+    {
+     "name": "jujp111.pdf",
+     "size": "750227"
+    },
+    {
+     "name": "jujp112.pdf",
+     "size": "2101793"
+    },
+    {
+     "name": "jujp113.pdf",
+     "size": "740191"
+    },
+    {
+     "name": "jujp114.pdf",
+     "size": "2011663"
+    },
+    {
+     "name": "jujp115.pdf",
+     "size": "1879974"
+    },
+    {
+     "name": "jujp116.pdf",
+     "size": "1145392"
+    },
+    {
+     "name": "jujp117.pdf",
+     "size": "1511744"
+    },
+    {
+     "name": "jujp118.pdf",
+     "size": "2364551"
+    },
+    {
+     "name": "jujp119.pdf",
+     "size": "970831"
+    },
+    {
+     "name": "jujp120.pdf",
+     "size": "2044919"
+    },
+    {
+     "name": "jujp121.pdf",
+     "size": "2411811"
+    },
+    {
+     "name": "jujp122.pdf",
+     "size": "923009"
+    }
+   ],
+   "extra": [
+    {
+     "name": "jujp1ps.pdf",
+     "size": "3158543"
+    },
+    {
+     "name": "jujp1dd.zip",
+     "size": "34682262"
+    }
+   ],
+   "zip": [
+    {
+     "name": "jujp101.pdf",
+     "size": 1004102,
+     "pages": 4
+    },
+    {
+     "name": "jujp102.pdf",
+     "size": 2121947,
+     "pages": 7
+    },
+    {
+     "name": "jujp103.pdf",
+     "size": 1081400,
+     "pages": 5
+    },
+    {
+     "name": "jujp104.pdf",
+     "size": 2117439,
+     "pages": 7
+    },
+    {
+     "name": "jujp105.pdf",
+     "size": 769735,
+     "pages": 3
+    },
+    {
+     "name": "jujp106.pdf",
+     "size": 1407645,
+     "pages": 5
+    },
+    {
+     "name": "jujp107.pdf",
+     "size": 1441566,
+     "pages": 4
+    },
+    {
+     "name": "jujp108.pdf",
+     "size": 687202,
+     "pages": 3
+    },
+    {
+     "name": "jujp109.pdf",
+     "size": 2161584,
+     "pages": 7
+    },
+    {
+     "name": "jujp110.pdf",
+     "size": 1184817,
+     "pages": 4
+    },
+    {
+     "name": "jujp111.pdf",
+     "size": 750227,
+     "pages": 3
+    },
+    {
+     "name": "jujp112.pdf",
+     "size": 2101793,
+     "pages": 5
+    },
+    {
+     "name": "jujp113.pdf",
+     "size": 740191,
+     "pages": 3
+    },
+    {
+     "name": "jujp114.pdf",
+     "size": 2011663,
+     "pages": 7
+    },
+    {
+     "name": "jujp115.pdf",
+     "size": 1879974,
+     "pages": 6
+    },
+    {
+     "name": "jujp116.pdf",
+     "size": 1145392,
+     "pages": 5
+    },
+    {
+     "name": "jujp117.pdf",
+     "size": 1511744,
+     "pages": 5
+    },
+    {
+     "name": "jujp118.pdf",
+     "size": 2364551,
+     "pages": 8
+    },
+    {
+     "name": "jujp119.pdf",
+     "size": 970831,
+     "pages": 4
+    },
+    {
+     "name": "jujp120.pdf",
+     "size": 2044919,
+     "pages": 7
+    },
+    {
+     "name": "jujp121.pdf",
+     "size": 2411811,
+     "pages": 9
+    },
+    {
+     "name": "jujp122.pdf",
+     "size": 923009,
+     "pages": 4
+    },
+    {
+     "name": "jujp1ps.pdf",
+     "size": 3158543,
+     "pages": 12
+    }
+   ]
+  },
+  "jumh1": {
+   "chapters": [
+    {
+     "name": "jumh101.pdf",
+     "size": "6736821"
+    },
+    {
+     "name": "jumh102.pdf",
+     "size": "4372583"
+    },
+    {
+     "name": "jumh103.pdf",
+     "size": "9228991"
+    },
+    {
+     "name": "jumh104.pdf",
+     "size": "5522605"
+    },
+    {
+     "name": "jumh105.pdf",
+     "size": "6275145"
+    },
+    {
+     "name": "jumh106.pdf",
+     "size": "9028468"
+    },
+    {
+     "name": "jumh107.pdf",
+     "size": "5045972"
+    },
+    {
+     "name": "jumh108.pdf",
+     "size": "5071678"
+    },
+    {
+     "name": "jumh109.pdf",
+     "size": "3392146"
+    },
+    {
+     "name": "jumh110.pdf",
+     "size": "2763292"
+    },
+    {
+     "name": "jumh111.pdf",
+     "size": "2013905"
+    },
+    {
+     "name": "jumh112.pdf",
+     "size": "3930781"
+    },
+    {
+     "name": "jumh113.pdf",
+     "size": "7229198"
+    },
+    {
+     "name": "jumh114.pdf",
+     "size": "7690844"
+    },
+    {
+     "name": "jumh115.pdf",
+     "size": "5722119"
+    }
+   ],
+   "extra": [
+    {
+     "name": "jumh1ps.pdf",
+     "size": "4788561"
+    },
+    {
+     "name": "jumh1an.pdf",
+     "size": "4130209"
+    },
+    {
+     "name": "jumh1a1.pdf",
+     "size": "7099568"
+    },
+    {
+     "name": "jumh1a2.pdf",
+     "size": "3842237"
+    },
+    {
+     "name": "jumh1dd.zip",
+     "size": "99884357"
+    }
+   ],
+   "zip": [
+    {
+     "name": "jumh101.pdf",
+     "size": 6736821,
+     "pages": 21
+    },
+    {
+     "name": "jumh102.pdf",
+     "size": 4372583,
+     "pages": 20
+    },
+    {
+     "name": "jumh103.pdf",
+     "size": 9228991,
+     "pages": 37
+    },
+    {
+     "name": "jumh104.pdf",
+     "size": 5522605,
+     "pages": 25
+    },
+    {
+     "name": "jumh105.pdf",
+     "size": 6275145,
+     "pages": 28
+    },
+    {
+     "name": "jumh106.pdf",
+     "size": 9028468,
+     "pages": 42
+    },
+    {
+     "name": "jumh107.pdf",
+     "size": 5045972,
+     "pages": 21
+    },
+    {
+     "name": "jumh108.pdf",
+     "size": 5071678,
+     "pages": 24
+    },
+    {
+     "name": "jumh109.pdf",
+     "size": 3392146,
+     "pages": 12
+    },
+    {
+     "name": "jumh110.pdf",
+     "size": 2763292,
+     "pages": 11
+    },
+    {
+     "name": "jumh111.pdf",
+     "size": 2013905,
+     "pages": 8
+    },
+    {
+     "name": "jumh112.pdf",
+     "size": 3930781,
+     "pages": 16
+    },
+    {
+     "name": "jumh113.pdf",
+     "size": 7229198,
+     "pages": 22
+    },
+    {
+     "name": "jumh114.pdf",
+     "size": 7690844,
+     "pages": 35
+    },
+    {
+     "name": "jumh115.pdf",
+     "size": 5722119,
+     "pages": 20
+    },
+    {
+     "name": "jumh1a1.pdf",
+     "size": 7099568,
+     "pages": 24
+    },
+    {
+     "name": "jumh1a2.pdf",
+     "size": 3842237,
+     "pages": 12
+    },
+    {
+     "name": "jumh1an.pdf",
+     "size": 4130209,
+     "pages": 24
+    },
+    {
+     "name": "jumh1ps.pdf",
+     "size": 4788561,
+     "pages": 18
+    }
+   ]
+  },
+  "june1": {
+   "chapters": [
+    {
+     "name": "june101.pdf",
+     "size": "8117566"
+    },
+    {
+     "name": "june102.pdf",
+     "size": "4326903"
+    },
+    {
+     "name": "june103.pdf",
+     "size": "2940264"
+    },
+    {
+     "name": "june104.pdf",
+     "size": "3431161"
+    },
+    {
+     "name": "june105.pdf",
+     "size": "3260705"
+    },
+    {
+     "name": "june106.pdf",
+     "size": "2839438"
+    },
+    {
+     "name": "june107.pdf",
+     "size": "1275976"
+    },
+    {
+     "name": "june108.pdf",
+     "size": "2152931"
+    },
+    {
+     "name": "june109.pdf",
+     "size": "2574313"
+    },
+    {
+     "name": "june110.pdf",
+     "size": "2676059"
+    },
+    {
+     "name": "june111.pdf",
+     "size": "1994380"
+    },
+    {
+     "name": "june112.pdf",
+     "size": "4320523"
+    },
+    {
+     "name": "june113.pdf",
+     "size": "6029971"
+    },
+    {
+     "name": "june114.pdf",
+     "size": "2167587"
+    }
+   ],
+   "extra": [
+    {
+     "name": "june1ps.pdf",
+     "size": "3033075"
+    },
+    {
+     "name": "june1dd.zip",
+     "size": "49632828"
+    }
+   ],
+   "zip": [
+    {
+     "name": "june101.pdf",
+     "size": 8117566,
+     "pages": 16
+    },
+    {
+     "name": "june102.pdf",
+     "size": 4326903,
+     "pages": 12
+    },
+    {
+     "name": "june103.pdf",
+     "size": 2940264,
+     "pages": 9
+    },
+    {
+     "name": "june104.pdf",
+     "size": 3431161,
+     "pages": 10
+    },
+    {
+     "name": "june105.pdf",
+     "size": 3260705,
+     "pages": 11
+    },
+    {
+     "name": "june106.pdf",
+     "size": 2839438,
+     "pages": 9
+    },
+    {
+     "name": "june107.pdf",
+     "size": 1275976,
+     "pages": 5
+    },
+    {
+     "name": "june108.pdf",
+     "size": 2152931,
+     "pages": 7
+    },
+    {
+     "name": "june109.pdf",
+     "size": 2574313,
+     "pages": 10
+    },
+    {
+     "name": "june110.pdf",
+     "size": 2676059,
+     "pages": 6
+    },
+    {
+     "name": "june111.pdf",
+     "size": 1994380,
+     "pages": 6
+    },
+    {
+     "name": "june112.pdf",
+     "size": 4320523,
+     "pages": 25
+    },
+    {
+     "name": "june113.pdf",
+     "size": 6029971,
+     "pages": 28
+    },
+    {
+     "name": "june114.pdf",
+     "size": 2167587,
+     "pages": 14
+    },
+    {
+     "name": "june1ps.pdf",
+     "size": 3033075,
+     "pages": 12
+    }
+   ]
+  },
+  "jusc1": {
+   "chapters": [
+    {
+     "name": "jusc101.pdf",
+     "size": "8605415"
+    },
+    {
+     "name": "jusc102.pdf",
+     "size": "10857788"
+    },
+    {
+     "name": "jusc103.pdf",
+     "size": "12068043"
+    },
+    {
+     "name": "jusc104.pdf",
+     "size": "12794523"
+    },
+    {
+     "name": "jusc105.pdf",
+     "size": "8385536"
+    },
+    {
+     "name": "jusc106.pdf",
+     "size": "17817893"
+    },
+    {
+     "name": "jusc107.pdf",
+     "size": "8603820"
+    },
+    {
+     "name": "jusc108.pdf",
+     "size": "13484217"
+    },
+    {
+     "name": "jusc109.pdf",
+     "size": "16299749"
+    },
+    {
+     "name": "jusc110.pdf",
+     "size": "14510012"
+    },
+    {
+     "name": "jusc111.pdf",
+     "size": "8008750"
+    },
+    {
+     "name": "jusc112.pdf",
+     "size": "10694078"
+    },
+    {
+     "name": "jusc113.pdf",
+     "size": "12668873"
+    },
+    {
+     "name": "jusc114.pdf",
+     "size": "9784254"
+    },
+    {
+     "name": "jusc115.pdf",
+     "size": "7061415"
+    },
+    {
+     "name": "jusc116.pdf",
+     "size": "10077907"
+    }
+   ],
+   "extra": [
+    {
+     "name": "jusc1ps.pdf",
+     "size": "3373435"
+    },
+    {
+     "name": "jusc1dd.zip",
+     "size": "181476846"
+    }
+   ],
+   "zip": [
+    {
+     "name": "jusc101.pdf",
+     "size": 8605415,
+     "pages": 18
+    },
+    {
+     "name": "jusc102.pdf",
+     "size": 10857788,
+     "pages": 22
+    },
+    {
+     "name": "jusc103.pdf",
+     "size": 12068043,
+     "pages": 25
+    },
+    {
+     "name": "jusc104.pdf",
+     "size": 12794523,
+     "pages": 23
+    },
+    {
+     "name": "jusc105.pdf",
+     "size": 8385536,
+     "pages": 16
+    },
+    {
+     "name": "jusc106.pdf",
+     "size": 17817893,
+     "pages": 24
+    },
+    {
+     "name": "jusc107.pdf",
+     "size": 8603820,
+     "pages": 15
+    },
+    {
+     "name": "jusc108.pdf",
+     "size": 13484217,
+     "pages": 16
+    },
+    {
+     "name": "jusc109.pdf",
+     "size": 16299749,
+     "pages": 20
+    },
+    {
+     "name": "jusc110.pdf",
+     "size": 14510012,
+     "pages": 30
+    },
+    {
+     "name": "jusc111.pdf",
+     "size": 8008750,
+     "pages": 14
+    },
+    {
+     "name": "jusc112.pdf",
+     "size": 10694078,
+     "pages": 26
+    },
+    {
+     "name": "jusc113.pdf",
+     "size": 12668873,
+     "pages": 20
+    },
+    {
+     "name": "jusc114.pdf",
+     "size": 9784254,
+     "pages": 16
+    },
+    {
+     "name": "jusc115.pdf",
+     "size": 7061415,
+     "pages": 11
+    },
+    {
+     "name": "jusc116.pdf",
+     "size": 10077907,
+     "pages": 17
+    },
+    {
+     "name": "jusc1ps.pdf",
+     "size": 3373435,
+     "pages": 10
+    }
+   ]
+  },
+  "jusr1": {
+   "chapters": [
+    {
+     "name": "jusr101.pdf",
+     "size": "3141747"
+    },
+    {
+     "name": "jusr102.pdf",
+     "size": "2942249"
+    },
+    {
+     "name": "jusr103.pdf",
+     "size": "3381859"
+    },
+    {
+     "name": "jusr104.pdf",
+     "size": "3077070"
+    },
+    {
+     "name": "jusr105.pdf",
+     "size": "4120495"
+    },
+    {
+     "name": "jusr106.pdf",
+     "size": "2153461"
+    },
+    {
+     "name": "jusr107.pdf",
+     "size": "3686513"
+    },
+    {
+     "name": "jusr108.pdf",
+     "size": "2652002"
+    },
+    {
+     "name": "jusr109.pdf",
+     "size": "2838210"
+    }
+   ],
+   "extra": [
+    {
+     "name": "jusr1ps.pdf",
+     "size": "3346460"
+    },
+    {
+     "name": "jusr1dd.zip",
+     "size": "30449677"
+    }
+   ],
+   "zip": [
+    {
+     "name": "jusr101.pdf",
+     "size": 3141747,
+     "pages": 10
+    },
+    {
+     "name": "jusr102.pdf",
+     "size": 2942249,
+     "pages": 9
+    },
+    {
+     "name": "jusr103.pdf",
+     "size": 3381859,
+     "pages": 10
+    },
+    {
+     "name": "jusr104.pdf",
+     "size": 3077070,
+     "pages": 10
+    },
+    {
+     "name": "jusr105.pdf",
+     "size": 4120495,
+     "pages": 12
+    },
+    {
+     "name": "jusr106.pdf",
+     "size": 2153461,
+     "pages": 7
+    },
+    {
+     "name": "jusr107.pdf",
+     "size": 3686513,
+     "pages": 12
+    },
+    {
+     "name": "jusr108.pdf",
+     "size": 2652002,
+     "pages": 8
+    },
+    {
+     "name": "jusr109.pdf",
+     "size": 2838210,
+     "pages": 10
+    },
+    {
+     "name": "jusr1ps.pdf",
+     "size": 3346460,
+     "pages": 12
+    }
+   ]
+  },
+  "juss1": {
+   "chapters": [
+    {
+     "name": "juss101.pdf",
+     "size": "60321146"
+    },
+    {
+     "name": "juss102.pdf",
+     "size": "55771886"
+    },
+    {
+     "name": "juss103.pdf",
+     "size": "84978765"
+    },
+    {
+     "name": "juss104.pdf",
+     "size": "115043954"
+    },
+    {
+     "name": "juss105.pdf",
+     "size": "63200400"
+    },
+    {
+     "name": "juss106.pdf",
+     "size": "56180947"
+    },
+    {
+     "name": "juss107.pdf",
+     "size": "69088384"
+    }
+   ],
+   "extra": [
+    {
+     "name": "juss1ps.pdf",
+     "size": "11324467"
+    },
+    {
+     "name": "juss1dd.zip",
+     "size": "491494447"
+    }
+   ],
+   "zip": [
+    {
+     "name": "juss101.pdf",
+     "size": 60321146,
+     "pages": 15
+    },
+    {
+     "name": "juss102.pdf",
+     "size": 55771886,
+     "pages": 11
+    },
+    {
+     "name": "juss103.pdf",
+     "size": 84978765,
+     "pages": 13
+    },
+    {
+     "name": "juss104.pdf",
+     "size": 115043954,
+     "pages": 18
+    },
+    {
+     "name": "juss105.pdf",
+     "size": 63200400,
+     "pages": 17
+    },
+    {
+     "name": "juss106.pdf",
+     "size": 56180947,
+     "pages": 19
+    },
+    {
+     "name": "juss107.pdf",
+     "size": 69088384,
+     "pages": 14
+    },
+    {
+     "name": "juss1Gl.pdf",
+     "size": 9253592,
+     "pages": 5
+    },
+    {
+     "name": "juss1cc.jpg",
+     "size": 92967
+    },
+    {
+     "name": "juss1ps.pdf",
+     "size": 11324467,
+     "pages": 10
+    }
+   ]
+  },
+  "juss2": {
+   "chapters": [
+    {
+     "name": "juss201.pdf",
+     "size": "12105700"
+    },
+    {
+     "name": "juss202.pdf",
+     "size": "14736923"
+    },
+    {
+     "name": "juss203.pdf",
+     "size": "17644104"
+    },
+    {
+     "name": "juss204.pdf",
+     "size": "17465620"
+    },
+    {
+     "name": "juss205.pdf",
+     "size": "11616137"
+    }
+   ],
+   "extra": [
+    {
+     "name": "juss2ps.pdf",
+     "size": "8266622"
+    },
+    {
+     "name": "juss2dd.zip",
+     "size": "80787661"
+    }
+   ],
+   "zip": [
+    {
+     "name": "juss2dd/juss201.pdf",
+     "size": 12105700,
+     "pages": 16
+    },
+    {
+     "name": "juss2dd/juss202.pdf",
+     "size": 14736923,
+     "pages": 20
+    },
+    {
+     "name": "juss2dd/juss203.pdf",
+     "size": 17644104,
+     "pages": 17
+    },
+    {
+     "name": "juss2dd/juss204.pdf",
+     "size": 17465620,
+     "pages": 20
+    },
+    {
+     "name": "juss2dd/juss205.pdf",
+     "size": 11616137,
+     "pages": 20
+    },
+    {
+     "name": "juss2dd/juss2cc.jpg",
+     "size": 286644
+    },
+    {
+     "name": "juss2dd/juss2ps.pdf",
+     "size": 8266622,
+     "pages": 15
+    }
+   ]
+  },
+  "juss3": {
+   "chapters": [
+    {
+     "name": "juss301.pdf",
+     "size": "13780094"
+    },
+    {
+     "name": "juss302.pdf",
+     "size": "12726462"
+    },
+    {
+     "name": "juss303.pdf",
+     "size": "14324882"
+    },
+    {
+     "name": "juss304.pdf",
+     "size": "13757823"
+    },
+    {
+     "name": "juss305.pdf",
+     "size": "13552474"
+    },
+    {
+     "name": "juss306.pdf",
+     "size": "114464171"
+    },
+    {
+     "name": "juss307.pdf",
+     "size": "99305328"
+    },
+    {
+     "name": "juss308.pdf",
+     "size": "82745031"
+    }
+   ],
+   "extra": [
+    {
+     "name": "juss3ps.pdf",
+     "size": "3991796"
+    },
+    {
+     "name": "juss3dd.zip",
+     "size": "71712666"
+    }
+   ],
+   "zip": [
+    {
+     "name": "juss3dd/juss301.pdf",
+     "size": 13780094,
+     "pages": 28
+    },
+    {
+     "name": "juss3dd/juss302.pdf",
+     "size": 12726462,
+     "pages": 22
+    },
+    {
+     "name": "juss3dd/juss303.pdf",
+     "size": 14324882,
+     "pages": 28
+    },
+    {
+     "name": "juss3dd/juss304.pdf",
+     "size": 13757823,
+     "pages": 24
+    },
+    {
+     "name": "juss3dd/juss305.pdf",
+     "size": 13552474,
+     "pages": 28
+    },
+    {
+     "name": "juss3dd/juss3ps.pdf",
+     "size": 3991796,
+     "pages": 14
+    }
+   ]
+  },
+  "juss4": {
+   "chapters": [
+    {
+     "name": "juss401.pdf",
+     "size": "7752488"
+    },
+    {
+     "name": "juss402.pdf",
+     "size": "10630520"
+    },
+    {
+     "name": "juss403.pdf",
+     "size": "8048719"
+    },
+    {
+     "name": "juss404.pdf",
+     "size": "11280496"
+    },
+    {
+     "name": "juss405.pdf",
+     "size": "9107730"
+    },
+    {
+     "name": "juss406.pdf",
+     "size": "13263495"
+    },
+    {
+     "name": "juss407.pdf",
+     "size": "7275728"
+    },
+    {
+     "name": "juss408.pdf",
+     "size": "6482945"
+    }
+   ],
+   "extra": [
+    {
+     "name": "juss4ps.pdf",
+     "size": "4439684"
+    },
+    {
+     "name": "juss4dd.zip",
+     "size": "76656298"
+    }
+   ],
+   "zip": [
+    {
+     "name": "juss401.pdf",
+     "size": 7752488,
+     "pages": 12
+    },
+    {
+     "name": "juss402.pdf",
+     "size": 10630520,
+     "pages": 18
+    },
+    {
+     "name": "juss403.pdf",
+     "size": 8048719,
+     "pages": 12
+    },
+    {
+     "name": "juss404.pdf",
+     "size": 11280496,
+     "pages": 18
+    },
+    {
+     "name": "juss405.pdf",
+     "size": 9107730,
+     "pages": 16
+    },
+    {
+     "name": "juss406.pdf",
+     "size": 13263495,
+     "pages": 20
+    },
+    {
+     "name": "juss407.pdf",
+     "size": 7275728,
+     "pages": 12
+    },
+    {
+     "name": "juss408.pdf",
+     "size": 6482945,
+     "pages": 12
+    },
+    {
+     "name": "juss4ps.pdf",
+     "size": 4439684,
+     "pages": 12
+    }
+   ]
+  },
+  "juuq1": {
+   "chapters": [
+    {
+     "name": "juuq101.pdf",
+     "size": "5305469"
+    },
+    {
+     "name": "juuq102.pdf",
+     "size": "552419"
+    },
+    {
+     "name": "juuq103.pdf",
+     "size": "1239775"
+    },
+    {
+     "name": "juuq104.pdf",
+     "size": "3344979"
+    },
+    {
+     "name": "juuq105.pdf",
+     "size": "1275532"
+    },
+    {
+     "name": "juuq106.pdf",
+     "size": "3586844"
+    },
+    {
+     "name": "juuq107.pdf",
+     "size": "340910"
+    },
+    {
+     "name": "juuq108.pdf",
+     "size": "175684"
+    },
+    {
+     "name": "juuq109.pdf",
+     "size": "228438"
+    },
+    {
+     "name": "juuq110.pdf",
+     "size": "440529"
+    },
+    {
+     "name": "juuq111.pdf",
+     "size": "156867"
+    },
+    {
+     "name": "juuq112.pdf",
+     "size": "186517"
+    },
+    {
+     "name": "juuq113.pdf",
+     "size": "680124"
+    },
+    {
+     "name": "juuq114.pdf",
+     "size": "1046499"
+    },
+    {
+     "name": "juuq115.pdf",
+     "size": "1127741"
+    },
+    {
+     "name": "juuq116.pdf",
+     "size": "2808079"
+    },
+    {
+     "name": "juuq117.pdf",
+     "size": "1605099"
+    },
+    {
+     "name": "juuq118.pdf",
+     "size": "2685519"
+    },
+    {
+     "name": "juuq119.pdf",
+     "size": "4318794"
+    },
+    {
+     "name": "juuq120.pdf",
+     "size": "2620416"
+    },
+    {
+     "name": "juuq121.pdf",
+     "size": "4068187"
+    },
+    {
+     "name": "juuq122.pdf",
+     "size": "3155098"
+    }
+   ],
+   "extra": [
+    {
+     "name": "juuq1ps.pdf",
+     "size": "5506399"
+    },
+    {
+     "name": "juuq1dd.zip",
+     "size": "45351416"
+    }
+   ],
+   "zip": [
+    {
+     "name": "juuq101.pdf",
+     "size": 5305469,
+     "pages": 6
+    },
+    {
+     "name": "juuq102.pdf",
+     "size": 552419,
+     "pages": 2
+    },
+    {
+     "name": "juuq103.pdf",
+     "size": 1239775,
+     "pages": 5
+    },
+    {
+     "name": "juuq104.pdf",
+     "size": 3344979,
+     "pages": 2
+    },
+    {
+     "name": "juuq105.pdf",
+     "size": 1275532,
+     "pages": 5
+    },
+    {
+     "name": "juuq106.pdf",
+     "size": 3586844,
+     "pages": 7
+    },
+    {
+     "name": "juuq107.pdf",
+     "size": 340910,
+     "pages": 1
+    },
+    {
+     "name": "juuq108.pdf",
+     "size": 175684,
+     "pages": 1
+    },
+    {
+     "name": "juuq109.pdf",
+     "size": 228438,
+     "pages": 1
+    },
+    {
+     "name": "juuq110.pdf",
+     "size": 440529,
+     "pages": 3
+    },
+    {
+     "name": "juuq111.pdf",
+     "size": 156867,
+     "pages": 1
+    },
+    {
+     "name": "juuq112.pdf",
+     "size": 186517,
+     "pages": 1
+    },
+    {
+     "name": "juuq113.pdf",
+     "size": 680124,
+     "pages": 2
+    },
+    {
+     "name": "juuq114.pdf",
+     "size": 1046499,
+     "pages": 5
+    },
+    {
+     "name": "juuq115.pdf",
+     "size": 1127741,
+     "pages": 4
+    },
+    {
+     "name": "juuq116.pdf",
+     "size": 2808079,
+     "pages": 11
+    },
+    {
+     "name": "juuq117.pdf",
+     "size": 1605099,
+     "pages": 6
+    },
+    {
+     "name": "juuq118.pdf",
+     "size": 2685519,
+     "pages": 10
+    },
+    {
+     "name": "juuq119.pdf",
+     "size": 4318794,
+     "pages": 12
+    },
+    {
+     "name": "juuq120.pdf",
+     "size": 2620416,
+     "pages": 10
+    },
+    {
+     "name": "juuq121.pdf",
+     "size": 4068187,
+     "pages": 9
+    },
+    {
+     "name": "juuq122.pdf",
+     "size": 3155098,
+     "pages": 19
+    },
+    {
+     "name": "juuq1cc.jpg",
+     "size": 29983
+    },
+    {
+     "name": "juuq1ps.pdf",
+     "size": 5506399,
+     "pages": 12
+    }
+   ]
+  }
+ }
+}
