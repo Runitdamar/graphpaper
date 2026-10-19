@@ -88,6 +88,37 @@ for code, b in sorted(disc.items()):
     if chs:
         books.append({"cls": CLS[code[0]], "sub": sub, "title": name, "code": code, "label": "Chapter", "ch": chs})
 
+
+# --- Class 10 refinement -------------------------------------------------------------------
+# scripts/class10_refined.json (scripts/refine_class10.py) found chapter files the first pass missed
+# (Political Science had 5, not 1). Titles below were checked against each chapter's first page.
+C10_TITLES = {
+ "jeff1": ["A Letter to God", "Nelson Mandela: Long Walk to Freedom", "Two Stories about Flying", "From the Diary of Anne Frank", "Glimpses of India", "Mijbil the Otter", "Madam Rides the Bus", "The Sermon at Benares", "The Proposal"],
+ "jefp1": ["A Triumph of Surgery", "The Thief\u2019s Story", "The Midnight Visitor", "A Question of Trust", "Footprints without Feet", "The Making of a Scientist", "The Necklace", "Bholi", "The Book That Saved the Earth"],
+ "jemh1": ["Real Numbers", "Polynomials", "Pair of Linear Equations in Two Variables", "Quadratic Equations", "Arithmetic Progressions", "Triangles", "Coordinate Geometry", "Introduction to Trigonometry", "Some Applications of Trigonometry", "Circles", "Areas Related to Circles", "Surface Areas and Volumes", "Statistics", "Probability"],
+ "jesc1": ["Chemical Reactions and Equations", "Acids, Bases and Salts", "Metals and Non-metals", "Carbon and its Compounds", "Life Processes", "Control and Coordination", "How do Organisms Reproduce?", "Heredity", "Light \u2013 Reflection and Refraction", "The Human Eye and the Colourful World", "Electricity", "Magnetic Effects of Electric Current", "Our Environment"],
+ "jess1": ["Resources and Development", "Forest and Wildlife Resources", "Water Resources", "Agriculture", "Minerals and Energy Resources", "Manufacturing Industries", "Lifelines of National Economy"],
+ "jess2": ["Development", "Sectors of the Indian Economy", "Money and Credit", "Globalisation and the Indian Economy", "Consumer Rights"],
+ "jess3": ["The Rise of Nationalism in Europe", "Nationalism in India", "The Making of a Global World", "The Age of Industrialisation", "Print Culture and the Modern World"],
+ "jess4": ["Power-sharing", "Federalism", "Gender, Religion and Caste", "Political Parties", "Outcomes of Democracy"],
+}
+refined_path = root / "class10_refined.json"
+refined = json.loads(refined_path.read_text(encoding="utf-8")) if refined_path.exists() else {}
+for b in books:
+    if b["cls"] != 10:
+        continue
+    have = {c[0] for c in b["ch"]}
+    for c in refined.get(b["code"], []):
+        idx = int(c["file"][len(b["code"]):])
+        if idx not in have:
+            b["ch"].append([idx, None, idx])
+    b["ch"].sort(key=lambda c: c[0])
+    names = C10_TITLES.get(b["code"])
+    if names and len(names) == len(b["ch"]):
+        for c in b["ch"]:
+            c[1] = names[c[0] - 1]
+# -------------------------------------------------------------------------------------------
+
 books.sort(key=lambda b: (b["cls"], b["sub"], b["code"]))
 (root.parent / "books_1_10.json").write_text(json.dumps(books, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 print(len(books), "books,", sum(len(b["ch"]) for b in books), "chapters,", sum(1 for b in books for c in b["ch"] if c[1]), "with titles")
