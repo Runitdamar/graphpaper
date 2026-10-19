@@ -1,0 +1,29 @@
+name: Inspect Class 10 zips
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scripts/requirements.txt
+      - run: python scripts/inspect_zips.py
+      - name: Commit result
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain scripts/class10_zips.json)" ]; then
+            git config user.name "graphpaper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add scripts/class10_zips.json
+            git commit -m "Save Class 10 zip listing"
+            for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push && break; sleep 5; done
+          fi
