@@ -1,3 +1,2760 @@
 {
- "error": "SSLError: HTTPSConnectionPool(host='cbseacademic.nic.in', port=443): Max retries exceeded with url: /curriculum_2027.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')))"
+ "page_status": 200,
+ "links": [
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Curriculum_SecP1_2026-27.pdf",
+   "text": "Introduction to Secondary Curriculum: Part - 1",
+   "row": [],
+   "li": "",
+   "heads": [
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Arabic_SecP1_2026-27.pdf",
+   "text": "Arabic",
+   "row": [],
+   "li": "Arabic",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Assamese_SecP1_2026-27.pdf",
+   "text": "Assamese",
+   "row": [],
+   "li": "Assamese",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Bahasa_Melayu_SecP1_2026-27.pdf",
+   "text": "Bahasa Melayu",
+   "row": [],
+   "li": "Bahasa Melayu",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Bengali_SecP1_2026-27.pdf",
+   "text": "Bengali",
+   "row": [],
+   "li": "Bengali",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Bhoti_SecP1_2026-27.pdf",
+   "text": "Bhoti",
+   "row": [],
+   "li": "Bhoti",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Bhutia_SecP1_2026-27.pdf",
+   "text": "Bhutia",
+   "row": [],
+   "li": "Bhutia",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Bodo_SecP1_2026-27.pdf",
+   "text": "Bodo",
+   "row": [],
+   "li": "Bodo",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Dogri_SecP1_2026-27.pdf",
+   "text": "Dogri",
+   "row": [],
+   "li": "Dogri",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/English_LL_SecP1IX_2026-27.pdf",
+   "text": "English",
+   "row": [],
+   "li": "English",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/French_SecP1_2026-27.pdf",
+   "text": "French",
+   "row": [],
+   "li": "French",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/German_SecP1_2026-27.pdf",
+   "text": "German",
+   "row": [],
+   "li": "German",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Gujarati_SecP1_2026-27.pdf",
+   "text": "Gujarati",
+   "row": [],
+   "li": "Gujarati",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Gurung_SecP1_2026-27.pdf",
+   "text": "Gurung",
+   "row": [],
+   "li": "Gurung",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindi_SecP1IX_2026-27.pdf",
+   "text": "Hindi",
+   "row": [],
+   "li": "Hindi",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Japanese_SecP1_2026-27.pdf",
+   "text": "Japanese",
+   "row": [],
+   "li": "Japanese",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Kannada_SecP1IX_2026-27.pdf",
+   "text": "Kannada",
+   "row": [],
+   "li": "Kannada",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Kashmiri_SecP1_2026-27.pdf",
+   "text": "Kashmiri",
+   "row": [],
+   "li": "Kashmiri",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/KOKBOROK_SecP1_2026-27.pdf",
+   "text": "Kokborok",
+   "row": [],
+   "li": "Kokborok",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/KONKANI_SecP1_2026-27.pdf",
+   "text": "Konkani",
+   "row": [],
+   "li": "Konkani",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Lepcha_SecP1_2026-27.pdf",
+   "text": "Lepcha",
+   "row": [],
+   "li": "Lepcha",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Limboo_SecP1_2026-27.pdf",
+   "text": "Limboo",
+   "row": [],
+   "li": "Limboo",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Malyalam_SecP1_2026-27.pdf",
+   "text": "Malayalam",
+   "row": [],
+   "li": "Malayalam",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Manipuri_SecP1_2026-27.pdf",
+   "text": "Manipuri",
+   "row": [],
+   "li": "Manipuri",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Marathi_SecP1_2026-27.pdf",
+   "text": "Marathi",
+   "row": [],
+   "li": "Marathi",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/MAITHILI_SecP1_2026-27.pdf",
+   "text": "Maithili",
+   "row": [],
+   "li": "Maithili",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Mizo_SecP1_2026-27.pdf",
+   "text": "Mizo",
+   "row": [],
+   "li": "Mizo",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Nepali_SecP1_2026-27.pdf",
+   "text": "Nepali",
+   "row": [],
+   "li": "Nepali",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Odia_SecP1_2026-27.pdf",
+   "text": "Odia",
+   "row": [],
+   "li": "Odia",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Persian_SecP1_2026-27.pdf",
+   "text": "Persian",
+   "row": [],
+   "li": "Persian",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Punjabi_SecP1_2026-27.pdf",
+   "text": "Punjabi",
+   "row": [],
+   "li": "Punjabi",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Rai_SecP1_2026-27.pdf",
+   "text": "Rai",
+   "row": [],
+   "li": "Rai",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Russian_SecP1_2026-27.pdf",
+   "text": "Russian",
+   "row": [],
+   "li": "Russian",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Sanskrit_SecP1IX_2026-27.pdf",
+   "text": "Sanskrit",
+   "row": [],
+   "li": "Sanskrit",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Santhali_SecP1_2026-27.pdf",
+   "text": "Santhali",
+   "row": [],
+   "li": "Santhali",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Sindhi_SecP1_2026-27.pdf",
+   "text": "Sindhi",
+   "row": [],
+   "li": "Sindhi",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Spanish_SecP1_2026-27.pdf",
+   "text": "Spanish",
+   "row": [],
+   "li": "Spanish",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Sherpa_SecP1_2026-27.pdf",
+   "text": "Sherpa",
+   "row": [],
+   "li": "Sherpa",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Tamang_SecP1_2026-27.pdf",
+   "text": "Tamang",
+   "row": [],
+   "li": "Tamang",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Tamil_SecP1_2026-27.pdf",
+   "text": "Tamil",
+   "row": [],
+   "li": "Tamil",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Tangkhul_SecP1_2026-27.pdf",
+   "text": "Tangkhul",
+   "row": [],
+   "li": "Tangkhul",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Telugu_SecP1_2026-27.pdf",
+   "text": "Telugu AP",
+   "row": [],
+   "li": "Telugu AP",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Telugu_Telangana_SecP1_2026-27.pdf",
+   "text": "Telugu Telangana",
+   "row": [],
+   "li": "Telugu Telangana",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Tibetan_SecP1_2026-27.pdf",
+   "text": "Tibetan",
+   "row": [],
+   "li": "Tibetan",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Thai_SecP1_2026-27.pdf",
+   "text": "Thai",
+   "row": [],
+   "li": "Thai",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Urdu_SecP1IX_2026-27.pdf",
+   "text": "Urdu",
+   "row": [],
+   "li": "Urdu",
+   "heads": [
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)",
+    "Curriculum for the Academic Year 2026-27"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Maths_SecP1IX_2026-27.pdf",
+   "text": "Mathematics",
+   "row": [],
+   "li": "Mathematics",
+   "heads": [
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/MathsAd_SecP1_2026-27.pdf",
+   "text": "Mathematics at Advanced Level",
+   "row": [],
+   "li": "Mathematics at Advanced Level",
+   "heads": [
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/ScienceSt_SecP1_2026-27.pdf",
+   "text": "Science",
+   "row": [],
+   "li": "Science",
+   "heads": [
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/ScienceAd_SecP1_2026-27.pdf",
+   "text": "Science at Advanced Level",
+   "row": [],
+   "li": "Science at Advanced Level",
+   "heads": [
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1IX_2026-27.pdf",
+   "text": "Social Science",
+   "row": [],
+   "li": "Social Science",
+   "heads": [
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/InterdisAreas_SecP1_2026-27.pdf",
+   "text": "Interdisciplinary Area",
+   "row": [],
+   "li": "Interdisciplinary Area",
+   "heads": [
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)"
+   ],
+   "ok": false
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/Curriculum27/publication/secondary/Vocational_Education_(Kaushal_Vikas).pdf",
+   "text": "Vocational Education (Kaushal Vikas)",
+   "row": [],
+   "li": "Vocational Education (Kaushal Vikas)",
+   "heads": [
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/CTAI_SecP1_2026-27.pdf",
+   "text": "Computational Thinking & AI",
+   "row": [],
+   "li": "Computational Thinking & AI",
+   "heads": [
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)"
+   ],
+   "ok": false
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/PEWB_SecP1_2026-27.pdf",
+   "text": "Physical Education & Well Being",
+   "row": [],
+   "li": "Physical Education & Well Being",
+   "heads": [
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Art_Education_SecP1IX_2026-27.pdf",
+   "text": "Art Education",
+   "row": [],
+   "li": "Art Education",
+   "heads": [
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class IX)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Home_Science_SecP1IX_2026-27.pdf",
+   "text": "Home Science",
+   "row": [],
+   "li": "Home Science",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Painting_SecP1IX_2026-27.pdf",
+   "text": "Painting",
+   "row": [],
+   "li": "Painting",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/NCC_SecP1IX_2026-27.pdf",
+   "text": "National Cadet Corps (NCC)",
+   "row": [],
+   "li": "National Cadet Corps (NCC)",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Computer_Applications_SecP1IX_2026-27.pdf",
+   "text": "Computer Applications",
+   "row": [],
+   "li": "Computer Applications",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Elements_of_Business_SecP1IX_2026-27.pdf",
+   "text": "Elements of Business",
+   "row": [],
+   "li": "Elements of Business",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Elements_of_BK_Acc_SecP1IX_2026-27.pdf",
+   "text": "Elements of Book Keeping & Accountancy",
+   "row": [],
+   "li": "Elements of Book Keeping & Accountancy",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/Curriculum27/sec/401-RETAIL-IX.pdf",
+   "text": "Retail",
+   "row": [],
+   "li": "Retail",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/Curriculum27/sec/402-IT-IX.pdf",
+   "text": "Information Technology",
+   "row": [],
+   "li": "Information Technology",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/Curriculum27/sec/405-FMM-IX.pdf",
+   "text": "Introduction to Financial Markets",
+   "row": [],
+   "li": "Introduction to Financial Markets",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/Curriculum27/sec/406-INTRODUCTION_TOURISM-IX.pdf",
+   "text": "Introduction to Tourism",
+   "row": [],
+   "li": "Introduction to Tourism",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/Curriculum27/sec/407-BEAUTY_AND_WELLNESS-IX.pdf",
+   "text": "Beauty & Wellness",
+   "row": [],
+   "li": "Beauty & Wellness",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/Curriculum27/sec/410-FRONT_OFFICE_OPERATIONS-IX.pdf",
+   "text": "Front Office Operations",
+   "row": [],
+   "li": "Front Office Operations",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/Curriculum27/sec/412-MARKETING_SALES_IX.pdf",
+   "text": "Marketing and Sales",
+   "row": [],
+   "li": "Marketing and Sales",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/Curriculum27/sec/417-AI-IX.pdf",
+   "text": "Artificial Intelligence",
+   "row": [],
+   "li": "Artificial Intelligence",
+   "heads": [
+    "Optional Subjects",
+    "Main Subjects",
+    "Languages",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Curriculum_SecP1_2026-27.pdf",
+   "text": "Introduction to Secondary Curriculum",
+   "row": [],
+   "li": "",
+   "heads": [
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects",
+    "Main Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Arabic_SecP1_2026-27.pdf",
+   "text": "Arabic",
+   "row": [],
+   "li": "Arabic",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Assamese_SecP1_2026-27.pdf",
+   "text": "Assamese",
+   "row": [],
+   "li": "Assamese",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Bahasa_Melayu_SecP1_2026-27.pdf",
+   "text": "Bahasa Melayu",
+   "row": [],
+   "li": "Bahasa Melayu",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Bengali_SecP1_2026-27.pdf",
+   "text": "Bengali",
+   "row": [],
+   "li": "Bengali",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Bhoti_SecP1_2026-27.pdf",
+   "text": "Bhoti",
+   "row": [],
+   "li": "Bhoti",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Bhutia_SecP1_2026-27.pdf",
+   "text": "Bhutia",
+   "row": [],
+   "li": "Bhutia",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Bodo_SecP1_2026-27.pdf",
+   "text": "Bodo",
+   "row": [],
+   "li": "Bodo",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/English_LL_SecP1_2026-27.pdf",
+   "text": "English - Language and Literature",
+   "row": [],
+   "li": "English - Language and Literature",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/English_Communicative_SecP1_2026-27.pdf",
+   "text": "English Communicative",
+   "row": [],
+   "li": "English Communicative",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/French_SecP1_2026-27.pdf",
+   "text": "French",
+   "row": [],
+   "li": "French",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/German_SecP1_2026-27.pdf",
+   "text": "German",
+   "row": [],
+   "li": "German",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Gujarati_SecP1_2026-27.pdf",
+   "text": "Gujarati",
+   "row": [],
+   "li": "Gujarati",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Gurung_SecP1_2026-27.pdf",
+   "text": "Gurung",
+   "row": [],
+   "li": "Gurung",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindi_A_SecP1_2026-27.pdf",
+   "text": "Hindi Course-A",
+   "row": [],
+   "li": "Hindi Course-A",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindi_B_SecP1_2026-27.pdf",
+   "text": "Hindi Course-B",
+   "row": [],
+   "li": "Hindi Course-B",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Japanese_SecP1_2026-27.pdf",
+   "text": "Japanese",
+   "row": [],
+   "li": "Japanese",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Kannada_SecP1X_2026-27.pdf",
+   "text": "Kannada",
+   "row": [],
+   "li": "Kannada",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Kashmiri_SecP1_2026-27.pdf",
+   "text": "Kashmiri",
+   "row": [],
+   "li": "Kashmiri",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/KOKBOROK_SecP1_2026-27.pdf",
+   "text": "Kokborok",
+   "row": [],
+   "li": "Kokborok",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Lepcha_SecP1_2026-27.pdf",
+   "text": "Lepcha",
+   "row": [],
+   "li": "Lepcha",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Limboo_SecP1_2026-27.pdf",
+   "text": "Limboo",
+   "row": [],
+   "li": "Limboo",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Malyalam_SecP1_2026-27.pdf",
+   "text": "Malayalam",
+   "row": [],
+   "li": "Malayalam",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Manipuri_SecP1_2026-27.pdf",
+   "text": "Manipuri",
+   "row": [],
+   "li": "Manipuri",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Marathi_SecP1_2026-27.pdf",
+   "text": "Marathi",
+   "row": [],
+   "li": "Marathi",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Mizo_SecP1_2026-27.pdf",
+   "text": "Mizo",
+   "row": [],
+   "li": "Mizo",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Nepali_SecP1_2026-27.pdf",
+   "text": "Nepali",
+   "row": [],
+   "li": "Nepali",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Odia_SecP1_2026-27.pdf",
+   "text": "Odia",
+   "row": [],
+   "li": "Odia",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Persian_SecP1_2026-27.pdf",
+   "text": "Persian",
+   "row": [],
+   "li": "Persian",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Punjabi_SecP1_2026-27.pdf",
+   "text": "Punjabi",
+   "row": [],
+   "li": "Punjabi",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Rai_SecP1_2026-27.pdf",
+   "text": "Rai",
+   "row": [],
+   "li": "Rai",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Russian_SecP1_2026-27.pdf",
+   "text": "Russian",
+   "row": [],
+   "li": "Russian",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Sanskrit_SecP1_2026-27.pdf",
+   "text": "Sanskrit",
+   "row": [],
+   "li": "Sanskrit",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Sanskrit_Communiucative_SecP1_2026-27.pdf",
+   "text": "Sanskrit Communiucative",
+   "row": [],
+   "li": "Sanskrit Communiucative",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Sindhi_SecP1_2026-27.pdf",
+   "text": "Sindhi",
+   "row": [],
+   "li": "Sindhi",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Spanish_SecP1_2026-27.pdf",
+   "text": "Spanish",
+   "row": [],
+   "li": "Spanish",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Sherpa_SecP1_2026-27.pdf",
+   "text": "Sherpa",
+   "row": [],
+   "li": "Sherpa",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Tamang_SecP1_2026-27.pdf",
+   "text": "Tamang",
+   "row": [],
+   "li": "Tamang",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Tamil_SecP1_2026-27.pdf",
+   "text": "Tamil",
+   "row": [],
+   "li": "Tamil",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Tangkhul_SecP1_2026-27.pdf",
+   "text": "Tangkhul",
+   "row": [],
+   "li": "Tangkhul",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Telugu_SecP1_2026-27.pdf",
+   "text": "Telugu AP",
+   "row": [],
+   "li": "Telugu AP",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Telugu_Telangana_SecP1_2026-27.pdf",
+   "text": "Telugu Telangana",
+   "row": [],
+   "li": "Telugu Telangana",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Tibetan_SecP1_2026-27.pdf",
+   "text": "Tibetan",
+   "row": [],
+   "li": "Tibetan",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Thai_SecP1_2026-27.pdf",
+   "text": "Thai",
+   "row": [],
+   "li": "Thai",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/UrduA_SecP1X_2026-27.pdf",
+   "text": "Course A",
+   "row": [],
+   "li": "UrduCourse ACourse B",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/UrduB_SecP1X_2026-27.pdf",
+   "text": "Course B",
+   "row": [],
+   "li": "UrduCourse ACourse B",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)",
+    "Optional Subjects"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Maths_SecP1X_2026-27.pdf",
+   "text": "Mathematics",
+   "row": [],
+   "li": "Mathematics",
+   "heads": [
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Science_SecP1_2026-27.pdf",
+   "text": "Science",
+   "row": [],
+   "li": "ScienceReading Material",
+   "heads": [
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Science_SecP1IX_2026-27_RM.pdf",
+   "text": "Reading Material",
+   "row": [],
+   "li": "ScienceReading Material",
+   "heads": [
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/SocialScience_SecP1X_2026-27.pdf",
+   "text": "Social Science",
+   "row": [],
+   "li": "Social Science",
+   "heads": [
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 1 (Class X)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Carnatic_Vocal_SecP1_2026-27.pdf",
+   "text": "Carnatic Music (Vocal)",
+   "row": [],
+   "li": "Carnatic Music (Vocal)",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Carnatic_Melodic_SecP1_2026-27.pdf",
+   "text": "Carnatic Music (Melodic Instruments)",
+   "row": [],
+   "li": "Carnatic Music (Melodic Instruments)",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Carnatic_Percussion_SecP1_2026-27.pdf",
+   "text": "Carnatic Music (Percussion Instruments)",
+   "row": [],
+   "li": "Carnatic Music (Percussion Instruments)",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindustani_Music_Vocal_SecP1_2026-27.pdf",
+   "text": "Hindustani Music (Vocal)",
+   "row": [],
+   "li": "Hindustani Music (Vocal)",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindustani_Music_Melodic_SecP1_2026-27.pdf",
+   "text": "Hindustani Music (Melodic Instruments)",
+   "row": [],
+   "li": "Hindustani Music (Melodic Instruments)",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindustani_Music_Percussion_SecP1_2026-27.pdf",
+   "text": "Hindustani Music (Percussion Instruments)",
+   "row": [],
+   "li": "Hindustani Music (Percussion Instruments)",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Painting_SecP1_2026-27.pdf",
+   "text": "Painting",
+   "row": [],
+   "li": "Painting",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Home_Science_SecP1X_2026-27.pdf",
+   "text": "Home Science",
+   "row": [],
+   "li": "Home Science",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/NCC_SecP1X_2026-27.pdf",
+   "text": "National Cadet Corps (NCC)",
+   "row": [],
+   "li": "National Cadet Corps (NCC)",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Computer_Applications_SecP1X_2026-27.pdf",
+   "text": "Computer Applications",
+   "row": [],
+   "li": "Computer Applications",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Elements_of_Business_SecP1X_2026-27.pdf",
+   "text": "Elements of Business",
+   "row": [],
+   "li": "Elements of Business",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Elements_of_BK_Acc_SecP1X_2026-27.pdf",
+   "text": "Elements of Book Keeping and Accountancy",
+   "row": [],
+   "li": "Elements of Book Keeping and Accountancy",
+   "heads": [
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/HPE_SecP1_2026-27.pdf",
+   "text": "Health and Physical Education",
+   "row": [],
+   "li": "",
+   "heads": [
+    "Subjects of Internal Assessment",
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Work_Experience_SecP1_2026-27.pdf",
+   "text": "Work Experience",
+   "row": [],
+   "li": "",
+   "heads": [
+    "Subjects of Internal Assessment",
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Art_Education_SecP1_2026-27.pdf",
+   "text": "Art Education",
+   "row": [],
+   "li": "",
+   "heads": [
+    "Subjects of Internal Assessment",
+    "Other Academic Electives -(Group-A2)",
+    "Main Subjects - (Group-A1)",
+    "Languages - (Group-L)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Curriculum_SecP2_2026-27.pdf",
+   "text": "Introduction to Secondary Curriculum: Part - 2",
+   "row": [],
+   "li": "",
+   "heads": [
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment",
+    "Other Academic Electives -(Group-A2)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Arabic_SecP2_2026-27.pdf",
+   "text": "Arabic",
+   "row": [],
+   "li": "Arabic",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Assamese_SecP2_2026-27.pdf",
+   "text": "Assamese",
+   "row": [],
+   "li": "Assamese",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Bengali_SecP2_2026-27.pdf",
+   "text": "Bengali",
+   "row": [],
+   "li": "Bengali",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Bhoti_SecP2_2026-27.pdf",
+   "text": "Bhoti",
+   "row": [],
+   "li": "Bhoti",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Bhutia_SecP2_2026-27.pdf",
+   "text": "Bhutia",
+   "row": [],
+   "li": "Bhutia",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Bodo_SecP2_2026-27.pdf",
+   "text": "Bodo",
+   "row": [],
+   "li": "Bodo",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/French_SecP2_2026-27.pdf",
+   "text": "French",
+   "row": [],
+   "li": "French",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/German_SecP2_2026-27.pdf",
+   "text": "German",
+   "row": [],
+   "li": "German",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Gujarati_SecP2_2026-27.pdf",
+   "text": "Gujarati",
+   "row": [],
+   "li": "Gujarati",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Hindi_Core_SecP2_2026-27.pdf",
+   "text": "Hindi Core",
+   "row": [],
+   "li": "Hindi Core",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Hindi_Elective_SecP2_2026-27.pdf",
+   "text": "Hindi Elective",
+   "row": [],
+   "li": "Hindi Elective",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/English_core_SecP2_2026-27.pdf",
+   "text": "English Core",
+   "row": [],
+   "li": "English Core",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/English_elective_SecP2_2026-27.pdf",
+   "text": "English Elective",
+   "row": [],
+   "li": "English Elective",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Japanese_SecP2_2026-27.pdf",
+   "text": "Japanese",
+   "row": [],
+   "li": "Japanese",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Kannada_SecP2_2026-27.pdf",
+   "text": "Kannada",
+   "row": [],
+   "li": "Kannada",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Kashmiri_SecP2_2026-27.pdf",
+   "text": "Kashmiri",
+   "row": [],
+   "li": "Kashmiri",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/KOKBOROK_SecP2_2026-27.pdf",
+   "text": "Kokborok",
+   "row": [],
+   "li": "Kokborok",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Lepcha_SecP2_2026-27.pdf",
+   "text": "Lepcha",
+   "row": [],
+   "li": "Lepcha",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Limboo_SecP2_2026-27.pdf",
+   "text": "Limboo",
+   "row": [],
+   "li": "Limboo",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Malyalam_SecP2_2026-27.pdf",
+   "text": "Malayalam",
+   "row": [],
+   "li": "Malayalam",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Manipuri_SecP2_2026-27.pdf",
+   "text": "Manipuri",
+   "row": [],
+   "li": "Manipuri",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Marathi_SecP2_2026-27.pdf",
+   "text": "Marathi",
+   "row": [],
+   "li": "Marathi",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Mizo_SecP2_2026-27.pdf",
+   "text": "Mizo",
+   "row": [],
+   "li": "Mizo",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Nepali_SecP2_2026-27.pdf",
+   "text": "Nepali",
+   "row": [],
+   "li": "Nepali",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Odia_SecP2_2026-27.pdf",
+   "text": "Odia",
+   "row": [],
+   "li": "Odia",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Persian_SecP2_2026-27.pdf",
+   "text": "Persian",
+   "row": [],
+   "li": "Persian",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Punjabi_SecP2_2026-27.pdf",
+   "text": "Punjabi",
+   "row": [],
+   "li": "Punjabi",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Russian_SecP2_2026-27.pdf",
+   "text": "Russian",
+   "row": [],
+   "li": "Russian",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Sanskrit_Core_SecP2_2026-27.pdf",
+   "text": "Sanskrit Core",
+   "row": [],
+   "li": "Sanskrit Core",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Sanskrit_Elective_SecP2_2026-27.pdf",
+   "text": "Sanskrit Elective",
+   "row": [],
+   "li": "Sanskrit Elective",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Sindhi_SecP2_2026-27.pdf",
+   "text": "Sindhi",
+   "row": [],
+   "li": "Sindhi",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Spanish_SecP2_2026-27.pdf",
+   "text": "Spanish",
+   "row": [],
+   "li": "Spanish",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Tamil_SecP2_2026-27.pdf",
+   "text": "Tamil",
+   "row": [],
+   "li": "Tamil",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Tangkhul_SecP2_2026-27.pdf",
+   "text": "Tangkhul",
+   "row": [],
+   "li": "Tangkhul",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Telugu_AP_SecP2_2026-27.pdf",
+   "text": "Telugu AP",
+   "row": [],
+   "li": "Telugu AP",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Telugu_Telangana_SecP2_2026-27.pdf",
+   "text": "Telugu Telangana",
+   "row": [],
+   "li": "Telugu Telangana",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Tibetan_SecP2_2026-27.pdf",
+   "text": "Tibetan",
+   "row": [],
+   "li": "Tibetan",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/URDU_CORE_SecP2_2026-27.pdf",
+   "text": "Urdu Core",
+   "row": [],
+   "li": "Urdu Core",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/URDU_Elective_SecP2_2026-27.pdf",
+   "text": "Urdu Elective",
+   "row": [],
+   "li": "Urdu Elective",
+   "heads": [
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)",
+    "Subjects of Internal Assessment"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Accountancy_SecP2_2026-27.pdf",
+   "text": "Accountancy",
+   "row": [],
+   "li": "Accountancy",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Biology_SecP2_2026-27.pdf",
+   "text": "Biology",
+   "row": [],
+   "li": "BiologyReading Material",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Biology_SrSecXI_2026-27_RM.pdf",
+   "text": "Reading Material",
+   "row": [],
+   "li": "BiologyReading Material",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/BioTechnology_SecP2_2026-27.pdf",
+   "text": "Biotechnology",
+   "row": [],
+   "li": "Biotechnology",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/BusinessStudies_SecP2_2026-27.pdf",
+   "text": "Business Studies",
+   "row": [],
+   "li": "Business Studies",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Carnatic_Melodic_SecP2_2026-27.pdf",
+   "text": "Carnatic Melodic",
+   "row": [],
+   "li": "Carnatic Melodic",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Carnatic_Vocal_SecP2_2026-27.pdf",
+   "text": "Carnatic Vocal",
+   "row": [],
+   "li": "Carnatic Vocal",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Carnatic_Percussion_SecP2_2026-27.pdf",
+   "text": "Carnatic Percussion",
+   "row": [],
+   "li": "Carnatic Percussion",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27.pdf",
+   "text": "Chemistry",
+   "row": [],
+   "li": "ChemistryReading Material",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27_RM.pdf",
+   "text": "Reading Material",
+   "row": [],
+   "li": "ChemistryReading Material",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Computer_Science_SecP2_2026-27.pdf",
+   "text": "Computer Science",
+   "row": [],
+   "li": "Computer Science",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Economics_SecP2_2026-27.pdf",
+   "text": "Economics",
+   "row": [],
+   "li": "Economics",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Engineering_Graphics_SecP2_2026-27.pdf",
+   "text": "Engineering Graphics",
+   "row": [],
+   "li": "Engineering Graphics",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Enterprenuership_SecP2_2026-27.pdf",
+   "text": "Entrepreneurship",
+   "row": [],
+   "li": "Entrepreneurship",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Fine_Arts_SecP2_2026-27.pdf",
+   "text": "Fine Arts",
+   "row": [],
+   "li": "Fine Arts",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Indian_Classical_Dances_SecP2_2026-27.pdf",
+   "text": "Dance",
+   "row": [],
+   "li": "Dance",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Geography_SecP2_2026-27.pdf",
+   "text": "Geography",
+   "row": [],
+   "li": "GeographyReading Material",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Geography_SecP2_2026-27_RM.pdf",
+   "text": "Reading Material",
+   "row": [],
+   "li": "GeographyReading Material",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Hindustani_Melodic_SecP2_2026-27.pdf",
+   "text": "Hindustani Melodic",
+   "row": [],
+   "li": "Hindustani Melodic",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Hindustani_Percussion_SecP2_2026-27.pdf",
+   "text": "Hindustani Percussion",
+   "row": [],
+   "li": "Hindustani Percussion",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Hindustani_Vocal_SecP2_2026-27.pdf",
+   "text": "Hindustani Vocal",
+   "row": [],
+   "li": "Hindustani Vocal",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/History_SecP2_2026-27.pdf",
+   "text": "History",
+   "row": [],
+   "li": "History",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Home_Science_SecP2_2026-27.pdf",
+   "text": "Home Science",
+   "row": [],
+   "li": "Home Science",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Informatics_Practices_SecP2_2026-27.pdf",
+   "text": "Infomatics Practices",
+   "row": [],
+   "li": "Infomatics Practices",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/KTPI_SecP2_2026-27.pdf",
+   "text": "Knowledge Tradition - Practices India",
+   "row": [],
+   "li": "Knowledge Tradition - Practices India",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/LegalStudies_SecP2_2026-27.pdf",
+   "text": "Legal Studies",
+   "row": [],
+   "li": "Legal Studies",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Maths_SecP2_2026-27.pdf",
+   "text": "Mathematics",
+   "row": [],
+   "li": "Mathematics",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Applied_Mathematics_SecP2_2026-27.pdf",
+   "text": "Applied Mathematics",
+   "row": [],
+   "li": "Applied Mathematics",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/NCC_SecP2_2026-27.pdf",
+   "text": "NCC",
+   "row": [],
+   "li": "NCC",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PhysicalEducation_SecP2_2026-27.pdf",
+   "text": "Physical Education",
+   "row": [],
+   "li": "Physical Education",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Physics_SecP2_2026-27.pdf",
+   "text": "Physics",
+   "row": [],
+   "li": "Physics",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/PoliticalScience_SecP2_2026-27.pdf",
+   "text": "Political Science",
+   "row": [],
+   "li": "Political Science",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Psychology_SecP2_2026-27.pdf",
+   "text": "Psychology",
+   "row": [],
+   "li": "Psychology",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Sociology_SecP2_2026-27.pdf",
+   "text": "Sociology",
+   "row": [],
+   "li": "Sociology",
+   "heads": [
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)",
+    "Secondary Curriculum: Part - 2 (XI-XII)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/HPE_SecP2_2026-27.pdf",
+   "text": "Health and Physical Education",
+   "row": [],
+   "li": "",
+   "heads": [
+    "Subjects of Internal Assessment",
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/WorkExperience_SecP2_2026-27.pdf",
+   "text": "Work Experience",
+   "row": [],
+   "li": "",
+   "heads": [
+    "Subjects of Internal Assessment",
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  },
+  {
+   "href": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/GeneralStudies_SecP2_2026-27.pdf",
+   "text": "General Studies",
+   "row": [],
+   "li": "",
+   "heads": [
+    "Subjects of Internal Assessment",
+    "Academic Electives - (Group-A)",
+    "Languages - (Group-L)",
+    "Initial Pages (Please read initial pages before downloading the syllabus)"
+   ],
+   "ok": true
+  }
+ ]
 }
