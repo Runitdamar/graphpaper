@@ -358,7 +358,7 @@ VIEWS["class"] = function(){
    (n >= 9 ? '<a class="card" href="#/syllabus" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus</h3><div class="meta">Official 2026-27 CBSE syllabus for every subject of Class ' + c + (hi ? ' (one PDF covers Class 11 and 12)' : '') + '.</div><span class="more">Open \u2192</span></a>' :
      '<div class="card" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus</h3><div class="meta">CBSE publishes syllabus PDFs for Classes 9 to 12 only. For Class ' + c + ', the NCERT books are the guide.</div></div>') +
    (n === 10 || n === 12 ? '<a class="card" href="#/papers" style="--sh:var(--a4)"><h3 style="font-size:22px">Papers</h3><div class="meta">CBSE sample papers with marking schemes, and board question papers from past years.</div><span class="more">Open \u2192</span></a>' :
-     '<div class="card" style="--sh:var(--a4)"><h3 style="font-size:22px">Papers</h3><div class="meta">CBSE sets board papers for Class 10 and 12 only. Change your class from the top right to see them.</div></div>') +
+     '<div class="card" style="--sh:var(--a4)"><h3 style="font-size:22px">Papers</h3><div class="meta">CBSE sets board papers for Class 10 and 12 only. Pick your class on the <a href="#/class" style="text-decoration:underline">Study shelf</a> to see them.</div></div>') +
    '<div class="card" style="--sh:var(--a5)"><h3 style="font-size:22px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div class="meta">Chapter notes and quick revision sheets.</div></div></div>' +
    latest + '</div>';
 };
@@ -554,7 +554,7 @@ function papCtl(c){
 VIEWS.papers = function(){
   var c = ST.cls || "10", ok = c === "10" || c === "12", body;
   if (!ok) {
-    body = '<div class="card" style="--sh:var(--a3)"><h3 style="font-size:22px">Board papers are for Class 10 and 12</h3><div class="meta">CBSE sets board exam papers for Class 10 and Class 12 only. Change your class from the top right to see them.</div></div>';
+    body = '<div class="card" style="--sh:var(--a3)"><h3 style="font-size:22px">Board papers are for Class 10 and 12</h3><div class="meta">CBSE sets board exam papers for Class 10 and Class 12 only. Pick your class on the <a href="#/class" style="text-decoration:underline">Study shelf</a> to see them.</div></div>';
   } else if (!PAP) {
     body = '<div class="card" style="--sh:var(--a1)">' + (ST.papFail ? 'The papers list could not be loaded. You can open CBSE directly.<a class="btn" href="https://www.cbse.gov.in/cbsenew/question-paper.html" target="_blank" rel="noopener" style="margin-top:12px">Open CBSE question papers ↗</a>' : 'Loading papers...') + '</div>';
   } else {
@@ -659,7 +659,7 @@ function route(keepScroll){
   $("#topnav").hidden = $("#foot").hidden = (name === "welcome");
   if (name !== "welcome") applyClass();
   $("#view").innerHTML = VIEWS[name](r);
-  var d = $("#clsmenu"); if (d) d.open = false;
+  var d = $("#clsmenu"); if (d){ d.open = false; d.hidden = (name !== "class"); }
   document.title = (name === "notice" ? (function(){ var t = $("#pg"); return (t && t.textContent ? t.textContent.slice(0, 80) + " | GraphPaper" : TITLES.notice); })() : (name === "board" ? (BOARDS[r.arg] ? r.arg : "CBSE") + " | GraphPaper" : TITLES[name]));
   if (!keepScroll){
     var s = r.q.get("s"), tgt = s && D.getElementById(s);
