@@ -344,21 +344,17 @@ VIEWS["class"] = function(){
     var inner = '<span class="ic" style="background:var(' + col + ')">' + icon + '</span><b>' + esc(label) + '</b><span style="color:var(--mut);font-size:15px">' + note + '</span>' + (href ? '<span style="font-weight:700">Open →</span>' : '<span class="pill" style="background:var(--a4);align-self:flex-start;font-size:13px">Coming soon</span>');
     return href ? '<a class="bq" href="' + href + '" style="--sh:var(' + col + ')">' + inner + '</a>' : '<div class="bq" style="--sh:var(' + col + ')">' + inner + '</div>';
   }
-  if (!hi) {
-    var cs = classSubs(c);
-    subs = cs.length ? cs.map(function(x, i){ var k = classBooks(c).filter(function(b){ return foldOf(b) === x; }).length; return card(x, '#/books?sub=' + encodeURIComponent(x), subIcon(x), subCol(x), k + ' NCERT book' + (k === 1 ? '' : 's')); }).join("") :
-      '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.booksLoaded ? 'No books found for this class yet.' : 'Loading books...') + '</div>';
-  } else {
-    var list = SUBJ[ST.stream];
-    subs = list.map(function(x, i){ var real = live && s2b[x]; return card(x, real ? '#/books?sub=' + s2b[x] : "", real ? ico(s2b[x]) : ico("book"), cols[i % 5], 'NCERT textbook'); }).join("");
-  }
+  var nb = classBooks(c).length, soonStream = hi && !live;
+  var desc = soonStream ? 'Books for the ' + ST.stream + ' stream are on the way.' :
+    'Chapter-wise PDFs for ' + (nb ? 'all ' + nb + ' books of ' : '') + 'Class ' + c + ', linked from the official NCERT site' + (+c === 10 ? ', plus a whole-book download for each.' : '.');
+  subs = card("NCERT books", soonStream || (!nb && ST.booksLoaded && !hi) ? "" : '#/books', ico("book"), "--a3", desc);
   var streams = hi ? '<div class="chips" role="group" aria-label="Stream">' + ["Science","Commerce","Humanities"].map(function(v){ return '<button class="f" data-act="st" data-v="' + v + '" aria-pressed="' + (ST.stream === v ? "true" : "false") + '">' + v + '</button>'; }).join("") + '</div>' : '';
   var mine = ST.items.filter(function(x){ return classOf(x, c); }).slice(0, 3);
   var latest = '<h2>Latest for Class ' + c + '</h2><div class="grid g3">' + (mine.length ? mine.map(function(x){ return noticeCard(x, true); }).join("") : '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? 'No notices that mention Class ' + c + ' yet. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a>.' : 'Loading notices...') + '</div>') + '</div>';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Study shelf</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a1)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Class ' + c + '</h1><p>Books, syllabus and notes for Class ' + c + ', all on one shelf. Change your class from the top right.</p></div></div>' +
    '<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px"><h2 style="margin:0">NCERT books</h2>' + streams + '</div>' +
-   '<div class="grid g4" style="margin-bottom:48px">' + subs + '</div>' +
+   '<div class="grid g3" style="margin-bottom:48px">' + subs + '</div>' +
    '<h2>Syllabus and notes</h2><div class="grid g3" style="margin-bottom:48px">' +
    (live ? '<a class="card" href="#/syllabus" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus</h3><div class="meta">Official 2026-27 syllabus for Physics, Chemistry, Maths and Biology.</div><span class="more">Open \u2192</span></a>' :
      n >= 9 ? '<a class="card" href="https://cbseacademic.nic.in/curriculum_2027.html" target="_blank" rel="noopener" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus</h3><div class="meta">The official CBSE curriculum page lists the 2026-27 syllabus for each subject of Class ' + c + '.</div><span class="more">Open on CBSE Academic \u2197</span></a>' :
