@@ -9,6 +9,10 @@ on:
       codes:
         description: "Comma separated book codes"
         required: true
+      pages:
+        description: "Optional page window like 25-40 (result goes to contents_class<N>_tail.json)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -24,11 +28,11 @@ jobs:
           python-version: "3.12"
       - run: sudo apt-get update -q && sudo apt-get install -y -q tesseract-ocr tesseract-ocr-hin tesseract-ocr-san tesseract-ocr-urd poppler-utils
       - run: pip install -r scripts/requirements.txt
-      - run: python scripts/contents_cls.py "${{ inputs.num }}" "${{ inputs.codes }}"
+      - run: python scripts/contents_cls.py "${{ inputs.num }}" "${{ inputs.codes }}" "${{ inputs.pages }}"
       - name: Commit result
         if: always()
         run: |
-          f=scripts/contents_class${{ inputs.num }}.json
+          f=scripts/contents_class${{ inputs.num }}${{ inputs.pages != '' && '_tail' || '' }}.json
           if [ -n "$(git status --porcelain $f)" ]; then
             git config user.name "graphpaper-bot"
             git config user.email "actions@users.noreply.github.com"
