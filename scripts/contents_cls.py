@@ -19,7 +19,9 @@ from pypdf import PdfReader
 
 NUM = int(sys.argv[1])
 CODES = [c for c in sys.argv[2].split(",") if c]
-OUT = Path(__file__).resolve().parent / ("contents_class%d.json" % NUM)
+WIN = sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else ""   # optional page window "25-40" (1-based, inclusive)
+LO, HI = (int(x) for x in WIN.split("-")) if WIN else (1, 0)
+OUT = Path(__file__).resolve().parent / ("contents_class%d%s.json" % (NUM, "_tail" if WIN else ""))
 BASE = "https://ncert.nic.in/textbook/pdf/"
 H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
      "Referer": "https://ncert.nic.in/textbook.php"}
@@ -65,19 +67,20 @@ for code in CODES:
     rd = PdfReader(io.BytesIO(body))
     n = len(rd.pages)
     text = []
-    for i in range(min(n, MAXP)):
+    hi = min(n, HI) if WIN else min(n, MAXP)
+    for i in range((LO - 1) if WIN else 0, hi):
         try:
             text.append(" ".join((rd.pages[i].extract_text() or "").split())[:CAP])
         except Exception as e:
             text.append("(unreadable: %s)" % type(e).__name__)
-    entry = {"pages": n, "text": text}
+    entry = {"pages": n, "from": LO if WIN else 1, "text": text}
     lang_kind = code[1]
     if lang_kind in "hu" or code[2:4] in ("ar", "mr", "sk", "sh", "ga", "gr", "ju", "ur"):
         lang = "urd+eng" if lang_kind == "u" else ("hin+san+eng" if code[2:4] in ("sk", "sh") else "hin+eng")
         with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as f:
             f.write(body)
             path = f.name
-        entry["ocr"] = [(ocr(path, p, lang)[:3500] if p >= 4 else "") for p in range(1, min(n, 26) + 1)]
+        entry["ocr"] = [(ocr(path, p, lang)[:3500] if p >= 4 else "") for p in (range(LO, hi + 1) if WIN else range(1, min(n, 26) + 1))]
         entry["ocr_lang"] = lang
     res[code] = entry
     print(code, n, "pages", "OCR" if "ocr" in entry else "", file=sys.stderr, flush=True)
