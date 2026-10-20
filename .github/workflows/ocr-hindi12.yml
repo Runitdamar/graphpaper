@@ -1,0 +1,30 @@
+name: OCR Class 12 Hindi chapter titles
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -q && sudo apt-get install -y -q tesseract-ocr tesseract-ocr-hin poppler-utils
+      - run: pip install -r scripts/requirements.txt
+      - run: python scripts/ocr_hindi12.py
+      - name: Commit result
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain scripts/class12_hindi_ocr.json)" ]; then
+            git config user.name "graphpaper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add scripts/class12_hindi_ocr.json
+            git commit -m "Save Class 12 Hindi OCR"
+            for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push && break; sleep 5; done
+          fi
