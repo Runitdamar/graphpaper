@@ -25,7 +25,7 @@ H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
      "Referer": "https://ncert.nic.in/textbook.php"}
 sess = requests.Session()
 sess.headers.update(H)
-MAXP = 14
+MAXP = 30
 
 
 def fetch(name):
@@ -66,7 +66,7 @@ for code in CODES:
     text = []
     for i in range(min(n, MAXP)):
         try:
-            text.append(" ".join((rd.pages[i].extract_text() or "").split())[:2500])
+            text.append(" ".join((rd.pages[i].extract_text() or "").split())[:1800])
         except Exception as e:
             text.append("(unreadable: %s)" % type(e).__name__)
     entry = {"pages": n, "text": text}
@@ -76,7 +76,7 @@ for code in CODES:
         with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as f:
             f.write(body)
             path = f.name
-        entry["ocr"] = [ocr(path, p, lang)[:2500] for p in range(1, min(n, MAXP) + 1)]
+        entry["ocr"] = [ocr(path, p, lang)[:1800] for p in range(1, min(n, MAXP) + 1)]
         entry["ocr_lang"] = lang
     res[code] = entry
     print(code, n, "pages", "OCR" if "ocr" in entry else "", file=sys.stderr, flush=True)
