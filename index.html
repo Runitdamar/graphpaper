@@ -124,20 +124,7 @@ GraphPaper</a>
 
 </div>
 <script>
-var BOOKS = [
- {cls:11,sub:"Physics",title:"Physics Part I",code:"keph1",label:"Chapter",ch:[
-  [1,"Units and Measurements",null],[2,"Motion in a Straight Line",2],[3,"Motion in a Plane",3],[4,"Laws of Motion",4],[5,"Work, Energy and Power",5],[6,"System of Particles and Rotational Motion",6],[7,"Gravitation",7]]},
- {cls:11,sub:"Physics",title:"Physics Part II",code:"keph2",label:"Chapter",ch:[
-  [8,"Mechanical Properties of Solids",1],[9,"Mechanical Properties of Fluids",2],[10,"Thermal Properties of Matter",3],[11,"Thermodynamics",4],[12,"Kinetic Theory",5],[13,"Oscillations",6],[14,"Waves",7]]},
- {cls:11,sub:"Chemistry",title:"Chemistry Part I",code:"kech1",label:"Unit",ch:[
-  [1,"Some Basic Concepts of Chemistry",1],[2,"Structure of Atom",2],[3,"Classification of Elements and Periodicity in Properties",3],[4,"Chemical Bonding and Molecular Structure",4],[5,"Thermodynamics",5],[6,"Equilibrium",6]]},
- {cls:11,sub:"Chemistry",title:"Chemistry Part II",code:"kech2",label:"Unit",ch:[
-  [7,"Redox Reactions",1],[8,"Organic Chemistry: Some Basic Principles and Techniques",2],[9,"Hydrocarbons",3]]},
- {cls:11,sub:"Maths",title:"Mathematics",code:"kemh1",label:"Chapter",ch:[
-  [1,"Sets",1],[2,"Relations and Functions",2],[3,"Trigonometric Functions",3],[4,"Complex Numbers and Quadratic Equations",4],[5,"Linear Inequalities",5],[6,"Permutations and Combinations",6],[7,"Binomial Theorem",7],[8,"Sequences and Series",8],[9,"Straight Lines",9],[10,"Conic Sections",10],[11,"Introduction to Three Dimensional Geometry",11],[12,"Limits and Derivatives",12],[13,"Statistics",13],[14,"Probability",14]]},
- {cls:11,sub:"Biology",title:"Biology",code:"kebo1",label:"Chapter",ch:[
-  [1,"The Living World",1],[2,"Biological Classification",2],[3,"Plant Kingdom",3],[4,"Animal Kingdom",4],[5,"Morphology of Flowering Plants",5],[6,"Anatomy of Flowering Plants",6],[7,"Structural Organisation in Animals",7],[8,"Cell: The Unit of Life",8],[9,"Biomolecules",9],[10,"Cell Cycle and Cell Division",10],[11,"Photosynthesis in Higher Plants",11],[12,"Respiration in Plants",12],[13,"Plant Growth and Development",13],[14,"Breathing and Exchange of Gases",14],[15,"Body Fluids and Circulation",15],[16,"Excretory Products and their Elimination",16],[17,"Locomotion and Movement",17],[18,"Neural Control and Coordination",18],[19,"Chemical Coordination and Integration",19]]}
-];
+var BOOKS = [];
 var BBASE = "https://ncert.nic.in/textbook/pdf/";
 var BPORTAL = "https://ncert.nic.in/textbook.php";
 var SYL = null, PAP = null;
@@ -316,16 +303,15 @@ var SUBJ = {
   Science:["Physics","Chemistry","Mathematics","Biology","English"], Commerce:["Accountancy","Business Studies","Economics","Mathematics","English"], Humanities:["History","Political Science","Geography","Psychology","English"]
 };
 VIEWS["class"] = function(){
-  var c = ST.cls || "4", n = +c, hi = n >= 11, live = n === 12 || (hi && ST.stream === "Science");
+  var c = ST.cls || "4", n = +c, hi = n >= 11;
   var subs, cols = ["--a1","--a2","--a3","--a4","--a5"], s2b = {Physics:"Physics", Chemistry:"Chemistry", Mathematics:"Maths", Biology:"Biology"};
   function card(label, href, icon, col, note){
     var inner = '<span class="ic" style="background:var(' + col + ')">' + icon + '</span><b>' + esc(label) + '</b><span style="color:var(--mut);font-size:15px">' + note + '</span>' + (href ? '<span style="font-weight:700">Open →</span>' : '<span class="pill" style="background:var(--a4);align-self:flex-start;font-size:13px">Coming soon</span>');
     return href ? '<a class="bq" href="' + href + '" style="--sh:var(' + col + ')">' + inner + '</a>' : '<div class="bq" style="--sh:var(' + col + ')">' + inner + '</div>';
   }
-  var nb = classBooks(c).filter(streamOk).length, soonStream = hi && !live;
-  var desc = soonStream ? 'Books for the ' + ST.stream + ' stream are on the way.' :
-    'Chapter-wise PDFs for ' + (nb ? 'all ' + nb + ' books of ' : '') + 'Class ' + c + (n === 12 ? ' ' + ST.stream : '') + ', linked from the official NCERT site' + (hasFolders(c) ? ', plus a whole-book download for each.' : '.');
-  subs = card("NCERT books", soonStream || (!nb && ST.booksLoaded && !hi) ? "" : '#/books', ico("book"), "--a3", desc);
+  var nb = classBooks(c).filter(streamOk).length;
+  var desc = 'Chapter-wise PDFs for ' + (nb ? 'all ' + nb + ' books of ' : '') + 'Class ' + c + (hasStreams(n) ? ' ' + ST.stream : '') + ', linked from the official NCERT site' + (hasFolders(c) ? ', plus a whole-book download for each.' : '.');
+  subs = card("NCERT books", !nb && ST.booksLoaded ? "" : '#/books', ico("book"), "--a3", desc);
   var streams = hi ? streamChips() : '';
   var mine = ST.items.filter(function(x){ return classOf(x, c); }).slice(0, 3);
   var latest = '<h2>Latest for Class ' + c + '</h2><div class="grid g3">' + (mine.length ? mine.map(function(x){ return noticeCard(x, true); }).join("") : '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? 'No notices that mention Class ' + c + ' yet. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a>.' : 'Loading notices...') + '</div>') + '</div>';
@@ -365,12 +351,13 @@ function folderStream(c, f){
   var o = ""; classBooks(c).forEach(function(b){ if (foldOf(b) === f && b.st) o += b.st; });
   return o;
 }
-function hasFolders(c){ return +c === 10 || +c === 12; }
+function hasFolders(c){ return +c >= 9; }
+function hasStreams(c){ return +c === 11 || +c === 12; }
 function foldOf(b){ return b.fold || b.sub; }
 function classSubs(c){
   var o = []; classBooks(c).forEach(function(b){ var k = foldOf(b); if (o.indexOf(k) < 0) o.push(k); });
-  if (+c === 10) o.sort(function(a, b){ return FOLD10.indexOf(a) - FOLD10.indexOf(b); });
-  if (+c === 12) o.sort(function(a, b){ return FOLD12.indexOf(a) - FOLD12.indexOf(b); });
+  if (+c === 9 || +c === 10) o.sort(function(a, b){ return FOLD10.indexOf(a) - FOLD10.indexOf(b); });
+  if (hasStreams(c)) o.sort(function(a, b){ return FOLD12.indexOf(a) - FOLD12.indexOf(b); });
   return o;
 }
 var ORDER10 = ["jeff1","jefp1","jhks1","jhkr1","jhsp1","jhsy1","jemh1","jesc1","jess3","jess4","jess2","jess1","jehp1","jhsk1","jhva1","june1","juge1","jujp1","judp1","jusr1","juuq1"];
@@ -401,7 +388,7 @@ function matchCh(b, q){
 function foldersHtml(q, c){
   var out = "", n = 0;
   var fl = classSubs(c).slice();
-  if (+c === 12){ var od = FOLD12S[(ST.stream || "Science").charAt(0)]; fl.sort(function(a, b){ var x = od.indexOf(a), y = od.indexOf(b); return (x < 0 ? 99 : x) - (y < 0 ? 99 : y); }); }
+  if (hasStreams(c)){ var od = FOLD12S[(ST.stream || "Science").charAt(0)]; fl.sort(function(a, b){ var x = od.indexOf(a), y = od.indexOf(b); return (x < 0 ? 99 : x) - (y < 0 ? 99 : y); }); }
   fl.forEach(function(f){
     var bks = classBooks(c).filter(function(b){ return foldOf(b) === f && streamOk(b); });
     if (+c === 10) bks.sort(function(x, y){ return ORDER10.indexOf(x.code) - ORDER10.indexOf(y.code); });
@@ -433,23 +420,22 @@ function booksHtml(){
       out += bookBlock(b, chs, q);
     });
   }
-  return {n:n, html: out || '<div class="card" style="box-shadow:0 6px 0 var(--a1)">' + (ST.booksLoaded || c === 11 ? 'No books found.' : 'Loading books...') + '</div>'};
+  return {n:n, html: out || '<div class="card" style="box-shadow:0 6px 0 var(--a1)">' + (ST.booksLoaded ? 'No books found.' : 'Loading books...') + '</div>'};
 }
 ST.bopen = {}; ST.bfold = {};
 function bcls(){ return /^(1[0-2]|[1-9])$/.test(ST.cls || "") ? ST.cls : "12"; }
 VIEWS.books = function(r){
   var c = bcls(), subs = classSubs(c), s = r.q.get("sub"), f10 = hasFolders(c);
   if (s && subs.indexOf(s) > -1) ST.bsub = s;
-  if (+c === 12 && s && subs.indexOf(s) > -1){
+  if (hasStreams(c) && s && subs.indexOf(s) > -1){
     var fs = folderStream(c, s);
     if (fs && fs.indexOf(ST.stream.charAt(0)) < 0) ST.stream = STREAMS.filter(function(v){ return fs.indexOf(v.charAt(0)) > -1; })[0];
   }
   if (ST.bsub !== "All" && subs.indexOf(ST.bsub) < 0) ST.bsub = "All";
-  var chips = +c === 12 ? '<div style="margin-bottom:20px">' + streamChips() + '</div>' : f10 ? "" : '<div class="chips" role="group" aria-label="Subject" style="margin-bottom:20px">' + ["All"].concat(subs).map(function(s){ return '<button class="f" data-act="bs" data-v="' + esc(s) + '" aria-pressed="' + (ST.bsub === s ? "true" : "false") + '">' + esc(s) + '</button>'; }).join("") + '</div>';
-  var lead = +c === 11 ? 'Chapter-wise PDFs for Class ' + c + ' Science, linked from the official NCERT site.' :
-    f10 ? 'Open a subject folder, then pick a chapter. Each book also has a whole-book download from NCERT.' :
+  var chips = hasStreams(c) ? '<div style="margin-bottom:20px">' + streamChips() + '</div>' : f10 ? "" : '<div class="chips" role="group" aria-label="Subject" style="margin-bottom:20px">' + ["All"].concat(subs).map(function(s){ return '<button class="f" data-act="bs" data-v="' + esc(s) + '" aria-pressed="' + (ST.bsub === s ? "true" : "false") + '">' + esc(s) + '</button>'; }).join("") + '</div>';
+  var lead = f10 ? 'Open a subject folder, then pick a chapter. Each book also has a whole-book download from NCERT.' :
     'Chapter-wise PDFs for Class ' + c + ', linked from the official NCERT site. Chapter titles show where they could be read from the PDF.';
-  var note = f10 ? 'Every chapter opens on ncert.nic.in. GraphPaper does not host NCERT files. NCERT offers each whole book as a ZIP of chapter PDFs, not as one single PDF.' + (+c === 12 ? ' Use the stream buttons to switch between Science, Commerce and Humanities. English-medium books only for now.' : '') : 'Every chapter opens on ncert.nic.in. GraphPaper does not host NCERT files. English-medium books only for now.';
+  var note = f10 ? 'Every chapter opens on ncert.nic.in. GraphPaper does not host NCERT files. NCERT offers each whole book as a ZIP of chapter PDFs, not as one single PDF.' + (hasStreams(c) ? ' Use the stream buttons to switch between Science, Commerce and Humanities. English-medium books only for now.' : '') : 'Every chapter opens on ncert.nic.in. GraphPaper does not host NCERT files. English-medium books only for now.';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>NCERT books</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a3)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">NCERT books</h1><p>' + lead + '</p></div></div>' +
    '<div class="search" style="max-width:560px;margin-bottom:16px"><label for="bq" style="position:absolute;left:-9999px">Search chapters</label><input id="bq" type="search" placeholder="Search chapters" value="' + esc(ST.bq) + '" autocomplete="off"></div>' + chips +
@@ -458,11 +444,12 @@ VIEWS.books = function(r){
 };
 
 var SYLKEY = {"9":"IX", "10":"X", "11":"XI-XII", "12":"XI-XII"};
-var SYL2BOOK = {"English Core":"English", "English Elective":"English", "Hindi Core":"Hindi", "Hindi Elective":"Hindi", "Sanskrit Core":"Other books", "Sanskrit Elective":"Other books", "Computer Science":"Other books", "Informatics Practices":"Other books", "Biotechnology":"Other books", "Psychology":"Psychology", "Accountancy":"Accountancy", "Business Studies":"Business Studies", "Economics":"Economics", "History":"History", "Geography":"Geography", "Political Science":"Political Science", "Sociology":"Sociology", "Fine Arts":"Other books", "Home Science":"Other books", "Mathematics":"Mathematics", "Science":"Science", "Social Science":"Social Science", "English":"English", "Hindi":"Hindi", "Physics":"Physics", "Chemistry":"Chemistry", "Biology":"Biology"};
+var SYL2BOOK = {"English Core":"English", "English Elective":"English", "Hindi Core":"Hindi", "Hindi Elective":"Hindi", "Sanskrit Core":"Other books", "Sanskrit Elective":"Other books", "Computer Science":"Other books", "Informatics Practices":"Other books", "Biotechnology":"Other books", "Psychology":"Psychology", "Accountancy":"Accountancy", "Business Studies":"Business Studies", "Economics":"Economics", "History":"History", "Geography":"Geography", "Political Science":"Political Science", "Sociology":"Sociology", "Fine Arts":"Other books", "Home Science":"Other books", "Sanskrit":"Other books", "Vocational Education (Kaushal Vikas)":"Other books", "Physical Education & Well Being":"Other books", "Physical Education":"Other books", "Health and Physical Education":"Other books", "Art Education":"Other books", "Knowledge Tradition - Practices India":"Other books", "Hindi Course-A":"Hindi", "Hindi Course-B":"Hindi", "English - Language and Literature":"English", "Mathematics":"Mathematics", "Science":"Science", "Social Science":"Social Science", "English":"English", "Hindi":"Hindi", "Physics":"Physics", "Chemistry":"Chemistry", "Biology":"Biology"};
+var SYL2SUB = {"Sanskrit Core":"Sanskrit", "Sanskrit Elective":"Sanskrit", "Sanskrit":"Sanskrit", "Computer Science":"Computer Science", "Informatics Practices":"Informatics Practices", "Biotechnology":"Biotechnology", "Fine Arts":"Fine Arts", "Home Science":"Home Science", "Vocational Education (Kaushal Vikas)":"Skill Education", "Physical Education & Well Being":"Physical Education", "Physical Education":"Physical Education", "Health and Physical Education":"Physical Education", "Art Education":"Arts", "Knowledge Tradition - Practices India":"Knowledge Traditions"};
 function sylBookLink(name, c){
   var sub = SYL2BOOK[name]; if (!sub) return "";
-  if (+c === 11 && name === "Mathematics") sub = "Maths";
-  return classSubs(c).indexOf(sub) > -1 ? '<small><a href="#/books?sub=' + encodeURIComponent(sub) + '" style="font-weight:700;text-decoration:underline">See NCERT chapters</a></small>' : "";
+  var want = SYL2SUB[name];
+  return classBooks(c).some(function(b){ return foldOf(b) === sub && (!want || b.sub === want); }) ? '<small><a href="#/books?sub=' + encodeURIComponent(sub) + '" style="font-weight:700;text-decoration:underline">See NCERT chapters</a></small>' : "";
 }
 function sylHtml(c, q){
   var part = SYL.parts[SYLKEY[c]], out = "", n = 0;
@@ -781,7 +768,7 @@ fetch("papers.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).t
 fetch("qbank.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ QB = d; }).catch(function(){ ST.qbFail = true; }).then(function(){ if (parse().name === "qbank") route(true); });
 fetch("syllabus.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ SYL = d; }).catch(function(){ ST.sylFail = true; }).then(function(){ if (parse().name === "syllabus") route(true); });
 function loadBooks(f){ return fetch(f).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ if (Array.isArray(d)) d.forEach(function(b){ BOOKS.push(b); }); }).catch(function(){}); }
-Promise.all([loadBooks("books_1_10.json"), loadBooks("books_12.json")]).then(function(){ ST.booksLoaded = true; var n = parse().name; if (n === "books" || n === "class") route(true); });
+Promise.all([loadBooks("books_1_10.json"), loadBooks("books_9.json"), loadBooks("books_11.json"), loadBooks("books_12.json")]).then(function(){ ST.booksLoaded = true; var n = parse().name; if (n === "books" || n === "class") route(true); });
 fetch("updates.json", {cache: "no-store"}).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){
   ST.items = (Array.isArray(d) ? d : []).filter(function(x){ return x && x.status === "approved" && !x.sample; }).sort(function(a, b){ return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
 }).catch(function(){}).then(function(){ ST.loaded = true; route(true); });
