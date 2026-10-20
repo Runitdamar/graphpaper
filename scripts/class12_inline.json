@@ -1,0 +1,315 @@
+[
+{
+"cls": 12,
+"sub": "Physics",
+"title": "Physics Part I",
+"code": "leph1",
+"label": "Chapter",
+"ch": [
+[
+1,
+"Electric Charges and Fields",
+1
+],
+[
+2,
+"Electrostatic Potential and Capacitance",
+2
+],
+[
+3,
+"Current Electricity",
+3
+],
+[
+4,
+"Moving Charges and Magnetism",
+4
+],
+[
+5,
+"Magnetism and Matter",
+5
+],
+[
+6,
+"Electromagnetic Induction",
+6
+],
+[
+7,
+"Alternating Current",
+7
+],
+[
+8,
+"Electromagnetic Waves",
+8
+]
+]
+},
+{
+"cls": 12,
+"sub": "Physics",
+"title": "Physics Part II",
+"code": "leph2",
+"label": "Chapter",
+"ch": [
+[
+9,
+"Ray Optics and Optical Instruments",
+1
+],
+[
+10,
+"Wave Optics",
+2
+],
+[
+11,
+"Dual Nature of Radiation and Matter",
+3
+],
+[
+12,
+"Atoms",
+4
+],
+[
+13,
+"Nuclei",
+5
+],
+[
+14,
+"Semiconductor Electronics: Materials, Devices and Simple Circuits",
+6
+]
+]
+},
+{
+"cls": 12,
+"sub": "Chemistry",
+"title": "Chemistry Part I",
+"code": "lech1",
+"label": "Unit",
+"ch": [
+[
+1,
+"Solutions",
+1
+],
+[
+2,
+"Electrochemistry",
+2
+],
+[
+3,
+"Chemical Kinetics",
+3
+],
+[
+4,
+"The d- and f-Block Elements",
+4
+],
+[
+5,
+"Coordination Compounds",
+5
+]
+]
+},
+{
+"cls": 12,
+"sub": "Chemistry",
+"title": "Chemistry Part II",
+"code": "lech2",
+"label": "Unit",
+"ch": [
+[
+6,
+"Haloalkanes and Haloarenes",
+1
+],
+[
+7,
+"Alcohols, Phenols and Ethers",
+2
+],
+[
+8,
+"Aldehydes, Ketones and Carboxylic Acids",
+3
+],
+[
+9,
+"Amines",
+4
+],
+[
+10,
+"Biomolecules",
+5
+]
+]
+},
+{
+"cls": 12,
+"sub": "Maths",
+"title": "Mathematics Part I",
+"code": "lemh1",
+"label": "Chapter",
+"ch": [
+[
+1,
+"Relations and Functions",
+1
+],
+[
+2,
+"Inverse Trigonometric Functions",
+2
+],
+[
+3,
+"Matrices",
+3
+],
+[
+4,
+"Determinants",
+4
+],
+[
+5,
+"Continuity and Differentiability",
+5
+],
+[
+6,
+"Application of Derivatives",
+6
+]
+]
+},
+{
+"cls": 12,
+"sub": "Maths",
+"title": "Mathematics Part II",
+"code": "lemh2",
+"label": "Chapter",
+"ch": [
+[
+7,
+"Integrals",
+1
+],
+[
+8,
+"Application of Integrals",
+2
+],
+[
+9,
+"Differential Equations",
+3
+],
+[
+10,
+"Vector Algebra",
+4
+],
+[
+11,
+"Three Dimensional Geometry",
+5
+],
+[
+12,
+"Linear Programming",
+6
+],
+[
+13,
+"Probability",
+7
+]
+]
+},
+{
+"cls": 12,
+"sub": "Biology",
+"title": "Biology",
+"code": "lebo1",
+"label": "Chapter",
+"ch": [
+[
+1,
+"Sexual Reproduction in Flowering Plants",
+1
+],
+[
+2,
+"Human Reproduction",
+2
+],
+[
+3,
+"Reproductive Health",
+3
+],
+[
+4,
+"Principles of Inheritance and Variation",
+4
+],
+[
+5,
+"Molecular Basis of Inheritance",
+5
+],
+[
+6,
+"Evolution",
+6
+],
+[
+7,
+"Human Health and Disease",
+7
+],
+[
+8,
+"Microbes in Human Welfare",
+8
+],
+[
+9,
+"Biotechnology: Principles and Processes",
+9
+],
+[
+10,
+"Biotechnology and its Applications",
+10
+],
+[
+11,
+"Organisms and Populations",
+11
+],
+[
+12,
+"Ecosystem",
+12
+],
+[
+13,
+"Biodiversity and Conservation",
+13
+]
+]
+}
+]
