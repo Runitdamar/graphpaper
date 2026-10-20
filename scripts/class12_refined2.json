@@ -1,0 +1,777 @@
+{
+ "leac1": [
+  {
+   "file": "leac101",
+   "pages": 47,
+   "outline": [],
+   "head": "Y ou have learnt about the preparation of financial statements for a sole proprietary concern. As the business expands, one needs more capital and larger number of people to manage the business and share its risks. In such a situation, people usually adopt the partnership form of organisation. Accounting for partnership firms has it’s own peculiarities, as the partnership firm comes into existence when two or more persons come together to establish business and share its profits. On many issues affecting distribution of profits, there may not be any specific agreement between the partners. In such a situation the provisions of the Indian Partnership Act 1932 apply. Similarly, calculation of interest on capital, interest on drawings and maintenance of partners capital accounts have their own peculiarities. Not only that a variety of adjustments are required on the death of a partner or wh"
+  },
+  {
+   "file": "leac102",
+   "pages": 59,
+   "outline": [],
+   "head": "2 LEARNING OBJECTIVES After studying this chapter you will be able to: • Explain the concept of reconstitution of a partnership firm; • Identify the matters that need adjustments in the books of firm when a new partner is admitted; • Determine the new profit sharing ratio and calculate the sacrificing ratio; • Define goodwill and enumerate the factors that affect it; • Explain the methods of valuation of goodwill; • Describe how goodwill will be treated under different situations when a new partner is admitted; • Make necessary adjustments for revaluation of assets and reassessment of liabilities; • Make necessary adjustments for accumulated profits and losses; • Determine the capital of each partner, if required according to the new profit sharing ratio and make necessary adjustments; • Make necessary adjustments on change in the profit sharing ratio among the existing partners. P artne"
+  },
+  {
+   "file": "leac103",
+   "pages": 49,
+   "outline": [],
+   "head": "Reconstitution of a Partnership Firm – Retirement/Death of a Partner 3 Y ou have lear nt that r etirement or death of a partner also leads to reconstitution of a partnership firm. On the retirement or death of a partner, the existing partnership deed comes to an end, and in its place, a new partnership deed needs to be framed whereby, the remaining partners continue to do their business on changed terms and conditions. There is not much difference in the accounting treatment at the time of retirement or in the event of death. In both the cases, we are required to determine the sum due to the retiring partner (in case of retirement) and to the legal representatives (in case of deceased partner) after making necessary adjustments in respect of goodwill, revaluation of a assets and liabilities and transfer of accumulated profits and losses. In addition, we may also have to compute the new p"
+  },
+  {
+   "file": "leac104",
+   "pages": 39,
+   "outline": [],
+   "head": "Y ou have lear nt about the r econstitution of a partnership firm which takes place on account of admission, retirement or death of a partner. In such a situation while the existing partnership is dissolved, the firm may continue under the same name if the partners so decide. In other words, it results in the dissolution of a partnership but not that of the firm. According to Section 39 of the partnership Act 1932, the dissolution of partnership between all the partners of a firm is called the dissolution of the firm. That means the Act recognises the difference in the breaking of relationship between all the partners of a firm and between some of the partners; and it is the breaking or discontinuance of relationship between all the partners which is termed as the dissolution of partnership firm. This brings an end to the existence of firm, and no business is transacted after dissolution"
+  }
+ ],
+ "leac2": [
+  {
+   "file": "leac201",
+   "pages": 74,
+   "outline": [],
+   "head": "A company form of organisation is the third stage in the evolution of forms of organisation. Its capital is contributed by a large number of persons called shareholders who are the real owners of the company. But neither it is possible for all of them to participate in the management of the company nor considered desirable. Therefore, they elect a Board of Directors as their representative to manage the affairs of the company. In fact, all the affairs of the company are governed by the provisions of the Companies Act, 2013. A company means a company incorporated or registered under the Companies Act, 2013 or under any other earlier Companies Acts. According to Chief Justice Marshal, “a company is a person, artificial, invisible, intangible and existing only in the eyes of law. Being a mere creation of law, it possesses only those properties which the charter of its creation confers upon "
+  },
+  {
+   "file": "leac202",
+   "pages": 69,
+   "outline": [],
+   "head": "A company raises its capital by means of issue of shares. But the funds raised by the issue of shares are seldom adequate to meet their long term financial needs of a company. Hence, most companies turn to raising long-term funds also through debentures which are issued either through the route of private placement or by offering the same to the public. The finances raised through debentures are also known as long-term debt. This chapter deals with the accounting treatment of issue and redemption of debentures and other related aspects. SECTION I 2.1 Meaning of Debentures Debenture: The word ‘debenture’ has been derived from a Latin word ‘debere’ which means to borrow. Debenture is a written instrument acknowledging a debt under the common seal of the company. It contains a contract for repayment of principal after a specified period or at intervals or at the option of the company and fo"
+  },
+  {
+   "file": "leac203",
+   "pages": 27,
+   "outline": [],
+   "head": "144 Accountancy : Company Accounts and Analysis of Financial Statements H aving understood how a company raises its capital, we have to learn the nature, objectives and types of financial statements it has to prepare including their contents, format, uses and limitations. The financial statements are the end products of accounting process. They are prepared following accounting policies consistently accounting standards prescribed in the Companies Act and accounting concepts, principles, procedures and also the legal environment in which the business organisations operate. These statements are the outcome of the summarising process of accounting and are, therefore, the sources of information on the basis of which conclusions are drawn about the profitability and the financial position of a company. Hence, they need to be arranged in a proper form with suitable contents so that the shareh"
+  },
+  {
+   "file": "leac204",
+   "pages": 23,
+   "outline": [],
+   "head": "171Analysis of Financial Statements Y ou have learnt about the financial statements (Income Statement and Balance Sheet) of companies. Basically, these are summarised financial reports which provide the operating results and financial position of companies, and the detailed information contained therein is useful for assessing the operational efficiency and financial soundness of a company. This requires proper analysis and interpretation of such information for which a number of techniques (tools) have been developed by financial experts. In this chapter we will have an overview of these techniques. 4.1 Meaning of Analysis of Financial Statements The process of critical evaluation of the financial information contained in the financial statements in order to understand and make decisions regarding the operations of the firm is called ‘Financial Statement Analysis’. It is basically a stu"
+  },
+  {
+   "file": "leac205",
+   "pages": 47,
+   "outline": [],
+   "head": "F inancial statements aim at providing financial information about a business enterprise to meet the information needs of the decision-makers. Financial statements prepared by a business enterprise in the corporate sector are published and are available to the decision-makers. These statements provide financial data which require analysis, comparison and interpretation for taking decision by the external as well as internal users of accounting information. This act is termed as financial statement analysis. It is regarded as an integral and important part of accounting. As indicated in the previous chapter, the most commonly used techniques of financial statements analysis are comparative statements, common size statements, trend analysis, accounting ratios and cash flow analysis. The first three have been discussed in detail in the previous chapter. This chapter covers the technique of "
+  },
+  {
+   "file": "leac206",
+   "pages": 46,
+   "outline": [],
+   "head": "T iill now you have learnt about the financial statements being primarily inclusive of Position Statement (showing the financial position of an enterprise as on a particular date) and Income Statement (showing the result of the operational activities of an enterprise over a particular period). There is also a third important financial statement known as Cash flow statement, which shows inflows and outflows of the cash and cash equivalents. This statement is usually prepared by companies which comes as a tool in the hands of users of financial information to know about the sources and uses of cash and cash equivalents of an enterprise over a period of time from various activities o f an enterprise. It has gained substantial importance in the last decade because of its practical utility to the users of financial information. Financial Statement of companies are prepared following the accou"
+  }
+ ],
+ "leca1": [
+  {
+   "file": "leca101",
+   "pages": 16,
+   "outline": [],
+   "head": "OVERVIEW OF COMPUTERISED ACCOUNTING SYSTEM Introduction After studying this chapter you will be able to: • Understand the need of Computerised Accounting System. • Appreciate the impact of Information Technology on Financial Accounting System. • Describe the major functions of Accounting Information System (AIS). 1 In modern business accounting transactions are processed through computers. Usage of computers and Information Technology (IT) enables a business to quickly, accurately and timely access the information that helps in decision-making. This sharpens the competitive edge and enhances profitability. The computer systems (Figure 1.1) works with the data which is processed by the hardware commanded by the user through software. The Computerised Accounting System (CAS) has the following components: Procedure : A logical sequence of actions to perform a task. Data : The raw fact (as i"
+  },
+  {
+   "file": "leca102",
+   "pages": 70,
+   "outline": [],
+   "head": "SPREADSHEET Introduction After studying this chapter you will be able to understand: • Concept of Spreadsheet and its features. • How to use a Spreadsheet. 2 Learning Objectives A spreadsheet is a configuration of rows and columns. Rows are horizontal vectors while columns are vertical vectors. A spreadsheet is also known as a worksheet. It is used to record, calculate and compare numerical or financial data. Each value can either be an independent (i.e. basic) value or it may be derived on the basis of values of other variables. The derived value is the outcome of an arithmetic expression and/or a function (i.e. a formula). Spreadsheet application (sometimes referred to simply as spreadsheet) is a computer program that allows us to add (i.e. enter) and pr ocess data. W e shall understand spreadsheet with the help of MS-Excel (or simply, Excel), which is one of the Microsoft Office Suite"
+  },
+  {
+   "file": "leca103",
+   "pages": 18,
+   "outline": [],
+   "head": "USE OF SPREADSHEET IN BUSINESS APPLICATIONS Introduction After studying this chapter you will be able to use spreadsheet for: • Computing employee’s gross salary. Making necessary deductions to calculate net salary, payroll accounting. • Calculation of deprecation by various methods. • Loan repayment, interest calculation. 3 Learning Objectives In the pr evious chapter , we have lear ned about the spreadsheet and its several features that can be used in business applications. In this chapter , we shall discuss the applications of spreadsheet (using Excel) to Payroll Accounting and some other select applications (Asset Management, and Loan Repayment). 3.1 PAYROLL ACCOUNTING Every employee is paid salary on a pre-determined date within the framework of employee contract and related personnel policy in force from time to time in an organisation. The computation of salary payment is based on"
+  },
+  {
+   "file": "leca104",
+   "pages": 20,
+   "outline": [],
+   "head": "GRAPHS AND CHARTS FOR BUSINESS DATA Introduction 4 Learning Objectives In the pr evious chapter , you wer e intr oduced to the basic features of spreadsheet and use of spreadsheet in accounting. Quite often, we have to present the data for communication of the accounting information. If mass of data is presented in the raw form, it may not be easily understandable. It is rightly said, “A picture is worth more than thousand words”. This chapter seeks to explain the method of preparing graphs, charts and diagrams showing the data through the use of Excel as a tool. 4.1 GRAPHS AND CHARTS A graph is a pictorial representation of data, which has at least 2 dimensional relationship. Therefore, a graph has at least two axes, X and Y . X-axis is usually horizontal while Y-axis is vertical. A graph may either be a singleline graph or a multiple- line graph. For ease and enhancing of clarity, diff"
+  }
+ ],
+ "lebs1": [
+  {
+   "file": "lebs101",
+   "pages": 29,
+   "outline": [],
+   "head": "After studying this chapter, you should be able to: n Describe the characteristics of management and its importance in an organisation; n Explain the nature of management as an art, science and profession; n Explain the functions of management; and n Appreciate the nature and importance of coordination. NATURE AND SIGNIFICANCE OF MANAGEMENT LEARNING OBJECTIVES Founded in 1868, by Jamsetji Nusserwanji ,Tata the Tata Group is a global business conglomerate operating in over 100 countries across 5 continents. His strong sense of values and spirit of innovation and entrepreneurship are a legacy that continues to guide Tata companies till date. He had four goals in life: setting up an iron and steel company, a world-class learning institution, a unique hotel and a hydro-electric plant. Only the hotel became a reality during his lifetime, with the inauguration of the Taj Mahal Hotel at Colaba "
+  },
+  {
+   "file": "lebs102",
+   "pages": 39,
+   "outline": [],
+   "head": "2 PRINCIPLES OF MANAGEMENT CHAPTER LEARNING OBJECTIVES T oyota follows certain well-defined business principles guiding its functioning. These are: 1. Honour the language and spirit of law of every nation and undertake open and fair corporate activities to be a good corporate citizen around the world. 2. Respect the culture and customs of every nation and contribute to economic and social development through corporate activities in local communities. 3. T o provide clean and safe products and to enhance the quality of life everywhere. 4. Create and develop advanced technologies and provide outstanding products and services that fulfil the needs of customers worldwide. 5. Foster a corporate culture that enhances individual creativity and teamwork value, while honouring mutual trust and respect between management and labour. 6. Pursue growth and harmony with global community through innova"
+  },
+  {
+   "file": "lebs103",
+   "pages": 22,
+   "outline": [],
+   "head": "3BUSINESS ENVIRONMENT CHAPTER After studying this chapter you will be able to: n Explain the meaning of business environment; n Discuss the importance of business environment; n Describe the various elements of business environment; and n Examine the economic environment in India and the impact of Government policies on business and industry. LEARNING OBJECTIVES On what seemed like a regular day at work Dharamveer Kamboj, a rickshaw puller, was riding through the streets of Delhi when he met with a terrible accident. This was an event that would change his life forever. Knowing that he wouldn’t be able to go back to his work, he made the decision of returning to his native village in the Yamunanagar district of Haryana to begin life anew. Being a school dropout with no technical training of any kind further restricted his scope in terms of employment. The desire to do something out of th"
+  },
+  {
+   "file": "lebs104",
+   "pages": 18,
+   "outline": [],
+   "head": "Planning CHAPTER IOCL: Fuelling Sustainable Future Indian Oil, a Maharatna PSU, is India’s foremost integrated energy conglomerate. As a leader, the company dedicates itself to delivering sustainable and affordable energy solutions that shape India’s energy landscape through planned diversification into alternative energy sources and innovation for the global community. This story of success is not written in ‘Letters of Gold’ but in ‘Green,’ as the company escalates its goal of achieving net zero operational emissions by the year 2046. T o realize this vision, the company plans to undertake an investment of 2 lakh crore. The company envisions economic development by implementing sustainable practices in line with achieving net zero emissions and rolling out plans for a renewable and green energy ecosystem in the country. In the spirit of sustainable planning, IOCL has begun waste manage"
+  },
+  {
+   "file": "lebs105",
+   "pages": 30,
+   "outline": [],
+   "head": "ORGANISING CHAPTER 5 It’s not quite there yet, but the goal is certainly within reach. One of India’s largest IT solutions providers, Wipro T echnologies, is taking on the likes of IBM and Accenture in its effort to be included among the largest and most successful technology services companies in the world. Restructuring Wipro was considered the most important step in becoming a global giant, driven by the goal towards improved customer- orientation. During the past few months, Wipro separated itself into several subsidiaries by product line: telecommunications, engineering, financial services, etc. Each subsidiary brings in about $300 million in annual earnings and is self-sufficient with their own accounting books, personnel and administrative functions. Wipro shifted from a centralised to decentralised management system. All responsibilities for growth lay with the management of each"
+  },
+  {
+   "file": "lebs106",
+   "pages": 30,
+   "outline": [],
+   "head": "STAFFING CHAPTER “Our assets walk out of the door each evening. We have to make sure that they come back the next morning” (as stated by Narayana Murthy former, CEO of INFOSYS.) At a time when organisations are debating the strategic importance of their human resources, Infosys, a consulting and software services organisation, includes its human resources on its balance sheet to affirm their asset value. The rationale for this is as follows: “The long term success of a company is usually examined on certain financial and non-financial parameters. Human resources are among these new non- financial parameters that challenge the usefulness of evaluating corporate success solely on traditional measures. Human resources represent the collective expertise, innovation, leadership, entrepreneurial and managerial skills endowed in the employees of an organisation.” As a knowledge intensive compan"
+  },
+  {
+   "file": "lebs107",
+   "pages": 32,
+   "outline": [],
+   "head": "DIRECTING CHAPTER 7 LEARNING OBJECTIVES After studying this chapter, you should be able to: n Explain the concept of directing and its importance in business organisations; n Understand the principles guiding directing process; n Explain the meaning of supervision and its importance; n Explain the meaning of motivation and its importance in business management; n Understand and explain Maslow’s theory of hierarchy of needs and its application to motivation of employees in an organisation; n Explain the financial and non- financial incentives through which managers motivate their employees; n Explain the concept of leadership and its importance in management; n Describe the qualities of a good leader; n Explain about formal and informal communications in the organisations; and n Identify various barriers to effective communications and measures to overcome these barriers in the organisati"
+  },
+  {
+   "file": "lebs108",
+   "pages": 14,
+   "outline": [],
+   "head": "CONTROLLING CHAPTER LEARNING OBJECTIVES 8 After studying this chapter, you should be able to: n Explain the meaning of controlling; n State the importance of controlling; n Describe the relationship between planning and controlling; n Explain the steps in the process of controlling; and n Describe the techniques of controlling. A Departure Control System (DCS) automates processing an airlines airport management operations which includes managing the informant required for airport check-in, printing boarding pass, baggage acceptance, boarding load control and aircraft checks. T oday almost 98% of DCS manage e-ticket using interface from a number of devices including check-in kiosks, online check -in, mobile boarding pass and baggage handling. DCS are able to identify and capture updated reservations from an airline computer reservation system for passengers called passenger name record (P"
+  }
+ ],
+ "lebs2": [
+  {
+   "file": "lebs201",
+   "pages": 27,
+   "outline": [],
+   "head": "chapter 9 When TaTa STeel acquired coruS Tata Steel, the biggest steel producer in the Indian private sector acquired Corus, a Dutch Steel Company in a deal worth 12 billion USD in 2007. A financial decision of this magnitude has significant implicitness for both Tata Steel and Corus as well as their employees and shareholders. Details of acquisition are as follows: � This acquisition has been a largest private sector transaction by Indian company outside of India and named Tata Steel Europe in 2010. � Tata Steel raised a debt of over $8 billion to finance the transaction. The deal will be paid for by Tata Steel UK, a special purpose vehicle (SPV) set up for the purpose. Another company of the Tata group, Tata Sons Ltd., invested $ 1 billion dollars for preference shares along with Tata Steel which will invest an equal amount. � Tata Steel, the acquirer company, arranged about 36,500 cro"
+  },
+  {
+   "file": "lebs202",
+   "pages": 47,
+   "outline": [],
+   "head": "chapter 10 Where Do Companies Do Their Business? In the Markets or in the Society? It is an undisputed fact that a company’s survival does not depend upon its consumers alone, but a diverse set of stakeholders like the government, religious leaders, social activists, NGOs, media, etc. Hence, earning the satisfaction of these segments is also as imperative as they add to the power of the brand by word of mouth. The social concern adds to the strength of the brand. Corporates that embraced the deepest social values, have been successful in building powerful brand, and, eventually, robust customer relationship. The area of corporate social justice fall under two broad categories. The issues such as the nutrition of children, child care, old-age homes, amelioration of hunger, offering aid to those affected by natural calamities, etc. needing instant attention with humanitarian perspective, c"
+  },
+  {
+   "file": "lebs203",
+   "pages": 16,
+   "outline": [],
+   "head": "chapter 11 Learning Objectives After studying this chapter, you should be able to: ¾ state the importance of consumer protection; ¾ briefly explain legal framework for consumer protection in India; ¾ describe consumer rights in India; ¾ briefly descr ibe the ways and means of consumer protection; and Consumer ProteCtion Banks resPonsiBle for failed transaCtions and no Cash in atms In a landmark consumer forum judgement, now, if you do not get money from ATMs, it would be considered as deficiency of services on part of bank,.On May 4, 2017, a petition in the Consumer Forum in Raipur was filed where the complainant submitted photos and video recording of three failed ATM transactions due to non-availability of cash bank’s ATMs. In front of the forum, the bank argued that ATM runs with Internet connectivity, so at the time when users use ATM, he/she is not directly the bank client. Hence, i"
+  }
+ ],
+ "leec1": [
+  {
+   "file": "leec101",
+   "pages": 8,
+   "outline": [],
+   "head": "Chapter□1 Introduction IntroductionIntroductionIntroductionIntroduction You must have already been introduced to a study of basic microeconomics. This chapter begins by giving you a simplified account of how macroeconomics differs from the microeconomics that you have known. Those of you who will choose later to specialise in economics, for your higher studies, will know about the more complex analyses that are used by economists to study macroeconomics today. But the basic questions of the study of macroeconomics would remain the same and you will find that these are actually the broad economic questions that concern all citizens – Will the prices as a whole rise or come down? Is the employment condition of the country as a whole , or of some sectors of the economy, getting better or is it worsening? What would be reasonable indicators to show that the economy is better or worse? What s"
+  },
+  {
+   "file": "leec102",
+   "pages": 27,
+   "outline": [],
+   "head": "National Income AccountingNational Income AccountingNational Income AccountingNational Income AccountingNational Income Accounting In this chapter we will introduce the fundamental functioning of a simple economy. In section 2.1 we describe some primary ideas we shall work with. In section 2.2 we describe how we can view the aggregate income of the entire economy going through the sectors of the economy in a circular way. The same section also deals with the three ways to calculate the national income; namely product method, expenditure method and income method. The last section 2.3 describes the various sub-categories of national income. It also defines dif ferent price indices like GDP deflator, Consumer Price Index, Wholesale Price Indices and discusses the problems associated with taking GDP of a country as an indicator of the aggregate welfare of the people of the country. 2.1 SOME "
+  },
+  {
+   "file": "leec103",
+   "pages": 17,
+   "outline": [],
+   "head": "36 3636 3636Introductory Macroeconomics Money and BankingMoney and BankingMoney and BankingMoney and BankingMoney and Banking Money is the commonly accepted medium of exchange. In an economy which consists of only one individual there cannot be any exchange of commodities and hence there is no role for money. Even if there is more than one individual but these individuals do not take part in market transactions, example: family living on an isolated island, money has no function for them. However, as soon as there is more than one economic agent who engage themselves in transactions through the market, money becomes an important instrument for facilitating these exchanges. Economic exchanges without the mediation of money are referred to as barter exchanges. However, they presume the rather improbable double coincidence of wants. Consider, for example, an individual who has a surplus of "
+  },
+  {
+   "file": "leec104",
+   "pages": 13,
+   "outline": [],
+   "head": "Chapter□4 Chapter□4 Determination of Income andDetermination of Income andDetermination of Income andDetermination of Income andDetermination of Income and EmploymentEmploymentEmploymentEmploymentEmployment We have so far talked about the national income, price level, rate of interest etc. in an ad hoc manner – without investigating the forces that govern their values. The basic objective of macroeconomics is to develop theoretical tools, called models, capable of describing the processes which determine the values of these variables. Specifically, the models attempt to provide theoretical explanation to questions such as what causes periods of slow growth or recessions in the economy, or increment in the price level, or a rise in unemployment. It is difficult to account for all the variables at the same time. Thus, when we concentrate on the determination of a particular variable, we mu"
+  },
+  {
+   "file": "leec105",
+   "pages": 19,
+   "outline": [],
+   "head": "Chapter□5 Chapter□5 Governmen GovernmenGovernmenGovernmenGovernmen ttt tt Budget Budget Budget Budget Budget and the Economyand the Economyand the Economyand the Economyand the Economy We introduced the government in chapter one as denoting the state. We stated that apart from the private sector, there is the government which plays a very important role. An economy in which there is both the private sector and the Government is known as a mixed economy . There are many ways in which the government influences economic life. In this chapter, we will limit ourselves to the functions which are carried on through the government budget . This chapter proceeds as follows. In section 5.1 we present the components of the government budget to bring out the sources of government revenue and avenues of government spending. In section 5.2 we discuss the topic of balanced, surplus or deficit budget to"
+  },
+  {
+   "file": "leec106",
+   "pages": 15,
+   "outline": [],
+   "head": "Open EconomyOpen EconomyOpen EconomyOpen EconomyOpen Economy MacroeconomicsMacroeconomicsMacroeconomicsMacroeconomicsMacroeconomics An open economy is one which interacts with other countries through various channels. So far we had not considered this aspect and just limited to a closed economy in which there are no linkages with the rest of the world in order to simplify our analysis and explain the basic macroeconomic mechanisms. In reality, most modern economies are open. There are three ways in which these linkages are established. 1. Output Market : An economy can trade in goods and services with other countries. This widens choice in the sense that consumers and producers can choose between domestic and foreign goods. 2. Financial Market : Most often an economy can buy financial assets from other countries. This gives investors the opportunity to choose between domestic and foreign"
+  }
+ ],
+ "leec2": [
+  {
+   "file": "leec201",
+   "pages": 7,
+   "outline": [],
+   "head": "Chapter□1 Introduction IntroductionIntroduction IntroductionIntroduction 1.1 A SIMPLE ECONOMY Think of any society. People in the society need many goods and services1 in their everyday life including food, clothing, shelter, transport facilities like roads and railways, postal services and various other services like that of teachers and doctors. In fact, the list of goods and services that any individual2 needs is so large that no individual in society, to begin with, has all the things she needs. Every individual has some amount of only a few of the goods and services that she would like to use. A family farm may own a plot of land, some grains, farming implements, maybe a pair of bullocks and also the labour services of the family members. A weaver may have some yarn, some cotton and other instruments required for weaving cloth. The teacher in the local school has the skills required"
+  },
+  {
+   "file": "leec202",
+   "pages": 28,
+   "outline": [],
+   "head": "Chapter□2 Theor TheorTheor TheorTheory of y ofy of y ofy of Consumer BehaviourConsumer BehaviourConsumer BehaviourConsumer BehaviourConsumer Behaviour In this chapter , we will study the behaviour of an individual consumer. The consumer has to decide how to spend her income on different goods1. Economists call this the problem of choice. Most naturally, any consumer will want to get a combination of goods that gives her maximum satisfaction. What will be this ‘best’ combination? This depends on the likes of the consumer and what the consumer can afford to buy. The ‘likes’ of the consumer are also called ‘preferences’. And what the consumer can afford to buy, depends on prices of the goods and the income of the consumer. This chapter presents two different approaches that explain consumer behaviour (i) Cardinal Utility Analysis and (ii) Ordinal Utility Analysis. Preliminary Notations and "
+  },
+  {
+   "file": "leec203",
+   "pages": 17,
+   "outline": [],
+   "head": "Chapter□3 P PP PProduction and Costsroduction and Costsroduction and Costsroduction and Costsroduction and Costs A Firm Effort In the previous chapter, we have discussed the behaviour of the consumers. In this chapter as well as in the next, we shall examine the behaviour of a producer. Production is the process by which inputs are transformed into ‘output’. Production is carried out by producers or firms. A firm acquires different inputs like labour, machines, land, raw materials etc. It uses these inputs to produce output. This output can be consumed by consumers, or used by other firms for further production. For example, a tailor uses a sewing machine, cloth, thread and his own labour to ‘produce’ shirts. A farmer uses his land, labour, a tractor, seed, fertilizer, water etc to produce wheat. A car manufacturer uses land for a factory, machinery, labour , and various other inputs (st"
+  },
+  {
+   "file": "leec204",
+   "pages": 18,
+   "outline": [],
+   "head": "Chapter 4 The Theor The TheorThe Theor The TheorThe Theor y of the F y of the Fy of the F y of the Fy of the F irm irmirm irmirm under P under Punder P under Punder P er erer ererfect Competitionfect Competitionfect Competitionfect Competitionfect Competition In the previous chapter, we studied concepts related to a firm’s production function and cost curves. The focus of this chapter is different. Here we ask : how does a firm decide how much to produce? Our answer to this question is by no means simple or uncontroversial. We base our answer on a critical , if somewhat unreasonable, assumption about firm behaviour – a firm, we maintain, is a ruthless profit maximiser. So, the amount that a firm produces and sells in the market is that which maximises its profit. Here, we also assume that the firm sells whatever it produces so that ‘output’ and quantity sold are often used interchangebly"
+  },
+  {
+   "file": "leec205",
+   "pages": 17,
+   "outline": [],
+   "head": "Chapter□5 Price O Quantity SS DD p* pf q'1 q* q2 p1 q1q'1 Mark MarkMark MarkMarket Equilibriumet Equilibriumet Equilibriumet Equilibriumet Equilibrium This chapter will be built on the foundation laid down in Chapters 2 and 4 where we studied the consumer and firm behaviour when they are price takers. In Chapter 2, we have seen that an individual’s demand curve for a commodity tells us what quantity a consumer is willing to buy at different prices when he takes price as given. The market demand curve in turn tells us how much of the commodity all the consumers taken together are willing to purchase at different prices when everyone takes price as given. In Chapter 4, we have seen that an individual firm’s supply curve tells us the quantity of the commodity that a profit-maximising firm would wish to sell at different prices when it takes price as given and the market supply curve tells u"
+  }
+ ],
+ "lehs1": [
+  {
+   "file": "lehs101",
+   "pages": 27,
+   "outline": [],
+   "head": "1 Bricks, Beads and Bones The Har appan Civilisation THEME ONE The Harappan seal (Fig.1.1) is possibly the most distinctive artefact of the Harappan or Indus valley civilisation. Made of a stone called steatite, seals like this one often contain animal motifs and signs from a script that remains undeciphered. Y et we know a great deal about the lives of the people who lived in the region from what they left behind – their houses, pots, ornaments, tools and seals – in other words, from archaeological evidence. Let us see what we know about the Harappan civilisation, and how we know about it. W e will explore how archaeological material is interpreted and how interpretations sometimes change. Of course, there are some aspects of the civilisation that are as yet unknown and may even remain so. Terminologies, Places and T ime “The Harappan Civilisation ” is also known as the Indus V alley Ci"
+  },
+  {
+   "file": "lehs102",
+   "pages": 25,
+   "outline": [],
+   "head": "THEMES IN INDIAN HISTORY28 THEME TWO There were several developments in different parts of the subcontinent during the long span of 1,500 years following the end of the Harappan civilisation. This was also the period during which the Rigveda was composed by people living along the Indus and its tributaries. Agricultural settlements emerged in many parts of the subcontinent, including north India, the Deccan Plateau, and parts of Karnataka. Besides, there is evidence of pastoral populations in the Deccan and further south. New modes of disposal of the dead, including the making of elaborate stone structures known as megaliths, emerged in central and south India from the first millennium BCE. In many cases, the dead were buried with a rich range of iron tools and weapons. From c. sixth century BCE , there is evidence that there were other trends as well. Perhaps the most visible was the em"
+  },
+  {
+   "file": "lehs103",
+   "pages": 29,
+   "outline": [],
+   "head": "53 In the previous chapter we saw that there were several changes in economic and political life between c. 600 BCE and 600 CE. Some of these changes influenced societies as well. For instance, the extension of agriculture into forested areas transformed the lives of forest dwellers; craft specialists often emerged as distinct social groups; the unequal distribution of wealth sharpened social differences. Historians often use textual traditions to understand these processes. Some texts lay down norms of social behaviour; others describe and occasionally comment on a wide range of social situations and practices. We can also catch a glimpse of some social actors from inscriptions. As we will see, each text (and inscription) was written from the perspective of specific social categories. So we need to keep in mind who composed what and for whom . W e also need to consider the language used"
+  },
+  {
+   "file": "lehs104",
+   "pages": 33,
+   "outline": [],
+   "head": "THEMES IN INDIAN HISTORY82 In this chapter we shall go on a long journey across a thousand years to read about philosophers and their attempts to understand the world they inhabited. W e will also see how their ideas were compiled as oral and written texts as well as expressed in architecture and sculpture. These are indicative of the enduring influence these thinkers had on people. While we will be focusing on Buddhism, it is important to remember that this tradition did not develop in isolation – there were several other traditions, each engaged in debates and dialogues with the others. The sources that historians use to reconstruct this exciting world of ideas and beliefs include Buddhist, Jaina and Brahmanical texts, as well as a large and impressive body of material remains including monuments and inscriptions. Among the best preserved monuments of the time is the stupa at Sanchi wh"
+  }
+ ],
+ "lehs2": [
+  {
+   "file": "lehs201",
+   "pages": 25,
+   "outline": [],
+   "head": "115 Women and men have travelled in search of work, to escape from natural disasters, as traders, merchants, soldiers, priests, pilgrims, or driven by a sense of adventure. Those who visit or come to stay in a new land invariably encounter a world that is different: in terms of the landscape or physical environment as well as customs, languages, beliefs and practices of people. Many of them try to adapt to these differences; others, somewhat exceptional, note them carefully in accounts, generally recording what they find unusual or remarkable. Unfortunately, we have practically no accounts of travel left by women, though we know that they travelled. The accounts that survive are often varied in terms of their subject matter. Some deal with affairs of the court, while others are mainly focused on religious issues, or architectural features and monuments. For example, one of the most impor"
+  },
+  {
+   "file": "lehs202",
+   "pages": 30,
+   "outline": [],
+   "head": "THEMES IN INDIAN HISTORY – PART II140 We saw in Chapter 4 that by the mid-first millennium CE the landscape of the subcontinent was dotted with a variety of religious structures – stupas , monasteries, temples. If these typified certain religious beliefs and practices, others have been reconstructed from textual traditions, including the Puranas , many of which received their present shape around the same time, and yet others remain only faintly visible in textual and visual records. New textual sources available from this period include compositions attributed to poet-saints, most of whom expressed themselves orally in regional languages used by ordinary people. These compositions, which were often set to music, were compiled by disciples or devotees, generally after the death of the poet-saint. What is more, these traditions were fluid – generations of devotees tended to elaborate on t"
+  },
+  {
+   "file": "lehs203",
+   "pages": 26,
+   "outline": [],
+   "head": "THEMES IN INDIAN HISTORY – PART II170 An Im perial Capit al Vijayanagara ( (( ((c cc cc. fourteenth to sixteenth century). fourteenth to sixteenth century). fourteenth to sixteenth century). fourteenth to sixteenth century). fourteenth to sixteenth century) Vijayanagara or “city of victory” was the name of both a city and an empire. The empire was founded in the fourteenth century. In its heyday it stretched from the river Krishna in the north to the extreme south of the peninsula. In 1565 the city was sacked and subsequently deserted. Although it fell into ruin in the seventeenth-eighteenth centuries, it lived on in the memories of people living in the Krishna-Tungabhadra doab. They remembered it as Hampi, a name derived from that of the local mother goddess, Pampadevi. These oral traditions combined with archaeological finds, monuments and inscriptions and other records helped scholars"
+  },
+  {
+   "file": "lehs204",
+   "pages": 31,
+   "outline": [
+    "lehs204",
+    "Fig Credits"
+   ],
+   "head": "THEMES IN INDIAN HISTORY – PART II196 During the sixteenth and seventeenth centuries about 85 per cent of the population of India lived in its villages. Both peasants and landed elites were involved in agricultural production and claimed rights to a share of the produce. This created relationships of cooperation, competition and conflict among them. The sum of these agrarian relationships made up rural society. At the same time agencies from outside also entered into the rural world. Most important among these was the Mughal state, which derived the bulk of its income from agricultural production. Agents of the state – revenue assessors, collectors, record keepers – sought to control rural society so as to ensure that cultivation took place and the state got its regular share of taxes from the produce. Since many crops were grown for sale, trade, money and markets entered the villages an"
+  }
+ ],
+ "lehs3": [
+  {
+   "file": "lehs301",
+   "pages": 31,
+   "outline": [],
+   "head": "227 In this chapter you will see what colonial rule meant to those who lived in the countryside. Y ou will meet the zamindars of Bengal, travel to the Rajmahal hills where the Paharias and the Santhals lived, and then move west to the Deccan. Y ou will look at the way the English East India Company (E.I.C.) established its raj in the countryside, implemented its revenue policies, what these policies meant to different sections of people, and how they changed everyday lives. Laws introduced by the state have consequences for people: they determine to an extent who grows richer and who poor er, who acquir es new land and who loses the land they have lived on, where peasants go when they need money. As you will see, however, people wer e not only subject to the working of laws, they also resisted the law by acting according to what they believed to be just. In doing so people defined the wa"
+  },
+  {
+   "file": "lehs302",
+   "pages": 28,
+   "outline": [],
+   "head": "THEMES IN INDIAN HISTORY – PART III258 Late in the afternoon of 10 May 1857, the sepoys in the cantonment of Meerut broke out in mutiny. It began in the lines of the native infantry, spread very swiftly to the cavalry and then to the city. The ordinary people of the town and surrounding villages joined the sepoys. The sepoys captured the bell of arms where the arms and ammunition were kept and proceeded to attack white people, and to ransack and burn their bungalows and property. Government buildings – the record office, jail, court, post office, treasury, etc. – were destroyed and plundered. The telegraph line to Delhi was cut. As darkness descended, a group of sepoys rode off towards Delhi. The sepoys arrived at the gates of the Red Fort early in the morning on 11 May. It was the month of Ramzan, the Muslim holy month of prayer and fasting. The old Mughal emper or, Bahadur Shah, had ju"
+  },
+  {
+   "file": "lehs303",
+   "pages": 30,
+   "outline": [],
+   "head": "THEMES IN INDIAN HISTORY – PART III286 Mahatma Gandhi and the Nationalist Movement Civil Disobedience and BeCivil Disobedience and BeCivil Disobedience and BeCivil Disobedience and BeCivil Disobedience and Be yyyyyond ondond ondond Fig. 11.1 People gather on the banks of the Sabarmati River to hear Mahatma Gandhi speak before starting out on the Salt March in 1930 In the history of nationalism a single individual is often identified with the making of a nation. Thus, for example, we associate Garibaldi with the making of Italy, Geor ge Washington with the American W ar of Independence, and Ho Chi Minh with the struggle to free Vietnam from colonial rule. In the same manner , Mahatma Gandhi has been regarded as the ‘Father’ of the Indian nation. In so far as Gandhiji was the most influential and revered of all the leaders who participated in the freedom struggle, that characterisation is "
+  },
+  {
+   "file": "lehs304",
+   "pages": 29,
+   "outline": [],
+   "head": "Fig. 15.2 Images of desolation and destruction continued to haunt members of the Constituent Assembly. Framing t he Cons titution The Beginning of a NThe Beginning of a NThe Beginning of a NThe Beginning of a NThe Beginning of a N eeeeew Er w Erw Er w Erw Er a aa aa The Indian Constitution, which came into effect on 26 January 1950, has the dubious distinction of being the longest in the world. But its length and complexity ar e per haps understandable when one considers the country’s size and diversity. At Independence, India was not mer ely lar ge and diverse, but also deeply divided. A Constitution designed to keep the country together , and to take it forward, had necessarily to be an elaborate, car efully-worked-out, and painstakingly drafted document. For one thing, it sought to heal wounds of the past and the present, to make Indians of different classes, castes and communities co"
+  }
+ ],
+ "legy1": [
+  {
+   "file": "legy101",
+   "pages": 6,
+   "outline": [],
+   "head": "Human Geography Nature and Scope You have alr eady studied ‘Geography as a Discipline’ in Chapter I of the book, Fundamentals of Physical Geography (NCERT , 2006). Do you recall the contents? This chapter has broadly covered and introduced you to the nature of geography. You are also acquainted with the important branches that sprout from the body of geography. If you re-read the chapter you will be able to recall the link of human geography with the mother discipline i.e. geography. As you know geography as a field of study is integrative, empirical, and practical. Thus, the reach of geography is extensive and each and every event or phenomenon which varies over space and time can be studied geographically. How do you see the earth’s surface? Do you realise that the earth comprises two major components: nature (physical environment) and life forms including human beings? Make a list of "
+  },
+  {
+   "file": "legy102",
+   "pages": 6,
+   "outline": [],
+   "head": "Unit-II Chapter-2 The World Population Distribution, Density and Growth Not gold but only (Wo)men can make a people great and strong. (Wo)men who for truth and honour’s sake, st and fast and suf fer long (Wo)men who toil while others sleep – who dare while others flee – they build a nation’s pillars deep and lift it to the sky. Ralph Waldo Emerson The people of a country are its real wealth. It is they, who are the actual resources and make use of the country’s other resources and decide its policies. Ultimately a country is known by its people. It is important to know how many women and men a country has, how many children are born each year, how many people die and how? Whether they live in cities or villages, can they read or write and what work do they do? These are what you will study about in this unit. The world at the beginning of 21st century recorded the presence of over 6 bill"
+  },
+  {
+   "file": "legy103",
+   "pages": 9,
+   "outline": [],
+   "head": "                                      "
+  },
+  {
+   "file": "legy104",
+   "pages": 14,
+   "outline": [],
+   "head": "Fundamentals of Human Geography22 Unit-III Chapter-4 Primary Activities Human activities which generate income are known as economic activities. Economic activities are broadly grouped into primary, secondary, tertiary and quaternary activities. Primary activities are directly dependent on environment as these refer to utilisation of earth’s r esour ces such as land, water , vegetation, building materials and minerals. It, thus includes, hunting and gathering, pastoral activities, fishing, forestry, agriculture, and mining and quarrying. Why are the inhabitants of coastal and plain regions engaged in fishing and agriculture respectively? What are the physical and social factors which affect the type of primary activities in different regions? People engaged in primary activities are called red- collar workers due to the outdoor nature of their work. HUNTING AND GATHERING The earliest hum"
+  },
+  {
+   "file": "legy105",
+   "pages": 9,
+   "outline": [],
+   "head": "Fundamentals of Human Geography36 Unit-III Chapter-5 Secondary Activities All economic activities namely primary, secondary, tertiary and quaternary, revolve around obtaining and utilising resources necessary for survival. Secondary activities add value to natural resources by transforming raw materials into valuable products. Cotton in the boll has limited use but after it is transformed into yarn, becomes more valuable and can be used for making clothes. Iron ore, cannot be used; directly from the mines, but after being converted into steel it gets its value and can be used for making many valuable machines, tools, etc. The same is true of most of the materials from the farm, forest, mine and the sea. Secondary activities, therefore, are concerned with manufacturing, processing and construction (infrastructure) industries. MANUF MANUFMANUF MANUFMANUFA AA AACTURING CTURINGCTURING CTURIN"
+  },
+  {
+   "file": "legy106",
+   "pages": 9,
+   "outline": [],
+   "head": "Unit-III Chapter-6 Tertiary and Quaternary Activities When you fall ill you go to your family doctor or you call a doctor. Sometimes your parents take you to a hospital for treatment. While in school, you are taught by your teachers. In the event of any dispute, legal opinion is obtained from a lawyer . Likewise, ther e ar e many professionals who provide their services against payment of their fee. Thus, all types of services are special skills provided in exchange of payments. Health, education, law, governance and recreation etc. require professional skills. These services require other theoretical knowledge and practical training. Tertiary activities ar e r elated to the service sector . Manpower is an important component of the service sector as most of the tertiary activities are performed by skilled labour, professionally trained experts and consultants. In the initial stages of e"
+  },
+  {
+   "file": "legy107",
+   "pages": 16,
+   "outline": [],
+   "head": "Fundamentals of Human Geography54 Unit-III Chapter-7 Transport and Communication Natural resources, economic activities and markets are rarely found in one place. Transport, communication and trade establish links between producing centres and consuming centres. The system of mass production and exchange is complex. Each region produces the items for which it is best suited. T rade or the exchange of such commodities relies on transportation and communication. Likewise, the high living standards and quality of life depend on efficient transportation, communications and trade. In earlier days, the means of transport and communication were the same. But today both have acquired distinct and specialised forms. Transport provides the network of links and carriers through which trade takes place. TRANSPORTRANSPORTRANSPORTRANSPORTRANSPORT TTTT Transport is a service or facility for the carriag"
+  },
+  {
+   "file": "legy108",
+   "pages": 7,
+   "outline": [],
+   "head": "Fundamentals of Human Geography70 Unit-III Chapter-8 International Trade You are already familiar with the term “trade” as a tertiary activity which you have studied in Chapter 7 of this book. Y ou know that trade means the voluntary exchange of goods and services. Two parties are required to trade. One person sells and the other purchases. In certain places, people barter their goods. For both the parties trade is mutually beneficial. Trade may be conducted at two levels: international and national. International trade is the exchange of goods and services among countries across national boundaries. Countries need to trade to obtain commodities, they cannot produce themselves or they can purchase elsewhere at a lower price. The initial form of trade in primitive societies was the barter system, where direct exchange of goods took place. In this system if you were a potter and were in ne"
+  }
+ ],
+ "legy2": [
+  {
+   "file": "legy201",
+   "pages": 14,
+   "outline": [],
+   "head": "Unit I Unit IUnit I Unit IUnit I Chapter 1 POPULATION Distribution, Density, Growth and Composition The people are very important component of a country. India is the second most populous country after China in the world with its total population of 1, 210 million (20 11). India’s population is larger than the total population of North America, South America and Australia put together. More often, it is argued that such a large population invariably puts pressure on its limited resources and is also responsible for many socio-economic problems in the country. How do you perceive the idea of India? Is it simply a territory? Does this signify an amalgam of people? Is it a territory inhabited by people living under certain institutions of governance? In this chapter , we will discuss the patterns of distribution, density, growth and composition of India’s population. Sources of Population D"
+  },
+  {
+   "file": "legy202",
+   "pages": 6,
+   "outline": [],
+   "head": "Unit II Unit IIUnit II Unit IIUnit II Chapter 2 HUMAN SETTLEMENTS Human Settlement means cluster of dwellings of any type or size where human beings live. For this purpose, people may erect houses and other structures and command some area or territory as their economic support-base. Thus, the process of settlement inherently involves grouping of people and apportioning of territory as their resource base. Settlements vary in size and type. They range from a hamlet to metropolitan cities. With size, the economic character and social structure of settlements changes and so do its ecology and technology. Settlements could be small and sparsely spaced; they may also be large and closely spaced. The sparsely located small settlements are called villages, specialising in agriculture or other primary activities. On the other hand, there are fewer but larger settlements which are termed as urba"
+  },
+  {
+   "file": "legy203",
+   "pages": 20,
+   "outline": [],
+   "head": "Unit III Unit IIIUnit III Unit IIIUnit III Chapter 3 LAND RESOURCES AND AGRICULTURE You must have observed that the land around you is put to different uses. Some land is occupied by rivers, some may have trees and on some parts roads and buildings have been built. Different types of lands are suited to different uses. Human beings thus, use land as a resource for production as well as residence and recreation. Thus, the building of your school, roads on which you travel, parks in which you play, fields in which crops are grown and the pastures where animals graze represent different uses to which land is put. Land Use CategoriesLand Use CategoriesLand Use CategoriesLand Use CategoriesLand Use Categories Land-use records are maintained by land revenue department. The land use categories add up to reporting area, which is somewhat different from the geographical area. The Survey of India "
+  },
+  {
+   "file": "legy204",
+   "pages": 12,
+   "outline": [],
+   "head": "Unit III Unit IIIUnit III Unit IIIUnit III Chapter 4 WATER RESOURCES Do you think that what exists today will continue to be so, or the future is going to be different in some respects? It can be said with some certainty that the societies will witness demographic transition, geographical shift of population, technological advancement, degradation of environment and water scarcity. Water scarcity is possibly to pose the greatest challenge on account of its increased demand coupled with shrinking supplies due to over utilisation and pollution. W ater is a cyclic resource with abundant supplies on the globe. Approximately, 71 per cent of the earth’s surface is covered with it but freshwater constitutes only about 3 per cent of the total water. In fact, a very small pr oportion of freshwater is effectively available for human use. The availability of freshwater varies over space and time. T"
+  },
+  {
+   "file": "legy205",
+   "pages": 13,
+   "outline": [],
+   "head": "Unit III Unit IIIUnit III Unit IIIUnit III Chapter 5 MINERAL AND ENERGY RESOURCES India is endowed with a rich variety of mineral resources due to its varied geological structure. Bulk of the valuable minerals are products of pre-palaezoic age (Refer: Chapter 2 of Class XI, Textbook: “Fundamentals of Physical Geography” and are mainly associated with metamorphic and igneous rocks of the peninsular India. The vast alluvial plain tract of north India is devoid of minerals of economic use. The mineral resources provide the country with the necessary base for industrial development. In this chapter, we shall discuss the availability of various types of mineral and energy resources in the country. A mineral is a natural substance of organic or inorganic origin with definite chemical and physical properties. T TT TTypes ofypes ofypes of ypes ofypes of Miner Miner Miner Miner Miner al R al Ral "
+  },
+  {
+   "file": "legy206",
+   "pages": 9,
+   "outline": [],
+   "head": "which reforms and reconstruction are often undertaken. Generally, there are two approaches to planning, i.e., sectoral planning and regional planning. Sectoral planning means formulation and implementation of the sets of schemes or programmes aimed at development of various sectors of the economy, such as agriculture, irrigation, manufacturing, power , construction, transport, communication, social infrastructure and services. There is no uniform economic development over space in any country. Some areas are more developed and some lag behind. This uneven pattern of development over space necessitates that the planners have a spatial perspective and draw the plans to reduce regional imbalance in development. This type of planning is termed as regional planning. Unit III Chapter 6 PLANNING AND SUSTAINABLE DEVELOPMENT IN INDIAN CONTEXT The word ‘planning’ is not new to you as it is a part "
+  },
+  {
+   "file": "legy207",
+   "pages": 11,
+   "outline": [],
+   "head": "Unit IV Unit IVUnit IV Unit IVUnit IV Chapter 7 TRANSPORT AND COMMUNICATION We use many items in our daily life. Fr om toothpaste to our bed tea, milk, clothes, soaps, food items, etc., are required every day. All these can be purchased from the market. Have you ever thought as to how these items are brought from the site of production? All the production is meant for consumption. From the fields and factory, the produce is brought to the place from where consumers purchase it. It is the transportation of these items from the site of their production to the market which make them available to the consumer. We not only use material things, like fruits, vegetables, books, clothes, etc., but also use ideas, views and messages in our daily life. Do you know we exchange our views, ideas and messages from one place to another or one individual to another while communicating with the help of va"
+  },
+  {
+   "file": "legy208",
+   "pages": 9,
+   "outline": [],
+   "head": "86 India : People and Economy Unit IV Unit IVUnit IV Unit IVUnit IV Chapter 8 INTERNATIONAL TRADE You have already studied about the various aspects of International trade in the book Fundamentals of Human Geography . International Trade is mutually beneficial as no country is self-sufficient. India’s international trade has undergone a sea change in recent years in terms of volume, composition as well as direction. Although India’s contribution in the world trade is as low as one per cent of the total volume, yet it plays a significant role in the world economy. Let us examine the changing pattern of India’s International trade. In 1950-51, India’s external trade was worth Rs.1,214 crore, which rose to Rs. 77,19,796 crore in 2020-21. Can you calculate the percentage growth in 2020-21 over 1950-51? There are numerous reasons for this sharp rise in overseas trade, such as the momentum pic"
+  },
+  {
+   "file": "legy209",
+   "pages": 11,
+   "outline": [],
+   "head": "Unit V Unit VUnit V Unit VUnit V Chapter 9 GEOGRAPHICAL PERSPECTIVE ON SELECTED ISSUES AND PROBLEMS En EnEnEnEnvir virvir virvironmental Ponmental Ponmental Ponmental Ponmental Pollution ollutionollution ollutionollution Environmental pollution results from ‘the release of substances and energy from waste products of human activities. There are many types of pollution. They are classified on the basis of medium through which pollutants are transported and diffused. Pollution can be classified into (i) air pollution, (ii) water pollution, (iii) land pollution and (iv) noise pollution. Water Pollution Indiscriminate use of water by increasing population and industrial expansion has led degradation of the quality of water considerably. Surface water available from rivers, canals, lakes, etc. is never pure. It contains small quantities of suspended particles, organic and inorganic substances"
+  }
+ ],
+ "legy3": [
+  {
+   "file": "legy301",
+   "pages": 12,
+   "outline": [],
+   "head": "You must have seen and used various forms of data. For example, at the end of almost every news bulletin on Television, the temperatures recorded on that day in major cities are displayed. Similarly, the books on the Geography of India show data relating to the growth and distribution of population, and the production, distribution and trade of various crops, minerals and industrial products in tabular form. Have you ever thought what they mean? From where these data are obtained? How are they tabulated and processed to extract meaningful information from them ? In this chapter, we will deliberate on these aspects of the data and try to answer these many questions. What is Data? What is Data?What is Data? What is Data?What is Data? The data are defined as numbers that represent measurements from the real world. Datum is a single measurement. We often read the news like 20 centimetres of "
+  },
+  {
+   "file": "legy302",
+   "pages": 10,
+   "outline": [],
+   "head": "You have learnt in previous chapter that organising and presenting data makes them comprehensible. It facilitates data processing. A number of statistical techniques are used to analyse the data e.g. 1. Measures of Central Tendency 2. Measures of Dispersion 3. Measures of Relationship While measures of central tendency provide the value that is an ideal representative of a set of observations, the measures of dispersion take into account the internal variations of the data, often around a measure of central tendency. The measures of relationship, on the other hand, provide the degree of association between any two or more related phenomena, like rainfall and incidence of flood or fertiliser consumption and yield of crops. In this chapter, you will learn the measures of central tendency. Measures of Central TendencyMeasures of Central TendencyMeasures of Central TendencyMeasures of Centra"
+  },
+  {
+   "file": "legy303",
+   "pages": 23,
+   "outline": [],
+   "head": "You must have seen graphs, diagrams and maps showing different types of data. For example, the thematic maps shown in Chapter 1 of book for Class XI entitled Practical Work in Geography, Part-I (NCERT, 2006) depict relief and slope, climatic conditions, distribution of rocks and minerals, soils, population, industries, general land use and cropping pattern in the Nagpur district, Maharashtra. These maps have been drawn using large volume of related data collected, compiled and processed. Have you ever thought what would have happened if the same information would have been either in tabular form or in a descriptive transcript? Perhaps, it would not have been possible from such a medium of communication to draw visual impressions which we get through these maps. Besides, it would also have been a time consuming task to draw inferences about whatever is being presented in non–graphical for"
+  },
+  {
+   "file": "legy304",
+   "pages": 19,
+   "outline": [
+    "legy304",
+    "Glossary"
+   ],
+   "head": "46 4646 4646 P PP PPractical W ractical Wractical W ractical Wractical W ork in Geography, Pork in Geography, Pork in Geography, Pork in Geography, Pork in Geography, P art-II art-IIart-II art-IIart-II You know that the computers enhance our capabilities in data processing and in drawing graphs, diagrams and maps. The disciplines that deals with the principles and methods of data processing and mapping using a combination of computer hardware and the application software are referred as the Database Management System (DBMS) and the Computer Assisted Cartography, respectively. However, the role of such computer applications is restricted to merely processing of the data and their graphical presentation. In other words, the data so processed or the maps and diagrams so prepared could not be used to evolve a decision support system. As a matter of fact, there are several questions that we n"
+  }
+ ],
+ "leps1": [
+  {
+   "file": "leps101",
+   "pages": 14,
+   "outline": [],
+   "head": "Overview The Berlin Wall, which had been built at the height of the Cold War and was its greatest symbol, was toppled by the people in 1989. This dramatic event was followed by an equally dramatic and historic chain of events that led to the collapse of the ‘second world’ and the end of the Cold War. Germany, divided after the Second World War, was unified. One after another, the eight East European countries that were part of the Soviet bloc replaced their communist governments in response to mass demonstrations. The Soviet Union stood by as the Cold War began to end, not by military means but as a result of mass actions by ordinary men and women. Eventually the Soviet Union itself disintegrated. In this chapter, we discuss the meaning, the causes and the consequences of the disintegration of the ‘second world’. We also discuss what happened to that part of the world after the collapse "
+  },
+  {
+   "file": "leps102",
+   "pages": 14,
+   "outline": [],
+   "head": "Overview After the end of the bipolar structure of world politics in the early 1990s, it became clear that alternative centres of political and economic power could limit America’s dominance. Thus, in Europe, the European Union (EU) and, in Asia, the Association of South East Asian Nations (ASEAN), have emerged as forces to reckon with. While evolving regional solutions to their historical enmities and weaknesses, both the EU and the ASEAN have developed alternative institutions and conventions that build a more peaceful and cooperative regional order and have transformed the countries in the region into prosperous economies. The economic rise of China has made a dramatic impact on world politics. In this chapter, we take a look at some of these emerging alternative centres of power and assess their possible role in the future. Chapter 2 Contemporary Centres of Power The two images here "
+  },
+  {
+   "file": "leps103",
+   "pages": 16,
+   "outline": [],
+   "head": "Overview Let us shift our gaze from the larger global developments in the post- Cold War era to developments in our own region, South Asia. When India and Pakistan joined the club of nuclear powers, this region suddenly became the focus of global attention. The focus was, of course, on the various kinds of conflict in this region: there are pending border and water sharing disputes between the states of the region. Besides, there are conflicts arising out of insurgency, ethnic strife and resource sharing. This makes the region very turbulent. At the same time, many people in South Asia recognise the fact that this region can develop and prosper if the states of the region cooperate with each other. In this chapter, we try to understand the nature of conflict and cooperation among different countries of the region. Since much of this is rooted in or conditioned by the domestic politics of"
+  },
+  {
+   "file": "leps104",
+   "pages": 18,
+   "outline": [],
+   "head": "Overview In this chapter we shall discuss the role of international organisations after the collapse of the Soviet Union. We shall examine how, in this emerging world, there were calls for the restructuring of international organisations to cope with various new challenges including the rise of US power. The potential reform of the United Nations Security Council is an interesting case of the reform process and its difficulties. We then turn to India’s involvement in the UN and its view of Security Council reforms. The chapter closes by asking if the UN can play any role in dealing with a world dominated by one superpower. In this chapter we also look at some other trans-national organisations that are playing a crucial role. Chapter 4 International Organisations This is the United Nations’ logo. The emblem has a world map with olive branches around it, signifying world peace. Credit : w"
+  },
+  {
+   "file": "leps105",
+   "pages": 18,
+   "outline": [],
+   "head": "Overview In reading about world politics, we frequently encounter the terms ‘security’ or ‘national security’. Do we know what these terms mean? Often, they are used to stop debate and discussion. We hear that an issue is a security issue and that it is vital for the well-being of the country. The implication is that it is too important or secret to be debated and discussed openly. We see movies in which everything surrounding ‘national security’ is shadowy and dangerous. Security seems to be something that is not the business of the ordinary citizen. In a democracy, surely this cannot be the case. As citizens of a democracy, we need to know more about the term security. What exactly is it? And what are India’s security concerns? This chapter debates these questions. It introduces two different ways of looking at security and highlights the importance of keeping in mind different context"
+  },
+  {
+   "file": "leps106",
+   "pages": 18,
+   "outline": [],
+   "head": "Overview This chapter examines the growing significance of environmental as well as resource issues in world politics. It analyses in a comparative perspective some of the important environmental movements against the backdrop of the rising profile of environmentalism from the 1960s onwards. Notions of common property resources and the global commons too are assessed. We also discuss, in brief, the stand taken by India in more recent environmental debates. Next follows a brief account of the geopolitics of resource competition. We conclude by taking note of the indigenous peoples’ voices and concerns from the margins of contemporary world politics. Chapter 6 Environment and Natural Resources The 1992 Earth Summit has brought environmental issues to the centre-stage of global politics. The pictures above show rainforest and mangroves. Chapter 6.indd 81 14 September 2022 11:04:27 Reprint 2"
+  },
+  {
+   "file": "leps107",
+   "pages": 16,
+   "outline": [
+    "leps107",
+    "World Map & SDGs"
+   ],
+   "head": "Overview In this final chapter of the book we look at globalisation, something that has been referred to in many chapters of this book and textbooks of many other subjects. We begin by analysing the concept of globalisation and then examine its causes. We then discuss at length the political, economic and cultural consequences of globalisation. Our interest is also in studying the impact of globalisation on India as well as how India is affecting globalisation. We finally draw attention to resistance to globalisation and how social movements in India also form part of this resistance. Chapter 7 Globalisation Chapter 7.indd 99 14 September 2022 11:05:00 Reprint 2026-27"
+  }
+ ],
+ "leps2": [
+  {
+   "file": "leps201",
+   "pages": 24,
+   "outline": [],
+   "head": "In this chapter… The first few years in the life of independent India were full of challenges. Some of the most pressing ones concerned national unity and territorial integrity of India. We begin the story of politics in India since Independence by looking at how three of these challenges of nation- building were successfully negotiated in the first decade after 1947. • Freedom came with partition, which resulted in large scale violence and displacement and challenged the very idea of a secular India. • The integration of the princely states into the Indian union needed urgent resolution. • The internal boundaries of the country needed to be drawn afresh to meet the aspirations of the people who spoke different languages. In the next two chapters we shall turn to other kinds of challenges faced by the country in this early phase. Credit: Sunil Janah In a moment of optimism, Hindus and Hi"
+  },
+  {
+   "file": "leps202",
+   "pages": 18,
+   "outline": [],
+   "head": "Credit: Shankar In this chapter… The challenge of nation-building, covered in the last chapter, was accompanied by the challenge of instituting democratic politics. Thus, electoral competition among political parties began immediately after Independence. In this chapter, we look at the first decade of electoral politics in order to understand • the establishment of a system of free and fair elections; • the domination of the Congress party in the years immediately after Independence; and • the emergence of opposition parties and their policies. This famous sketch by Shankar appeared on the cover of his collection – Don’t Spare Me, Shankar. The original sketch was drawn in the context of India’s China policy. But this cartoon captures the dual role of the Congress during the era of one-party dominance. chap 2_PF.indd 26 9/6/2022 3:57:55 PM Reprint 2026-27"
+  },
+  {
+   "file": "leps203",
+   "pages": 10,
+   "outline": [],
+   "head": "In this chapter… In the last two chapters we have studied how the leaders of independent India responded to the challenges of nation-building and establishing democracy. Let us now turn to the third challenge, that of economic development to ensure well-being of all. As in the case of the first two challenges, our leaders chose a path that was different and difficult. In this case their success was much more limited, for this challenge was tougher and more enduring. In this chapter, we study the story of political choices involved in some of the key questions of economic development. • What were the key choices and debates about development? • Which strategy was adopted by our leaders in the first two decades? And why? • What were the main achievements and limitations of this strategy? • Why was this development strategy abandoned in later years? Stamps like these, issued mostly between "
+  },
+  {
+   "file": "leps204",
+   "pages": 18,
+   "outline": [],
+   "head": "In this chapter… Thus far we have focussed in this book on the developments within the country and on domestic challenges. We now turn to the external challenges. Here too our leaders faced the challenge with an innovative response by way of the policy of non-alignment. But they also found themselves in conflict with neighbours. This led to three wars in 1962, 1965 and 1971. These wars, and the external relations in general, were shaped by and had their impact on the politics in the country. In this chapter we study the story of this relationship between the external and the internal politics by focussing on • the international context that shaped India’s external relations; • the operational principles that informed the country’s foreign policy; • the history of India’s relations with China and Pakistan; and • the evolution of India’s nuclear policy. Nehru with Nkrumah from Ghana, Nasse"
+  },
+  {
+   "file": "leps205",
+   "pages": 20,
+   "outline": [],
+   "head": "In this chapter… In Chapter Two we read about the emergence of the Congress system. This system was first challenged during the 1960s. As political competition became more intense, the Congress found it difficult to retain its dominance. It faced challenges from the opposition that was more powerful and less divided than before. The Congress also faced challenges from within, as the party could no longer accommodate all kinds of differences. In this chapter we pick the story from where we left it in Chapter Two, in order to • understand how the political transition took place after Nehru; • describe how the opposition unity and the Congress split posed a challenge to Congress dominance; • explain how a new Congress led by Indira Gandhi overcame these challenges; and • analyse how new policies and ideologies facilitated the restoration of the Congress system. Originally the election symbo"
+  },
+  {
+   "file": "leps206",
+   "pages": 20,
+   "outline": [],
+   "head": "In this chapter… We have seen in the last chapter that the Congress recovered after 1971, but was not the same kind of party. The difference became clear in a series of events between 1973 and 1975 that brought new challenges to India’s democratic politics and the institutional balance sought by the Constitution. These developments led to the imposition of ‘emergency’ in June 1975. Normally, we would associate ‘emergency’ with war and aggression or with natural disaster. But this ‘emergency’ was imposed because of the perceived threat of internal disturbance. The Emergency ended as dramatically as it had begun, resulting in a defeat of the Congress in the Lok Sabha elections of 1977. In this chapter we focus on this crucial phase in the history of democracy in India and ask some questions that have remained controversial after all these years. • Why was Emergency imposed? Was it necessar"
+  },
+  {
+   "file": "leps207",
+   "pages": 24,
+   "outline": [],
+   "head": "In this chapter… In the first chapter of this book we studied the process of ‘nation-building’ in the first decade after Independence. But nation-building is not something that can be accomplished once and for all times to come. In the course of time new challenges came up. Some of the old problems had never been fully resolved. As democratic experiment unfolded, people from different regions began to express their aspirations for autonomy. Sometimes these aspirations were expressed outside the framework of the Indian union. These involved long struggles and often aggressive and armed assertions by the people. This new challenge came to the fore in the 1980s, as the Janata experiment came to an end and there was some political stability at the centre. This decade will be remembered for some major conflicts and accords in the various regions of the country, especially in Assam, the Punjab"
+  },
+  {
+   "file": "leps208",
+   "pages": 25,
+   "outline": [],
+   "head": "In this chapter… In this last chapter we take a synoptic view of the last two decades of politics in India. These developments are complex, for various kinds of factors came together to produce unanticipated outcomes in this period. The new era in politics was impossible to foresee; it is still very difficult to understand. These developments are also controversial, for these involve deep conflicts and we are still too close to the events. Yet we can ask some questions central to the political change in this period. • What are the implications of the rise of coalition politics for our democracy? • What is Mandalisation all about? In which ways will it change the nature of political representation? • What is the legacy of the Ram Janmabhoomi movement? • What does the rise of a new policy consensus do to the nature of political choices? The chapter does not answer these questions. It simpl"
+  }
+ ],
+ "lesy1": [
+  {
+   "file": "lesy101",
+   "pages": 4,
+   "outline": [],
+   "head": "Introducing Indian Society 1 Chapter 1.indd 1 6/17/2022 3:29:50 PM Reprint 2026-27"
+  },
+  {
+   "file": "lesy102",
+   "pages": 30,
+   "outline": [],
+   "head": "The Demographic Structure of the Indian Society 5 Chapter 2.indd 5 9/1/2022 12:35:34 PM Reprint 2026-27"
+  },
+  {
+   "file": "lesy103",
+   "pages": 18,
+   "outline": [],
+   "head": "Social Institutions: Continuity and Change 35 Chapter 3.indd 35 9/1/2022 2:07:50 PM Reprint 2026-27"
+  },
+  {
+   "file": "lesy104",
+   "pages": 16,
+   "outline": [],
+   "head": "Chapter 4.indd 53 9/1/2022 2:56:19 PM Reprint 2026-27"
+  },
+  {
+   "file": "lesy105",
+   "pages": 28,
+   "outline": [],
+   "head": "Chapter 5.indd 69 9/1/2022 5:09:07 PM Reprint 2026-27"
+  },
+  {
+   "file": "lesy106",
+   "pages": 20,
+   "outline": [],
+   "head": "Chapter 6.indd 97 9/2/2022 12:52:44 PM Reprint 2026-27"
+  },
+  {
+   "file": "lesy107",
+   "pages": 12,
+   "outline": [],
+   "head": "Suggestions for Project Work 117 Chapter 7.indd 117 9/2/2022 2:39:23 PM Reprint 2026-27"
+  }
+ ],
+ "lesy2": [
+  {
+   "file": "lesy201",
+   "pages": 14,
+   "outline": [],
+   "head": "Structural Change 1 Chapter 1.indd 1 14 September 2022 12:02:26 Reprint 2026-27"
+  },
+  {
+   "file": "lesy202",
+   "pages": 16,
+   "outline": [],
+   "head": "Cultural Change2 Chapter 2.indd 15 14 September 2022 12:03:07 Reprint 2026-27"
+  },
+  {
+   "file": "lesy203",
+   "pages": 10,
+   "outline": [],
+   "head": "The Constitution and Social Change3 Chapter 3.indd 31 14 September 2022 12:03:32 Reprint 2026-27"
+  },
+  {
+   "file": "lesy204",
+   "pages": 18,
+   "outline": [],
+   "head": "Change and Development in Rural Society 4 Chapter 4.indd 41 14 September 2022 12:03:53 Reprint 2026-27"
+  },
+  {
+   "file": "lesy205",
+   "pages": 12,
+   "outline": [],
+   "head": "Change and Development in Industrial Society 5 Chapter 5.indd 59 14 September 2022 12:04:14 Reprint 2026-27"
+  },
+  {
+   "file": "lesy206",
+   "pages": 18,
+   "outline": [],
+   "head": "Globalisation and Social Change6 Chapter 6.indd 71 14 September 2022 12:04:33 Reprint 2026-27"
+  },
+  {
+   "file": "lesy207",
+   "pages": 20,
+   "outline": [],
+   "head": "Mass Media and Communications7 Chapter 7.indd 89 14 September 2022 12:04:52 Reprint 2026-27"
+  },
+  {
+   "file": "lesy208",
+   "pages": 20,
+   "outline": [],
+   "head": "Social Movements8 Chapter 8.indd 109 14 September 2022 12:05:16 Reprint 2026-27"
+  }
+ ],
+ "lefa1": [
+  {
+   "file": "lefa101",
+   "pages": 9,
+   "outline": [],
+   "head": "The Manuscript Painting Tradition 1 T he third Khanda of the Vishnudharmottara Purana, a fifth century text has a chapter Chitrasutra, which should be considered as a source book of Indian art in general and painting specifically. It talks about the art of image making called pratima lakshana, which are canons of painting. The Khanda also deals with the techniques, tools, material(s), surface (wall), perception, perspective and three-dimentionality of human figures. Different limbs of painting, such as roopbheda or looks and appearance; pramana or measurments, proportion and structure; bhava or expressions; lavanya yojana or aesthetic composition; sadrishya or resemblance; and varnikabhanga or use of brush and colours have been explained at length with examples. Each of these have many sub-sections. These canons were read and understood by artists and followed through centuries, thus, be"
+  },
+  {
+   "file": "lefa102",
+   "pages": 25,
+   "outline": [],
+   "head": "The Rajasthani Schools of Painting 2 T he term ‘Rajasthani Schools of Painting’ pertains to the schools of painting that prevailed in the princely kingdoms and thikanas of what roughly constitutes Rajasthan and parts of Madhya Pradesh in the present time, such as Mewar, Bundi, Kota, Jaipur, Bikaner, Kishangarh, Jodhpur (Marwar), Malwa, Sirohi and other such principalities largely between the sixteenth and early nineteenth centuries. Scholar Anand Coomaraswamy in 1916 coined the term ‘Rajput Paintings’ to refer to these as most rulers and patrons of these kingdoms were Rajputs. He, specifically, coined it to categorise and differentiate this group from the much known Mughal School of Painting. Therefore, Malwa, comprising princedoms of Central India, and the Pahari Schools that comprises the pahari or mountainous Himalayan region of north-western India was also in the ambit of Rajput Scho"
+  },
+  {
+   "file": "lefa103",
+   "pages": 20,
+   "outline": [],
+   "head": "3The Mughal School of Miniature Painting M ughal painting is the style of miniature painting that developed in the northern Indian subcontinent in the sixteenth century and continued till the mid–nineteenth century. It is known for its sophisticated techniques and diverse range of subjects and themes. The Mughal miniature painting inspired and resonated in subsequent schools and styles of Indian painting, thereby, confirming a definite position for the Mughal style within the Indian school of paintings. The Mughals were patrons of various art forms. Every Mughal successor, based on his taste and preferences, contributed towards enhancing the status of art, viz., calligraphy, painting, architecture, bookmaking, book illustration projects, etc. They took keen interest in artists’ ateliers and nurtured unprecedented new styles that heightened and accelerated the existing art scenario of Ind"
+  },
+  {
+   "file": "lefa104",
+   "pages": 12,
+   "outline": [],
+   "head": "The Deccani Schools of Painting 4 T he history of Deccani Painting can largely be constructed from the late sixteenth century until the 1680s — the time when the Mughals conquered the Deccan. It is continued to be seen in the art of the nineteenth century, as well as, under the Asafiya dynasty, and finally, in paintings in the provincial courts of Rajas and Nawabs, ruling various lands in the State of Hyderabad under the Nizam. The Deccani style of Painting was placed under the Indo-Persian art for long. It was considered to be Middle Eastern, Safavid, Persian, Turkish and even Mughal in origin. Art historians acknowledged its uniqueness but failed to recognise it as a full-fledged school, which was sustained by a class of rulers, who had their peculiar political and cultural vision. They hired and nurtured artists and commissioned works that enhanced their artistic sensibilities and spe"
+  },
+  {
+   "file": "lefa105",
+   "pages": 18,
+   "outline": [],
+   "head": "The Pahari Schools of Painting 5 P ahari denotes ‘hilly or mountainous’ in origin. Pahari Schools of Painting includes towns, such as Basohli, Guler, Kangra, Kullu, Chamba, Mankot, Nurpur, Mandi, Bilaspur, Jammu and others in the hills of western Himalayas, which emerged as centres of painting from seventeenth to nineteenth century. Beginning at Basohli with a coarsely flamboyant style, it blossomed into the most exquisite and sophisticated style of Indian painting known as the Kangra School, through the Guler or pre-Kangra phase. Unlike the distinguishing stylistic features of Mughal, Deccani and Rajasthani Schools, Pahari paintings demonstrate challenges in their territorial classification. Though all the above centres crafted precisely individualistic characteristics in painting (through the depiction of nature, architecture, figural types, facial features, costumes, preference for pa"
+  },
+  {
+   "file": "lefa106",
+   "pages": 14,
+   "outline": [],
+   "head": "Company Painting A rt in India had a different purpose prior to the coming of the British. It could be seen as statues on temple walls, miniature paintings that often illustrated manuscripts, decoration on the walls of mud houses in villages, among many other examples. With the colonial rule around the eighteenth century, the English were charmed by different manners and customs of people of all ranks, tropical flora and fauna, and varying locales. Partly for documentation and partly for artistic reasons, many English officers commissioned local artists to paint scenes around them to get a better idea of the natives. The paintings were largely made on paper by local artists, some of whom had migrated from erstwhile courts of Murshidabad, Lucknow or Delhi. To please their new patrons, they had to adapt their traditional way of painting to document the world around them. This meant that th"
+  },
+  {
+   "file": "lefa107",
+   "pages": 28,
+   "outline": [],
+   "head": "7The Modern Indian Art Introduction to Modernism in India F ine arts was seen as European by the British. They felt that Indians lacked training and sensibility to be able to create and appreciate fine arts. By mid and late nineteenth century, art schools were established in major cities like Lahore, Calcutta (now, Kolkata), Bombay (now, Mumbai) and Madras (now, Chennai). These art schools tended to promote traditional Indian crafts, and academic and naturalist art that reflected Victorian tastes. Even the Indian crafts, which received support, were the ones based on European taste and on the demands made by its market. As mentioned in the previous chapter, it was against this colonial bias that nationalist art emerged, and the Bengal School of Art, as nurtured by Abanindranath Tagore and E. B. Havell, was a prime example. India’s first nationalist art school, Kala Bhavana, was set up in"
+  },
+  {
+   "file": "lefa108",
+   "pages": 17,
+   "outline": [],
+   "head": "8The Living Art Traditions of India T here has always been a timeless tradition of art forms, which have been practised for different reasons among people, living far from urban life in interior terrains of forests, deserts, mountains and villages. So far, we have studied art of a certain time, a period named after a place or dynasties, who ruled different parts of the Indian subcontinent for few hundred years or so. But what about common people? Were they not creative? Was there no art that existed around them? From where did the artists come to the courts or patrons? What did they use to make before coming to cities? Or even now, who are the unknown artists making handicrafts in faraway deserts, mountains, villages and rural areas, who have never been to an art school or design institute or even attended formal schooling? Our country has always been a repository of indigenous knowledge"
+  }
+ ],
+ "lehe1": [
+  {
+   "file": "lehe101",
+   "pages": 28,
+   "outline": [],
+   "head": "Unit I - Work, Livelihood and Career 1 WORK, LIVELIHOOD AND CAREER UNIT I Chapters.indd 1 8/12/2022 3:29:09 PM Reprint 2026-27"
+  },
+  {
+   "file": "lehe102",
+   "pages": 17,
+   "outline": [],
+   "head": "Unit I - Work, Livelihood and Career 29 NUTRITION, FOOD SCIENCE AND TECHNOLOGY UNIT II Chapters.indd 29 8/12/2022 3:30:09 PM Reprint 2026-27"
+  },
+  {
+   "file": "lehe103",
+   "pages": 15,
+   "outline": [],
+   "head": "Learning Objectives After completing this chapter the learner will be able to: zz understand the significance and scope of public nutrition. zz have knowledge about the nutritional problems of public health significance. zz be acquainted with the government programmes that are in operation to tackle important nutritional problems. zz describe the role and functions of a public health nutritionist. zz explain the knowledge and skills required for a career in public health nutrition. Introduction In Class XI you studied the basic concepts of nutrition and health, physical fitness and wellness. You must be aware of the importance of good nutrition as the foundation and cornerstone of health. So what is significant about the introduction of the word ‘public’ in this context? Let us find out. You are already familiar with the definition of health given by the World Health Organisation. The co"
+  },
+  {
+   "file": "lehe104",
+   "pages": 14,
+   "outline": [],
+   "head": "Learning Objectives After completing this chapter the learner will be able to: zz understand what is food processing and technology, its history, development and present status zz explain the significance and basic concepts of the subject zz be aware of the skills required to be a professional food technologist zz be aware of the career opportunities available and educational qualifications required for specific careers in the industry zz know the scope for self employment as small, medium or large scale entrepreneurs. Introduction Food items are being processed for various reasons. Since times immemorial, grains have been dried after harvest to increase their shelf life. Initially, foods were processed primarily to improve digestibility, palatability and to ensure a continuous supply. In India pickles, murabbas and papads are examples of preserved products made from certain vegetables/ "
+  },
+  {
+   "file": "lehe105",
+   "pages": 24,
+   "outline": [],
+   "head": "Learning Objectives After completing this chapter the learner will be able to: � explain the importance of various issues related to food safety and quality � understand how food-borne illnesses occur � know about national and international food standards and their role in ensuring food quality and safety � understand the importance of food safety management systems � be acquainted with various career avenues / options in this area. Introduction Food is a major determinant of health, nutritional status and productivity of the population. It is, therefore, essential that the food we consume is wholesome and safe. Unsafe food can lead to a large number of food- borne diseases. You may have seen reports in the newspapers about health problems caused by contaminated or adulterated foods. Globally, food-borne illness is a major problem of public health concern. In India, the National Family H"
+  },
+  {
+   "file": "lehe106",
+   "pages": 17,
+   "outline": [],
+   "head": "Unit I - Work, Livelihood and Career 99 HUMAN DEVELOPMENT AND FAMILY STUDIES UNIT III Chapters.indd 99 8/12/2022 12:16:55 PM Reprint 2026-27"
+  },
+  {
+   "file": "lehe107",
+   "pages": 37,
+   "outline": [],
+   "head": "116 Chapter 7 Learning Objectives After completing this section the learner will be able to: zz explain why services, institutions and programmes are needed for children, youth and elderly zz describe the aspects involved in management of institutions and programmes zz discuss the knowledge base and skills set required to manage and run institutions and programmes zz become aware of the career opportunities available in this field. Significance Family is the basic unit of the society and one of its chief functions is to look after the needs of its members. The members in a family could include parents, their children of various ages and the grandparents. The composition of the family will vary from one household to another but at Management of Support Services, Institutions and Programmes for Children, Youth and Elderly Chapters.indd 116 8/12/2022 3:28:53 PM Reprint 2026-27"
+  }
+ ],
+ "lehe2": [
+  {
+   "file": "lehe201",
+   "pages": 23,
+   "outline": [],
+   "head": "Unit IV - Fabric And Apparel 153 FABRIC AND APPAREL UNIT IV Chapters.indd 153 8/16/2022 12:28:32 PM Reprint 2026-27"
+  },
+  {
+   "file": "lehe202",
+   "pages": 14,
+   "outline": [],
+   "head": "176 Learning Objectives After completing this section the learner will be able to: zz explain the significance of fashion design and merchandising in garment industry zz describe the fundamentals of fashion zz explain the knowledge and skills required to be in fashion business zz discuss how a student can prepare for a career in fashion industry Introduction Fashion design and merchandising are among the most exciting career options in today’s world. In a country like India, where textile industries have been thriving for ages, the recent boom in fashion designing has led to new prospects in the existing domain of garment and accessory design. The fashion industry satisfies both the creative urge and the materialistic needs of people. You hear the term Fashion merchandising many times. Did you ever think what goes into it? Let us understand merchandising from its origin. You can recall f"
+  },
+  {
+   "file": "lehe203",
+   "pages": 15,
+   "outline": [],
+   "head": "Chapter 10 Learning Objectives After completing this section the learner will be able to — zz discuss the significance of care and maintenance of fabrics and textile products zz describe the concept of care and maintenance of fabrics in hospitals and hotels zz explain the process and various equipments required and their usage zz discuss how a student can prepare for a career in this field. Introduction The use of fabrics in a family setup for apparel and household is well known. You may also be aware that some special fabrics are used for industrial purposes, for interiors in institutions for heat and sound insulation and for bandages, masks etc. in hospitals. Since fabrics with specific properties are selected for specific usage and functionality, it becomes important that these characteristics are retained for the expected life of the material. Efforts are also made to prolong the per"
+  },
+  {
+   "file": "lehe204",
+   "pages": 17,
+   "outline": [],
+   "head": "Unit V - Resource Management 205 RESOURCE MANAGEMENT UNIT V Chapters.indd 205 8/16/2022 12:28:42 PM Reprint 2026-27"
+  },
+  {
+   "file": "lehe205",
+   "pages": 19,
+   "outline": [],
+   "head": "222 Chapter 12 LEARNING OBJECTIVES After completing this chapter the learner will be able to — zz understand the importance and role of Consumer Education and Protection zz explain the basic concepts related to Consumer Education and Protection zz analyse the knowledge and skills needed for a career in this field zz understand the scope and career options. Introduction All of us purchase a variety of goods and services to satisfy our needs and desires. Hence, every human is a natural consumer. Have you, your parents or friend experienced any problem where, even after paying for the goods, you found that the quality was not as per your expectations for the price paid or the quantity supplied was less than what was promised? Did you pay for some services which appeared attractive in the advertisement but in reality fell far short of the image portrayed? Under such circumstances what was yo"
+  },
+  {
+   "file": "lehe206",
+   "pages": 15,
+   "outline": [],
+   "head": "Unit VI - Communication and Extension 241 COMMUNICATION AND EXTENSION UNIT VI Chapters.indd 241 8/16/2022 12:28:45 PM Reprint 2026-27"
+  },
+  {
+   "file": "lehe207",
+   "pages": 33,
+   "outline": [],
+   "head": "Chapter 14 Learning Objectives After completing this chapter, the learner will be able to— zz understand the meaning, significance and scope of Corporate Communication and Public Relations (PR) zz comprehend functions of and skills required for corporate communication and public relations zz understand areas and principles of PR activities. Introduction Every idea, fact or opinion is static until communicated and understood. In today’s information driven society it has been acknowledged time and again that communication is as important as food, clothing and shelter. In this chapter we are looking at communication as it is related to organisations and business establishments. Corporate communication is considered as an important tool of management which has evolved over the years. Corporate communication is described as the set of activities involved in ‘managing and orchestrating all int"
+  }
+ ]
+}
