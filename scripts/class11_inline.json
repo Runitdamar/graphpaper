@@ -1,0 +1,336 @@
+[
+{
+"cls": 11,
+"sub": "Physics",
+"title": "Physics Part I",
+"code": "keph1",
+"label": "Chapter",
+"ch": [
+[
+1,
+"Units and Measurements",
+null
+],
+[
+2,
+"Motion in a Straight Line",
+2
+],
+[
+3,
+"Motion in a Plane",
+3
+],
+[
+4,
+"Laws of Motion",
+4
+],
+[
+5,
+"Work, Energy and Power",
+5
+],
+[
+6,
+"System of Particles and Rotational Motion",
+6
+],
+[
+7,
+"Gravitation",
+7
+]
+]
+},
+{
+"cls": 11,
+"sub": "Physics",
+"title": "Physics Part II",
+"code": "keph2",
+"label": "Chapter",
+"ch": [
+[
+8,
+"Mechanical Properties of Solids",
+1
+],
+[
+9,
+"Mechanical Properties of Fluids",
+2
+],
+[
+10,
+"Thermal Properties of Matter",
+3
+],
+[
+11,
+"Thermodynamics",
+4
+],
+[
+12,
+"Kinetic Theory",
+5
+],
+[
+13,
+"Oscillations",
+6
+],
+[
+14,
+"Waves",
+7
+]
+]
+},
+{
+"cls": 11,
+"sub": "Chemistry",
+"title": "Chemistry Part I",
+"code": "kech1",
+"label": "Unit",
+"ch": [
+[
+1,
+"Some Basic Concepts of Chemistry",
+1
+],
+[
+2,
+"Structure of Atom",
+2
+],
+[
+3,
+"Classification of Elements and Periodicity in Properties",
+3
+],
+[
+4,
+"Chemical Bonding and Molecular Structure",
+4
+],
+[
+5,
+"Thermodynamics",
+5
+],
+[
+6,
+"Equilibrium",
+6
+]
+]
+},
+{
+"cls": 11,
+"sub": "Chemistry",
+"title": "Chemistry Part II",
+"code": "kech2",
+"label": "Unit",
+"ch": [
+[
+7,
+"Redox Reactions",
+1
+],
+[
+8,
+"Organic Chemistry: Some Basic Principles and Techniques",
+2
+],
+[
+9,
+"Hydrocarbons",
+3
+]
+]
+},
+{
+"cls": 11,
+"sub": "Maths",
+"title": "Mathematics",
+"code": "kemh1",
+"label": "Chapter",
+"ch": [
+[
+1,
+"Sets",
+1
+],
+[
+2,
+"Relations and Functions",
+2
+],
+[
+3,
+"Trigonometric Functions",
+3
+],
+[
+4,
+"Complex Numbers and Quadratic Equations",
+4
+],
+[
+5,
+"Linear Inequalities",
+5
+],
+[
+6,
+"Permutations and Combinations",
+6
+],
+[
+7,
+"Binomial Theorem",
+7
+],
+[
+8,
+"Sequences and Series",
+8
+],
+[
+9,
+"Straight Lines",
+9
+],
+[
+10,
+"Conic Sections",
+10
+],
+[
+11,
+"Introduction to Three Dimensional Geometry",
+11
+],
+[
+12,
+"Limits and Derivatives",
+12
+],
+[
+13,
+"Statistics",
+13
+],
+[
+14,
+"Probability",
+14
+]
+]
+},
+{
+"cls": 11,
+"sub": "Biology",
+"title": "Biology",
+"code": "kebo1",
+"label": "Chapter",
+"ch": [
+[
+1,
+"The Living World",
+1
+],
+[
+2,
+"Biological Classification",
+2
+],
+[
+3,
+"Plant Kingdom",
+3
+],
+[
+4,
+"Animal Kingdom",
+4
+],
+[
+5,
+"Morphology of Flowering Plants",
+5
+],
+[
+6,
+"Anatomy of Flowering Plants",
+6
+],
+[
+7,
+"Structural Organisation in Animals",
+7
+],
+[
+8,
+"Cell: The Unit of Life",
+8
+],
+[
+9,
+"Biomolecules",
+9
+],
+[
+10,
+"Cell Cycle and Cell Division",
+10
+],
+[
+11,
+"Photosynthesis in Higher Plants",
+11
+],
+[
+12,
+"Respiration in Plants",
+12
+],
+[
+13,
+"Plant Growth and Development",
+13
+],
+[
+14,
+"Breathing and Exchange of Gases",
+14
+],
+[
+15,
+"Body Fluids and Circulation",
+15
+],
+[
+16,
+"Excretory Products and their Elimination",
+16
+],
+[
+17,
+"Locomotion and Movement",
+17
+],
+[
+18,
+"Neural Control and Coordination",
+18
+],
+[
+19,
+"Chemical Coordination and Integration",
+19
+]
+]
+}
+]
