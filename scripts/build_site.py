@@ -42,7 +42,7 @@ def load(name):
 def routes():
     """Every public URL: (path, lastmod or None)."""
     out = [("/", None), ("/updates", None), ("/about", None), ("/contact", None),
-           ("/privacy", None), ("/terms", None), ("/welcome", None),
+           ("/privacy", None), ("/terms", None), ("/parents", None), ("/welcome", None),
            ("/board/CBSE", None), ("/board/ICSE", None), ("/board/State%20boards", None)]
     notices = [x for x in load("updates.json") if x.get("status") == "approved" and not x.get("sample")]
     for x in sorted(notices, key=lambda n: n["date"], reverse=True):
