@@ -1,0 +1,38 @@
+name: Read chapter titles of NCERT books
+
+on:
+  workflow_dispatch:
+    inputs:
+      num:
+        description: "Class number"
+        required: true
+      codes:
+        description: "Comma separated book codes"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -q && sudo apt-get install -y -q tesseract-ocr tesseract-ocr-hin tesseract-ocr-san
+      - run: pip install pymupdf requests
+      - run: python scripts/titles_cls.py "${{ inputs.num }}" "${{ inputs.codes }}"
+      - name: Commit result
+        if: always()
+        run: |
+          f=scripts/titles_class${{ inputs.num }}.json
+          if [ -n "$(git status --porcelain $f)" ]; then
+            git config user.name "graphpaper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add $f
+            git commit -m "Save Class ${{ inputs.num }} chapter titles"
+            for i in 1 2 3 4 5 6; do git pull -q --rebase origin main && git push && break; sleep $((RANDOM % 10 + 3)); done
+          fi
