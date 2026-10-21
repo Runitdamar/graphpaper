@@ -1,4 +1,4 @@
-name: Discover NCERT books for Class 9 and 11
+name: Discover NCERT books by class
 
 on:
   workflow_dispatch: {}
@@ -14,6 +14,22 @@ jobs:
       fail-fast: false
       matrix:
         include:
+          - letter: a
+            num: 1
+          - letter: b
+            num: 2
+          - letter: c
+            num: 3
+          - letter: d
+            num: 4
+          - letter: e
+            num: 5
+          - letter: f
+            num: 6
+          - letter: g
+            num: 7
+          - letter: h
+            num: 8
           - letter: i
             num: 9
           - letter: k
