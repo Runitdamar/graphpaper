@@ -1,0 +1,53 @@
+name: Build site pages
+
+# Turns the app into real, crawlable pages (one per class, stream, section and
+# notice), plus sitemap.xml and robots.txt. Runs by itself whenever the app or
+# any data file changes, and after every CBSE update check.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "app.js"
+      - "app.css"
+      - "scripts/shell.html"
+      - "scripts/build_site.py"
+      - "updates.json"
+      - "books_*.json"
+      - "papers.json"
+      - "qbank.json"
+      - "syllabus.json"
+  workflow_run:
+    workflows: ["Check CBSE updates"]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright && playwright install --with-deps chromium
+      - run: python scripts/build_site.py
+      - name: Commit generated pages
+        run: |
+          git add -A
+          if ! git diff --cached --quiet; then
+            git config user.name "graphpaper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git commit -m "Rebuild site pages and sitemap"
+            for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push && break; sleep $((RANDOM % 10 + 3)); done
+          fi
