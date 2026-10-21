@@ -23,7 +23,7 @@ out = ['<?xml version="1.0" encoding="utf-8"?>',
        '<id>%s/</id>' % SITE,
        '<updated>%s</updated>' % ts(items[0]["date"] if items else "1970-01-01")]
 for x in items:
-    link = "%s/#/notice/%s" % (SITE, quote(x["id"]))
+    link = "%s/notice/%s" % (SITE, quote(x["id"]))
     out += ['<entry>',
             '<title>%s</title>' % escape(x["title"]),
             '<link href="%s"/>' % escape(link),
