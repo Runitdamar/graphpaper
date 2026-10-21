@@ -9,6 +9,10 @@ on:
       codes:
         description: "Comma separated book codes"
         required: true
+      tag:
+        description: "Optional tag so several runs for one class write different files"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -24,11 +28,11 @@ jobs:
           python-version: "3.12"
       - run: sudo apt-get update -q && sudo apt-get install -y -q tesseract-ocr tesseract-ocr-hin tesseract-ocr-san
       - run: pip install pymupdf requests
-      - run: python scripts/titles_cls.py "${{ inputs.num }}" "${{ inputs.codes }}"
+      - run: python scripts/titles_cls.py "${{ inputs.num }}" "${{ inputs.codes }}" "${{ inputs.tag }}"
       - name: Commit result
         if: always()
         run: |
-          f=scripts/titles_class${{ inputs.num }}.json
+          f=scripts/titles_class${{ inputs.num }}${{ inputs.tag != '' && format('_{0}', inputs.tag) || '' }}.json
           if [ -n "$(git status --porcelain $f)" ]; then
             git config user.name "graphpaper-bot"
             git config user.email "actions@users.noreply.github.com"

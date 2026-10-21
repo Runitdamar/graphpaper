@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Find chapter titles of NCERT books by looking at the first page of every chapter PDF.
 
-usage: python scripts/titles_cls.py <class number> <comma separated book codes>
+usage: python scripts/titles_cls.py <class number> <comma separated book codes> [tag]
 English books: the biggest-font lines on the first page (and the second page if the first has none).
 Hindi / Sanskrit books use legacy fonts that do not extract cleanly, so the top of the first page is also OCR'd.
 Result: scripts/titles_class<N>.json  {code: [{"file": "...", "big": [[size, text], ...], "ocr": "..."}]}
@@ -22,7 +22,8 @@ NUM = int(sys.argv[1])
 CODES = [c for c in sys.argv[2].split(",") if c]
 root = Path(__file__).resolve().parent
 disc = json.loads((root / ("discovery_class%d.json" % NUM)).read_text(encoding="utf-8"))["books"]
-OUT = root / ("titles_class%d.json" % NUM)
+TAG = sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else ""
+OUT = root / ("titles_class%d%s.json" % (NUM, ("_" + TAG) if TAG else ""))
 BASE = "https://ncert.nic.in/textbook/pdf/"
 H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
      "Referer": "https://ncert.nic.in/textbook.php"}

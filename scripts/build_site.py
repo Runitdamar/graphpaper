@@ -52,6 +52,7 @@ def routes():
         for b in bases:
             out.append((b, None))
             out.append((b + "/books", None))
+            out.append((b + "/book-list", None))
             if c >= 9:
                 out.append((b + "/syllabus", None))
             if c in (10, 12):
