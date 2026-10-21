@@ -88,3 +88,5 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 .sq{display:flex;align-items:center;justify-content:center;color:var(--ink);border:2px solid var(--ink)}
 @media (max-width:600px){.tile{width:84px;height:84px;font-size:44px;border-radius:24px}h2{font-size:26px}.hr{gap:32px;padding-top:8px}}
 @media (prefers-reduced-motion:reduce){.r *{transition:none}.bq:hover{transform:none}}
+
+@media print{#topnav,#foot,.noprint,.crumb{display:none !important}body,.r{background:#fff !important}.card{box-shadow:none !important}}

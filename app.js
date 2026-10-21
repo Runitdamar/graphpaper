@@ -71,7 +71,7 @@ function clsLabel(){ return ST.cls ? "Class " + ST.cls : "Class 11 and 12"; }
 
 /* ---------- views ---------- */
 var VIEWS = {};
-var TITLES = {home:"GraphPaper: CBSE notices, NCERT books and syllabus", welcome:"Welcome | GraphPaper", updates:"All updates | GraphPaper", notice:"Notice | GraphPaper", "class":"Study shelf | GraphPaper", books:"NCERT books | GraphPaper", syllabus:"Syllabus | GraphPaper", papers:"Papers | GraphPaper", qbank:"Question bank | GraphPaper", board:"Boards | GraphPaper", about:"About | GraphPaper", parents:"For parents | GraphPaper", contact:"Contact | GraphPaper", terms:"Terms | GraphPaper", privacy:"Privacy | GraphPaper"};
+var TITLES = {home:"GraphPaper: CBSE notices, NCERT books and syllabus", welcome:"Welcome | GraphPaper", updates:"All updates | GraphPaper", notice:"Notice | GraphPaper", "class":"Study shelf | GraphPaper", books:"NCERT books | GraphPaper", booklist:"Book list | GraphPaper", syllabus:"Syllabus | GraphPaper", papers:"Papers | GraphPaper", qbank:"Question bank | GraphPaper", board:"Boards | GraphPaper", about:"About | GraphPaper", parents:"For parents | GraphPaper", contact:"Contact | GraphPaper", terms:"Terms | GraphPaper", privacy:"Privacy | GraphPaper"};
 
 VIEWS.welcome = function(){
   var sel = ST.wc, cb = "";
@@ -101,6 +101,31 @@ VIEWS.welcome = function(){
    '<div style="margin-top:20px"><a href="#/home" style="font-weight:700;text-decoration:underline">Skip for now</a></div></div></div>';
 };
 
+VIEWS.booklist = function(){
+  var c = ST.cls || "4", n = +c, cn = clsName(c);
+  var crumb = '<div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>Book list</b></div>';
+  var body;
+  if (!ST.booksLoaded) body = '<div class="card" style="--sh:var(--a1)">Loading books...</div>';
+  else {
+    var fl = classSubs(c).slice(), nb = 0, nc = 0;
+    if (hasStreams(c)){ var od = FOLD12S[(ST.stream || "Science").charAt(0)]; fl.sort(function(a, b){ var x = od.indexOf(a), y = od.indexOf(b); return (x < 0 ? 99 : x) - (y < 0 ? 99 : y); }); }
+    body = fl.map(function(f, i){
+      var bks = classBooks(c).filter(function(b){ return foldOf(b) === f && streamOk(b); });
+      if (+c === 10) bks.sort(function(x, y){ return ORDER10.indexOf(x.code) - ORDER10.indexOf(y.code); });
+      if (!bks.length) return "";
+      return '<section class="card" style="--sh:var(' + subCol(f) + ');gap:6px;padding:22px 24px"><h2 style="font-size:24px;margin:0 0 6px">' + esc(f) + '</h2>' + bks.map(function(b){
+        nb++; nc += b.ch.length;
+        var titles = b.ch.map(function(h){ return h[1]; }).filter(Boolean);
+        var outline = titles.length === b.ch.length ? '<div class="meta" style="margin-top:4px">' + titles.map(esc).join(' \u00b7 ') + '</div>' : '<div class="meta" style="margin-top:4px">' + b.ch.length + ' ' + b.label.toLowerCase() + (b.ch.length === 1 ? '' : 's') + '</div>';
+        return '<div style="display:flex;gap:12px;padding:12px 0;border-top:2px solid var(--gl)"><span aria-hidden="true" style="font-size:22px;line-height:1.2">\u2610</span><div style="min-width:0"><div style="font-weight:700;overflow-wrap:anywhere">' + esc(b.title) + '</div><div class="meta">' + esc(b.code) + ' \u00b7 ' + b.ch.length + ' ' + b.label.toLowerCase() + (b.ch.length === 1 ? '' : 's') + '</div>' + outline + '<div class="noprint" style="margin-top:8px">' + (b.zip ? '<a href="' + BBASE + b.zip + '" target="_blank" rel="noopener" style="font-weight:700;text-decoration:underline">Whole book (ZIP' + (b.mb ? ', ' + b.mb + ' MB' : '') + ') \u2193</a> \u00b7 ' : '') + '<a href="#/books" style="font-weight:700;text-decoration:underline">Chapters</a></div></div></div>';
+      }).join("") + '</section>';
+    }).join("");
+    body = '<div class="meta" style="margin-bottom:16px">' + nb + ' books \u00b7 ' + nc + ' chapters. Tick each book as you get it.</div><div style="display:flex;flex-direction:column;gap:22px">' + body + '</div>';
+  }
+  return '<div class="wrap sec" style="max-width:860px">' + crumb + '<div class="head"><div class="tile" style="background:var(--a1)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Book list</h1><p>Every NCERT textbook for ' + cn + ', in one checklist. English-medium books plus the Hindi and Sanskrit language books.</p></div></div>' +
+   '<div class="noprint" style="margin-bottom:20px"><button class="btn dark" type="button" data-act="print">Print this list</button></div>' + body +
+   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Books are free to read and download on ncert.nic.in. GraphPaper does not host them. Your school may use other books as well, so check its list.</p></div>';
+};
 VIEWS.notfound = function(){
   return '<div class="wrap sec" style="padding-bottom:64px"><div class="crumb"><a href="#/home">Home</a> / <b>Not found</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(30px,5vw,48px)">Page not found</h1><p style="color:var(--mut)">That page does not exist. <a href="#/home" style="text-decoration:underline;font-weight:700">Go to the home page</a> or <a href="#/updates" style="text-decoration:underline;font-weight:700">see all updates</a>.</p></div>';
 };
@@ -196,20 +221,21 @@ VIEWS["class"] = function(){
   var desc = 'Chapter-wise PDFs for ' + (nb ? 'all ' + nb + ' books of ' : '') + 'Class ' + c + (hasStreams(n) ? ' ' + ST.stream : '') + ', linked from the official NCERT site' + (hasFolders(c) ? ', plus a whole-book download for each.' : '.');
   subs = card("NCERT books", !nb && ST.booksLoaded ? "" : '#/books', ico("book"), "--a3", desc);
   var streams = hi ? '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">' + ST.stream + ' \u00b7 Change</a>' : '';
+  var more0 = card("Book list", nb ? '#/booklist' : "", ico("doc"), "--a1", 'A printable checklist of every NCERT book for Class ' + c + (hi ? ' ' + ST.stream : '') + ', with its chapter titles.');
+  function lk(t, h, col, d){ return '<a class="card" href="' + h + '" style="--sh:var(' + col + ')"><h3 style="font-size:22px">' + t + '</h3><div class="meta">' + d + '</div><span class="more">Open \u2192</span></a>'; }
+  var more = "";
+  if (n <= 8) more += lk("For parents", "#/parents", "--a5", "How school stages, exams, holding back and report cards work, from official documents.");
+  if (n >= 9) more += lk("Syllabus", "#/syllabus", "--a3", 'Official 2026-27 CBSE syllabus for every subject of Class ' + c + (hi ? ' (one PDF covers Class 11 and 12)' : '') + '.');
+  if (n === 10 || n === 12) more += lk("Papers", "#/papers", "--a4", "CBSE sample papers with marking schemes, and board question papers from past years.");
+  if (n >= 6) more += lk("Question bank", "#/qbank", "--a2", n === 10 || n === 12 ? 'CBSE\'s official question bank and practice questions with marking schemes, plus NCERT Exemplar problems.' : n === 11 ? 'NCERT Exemplar problems for Maths, Physics, Chemistry and Biology.' : 'CBSE competency-based questions and NCERT Exemplar problems.');
+  more += '<div class="card" style="--sh:var(--a5)"><h3 style="font-size:22px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div class="meta">Chapter notes and quick revision sheets.</div></div>';
   var mine = ST.items.filter(function(x){ return classOf(x, c); }).slice(0, 3);
-  var latest = '<h2>Latest for Class ' + c + '</h2><div class="grid g3">' + (mine.length ? mine.map(function(x){ return noticeCard(x, true); }).join("") : '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? 'No notices that mention Class ' + c + ' yet. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a>.' : 'Loading notices...') + '</div>') + '</div>';
+  var latest = '<h2>Latest for Class ' + c + '</h2><div class="grid g3">' + (mine.length ? mine.map(function(x){ return noticeCard(x, true); }).join("") : '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? (n <= 8 ? 'CBSE rarely sends notices meant for Classes 1 to 8. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a> or read the <a href="#/parents" style="font-weight:700;text-decoration:underline">guide for parents</a>.' : 'No notices that mention Class ' + c + ' yet. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a>.') : 'Loading notices...') + '</div>') + '</div>';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Study shelf</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a1)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Class ' + c + (hi ? ' ' + ST.stream : '') + '</h1><p>Books, syllabus and notes for Class ' + c + (hi ? ' ' + ST.stream : '') + ', all on one shelf. <a href="#/welcome" style="font-weight:700;text-decoration:underline">Change class' + (hi ? ' or stream' : '') + '</a></p></div></div>' +
    '<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px"><h2 style="margin:0">NCERT books</h2>' + streams + '</div>' +
-   '<div class="grid g3" style="margin-bottom:48px">' + subs + '</div>' +
-   '<h2>Syllabus, papers, questions and notes</h2><div class="grid g3" style="margin-bottom:48px">' +
-   (n >= 9 ? '<a class="card" href="#/syllabus" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus</h3><div class="meta">Official 2026-27 CBSE syllabus for every subject of Class ' + c + (hi ? ' (one PDF covers Class 11 and 12)' : '') + '.</div><span class="more">Open \u2192</span></a>' :
-     '<div class="card" style="--sh:var(--a3)"><h3 style="font-size:22px">Syllabus</h3><div class="meta">CBSE publishes syllabus PDFs for Classes 9 to 12 only. For Class ' + c + ', the NCERT books are the guide.</div></div>') +
-   (n === 10 || n === 12 ? '<a class="card" href="#/papers" style="--sh:var(--a4)"><h3 style="font-size:22px">Papers</h3><div class="meta">CBSE sample papers with marking schemes, and board question papers from past years.</div><span class="more">Open \u2192</span></a>' :
-     '<div class="card" style="--sh:var(--a4)"><h3 style="font-size:22px">Papers</h3><div class="meta">CBSE sets board papers for Class 10 and 12 only. <a href="#/welcome" style="font-weight:700;text-decoration:underline">Change class</a> to see them.</div></div>') +
-   (n >= 6 ? '<a class="card" href="#/qbank" style="--sh:var(--a2)"><h3 style="font-size:22px">Question bank</h3><div class="meta">' + (n === 10 || n === 12 ? 'CBSE\'s official question bank and practice questions with marking schemes, plus NCERT Exemplar problems.' : n === 11 ? 'NCERT Exemplar problems for Maths, Physics, Chemistry and Biology.' : 'CBSE competency-based questions and NCERT Exemplar problems.') + '</div><span class="more">Open \u2192</span></a>' :
-     '<div class="card" style="--sh:var(--a2)"><h3 style="font-size:22px">Question bank</h3><div class="meta">CBSE and NCERT publish question banks from Class 6. For Class ' + c + ', the NCERT books are the best practice.</div></div>') +
-   '<div class="card" style="--sh:var(--a5)"><h3 style="font-size:22px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div class="meta">Chapter notes and quick revision sheets.</div></div></div>' +
+   '<div class="grid g3" style="margin-bottom:48px">' + subs + more0 + '</div>' +
+   '<h2>More for Class ' + c + (hi ? ' ' + ST.stream : '') + '</h2><div class="grid g3" style="margin-bottom:48px">' + more + '</div>' +
    latest + '</div>';
 };
 
@@ -218,6 +244,7 @@ var SUBICON = {Physics:"Physics", Chemistry:"Chemistry", Maths:"Maths", Biology:
 function subCol(s){ return SUBCOL[s] || "--a1"; }
 function subIcon(s){ return ico(SUBICON[s] || "book", 24); }
 function classBooks(c){ return BOOKS.filter(function(b){ return b.cls === +c; }); }
+var FOLD8 = ["English", "Hindi", "Sanskrit", "Mathematics", "Environmental Studies", "Science", "Social Science", "Arts", "Physical Education", "Vocational Education", "Other books"];
 var FOLD10 = ["English", "Hindi", "Mathematics", "Science", "Social Science", "Other books"];
 var FOLD12 = ["Physics", "Chemistry", "Mathematics", "Biology", "Accountancy", "Business Studies", "Economics", "History", "Geography", "Political Science", "Sociology", "Psychology", "English", "Hindi", "Other books"];
 var FOLD12S = {
@@ -241,13 +268,14 @@ function folderStream(c, f){
   var o = ""; classBooks(c).forEach(function(b){ if (foldOf(b) === f && b.st) o += b.st; });
   return o;
 }
-function hasFolders(c){ return +c >= 9; }
+function hasFolders(c){ return +c >= 1; }
 function hasStreams(c){ return +c === 11 || +c === 12; }
 function foldOf(b){ return b.fold || b.sub; }
 function classSubs(c){
   var o = []; classBooks(c).forEach(function(b){ var k = foldOf(b); if (o.indexOf(k) < 0) o.push(k); });
   if (+c === 9 || +c === 10) o.sort(function(a, b){ return FOLD10.indexOf(a) - FOLD10.indexOf(b); });
   if (hasStreams(c)) o.sort(function(a, b){ return FOLD12.indexOf(a) - FOLD12.indexOf(b); });
+  if (+c < 9) o.sort(function(a, b){ var x = FOLD8.indexOf(a), y = FOLD8.indexOf(b); return (x < 0 ? 99 : x) - (y < 0 ? 99 : y); });
   return o;
 }
 var ORDER10 = ["jeff1","jefp1","jhks1","jhkr1","jhsp1","jhsy1","jemh1","jesc1","jess3","jess4","jess2","jess1","jehp1","jhsk1","jhva1","june1","juge1","jujp1","judp1","jusr1","juuq1"];
@@ -590,8 +618,8 @@ VIEWS.privacy = function(){
 
 /* ---------- router ---------- */
 var SITE = "https://graphpaper-peach.vercel.app";
-var SECT = {books:"books", syllabus:"syllabus", papers:"papers", qbank:"question-bank"};
-var SECT_REV = {"books":"books", "syllabus":"syllabus", "papers":"papers", "question-bank":"qbank"};
+var SECT = {books:"books", syllabus:"syllabus", papers:"papers", qbank:"question-bank", booklist:"book-list"};
+var SECT_REV = {"books":"books", "syllabus":"syllabus", "papers":"papers", "question-bank":"qbank", "book-list":"booklist"};
 function classBase(c){ return "/class-" + c + (hasStreams(c) && ST.streamSet ? "/" + ST.stream.toLowerCase() : ""); }
 function toPath(h){
   var m = /^#\/?([^\/?]*)(?:\/([^?]*))?(?:\?(.*))?$/.exec(h || "#/") || [], name = m[1] || "home", arg = m[2] || "", qs = m[3] ? "?" + m[3] : "", p;
@@ -599,7 +627,7 @@ function toPath(h){
   else if (name === "notice" || name === "board") p = "/" + name + "/" + arg;
   else if (name === "class") p = classBase(ST.cls || "4");
   else if (name === "books") p = classBase(bcls()) + "/books";
-  else if (name === "syllabus" || name === "papers" || name === "qbank") p = classBase(ST.cls || "10") + "/" + SECT[name];
+  else if (name === "syllabus" || name === "papers" || name === "qbank" || name === "booklist") p = classBase(ST.cls || "10") + "/" + SECT[name];
   else p = "/" + name;
   return p + qs;
 }
@@ -638,6 +666,7 @@ function pageMeta(name, r){
   }
   else if (name === "class"){ m.t = cn + " study shelf | GraphPaper"; m.d = "NCERT books, syllabus, papers and question bank for " + cn + " (CBSE)."; if (!r.cls) m.ni = true; }
   else if (name === "books"){ m.t = "NCERT books for " + cn + " | GraphPaper"; m.d = "Chapter-wise NCERT PDFs for " + cn + ", linked from the official NCERT site, with a whole-book download for each."; }
+  else if (name === "booklist"){ m.t = "NCERT book list for " + cn + " | GraphPaper"; m.d = "A printable checklist of every NCERT textbook for " + cn + " (CBSE), with chapter titles and download links."; }
   else if (name === "syllabus"){ m.t = "CBSE syllabus for " + cn + ", 2026-27 | GraphPaper"; m.d = "Official CBSE syllabus PDFs for " + cn + ", session 2026-27, subject by subject."; if (n < 9) m.ni = true; }
   else if (name === "papers"){ m.t = "CBSE sample papers and previous year papers for " + cn + " | GraphPaper"; m.d = "Official CBSE sample papers with marking schemes and past board question papers for " + cn + "."; if (n !== 10 && n !== 12) m.ni = true; }
   else if (name === "qbank"){ m.t = "CBSE question bank and practice questions for " + cn + " | GraphPaper"; m.d = "CBSE question bank, practice questions and NCERT Exemplar problems for " + cn + "."; if (n < 6) m.ni = true; }
@@ -676,7 +705,7 @@ function route(keepScroll){
   if (r.cls){ syncFromPath(r); r = parse(); name = r.name; }
   if (!name) name = "home";
   if (!VIEWS[name]) name = "notfound";
-  if (ST.cls && hasStreams(ST.cls) && !ST.streamSet && /^(class|books|syllabus|papers|qbank)$/.test(name)){ ST.wc = ST.wc || ST.cls; name = "welcome"; }
+  if (ST.cls && hasStreams(ST.cls) && !ST.streamSet && /^(class|books|syllabus|papers|qbank|booklist)$/.test(name)){ ST.wc = ST.wc || ST.cls; name = "welcome"; }
   if (!keepScroll){
     if (name !== "updates" || !ST.fromSearch){ if (name === "updates" || ST.navFrom === "updates"){ ST.type = "all"; ST.q = ""; ST.ub = "all"; } }
     if (name !== "books"){ ST.bq = ""; ST.bsub = "All"; }
@@ -711,6 +740,7 @@ D.addEventListener("click", function(e){
   var el = e.target.closest("[data-act]"); if (!el) return;
   var a = el.dataset.act, v = el.dataset.v;
   if (a === "setcls"){ setClass(v); route(true); var d = $("#clsmenu"); if (d) d.open = false; }
+  else if (a === "print"){ window.print(); }
   else if (a === "wc"){ ST.wc = v; route(true); $("#app").dataset.c = v; }
   else if (a === "copyfeed"){ var fu = $("#feedurl").textContent, cm = $("#copymsg"); if (navigator.clipboard) navigator.clipboard.writeText(fu).then(function(){ cm.textContent = "Copied."; }, function(){ cm.textContent = "Press and hold the address to copy it."; }); else cm.textContent = "Press and hold the address to copy it."; }
   else if (a === "wgo"){ var we = $("#werr"); if (!ST.wc){ we.textContent = "Please pick your class first."; we.hidden = false; return; } if (hasStreams(ST.wc) && !ST.ws){ we.textContent = "Please pick your stream first."; we.hidden = false; return; } setClass(ST.wc); if (hasStreams(ST.wc)) setStream(ST.ws); go("/"); }
