@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://graphpaper-peach.vercel.app/sitemap.xml
