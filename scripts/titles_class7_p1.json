@@ -1,0 +1,2668 @@
+{
+"gegp2": [
+{
+"file": "gegp201",
+"pages": 23,
+"big": [
+[
+60.0,
+"1"
+],
+[
+35.0,
+"GEOMETRIC"
+],
+[
+35.0,
+"TWINS"
+],
+[
+16.0,
+"1.1 Geometric Twins"
+],
+[
+12.0,
+"The symbol on this signboard needs to be recreated on another board."
+],
+[
+12.0,
+"How do we do it?"
+]
+],
+"big2": [
+[
+12.0,
+"Suppose these lengths are AB = 4 cm, BC = 8 cm. We observe that"
+],
+[
+12.0,
+"several such symbols can be constructed with the same lengths."
+],
+[
+12.0,
+"To get the exact replica, would it help to take any other measurement?"
+],
+[
+12.0,
+"The measure of ∠ABC, along with the two arm lengths AB and BC, fix"
+],
+[
+12.0,
+"the shape and size of this figure."
+],
+[
+12.0,
+"Can you draw the symbol if it is known that AB = 4 cm, BC = 8 cm, and"
+]
+]
+},
+{
+"file": "gegp202",
+"pages": 23,
+"big": [
+[
+60.0,
+"2"
+],
+[
+35.0,
+"OPERATIONS"
+],
+[
+35.0,
+"WITH INTEGERS"
+],
+[
+16.0,
+"2.1 A Quick Recap of Integers"
+],
+[
+12.0,
+"Rakesh’s Puzzle: A Number Game"
+],
+[
+12.0,
+"Rakesh gives you a challenge."
+]
+],
+"big2": [
+[
+14.0,
+"Figure it Out"
+],
+[
+14.0,
+"Carrom Coin Integers"
+],
+[
+12.0,
+"puzzle, you get the answer to Rakesh’s second puzzle. That is, the first"
+],
+[
+12.0,
+"number is 7 and the second is 18!"
+],
+[
+12.0,
+"Let us try to find a few more pairs of numbers from their sums and"
+],
+[
+12.0,
+"differences:"
+]
+]
+},
+{
+"file": "gegp203",
+"pages": 20,
+"big": [
+[
+60.0,
+"3"
+],
+[
+35.0,
+"FINDING COMMON"
+],
+[
+35.0,
+"GROUND"
+],
+[
+16.0,
+"3.1 The Greatest of All"
+],
+[
+12.0,
+"Sameeksha is building her new house. The main room of the house is 12"
+],
+[
+12.0,
+"ft by 16 ft. She feels that the room would look nice if the floor is covered"
+]
+],
+"big2": [
+[
+12.0,
+"How many tiles of this size should she purchase?"
+],
+[
+12.0,
+"What if Sameeksha did not insist on the length of the tile to be a"
+],
+[
+12.0,
+"whole number of feet and the length could be a fractional number"
+],
+[
+12.0,
+"of feet? Would the answer change?"
+],
+[
+12.0,
+"The Highest Common Factor (HCF) of two or more numbers, is the"
+],
+[
+12.0,
+"highest (or greatest) of their common factors. It is also known as the"
+]
+]
+},
+{
+"file": "gegp204",
+"pages": 30,
+"big": [
+[
+60.0,
+"4"
+],
+[
+30.0,
+"ANOTHER PEEK"
+],
+[
+30.0,
+"BEYOND THE POINT"
+],
+[
+16.0,
+"4.1 A Quick Recap of Decimals"
+],
+[
+12.0,
+"Recall that decimals are the natural extension of the Indian place value"
+],
+[
+12.0,
+"system to represent decimal fractions ( 1"
+]
+],
+"big2": [
+[
+12.0,
+"Write the following fractions as a sum of fractions and also as decimals:"
+],
+[
+12.0,
+"Sum of one-tenths,"
+],
+[
+12.0,
+"Expanding the"
+],
+[
+12.0,
+"Fraction"
+],
+[
+12.0,
+"one-hundredths,"
+],
+[
+12.0,
+"Decimals"
+]
+]
+},
+{
+"file": "gegp205",
+"pages": 39,
+"big": [
+[
+60.0,
+"5"
+],
+[
+35.0,
+"CONNECTING"
+],
+[
+35.0,
+"THE DOTS…"
+],
+[
+16.0,
+"5.1 Of Questions and Statements"
+],
+[
+12.0,
+"Your teacher tells you that they are meeting two of their childhood"
+],
+[
+12.0,
+"friends this evening. One is 5 feet tall and the other is 6 feet tall. What is"
+]
+],
+"big2": [
+[
+16.0,
+"5.2 Representative Values"
+],
+[
+12.0,
+"We call these statistical statements. Simply put, a statistical statement"
+],
+[
+12.0,
+"is a claim or summary about some phenomenon, expressed in terms of"
+],
+[
+12.0,
+"numerical values, proportions, probabilities, or predictions."
+],
+[
+12.0,
+"A statistical question is a question that can be answered by collecting"
+],
+[
+12.0,
+"data. For example, “How tall are Grade 7 students in our school?” is a"
+]
+]
+},
+{
+"file": "gegp206",
+"pages": 28,
+"big": [
+[
+60.0,
+"6"
+],
+[
+35.0,
+"CONSTRUCTIONS"
+],
+[
+35.0,
+"AND TILINGS"
+],
+[
+16.0,
+"6.1 Geometric Constructions"
+],
+[
+13.9,
+"B"
+],
+[
+12.0,
+"Eyes"
+]
+],
+"big2": [
+[
+12.0,
+"How do we find such A and B?"
+],
+[
+12.0,
+"From X and Y, draw arcs above and below"
+],
+[
+12.0,
+"XY, with the same radii."
+],
+[
+12.0,
+"The two points at which the arcs meet,"
+],
+[
+12.0,
+"above and below XY, give us A and B,"
+],
+[
+12.0,
+"respectively."
+]
+]
+},
+{
+"file": "gegp207",
+"pages": 35,
+"big": [
+[
+60.0,
+"7"
+],
+[
+35.0,
+"FINDING THE"
+],
+[
+35.0,
+"UNKNOWN"
+],
+[
+16.0,
+"7.1 Find the Unknowns"
+],
+[
+14.0,
+"Unknown Weights"
+],
+[
+12.0,
+"We have a weighing scale that behaves as follows. The numbers represent"
+]
+],
+"big2": [
+[
+12.0,
+"Math"
+],
+[
+12.0,
+"Discuss the answers with your classmates. Give reasons why you"
+],
+[
+12.0,
+"Talk"
+],
+[
+12.0,
+"think your answer is right."
+],
+[
+12.0,
+"Find the unknown weight of the sack in the following cases. In Fig. 7.10,"
+],
+[
+12.0,
+"all the sacks have the same weight."
+]
+]
+}
+],
+"gehc1": [
+{
+"file": "gehc101",
+"pages": 17,
+"big": [
+[
+20.0,
+"NOTES FOR THE TEACHER"
+],
+[
+11.5,
+"General"
+],
+[
+10.5,
+"v"
+],
+[
+10.5,
+"Learning a language means using it for a wide variety of"
+],
+[
+10.5,
+"purposes. Language is best acquired when attention is"
+],
+[
+10.5,
+"focused on meaning, not on form."
+]
+],
+"big2": [
+[
+13.0,
+"UNITS 1–3"
+],
+[
+11.5,
+"Three Questions"
+],
+[
+10.5,
+"v"
+],
+[
+10.5,
+"Introduce advertisement as a genre and discuss with the"
+],
+[
+10.5,
+"learners about advertisements on social concerns such"
+],
+[
+10.5,
+"as educating the girl child, protecting the environment,"
+]
+]
+},
+{
+"file": "gehc102",
+"pages": 18,
+"big": [
+[
+37.0,
+"A"
+],
+[
+24.0,
+"2"
+],
+[
+23.7,
+"A Gift of Chappals"
+],
+[
+15.2,
+"I"
+],
+[
+13.0,
+"Before you read"
+],
+[
+13.0,
+"smiling Rukku Manni threw open the"
+]
+],
+"big2": [
+[
+13.0,
+"Meena. “It’s a secret. Amma says Paati will leave"
+],
+[
+13.0,
+"for our Paddu Mama’s house if she knows we"
+],
+[
+13.0,
+"have a cat.”"
+],
+[
+13.0,
+"“People are always telling us to be kind to"
+],
+[
+13.0,
+"animals, but when we are, they scream. ‘Ooh,"
+],
+[
+13.0,
+"don’t bring that dirty creature here!’ ” said Ravi."
+]
+]
+},
+{
+"file": "gehc103",
+"pages": 14,
+"big": [
+[
+24.0,
+"3"
+],
+[
+23.7,
+"Gopal and the Hilsa-fish"
+],
+[
+13.0,
+"Before you read"
+],
+[
+11.0,
+"Have you ever read a comic book? A comic book  contains"
+],
+[
+11.0,
+"stories told mainly through pictures."
+],
+[
+8.0,
+"2024-25"
+]
+],
+"big2": [
+[
+10.0,
+"GOPAL AND THE HILSA-FISH/37"
+],
+[
+8.0,
+"2024-25"
+]
+]
+},
+{
+"file": "gehc104",
+"pages": 22,
+"big": [
+[
+20.0,
+"NOTES"
+],
+[
+20.0,
+"OTES FOR"
+],
+[
+20.0,
+"FOR THE"
+],
+[
+20.0,
+"THE T"
+],
+[
+20.0,
+"T"
+],
+[
+20.0,
+"TEACHER"
+]
+],
+"big2": [
+[
+11.5,
+"Chivvy"
+],
+[
+11.5,
+"Quality"
+],
+[
+10.5,
+"v"
+],
+[
+10.5,
+"Groups of children jointly discuss the question without going"
+],
+[
+10.5,
+"through the Introduction (Ask the question or write it on the"
+],
+[
+10.5,
+"blackboard)."
+]
+]
+},
+{
+"file": "gehc105",
+"pages": 14,
+"big": [
+[
+37.0,
+"I"
+],
+[
+24.0,
+"5"
+],
+[
+23.7,
+"Quality"
+],
+[
+13.0,
+"Before you read"
+],
+[
+13.0,
+"knew him from the days of my"
+],
+[
+13.0,
+"extreme youth, because he made my"
+]
+],
+"big2": [
+[
+13.0,
+"beyond the temporary, some essence of boot"
+],
+[
+13.0,
+"stitched into them."
+],
+[
+13.0,
+"One went in, not as into most shops, but"
+],
+[
+13.0,
+"restfully, as one enters a church, and sitting on"
+],
+[
+13.0,
+"the single wooden chair, waited. A guttural sound,"
+],
+[
+13.0,
+"and the tip-tap of his slippers beating the narrow"
+]
+]
+},
+{
+"file": "gehc106",
+"pages": 14,
+"big": [
+[
+37.0,
+"A"
+],
+[
+24.0,
+"6"
+],
+[
+23.7,
+"Expert Detectives"
+],
+[
+15.2,
+"I"
+],
+[
+13.0,
+"Before you read"
+],
+[
+13.0,
+"s we walked back towards the clinic"
+]
+],
+"big2": [
+[
+13.0,
+"“But Maya, Mr Mehta told us he doesn’t work"
+],
+[
+13.0,
+"anywhere, so how can he possibly have money to"
+],
+[
+13.0,
+"pay for food?” Nishad said."
+],
+[
+13.0,
+"“Exactly!” I exclaimed. “He must have lots of"
+],
+[
+13.0,
+"money hidden somewhere, maybe in that trunk"
+],
+[
+13.0,
+"in his room. It’s probably full of silver and gold"
+]
+]
+},
+{
+"file": "gehc107",
+"pages": 14,
+"big": [
+[
+37.0,
+"M"
+],
+[
+25.0,
+"The Invention of"
+],
+[
+25.0,
+"Vita-Wonk"
+],
+[
+24.0,
+"7"
+],
+[
+15.2,
+"I"
+],
+[
+13.0,
+"Before you read"
+]
+],
+"big2": [
+[
+13.0,
+"“A tree,” Charlie said."
+],
+[
+13.0,
+"“Right you are, Charlie!  But what kind of a"
+],
+[
+13.0,
+"tree?  Not the Douglas fir.  Not the oak.  Not the"
+],
+[
+13.0,
+"cedar. No, no, my boy.  It is a tree called the"
+],
+[
+13.0,
+"Bristlecone pine that grows upon the slopes of"
+],
+[
+13.0,
+"Wheeler Peak in Nevada, U.S.A.  You can find"
+]
+]
+},
+{
+"file": "gehc108",
+"pages": 27,
+"big": [
+[
+37.0,
+"S"
+],
+[
+25.0,
+"A Homage to our"
+],
+[
+25.0,
+"Brave Soldiers"
+],
+[
+24.0,
+"8"
+],
+[
+15.2,
+"I"
+],
+[
+13.0,
+"Before you read"
+]
+],
+"big2": [
+[
+13.0,
+"for many centuries. Post-independence our"
+],
+[
+13.0,
+"country has had to fight several wars to protect"
+],
+[
+13.0,
+"its borders, territorial integrity, and its people."
+],
+[
+13.0,
+"This made me wonder, who were these brave"
+],
+[
+13.0,
+"Indian people? They fought to protect our country"
+],
+[
+13.0,
+"and sacrificed their lives so that we could lead"
+]
+]
+}
+],
+"gekb1": [
+{
+"file": "gekb101",
+"pages": 24,
+"big": [
+[
+30.0,
+"Work with"
+],
+[
+30.0,
+"Life Forms"
+],
+[
+24.0,
+"Part 1"
+],
+[
+8.0,
+"Reprint 2026-27"
+]
+],
+"big2": [
+[
+16.9,
+"‘Life forms’ include all living things on earth."
+],
+[
+16.9,
+"They include human beings, mammals,"
+],
+[
+16.9,
+"birds, fish, plants, insects, reptiles and even"
+],
+[
+16.9,
+"bacteria and viruses. Projects on Work with"
+],
+[
+16.9,
+"Life Forms will help you work with living"
+],
+[
+16.9,
+"things in different ways. You can take up"
+]
+]
+},
+{
+"file": "gekb102",
+"pages": 24,
+"big": [
+[
+28.2,
+"School Kitchen Garden"
+],
+[
+24.0,
+"School Habitat Garden"
+],
+[
+21.2,
+"Project 1:"
+],
+[
+18.0,
+"Project 2"
+],
+[
+13.0,
+"This project will help you learn about providing suitable"
+],
+[
+13.0,
+"conditions for groups of animals to live and thrive. You will"
+]
+],
+"big2": [
+[
+13.0,
+"Many"
+],
+[
+13.0,
+"animals"
+],
+[
+13.0,
+"coexist"
+],
+[
+13.0,
+"peacefully"
+],
+[
+13.0,
+"with"
+],
+[
+13.0,
+"humans"
+]
+]
+},
+{
+"file": "gekb103",
+"pages": 34,
+"big": [
+[
+30.0,
+"Work with"
+],
+[
+30.0,
+"Machines and"
+],
+[
+30.0,
+"Materials"
+],
+[
+24.0,
+"Part 2"
+],
+[
+8.0,
+"Reprint 2026-27"
+]
+],
+"big2": [
+[
+17.0,
+"Machines make our lives easy, and materials"
+],
+[
+17.0,
+"are all around us. Projects on Work with"
+],
+[
+17.0,
+"Machines and Materials will help you work"
+],
+[
+17.0,
+"with different machines and tools to create"
+],
+[
+17.0,
+"new things with different kinds of materials,"
+],
+[
+17.0,
+"and to repair and maintain things. You can take"
+]
+]
+},
+{
+"file": "gekb104",
+"pages": 24,
+"big": [
+[
+28.2,
+"School Kitchen Garden"
+],
+[
+24.0,
+"AI Assistant"
+],
+[
+21.2,
+"Project 1:"
+],
+[
+18.0,
+"Project 4"
+],
+[
+13.0,
+"This project will help you learn about using Artificial Intelligence"
+],
+[
+13.0,
+"(AI). You will create an AI Assistant to help someone who has"
+]
+],
+"big2": [
+[
+13.0,
+"What do we mean by intelligence?"
+],
+[
+13.0,
+"Intelligence is the ability to learn and to use what you have learnt"
+],
+[
+13.0,
+"in new situations. Intelligence keeps growing – the more we deal"
+],
+[
+13.0,
+"with new situations, the more our intelligence grows."
+],
+[
+13.0,
+"With advances in technology, machines are also becoming"
+],
+[
+13.0,
+"intelligent, just like humans. This is known as Artificial Intelligence"
+]
+]
+},
+{
+"file": "gekb105",
+"pages": 31,
+"big": [
+[
+30.0,
+"Work in"
+],
+[
+30.0,
+"Human Services"
+],
+[
+24.0,
+"Part 3"
+],
+[
+9.0,
+"107"
+],
+[
+8.0,
+"Reprint 2026-27"
+]
+],
+"big2": [
+[
+16.9,
+"Human Services are about serving people"
+],
+[
+16.9,
+"and interacting with them in different ways."
+],
+[
+16.9,
+"Projects on Work in Human Services will"
+],
+[
+16.9,
+"help you learn how to work with people. You"
+],
+[
+16.9,
+"can take up projects related to taking care"
+],
+[
+16.9,
+"of your health and that of your family and"
+]
+]
+},
+{
+"file": "gekb106",
+"pages": 23,
+"big": [
+[
+28.2,
+"School Kitchen Garden"
+],
+[
+24.0,
+"Family Health Handbook"
+],
+[
+21.2,
+"Project 1:"
+],
+[
+18.0,
+"Project 6"
+],
+[
+13.0,
+"This project will help you learn about maintaining the health and"
+],
+[
+13.0,
+"well-being of your family. You will create a family health handbook"
+]
+],
+"big2": [
+[
+13.0,
+"Family health refers to the overall physical, mental, and"
+],
+[
+13.0,
+"emotional well-being of all members within a family. The health"
+],
+[
+13.0,
+"of individuals and the family as a whole are interconnected with"
+],
+[
+13.0,
+"each other."
+],
+[
+13.0,
+"Good health results from many factors, including diet, physical"
+],
+[
+13.0,
+"fitness, sleep, mental well-being, and environmental factors"
+]
+]
+},
+{
+"file": "gekb107",
+"pages": 3,
+"big": [
+[
+22.0,
+"Planning"
+],
+[
+22.0,
+"for Kaushal"
+],
+[
+22.0,
+"Mela"
+],
+[
+9.0,
+"161"
+],
+[
+9.0,
+"Planning for Kaushal Mela"
+],
+[
+8.0,
+"Reprint 2026-27"
+]
+],
+"big2": [
+[
+19.0,
+"Planning for Kaushal Mela"
+],
+[
+11.0,
+"You have worked on your projects and are now ready to share what you did"
+],
+[
+11.0,
+"and how you did it with others."
+],
+[
+11.0,
+"You may have shared something with other students and teachers during"
+],
+[
+11.0,
+"classroom presentations or during school assembly. You can also invite your"
+],
+[
+11.0,
+"family and other people to come and see your work. You can do this through"
+]
+]
+}
+],
+"gekr1": [
+{
+"file": "gekr101",
+"pages": 19,
+"big": [
+[
+14.0,
+"உளளது நிிகழும் குறிிப்புக் கணிிப்பு க்கு ஏற்பட"
+],
+[
+14.0,
+"உடம்பில் நிிகழும் வே$றுபாடு."
+],
+[
+12.0,
+"Ulladu nigazhum kurippu kanippukku erpada"
+],
+[
+12.0,
+"udambil nigazum verupaadu."
+],
+[
+12.0,
+"When an actor expresses emotions of a character, it evokes"
+],
+[
+12.0,
+"equivalent changes within the actor’s body and mind."
+]
+],
+"big2": [
+[
+18.0,
+"NOTE TO THE TEACHERS"
+],
+[
+14.0,
+"Assessment"
+],
+[
+14.0,
+"Free space to work"
+],
+[
+14.0,
+"Connect to real world applications"
+],
+[
+12.0,
+"Dear Theatre Teacher,"
+],
+[
+12.0,
+"relevant to their everyday lives. From building"
+]
+]
+},
+{
+"file": "gekr102",
+"pages": 10,
+"big": [
+[
+36.0,
+"2"
+],
+[
+32.0,
+"Say more without"
+],
+[
+32.0,
+"Speech — MIME"
+],
+[
+12.0,
+"“Mime as an art form speaks the universal language of silence. It can"
+],
+[
+12.0,
+"make the invisible become visible and make silence the most powerful"
+],
+[
+12.0,
+"and loudest form of communication.”"
+]
+],
+"big2": [
+[
+14.0,
+"Technique-based terms"
+],
+[
+12.0,
+"Called Mukaabhinaya in India, let us first"
+],
+[
+12.0,
+"get familiar with the words used in this form of"
+],
+[
+12.0,
+"performance."
+],
+[
+12.0,
+"Mime: A form of acting that uses"
+],
+[
+12.0,
+"Here are some basic terms that you might be"
+]
+]
+},
+{
+"file": "gekr103",
+"pages": 16,
+"big": [
+[
+36.0,
+"3"
+],
+[
+32.0,
+"Let’s Design —"
+],
+[
+30.0,
+"STAGE TECHNICALS 2"
+],
+[
+18.0,
+"i.\tBACKSTAGE WORK — THE"
+],
+[
+18.0,
+"INVISIBLE PILLAR OF THEATRE"
+],
+[
+12.0,
+"A tree in full bloom with flowers and fruits is such"
+]
+],
+"big2": [
+[
+12.0,
+"With so much importance being given to backstage"
+],
+[
+12.0,
+"It is important not because of the physical space,"
+],
+[
+12.0,
+"work, you must be wondering, what is backstage? Is it"
+],
+[
+12.0,
+"but because of the work that happens and the people"
+],
+[
+12.0,
+"the physical space that extends behind the performing"
+],
+[
+12.0,
+"involved. Notice all the effort and hard work of the"
+]
+]
+},
+{
+"file": "gekr104",
+"pages": 10,
+"big": [
+[
+36.0,
+"4"
+],
+[
+32.0,
+"Story of India’s"
+],
+[
+32.0,
+"Storytelling traditions"
+],
+[
+12.0,
+"Once"
+],
+[
+12.0,
+"upon"
+],
+[
+12.0,
+"a"
+]
+],
+"big2": [
+[
+12.0,
+"Namaste! Though I have travelled across the world, my favourite"
+],
+[
+12.0,
+"place has always been Bharata. No matter where I am, I prefer to"
+],
+[
+12.0,
+"come back here as it feels like home! It has the most beautiful stories."
+],
+[
+12.0,
+"Do you know how it all started? Many, many years ago, when I was"
+],
+[
+12.0,
+"going to different places in Bharata, I realised that the people did not"
+],
+[
+12.0,
+"know stories at all. They were missing the fun and the values they"
+]
+]
+},
+{
+"file": "gekr105",
+"pages": 10,
+"big": [
+[
+14.0,
+"नकाारंं प्रााणनामाानंं दकाारमनलंं विřदुःःī।"
+],
+[
+14.0,
+"जाातःः प्रााणाग्निɯसंंयोोगाात्तेेन नादोऽभििŒधीीयतेे ॥"
+],
+[
+14.0,
+"­— संंगीत रत्‍‍नाकर, शाारंंगदेेव"
+],
+[
+12.0,
+"Nakāraṁ prāṇa-nāmānaṁ dakāram analaṁ viduḥ."
+],
+[
+12.0,
+"Jātaḥ prāṇāgni-saṁyogāt tena Nādo-'bhidhīyate."
+],
+[
+12.0,
+"— Saṅgīta-ratnākara, Sharangdeva"
+]
+],
+"big2": [
+[
+24.0,
+"नि�"
+],
+[
+24.0,
+"ध"
+],
+[
+24.0,
+"प"
+],
+[
+24.0,
+"म"
+],
+[
+24.0,
+"ग"
+],
+[
+24.0,
+"रेे"
+]
+]
+},
+{
+"file": "gekr106",
+"pages": 7,
+"big": [
+[
+36.0,
+"6"
+],
+[
+30.0,
+"MUSIC, EMOTIONS"
+],
+[
+30.0,
+"AND CREATIVITY"
+],
+[
+12.0,
+"Music"
+],
+[
+12.0,
+"expresses"
+],
+[
+12.0,
+"various"
+]
+],
+"big2": [
+[
+18.0,
+"DEVOTIONAL MUSIC"
+],
+[
+13.0,
+"MEANING"
+],
+[
+12.0,
+"People pray in different ways. Music allows people"
+],
+[
+12.0,
+"to express the feeling of devotion. People often come"
+],
+[
+12.0,
+"together in groups and sing devotional songs, in different"
+],
+[
+12.0,
+"styles of singing, using a variety of words, tunes and"
+]
+]
+},
+{
+"file": "gekr107",
+"pages": 13,
+"big": [
+[
+36.0,
+"7"
+],
+[
+30.0,
+"Ragas and"
+],
+[
+30.0,
+"Talas/Taal"
+],
+[
+14.4,
+"DO YOU"
+],
+[
+14.4,
+"KNOW?"
+],
+[
+13.0,
+"षड्‍‍जश्‍‍च ऋषभश्‍‍चैैव गाान्धाारोो मध्यमस्तथाा ।"
+]
+],
+"big2": [
+[
+18.0,
+"CARNATIC MUSIC"
+],
+[
+14.0,
+"Dhruva Tala"
+],
+[
+14.0,
+"Sapta Tala Alankaras"
+],
+[
+14.0,
+"Matya Tala"
+],
+[
+12.0,
+"A popular set of vocal exercises to build vocal strength"
+],
+[
+12.0,
+"and understand talas is the sapta tala alankaras."
+]
+]
+},
+{
+"file": "gekr108",
+"pages": 12,
+"big": [
+[
+36.0,
+"8"
+],
+[
+30.0,
+"The MUSIC of"
+],
+[
+30.0,
+"the people"
+],
+[
+18.0,
+"of our country. Just tick () or strike () in the given columns."
+],
+[
+12.0,
+"Our country’s music is incredibly diverse,"
+],
+[
+12.0,
+"reflecting the unique cultural heritage of"
+]
+],
+"big2": [
+[
+18.0,
+"FOLK SONGS AND COMMUNITY"
+],
+[
+13.5,
+"Song: Bihu bihu lagise gaat"
+],
+[
+13.0,
+"SONG SUMMARY"
+],
+[
+12.0,
+"O …Bohagare akakhote naase"
+],
+[
+12.0,
+"Korekoye bijuri ulahere"
+],
+[
+12.0,
+"Let us listen to this song given below. It"
+]
+]
+},
+{
+"file": "gekr109",
+"pages": 8,
+"big": [
+[
+36.0,
+"9"
+],
+[
+32.0,
+"PERFORMANCE"
+],
+[
+18.0,
+"PART A: PLAN"
+],
+[
+14.0,
+"ACTIVITY 9.1: VISUALISE A PERFORMANCE"
+],
+[
+12.0,
+"There are many steps"
+],
+[
+12.0,
+"that  lead to a successful"
+]
+],
+"big2": [
+[
+14.4,
+"DO YOU"
+],
+[
+14.4,
+"KNOW?"
+],
+[
+14.0,
+"ACTIVITY 9.2: CREATE A SONG LIST"
+],
+[
+13.0,
+"SWAGATHAM SHUBHA SWAGATHAM"
+],
+[
+12.0,
+"Work with your teacher to make a list of songs that could be used"
+],
+[
+12.0,
+"for the performance. Everyone can contribute songs that they"
+]
+]
+},
+{
+"file": "gekr110",
+"pages": 13,
+"big": [
+[
+14.0,
+"विřनाा तुु नृृत्यशाास्त्रेेण चिŀत्रसूूत्रंं सुुदुुविřिदम्् ।।३।।"
+],
+[
+13.0,
+"vinā tu nṛityaśhāstreṇa chitrasūtram"
+],
+[
+13.0,
+"sudurvidam"
+],
+[
+13.0,
+"(nṛityaśhāstra) the principles of"
+],
+[
+12.0,
+"— Vishnudharmottara Purana"
+],
+[
+12.0,
+"Without the knowledge of dance"
+]
+],
+"big2": [
+[
+18.0,
+"Note to the Teachers"
+],
+[
+14.0,
+"Pedagogical Principles"
+],
+[
+12.0,
+"Teachers may provide a spacious hall with sufficient"
+],
+[
+12.0,
+"6.\t Using hand gestures as a communication"
+],
+[
+12.0,
+"space for children to move and dance. The space"
+],
+[
+12.0,
+"medium."
+]
+]
+},
+{
+"file": "gekr111",
+"pages": 14,
+"big": [
+[
+36.0,
+"11"
+],
+[
+28.0,
+"DANCE VOCABULARY"
+],
+[
+28.0,
+"AND TECHNIQUES"
+],
+[
+18.0,
+"Nritta, Nritya and Natya"
+],
+[
+12.0,
+"Dance comprises many units which are beautifully connected together."
+],
+[
+12.0,
+"Some have joyous movements, some narrate a story or a situation and"
+]
+],
+"big2": [
+[
+14.0,
+"ACTIVITY 11.1 : BASIC STEPS AND RHYTHMS — NRITTA"
+],
+[
+12.0,
+"You have been learning steps and rhythm in"
+],
+[
+12.0,
+"images drawn below. They are combinations of steps"
+],
+[
+12.0,
+"your earlier grades, now try some different"
+],
+[
+12.0,
+"exploring different beats. Do you wish to try your own"
+],
+[
+12.0,
+"rhythmic beats, i.e., 5, 6 and 7 beats. Add some"
+]
+]
+},
+{
+"file": "gekr112",
+"pages": 7,
+"big": [
+[
+36.0,
+"12"
+],
+[
+30.0,
+"DANCE, YOU"
+],
+[
+30.0,
+"AND CREATIVITY"
+],
+[
+18.0,
+"Movements of Hips in Dance"
+],
+[
+13.5,
+"Twisting of the hip"
+],
+[
+13.5,
+"Side to side"
+]
+],
+"big2": [
+[
+14.0,
+"ACTIVITY 12.1: DANCE WITH HIP MOVEMENTS"
+],
+[
+13.5,
+"Circular"
+],
+[
+12.0,
+"How do you rotate a hula hoop? Have you"
+],
+[
+12.0,
+"Now, observe such hip movements in different Indian"
+],
+[
+12.0,
+"observed hip rotation while using one? For"
+],
+[
+12.0,
+"dances and try to replicate them. Create your own dance"
+]
+]
+},
+{
+"file": "gekr113",
+"pages": 3,
+"big": [
+[
+36.0,
+"13"
+],
+[
+30.0,
+"PERSONALITIES"
+],
+[
+18.0,
+"Shambhu Maharaj"
+],
+[
+12.0,
+"Scion of the Lucknow Gharana of Kathak, Shambhu Maharaj"
+],
+[
+12.0,
+"belongs to a family of traditional Kathak dancers. His forefathers"
+],
+[
+12.0,
+"were gurus and dancers at the court of Nawab Wajid Ali Shah of"
+]
+],
+"big2": [
+[
+18.0,
+"Kedar Nath Sahu"
+],
+[
+14.0,
+"ACTIVITY 13.1"
+],
+[
+12.0,
+"Kedar Nath Sahu was one"
+],
+[
+12.0,
+"of the leading exponents"
+],
+[
+12.0,
+"of Seraikella Chhau. He"
+],
+[
+12.0,
+"comes from a traditional"
+]
+]
+},
+{
+"file": "gekr114",
+"pages": 9,
+"big": [
+[
+36.0,
+"14"
+],
+[
+30.0,
+"NATYA"
+],
+[
+12.0,
+"Natya is storytelling through performance. You have read the"
+],
+[
+12.0,
+"description of this earlier in the book and read about two natya"
+],
+[
+12.0,
+"traditions."
+],
+[
+12.0,
+"In this chapter, you will explore how dance elements can be"
+]
+],
+"big2": [
+[
+12.0,
+"singing again, animals came out of hiding, and the"
+],
+[
+12.0,
+"“Long ago, on the"
+],
+[
+12.0,
+"children clapped and cheered. Kaliya calmed down"
+],
+[
+12.0,
+"banks"
+],
+[
+12.0,
+"of"
+],
+[
+12.0,
+"the"
+]
+]
+},
+{
+"file": "gekr115",
+"pages": 14,
+"big": [
+[
+14.0,
+"कलाानांंĪ प्रवरंं चिŀत्रंं धर्ममकामाार्थथ मोोक्षदम््।"
+],
+[
+14.0,
+"ममङ्गल्यंं परमंं हयेेतद् गृृहेे यत्र प्रति�ष्ठि΂तम््॥"
+],
+[
+12.0,
+"kalānāṁ pravaraṁ chitraṁ"
+],
+[
+12.0,
+"dharmakāmārtha mokṣhadam ǀ"
+],
+[
+12.0,
+"māṅgalyaṁ parmaṁ hyetada gr̥̥ihe"
+],
+[
+12.0,
+"yatra pratiṣhṭhitam ǁ"
+]
+],
+"big2": [
+[
+18.0,
+"Note to The TeacherS"
+],
+[
+14.0,
+"Visual Arts pedagogy would need to"
+],
+[
+12.0,
+"Dear Teacher,"
+],
+[
+12.0,
+"1.\t Use storytelling and everyday examples to introduce"
+],
+[
+12.0,
+"Let us take our students deeper into the fascinating"
+],
+[
+12.0,
+"concepts and processes."
+]
+]
+},
+{
+"file": "gekr116",
+"pages": 10,
+"big": [
+[
+36.0,
+"16"
+],
+[
+30.0,
+"Nature’s"
+],
+[
+30.0,
+"palette"
+],
+[
+14.4,
+"DO YOU"
+],
+[
+14.4,
+"KNOW?"
+],
+[
+12.0,
+"Nature showers us with colour every day. A"
+]
+],
+"big2": [
+[
+14.0,
+"ACTIVITY 16.1: EXTEND THE COLOUR WHEEL"
+],
+[
+12.0,
+"Mixing each pair of"
+],
+[
+12.0,
+"primary colours produces"
+],
+[
+12.0,
+"a secondary colour."
+],
+[
+12.0,
+"Yellow"
+],
+[
+12.0,
+"Red"
+]
+]
+},
+{
+"file": "gekr117",
+"pages": 10,
+"big": [
+[
+36.0,
+"17"
+],
+[
+30.0,
+"HOW YOU FEEL ..."
+],
+[
+14.0,
+"ACTIVITY 17.1: ACT AND GUESS"
+],
+[
+12.0,
+"In this chapter, you will study many"
+],
+[
+12.0,
+"You will travel through time to explore"
+],
+[
+12.0,
+"aspects of the human body and facial"
+]
+],
+"big2": [
+[
+12.0,
+"Step 1: Make"
+],
+[
+12.0,
+"teams and use the"
+],
+[
+12.0,
+"prompts provided"
+],
+[
+12.0,
+"in the box."
+],
+[
+12.0,
+"Step 2: One"
+],
+[
+12.0,
+"person from each"
+]
+]
+},
+{
+"file": "gekr118",
+"pages": 8,
+"big": [
+[
+36.0,
+"18"
+],
+[
+30.0,
+"TEXTILEs AND"
+],
+[
+30.0,
+"traditions"
+],
+[
+12.0,
+"Just  like you use a pencil"
+],
+[
+12.0,
+"and"
+],
+[
+12.0,
+"paper"
+]
+],
+"big2": [
+[
+18.0,
+"THREADING STORIES"
+],
+[
+14.4,
+"DO YOU"
+],
+[
+14.4,
+"KNOW?"
+],
+[
+12.0,
+"Dhaaga and Soodi"
+],
+[
+12.0,
+"had an argument"
+],
+[
+12.0,
+"one day. Dhaaga"
+]
+]
+},
+{
+"file": "gekr119",
+"pages": 10,
+"big": [
+[
+36.0,
+"19"
+],
+[
+30.0,
+"the ART OF"
+],
+[
+30.0,
+"CALLIGRAPHY"
+],
+[
+12.0,
+"Scripts have the power to record people’s"
+],
+[
+12.0,
+"languages and expressions."
+],
+[
+12.0,
+"India’s writing systems can be traced"
+]
+],
+"big2": [
+[
+12.0,
+"You will learn and discover more about calligraphy"
+],
+[
+12.0,
+"Calligraphy is much more than the art of writing"
+],
+[
+12.0,
+"in this chapter."
+],
+[
+12.0,
+"letters to spell words. Artists pour emotions into"
+],
+[
+12.0,
+"each letter to create a variety of expressions. They"
+],
+[
+12.0,
+"Letters are the smallest unit of any script. An"
+]
+]
+},
+{
+"file": "gekr120",
+"pages": 5,
+"big": [
+[
+36.0,
+"20"
+],
+[
+28.8,
+"Integration of all Art Forms"
+],
+[
+28.8,
+"— Sculptures come Alive!"
+],
+[
+14.0,
+"ACTIVITY 20.1: STORIES IN STONE"
+],
+[
+12.0,
+"Art is a powerful language"
+],
+[
+12.0,
+"that speaks to your mind"
+]
+],
+"big2": [
+[
+12.0,
+"from the places to where you have travelled"
+],
+[
+12.0,
+" With help from your teacher, create a story"
+],
+[
+12.0,
+"(these could include depictions of gods,"
+],
+[
+12.0,
+"that connects the sculptures in a meaningful"
+],
+[
+12.0,
+"dancers, warriors, animals or everyday life"
+],
+[
+12.0,
+"way. For example:"
+]
+]
+}
+],
+"geky1": [
+{
+"file": "geky101",
+"pages": 20,
+"big": [
+[
+45.0,
+"UNIT 1"
+],
+[
+28.0,
+"Foundational"
+],
+[
+28.0,
+"Basis of Physical"
+],
+[
+28.0,
+"Education and"
+],
+[
+28.0,
+"Well-being"
+],
+[
+14.0,
+"This unit highlights the connection between"
+]
+],
+"big2": [
+[
+34.0,
+"The Ball"
+],
+[
+34.0,
+"Progression Game"
+],
+[
+16.0,
+"How to"
+],
+[
+16.0,
+"play?"
+],
+[
+16.0,
+"8"
+],
+[
+13.0,
+"IPE - 1"
+]
+]
+},
+{
+"file": "geky102",
+"pages": 28,
+"big": [
+[
+45.0,
+"UNIT 2"
+],
+[
+28.0,
+"Physical and"
+],
+[
+28.0,
+"Motor Fitness"
+],
+[
+14.0,
+"This unit focuses on improving heart health,"
+],
+[
+14.0,
+"muscular strength, and agility through structured"
+],
+[
+14.0,
+"exercises and activities. Students will enhance"
+]
+],
+"big2": [
+[
+34.0,
+"Set It Up,"
+],
+[
+34.0,
+"Knock It Down"
+],
+[
+16.0,
+"How to"
+],
+[
+16.0,
+"play?"
+],
+[
+16.0,
+"28"
+],
+[
+13.0,
+"MF - 1"
+]
+]
+},
+{
+"file": "geky103",
+"pages": 30,
+"big": [
+[
+45.0,
+"UNIT 3"
+],
+[
+28.0,
+"Fundamental Skills"
+],
+[
+28.0,
+"of Sports"
+],
+[
+28.0,
+"Badminton"
+],
+[
+12.5,
+"'Serve' is an"
+],
+[
+12.5,
+"important"
+]
+],
+"big2": [
+[
+34.0,
+"Forehand Grip"
+],
+[
+34.0,
+"and Air Toss"
+],
+[
+16.0,
+"56"
+],
+[
+13.0,
+"FSA - 1"
+],
+[
+13.0,
+"The grip is how you hold the racket, and the stance is the initial"
+],
+[
+13.0,
+"stationary position of your body for executing the desired skill."
+]
+]
+},
+{
+"file": "geky104",
+"pages": 32,
+"big": [
+[
+45.0,
+"UNIT 4"
+],
+[
+28.0,
+"Fundamental"
+],
+[
+28.0,
+"Skills of Sports"
+],
+[
+28.0,
+"Football"
+],
+[
+12.0,
+"Football is a popular sport played between two teams, each"
+],
+[
+12.0,
+"with 11 players. The goal is to kick the ball into the opponent’s"
+]
+],
+"big2": [
+[
+30.0,
+"Kicking the Ball with"
+],
+[
+30.0,
+"the Inside of the Foot"
+],
+[
+18.0,
+"Kicking the Ball with the Inside of the Foot"
+],
+[
+16.0,
+"86"
+],
+[
+13.0,
+"FSB - 1"
+],
+[
+13.0,
+"Kicking with the inside of the foot is a fundamental skill in"
+]
+]
+},
+{
+"file": "geky105",
+"pages": 36,
+"big": [
+[
+45.0,
+"UNIT 5"
+],
+[
+28.0,
+"Fundamental Skills"
+],
+[
+28.0,
+"of Sports"
+],
+[
+28.0,
+"Kabaddi"
+],
+[
+16.0,
+"117"
+],
+[
+12.0,
+"Kabaddi is played between two teams, and the goal is to tag"
+]
+],
+"big2": [
+[
+34.0,
+"Raiding Foot Work"
+],
+[
+16.0,
+"118"
+],
+[
+13.0,
+"KB - 1"
+],
+[
+13.0,
+"Raiders perform offensive skills in the opponent’s half to touch"
+],
+[
+13.0,
+"the defenders and score points for their team."
+],
+[
+13.0,
+"Steps to Learn"
+]
+]
+},
+{
+"file": "geky106",
+"pages": 94,
+"big": [
+[
+60.0,
+"Yoga"
+],
+[
+45.0,
+"UNIT 6"
+],
+[
+16.0,
+"153"
+],
+[
+13.0,
+"Yoga is an ancient practice designed to"
+],
+[
+13.0,
+"harmonise the body and mind. This unit will"
+],
+[
+13.0,
+"introduce and guide you through yoga for"
+]
+],
+"big2": [
+[
+16.0,
+"154"
+],
+[
+15.0,
+"About Yoga"
+],
+[
+13.0,
+"In the Grade 6, we learnt that the word ‘Yoga’ is derived from"
+],
+[
+13.0,
+"the Sanskrit root ‘Yuj’, meaning ‘to join’ or  ‘to unite’ or 'to"
+],
+[
+13.0,
+"integrate.’ It is the union of body, mind and the inner self. Yoga"
+],
+[
+13.0,
+"brings balance, harmony and a sense of oneness within us and"
+]
+]
+}
+]
+}
