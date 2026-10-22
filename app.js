@@ -390,7 +390,7 @@ function sylHtml(c, q){
 ST.sq = "";
 VIEWS.syllabus = function(){
   var c = ST.cls || "10", key = SYLKEY[c], body, intro = "";
-  var crumb = '<div class="crumb"><a href="#/home">Home</a> / <b>Syllabus</b></div>';
+  var crumb = '<div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>Syllabus</b></div>';
   var cbse = '<a class="btn" href="https://cbseacademic.nic.in/curriculum_2027.html" target="_blank" rel="noopener" style="margin-top:12px">Open CBSE curriculum page ↗</a>';
   if (!key) {
     body = '<div class="card" style="--sh:var(--a3)"><h3 style="font-size:22px">No CBSE syllabus PDFs for Class ' + c + '</h3><div class="meta">CBSE publishes syllabus PDFs for Classes 9 to 12 only. For Class ' + c + ', the NCERT textbooks are the best guide to what is taught.</div><a class="btn dark" href="#/books" style="margin-top:12px">Open NCERT books</a></div>';
@@ -476,7 +476,7 @@ VIEWS.papers = function(){
       '<div class="grid" id="plist" style="grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));align-items:start">' + papBody(c) + '</div>';
   }
   var lead = !ok ? 'Sample papers and previous years\' board papers, straight from CBSE.' : ST.pt === "sample" ? 'Official CBSE sample papers and marking schemes for the 2026-27 session, Class ' + c + '.' : 'Past board exam question papers for Class ' + c + ', from CBSE.';
-  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Papers</b></div>' +
+  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>Papers</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a4)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Papers</h1><p>' + lead + (ok && hasStreams(c) ? ' ' + ST.stream + ' subjects are listed first.' : '') + '</p></div></div>' + body +
    '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on cbseacademic.nic.in or cbse.gov.in. GraphPaper does not host CBSE papers.' + (ok && ST.pt === "pyq" ? ' Each previous-year file is a ZIP (or PDF) with that subject\'s papers, and may hold more than one set.' : '') + '</p></div>';
 };
@@ -540,7 +540,7 @@ VIEWS.qbank = function(){
       '<div class="grid" id="qlist" style="grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));align-items:start">' + qbBody(c) + '</div>';
   }
   var lead = !ok ? 'Question banks and practice questions, straight from CBSE and NCERT.' : n === 10 || n === 12 ? 'CBSE\'s own question bank and practice questions with marking schemes, plus NCERT Exemplar problems for Class ' + c + '.' : n === 11 ? 'NCERT Exemplar problems for Class 11 Maths, Physics, Chemistry and Biology.' : 'CBSE competency-based questions and NCERT Exemplar problems for Class ' + c + '.';
-  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Question bank</b></div>' +
+  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>Question bank</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a2)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Question bank</h1><p>' + lead + (hasStreams(c) ? ' ' + ST.stream + ' subjects are listed first.' : '') + '</p></div></div>' + body +
    '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on cbseacademic.nic.in or ncert.nic.in. GraphPaper does not host them.' + (ok && (n === 10 || n === 12) ? ' CBSE adds practice questions by session, so the newest ones may take a while to appear here.' : '') + '</p></div>';
 };
