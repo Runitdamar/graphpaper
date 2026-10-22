@@ -1,0 +1,264 @@
+{
+"ahsr1": {
+"4": null,
+"5": null,
+"7": "वाह, मेरे घोड़े!",
+"11": null,
+"14": null,
+"16": null,
+"18": "कितनी प्यारी है ये दुनिया",
+"19": "चाँद का बच्चा"
+},
+"bhsr1": {
+"1": "परिवार",
+"8": "तीन दोस्त",
+"13": null,
+"21": "हाथी साइकिल चला रहा था",
+"24": "गिरे ताल में चंदा मामा"
+},
+"chve1": {
+"4": "बया हमारी चिड़िया रानी!",
+"8": "चतुर गीदड़",
+"11": "एक जादुई पिटारा",
+"13": "पेड़ों की अम्मा ‘तिम्मक्का’",
+"18": "हम अनेक किंतु एक"
+},
+"dhve1": {
+"9": "मिठाइयों का सम्मेलन"
+},
+"ehve1": {
+"2": "न्याय की कुर्सी",
+"4": null,
+"8": "काजीरंगा राष्ट्रीय उद्यान की यात्रा"
+},
+"fhml1": {
+"5": "रहीम के दोहे",
+"12": "हिंद महासागर में छोटा-सा हिंदुस्तान"
+},
+"ghml1": [
+"माँ, कह एक कहानी",
+"तीन बुद्धिमान",
+"फूल और काँटा",
+"पानी रे पानी",
+"नहीं होना बीमार",
+"गिरिधर कविराय की कुंडलियाँ",
+"वर्षा-बहार",
+"बिरजू महाराज से साक्षात्कार",
+"चिड़िया",
+"मीरा के पद"
+],
+"hhml1": [
+"स्वदेश",
+"दो गौरैया",
+"एक आशीर्वाद",
+"हरिद्वार",
+"कबीर के दोहे",
+"एक टोकरी भर मिट्टी",
+"मत बाँधो",
+"नए मेहमान",
+"आदमी का अनुपात",
+"तरुण के स्वप्न"
+],
+"hhvs1": [
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null
+],
+"cebu1": {
+"7": "Feel the Rhythm",
+"16": "Imagine",
+"17": "Let’s Create",
+"18": "Look Around",
+"19": null
+},
+"ceky1": {
+"7": "Yogic Practices (Yoga Sadhana)"
+},
+"cemm1": {
+"6": "House of Hundreds – I",
+"9": "House of Hundreds – II"
+},
+"deap1": [
+"Going to School",
+"Ear to Ear",
+"A Day with Nandu",
+"The Story of Amrita",
+"Anita and the Honeybees",
+"Omana’s Journey",
+"From the Window",
+"Reaching Grandmother’s House",
+"Changing Families",
+"Hu Tu Tu, Hu Tu Tu",
+"The Valley of Flowers",
+"Changing Times",
+"A River’s Tale",
+"Basva’s Farm",
+"From Market to Home",
+"A Busy Month",
+"Nandita in Mumbai",
+"Too Much Water, Too Little Water",
+"Abdul in the Garden",
+"Eating Together",
+"Food and Fun",
+"The World in My Home",
+"Pochampalli",
+"Home and Abroad",
+"Spicy Riddles",
+"Defence Officer: Wahida",
+"Chuskit Goes to School"
+],
+"deev1": {
+"10": "Our Sky"
+},
+"eeap1": {
+"12": "What if it Finishes?"
+},
+"eebu1": {
+"1": "Visual Arts",
+"6": "Theatre",
+"10": "Music",
+"15": "Dance"
+},
+"eeen1": {
+"1": "Ice-cream Man"
+},
+"eemm1": {
+"14": "Maps and Locations"
+},
+"fecu1": {
+"1": "The Wonderful World of Science",
+"7": "Temperature and its Measurement"
+},
+"fees1": {
+"8": "Unity in Diversity, or ‘Many in the One’",
+"10": "Grassroots Democracy — Part 1: Governance",
+"11": "Grassroots Democracy — Part 2: Local Government in Rural Areas",
+"12": "Grassroots Democracy — Part 3: Local Government in Urban Areas"
+},
+"fekb1": {
+"1": null,
+"3": null,
+"5": null
+},
+"gecu1": {
+"2": "Exploring Substances: Acidic, Basic, and Neutral",
+"11": "Light: Shadows and Reflections",
+"12": "Earth, Moon, and the Sun"
+},
+"gegp1": {
+"4": "Expressions using Letter-Numbers"
+},
+"gegp2": {
+"5": "Connecting the Dots…"
+},
+"gekb1": {
+"2": "School Habitat Garden",
+"4": "AI Assistant",
+"6": "Family Health Handbook"
+},
+"gekr1": {
+"1": null,
+"5": null,
+"10": null,
+"15": null,
+"17": null,
+"3": "Let’s Design"
+},
+"gesc1": [
+"Nutrition in Plants",
+"Nutrition in Animals",
+"Heat",
+"Acids, Bases and Salts",
+"Physical and Chemical Changes",
+"Respiration in Organisms",
+"Transportation in Animals and Plants",
+"Reproduction in Plants",
+"Motion and Time",
+"Electric Current and its Effects",
+"Light",
+"Forests: Our Lifeline",
+"Wastewater Story"
+],
+"gess1": {
+"1": "Tracing Changes Through a Thousand Years",
+"8": "Eighteenth-Century Political Formations"
+},
+"gess2": {
+"6": null
+},
+"gess3": {
+"1": "On Equality",
+"2": "Role of the Government in Health"
+},
+"hecu1": [
+"Exploring the Investigative World of Science",
+"The Invisible Living World: Beyond Our Naked Eye",
+"Health: The Ultimate Treasure",
+"Electricity: Magnetic and Heating Effects",
+"Exploring Forces",
+"Pressure, Winds, Storms, and Cyclones",
+"Particulate Nature of Matter",
+"Nature of Matter: Elements, Compounds, and Mixtures",
+"The Amazing World of Solutes, Solvents, and Solutions",
+"Light: Mirrors and Lenses",
+"Keeping Time with the Skies",
+"How Nature Works in Harmony",
+"Our Home: Earth, a Unique Life Sustaining Planet"
+],
+"hegp2": {
+"2": "The Baudhāyana-Pythagoras Theorem"
+},
+"heih1": {
+"1": "How the Camel Got His Hump",
+"2": "Children at Work",
+"4": "The Treasure Within",
+"6": "The Fight"
+},
+"hekb1": {
+"4": null,
+"6": null
+},
+"hemh1": [
+"Rational Numbers",
+"Linear Equations in One Variable",
+"Understanding Quadrilaterals",
+"Data Handling",
+"Squares and Square Roots",
+"Cubes and Cube Roots",
+"Comparing Quantities",
+"Algebraic Expressions and Identities",
+"Mensuration",
+"Exponents and Powers",
+"Direct and Inverse Proportions",
+"Factorisation",
+"Introduction to Graphs"
+],
+"hesc1": [
+"Crop Production and Management",
+"Microorganisms: Friend and Foe",
+"Coal and Petroleum",
+"Combustion and Flame",
+"Conservation of Plants and Animals",
+"Reproduction in Animals",
+"Reaching the Age of Adolescence",
+"Force and Pressure",
+"Friction",
+"Sound",
+"Chemical Effects of Electric Current",
+"Some Natural Phenomena",
+"Light"
+],
+"bemr1": {
+"10": "The Crow"
+}
+}
