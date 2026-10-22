@@ -53,7 +53,7 @@ function noticeClasses(x){
   while ((m = re.exec(t))) {
     var parts = m[1].match(/XII|XI|IX|X|VIII|VII|VI|IV|V|III|II|I|\d{1,2}/gi) || [];
     var nums = parts.map(function(p){ return ROMAN[p.toUpperCase()] || parseInt(p, 10); }).filter(function(n){ return n >= 1 && n <= 12; });
-    if (/\bto\b|\u2013|-/i.test(m[1].replace(/[\s,&\/\-\u2013]+$/, "")) && nums.length === 2 && nums[0] < nums[1]) { for (var k = nums[0]; k <= nums[1]; k++) out[k] = 1; }
+    if (/\bto\b|\u2013|-/i.test(m[1]) && nums.length === 2 && nums[0] < nums[1]) { for (var k = nums[0]; k <= nums[1]; k++) out[k] = 1; }
     else nums.forEach(function(n){ out[n] = 1; });
   }
   re = /\b(XII|XI)\b/g;
@@ -206,12 +206,8 @@ function homeParents(c){
 function homeReturning(){
   var c = ST.cls;
   if (+c <= 8) return homeParents(c);
-  var cp = homeCopy(c);
-  /* notices that name this class come first, then ones that name no class at all; notices for other classes are left out */
-  var pool = ST.items.filter(function(x){ return classOf(x, c); }).concat(ST.items.filter(function(x){ return !noticeClasses(x).length; }));
-  var hasOwn = ST.items.some(function(x){ return classOf(x, c); }), forC = hasOwn ? " for Class " + c : " from CBSE";
-  var latest3 = pool.slice(0, 3);
-  var fresh = pool.slice(3).filter(function(x){ return ST.hf === "all" || x.tag === ST.hf; }).slice(0, 4);
+  var it = ST.items, latest3 = it.slice(0, 3), cp = homeCopy(c);
+  var fresh = it.filter(function(x){ return ST.hf === "all" || x.tag === ST.hf; }).slice(0, 4);
   var f = [["all","All"]].concat(TYPE_KEYS.map(function(k){ return [k, TYPES[k].plural]; })).map(function(p){
     return '<button class="f" data-act="hf" data-v="' + esc(p[0]) + '" aria-pressed="' + (ST.hf === p[0] ? "true" : "false") + '">' + esc(p[1]) + '</button>';
   }).join("");
@@ -223,10 +219,10 @@ function homeReturning(){
     '<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;font-weight:700;font-size:15px;align-items:center"><span style="color:var(--mut)">Popular:</span>' +
     '<a class="pill" href="#/updates?type=Circular" style="background:var(--a1);padding:6px 14px;font-size:15px">CBSE circulars</a><a class="pill" href="#/updates?type=Date%20Sheet" style="background:var(--a4);padding:6px 14px;font-size:15px">Date sheets</a><a class="pill" href="#/updates?type=Result" style="background:var(--a5);padding:6px 14px;font-size:15px">Results</a></div></div>' +
     '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:36px;background:var(--a3);transform:rotate(14deg)"></div>' +
-    '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:14px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">Latest' + forC + '</div>' +
+    '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:14px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">Latest from CBSE</div>' +
     (latest3.length ? latest3.map(function(x){ return '<a href="#/notice/' + encodeURIComponent(x.id) + '" style="display:block;background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + pill(x) + '<div style="margin-top:6px;font-weight:700;overflow-wrap:anywhere">' + esc(x.title) + '</div></a>'; }).join("") : '<div style="background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + (ST.loaded ? 'No notices yet.' : 'Loading notices...') + '</div>') +
     '</div></div></div>' +
-    '<div id="updates" class="wrap sec" style="padding-bottom:64px"><div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px"><h2 style="font-size:34px;margin:0">More updates' + (hasOwn ? ' for Class ' + c : '') + '</h2><div class="chips">' + f + '</div></div>' +
+    '<div id="updates" class="wrap sec" style="padding-bottom:64px"><div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px"><h2 style="font-size:34px;margin:0">Latest updates</h2><div class="chips">' + f + '</div></div>' +
     '<div class="grid g3">' + (fresh.length ? fresh.map(function(x){ return noticeCard(x); }).join("") : loadingOrEmpty("No notices of this type yet.")) + '</div>' +
     '<div style="text-align:center;margin-top:32px"><a class="btn dark" href="#/updates" style="display:inline-flex;padding:14px 32px">See all updates</a></div></div>' +
     homeShelf(c);
