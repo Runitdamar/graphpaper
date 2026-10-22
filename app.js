@@ -31,7 +31,7 @@ var TYPE_KEYS = ["Circular", "Date Sheet", "Syllabus Change", "Result"];
 var ST = {ub:"all", stream:"Science", cls:"", wc:"", items:[], loaded:false, q:"", type:"all", hf:"all", bsub:"All", bq:""};
 try { var sv = localStorage.getItem("gp-class"); if (/^(1[0-2]|[1-9])$/.test(sv || "")) ST.cls = sv; } catch(e){}
 try { var sv2 = localStorage.getItem("gp-stream"); if (sv2 === "Science" || sv2 === "Commerce" || sv2 === "Humanities"){ ST.stream = sv2; ST.streamSet = true; } } catch(e){}
-ST.ws = ST.streamSet ? ST.stream : ""; ST.pending = 6;
+ST.ws = ST.streamSet ? ST.stream : ""; ST.pending = 5;
 
 function typeOf(x){ return TYPES[x.tag] || TYPES.Circular; }
 function pill(x, extra){ var t = typeOf(x); return '<span class="pill" style="background:var(' + t.c + ')">' + esc(t.label) + '</span>' + (extra || ""); }
@@ -167,6 +167,7 @@ function shelfCard(bg, icon, title, text, href){
   return href ? '<a href="' + href + '" style="background:var(--card);border-radius:28px;padding:28px;display:block">' + inner + '</a>' : '<div style="background:var(--card);border-radius:28px;padding:28px">' + inner + '</div>';
 }
 var TRK = null;
+try { var trkEl = document.getElementById("trk"); if (trkEl) TRK = JSON.parse(trkEl.textContent); } catch(e){}
 function trackerSection(c){
   var n = +c, items = TRK ? TRK.items.filter(function(x){ return x.classes.indexOf(n) > -1; }).slice(0, 4) : [];
   if (!items.length) return "";
@@ -175,10 +176,10 @@ function trackerSection(c){
     return '<div class="card st-' + esc(x.status) + '" style="--sh:var(--a3)"><h3 style="font-size:20px;margin:0">' + esc(x.q) + '</h3>' +
       '<div><span class="stp"><i aria-hidden="true"></i>' + esc(x.label) + '</span></div>' +
       '<div style="color:var(--mut)">' + esc(x.detail) + '</div>' +
-      '<div class="meta" style="margin-top:auto">Source: <a href="' + esc(u) + '"' + (ext ? ' target="_blank" rel="noopener"' : '') + ' style="text-decoration:underline">' + esc(x.src.t) + '</a> \u00b7 as of ' + esc(fmt(x.asof)) + '</div></div>';
+      '<div class="meta" style="margin-top:auto">Source: <a href="' + esc(u) + '"' + (ext ? ' target="_blank" rel="noopener"' : '') + ' style="text-decoration:underline">' + esc(x.src.t) + '</a> \u00b7 checked ' + esc(fmt(x.asof)) + '</div></div>';
   }).join("");
   return '<div id="status" class="wrap sec" style="padding-bottom:64px"><h2 style="font-size:34px;margin:0 0 8px">Quick status check</h2>' +
-    '<p style="margin:0 0 24px;color:var(--mut);max-width:620px">The questions students ask most about Class ' + c + (hasStreams(c) ? ' ' + ST.stream : '') + ', answered from CBSE notices and news reports. Reviewed ' + esc(fmt(TRK.reviewed)) + '. Always confirm on cbse.gov.in.</p>' +
+    '<p style="margin:0 0 24px;color:var(--mut);max-width:620px">The questions students ask most about Class ' + c + (hasStreams(c) ? ' ' + ST.stream : '') + ', answered automatically from CBSE\u2019s own notices and lists. Last checked ' + esc(fmt(TRK.checked)) + '. Always confirm on cbse.gov.in.</p>' +
     '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))">' + cards + '</div>' +
     '</div>';
 }
@@ -873,7 +874,6 @@ if (/^#\//.test(location.hash)) history.replaceState(null, "", toPath(location.h
 route();
 function ready(){ if (--ST.pending === 0) window.GP_READY = true; }
 fetch("/papers.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ PAP = d; }).catch(function(){ ST.papFail = true; }).then(function(){ if (parse().name === "papers") route(true); ready(); });
-fetch("/tracker.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ TRK = d; }).catch(function(){}).then(function(){ if (parse().name === "home") route(true); ready(); });
 fetch("/qbank.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ QB = d; }).catch(function(){ ST.qbFail = true; }).then(function(){ if (parse().name === "qbank") route(true); ready(); });
 fetch("/syllabus.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ SYL = d; }).catch(function(){ ST.sylFail = true; }).then(function(){ if (parse().name === "syllabus") route(true); ready(); });
 function loadBooks(f){ return fetch(f).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ if (Array.isArray(d)) d.forEach(function(b){ BOOKS.push(b); }); }).catch(function(){}); }

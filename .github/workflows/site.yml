@@ -12,6 +12,7 @@ on:
       - "app.css"
       - "scripts/shell.html"
       - "scripts/build_site.py"
+      - "scripts/build_tracker.py"
       - "updates.json"
       - "books_*.json"
       - "papers.json"
