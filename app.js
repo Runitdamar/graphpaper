@@ -176,11 +176,9 @@ VIEWS.updates = function(r){
     return '<button class="f" data-act="ut" data-v="' + esc(p[0]) + '" aria-pressed="' + (ST.type === p[0] ? "true" : "false") + '">' + esc(p[1]) + '</button>';
   }).join("");
   var l = listHtml();
-  var bf = ["all","CBSE","ICSE","State boards"].map(function(v){ return '<button class="f" data-act="ub" data-v="' + v + '" aria-pressed="' + (ST.ub === v ? "true" : "false") + '">' + (v === "all" ? "All boards" : v) + '</button>'; }).join("");
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Updates</b></div>' +
     '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">All updates</h1><p style="margin:0 0 24px;color:var(--mut)">Every CBSE notice, newest first.</p>' +
     '<div class="search" style="max-width:560px;margin-bottom:20px"><label for="uq" style="position:absolute;left:-9999px">Search updates</label><input id="uq" type="search" placeholder="Search updates" value="' + esc(ST.q) + '" autocomplete="off"></div>' +
-    '<div class="chips" role="group" aria-label="Board" style="margin-bottom:12px">' + bf + '</div>' +
     '<div class="chips" role="group" aria-label="Type" style="margin-bottom:16px">' + f + '</div>' +
     '<div class="meta" id="ucount" aria-live="polite" style="margin-bottom:16px">Showing ' + l.n + ' notice' + (l.n === 1 ? '' : 's') + '</div><div class="grid g3" id="ulist">' + l.html + '</div></div>';
 };
@@ -746,7 +744,6 @@ D.addEventListener("click", function(e){
   else if (a === "wgo"){ var we = $("#werr"); if (!ST.wc){ we.textContent = "Please pick your class first."; we.hidden = false; return; } if (hasStreams(ST.wc) && !ST.ws){ we.textContent = "Please pick your stream first."; we.hidden = false; return; } setClass(ST.wc); if (hasStreams(ST.wc)) setStream(ST.ws); go("/"); }
   else if (a === "hf"){ ST.hf = v; route(true); }
   else if (a === "ut"){ ST.type = v; route(true); }
-  else if (a === "ub"){ ST.ub = v; route(true); }
   else if (a === "ws"){ ST.ws = v; route(true); }
   else if (a === "bs"){ ST.bsub = v; route(true); }
   else if (a === "pt"){ ST.pt = v; ST.pq = ""; route(true); }
