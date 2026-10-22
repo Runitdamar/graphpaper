@@ -90,3 +90,10 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 @media (prefers-reduced-motion:reduce){.r *{transition:none}.bq:hover{transform:none}}
 
 @media print{#topnav,#foot,.noprint,.crumb{display:none !important}body,.r{background:#fff !important}.card{box-shadow:none !important}}
+
+/* header: brand on the first row, the four links evenly spread on the second (one row on phones) */
+#topnav{padding-top:20px;padding-bottom:12px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 16px}
+#topnav .brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:26px}
+#topnav .brand img{border-radius:12px;display:block}
+#topnav nav{position:relative;display:flex;flex:1 1 100%;align-items:center;justify-content:space-between;gap:8px;font-weight:700;font-size:clamp(13px,3.9vw,18px);white-space:nowrap}
+@media(min-width:720px){#topnav nav{flex:0 0 auto;justify-content:flex-start;gap:26px;font-size:18px}}

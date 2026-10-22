@@ -73,7 +73,7 @@ function clsLabel(){ return ST.cls ? "Class " + ST.cls : "Class 11 and 12"; }
 var VIEWS = {};
 var TITLES = {home:"GraphPaper: CBSE notices, NCERT books and syllabus", welcome:"Welcome | GraphPaper", updates:"All updates | GraphPaper", notice:"Notice | GraphPaper", "class":"Study shelf | GraphPaper", books:"NCERT books | GraphPaper", booklist:"Book list | GraphPaper", syllabus:"Syllabus | GraphPaper", papers:"Papers | GraphPaper", qbank:"Question bank | GraphPaper", board:"Boards | GraphPaper", about:"About | GraphPaper", parents:"For parents | GraphPaper", contact:"Contact | GraphPaper", terms:"Terms | GraphPaper", privacy:"Privacy | GraphPaper"};
 
-VIEWS.welcome = function(){
+function pickerCard(){
   var sel = ST.wc, cb = "";
   var needS = hasStreams(ST.wc), sb = "";
   if (needS) STREAMS.forEach(function(v){ sb += '<button class="f fr" data-act="ws" data-v="' + v + '" aria-pressed="' + (ST.ws === v ? "true" : "false") + '" style="font-weight:600;font-size:19px;min-height:56px;padding:6px 10px">' + v + '</button>'; });
@@ -82,14 +82,7 @@ VIEWS.welcome = function(){
     return '<button class="f fr" ' + (state === "on" ? 'aria-pressed="true"' : 'disabled aria-disabled="true"') + ' style="background:var(' + c + ');color:var(--ink);font-weight:500;font-size:20px;min-height:72px;border-radius:24px;padding:8px">' + n + (note ? '<span style="display:block;font-family:Nunito,sans-serif;font-weight:700;font-size:12px">' + note + '</span>' : '') + '</button>';
   }
   function step(n, id, t){ return '<div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><span class="fr" style="flex:none;width:34px;height:34px;border-radius:50%;background:var(--a1);border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-weight:600;font-size:17px">' + n + '</span><div id="' + id + '" class="fr" style="font-weight:600;font-size:22px">' + t + '</div></div>'; }
-  return '<div style="position:relative;max-width:720px;margin:0 auto;padding:40px 24px 64px;text-align:center">' +
-   '<div style="position:absolute;top:24px;right:12px;width:90px;height:90px;border-radius:50%;background:var(--a4);pointer-events:none"></div>' +
-   '<div style="position:absolute;top:150px;left:8px;width:64px;height:64px;border-radius:22px;background:var(--a3);transform:rotate(14deg);pointer-events:none"></div>' +
-   '<div style="position:relative"><svg width="64" height="64" viewBox="0 0 36 36" aria-hidden="true"><rect x="2" y="2" width="32" height="32" rx="10" style="fill:var(--a1);stroke:var(--ink)" stroke-width="2"/><path d="M13 3v30M23 3v30M3 13h30M3 23h30" style="stroke:var(--ink)" stroke-width="1.5" opacity=".35"/><circle cx="18" cy="18" r="4" style="fill:var(--a2);stroke:var(--ink)" stroke-width="2"/></svg>' +
-   '<div class="fr" style="font-weight:600;font-size:28px;margin:8px 0 28px">GraphPaper</div>' +
-   '<h1 style="font-size:clamp(34px,7vw,56px);margin-bottom:12px">Hi there! Which class are you in?</h1>' +
-   '<p style="margin:0 auto 32px;color:var(--mut);max-width:460px">Pick your class, your board and, for Class 11 and 12, your stream, and we’ll set up your page.</p>' +
-   '<div style="background:var(--card);border:2px solid var(--ink);border-radius:32px;padding:28px 24px;text-align:left;display:flex;flex-direction:column;gap:22px;box-shadow:0 6px 0 var(--a1)">' +
+  return '<div style="background:var(--card);border:2px solid var(--ink);border-radius:32px;padding:28px 24px;text-align:left;display:flex;flex-direction:column;gap:22px;box-shadow:0 6px 0 var(--a1)">' +
    '<div>' + step(1, "wh1", "Your class") + '<div role="group" aria-labelledby="wh1" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">' + cb + '</div>' +
    '<div style="font-size:14px;color:var(--mut);margin-top:12px">Colors grow up with you, from candy pastels to calm, deep tones.</div></div>' +
    (needS ? '<div>' + step(2, "wh3", "Your stream") + '<div role="group" aria-labelledby="wh3" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px">' + sb + '</div>' +
@@ -97,7 +90,18 @@ VIEWS.welcome = function(){
    '<div>' + step(needS ? 3 : 2, "wh2", "Your board") + '<div role="group" aria-labelledby="wh2" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">' + bd("CBSE", "--a1", "on") + bd("ICSE", "--a4", "off", "Coming soon") + bd("State boards", "--a2", "off", "Coming soon") + '</div>' +
    '<div style="font-size:14px;color:var(--mut);margin-top:12px">CBSE notices are live. Other boards are on the way. Books and notices are live for Class 1 to 12, and the syllabus for Class 9 to 12.</div></div>' +
    '<div id="werr" role="alert" hidden style="background:var(--a2);border:2px solid var(--ink);border-radius:16px;padding:10px 16px;font-weight:700">Please pick your class first.</div>' +
-   '<button class="btn dark" data-act="wgo" style="min-height:56px;font-size:19px;padding:14px 32px">Take me in</button></div>' +
+   '<button class="btn dark" data-act="wgo" style="min-height:56px;font-size:19px;padding:14px 32px">Take me in</button></div>';
+}
+
+VIEWS.welcome = function(){
+  return '<div style="position:relative;max-width:720px;margin:0 auto;padding:40px 24px 64px;text-align:center">' +
+   '<div style="position:absolute;top:24px;right:12px;width:90px;height:90px;border-radius:50%;background:var(--a4);pointer-events:none"></div>' +
+   '<div style="position:absolute;top:150px;left:8px;width:64px;height:64px;border-radius:22px;background:var(--a3);transform:rotate(14deg);pointer-events:none"></div>' +
+   '<div style="position:relative"><img src="/logo-192.png" width="72" height="72" alt="" style="border-radius:20px">' +
+   '<div class="fr" style="font-weight:600;font-size:28px;margin:8px 0 28px">GraphPaper</div>' +
+   '<h1 style="font-size:clamp(34px,7vw,56px);margin-bottom:12px">Hi there! Which class are you in?</h1>' +
+   '<p style="margin:0 auto 32px;color:var(--mut);max-width:460px">Pick your class, your board and, for Class 11 and 12, your stream, and we’ll set up your page.</p>' +
+   pickerCard() +
    '<div style="margin-top:20px"><a href="#/home" style="font-weight:700;text-decoration:underline">Skip for now</a></div></div></div>';
 };
 
@@ -129,7 +133,36 @@ VIEWS.booklist = function(){
 VIEWS.notfound = function(){
   return '<div class="wrap sec" style="padding-bottom:64px"><div class="crumb"><a href="#/home">Home</a> / <b>Not found</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(30px,5vw,48px)">Page not found</h1><p style="color:var(--mut)">That page does not exist. <a href="#/home" style="text-decoration:underline;font-weight:700">Go to the home page</a> or <a href="#/updates" style="text-decoration:underline;font-weight:700">see all updates</a>.</p></div>';
 };
-VIEWS.home = function(){
+function featCard(bg, icon, title, text, href){
+  return '<a href="' + href + '" style="background:var(--card);border-radius:28px;padding:26px;display:block"><div class="sq" style="width:52px;height:52px;border-radius:16px;background:var(' + bg + ');margin-bottom:14px">' + ico(icon, 26) + '</div><h3 style="font-size:21px;margin:0 0 6px">' + title + '</h3><div style="color:var(--mut)">' + text + '</div></a>';
+}
+function howStep(n, title, text){
+  return '<div style="display:flex;gap:14px;align-items:flex-start"><span class="fr" style="flex:none;width:40px;height:40px;border-radius:50%;background:var(--a1);border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-weight:600;font-size:19px">' + n + '</span><div><div class="fr" style="font-weight:600;font-size:21px;margin-bottom:2px">' + title + '</div><div style="color:var(--mut)">' + text + '</div></div></div>';
+}
+function landing(){
+  var latest = ST.items.slice(0, 3);
+  return '<div class="wrap hr" style="align-items:start"><div>' +
+    '<h1 id="pg" tabindex="-1" style="font-size:clamp(38px,6vw,64px);line-height:1.08;margin:0 0 16px">Your CBSE class, all in one cozy place.</h1>' +
+    '<p style="color:var(--mut);margin:0 0 22px;max-width:520px;font-size:18px">Official CBSE notices, NCERT books and the syllabus, sorted for your class. Free, with no sign-up.</p>' +
+    '<div style="display:flex;flex-wrap:wrap;gap:10px;font-weight:700;font-size:15px"><span class="pill" style="background:var(--a1);padding:6px 14px">Class 1 to 12</span><span class="pill" style="background:var(--a4);padding:6px 14px">Official sources only</span><span class="pill" style="background:var(--a5);padding:6px 14px">Free</span></div>' +
+    '<p style="margin:24px 0 0"><a href="#/updates" style="font-weight:700;text-decoration:underline">Just browsing? See the latest CBSE updates</a></p></div>' +
+    '<div id="boards" style="scroll-margin-top:16px"><div class="fr" style="font-weight:600;font-size:26px;margin:0 0 12px">Let\u2019s set up your page</div>' + pickerCard() + '</div></div>' +
+    '<div class="wrap sec"><h2 style="font-size:34px;margin:0 0 8px">What you\u2019ll find here</h2><p style="margin:0 0 24px;color:var(--mut);max-width:560px">Everything links to the official CBSE and NCERT websites. We never host the files ourselves.</p>' +
+    '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))">' +
+    featCard("--a1", "news", "CBSE updates", "Circulars, date sheets and results, newest first.", "#/updates") +
+    featCard("--a3", "book", "NCERT books", "Class 1 to 12, chapter by chapter, with a whole-book download and a printable book list. Pick your class to start.", "#/home?s=boards") +
+    featCard("--a2", "doc", "Syllabus and papers", "The official 2026-27 syllabus, sample papers and question banks where CBSE publishes them. Pick your class to start.", "#/home?s=boards") +
+    featCard("--a4", "notes", "For parents", "Plain answers on school stages, exams and report cards, for Classes 1 to 8 and beyond.", "#/parents") +
+    '</div></div>' +
+    '<div style="background:var(--shelf);padding:56px 0"><div class="wrap"><h2 style="font-size:34px;margin:0 0 24px">How it works</h2><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:24px">' +
+    howStep(1, "Pick your class", "Choose your class, and your stream for Class 11 and 12. It is remembered on your device, so there is no account to make.") +
+    howStep(2, "Get your page", "Books, syllabus, papers and notices show up for your class and stream, with the rest tucked away.") +
+    howStep(3, "Open the official source", "Every link goes straight to CBSE or NCERT, so what you read is what the board published.") +
+    '</div></div></div>' +
+    (latest.length ? '<div class="wrap sec" style="padding-bottom:64px"><div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px"><h2 style="font-size:34px;margin:0">Fresh from CBSE</h2><a class="btn dark" href="#/updates" style="display:inline-flex;padding:12px 26px">See all updates</a></div><div class="grid g3">' + latest.map(function(x){ return noticeCard(x); }).join("") + '</div></div>' : '');
+}
+VIEWS.home = function(){ return ST.cls ? homeReturning() : landing(); };
+function homeReturning(){
   var it = ST.items, latest3 = it.slice(0, 3);
   var board = [["CBSE","--a1","C",false],["ICSE","--a4","I",true],["State boards","--a2","S",true]].map(function(b){
     return '<a class="bcard" href="#/board/' + encodeURIComponent(b[0]) + '" style="background:var(' + b[1] + ')">' + b[0] + (b[3] ? '<div style="font-family:Nunito,sans-serif;font-weight:700;font-size:13px;margin-top:4px">Coming soon</div>' : '') + '</a>';
@@ -158,7 +191,7 @@ VIEWS.home = function(){
     '<a href="#/books" style="background:var(--card);border-radius:28px;padding:28px;display:block"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a3);margin-bottom:16px">'+ico("book",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">NCERT books</h3><div style="color:var(--mut)">Class 1 to 12, subject by subject</div></a>' +
     '<a href="#/syllabus" style="background:var(--card);border-radius:28px;padding:28px;display:block"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a2);margin-bottom:16px">'+ico("doc",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">Syllabus</h3><div style="color:var(--mut)">Official 2026-27 syllabus, Class 9 to 12</div></a>' +
     '<div style="background:var(--card);border-radius:28px;padding:28px"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a5);margin-bottom:16px">'+ico("notes",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div style="color:var(--mut)">Chapter notes and quick revision sheets</div></div></div></div></div>';
-};
+}
 
 function listHtml(){
   var q = ST.q.trim().toLowerCase();
