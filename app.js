@@ -142,14 +142,14 @@ function howStep(n, title, text){
 function landing(){
   var latest = ST.items.slice(0, 3);
   return '<div class="wrap hr" style="align-items:start"><div>' +
-    '<h1 id="pg" tabindex="-1" style="font-size:clamp(38px,6vw,64px);line-height:1.08;margin:0 0 16px">Your CBSE class, all in one cozy place.</h1>' +
-    '<p style="color:var(--mut);margin:0 0 22px;max-width:520px;font-size:18px">Official CBSE notices, NCERT books and the syllabus, sorted for your class. Free, with no sign-up.</p>' +
+    '<h1 id="pg" tabindex="-1" style="font-size:clamp(38px,6vw,64px);line-height:1.08;margin:0 0 16px">Your school year, all in one cozy place.</h1>' +
+    '<p style="color:var(--mut);margin:0 0 22px;max-width:520px;font-size:18px">NCERT books, the syllabus and official notices, sorted for your class. Free, with no sign-up.</p>' +
     '<div style="display:flex;flex-wrap:wrap;gap:10px;font-weight:700;font-size:15px"><span class="pill" style="background:var(--a1);padding:6px 14px">Class 1 to 12</span><span class="pill" style="background:var(--a4);padding:6px 14px">Official sources only</span><span class="pill" style="background:var(--a5);padding:6px 14px">Free</span></div>' +
     '<p style="margin:24px 0 0"><a href="#/updates" style="font-weight:700;text-decoration:underline">Just browsing? See the latest CBSE updates</a></p></div>' +
     '<div id="boards" style="scroll-margin-top:16px"><div class="fr" style="font-weight:600;font-size:26px;margin:0 0 12px">Let\u2019s set up your page</div>' + pickerCard() + '</div></div>' +
     '<div class="wrap sec"><h2 style="font-size:34px;margin:0 0 8px">What you\u2019ll find here</h2><p style="margin:0 0 24px;color:var(--mut);max-width:560px">Everything links to the official CBSE and NCERT websites. We never host the files ourselves.</p>' +
     '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))">' +
-    featCard("--a1", "news", "CBSE updates", "Circulars, date sheets and results, newest first.", "#/updates") +
+    featCard("--a1", "news", "Official updates", "CBSE circulars, date sheets and results, newest first. Most useful from Class 9.", "#/updates") +
     featCard("--a3", "book", "NCERT books", "Class 1 to 12, chapter by chapter, with a whole-book download and a printable book list. Pick your class to start.", "#/home?s=boards") +
     featCard("--a2", "doc", "Syllabus and papers", "The official 2026-27 syllabus, sample papers and question banks where CBSE publishes them. Pick your class to start.", "#/home?s=boards") +
     featCard("--a4", "notes", "For parents", "Plain answers on school stages, exams and report cards, for Classes 1 to 8 and beyond.", "#/parents") +
@@ -162,35 +162,70 @@ function landing(){
     (latest.length ? '<div class="wrap sec" style="padding-bottom:64px"><div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px"><h2 style="font-size:34px;margin:0">Fresh from CBSE</h2><a class="btn dark" href="#/updates" style="display:inline-flex;padding:12px 26px">See all updates</a></div><div class="grid g3">' + latest.map(function(x){ return noticeCard(x); }).join("") + '</div></div>' : '');
 }
 VIEWS.home = function(){ return ST.cls ? homeReturning() : landing(); };
+function shelfCard(bg, icon, title, text, href){
+  var inner = '<div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(' + bg + ');margin-bottom:16px">' + ico(icon, 28) + '</div><h3 style="font-size:22px;margin:0 0 6px">' + title + '</h3><div style="color:var(--mut)">' + text + '</div>';
+  return href ? '<a href="' + href + '" style="background:var(--card);border-radius:28px;padding:28px;display:block">' + inner + '</a>' : '<div style="background:var(--card);border-radius:28px;padding:28px">' + inner + '</div>';
+}
+function homeShelf(c){
+  var n = +c, hi = n >= 11, tag = (hi ? ' ' + ST.stream : '');
+  var cards = shelfCard("--a3", "book", "NCERT books", n <= 8 ? "Every book for Class " + c + ", chapter by chapter" : "Class " + c + tag + ", subject by subject", "#/books") +
+    shelfCard("--a1", "doc", "Book list", "A printable checklist with chapter titles", "#/booklist");
+  if (n <= 8) cards += shelfCard("--a4", "news", "For parents", "How school stages, exams and report cards work", "#/parents");
+  if (n >= 9) cards += shelfCard("--a2", "doc", "Syllabus", "Official 2026-27 syllabus for Class " + c, "#/syllabus");
+  if (n === 10 || n === 12) cards += shelfCard("--a4", "doc", "Papers", "CBSE sample papers and past board papers", "#/papers");
+  if (n >= 6) cards += shelfCard("--a2", "doc", "Question bank", "Practice questions and NCERT Exemplar problems", "#/qbank");
+  cards += shelfCard("--a5", "notes", 'Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span>', "Chapter notes and quick revision sheets", "");
+  return '<div id="shelf" style="background:var(--shelf);padding:64px 0"><div class="wrap"><h2 style="font-size:34px;margin:0 0 8px">Your study shelf</h2><p style="margin:0 0 28px;color:var(--mut);max-width:560px">Everything for Class ' + c + tag + ', in one place.</p><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr))">' + cards + '</div></div></div>';
+}
+function homeCopy(c){
+  var n = +c, hi = n >= 11;
+  if (n <= 5) return {h: "Your child’s Class " + c + ", made simple. One cozy place.", p: "Every NCERT book chapter by chapter, a printable book list, and plain answers about how school works."};
+  if (n <= 8) return {h: "Class " + c + ", made simple for you and your child. One cozy place.", p: "Every NCERT book chapter by chapter, a printable book list, and plain answers about exams and report cards."};
+  var parts = ["NCERT books", "the official syllabus"];
+  if (n === 10 || n === 12) parts.push("sample papers");
+  parts.push("a question bank", "and the latest CBSE updates");
+  return {h: "Class " + c + (hi ? " " + ST.stream : "") + ", all in one cozy place.", p: parts.slice(0, -1).join(", ") + " " + parts[parts.length - 1] + "."};
+}
+function homeParents(c){
+  var n = +c, cp = homeCopy(c), bks = classBooks(c), rows = {}, order = [];
+  bks.forEach(function(b){ var f = foldOf(b); if (!rows[f]){ rows[f] = {t: [], ch: 0}; order.push(f); } rows[f].t.push(b.short || b.title); rows[f].ch += b.ch.length; });
+  order.sort(function(x, y){ var i = FOLD8.indexOf(x), j = FOLD8.indexOf(y); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j); });
+  var list = order.length ? order.map(function(f){
+    return '<a href="#/books" style="display:block;background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:12px 16px"><div style="font-weight:700">' + esc(f) + '</div><div style="color:var(--mut);font-size:14px;overflow-wrap:anywhere">' + rows[f].t.map(esc).join(' · ') + ' · ' + rows[f].ch + ' chapter' + (rows[f].ch === 1 ? '' : 's') + '</div></a>';
+  }).join("") : '<div style="background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + (ST.booksLoaded ? 'No books found.' : 'Loading books...') + '</div>';
+  return '<div class="wrap hr"><div>' +
+    '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">Class ' + c + ' · Change</a>' +
+    '<h1 id="pg" tabindex="-1" style="font-size:clamp(36px,6vw,62px);line-height:1.08;margin:20px 0 16px">' + cp.h + '</h1>' +
+    '<p style="color:var(--mut);margin:0 0 28px;max-width:520px">' + cp.p + '</p>' +
+    '<div style="display:flex;flex-wrap:wrap;gap:12px"><a class="btn dark" href="#/books" style="display:inline-flex;padding:14px 28px">Open NCERT books</a><a class="btn" href="#/booklist" style="display:inline-flex;padding:14px 28px;background:var(--card);border:2px solid var(--ink)">Printable book list</a></div>' +
+    '<p style="margin:22px 0 0"><a href="#/parents" style="font-weight:700;text-decoration:underline">Read the guide for parents</a></p></div>' +
+    '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:36px;background:var(--a3);transform:rotate(14deg)"></div>' +
+    '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:12px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">What your child learns in Class ' + c + '</div>' + list + '</div></div></div>' +
+    homeShelf(c);
+}
 function homeReturning(){
-  var it = ST.items, latest3 = it.slice(0, 3);
-  var board = [["CBSE","--a1","C",false],["ICSE","--a4","I",true],["State boards","--a2","S",true]].map(function(b){
-    return '<a class="bcard" href="#/board/' + encodeURIComponent(b[0]) + '" style="background:var(' + b[1] + ')">' + b[0] + (b[3] ? '<div style="font-family:Nunito,sans-serif;font-weight:700;font-size:13px;margin-top:4px">Coming soon</div>' : '') + '</a>';
-  }).join("");
+  var c = ST.cls;
+  if (+c <= 8) return homeParents(c);
+  var it = ST.items, latest3 = it.slice(0, 3), cp = homeCopy(c);
   var fresh = it.filter(function(x){ return ST.hf === "all" || x.tag === ST.hf; }).slice(0, 4);
   var f = [["all","All"]].concat(TYPE_KEYS.map(function(k){ return [k, TYPES[k].plural]; })).map(function(p){
     return '<button class="f" data-act="hf" data-v="' + esc(p[0]) + '" aria-pressed="' + (ST.hf === p[0] ? "true" : "false") + '">' + esc(p[1]) + '</button>';
   }).join("");
   return '<div class="wrap hr"><div>' +
-    '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">' + (ST.cls ? 'Class ' + ST.cls + (hasStreams(ST.cls) && ST.streamSet ? ' \u00b7 ' + ST.stream : '') + ' \u00b7 CBSE \u00b7 Change' : 'Pick your class and stream \u2192') + '</a>' +
-    '<h1 style="font-size:clamp(38px,6vw,66px);line-height:1.08;margin:20px 0 16px">Every CBSE circular, date sheet and result. One cozy place.</h1>' +
-    '<p style="color:var(--mut);margin:0 0 28px;max-width:520px">Official notices from CBSE, gathered and sorted so you never miss one. NCERT books and the syllabus sit right next to them.</p>' +
+    '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">Class ' + c + (hasStreams(c) && ST.streamSet ? ' · ' + ST.stream : '') + ' · CBSE · Change</a>' +
+    '<h1 id="pg" tabindex="-1" style="font-size:clamp(36px,6vw,62px);line-height:1.08;margin:20px 0 16px">' + cp.h + '</h1>' +
+    '<p style="color:var(--mut);margin:0 0 28px;max-width:520px">' + cp.p + '</p>' +
     '<form class="search" data-act="hsearch"><label for="hq" style="position:absolute;left:-9999px">Search notices</label><input id="hq" placeholder="Search notices, e.g. date sheet" autocomplete="off"><button class="go" type="submit">Search</button></form>' +
     '<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;font-weight:700;font-size:15px;align-items:center"><span style="color:var(--mut)">Popular:</span>' +
     '<a class="pill" href="#/updates?type=Circular" style="background:var(--a1);padding:6px 14px;font-size:15px">CBSE circulars</a><a class="pill" href="#/updates?type=Date%20Sheet" style="background:var(--a4);padding:6px 14px;font-size:15px">Date sheets</a><a class="pill" href="#/updates?type=Result" style="background:var(--a5);padding:6px 14px;font-size:15px">Results</a></div></div>' +
     '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:36px;background:var(--a3);transform:rotate(14deg)"></div>' +
-    '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:14px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">Today on the board</div>' +
+    '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:14px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">Latest from CBSE</div>' +
     (latest3.length ? latest3.map(function(x){ return '<a href="#/notice/' + encodeURIComponent(x.id) + '" style="display:block;background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + pill(x) + '<div style="margin-top:6px;font-weight:700;overflow-wrap:anywhere">' + esc(x.title) + '</div></a>'; }).join("") : '<div style="background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + (ST.loaded ? 'No notices yet.' : 'Loading notices...') + '</div>') +
     '</div></div></div>' +
-    '<div id="boards" class="wrap sec"><h2 style="font-size:34px">Follow your board</h2><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:16px">' + board + '</div></div>' +
-    '<div id="updates" class="wrap sec" style="padding-bottom:64px"><div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px"><h2 style="font-size:34px;margin:0">Fresh from the boards</h2><div class="chips">' + f + '</div></div>' +
+    '<div id="updates" class="wrap sec" style="padding-bottom:64px"><div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px"><h2 style="font-size:34px;margin:0">Latest updates</h2><div class="chips">' + f + '</div></div>' +
     '<div class="grid g3">' + (fresh.length ? fresh.map(function(x){ return noticeCard(x); }).join("") : loadingOrEmpty("No notices of this type yet.")) + '</div>' +
     '<div style="text-align:center;margin-top:32px"><a class="btn dark" href="#/updates" style="display:inline-flex;padding:14px 32px">See all updates</a></div></div>' +
-    '<div id="shelf" style="background:var(--shelf);padding:64px 0"><div class="wrap"><h2 style="font-size:34px;margin:0 0 8px">Your study shelf</h2><p style="margin:0 0 28px;color:var(--mut);max-width:560px">Books, syllabus and notes for your class, right next to the notices.</p>' +
-    '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr))">' +
-    '<a href="#/books" style="background:var(--card);border-radius:28px;padding:28px;display:block"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a3);margin-bottom:16px">'+ico("book",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">NCERT books</h3><div style="color:var(--mut)">Class 1 to 12, subject by subject</div></a>' +
-    '<a href="#/syllabus" style="background:var(--card);border-radius:28px;padding:28px;display:block"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a2);margin-bottom:16px">'+ico("doc",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">Syllabus</h3><div style="color:var(--mut)">Official 2026-27 syllabus, Class 9 to 12</div></a>' +
-    '<div style="background:var(--card);border-radius:28px;padding:28px"><div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(--a5);margin-bottom:16px">'+ico("notes",28)+'</div><h3 style="font-size:22px;margin:0 0 6px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div style="color:var(--mut)">Chapter notes and quick revision sheets</div></div></div></div></div>';
+    homeShelf(c);
 }
 
 function listHtml(){
@@ -267,7 +302,7 @@ VIEWS["class"] = function(){
    '<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px"><h2 style="margin:0">NCERT books</h2>' + streams + '</div>' +
    '<div class="grid g3" style="margin-bottom:48px">' + subs + more0 + '</div>' +
    '<h2>More for Class ' + c + (hi ? ' ' + ST.stream : '') + '</h2><div class="grid g3" style="margin-bottom:48px">' + more + '</div>' +
-   latest + '</div>';
+   (n <= 8 ? '' : latest) + '</div>';
 };
 
 var SUBCOL = {Physics:"--a1", Chemistry:"--a3", Maths:"--a4", Biology:"--a2", Mathematics:"--a4", Science:"--a3", English:"--a1", "Social Science":"--a2", "Environmental Studies":"--a3", Arts:"--a5", "Physical Education":"--a1", "Vocational Education":"--a5", "Skill Education":"--a5", Hindi:"--a4", Sanskrit:"--a5", Urdu:"--a4", "Other books":"--a5", Accountancy:"--a3", "Business Studies":"--a1", Economics:"--a4", History:"--a2", Geography:"--a3", "Political Science":"--a1", Sociology:"--a5", Psychology:"--a2"};
@@ -730,6 +765,9 @@ function syncFromPath(r){
 }
 function applyClass(){
   $("#app").dataset.c = ST.cls;
+  var young = !!ST.cls && +ST.cls <= 8, up = $("#nv-up"), nav = $("#topnav nav");
+  if (up) up.hidden = young;
+  if (nav) nav.className = young ? "few" : "";
 }
 function route(keepScroll){
   var r = parse(), name = r.name;
@@ -823,7 +861,7 @@ fetch("/papers.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).
 fetch("/qbank.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ QB = d; }).catch(function(){ ST.qbFail = true; }).then(function(){ if (parse().name === "qbank") route(true); ready(); });
 fetch("/syllabus.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ SYL = d; }).catch(function(){ ST.sylFail = true; }).then(function(){ if (parse().name === "syllabus") route(true); ready(); });
 function loadBooks(f){ return fetch(f).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ if (Array.isArray(d)) d.forEach(function(b){ BOOKS.push(b); }); }).catch(function(){}); }
-Promise.all([loadBooks("/books_1_8.json"), loadBooks("/books_1_10.json"), loadBooks("/books_9.json"), loadBooks("/books_11.json"), loadBooks("/books_12.json")]).then(function(){ ST.booksLoaded = true; var n = parse().name; if (n === "books" || n === "class" || n === "syllabus") route(true); ready(); });
+Promise.all([loadBooks("/books_1_8.json"), loadBooks("/books_1_10.json"), loadBooks("/books_9.json"), loadBooks("/books_11.json"), loadBooks("/books_12.json")]).then(function(){ ST.booksLoaded = true; var n = parse().name; if (n === "home" || n === "books" || n === "class" || n === "syllabus") route(true); ready(); });
 fetch("/updates.json", {cache: "no-store"}).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){
   ST.items = (Array.isArray(d) ? d : []).filter(function(x){ return x && x.status === "approved" && !x.sample; }).sort(function(a, b){ return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
 }).catch(function(){}).then(function(){ ST.loaded = true; route(true); ready(); });

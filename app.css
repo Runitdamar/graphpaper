@@ -97,3 +97,5 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 #topnav .brand img{border-radius:12px;display:block}
 #topnav nav{position:relative;display:flex;flex:1 1 100%;align-items:center;justify-content:space-between;gap:8px;font-weight:700;font-size:clamp(13px,3.9vw,18px);white-space:nowrap}
 @media(min-width:720px){#topnav nav{flex:0 0 auto;justify-content:flex-start;gap:26px;font-size:18px}}
+#topnav nav.few{justify-content:flex-start;gap:28px}
+#topnav nav a[hidden]{display:none}
