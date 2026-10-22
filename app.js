@@ -180,7 +180,7 @@ function trackerSection(c){
   return '<div id="status" class="wrap sec" style="padding-bottom:64px"><h2 style="font-size:34px;margin:0 0 8px">Quick status check</h2>' +
     '<p style="margin:0 0 24px;color:var(--mut);max-width:620px">The questions students ask most about Class ' + c + (hasStreams(c) ? ' ' + ST.stream : '') + ', answered from CBSE notices and news reports. Reviewed ' + esc(fmt(TRK.reviewed)) + '. Always confirm on cbse.gov.in.</p>' +
     '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))">' + cards + '</div>' +
-    '<div style="text-align:center;margin-top:32px"><a class="btn dark" href="#/updates" style="display:inline-flex;padding:14px 32px">See all updates</a></div></div>';
+    '</div>';
 }
 function homeShelf(c){
   var n = +c, hi = n >= 11, tag = (hi ? ' ' + ST.stream : '');
