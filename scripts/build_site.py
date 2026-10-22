@@ -34,6 +34,15 @@ STREAMS = ["science", "commerce", "humanities"]
 GENERATED_DIRS = ["notice", "board", "updates", "about", "contact", "privacy", "terms", "welcome"]
 
 
+def shell_html():
+    """The app shell with the status-check data (scripts/build_tracker.py) embedded, so it is there on the first paint."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts"))
+    from build_tracker import build
+    blob = json.dumps(build(), ensure_ascii=False).replace("</", "<\\/")
+    html = open(SHELL, encoding="utf-8").read()
+    return html.replace('<script src="/app.js" defer></script>', '<script type="application/json" id="trk">' + blob + '</script>\n<script src="/app.js" defer></script>').encode("utf-8")
+
+
 def load(name):
     with open(os.path.join(ROOT, name), encoding="utf-8") as f:
         return json.load(f)
@@ -77,7 +86,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             f = SHELL
         if not os.path.isfile(f):
             self.send_response(404); self.end_headers(); return
-        data = open(f, "rb").read()
+        data = shell_html() if f == SHELL else open(f, "rb").read()
         self.send_response(200)
         self.send_header("Content-Type", mimetypes.guess_type(f)[0] or "application/octet-stream")
         self.send_header("Content-Length", str(len(data)))
