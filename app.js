@@ -31,7 +31,7 @@ var TYPE_KEYS = ["Circular", "Date Sheet", "Syllabus Change", "Result"];
 var ST = {ub:"all", stream:"Science", cls:"", wc:"", items:[], loaded:false, q:"", type:"all", hf:"all", bsub:"All", bq:""};
 try { var sv = localStorage.getItem("gp-class"); if (/^(1[0-2]|[1-9])$/.test(sv || "")) ST.cls = sv; } catch(e){}
 try { var sv2 = localStorage.getItem("gp-stream"); if (sv2 === "Science" || sv2 === "Commerce" || sv2 === "Humanities"){ ST.stream = sv2; ST.streamSet = true; } } catch(e){}
-ST.ws = ST.streamSet ? ST.stream : ""; ST.pending = 5;
+ST.ws = ST.streamSet ? ST.stream : ""; ST.pending = 6;
 
 function typeOf(x){ return TYPES[x.tag] || TYPES.Circular; }
 function pill(x, extra){ var t = typeOf(x); return '<span class="pill" style="background:var(' + t.c + ')">' + esc(t.label) + '</span>' + (extra || ""); }
@@ -166,6 +166,22 @@ function shelfCard(bg, icon, title, text, href){
   var inner = '<div class="sq" style="width:56px;height:56px;border-radius:18px;background:var(' + bg + ');margin-bottom:16px">' + ico(icon, 28) + '</div><h3 style="font-size:22px;margin:0 0 6px">' + title + '</h3><div style="color:var(--mut)">' + text + '</div>';
   return href ? '<a href="' + href + '" style="background:var(--card);border-radius:28px;padding:28px;display:block">' + inner + '</a>' : '<div style="background:var(--card);border-radius:28px;padding:28px">' + inner + '</div>';
 }
+var TRK = null;
+function trackerSection(c){
+  var n = +c, items = TRK ? TRK.items.filter(function(x){ return x.classes.indexOf(n) > -1; }).slice(0, 4) : [];
+  if (!items.length) return "";
+  var cards = items.map(function(x){
+    var u = x.src.u, ext = /^https?:/.test(u);
+    return '<div class="card st-' + esc(x.status) + '" style="--sh:var(--a3)"><h3 style="font-size:20px;margin:0">' + esc(x.q) + '</h3>' +
+      '<div><span class="stp"><i aria-hidden="true"></i>' + esc(x.label) + '</span></div>' +
+      '<div style="color:var(--mut)">' + esc(x.detail) + '</div>' +
+      '<div class="meta" style="margin-top:auto">Source: <a href="' + esc(u) + '"' + (ext ? ' target="_blank" rel="noopener"' : '') + ' style="text-decoration:underline">' + esc(x.src.t) + '</a> \u00b7 as of ' + esc(fmt(x.asof)) + '</div></div>';
+  }).join("");
+  return '<div id="status" class="wrap sec" style="padding-bottom:64px"><h2 style="font-size:34px;margin:0 0 8px">Quick status check</h2>' +
+    '<p style="margin:0 0 24px;color:var(--mut);max-width:620px">The questions students ask most about Class ' + c + (hasStreams(c) ? ' ' + ST.stream : '') + ', answered from CBSE notices and news reports. Reviewed ' + esc(fmt(TRK.reviewed)) + '. Always confirm on cbse.gov.in.</p>' +
+    '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))">' + cards + '</div>' +
+    '<div style="text-align:center;margin-top:32px"><a class="btn dark" href="#/updates" style="display:inline-flex;padding:14px 32px">See all updates</a></div></div>';
+}
 function homeShelf(c){
   var n = +c, hi = n >= 11, tag = (hi ? ' ' + ST.stream : '');
   var cards = shelfCard("--a3", "book", "NCERT books", n <= 8 ? "Every book for Class " + c + ", chapter by chapter" : "Class " + c + tag + ", subject by subject", "#/books") +
@@ -195,7 +211,7 @@ function homeParents(c){
   }).join("") : '<div style="background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + (ST.booksLoaded ? 'No books found.' : 'Loading books...') + '</div>';
   return '<div class="wrap hr"><div>' +
     '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">Class ' + c + ' · Change</a>' +
-    '<h1 id="pg" tabindex="-1" style="font-size:clamp(36px,6vw,62px);line-height:1.08;margin:20px 0 16px">' + cp.h + '</h1>' +
+    '<h1 id="pg" tabindex="-1" style="font-size:clamp(32px,5.4vw,60px);line-height:1.1;margin:20px 0 16px">' + cp.h + '</h1>' +
     '<p style="color:var(--mut);margin:0 0 28px;max-width:520px">' + cp.p + '</p>' +
     '<div style="display:flex;flex-wrap:wrap;gap:12px"><a class="btn dark" href="#/books" style="display:inline-flex;padding:14px 28px">Open NCERT books</a><a class="btn" href="#/booklist" style="display:inline-flex;padding:14px 28px;background:var(--card);border:2px solid var(--ink)">Printable book list</a></div>' +
     '<p style="margin:22px 0 0"><a href="#/parents" style="font-weight:700;text-decoration:underline">Read the guide for parents</a></p></div>' +
@@ -213,7 +229,7 @@ function homeReturning(){
   }).join("");
   return '<div class="wrap hr"><div>' +
     '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">Class ' + c + (hasStreams(c) && ST.streamSet ? ' · ' + ST.stream : '') + ' · CBSE · Change</a>' +
-    '<h1 id="pg" tabindex="-1" style="font-size:clamp(36px,6vw,62px);line-height:1.08;margin:20px 0 16px">' + cp.h + '</h1>' +
+    '<h1 id="pg" tabindex="-1" style="font-size:clamp(32px,5.4vw,60px);line-height:1.1;margin:20px 0 16px">' + cp.h + '</h1>' +
     '<p style="color:var(--mut);margin:0 0 28px;max-width:520px">' + cp.p + '</p>' +
     '<form class="search" data-act="hsearch"><label for="hq" style="position:absolute;left:-9999px">Search notices</label><input id="hq" placeholder="Search notices, e.g. date sheet" autocomplete="off"><button class="go" type="submit">Search</button></form>' +
     '<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;font-weight:700;font-size:15px;align-items:center"><span style="color:var(--mut)">Popular:</span>' +
@@ -221,10 +237,8 @@ function homeReturning(){
     '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:36px;background:var(--a3);transform:rotate(14deg)"></div>' +
     '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:14px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">Latest from CBSE</div>' +
     (latest3.length ? latest3.map(function(x){ return '<a href="#/notice/' + encodeURIComponent(x.id) + '" style="display:block;background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + pill(x) + '<div style="margin-top:6px;font-weight:700;overflow-wrap:anywhere">' + esc(x.title) + '</div></a>'; }).join("") : '<div style="background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + (ST.loaded ? 'No notices yet.' : 'Loading notices...') + '</div>') +
-    '</div></div></div>' +
-    '<div id="updates" class="wrap sec" style="padding-bottom:64px"><div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px"><h2 style="font-size:34px;margin:0">Latest updates</h2><div class="chips">' + f + '</div></div>' +
-    '<div class="grid g3">' + (fresh.length ? fresh.map(function(x){ return noticeCard(x); }).join("") : loadingOrEmpty("No notices of this type yet.")) + '</div>' +
-    '<div style="text-align:center;margin-top:32px"><a class="btn dark" href="#/updates" style="display:inline-flex;padding:14px 32px">See all updates</a></div></div>' +
+    '<a class="btn dark" href="#/updates" style="display:flex;justify-content:center;padding:12px 20px">See all updates</a></div></div></div>' +
+    trackerSection(c) +
     homeShelf(c);
 }
 
@@ -858,6 +872,7 @@ if (/^#\//.test(location.hash)) history.replaceState(null, "", toPath(location.h
 route();
 function ready(){ if (--ST.pending === 0) window.GP_READY = true; }
 fetch("/papers.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ PAP = d; }).catch(function(){ ST.papFail = true; }).then(function(){ if (parse().name === "papers") route(true); ready(); });
+fetch("/tracker.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ TRK = d; }).catch(function(){}).then(function(){ if (parse().name === "home") route(true); ready(); });
 fetch("/qbank.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ QB = d; }).catch(function(){ ST.qbFail = true; }).then(function(){ if (parse().name === "qbank") route(true); ready(); });
 fetch("/syllabus.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ SYL = d; }).catch(function(){ ST.sylFail = true; }).then(function(){ if (parse().name === "syllabus") route(true); ready(); });
 function loadBooks(f){ return fetch(f).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ if (Array.isArray(d)) d.forEach(function(b){ BOOKS.push(b); }); }).catch(function(){}); }
