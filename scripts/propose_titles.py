@@ -7,9 +7,6 @@ import sys
 from pathlib import Path
 
 root = Path(__file__).resolve().parent
-NUM = int(sys.argv[1])
-only = sys.argv[2].split(",") if len(sys.argv) > 2 else None
-data = json.loads((root / ("titles_class%d.json" % NUM)).read_text(encoding="utf-8"))
 SKIP = re.compile(r"^(\d+|chapter|contents|unit\s*\d+|unit|reprint.*|[A-Z](\s[A-Z]){2,}|part\s*\w+|\d+\s*[-–]\s*\d+)$", re.I)
 
 
@@ -29,6 +26,11 @@ def propose(x):
 
 
 if __name__ == "__main__":
+    NUM = int(sys.argv[1])
+    only = sys.argv[2].split(",") if len(sys.argv) > 2 else None
+    data = {}
+    for f in sorted(root.glob("titles_class%d*.json" % NUM)):
+        data.update(json.loads(f.read_text(encoding="utf-8")))
     for code, chs in data.items():
         if only and code not in only:
             continue

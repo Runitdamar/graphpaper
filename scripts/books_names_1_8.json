@@ -1,0 +1,350 @@
+[
+{
+"cls": 1,
+"code": "aemr1",
+"sub": "English",
+"title": "English"
+},
+{
+"cls": 1,
+"code": "aejm1",
+"sub": "Mathematics",
+"title": "Joyful Mathematics"
+},
+{
+"cls": 2,
+"code": "bemr1",
+"sub": "English",
+"title": "English"
+},
+{
+"cls": 2,
+"code": "bejm1",
+"sub": "Mathematics",
+"title": "Joyful Mathematics"
+},
+{
+"cls": 3,
+"code": "cebu1",
+"sub": "Arts",
+"title": "Arts"
+},
+{
+"cls": 3,
+"code": "cesa1",
+"sub": "English",
+"title": "Santoor"
+},
+{
+"cls": 3,
+"code": "ceev1",
+"sub": "Environmental Studies",
+"title": "The World Around Us"
+},
+{
+"cls": 3,
+"code": "cemm1",
+"sub": "Mathematics",
+"title": "Mathematics"
+},
+{
+"cls": 3,
+"code": "ceky1",
+"sub": "Physical Education",
+"title": "Physical Education and Well-being"
+},
+{
+"cls": 4,
+"code": "debu1",
+"sub": "Arts",
+"title": "Arts"
+},
+{
+"cls": 4,
+"code": "desa1",
+"sub": "English",
+"title": "Santoor"
+},
+{
+"cls": 4,
+"code": "deap1",
+"sub": "Environmental Studies",
+"title": "Looking Around"
+},
+{
+"cls": 4,
+"code": "deev1",
+"sub": "Environmental Studies",
+"title": "The World Around Us"
+},
+{
+"cls": 4,
+"code": "demm1",
+"sub": "Mathematics",
+"title": "Mathematics"
+},
+{
+"cls": 4,
+"code": "deky1",
+"sub": "Physical Education",
+"title": "Physical Education and Well-being"
+},
+{
+"cls": 5,
+"code": "eebu1",
+"sub": "Arts",
+"title": "Arts"
+},
+{
+"cls": 5,
+"code": "eeen1",
+"sub": "English",
+"title": "Marigold"
+},
+{
+"cls": 5,
+"code": "eesa1",
+"sub": "English",
+"title": "Santoor"
+},
+{
+"cls": 5,
+"code": "eeap1",
+"sub": "Environmental Studies",
+"title": "Environmental Studies"
+},
+{
+"cls": 5,
+"code": "eeev1",
+"sub": "Environmental Studies",
+"title": "The World Around Us"
+},
+{
+"cls": 5,
+"code": "eemh1",
+"sub": "Mathematics",
+"title": "Mathematics (older edition)"
+},
+{
+"cls": 5,
+"code": "eemm1",
+"sub": "Mathematics",
+"title": "Mathematics"
+},
+{
+"cls": 5,
+"code": "eeky1",
+"sub": "Physical Education",
+"title": "Physical Education and Well-being"
+},
+{
+"cls": 6,
+"code": "fekr1",
+"sub": "Arts",
+"title": "Arts"
+},
+{
+"cls": 6,
+"code": "fepr1",
+"sub": "English",
+"title": "Poorvi"
+},
+{
+"cls": 6,
+"code": "fegp1",
+"sub": "Mathematics",
+"title": "Ganita Prakash"
+},
+{
+"cls": 6,
+"code": "feky1",
+"sub": "Physical Education",
+"title": "Physical Education and Well-being"
+},
+{
+"cls": 6,
+"code": "fecu1",
+"sub": "Science",
+"title": "Curiosity"
+},
+{
+"cls": 6,
+"code": "fees1",
+"sub": "Social Science",
+"title": "Exploring Society: India and Beyond"
+},
+{
+"cls": 6,
+"code": "fekb1",
+"sub": "Vocational Education",
+"title": "Kaushal Bodh"
+},
+{
+"cls": 7,
+"code": "gekr1",
+"sub": "Arts",
+"title": "Arts"
+},
+{
+"cls": 7,
+"code": "geah1",
+"sub": "English",
+"title": "An Alien Hand (supplementary reader)"
+},
+{
+"cls": 7,
+"code": "gehc1",
+"sub": "English",
+"title": "Honeycomb"
+},
+{
+"cls": 7,
+"code": "gepr1",
+"sub": "English",
+"title": "Poorvi"
+},
+{
+"cls": 7,
+"code": "gegp1",
+"sub": "Mathematics",
+"title": "Ganita Prakash (Part 1)"
+},
+{
+"cls": 7,
+"code": "gegp2",
+"sub": "Mathematics",
+"title": "Ganita Prakash (Part 2)"
+},
+{
+"cls": 7,
+"code": "geky1",
+"sub": "Physical Education",
+"title": "Physical Education and Well-being"
+},
+{
+"cls": 7,
+"code": "gecu1",
+"sub": "Science",
+"title": "Curiosity"
+},
+{
+"cls": 7,
+"code": "gesc1",
+"sub": "Science",
+"title": "Science (older edition)"
+},
+{
+"cls": 7,
+"code": "gees1",
+"sub": "Social Science",
+"title": "Exploring Society: India and Beyond (Part 1)"
+},
+{
+"cls": 7,
+"code": "gees2",
+"sub": "Social Science",
+"title": "Exploring Society: India and Beyond (Part 2)"
+},
+{
+"cls": 7,
+"code": "gess1",
+"sub": "Social Science",
+"title": "Social Science (Part 1)"
+},
+{
+"cls": 7,
+"code": "gess2",
+"sub": "Social Science",
+"title": "Social Science (Part 2)"
+},
+{
+"cls": 7,
+"code": "gess3",
+"sub": "Social Science",
+"title": "Social Science (Part 3)"
+},
+{
+"cls": 7,
+"code": "gekb1",
+"sub": "Vocational Education",
+"title": "Kaushal Bodh"
+},
+{
+"cls": 8,
+"code": "hekr1",
+"sub": "Arts",
+"title": "Arts"
+},
+{
+"cls": 8,
+"code": "hehd1",
+"sub": "English",
+"title": "English"
+},
+{
+"cls": 8,
+"code": "heih1",
+"sub": "English",
+"title": "It So Happened (supplementary reader)"
+},
+{
+"cls": 8,
+"code": "hepr1",
+"sub": "English",
+"title": "Poorvi"
+},
+{
+"cls": 8,
+"code": "hegp1",
+"sub": "Mathematics",
+"title": "Ganita Prakash (Part 1)"
+},
+{
+"cls": 8,
+"code": "hegp2",
+"sub": "Mathematics",
+"title": "Ganita Prakash (Part 2)"
+},
+{
+"cls": 8,
+"code": "hemh1",
+"sub": "Mathematics",
+"title": "Mathematics (older edition)"
+},
+{
+"cls": 8,
+"code": "heky1",
+"sub": "Physical Education",
+"title": "Physical Education and Well-being"
+},
+{
+"cls": 8,
+"code": "hecu1",
+"sub": "Science",
+"title": "Curiosity"
+},
+{
+"cls": 8,
+"code": "hesc1",
+"sub": "Science",
+"title": "Science (older edition)"
+},
+{
+"cls": 8,
+"code": "hees1",
+"sub": "Social Science",
+"title": "Exploring Society: India and Beyond (Part 1)"
+},
+{
+"cls": 8,
+"code": "hees2",
+"sub": "Social Science",
+"title": "Exploring Society: India and Beyond (Part 2)"
+},
+{
+"cls": 8,
+"code": "hekb1",
+"sub": "Vocational Education",
+"title": "Kaushal Bodh"
+}
+]
