@@ -1,0 +1,3059 @@
+{
+"hemh1": [
+{
+"file": "hemh101",
+"pages": 14,
+"big": [
+[
+100.0,
+"CHAPTER1"
+],
+[
+32.0,
+"Rational Numbers"
+],
+[
+14.0,
+"1.1  Introduction"
+],
+[
+12.0,
+"In Mathematics, we frequently come across simple equations to be solved. For example,"
+],
+[
+12.0,
+"the equation"
+],
+[
+12.0,
+"x + 2 = 13"
+]
+],
+"big2": [
+[
+14.0,
+"1.2  Properties of Rational Numbers"
+],
+[
+12.0,
+"1.2.1  Closure"
+],
+[
+12.0,
+"(i) Whole numbers"
+],
+[
+12.0,
+"Let us revisit the closure property for all the operations on whole numbers in brief."
+],
+[
+12.0,
+"Addition"
+],
+[
+12.0,
+"0 + 5 = 5, a whole number"
+]
+]
+},
+{
+"file": "hemh102",
+"pages": 6,
+"big": [
+[
+100.0,
+""
+],
+[
+32.0,
+""
+],
+[
+32.0,
+""
+],
+[
+16.0,
+""
+],
+[
+14.0,
+"2.1  Introduction"
+],
+[
+12.0,
+"In the earlier classes, you have come across several algebraic expressions and equations."
+]
+],
+"big2": [
+[
+14.0,
+"2.2"
+],
+[
+14.0,
+"Solving Equations having the Variable on"
+],
+[
+14.0,
+"both Sides"
+],
+[
+14.0,
+"• We now discuss how to solve such equations which have expressions with the variable"
+],
+[
+14.0,
+"Solution: We have"
+],
+[
+12.0,
+"(b) In an equation the values of"
+]
+]
+},
+{
+"file": "hemh103",
+"pages": 16,
+"big": [
+[
+100.0,
+"CHAPTER3"
+],
+[
+32.0,
+"Understanding"
+],
+[
+32.0,
+"Quadrilaterals"
+],
+[
+14.0,
+"3.1  Introduction"
+],
+[
+12.0,
+"You know that the paper is a model for a plane surface. When you join a number of"
+],
+[
+12.0,
+"points without lifting a pencil from the paper (and without retracing any portion of the"
+]
+],
+"big2": [
+[
+16.0,
+"EXERCISE 3.1"
+],
+[
+12.0,
+"equiangular but not equilateral. Is a rectangle a regular polygon? Is an equilateral triangle a"
+],
+[
+12.0,
+"regular polygon? Why?"
+],
+[
+12.0,
+"[Note: Use of"
+],
+[
+12.0,
+"or"
+],
+[
+12.0,
+"indicates segments of equal length]."
+]
+]
+},
+{
+"file": "hemh104",
+"pages": 14,
+"big": [
+[
+100.0,
+""
+],
+[
+32.0,
+""
+],
+[
+14.0,
+"4.1  Looking for Information"
+],
+[
+12.0,
+"In your day-to-day life, you might have come across information, such as:"
+],
+[
+12.0,
+"(a) Runs made by a batsman in the last 10 test matches."
+],
+[
+12.0,
+"(b) Number of wickets taken by a bowler in the last 10 ODIs."
+]
+],
+"big2": [
+[
+16.0,
+"THINK, DISCUSS AND WRITE"
+],
+[
+12.0,
+"(i) What is the information given by the bar graph?"
+],
+[
+12.0,
+"(ii) In which year is the increase in the number of students maximum?"
+],
+[
+12.0,
+"(iii) In which year is the number of students maximum?"
+],
+[
+12.0,
+"(iv) State whether true or false:"
+],
+[
+12.0,
+"‘The number of students during 2005-06 is twice that of 2003-04.’"
+]
+]
+},
+{
+"file": "hemh105",
+"pages": 20,
+"big": [
+[
+100.0,
+""
+],
+[
+32.0,
+""
+],
+[
+32.0,
+""
+],
+[
+16.0,
+""
+],
+[
+14.0,
+"5.1  Introduction"
+],
+[
+12.0,
+"You know that the area of a square = side × side (where ‘side’  means ‘the length of"
+]
+],
+"big2": [
+[
+14.0,
+"TRY THESE"
+],
+[
+14.0,
+"5.2  Properties of Square Numbers"
+],
+[
+12.0,
+"3"
+],
+[
+12.0,
+"3 × 3 = 9"
+],
+[
+12.0,
+"4"
+],
+[
+12.0,
+"4 × 4 = 16"
+]
+]
+},
+{
+"file": "hemh106",
+"pages": 8,
+"big": [
+[
+100.0,
+""
+],
+[
+31.0,
+""
+],
+[
+14.0,
+"6.1  Introduction"
+],
+[
+14.0,
+"6.2  Cubes"
+],
+[
+12.0,
+"This is a story about one of  India’s great mathematical geniuses, S. Ramanujan. Once"
+],
+[
+12.0,
+"another famous mathematician Prof. G.H. Hardy came to visit him in a taxi whose number"
+]
+],
+"big2": [
+[
+12.0,
+"We note that 1 = 1 × 1 × 1 = 13;  8 = 2 × 2 × 2 = 23; 27 = 3 × 3 × 3 = 33."
+],
+[
+12.0,
+"Since 53 = 5 × 5 × 5 = 125, therefore 125 is a cube number."
+],
+[
+12.0,
+"Is 9 a cube number? No, as 9 = 3 × 3 and there is no natural number which multiplied"
+],
+[
+12.0,
+"by taking three times gives 9. We can see also that 2 × 2 × 2 = 8 and 3 × 3 × 3 = 27. This"
+],
+[
+12.0,
+"shows that 9 is not a perfect cube."
+],
+[
+12.0,
+"The following are the cubes of numbers from 1 to 10."
+]
+]
+},
+{
+"file": "hemh107",
+"pages": 14,
+"big": [
+[
+100.0,
+""
+],
+[
+32.0,
+""
+],
+[
+14.0,
+"7.1  Recalling Ratios and Percentages"
+],
+[
+14.0,
+"Example 1: A picnic is being planned in a school for Class VII. Girls are 60% of the"
+],
+[
+12.0,
+"We know, ratio means comparing two quantities."
+],
+[
+12.0,
+"A basket has two types of fruits, say, 20 apples and 5 oranges."
+]
+],
+"big2": [
+[
+12.0,
+"Can you tell."
+],
+[
+12.0,
+"1. The ratio of the number of girls to the number of boys in the class?"
+],
+[
+12.0,
+"2. The cost per head if two teachers are also going with the class?"
+],
+[
+12.0,
+"3. If their first stop is at a place 22 km from the school, what per cent of the total"
+],
+[
+12.0,
+"distance of 55 km is this? What per cent of the distance is left to be covered?"
+],
+[
+12.0,
+"Solution:"
+]
+]
+},
+{
+"file": "hemh108",
+"pages": 10,
+"big": [
+[
+100.0,
+"CHAPTER8"
+],
+[
+31.0,
+"Algebraic Expressions"
+],
+[
+31.0,
+"and Identities"
+],
+[
+14.0,
+"8.1  Addition and Subtraction of Algebraic"
+],
+[
+14.0,
+"Expressions"
+],
+[
+12.0,
+"In earlier classes, we have already become familiar with what algebraic expressions"
+]
+],
+"big2": [
+[
+16.0,
+"EXERCISE 8.1"
+],
+[
+14.0,
+"8.2"
+],
+[
+14.0,
+"Multiplication of Algebraic Expressions:"
+],
+[
+14.0,
+"Introduction"
+],
+[
+12.0,
+"Example 2: Subtract 5x2 – 4y2 + 6y – 3 from 7x2 – 4xy + 8y2 + 5x – 3y."
+],
+[
+12.0,
+"Solution:"
+]
+]
+},
+{
+"file": "hemh109",
+"pages": 18,
+"big": [
+[
+100.0,
+"CHAPTER9"
+],
+[
+32.0,
+"Mensuration"
+],
+[
+14.0,
+"9.1  Introduction"
+],
+[
+14.0,
+"9.2  Area of a Polygon"
+],
+[
+12.0,
+"We have learnt that for a closed plane figure, the perimeter is the distance around its"
+],
+[
+12.0,
+"boundary and its area is the region covered by it. We found the area and perimeter of"
+]
+],
+"big2": [
+[
+14.0,
+"TRY THESE"
+],
+[
+14.0,
+"Solution: One of the parallel sides of the trapezium is a = 20 m, let another parallel"
+],
+[
+12.0,
+"(i) Divide the following polygons (Fig 9.3) into parts (triangles and trapezium) to find"
+],
+[
+12.0,
+"out its area."
+],
+[
+12.0,
+"(ii) Polygon ABCDE is divided into parts as shown below (Fig 9.4). Find its area if"
+],
+[
+12.0,
+"AD = 8 cm, AH = 6 cm, AG = 4 cm, AF = 3 cm and perpendiculars BF = 2 cm,"
+]
+]
+},
+{
+"file": "hemh110",
+"pages": 8,
+"big": [
+[
+100.0,
+""
+],
+[
+31.0,
+""
+],
+[
+16.0,
+""
+],
+[
+14.0,
+"10.1  Introduction"
+],
+[
+14.0,
+"10.2  Powers with Negative Exponents"
+],
+[
+12.0,
+"Do you know?"
+]
+],
+"big2": [
+[
+16.0,
+"10 ,  10– 2  ="
+],
+[
+14.0,
+"TRY THESE"
+],
+[
+12.0,
+"Now consider the following."
+],
+[
+12.0,
+"33 = 3 × 3 × 3 =  27"
+],
+[
+12.0,
+"32 = 3 × 3 = 9 ="
+],
+[
+12.0,
+"31 = 3 = 9"
+]
+]
+},
+{
+"file": "hemh111",
+"pages": 16,
+"big": [
+[
+100.0,
+""
+],
+[
+31.0,
+""
+],
+[
+31.0,
+""
+],
+[
+16.0,
+""
+],
+[
+14.0,
+"11.1  Introduction"
+],
+[
+14.0,
+"11.2 Direct Proportion"
+]
+],
+"big2": [
+[
+12.0,
+"Similarly, we can find the cost of 5 kg or 8 kg of sugar. Study the following table."
+],
+[
+12.0,
+"Observe that as weight of sugar increases, cost also increases in such a manner that"
+],
+[
+12.0,
+"their ratio remains constant."
+],
+[
+12.0,
+"Take one more example. Suppose a car uses 4 litres of petrol to travel a distance of"
+],
+[
+12.0,
+"60 km. How far will it travel using 12 litres? The answer is 180 km. How did we calculate"
+],
+[
+12.0,
+"it? Since petrol consumed in the second instance is 12 litres, i.e., three times of 4 litres, the"
+]
+]
+},
+{
+"file": "hemh112",
+"pages": 12,
+"big": [
+[
+100.0,
+"12"
+],
+[
+32.0,
+"Factorisation"
+],
+[
+16.0,
+"CHAPTER"
+],
+[
+14.0,
+"12.1  Introduction"
+],
+[
+12.1,
+"x×"
+],
+[
+12.1,
+"×"
+]
+],
+"big2": [
+[
+16.0,
+"• We begin with a simple example: Factorise 2x + 4."
+],
+[
+14.0,
+"12.2  What is Factorisation?"
+],
+[
+13.9,
+"("
+],
+[
+13.9,
+") ("
+],
+[
+13.9,
+")"
+],
+[
+12.1,
+"×"
+]
+]
+},
+{
+"file": "hemh113",
+"pages": 14,
+"big": [
+[
+100.0,
+"13"
+],
+[
+30.0,
+"Introduction to Graphs"
+],
+[
+16.0,
+"CHAPTER"
+],
+[
+14.0,
+"13.1  Introduction"
+],
+[
+12.0,
+"Have you seen graphs in the newspapers, television, magazines, books etc.? The purpose"
+],
+[
+12.0,
+"of the graph is to show numerical facts in visual form so that they can be understood"
+]
+],
+"big2": [
+[
+14.0,
+"Example 1: (A graph on “performance”)"
+],
+[
+12.0,
+"What all does this graph tell you? For example you can see the pattern of temperature;"
+],
+[
+12.0,
+"more at 10 a.m. (see Fig 13.3) and then decreasing till 6 p.m. Notice that the temperature"
+],
+[
+12.0,
+"increased by 3° C(= 40° C – 37° C) during the period 6 a.m. to 10 a.m."
+],
+[
+12.0,
+"There was no recording of temperature at 8 a.m., however the graph suggests that it"
+],
+[
+12.0,
+"was more than 37 °C (How?)."
+]
+]
+}
+],
+"hepr1": [
+{
+"file": "hepr101",
+"pages": 48,
+"big": [
+[
+25.0,
+"Unit 1"
+],
+[
+19.0,
+"WIT AND WISDOM"
+],
+[
+17.0,
+"The Wit that Won Hearts"
+],
+[
+13.0,
+"Let us do these activities before we read."
+],
+[
+11.0,
+"I\t Select qualities of a person who uses wit from the box given below."
+],
+[
+11.0,
+"wise"
+]
+],
+"big2": [
+[
+13.0,
+"Discuss in pairs."
+],
+[
+13.0,
+"Let us read"
+],
+[
+13.0,
+"The Vijayanagara Empire was renowned for its glory, wealth,"
+],
+[
+13.0,
+"and cultural achievements. Among its many illustrious rulers,"
+],
+[
+13.0,
+"King Krishnadeva Raya (ruled 1509–29 CE) stood out as a wise"
+],
+[
+13.0,
+"and powerful monarch. His reign is often referred to as the"
+]
+]
+},
+{
+"file": "hepr102",
+"pages": 52,
+"big": [
+[
+25.0,
+"Unit 2"
+],
+[
+18.0,
+"VALUES AND DISPOSITIONS"
+],
+[
+17.0,
+"A Tale of Valour"
+],
+[
+14.0,
+"Major Somnath Sharma and the Battle of Badgam"
+],
+[
+13.0,
+"Let us do these activities before we read."
+],
+[
+12.0,
+"49"
+]
+],
+"big2": [
+[
+13.0,
+"Let us read"
+],
+[
+13.0,
+"Mera desh, mera desh re"
+],
+[
+13.0,
+"Mera desh hua re roshan,"
+],
+[
+13.0,
+"le qurban kiya tujh hee pe ye tan man…"
+],
+[
+13.0,
+"This is a tribute to the valiant Major Somnath Sharma, India’s"
+],
+[
+13.0,
+"first recipient of the Param Vir Chakra, whose name is etched"
+]
+]
+},
+{
+"file": "hepr103",
+"pages": 54,
+"big": [
+[
+25.0,
+"Unit 3"
+],
+[
+19.0,
+"MYSTERY AND MAGIC"
+],
+[
+17.0,
+"The Case of the Fifth Word"
+],
+[
+13.0,
+"Let us do these activities before we read."
+],
+[
+11.0,
+"I\t Work in pairs. Solve the crossword puzzle given below with the clues"
+],
+[
+11.0,
+"in the form of anagrams."
+]
+],
+"big2": [
+[
+16.0,
+"I"
+],
+[
+13.0,
+"Let us read"
+],
+[
+13.0,
+"Encyclopedia Brown is a young boy who lives in Idaville, USA."
+],
+[
+13.0,
+"His father is the Chief of Police. In spite of being so young he"
+],
+[
+13.0,
+"often helps his father solve mysteries that even the police find"
+],
+[
+13.0,
+"difficult to solve. Their discussions are generally held at the"
+]
+]
+},
+{
+"file": "hepr104",
+"pages": 50,
+"big": [
+[
+25.0,
+"Unit 4"
+],
+[
+19.0,
+"ENVIRONMENT"
+],
+[
+17.0,
+"The Cherry Tree"
+],
+[
+13.0,
+"Let us do these activities before we read."
+],
+[
+11.0,
+"I\t Work in pairs and answer the questions that follow. Share your answers"
+],
+[
+11.0,
+"with your classmates and teacher."
+]
+],
+"big2": [
+[
+16.0,
+"I"
+],
+[
+13.0,
+"Let us read"
+],
+[
+13.0,
+"One day, when Rakesh was six, he walked home"
+],
+[
+13.0,
+"from the Mussoorie bazaar eating cherries. They"
+],
+[
+13.0,
+"were a little sweet, a little sour; small, bright red"
+],
+[
+13.0,
+"cherries, which had come all the way from the"
+]
+]
+},
+{
+"file": "hepr105",
+"pages": 48,
+"big": [
+[
+25.0,
+"Unit 5"
+],
+[
+19.0,
+"SCIENCE AND CURIOSITY"
+],
+[
+17.0,
+"Feathered Friend"
+],
+[
+13.0,
+"Let us do these activities before we read."
+],
+[
+11.0,
+"I\t Work in pairs and discuss the questions given below. Share your"
+],
+[
+11.0,
+"answers with your classmates and teacher."
+]
+],
+"big2": [
+[
+13.0,
+"Let us read"
+],
+[
+12.0,
+"206"
+],
+[
+11.0,
+"II\t Complete the words given below by inserting vowels. Refer to their"
+],
+[
+11.0,
+"meanings given alongside. Share your answers with your classmates"
+],
+[
+11.0,
+"and teacher."
+],
+[
+11.0,
+"1.\tofficial rule that controls how something is done: R _ G _ L _ T _ _ N"
+]
+]
+}
+],
+"hesc1": [
+{
+"file": "hesc101",
+"pages": 16,
+"big": [
+[
+55.8,
+"P"
+],
+[
+22.4,
+"CROP PRODUCTION AND MANAGEMENT"
+],
+[
+14.0,
+"1.1 Agricultural Practices"
+],
+[
+12.0,
+"aheli and Boojho went to their"
+],
+[
+12.0,
+"uncle’s house during the summer"
+],
+[
+12.0,
+"vacation. Their uncle is a farmer."
+]
+],
+"big2": [
+[
+14.0,
+"1.3 Preparation of Soil"
+],
+[
+14.0,
+"1.2 Basic Practices of Crop"
+],
+[
+14.0,
+"Production"
+],
+[
+12.0,
+"variety of crops grown in different parts"
+],
+[
+12.0,
+"to as agricultural practices which are"
+],
+[
+12.0,
+"of the country. Despite this diversity,"
+]
+]
+},
+{
+"file": "hesc102",
+"pages": 15,
+"big": [
+[
+55.8,
+"Y"
+],
+[
+22.4,
+"MICROORGANISMS : FRIEND AND FOE"
+],
+[
+14.0,
+"2.1 Microorganisms"
+],
+[
+14.0,
+"Activity 2.1"
+],
+[
+14.0,
+"Activity 2.2"
+],
+[
+12.0,
+"These observations show that water"
+]
+],
+"big2": [
+[
+10.0,
+"Fig. 2.1: Bacteria"
+],
+[
+10.0,
+"Fig. 2.2 : Algae"
+],
+[
+10.0,
+"Fig. 2.3 : Protozoa"
+],
+[
+10.0,
+"Fig. 2.4 : Fungi"
+],
+[
+10.0,
+"SCIENCE"
+],
+[
+10.0,
+"18"
+]
+]
+},
+{
+"file": "hesc103",
+"pages": 8,
+"big": [
+[
+55.8,
+"W"
+],
+[
+24.0,
+"COAL AND PETROLEUM"
+],
+[
+14.0,
+"Activity 3.1"
+],
+[
+14.0,
+"Activity 3.2"
+],
+[
+12.0,
+"Can air, water and soil be exhausted"
+],
+[
+12.0,
+"e use various materials for our"
+]
+],
+"big2": [
+[
+14.0,
+"3.1 Coal"
+],
+[
+12.0,
+"These sub-groups represent the"
+],
+[
+12.0,
+"consumers. As population is"
+],
+[
+12.0,
+"You may have seen coal or heard about"
+],
+[
+12.0,
+"growing,"
+],
+[
+12.0,
+"second"
+]
+]
+},
+{
+"file": "hesc104",
+"pages": 13,
+"big": [
+[
+55.8,
+"W"
+],
+[
+24.0,
+"COMBUSTION AND FLAME"
+],
+[
+14.0,
+"4.1 What is Combustion?"
+],
+[
+12.0,
+"e use different kinds of fuel for"
+],
+[
+12.0,
+"various purposes at home, in"
+],
+[
+12.0,
+"industry and for running"
+]
+],
+"big2": [
+[
+14.0,
+"Activity 4.2"
+],
+[
+14.0,
+"Activity 4.1"
+],
+[
+12.0,
+"(Caution : Be careful while handling"
+],
+[
+12.0,
+"burning candle)."
+],
+[
+12.0,
+"Fix a lighted candle on a table. Put"
+],
+[
+12.0,
+"a glass chimney over the candle and"
+]
+]
+},
+{
+"file": "hesc105",
+"pages": 13,
+"big": [
+[
+55.8,
+"W"
+],
+[
+22.4,
+"CONSERVATION OF PLANTS AND ANIMALS"
+],
+[
+14.0,
+"Activity 5.1"
+],
+[
+14.0,
+"5.2 Consequences of"
+],
+[
+14.0,
+"Deforestation"
+],
+[
+14.0,
+"5.1 Deforestation and Its"
+]
+],
+"big2": [
+[
+14.0,
+"Activity 5.2"
+],
+[
+14.0,
+"5.3 Conservation of Forest"
+],
+[
+14.0,
+"and Wildlife"
+],
+[
+12.0,
+"amount in the atmosphere. This will lead"
+],
+[
+12.0,
+"to global warming as carbon dioxide"
+],
+[
+12.0,
+"traps the heat rays reflected by the earth."
+]
+]
+},
+{
+"file": "hesc106",
+"pages": 13,
+"big": [
+[
+55.8,
+"D"
+],
+[
+24.0,
+"REPRODUCTION IN ANIMALS"
+],
+[
+14.0,
+"6.2 Sexual Reproduction"
+],
+[
+14.0,
+"6.1 Modes of Reproduction"
+],
+[
+12.0,
+"o you recall the processes of"
+],
+[
+12.0,
+"digestion, circulation and"
+]
+],
+"big2": [
+[
+12.0,
+"in humans and study the process of"
+],
+[
+12.0,
+"sperm is a single cell with all the usual"
+],
+[
+12.0,
+"reproduction in them."
+],
+[
+12.0,
+"cell components."
+],
+[
+12.0,
+"Male Reproductive Organs"
+],
+[
+12.0,
+"The male reproductive organs include a"
+]
+]
+},
+{
+"file": "hesc107",
+"pages": 14,
+"big": [
+[
+55.8,
+"I"
+],
+[
+21.8,
+"REACHING THE AGE OF ADOLESCENCE"
+],
+[
+14.0,
+"7.1"
+],
+[
+14.0,
+"Adolescence and Puberty"
+],
+[
+12.0,
+"no longer a child but are on the way to"
+],
+[
+12.0,
+"n the previous chapter, you have"
+]
+],
+"big2": [
+[
+14.0,
+"7.2 Changes at Puberty"
+],
+[
+14.0,
+"Activity 7.1"
+],
+[
+12.0,
+"the tallest and who might be the"
+],
+[
+12.0,
+"shortest in your class."
+],
+[
+12.0,
+"Increase in Height"
+],
+[
+12.0,
+"The most conspicuous change during"
+]
+]
+},
+{
+"file": "hesc108",
+"pages": 19,
+"big": [
+[
+55.8,
+"I"
+],
+[
+24.0,
+"FORCE AND PRESSURE"
+],
+[
+14.0,
+"8.1 Force – A Push or a Pull"
+],
+[
+12.0,
+"by a batsman? (Fig. 8.1). In all these"
+],
+[
+12.0,
+"n Class VII, you have learnt how"
+],
+[
+12.0,
+"objects move. Do you recall how we"
+]
+],
+"big2": [
+[
+14.0,
+"Activity 8.1"
+],
+[
+12.0,
+"Table 8.1 gives some examples of familiar situations involving motion of objects."
+],
+[
+12.0,
+"You can add more such situations or replace those given here. Try to identify"
+],
+[
+12.0,
+"action involved in each case as a push and/or a pull and record your observations."
+],
+[
+12.0,
+"One example has been given to help you."
+],
+[
+12.0,
+"Do you notice that each of the actions"
+]
+]
+},
+{
+"file": "hesc109",
+"pages": 11,
+"big": [
+[
+55.8,
+"Y"
+],
+[
+24.0,
+"FRICTION"
+],
+[
+14.0,
+"9.1 Force of Friction"
+],
+[
+14.0,
+"Activity 9.1"
+],
+[
+12.0,
+"ou might have seen a driver of a"
+],
+[
+12.0,
+"car or a truck slowing down the"
+]
+],
+"big2": [
+[
+14.0,
+"9.2 Factors affecting Friction"
+],
+[
+14.0,
+"Activity 9.2"
+],
+[
+14.0,
+"Activity 9.3"
+],
+[
+12.0,
+"You saw that if you apply the force"
+],
+[
+12.0,
+"for this difference? Repeat this"
+],
+[
+12.0,
+"along the left, friction acts along the"
+]
+]
+},
+{
+"file": "hesc110",
+"pages": 15,
+"big": [
+[
+55.8,
+"H"
+],
+[
+24.0,
+"SOUND"
+],
+[
+12.0,
+"Sound plays an important role in our"
+],
+[
+12.0,
+"ow do you come to know that a"
+],
+[
+12.0,
+"‘period’ is over in your school?"
+],
+[
+12.0,
+"lives. It helps us to communicate with"
+]
+],
+"big2": [
+[
+14.0,
+"10.1 Sound is Produced by a"
+],
+[
+14.0,
+"Activity 10.2"
+],
+[
+14.0,
+"Vibrating Body"
+],
+[
+14.0,
+"Activity 10.1"
+],
+[
+14.0,
+"Activity 10.3"
+],
+[
+12.0,
+"Take a rubber band. Put it around"
+]
+]
+},
+{
+"file": "hesc111",
+"pages": 12,
+"big": [
+[
+55.8,
+"Y"
+],
+[
+24.0,
+"CHEMICAL EFFECTS OF"
+],
+[
+24.0,
+"ELECTRIC CURRENT"
+],
+[
+14.0,
+"11.1 Do Liquids Conduct"
+],
+[
+14.0,
+"Electricity?"
+],
+[
+12.0,
+"our elders might have cautioned"
+]
+],
+"big2": [
+[
+14.0,
+"Activity 11.1"
+],
+[
+14.0,
+"Activity 11.2"
+],
+[
+12.0,
+"However, replace the cell by a battery."
+],
+[
+12.0,
+"of the tester glow? Does lemon juice"
+],
+[
+12.0,
+"Also, before using the tester we"
+],
+[
+12.0,
+"or vinegar conduct electricity? How"
+]
+]
+},
+{
+"file": "hesc112",
+"pages": 15,
+"big": [
+[
+24.0,
+"SOME NATURAL PHENOMENA"
+],
+[
+14.0,
+"12.1Lightning"
+],
+[
+12.0,
+"kind of resin) was rubbed with fur, it"
+],
+[
+12.0,
+"In this chapter we shall discuss two"
+],
+[
+12.0,
+"attracted light objects such as hair. You"
+],
+[
+12.0,
+"destructive natural phenomena. These"
+]
+],
+"big2": [
+[
+14.0,
+"12.2 Charging by Rubbing"
+],
+[
+14.0,
+"Activity 12.1"
+],
+[
+14.0,
+"Activity 12.2"
+],
+[
+12.0,
+"a plastic scale on your dry hair, the"
+],
+[
+12.0,
+"small pieces of dry leaf, husk and"
+],
+[
+12.0,
+"scale can attract very small pieces of"
+]
+]
+},
+{
+"file": "hesc113",
+"pages": 18,
+"big": [
+[
+55.8,
+"T"
+],
+[
+24.0,
+"LIGHT"
+],
+[
+14.0,
+"13.1 What makes Things"
+],
+[
+14.0,
+"Visible"
+],
+[
+14.0,
+"13.2 Laws of Reflection"
+],
+[
+14.0,
+"Activity 13.1"
+]
+],
+"big2": [
+[
+14.0,
+"Activity 13.2"
+],
+[
+12.0,
+"Draw lines showing the position of"
+],
+[
+12.0,
+"the plane mirror, the incident ray and"
+],
+[
+12.0,
+"the reflected ray on the paper with the"
+],
+[
+12.0,
+"help of your friends. Remove the mirror"
+],
+[
+12.0,
+"and the comb. Draw a line making an"
+]
+]
+}
+],
+"hhml1": [
+{
+"file": "hhml101",
+"pages": 12,
+"big": [
+[
+33.0,
+"1"
+],
+[
+26.0,
+"स्वदेेश"
+],
+[
+17.0,
+"वह हृदय नहींं हैै पत्थर हैै,"
+],
+[
+17.0,
+"जिKसमेंं स्वदेेश काा प्यार नहींं।"
+],
+[
+17.0,
+"जो जीवि�त जोश जगाा न सकाा,"
+],
+[
+17.0,
+"उस जीवन मेंं कुुछ सार नहींं।"
+]
+],
+"big2": [
+[
+17.0,
+"जिKसकी मि�ट्टीी मेंं उगेे बढ़ेे,"
+],
+[
+17.0,
+"पाया"
+],
+[
+17.0,
+"जिKसमेंं"
+],
+[
+17.0,
+"दाना-पानी।"
+],
+[
+17.0,
+"हैंं माता-पि�ता बंंधुु जिKसमेंं,"
+],
+[
+17.0,
+"हम हैंं जिKसकेे राजा-रानी॥"
+]
+],
+"ocr": "है स्वदेश ie Ss | वह हृदय नहीं है पत्थर है, ae [न | जिसमें स्वदेश का प्यार नहीं। arte hips | जो जीवित जोश जगा न सका, वि | उस जीवन में कुछ सार नहीं। “aaa | जो चल न सका संसार-संग, | उसका होता संसार नहीं॥ | जिसने साहस को छोड़ दिया, | वह पहुँच सकेगा पार नहीं। | {~> ~ ~ - ~ ~~"
+},
+{
+"file": "hhml102",
+"pages": 23,
+"big": [
+[
+33.0,
+"2"
+],
+[
+26.0,
+"दोो गौौरैैयाा"
+],
+[
+17.0,
+"घर मेें हम तीन ही व्‍यक्‍त‍ि रहते हैैं— माँ, पिताजी"
+],
+[
+17.0,
+"और मैैं। पर पिताजी कहते हैैं कि ययह घर सरायय"
+],
+[
+17.0,
+"बना हुआ है। हम तो जैसे ययहाँ मेहमान हैैं, घर के"
+],
+[
+17.0,
+"मालिक तो कोई दूसरे ही हैैं।"
+]
+],
+"big2": [
+[
+17.0,
+"मन आयया तो अंदर"
+],
+[
+17.0,
+"आकर दूध पी गई, न मन"
+],
+[
+17.0,
+"आयया तो बाहर से ही ‘फिर"
+],
+[
+17.0,
+"आऊँगी’ कहकर चली जाती"
+],
+[
+17.0,
+"है। शाम पड़ते ही दो-तीन चमगादड़"
+],
+[
+17.0,
+"कमरोों के आर-पार पर फैलाए कसरत"
+]
+],
+"ocr": "हि ४ Aa aA PITA | |) WS (प की | ^. {4८.१८ Ni ४८) DN Ny | W OMA 5 Ae VAN AVS BA won | v ~ (70) 0) | a), ee “न 9700 | है) दो गौरैया “Nye ae ६०७ (५ ४ ५ | HAN OR a WZ. || | घर में हम तीन ही व्यक्ति रहते है माँ, पिताजी ¢ // । w \\ | | ओर मै। पर पिताजी कहते हैँ कि यह घर सराय YY 4 | बना हुआ है। हम तो जैसे यहाँ मेहमान हैं, घर के ॥ 2८ हे | मालिक तो कोई दूसरे ही हैं ९ 2 | आँगन में आम का पेड़ है। तरह-तरह के प"
+},
+{
+"file": "hhml103",
+"pages": 9,
+"big": [
+[
+33.0,
+"3"
+],
+[
+26.0,
+"एक आशीीर्वााŊद"
+],
+[
+17.0,
+"जा,"
+],
+[
+17.0,
+"तेरे स््वप््न बड़े होों"
+],
+[
+17.0,
+"भावनना की गोद से उतरकर"
+],
+[
+17.0,
+"जल्द पृथ््ववी पर चलनना सीीखेें"
+]
+],
+"big2": [
+[
+20.0,
+"पााठ सेे"
+],
+[
+18.0,
+"लेखक से परिचय"
+],
+[
+18.0,
+"मेेरीी समझ सेे"
+],
+[
+17.0,
+"(1933–1975)"
+],
+[
+15.0,
+"दुष््यंत कुमार हिंदीी के लोकप्रियय रचननाकारों मेें से एक हैैं। इननका जन्म बिजननौर"
+],
+[
+15.0,
+"(उत्तर प्रदेश) मेें हुआ था। बहुत कम समयय मेें हीी इन्होोंनने हिंदीी साहित््य को"
+]
+],
+"ocr": "स 4 > | & [न्‌ [7] i | जज (>: ह, ~~ | @ एक आशीर्वाद १.४६ । | जा, कै ( y | तेरे स्वप्न बड़े हों = | भावना की गोद से उतरकर ॥ र _ | जल्द पृथ्वी पर चलना सीखें YY “ oo | चाँद-तारों-सी अप्राप्य सच्चाइयों के लिए fi’, ॥ । | रूठना-मचलना सीखें « १ it | मसकराएँ =e"
+},
+{
+"file": "hhml104",
+"pages": 18,
+"big": [
+[
+33.0,
+"4"
+],
+[
+26.0,
+"हरिēद्वाार"
+],
+[
+17.0,
+"(‘कविdवचन सुुधाा’ 14 अक्‍‍टूूबर सन्् 1871 ई.)"
+],
+[
+17.0,
+"की यात्रा पर गए थे। वे लिखते हैैंं— “मेरा तो चित्त वहाँ जाते"
+],
+[
+17.0,
+"श्रीीमाान कविdवचन सुुधाा संंपाादक महाामहि�म"
+],
+[
+17.0,
+"मि�त्रवरेेषुु!"
+]
+],
+"big2": [
+[
+17.0,
+"यहाँँ1 तक कि� जलेे पर भी कोयलेे और राख सेे लोगोंंं काा मनोोर्थथ पूूर्णण करतेे हैंं। सज्जन ऐसेे कि�"
+],
+[
+17.0,
+"पत्थर मारनेे सेे फल देेतेे हैंं। इन वृृक्षोंं पर अनेेक रंंग केे पक्षीी चहचहाातेे हैंं और नगर केे दुुष्‍‍ट बधि�कोंं"
+],
+[
+17.0,
+"सेे नि�डर होकर कल्लोल करतेे हैंं। वर्षाा� केे काारणण सब ओर हरि_याली ही दि�खाई पड़ती"
+],
+[
+17.0,
+"ी थी मानो"
+],
+[
+17.0,
+"हरेे गलीीचाा की जात्रि�योंं केे वि�श्रााम केे हेेतुु बि�छाायत बि�छीी थी। एक ओर त्रि�भुुवन पावनी श्री गंंगा"
+],
+[
+17.0,
+"जी की पवि�त्र धारा बहती हैै जो राजा भगीीरथ केे उज्ज्वल कीर्ति�ि की लताा-सी दि�खाई देेती हैै।"
+]
+],
+"ocr": "॥ f ॥ | ध [न] १, Se | ih | 58 A “pe ^ 0 | 2 हरिद्वार = TI | ५ i a EZ | तं ८ || 2 il | (“कविवचन सुधा” 4 अक्टूबर सन्‌ 87 ई.) [३] प YS य बल ० | ५ he रा अ = ete acta re ee | 3 Sa {8 ( ee oe ea = | Link Panoramic view of har ki pauri view2.jpg (Auther: kumravels)"
+},
+{
+"file": "hhml105",
+"pages": 13,
+"big": [
+[
+33.0,
+"5"
+],
+[
+26.0,
+"कबीीर केे दोोहेे*"
+],
+[
+17.0,
+"साँँ1च बरााबर तप नहींं, झूूठ बरााबर पााप।"
+],
+[
+17.0,
+"जााकेे हि�रदेे साँँ1च हैै, ताा हि�रदेे गुुरु आप।।"
+],
+[
+17.0,
+"बड़ाा हुुआ तो क्याा हुुआ, जैैसेे पेेड़ खजूूर।"
+],
+[
+17.0,
+"पंंथीी को छाायाा नहींं, फल लाागैै अति� दूूर।।"
+]
+],
+"big2": [
+[
+20.0,
+"पााठ सेे"
+],
+[
+18.0,
+"कविę सेे परि�चय"
+],
+[
+18.0,
+"मेेरी समझ सेे"
+],
+[
+15.0,
+"एक ऐसे संत जो करघे पर कपड़ा और मन मेें कविता बुनते-बुनते इतने प्रसिद्ध हो गए"
+],
+[
+15.0,
+"कि उनकी कविताएँ आज भी लोग भजनोों की तरह सुनते हैैं और पाठ्यपुस््तकों मेें"
+],
+[
+15.0,
+"पढ़ाते हैैं। माना जाता है कि कबीर का जन्म चौदहवीींं शताब््ददीी मेें काशी मेें हुआ था। उनकी रचनाएँ मुख्‍यत:"
+]
+],
+"ocr": "a १९ ०३ / | / | / (= | | ७ ७ ॥ | ° ७ / | @ [नन्‌ । । | € @ [ग] न [ग] | - a स | । ९ कल + गा | | © @ थ | (पल जप | के ion a | क | | छ | ७ @ | रे न स ( | © e साँच बराबर तप नहीं, AS बराबर पाप। । | | | जाके fete साँच है, ता हिष्द गुरु आप॥ ७ | बड़ा हुआ तो क्या हुआ, जैसे पेड़ खजूर। ७ ७ > | @ । पंथी को छाया नही, फल लागै अति दूर।॥ @ | कक गुरु गोविंद दोऊ खड़े, काके लागौँ पाँय। ७ हु | निरा re am MRS नजते sat "
+},
+{
+"file": "hhml106",
+"pages": 15,
+"big": [
+[
+33.0,
+"6"
+],
+[
+26.0,
+"एक टोोकरीी भर मिđट्टीी"
+],
+[
+17.0,
+"किDसीी श्रीीमाान्् ज़मींंदाार केे महल केे पाास एक गरीब, अनाथ वृृद्धाा की"
+],
+[
+17.0,
+"झोंंपड़ीी थी। ज़मींंदाार साहब को अपनेे महल का अहाताा उस झोंंपड़ीी"
+],
+[
+17.0,
+"तक बढ़ाानेे की इच्छाा हुुई। वृृद्धाा सेे बहुुतेेरा कहा किD अपनीी झोंंपड़ीी"
+],
+[
+17.0,
+"हटाा लेे, पर वह तो कई ज़माानेे सेे वहींं बसीी थी। उसकाा प्रििÿय पति�"
+]
+],
+"big2": [
+[
+18.0,
+"लेखक से परिचय"
+],
+[
+17.0,
+"का चूूल्हा बनाकर रोटी पकााऊँँगी। इससेे भरोोसा हैै किD वह रोटी खानेे लगेेगी। महााराज कृृपाा करकेे"
+],
+[
+17.0,
+"आज्ञाा दीजि�ए तो इस टोकरी मेंं मि�ट्टीी लेे जाऊँँ!” श्रीीमाान्् नेे आज्ञाा देे दी।"
+],
+[
+17.0,
+"वृृद्धाा झोंंपड़ीी केे भीीतर गई। वहाँँ1 जातेे ही उसेे पुुरानी बातोंं का स्मरण हुुआ और उसकीी"
+],
+[
+17.0,
+"आँँखोंं सेे आँँसूू की धाारा बहनेे लगी। अपनेे आंंतरि�क दुुख को किDसीी तरह सँँभाल कर उसनेे"
+],
+[
+17.0,
+"अपनीी टोकरी मि�ट्टीी सेे भर ली और हाथ सेे उठााकर बाहर लेे आई। फि�र हाथ जोड़कर श्रीीमाान््"
+]
+],
+"ocr": "4 Pal | | = | का हि Sa: | 70\" | Al ॥ (| | [ग्‌] ९2 [ग्‌] ९ = || अ= य | ¢ एक टोकरी भर मिट्टी ie 6 |) ३३४ ¶ ORES) | af We Fan „>~ | Bias ee) | वात (~ @ i | 4 किसी श्रीमान्‌ ज़मींदार के महल के पास एक गरीब, अनाथ वृद्धा की ; ( ५ $ | ei झोंपड़ी थी। ज़मींदार साहब को अपने महल का अहाता उस जोड़ी &० ५ | ) १) तक बढ़ाने की इच्छा हुई। वृद्धा से बहुतेरा कहा कि अपनी झोंपड़ी | हटा ले, पर वह तो कई ज़माने से वहीं बस"
+},
+{
+"file": "hhml107",
+"pages": 14,
+"big": [
+[
+33.0,
+"7"
+],
+[
+26.0,
+"मत बाँँŁधोो"
+],
+[
+17.0,
+"इन सपनोंं केे पंंख न काटोो"
+],
+[
+17.0,
+"इन सपनोंं की गतिS मत बाँँ1धोो!"
+],
+[
+17.0,
+"सौरभ उड़ जााता हैै नभ मेंं"
+],
+[
+17.0,
+"फििZर वह लौौट कहाँँ1 आता हैै?"
+]
+],
+"big2": [
+[
+20.0,
+"पााठ सेे"
+],
+[
+18.0,
+"कवि से परिचय"
+],
+[
+18.0,
+"मेेरीी समझ सेे"
+],
+[
+17.0,
+"(1907–1987)"
+],
+[
+15.0,
+"हिंदी की सुप्रसिद्ध कवयित्रीत्री महादेवी वर््ममा का जन्म फर्रुखाबाद, उत्तर प्रदेश"
+],
+[
+15.0,
+"मेेंं हुआ था। उन््होोंंने छोटी उम्र से ही कवित"
+]
+],
+"ocr": "# > \"० च | (शशा क XS दु | © ०) ta | ©) मत लोधी Fy | ate इन सपनों के पंख न काटो | ge 3 Hy इन सपनों की गति मत बोधो! ag | 54. सौरभ उड़ जाता है नभ में | फिर वह लौट कहाँ आता है? | ७४, ६. >> बीज धूलि में गिर जाता जो चछ | वह नभ में कब उड़ पाता है? | अग्नि सदा धरती पर जलती | \\ धूम गगन में मंडराता है! | पा सपनों में दोनों ही गति हैं | ~ उड़ कर आँखों में आता है!"
+},
+{
+"file": "hhml108",
+"pages": 21,
+"big": [
+[
+33.0,
+"8"
+],
+[
+26.0,
+"नए मेेहमान"
+],
+[
+17.0,
+"—   गृृहपति�"
+],
+[
+17.0,
+"नन्हेेमल, बााबूूलाल\t —   अति�थि�"
+],
+[
+17.0,
+"—   वि�श्‍ ‍वनााथथ केे बच्चेे"
+],
+[
+17.0,
+"—   रेेवतीी काा भााई"
+]
+],
+"big2": [
+[
+17.0,
+"टाँँ�ग देेता हैै और हाथथ केे पंंखेे सेे बच्चेे को हवाा करता हैै। उसकाा नाम वि�श्‍ ‍वनााथथ हैै। उम्र 45 वर्षष, गठा हुुआ"
+],
+[
+17.0,
+"शरीर, गेेहुँँ�आ रंंग, मुुख पर गंंभीरता काा चि�ह्् न।)"
+],
+[
+17.0,
+"विश्‍व"
+],
+[
+17.0,
+"नाथ"
+],
+[
+17.0,
+"ओफ, बड़़ीी गरमी है! (पंखा जोर-जोर से करने लगता है) इन बंद मकानों मेें रहना कितना"
+],
+[
+17.0,
+"भयंकर है! मकान है कि भट्टीट्टी!"
+]
+],
+"ocr": "ot (४ फ - | | 9 नए मेहमान र्कः | गा | जि2 | ~ | — <i | किराये के एक छोटे से मकान में अनेक असुविधाओं और गर्मी से परेशान घर | AN | के लोग रात में सोने की तैयारी कर रहे हैं। तभी अचानक दो ऐसे मेहमान आ कि ९।५ | | जाते हैं जिन्हें घर का कोई व्यक्ति नहीं जानता है। “मान न मान मैं तेरा मेहमान ins | वाली स्थिति हो जाती है। संकोचवश उनकी खातिरदारी में जुटा एक आधुनिक | शहरी मध्यवर्गीय परिवार किन परेशानियों से "
+},
+{
+"file": "hhml109",
+"pages": 14,
+"big": [
+[
+33.0,
+"9"
+],
+[
+26.0,
+"आदमीी काा अनुुपाात"
+],
+[
+17.0,
+"दोो व्‍‍यक्‍ति³िS कमरेे मेंं"
+],
+[
+17.0,
+"कमरेे सेे छोोटेे —"
+],
+[
+17.0,
+"कमरा हैै घर मेंं"
+],
+[
+17.0,
+"घर हैै मुुहल्लेे मेंं"
+]
+],
+"big2": [
+[
+18.0,
+"कवि से परिचय"
+],
+[
+17.0,
+"कि�तनी"
+],
+[
+17.0,
+"ी ही भूूमि�याँँ"
+],
+[
+17.0,
+"ी ही सृृष्‍ट‍ििÕि��याँँ"
+],
+[
+17.0,
+"यह हैै अनुुपात"
+],
+[
+17.0,
+"आदमीी का वि�रााट सेे"
+]
+],
+"ocr": "€) आदमी का अनुपात 6 “og | 4d ५५५ (४ | जि ||: | दो व्यक्ति के में । || | कमरे से छोटे -- | ॥ | AW | कमरा है घर में ie | घर है मुहल्ले में ॥ ॥ | मुहल्ला नगर में ty | | नगर है प्रदेश में | | प्रदेश कई देश में # | > _( ~~ ~ 2"
+},
+{
+"file": "hhml110",
+"pages": 23,
+"big": [
+[
+33.0,
+"10"
+],
+[
+26.0,
+"तरुण केे स्वप्‍न"
+],
+[
+17.0,
+"स्ववप्न तो अनेेकोंं नेे देेखा। हमारेे नेेता स्वर्गीीयय देेशबंंधुु चि�त्तरंंजन दास नेे भी एक स्ववप्न देेखा"
+],
+[
+17.0,
+"था। वहीी स्ववप्न उनकी शक्‍त‍ि�ि�� का उत्स बना और उनकेे आनंंद का नि�र्झझर रहा। उनकेे स्ववप्न केे"
+],
+[
+17.0,
+"उत्तराधि�कारी आज हम हैंं। इसलि�ए हमारा"
+],
+[
+17.0,
+"भी अपना एक स्ववप्न हैै, इसी स्ववप्न की"
+]
+],
+"big2": [
+[
+17.0,
+"कि�सी भी वि�जातीयय प्रभावव सेे हर प्रकार सेे मुुक्‍‍त रहेेगा। जो राष्ट्र हमारेे स्वदेेशी समाज केे यंंत्र केे रूप मेंं"
+],
+[
+17.0,
+"काम करेेगा, सर्वोपरि� ववह समाज और राष्ट्र भारतवाासि�योंंं का अभावव मि�टाएगा याा भारतवाासी केे आदर्शशश"
+],
+[
+17.0,
+"को सार्थथक बनाकर ही स्थि�िर नहींं होगा, बल्किÐि वि�श्‍‍वव-मानवव केे समक्ष आदर्शशश-समाज और आदर्शशश-राष्ट्र"
+],
+[
+17.0,
+"केे रूप मेंं गण्यय होगा। मैंं ऐसेे समाज और ऐसेे राष्ट्र का ही स्ववप्न देेखता रहा हूँँ1। ययह स्ववप्न मेेरेे समक्ष नि�त्यय"
+],
+[
+17.0,
+"एवंं अखंंड सत्यय हैै। इस सत्यय की प्रति�ष्‍ठाा केे लि�ए सबकुुछ कि�या जा सकता हैै, हर प्रकार का त्यााग कि�या"
+],
+[
+17.0,
+"जा सकता हैै, हर संंकट को सहा जा सकता हैै और इस स्ववप्न को सार्थथक बनानेे केे दौरान प्राण देेना भी हैै"
+]
+],
+"ocr": "ॐ कः छः | [न्‌] ae ४५ [७] & | @ तरुण के स्वप्न | \"6 वि SAN | — | | च | [न] नि (ग ~ । 3 | नेताजी सुभाषचंद्र बोस ऐसे स्वाधीन संपन समाज और राष्ट्र का सपना देखते थे जिसमें व्यक्ति सब दृष्टियों | | से मुक्त हो ओर समाज तथा राष्ट्र की सेवा में समान रूप से भागीदार बने। वे अपने उद्बोधनों मे नारी मुक्ति | और सभी को शिक्षा तथा समान अवसर मिलने की बात भी करते थे। अपना यह स्वप्न वे युवाओं को सौपना | चाहते थे जि"
+}
+],
+"hhvs1": [
+{
+"file": "hhvs101",
+"pages": 8,
+"big": [
+[
+36.0,
+"1"
+],
+[
+36.0,
+"lkjs xk¡o esa cnyw eq>s lcls"
+],
+[
+30.0,
+"yk[k dh pwfM+;k¡"
+],
+[
+16.0,
+"vPNk vkneh yxrk Fkk D;ksafd"
+],
+[
+16.0,
+"og eq>s lqanj&lqanj yk[k dh xksfy;k¡"
+],
+[
+16.0,
+"cukdj nsrk FkkA eq>s vius ekek"
+]
+],
+"big2": [
+[
+16.0,
+"2"
+],
+[
+16.0,
+"eqyk;e gksus ij og mls lyk[k osQ leku iryk djosQ pwM+h dk vkdkj nsrkA"
+],
+[
+16.0,
+"ikl esa pkj&Ng fofHkUUk vkdkj dh csyuuqek eqa¡xsfj;k¡ j[kh jgrha tks vkxs ls"
+],
+[
+16.0,
+"oqQN iryh vkSj ihNs ls eksVh gksrhaA yk[k dh pwM+h dk vkdkj nsdj og mUgsa"
+],
+[
+16.0,
+"eq¡xsfj;ksa ij p<+kdj xksy vkSj fpduk cukrk vkSj rc ,d&,d dj iwjs gkFk dh"
+],
+[
+16.0,
+"pwfM+;k¡ cuk pqdus osQ i'pkr og mu ij jax djrkA"
+]
+],
+"ocr": "ae [न] | | | न | ¥ लाख की चूड़ियाँ =o | सा । > द | रे गाँव में बदलू मुझे सबसे “Se a I ॥ | | अच्छा आदमी लगता था क्योकि >> ४०१ | वह मुझे सुंदर-सुंदर लाख की गोलियाँ न क | . = | बनाकर देता था। मुझे अपने मामा पि ^ | | ड"
+},
+{
+"file": "hhvs102",
+"pages": 7,
+"big": [
+[
+36.0,
+"2"
+],
+[
+36.0,
+"ge ik¡p fe=kksa us r; fd;k fd 'kke pkj cts dh cl ls pysaA iUuk ls"
+],
+[
+30.0,
+"cl dh ;k=kk"
+],
+[
+16.0,
+"blh oaQiuh dh cl lruk osQ fy, ?kaVs Hkj ckn feyrh gS tks tcyiqj dh"
+],
+[
+16.0,
+"Vªsu feyk nsrh gSA lqcg ?kj igq¡p tk,¡xsA ge esa ls nks dks lqcg dke ij"
+],
+[
+16.0,
+"gkf”kj gksuk Fkk blhfy, okilh dk ;gh jkLrk viukuk ”k:jh FkkA yksxksa us"
+]
+],
+"big2": [
+[
+16.0,
+"10"
+],
+[
+16.0,
+"cl&oaQiuh osQ ,d fgLlsnkj Hkh mlh cl ls tk jgs FksA geus muls"
+],
+[
+16.0,
+"iwNkµ¶;g cl pyrh Hkh gS\\¸ og cksysµ¶pyrh D;ksa ugha gS th! vHkh"
+],
+[
+16.0,
+"pysxhA¸ geus dgkµ¶ogh rks ge ns[kuk pkgrs gaSA vius vki pyrh gS"
+],
+[
+16.0,
+";g\\ gk¡ th] vkSj oSQls pysxh\\¸"
+],
+[
+16.0,
+"x”kc gks x;kA ,slh cl vius vki pyrh gSA"
+]
+],
+"ocr": "a i} | [ग्‌ | कस की यात्रा >= | हम पाँच मित्रों ने तय किया कि शाम चार बजे की बस से चलें। पन्ना से | इसी कंपनी की बस सतना के लिए घंटे भर बाद मिलती है जो जबलपुर की | ट्रेन मिला देती है। सुबह घर पहुँच जाएँगे। हम में से दो को सुबह काम पर | हाजिर होना था इसीलिए वापसी का यही रास्ता अपनाना ज़रूरी था। लोगों ने"
+},
+{
+"file": "hhvs103",
+"pages": 3,
+"big": [
+[
+36.0,
+"3"
+],
+[
+36.0,
+"ge nhokuksa dh D;k gLrh]"
+],
+[
+30.0,
+"nhokuksa dh gLrh"
+],
+[
+16.0,
+"16"
+],
+[
+16.0,
+"gSa vkt ;gk¡] dy ogk¡ pys]"
+],
+[
+16.0,
+"eLrh dk vkye lkFk pyk]"
+]
+],
+"big2": [
+[
+20.0,
+"iz'u&vH;kl"
+],
+[
+16.0,
+"nhokuksa dh gLrh           17"
+],
+[
+16.0,
+"ge fHk[keaxksa dh nqfu;k esa]"
+],
+[
+16.0,
+"LoPNan yqVkdj I;kj pys]"
+],
+[
+16.0,
+"ge ,d fulkuh&lh mj ij]"
+],
+[
+16.0,
+"ys vliQyrk dk Hkkj pysA"
+]
+],
+"ocr": "sz भाग | प्त | भ | eters | क की हस्ती Sg | & | बट ॥ | 4 ७७ | न 4 & 5 हम दीवानों कौ क्या हस्ती, | : {4 ` ~ हैं आज यहाँ, कल वहाँ चले, | 0 a ( क मस्ती का आलम साथ चला, | ay ae ACY, | हम धूल sen जहाँ चले।"
+},
+{
+"file": "hhvs104",
+"pages": 3,
+"big": [
+[
+36.0,
+"4"
+],
+[
+36.0,
+"i{kh vkSj ckny]"
+],
+[
+30.0,
+"Hkxoku osQ Mkfd,"
+],
+[
+16.0,
+";s Hkxoku osQ Mkfd, gSa]"
+],
+[
+16.0,
+"tks ,d egkns'k ls"
+],
+[
+16.0,
+"nwljs egkns'k dks tkrs gSaA"
+]
+],
+"big2": [
+[
+20.0,
+"iz'u&vH;kl"
+],
+[
+16.0,
+"20"
+],
+[
+16.0,
+"dfork ls"
+],
+[
+16.0,
+"ikB ls vkxs"
+],
+[
+16.0,
+"vuqeku vkSj dYiuk"
+],
+[
+14.0,
+"1- dfo us i{kh vkSj ckny dks Hkxoku osQ Mkfd, D;ksa crk;k gS\\ Li\"V"
+]
+],
+"ocr": "(Ok. आन | ; लर | Geral | मा हि | श भगवान के डाकिए न्य | ऋनि ` हि आई त क्षी और बादल, | a Z ये भगवान के डाकिए हैं, | = - ५५ जो एक महादेश से | A ९ # 3 दूसरे महादेश को जाते हैं।"
+},
+{
+"file": "hhvs105",
+"pages": 11,
+"big": [
+[
+36.0,
+"ck/k,¡ vkrh gSa] vk,¡]"
+],
+[
+30.0,
+"dne feykdj pyuk gksxk"
+],
+[
+20.0,
+"osQoy i<+us osQ fy,"
+],
+[
+16.0,
+"f?kjsa izy; dh ?kksj ?kVk,¡"
+],
+[
+16.0,
+"ik¡oksa osQ uhps vaxkjs]"
+],
+[
+16.0,
+"flj ij cjlsa ;fn Tokyk,¡"
+]
+],
+"big2": [
+[
+16.0,
+"dne feykdj pyuk gksxk            23"
+],
+[
+16.0,
+"{kf.kd thr esa] nh?kZ gkj esa]"
+],
+[
+16.0,
+"thou osQ 'kr&'kr vkd\"kZd]"
+],
+[
+16.0,
+"vjekuksa dks nyuk gksxkA"
+],
+[
+16.0,
+"dne feykdj pyuk gksxkA"
+],
+[
+16.0,
+"lEeq[k iSQyk vej è;s; iFk]"
+]
+],
+"ocr": "पढ़ने के लिए | ell | कदम मिलाकर चलना होगा | लवा आती हैं, आएँ, | घिरें प्रलय की घोर घटाएँ | ॥ पांवों के नीचे om"
+},
+{
+"file": "hhvs106",
+"pages": 6,
+"big": [
+[
+36.0,
+"6"
+],
+[
+36.0,
+"ugha] ;g lcls dfBu le; ugha!"
+],
+[
+27.3,
+";g lcls dfBu le; ugha"
+],
+[
+16.0,
+";g lcls dfBu le; ugha            33"
+],
+[
+16.0,
+"vHkh Hkh nck gS fpfM+;k dh"
+],
+[
+16.0,
+"pksap esa frudk"
+]
+],
+"big2": [
+[
+20.0,
+"iz'u&vH;kl"
+],
+[
+16.0,
+"34"
+],
+[
+16.0,
+"Fkkeus dks cSBk gS gkFk ,d"
+],
+[
+16.0,
+"vHkh Hkh HkhM+ gS LVs'ku ij"
+],
+[
+16.0,
+"vHkh Hkh ,d jsyxkM+h tkrh gS"
+],
+[
+16.0,
+"xarO; rd"
+]
+],
+"ocr": "oS | +8 नहीं > | यह सबसे कठिन समय नहीं ~य | + ~,"
+},
+{
+"file": "hhvs107",
+"pages": 3,
+"big": [
+[
+36.0,
+"7"
+],
+[
+36.0,
+"tkfr u iwNks lkèk dh] iwN yhft, KkuA"
+],
+[
+30.0,
+"dchj dh lkf[k;k¡"
+],
+[
+16.0,
+"dchj dh lkf[k;k¡           39"
+],
+[
+16.0,
+"eksy djks rjokj dk] iM+k jgu nks E;kuAA1AA"
+],
+[
+16.0,
+"vkor xkjh ,d gS] myVr gksb vusdA"
+]
+],
+"big2": [
+[
+20.0,
+"iz'u&vH;kl"
+],
+[
+16.0,
+"40"
+],
+[
+16.0,
+"ikB ls"
+],
+[
+16.0,
+"ikB ls vkxs"
+],
+[
+14.0,
+"1- ^ryokj dk egÙo gksrk gS E;ku dk ugha*µmDr mnkgj.k ls dchj D;k"
+],
+[
+14.0,
+"dguk pkgrs gSa\\ Li\"V dhft,A"
+]
+],
+"ocr": "Be | [ग] कः | र\" साखियाँ | कबीर की साखियाँ SS | < | कि >> Wy | ih नै § है| | I तिन पूछ $ लीजिए ज्ञान। । | ॥ मोल करो तरवार क हन दो म्यान।।। II | f A | | —— ee = ति a. ae /|"
+},
+{
+"file": "hhvs108",
+"pages": 4,
+"big": [
+[
+36.0,
+"8"
+],
+[
+36.0,
+"lhl ixk u >¡xk ru esa] izHkq! tkus dks vkfg cls osQfg xzkekA"
+],
+[
+30.0,
+"lqnkek pfjr"
+],
+[
+16.0,
+"42"
+],
+[
+16.0,
+"/ksrh iQVh&lh yVh nqiVh] v# ik¡; mikug dks u¯g lkekAA"
+],
+[
+16.0,
+"}kj [kM+ks f}t nqcZy ,d] jáks pfdlkas clq/k vfHkjkekA"
+]
+],
+"big2": [
+[
+20.0,
+"iz'u&vH;kl"
+],
+[
+16.0,
+"lqnkek pfjr            43"
+],
+[
+16.0,
+"og iqydfu] og mfB feyfu] og vknj dh ckrA"
+],
+[
+16.0,
+"og  iBofu  xksiky  dh]  dNw  u  tkuh  tkrAA"
+],
+[
+16.0,
+"?kj&?kj dj vksM+r fiQjs] rud ngh osQ dktA"
+],
+[
+16.0,
+"dgk Hk;ks tks vc Hk;ks] gfj dks jkt&lektA"
+]
+],
+"ocr": "स | क सुदामा Tht | सी पगा न am तनमे, प्रभु जाने को कस्त केहि ग्रामा। | धोती फटी-सी लटी दुषटी अरू पँय उपानह को नहिं सामा॥ | द्वार खड़ो द्विज दुर्बल एक, रहो । चकिसों “ श अभिरामा। | पूछत दीनदयाल को धाम) बतांवत आपनो सुदामा।।"
+},
+{
+"file": "hhvs109",
+"pages": 9,
+"big": [
+[
+36.0,
+"9"
+],
+[
+36.0,
+"iq"
+],
+[
+30.0,
+"tgk¡ ifg;k gS"
+],
+[
+16.0,
+"46"
+],
+[
+16.0,
+"Mqdks^bZ (rfeyukMq)% lkbfdy pykuk ,d lkekftd vkanksyu gS\\ oqQN"
+],
+[
+16.0,
+"vthc&lh ckr gSµgS u! ysfdu pkSadus dh ckr ugha gSA iqMqdks^bZ f”kys"
+]
+],
+"big2": [
+[
+16.0,
+"tgk¡ ifg;k gS            47"
+],
+[
+16.0,
+"izn'kZu fd;k vkSj vHkh Hkh muesa lkbfdy pykus dh bPNk tkjh gSA ogk¡"
+],
+[
+16.0,
+"blosQ fy, dbZ ^izf'k{k.k f'kfoj* py jgs gSaA"
+],
+[
+16.0,
+"xzkeh.k iqMqdks^bZ osQ eq[; bykdksa esa vR;ar :f<+oknh i`\"BHkwfe ls vkb±"
+],
+[
+16.0,
+";qok eqfLye yM+fd;k¡ lM+dksa ls viuh lkbfdyksa ij tkrh gqbZ fn[kkbZ nsrh"
+],
+[
+16.0,
+"gSaA tehyk choh uked ,d ;qorh us ftlus lkbfdy pykuk 'kq: fd;k"
+]
+],
+"ocr": "Be 3 | eit 0५ | 2222 | श जहां पहिया ठे ऊय | ड sales (तमिलनाडु): साइकिल चलाना एक सामाजिक आंदोलन है? कुछ | -सी बात है-है न! लेकिन चौंकने की बात नहीं है। पुडुकोट्टई जिले | की हज़ारों नवसाक्षर ग्रामीण महिलाओं के लिए यह अब आम बात है। अपने | पिछडेपन पर लात मारने, अपना विरोध व्यक्त करने और उन जंजीरों को"
+},
+{
+"file": "hhvs110",
+"pages": 12,
+"big": [
+[
+36.0,
+"10"
+],
+[
+36.0,
+"ykyk >kÅyky dks [kkus&ihus dh deh ugha FkhA dk'kh osQ BBsjh ck”kkj"
+],
+[
+30.0,
+"vdcjh yksVk"
+],
+[
+16.0,
+"esa edku FkkA uhps dh nqdkuksa ls ,d lkS #i;s ekfld osQ djhc fdjk;k"
+],
+[
+16.0,
+"mrj vkrk FkkA vPNk [kkrs Fks] vPNk igurs Fks] ij <kbZ lkS #i;s rks ,d"
+],
+[
+16.0,
+"lkFk vk¡[k lsadus osQ fy, Hkh u feyrs FksA"
+]
+],
+"big2": [
+[
+16.0,
+"56"
+],
+[
+16.0,
+"ykyk >kÅyky fryfeyk mBsA mUgksaus jksc osQ lkFk dgkµ¶vth gVks]"
+],
+[
+16.0,
+"<kbZ lkS #i;s osQ fy, HkkbZ ls Hkh[k ek¡xksxh] eq>ls ys ysukA¸"
+],
+[
+16.0,
+"¶ysfdu eq>s blh ¯”knxh esa pkfg,A¸"
+],
+[
+16.0,
+"¶vth blh lIrkg esa ys ysukA¸"
+],
+[
+16.0,
+"¶lIrkg ls vkidk rkRi;Z lkr fnu ls gS ;k lkr o\"kZ ls\\¸"
+]
+],
+"ocr": "ae FO} | ९ त | 0 . | के अकबरी लोटा SS | लाल झाऊलाल को खाने-पीने कौ कमी नहीं थी। काशी के ठठेरी बाजार | में मकान था। नीचे कौ दुकानों से एक सौ रुपये मासिक के करीब किराया | उतर आता था। अच्छा खाते थे, अच्छा पहनते थे, पर ढाई सौ रुपये तो एक | साथ आँख सकने के लिए भी न मिलते थे। | इसलिए जब उनकी पत्नी ने एक दिन एकाएक ढाई सौ रुपये की माँग | पेश की, तब उनका जी एक बार जोर से सनसनाया और फिर बैठ गया।"
+},
+{
+"file": "hhvs111",
+"pages": 3,
+"big": [
+[
+36.0,
+"11"
+],
+[
+30.0,
+"lwjnkl osQ in"
+],
+[
+16.0,
+"(1)"
+],
+[
+16.0,
+"eS;k] dc¯g c<+Sxh pksVh\\"
+],
+[
+16.0,
+"fdrh ckj eks¯g nwèk fi;r HkbZ] ;g vtgw¡ gS NksVhA"
+],
+[
+16.0,
+"rw tks dgfr cy dh csuh T;kSa] àS gS yk¡ch&eksVhA"
+]
+],
+"big2": [
+[
+20.0,
+"iz'u&vH;kl"
+],
+[
+16.0,
+"68"
+],
+[
+16.0,
+"inksa ls"
+],
+[
+16.0,
+"vuqeku vkSj dYiuk"
+],
+[
+16.0,
+"Hkk\"kk dh ckr"
+],
+[
+14.0,
+"1- ckyd Jho`Q\".k fdl yksHk osQ dkj.k nwèk ihus osQ fy, rS;kj gq,\\"
+]
+],
+"ocr": "ae ae | नि ०४५७८५१ | az | है । | सूरदास के पद य | अ (१) | मैया, कबहिं बढ़ैगी चोटी?"
+},
+{
+"file": "hhvs112",
+"pages": 14,
+"big": [
+[
+36.0,
+"12"
+],
+[
+36.0,
+"eSa vkxs c<+k gh Fkk fd csj dh >kM+h ij ls eksrh&lh ,d cw¡n esjs gkFk ij"
+],
+[
+30.0,
+"ikuh dh dgkuh"
+],
+[
+16.0,
+"70"
+],
+[
+16.0,
+"vk iM+hA esjs vk'p;Z dk fBdkuk u jgk tc eSaus ns[kk fd vksl dh cw¡n esjh"
+],
+[
+16.0,
+"dykbZ ij ls ljddj gFksyh ij vk xbZA esjh n`f\"V iM+rs gh og Bgj xbZA FkksM+h"
+]
+],
+"big2": [
+[
+16.0,
+"ikuh dh dgkuh            71"
+],
+[
+16.0,
+"cw¡n fiQj fgyhA ekuks esjs vfo'okl ls mls nq[k gqvk gksA"
+],
+[
+16.0,
+"¶lquksA eSa bl isM+ osQ ikl dh Hkwfe esa cgqr fnuksa ls bèkj&mèkj ?kwe jgh FkhA"
+],
+[
+16.0,
+"eSa d.kksa dk ân; VVksyrh fiQjrh Fkh fd ,dk,d idM+h xbZA¸"
+],
+[
+16.0,
+"¶oSQls]¸ eSaus iwNkA"
+],
+[
+16.0,
+"¶og tks isM+ rqe ns[krs gks u! og mQij gh bruk cM+k ugha gS] i`Foh esa Hkh"
+]
+],
+"ocr": "ee [न्‌] | orn 2 | श पानी की कहानी So | में आगे बढ़ा ही था कि बेर की झाड़ी पर से मोती-सी एक बूँद मेरे हाथ पर | आ पड़ी। मेरे आश्चर्य का ठिकाना न रहा जब मैंने देखा कि ओस की बूँद मेरी | कलाई पर से सरककर हथेली पर आ गई। मेरी दृष्टि पड़ते ही वह ठहर गई। थोड़ी | देर में मुझे सितार के तारों की-सी झंकार सुनाई देने लगी। मैंने सोचा कि कोई बजा | रहा होगा। चारों ओर देखा। कोई नहीं। फिर अनुभव हुआ कि यह स्वर मेरी "
+},
+{
+"file": "hhvs113",
+"pages": 7,
+"big": [
+[
+36.0,
+"13"
+],
+[
+36.0,
+"leqnz osQ fdukjs m¡Qps ioZr dh v¡èksjh xqIkQk esa ,d lk¡i jgrk FkkA leqnz dh"
+],
+[
+28.0,
+"ckt vkSj lk¡i"
+],
+[
+16.0,
+"84"
+],
+[
+16.0,
+"rwI+kQkuh ygjsa èkwi esa pedrha] f>yfeykrha vkSj fnu Hkj ioZr dh p^kuksa ls"
+],
+[
+16.0,
+"Vdjkrh jgrh FkhaA"
+]
+],
+"big2": [
+[
+16.0,
+"ckt vkSj lk¡i             85"
+],
+[
+16.0,
+"tk igq¡pkA mldh rjI+kQ oqQN nsj"
+],
+[
+16.0,
+"rd ns[krk jgk] fiQj eu gh"
+],
+[
+16.0,
+"eu [kq'k gksrk gqvk cksykµ ¶D;ksa"
+],
+[
+16.0,
+"HkkbZ] bruh tYnh ejus dh rS;kjh"
+],
+[
+16.0,
+"dj yh\\¸"
+]
+],
+"ocr": "ee [न्‌ | ५-०. ui | El! 3 | श बाज ओर साँप ~य | सद्ध के किनारे ऊँचे पर्वत की अँधेरी गुफा में एक साँप रहता था। समुद्र की | तूफ़ानी लहरें धूप में चमकती, झिलमिलातीं और दिन भर पर्वत की चट्टानों से | टकराती रहती थीं। | पर्वत की अँधेरी घाटियों में एक नदी भी बहती थी। अपने रास्ते पर बिखरे"
+}
+]
+}
