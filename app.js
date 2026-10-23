@@ -234,7 +234,7 @@ function homeReturning(){
     '<p style="color:var(--mut);margin:0 0 28px;max-width:520px">' + cp.p + '</p>' +
     '<form class="search" data-act="hsearch"><label for="hq" style="position:absolute;left:-9999px">Search notices</label><input id="hq" placeholder="Search notices, e.g. date sheet" autocomplete="off"><button class="go" type="submit">Search</button></form>' +
     '<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;font-weight:700;font-size:15px;align-items:center"><span style="color:var(--mut)">Popular:</span>' +
-    '<a class="pill" href="#/updates?type=Circular" style="background:var(--a1);padding:6px 14px;font-size:15px">CBSE circulars</a><a class="pill" href="#/updates?type=Date%20Sheet" style="background:var(--a4);padding:6px 14px;font-size:15px">Date sheets</a><a class="pill" href="#/updates?type=Result" style="background:var(--a5);padding:6px 14px;font-size:15px">Results</a></div></div>' +
+    '<a class="pill" href="#/updates?type=Circular" style="background:var(--a1);padding:6px 14px;font-size:15px">CBSE circulars</a><a class="pill" href="#/updates?type=Date%20Sheet" style="background:var(--a4);padding:6px 14px;font-size:15px">Date sheets</a><a class="pill" href="#/updates?type=Result" style="background:var(--a5);padding:6px 14px;font-size:15px">Results</a><a class="pill" href="#/calculator" style="background:var(--a3);padding:6px 14px;font-size:15px">Percentage calculator</a></div></div>' +
     '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:36px;background:var(--a3);transform:rotate(14deg)"></div>' +
     '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:14px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">Latest from CBSE</div>' +
     (latest3.length ? latest3.map(function(x){ return '<a href="#/notice/' + encodeURIComponent(x.id) + '" style="display:block;background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + pill(x) + '<div style="margin-top:6px;font-weight:700;overflow-wrap:anywhere">' + esc(x.title) + '</div></a>'; }).join("") : '<div style="background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + (ST.loaded ? 'No notices yet.' : 'Loading notices...') + '</div>') +
@@ -308,12 +308,13 @@ VIEWS["class"] = function(){
   if (n <= 8) more += lk("For parents", "#/parents", "--a5", "How school stages, exams, holding back and report cards work, from official documents.");
   if (n >= 9) more += lk("Syllabus", "#/syllabus", "--a3", 'Official 2026-27 CBSE syllabus for every subject of Class ' + c + (hi ? ' (one PDF covers Class 11 and 12)' : '') + '.');
   if (n === 10 || n === 12) more += lk("Papers", "#/papers", "--a4", "CBSE sample papers with marking schemes, and board question papers from past years.");
+  if (n >= 9) more += lk("Calculator", "#/calculator", "--a1", "Marks to percentage, and CGPA to percentage by CBSE's own rule.");
   if (n >= 6) more += lk("Question bank", "#/qbank", "--a2", n === 10 || n === 12 ? 'CBSE\'s official question bank and practice questions with marking schemes, plus NCERT Exemplar problems.' : n === 11 ? 'NCERT Exemplar problems for Maths, Physics, Chemistry and Biology.' : 'CBSE competency-based questions and NCERT Exemplar problems.');
   more += '<div class="card" style="--sh:var(--a5)"><h3 style="font-size:22px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div class="meta">Chapter notes and quick revision sheets.</div></div>';
   var subj = n >= 9 ? subjectFolds(c, true) : [];
   var bySub = subj.length ? '<h2>By subject</h2><div class="grid g4" style="margin-bottom:48px">' + subj.map(function(f){
     var cnt = 0; classBooks(c).forEach(function(b){ if (foldOf(b) === f && streamOk(b)) cnt += b.ch.length; });
-    return '<a class="card sm" href="#/subject/' + slug(f) + '" style="--sh:var(' + subCol(f) + ')"><h3>' + esc(f) + '</h3><div class="meta">' + cnt + ' chapters, syllabus and practice</div><span class="more">Open \u2192</span></a>';
+    return '<a class="card sm" href="#/subject/' + slug(f) + '" style="--sh:var(' + subCol(f) + ')"><h3>' + esc(f) + '</h3><div class="meta">' + cnt + ' chapters' + (subProg(c, f, true).d ? ', ' + subProg(c, f, true).d + ' done' : ', syllabus and practice') + '</div><span class="more">Open \u2192</span></a>';
   }).join("") + '</div>' : "";
   var mine = ST.items.filter(function(x){ return classOf(x, c); }).slice(0, 3);
   var latest = '<h2>Latest for Class ' + c + '</h2><div class="grid g3">' + (mine.length ? mine.map(function(x){ return noticeCard(x, true); }).join("") : '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? (n <= 8 ? 'CBSE rarely sends notices meant for Classes 1 to 8. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a> or read the <a href="#/parents" style="font-weight:700;text-decoration:underline">guide for parents</a>.' : 'No notices that mention Class ' + c + ' yet. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a>.') : 'Loading notices...') + '</div>') + '</div>';
@@ -366,11 +367,42 @@ function classSubs(c){
 }
 var ORDER10 = ["jeff1","jefp1","jhks1","jhkr1","jhsp1","jhsy1","jemh1","jesc1","jess3","jess4","jess2","jess1","jehp1","jhsk1","jhva1","june1","juge1","jujp1","judp1","jusr1","juuq1"];
 function pdfUrl(b, f){ return BBASE + (typeof f === "string" ? f : b.code + (f < 10 ? "0" : "") + f + ".pdf"); }
+var DONE = {};
+try { DONE = JSON.parse(localStorage.getItem("gp-done") || "{}") || {}; } catch(e){ DONE = {}; }
+function dk(b, h){ return b.code + ":" + h[0]; }
+function saveDone(){ try { localStorage.setItem("gp-done", JSON.stringify(DONE)); } catch(e){} }
+function bookByCode(code){ var r = null; BOOKS.forEach(function(b){ if (b.code === code) r = b; }); return r; }
+function tickBtn(k, lbl){
+  return '<button class="tick" type="button" data-act="tick" data-k="' + esc(k) + '" aria-pressed="' + (DONE[k] ? "true" : "false") + '" aria-label="' + esc(lbl) + '"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3.2L13 4.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>';
+}
+function subProg(c, f, byStream){
+  var t = 0, d = 0;
+  classBooks(c).forEach(function(b){ if (foldOf(b) === f && (!byStream || streamOk(b))) b.ch.forEach(function(h){ t++; if (DONE[dk(b, h)]) d++; }); });
+  return {t: t, d: d};
+}
+function progInner(c, f){
+  var p = subProg(c, f, false), pc = p.t ? Math.round(p.d * 100 / p.t) : 0;
+  return '<b>Your progress</b><div class="pbar" role="progressbar" aria-label="Chapters done" aria-valuemin="0" aria-valuemax="' + p.t + '" aria-valuenow="' + p.d + '"><i style="width:' + pc + '%"></i></div><span>' + p.d + ' of ' + p.t + ' chapters done</span>' +
+    (p.d ? '<button class="btn" type="button" data-act="resetprog" data-c="' + c + '" data-f="' + esc(f) + '" style="align-self:flex-start;padding:8px 18px;font-size:15px">Clear my ticks</button>' : '');
+}
+function refreshProg(){
+  D.querySelectorAll("[data-prog]").forEach(function(x){
+    if (x.dataset.prog === "sub") x.innerHTML = progInner(x.dataset.c, x.dataset.f);
+    else { var b = bookByCode(x.dataset.code); if (b){ var d = 0; b.ch.forEach(function(h){ if (DONE[dk(b, h)]) d++; }); x.textContent = d + " of " + b.ch.length + " chapters of this book done"; } }
+  });
+}
+function chapPath(b, num){
+  var ts = "", i;
+  b.ch.forEach(function(h){ if (h[0] === num && h[1]) ts = slug(h[1]).slice(0, 60).replace(/-+$/, ""); });
+  return "/class-" + b.cls + "/" + slug(foldOf(b)) + "/" + b.code + "-" + num + (ts ? "-" + ts : "");
+}
 function chRows(b, chs){
+  var tk = b.cls >= 9;
   return chs.map(function(h){
-    var file = h[2], lbl = '<span class="no">' + b.label + ' ' + h[0] + '</span>';
-    if (file) return '<div class="chr">' + lbl + '<a class="tt" style="font-weight:700" href="' + pdfUrl(b, file) + '" target="_blank" rel="noopener">' + esc(h[1] || "Open chapter PDF") + '</a><span aria-hidden="true">↗</span></div>';
-    return '<div class="chr na">' + lbl + '<span class="tt">' + esc(h[1] || "") + '</span><span></span><small>PDF not found. Open the book on the NCERT site.</small></div>';
+    var file = h[2], lbl = tk ? '<a class="no" href="#/chapter/' + b.code + '-' + h[0] + '">' + b.label + ' ' + h[0] + '</a>' : '<span class="no">' + b.label + ' ' + h[0] + '</span>';
+    var tb = tk ? tickBtn(dk(b, h), "Mark " + b.label + " " + h[0] + " as done") : "";
+    if (file) return '<div class="chr' + (tk ? ' tk' : '') + '">' + tb + lbl + '<a class="tt" style="font-weight:700" href="' + pdfUrl(b, file) + '" target="_blank" rel="noopener">' + esc(h[1] || "Open chapter PDF") + '</a><span aria-hidden="true">↗</span></div>';
+    return '<div class="chr na' + (tk ? ' tk' : '') + '">' + tb + lbl + '<span class="tt">' + esc(h[1] || "") + '</span><span></span><small>PDF not found. Open the book on the NCERT site.</small></div>';
   }).join("");
 }
 function extraRows(b){
@@ -721,12 +753,98 @@ VIEWS.subject = function(r){
   var lead = cn + ' ' + f + ' has ' + bks.length + ' NCERT book' + (bks.length === 1 ? '' : 's') + ' with ' + chn + ' chapters on the official site' + (bks.length ? ': ' + bks.map(function(b){ return esc(b.title); }).join(', ') : '') + '. The syllabus, papers and practice questions for this subject are below, all linked from the official sites.';
   return '<div class="wrap sec">' + crumb +
    '<div class="head"><div class="tile" style="background:var(' + col + ')">' + subIcon(f) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">' + cn + ' ' + esc(f) + '</h1><p>' + lead + '</p></div></div>' +
+   '<div class="card" style="--sh:var(--a3);gap:10px;margin-bottom:22px;padding:20px 24px"><div data-prog="sub" data-c="' + c + '" data-f="' + esc(f) + '" style="display:flex;flex-direction:column;gap:10px">' + progInner(c, f) + '</div><div class="meta">Tick chapters as you finish them. Saved only on this device.</div></div>' +
    '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));align-items:start">' + cards.join("") + '</div>' +
    (loading ? '<div class="card" style="--sh:var(--a1);margin-top:20px">Loading the syllabus, papers and practice questions...</div>' : '') +
    (others.length ? '<h2 style="margin-top:48px">More ' + cn + ' subjects</h2><div style="display:flex;flex-wrap:wrap;gap:10px">' + others.map(function(x){ return '<a class="pill" href="#/subject/' + slug(x) + '" style="background:var(' + subCol(x) + ');padding:6px 16px;font-size:15px">' + esc(x) + '</a>'; }).join("") + '</div>' : '') +
    '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on ncert.nic.in, cbseacademic.nic.in or cbse.gov.in. GraphPaper does not host them. ' + (hasStreams(c) ? 'The syllabus PDF covers both Class 11 and 12. ' : '') + '<a href="#/class" style="font-weight:700;text-decoration:underline">Back to the study shelf</a>.</p></div>';
 };
 
+/* ---------- calculator ---------- */
+function calcRow(i){
+  return '<div class="crow"><span class="cn">' + i + '</span><input inputmode="decimal" data-calc="o" aria-label="Marks obtained, subject ' + i + '" placeholder="Marks"><span aria-hidden="true">/</span><input inputmode="decimal" data-calc="m" value="100" aria-label="Out of, subject ' + i + '"><button class="rm" type="button" data-act="calcrm" aria-label="Remove subject ' + i + '">×</button></div>';
+}
+function num(v){ var x = parseFloat(String(v).replace(",", ".")); return isFinite(x) ? x : null; }
+function fx(x){ return (Math.round(x * 100) / 100).toString(); }
+function calcRun(){
+  var out = $("#calcout"); if (!out) return;
+  var list = [], bad = 0, best = +($('[data-calc="best"]') || {}).value || 0;
+  D.querySelectorAll("#calc .crow").forEach(function(r){
+    var o = num(r.querySelector('[data-calc="o"]').value), m = num(r.querySelector('[data-calc="m"]').value);
+    if (o === null || m === null) return;
+    if (m <= 0 || o < 0 || o > m){ bad++; return; }
+    list.push({o: o, m: m});
+  });
+  if (best && list.length > best){ list.sort(function(a, b){ return b.o / b.m - a.o / a.m; }); list = list.slice(0, best); }
+  var warn = bad ? '<p class="meta" style="margin:10px 0 0">' + bad + ' subject' + (bad === 1 ? ' was' : 's were') + ' left out: marks must be between 0 and the maximum.</p>' : "";
+  if (!list.length){ out.innerHTML = '<span class="meta">Type your marks to see the percentage.</span>' + warn; return; }
+  var to = 0, tm = 0; list.forEach(function(x){ to += x.o; tm += x.m; });
+  out.innerHTML = '<div class="cres">' + fx(to * 100 / tm) + '%</div><div style="margin-top:6px;font-weight:700">' + fx(to) + ' out of ' + fx(tm) + ' in ' + list.length + ' subject' + (list.length === 1 ? '' : 's') + '</div>' + warn;
+}
+function calcInput(t){
+  var k = t.dataset.calc;
+  if (k === "cg" || k === "pc"){
+    var v = num(t.value), other = $(k === "cg" ? '[data-calc="pc"]' : '[data-calc="cg"]');
+    if (v === null || v < 0){ other.value = ""; return; }
+    other.value = fx(k === "cg" ? v * 9.5 : v / 9.5);
+    return;
+  }
+  calcRun();
+}
+VIEWS.calculator = function(){
+  var rows = ""; for (var i = 1; i <= 5; i++) rows += calcRow(i);
+  return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>Calculator</b></div>' +
+   '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">Percentage calculator</h1>' +
+   '<p style="margin:0 0 28px;color:var(--mut)">Work out your percentage from your marks, or convert CGPA. Nothing you type is saved or sent anywhere.</p>' +
+   '<div style="display:flex;flex-direction:column;gap:22px">' +
+   '<section class="card" id="calc" style="--sh:var(--a3);gap:12px;padding:24px 26px"><h2 style="font-size:24px;margin:0">Marks to percentage</h2><div class="meta" style="margin-bottom:4px">Enter the marks you got and the maximum marks for each subject.</div>' +
+   '<div id="crows">' + rows + '</div>' +
+   '<div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center"><button class="btn" type="button" data-act="calcadd" style="padding:10px 20px">Add subject</button>' +
+   '<label style="display:flex;align-items:center;gap:8px;font-weight:600">Count <select class="cin" data-calc="best" style="width:auto"><option value="0">all subjects</option><option value="5">best 5</option><option value="4">best 4</option><option value="3">best 3</option></select></label></div>' +
+   '<div id="calcout" aria-live="polite" style="margin-top:8px;border-top:2px solid var(--gl);padding-top:16px"><span class="meta">Type your marks to see the percentage.</span></div>' +
+   '<div class="meta">Some schools and colleges count only your best five subjects. Check the rule that applies to you.</div></section>' +
+   '<section class="card" style="--sh:var(--a1);gap:12px;padding:24px 26px"><h2 style="font-size:24px;margin:0">CGPA and percentage</h2><div class="meta">CBSE says the overall indicative percentage of marks is 9.5 times the CGPA. Type in either box.</div>' +
+   '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px"><label style="display:flex;flex-direction:column;gap:6px;font-weight:600">CGPA (out of 10)<input class="cin" inputmode="decimal" data-calc="cg" placeholder="e.g. 9.2"></label>' +
+   '<label style="display:flex;flex-direction:column;gap:6px;font-weight:600">Percentage<input class="cin" inputmode="decimal" data-calc="pc" placeholder="e.g. 87.4"></label></div>' +
+   '<div class="meta">Source: <a href="https://www.cbse.gov.in/helpline/FAQs.pdf" target="_blank" rel="noopener" style="font-weight:700;text-decoration:underline">CBSE frequently asked questions (PDF) ↗</a>. CBSE calls this figure indicative, so confirm with the school or college that asks for it.</div></section>' +
+   '</div><p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">GraphPaper is not run by CBSE. This tool is a helper, and your marksheet is the official record.</p></div>';
+};
+
+/* ---------- chapter pages ---------- */
+function chapterOf(r){
+  var c = r.cls || ST.cls, found = null;
+  if (!c || +c < 9) return null;
+  classBooks(c).forEach(function(b){
+    if (b.code !== r.ck || slug(foldOf(b)) !== r.arg) return;
+    b.ch.forEach(function(h, i){ if (h[0] === r.cn) found = {b: b, h: h, i: i}; });
+  });
+  return found;
+}
+VIEWS.chapter = function(r){
+  var ch = chapterOf(r), c = r.cls || ST.cls || "10";
+  if (!ch){
+    return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>Chapter</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px)">' + (ST.booksLoaded ? 'Chapter not found' : 'Loading...') + '</h1>' +
+      '<div class="card" style="--sh:var(--a1)">' + (ST.booksLoaded ? 'There is no such chapter. <a href="#/class" style="font-weight:700;text-decoration:underline">Go to the study shelf</a>.' : 'Loading books...') + '</div></div>';
+  }
+  var b = ch.b, h = ch.h, f = foldOf(b), k = dk(b, h), on = !!DONE[k], col = subCol(f);
+  var title = h[1] || (b.label + " " + h[0]);
+  var d = 0; b.ch.forEach(function(x){ if (DONE[dk(b, x)]) d++; });
+  function nav(x, kind){
+    if (!x) return "";
+    return '<a class="card sm" href="#/chapter/' + b.code + '-' + x[0] + '" style="--sh:var(' + col + ')"><div class="meta">' + kind + ' · ' + b.label + ' ' + x[0] + '</div><h3>' + esc(x[1] || (b.label + " " + x[0])) + '</h3><span class="more">Open →</span></a>';
+  }
+  var pdf = h[2] ? '<a class="btn dark" href="' + pdfUrl(b, h[2]) + '" target="_blank" rel="noopener" style="align-self:flex-start">Open chapter PDF ↗</a>' : '<div class="meta">NCERT\'s chapter PDF could not be matched for this chapter.</div><a class="btn" href="' + BPORTAL + '" target="_blank" rel="noopener" style="align-self:flex-start">Open NCERT textbook page ↗</a>';
+  var nb = bks_label(b);
+  return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <a href="#/subject/' + slug(f) + '">' + esc(f) + '</a> / <b>' + b.label + ' ' + h[0] + '</b></div>' +
+   '<div class="head"><div class="tile" style="background:var(' + col + ')">' + subIcon(f) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(30px,5vw,48px)">' + esc(title) + '</h1><p>Class ' + c + ' ' + esc(f) + ' · ' + esc(nb) + ' · ' + b.label + ' ' + h[0] + ' of ' + b.ch.length + '</p></div></div>' +
+   '<div style="display:flex;flex-direction:column;gap:22px">' +
+   '<section class="card" style="--sh:var(' + col + ');gap:12px;padding:24px 26px"><h2 style="font-size:24px;margin:0">Official NCERT chapter</h2>' + pdf + (b.zip ? zipBtn(b).replace('margin-top:12px', 'margin-top:0;align-self:flex-start') : '') + '<div class="meta">Opens on ncert.nic.in. GraphPaper does not host NCERT files.</div></section>' +
+   '<section class="card" style="--sh:var(--a3);gap:12px;padding:24px 26px"><h2 style="font-size:24px;margin:0">Your progress</h2><button class="btn' + (on ? '' : ' dark') + '" type="button" data-act="tick" data-k="' + esc(k) + '" data-big="1" aria-pressed="' + (on ? 'true' : 'false') + '" style="align-self:flex-start">' + (on ? 'Done ✓ (tap to undo)' : 'Mark as done') + '</button><div class="meta" data-prog="book" data-code="' + b.code + '">' + d + ' of ' + b.ch.length + ' chapters of this book done</div><div class="meta">Saved only on this device.</div></section>' +
+   '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr))">' + nav(b.ch[ch.i - 1], "Previous") + nav(b.ch[ch.i + 1], "Next") + '</div>' +
+   '<a class="card" href="#/subject/' + slug(f) + '" style="--sh:var(--a4)"><h3 style="font-size:22px">Class ' + c + ' ' + esc(f) + '</h3><div class="meta">All chapters, the 2026-27 syllabus, papers and practice questions for this subject.</div><span class="more">Open →</span></a>' +
+   '</div></div>';
+};
+function bks_label(b){ return b.short || b.title; }
 var BOARDS = {
   "CBSE":{c:"--a1", l:"C", soon:false, url:"https://www.cbse.gov.in/", line:"The Central Board of Secondary Education runs the Class 10 and 12 board exams and publishes circulars, date sheets and results."},
   "ICSE":{c:"--a4", l:"I", soon:true, line:"ICSE notices are not on GraphPaper yet."},
@@ -783,7 +901,7 @@ VIEWS.about = function(){
   return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>About</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">About GraphPaper</h1>' +
    '<p style="margin:0 0 28px;color:var(--mut)">Books, syllabus and notices for your class, in one calm place.</p><div style="display:flex;flex-direction:column;gap:22px">' +
    sec("Our idea", "Students and parents should not have to hunt through several websites for a book, a syllabus or a circular. GraphPaper gathers the official material, sorts it by class, and links to the original so you read the real thing.", "var(--a1)") +
-   sec("What you will find here", "<b>NCERT books:</b> every chapter PDF for Class 1 to 12, English-medium books plus the Hindi and Sanskrit language books, with chapter titles, a whole-book download and a printable book list.<br><b>Syllabus:</b> the official 2026-27 CBSE syllabus for Class 9 to 12.<br><b>Papers and question bank:</b> CBSE sample papers and past board papers for Class 10 and 12, and practice questions from Class 6.<br><b>Updates:</b> CBSE circulars, date sheets and results, plus a quick status check for Class 10 and 12.<br><b>For parents:</b> plain answers about school stages, exams and report cards, for Classes 1 to 8 and beyond.<br><b>Notes:</b> coming later.", "var(--a3)") +
+   sec("What you will find here", "<b>NCERT books:</b> every chapter PDF for Class 1 to 12, English-medium books plus the Hindi and Sanskrit language books, with chapter titles, a whole-book download and a printable book list.<br><b>Syllabus:</b> the official 2026-27 CBSE syllabus for Class 9 to 12.<br><b>Papers and question bank:</b> CBSE sample papers and past board papers for Class 10 and 12, and practice questions from Class 6.<br><b>Updates:</b> CBSE circulars, date sheets and results, plus a quick status check for Class 10 and 12.<br><b>For parents:</b> plain answers about school stages, exams and report cards, for Classes 1 to 8 and beyond.<br><b>Subject pages and progress:</b> every Class 9 to 12 subject has one page with its books, syllabus, papers and practice questions. Tick chapters as you finish them.<br><b>Calculator:</b> marks to percentage, and CGPA to percentage.<br><b>Notes:</b> coming later.", "var(--a3)") +
    sec("How it works", "Pick your class once, and your stream for Class 11 and 12. It is remembered on your device, so there is no account to make. Every link goes to the official CBSE or NCERT website. GraphPaper does not host the files.", "var(--a2)") +
    '<section style="background:var(--a4);border:2px solid var(--ink);border-radius:28px;padding:24px 26px;box-shadow:0 6px 0 var(--ink)"><h2 style="font-size:24px;margin:0 0 8px">Not an official website</h2><div>GraphPaper is not run by any board. Notices can change, so always check them at the official source before you act on them.</div></section>' +
    '</div></div>';
@@ -792,7 +910,7 @@ VIEWS.privacy = function(){
   function sec(t, tx){ return '<section class="card" style="--sh:var(--a1);gap:8px;padding:24px 26px"><h2 style="font-size:24px;margin:0">' + t + '</h2><div>' + tx + '</div></section>'; }
   return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>Privacy</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">Privacy</h1>' +
    '<p style="margin:0 0 28px;color:var(--mut)">Short version: GraphPaper does not ask for your name, email or phone number.</p><div style="display:flex;flex-direction:column;gap:22px">' +
-   sec("What stays on your device", "There are no accounts and no forms that collect your details. The class you pick is saved in your own browser so the site can remember it. It is never sent to us.") +
+   sec("What stays on your device", "There are no accounts and no forms that collect your details. The class you pick, and the chapters you tick as done, are saved in your own browser so the site can remember them. They are never sent to us.") +
    sec("What other services see", "The site is hosted on Vercel, which may keep standard technical logs such as IP addresses. Fonts load from Google Fonts. Links to cbse.gov.in, ncert.nic.in and cbseacademic.nic.in leave this site, and those sites have their own privacy practices.") +
    sec("Your choices", "To forget your class choice, clear this site's data in your browser settings.") + '</div></div>';
 };
@@ -808,6 +926,7 @@ function toPath(h){
   else if (name === "notice" || name === "board") p = "/" + name + "/" + arg;
   else if (name === "class") p = classBase(ST.cls || "4");
   else if (name === "subject") p = "/class-" + (ST.cls || "10") + "/" + arg;
+  else if (name === "chapter"){ var cbk = bookByCode(arg.split("-")[0]); p = cbk ? chapPath(cbk, +arg.split("-")[1]) : "/"; }
   else if (name === "books") p = classBase(bcls()) + "/books";
   else if (name === "syllabus" || name === "papers" || name === "qbank" || name === "booklist") p = classBase(ST.cls || "10") + "/" + SECT[name];
   else p = "/" + name;
@@ -825,6 +944,9 @@ function parse(){
     if (!sec) r.name = "class";
     else if (SECT_REV[sec] && segs.length === i + 1) r.name = SECT_REV[sec];
     else if (+r.cls >= 9 && !r.stream && /^[a-z0-9-]+$/.test(sec) && segs.length === i + 1){ r.name = "subject"; r.arg = sec; }
+    else if (+r.cls >= 9 && !r.stream && segs.length === i + 2 && /^[a-z0-9-]+$/.test(sec) && /^[a-z0-9]+-\d+(-[a-z0-9-]*)?$/.test(segs[i + 1])){
+      var mm = /^([a-z0-9]+)-(\d+)/.exec(segs[i + 1]); r.name = "chapter"; r.arg = sec; r.ck = mm[1]; r.cn = +mm[2];
+    }
     else r.name = "notfound";
     return r;
   }
@@ -855,6 +977,11 @@ function pageMeta(name, r){
   else if (name === "syllabus"){ m.t = "CBSE syllabus for " + cn + ", 2026-27 | GraphPaper"; m.d = "Official CBSE syllabus PDFs for " + cn + ", session 2026-27, subject by subject."; if (n < 9) m.ni = true; }
   else if (name === "papers"){ m.t = "CBSE sample papers and previous year papers for " + cn + " | GraphPaper"; m.d = "Official CBSE sample papers with marking schemes and past board question papers for " + cn + "."; if (n !== 10 && n !== 12) m.ni = true; }
   else if (name === "qbank"){ m.t = "CBSE question bank and practice questions for " + cn + " | GraphPaper"; m.d = "CBSE question bank, practice questions and NCERT Exemplar problems for " + cn + "."; if (n < 6) m.ni = true; }
+  else if (name === "calculator"){ m.t = "Percentage and CGPA calculator for CBSE students | GraphPaper"; m.d = "Work out your percentage from your marks, or convert CGPA to percentage using CBSE's own 9.5 rule. Free, and nothing is saved or sent."; }
+  else if (name === "chapter"){
+    var ch = chapterOf(r); m.ni = true;
+    if (ch){ m.t = (ch.h[1] || ch.b.label + " " + ch.h[0]) + " | Class " + ch.b.cls + " " + foldOf(ch.b) + " | GraphPaper"; m.d = "Official NCERT PDF for Class " + ch.b.cls + " " + foldOf(ch.b) + ", " + ch.b.label + " " + ch.h[0] + ", with the next chapter and the whole-book download."; } else m.t = "Chapter not found | GraphPaper";
+  }
   else if (name === "subject"){
     var sf = subjectOf(r);
     if (sf){
@@ -884,7 +1011,7 @@ function setMeta(name, r){
 function syncFromPath(r){
   if (r.cls && r.cls !== ST.cls) setClass(r.cls);
   if (r.stream && (r.stream !== ST.stream || !ST.streamSet)) setStream(r.stream);
-  if (r.cls && hasStreams(r.cls) && !r.stream && ST.streamSet && r.name !== "subject"){
+  if (r.cls && hasStreams(r.cls) && !r.stream && ST.streamSet && r.name !== "subject" && r.name !== "chapter"){
     var sec = r.name === "class" ? "" : "/" + SECT[r.name];
     history.replaceState(null, "", classBase(r.cls) + sec + location.search);
   }
@@ -936,6 +1063,31 @@ D.addEventListener("click", function(e){
   var a = el.dataset.act, v = el.dataset.v;
   if (a === "setcls"){ setClass(v); route(true); var d = $("#clsmenu"); if (d) d.open = false; }
   else if (a === "print"){ window.print(); }
+  else if (a === "tick"){
+    var tk = el.dataset.k; if (DONE[tk]) delete DONE[tk]; else DONE[tk] = 1; saveDone();
+    var on = !!DONE[tk];
+    D.querySelectorAll('[data-k="' + tk + '"]').forEach(function(x){
+      x.setAttribute("aria-pressed", on ? "true" : "false");
+      if (x.hasAttribute("data-big")){ x.textContent = on ? "Done \u2713 (tap to undo)" : "Mark as done"; x.classList.toggle("dark", !on); }
+    });
+    refreshProg();
+  }
+  else if (a === "resetprog"){
+    if (window.confirm("Clear all your ticks for Class " + el.dataset.c + " " + el.dataset.f + "?")){
+      classBooks(el.dataset.c).forEach(function(b){ if (foldOf(b) === el.dataset.f) b.ch.forEach(function(h){ delete DONE[dk(b, h)]; }); });
+      saveDone(); route(true);
+    }
+  }
+  else if (a === "calcadd"){
+    var cr = $("#crows"), cnt = cr.children.length; if (cnt >= 12) return;
+    cr.insertAdjacentHTML("beforeend", calcRow(cnt + 1));
+  }
+  else if (a === "calcrm"){
+    var row = el.closest(".crow"), cr2 = $("#crows"); if (cr2.children.length <= 1) return;
+    row.parentNode.removeChild(row);
+    Array.prototype.forEach.call(cr2.children, function(r2, i){ r2.querySelector(".cn").textContent = i + 1; });
+    calcRun();
+  }
   else if (a === "wc"){ ST.wc = v; route(true); $("#app").dataset.c = v; }
   else if (a === "copyfeed"){ var fu = $("#feedurl").textContent, cm = $("#copymsg"); if (navigator.clipboard) navigator.clipboard.writeText(fu).then(function(){ cm.textContent = "Copied."; }, function(){ cm.textContent = "Press and hold the address to copy it."; }); else cm.textContent = "Press and hold the address to copy it."; }
   else if (a === "wgo"){ var we = $("#werr"); if (!ST.wc){ we.textContent = "Please pick your class first."; we.hidden = false; return; } if (hasStreams(ST.wc) && !ST.ws){ we.textContent = "Please pick your stream first."; we.hidden = false; return; } setClass(ST.wc); if (hasStreams(ST.wc)) setStream(ST.ws); go("/"); }
@@ -958,6 +1110,7 @@ D.addEventListener("submit", function(e){
   if (e.target.dataset && e.target.dataset.act === "hsearch"){ e.preventDefault(); ST.q = $("#hq").value; ST.type = "all"; ST.fromSearch = true; go(toPath("#/updates")); }
 });
 D.addEventListener("input", function(e){
+  if (e.target.dataset && e.target.dataset.calc){ calcInput(e.target); return; }
   if (e.target.id === "pq"){ ST.pq = e.target.value; if (PAP) $("#plist").innerHTML = papBody(ST.cls || "10"); return; }
   if (e.target.id === "qq"){ ST.qq = e.target.value; if (QB) $("#qlist").innerHTML = qbBody(ST.cls || "10"); return; }
   if (e.target.id === "sq"){ ST.sq = e.target.value; if (SYL) $("#slist").innerHTML = sylHtml(ST.cls || "10", ST.sq.trim().toLowerCase()).html; return; }
@@ -983,11 +1136,11 @@ applyClass();
 if (/^#\//.test(location.hash)) history.replaceState(null, "", toPath(location.hash));
 route();
 function ready(){ if (--ST.pending === 0) window.GP_READY = true; }
-fetch("/papers.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ PAP = d; }).catch(function(){ ST.papFail = true; }).then(function(){ var pn = parse().name; if (pn === "papers" || pn === "subject") route(true); ready(); });
+fetch("/papers.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ PAP = d; }).catch(function(){ ST.papFail = true; }).then(function(){ var pn = parse().name; if (pn === "papers" || pn === "subject" || pn === "chapter") route(true); ready(); });
 fetch("/qbank.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ QB = d; }).catch(function(){ ST.qbFail = true; }).then(function(){ var qn = parse().name; if (qn === "qbank" || qn === "subject") route(true); ready(); });
 fetch("/syllabus.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ SYL = d; }).catch(function(){ ST.sylFail = true; }).then(function(){ var yn = parse().name; if (yn === "syllabus" || yn === "subject") route(true); ready(); });
 function loadBooks(f){ return fetch(f).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ if (Array.isArray(d)) d.forEach(function(b){ BOOKS.push(b); }); }).catch(function(){}); }
-Promise.all([loadBooks("/books_1_8.json"), loadBooks("/books_1_10.json"), loadBooks("/books_9.json"), loadBooks("/books_11.json"), loadBooks("/books_12.json")]).then(function(){ ST.booksLoaded = true; var n = parse().name; if (n === "home" || n === "books" || n === "class" || n === "syllabus" || n === "subject") route(true); ready(); });
+Promise.all([loadBooks("/books_1_8.json"), loadBooks("/books_1_10.json"), loadBooks("/books_9.json"), loadBooks("/books_11.json"), loadBooks("/books_12.json")]).then(function(){ ST.booksLoaded = true; var n = parse().name; if (n === "home" || n === "books" || n === "class" || n === "syllabus" || n === "subject" || n === "chapter" || n === "calculator") route(true); ready(); });
 fetch("/updates.json", {cache: "no-store"}).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){
   ST.items = (Array.isArray(d) ? d : []).filter(function(x){ return x && x.status === "approved" && !x.sample; }).sort(function(a, b){ return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
 }).catch(function(){}).then(function(){ ST.loaded = true; route(true); ready(); });
