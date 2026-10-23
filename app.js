@@ -310,12 +310,17 @@ VIEWS["class"] = function(){
   if (n === 10 || n === 12) more += lk("Papers", "#/papers", "--a4", "CBSE sample papers with marking schemes, and board question papers from past years.");
   if (n >= 6) more += lk("Question bank", "#/qbank", "--a2", n === 10 || n === 12 ? 'CBSE\'s official question bank and practice questions with marking schemes, plus NCERT Exemplar problems.' : n === 11 ? 'NCERT Exemplar problems for Maths, Physics, Chemistry and Biology.' : 'CBSE competency-based questions and NCERT Exemplar problems.');
   more += '<div class="card" style="--sh:var(--a5)"><h3 style="font-size:22px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div class="meta">Chapter notes and quick revision sheets.</div></div>';
+  var subj = n >= 9 ? subjectFolds(c, true) : [];
+  var bySub = subj.length ? '<h2>By subject</h2><div class="grid g4" style="margin-bottom:48px">' + subj.map(function(f){
+    var cnt = 0; classBooks(c).forEach(function(b){ if (foldOf(b) === f && streamOk(b)) cnt += b.ch.length; });
+    return '<a class="card sm" href="#/subject/' + slug(f) + '" style="--sh:var(' + subCol(f) + ')"><h3>' + esc(f) + '</h3><div class="meta">' + cnt + ' chapters, syllabus and practice</div><span class="more">Open \u2192</span></a>';
+  }).join("") + '</div>' : "";
   var mine = ST.items.filter(function(x){ return classOf(x, c); }).slice(0, 3);
   var latest = '<h2>Latest for Class ' + c + '</h2><div class="grid g3">' + (mine.length ? mine.map(function(x){ return noticeCard(x, true); }).join("") : '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? (n <= 8 ? 'CBSE rarely sends notices meant for Classes 1 to 8. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a> or read the <a href="#/parents" style="font-weight:700;text-decoration:underline">guide for parents</a>.' : 'No notices that mention Class ' + c + ' yet. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a>.') : 'Loading notices...') + '</div>') + '</div>';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Study shelf</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a1)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Class ' + c + (hi ? ' ' + ST.stream : '') + '</h1><p>Books, syllabus and notes for Class ' + c + (hi ? ' ' + ST.stream : '') + ', all on one shelf. <a href="#/welcome" style="font-weight:700;text-decoration:underline">Change class' + (hi ? ' or stream' : '') + '</a></p></div></div>' +
    '<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px"><h2 style="margin:0">NCERT books</h2>' + streams + '</div>' +
-   '<div class="grid g3" style="margin-bottom:48px">' + subs + more0 + '</div>' +
+   '<div class="grid g3" style="margin-bottom:48px">' + subs + more0 + '</div>' + bySub +
    '<h2>More for Class ' + c + (hi ? ' ' + ST.stream : '') + '</h2><div class="grid g3" style="margin-bottom:48px">' + more + '</div>' +
    (n <= 8 ? '' : latest) + '</div>';
 };
@@ -376,9 +381,9 @@ function extraRows(b){
 function zipBtn(b){
   return b.zip ? '<a class="btn dark" href="' + BBASE + b.zip + '" target="_blank" rel="noopener" style="margin-top:12px">Whole book (ZIP' + (b.mb ? ', ' + b.mb + ' MB' : '') + ') ↓</a>' : '';
 }
-function bookBlock(b, chs, q, label){
+function bookBlock(b, chs, q, label, op){
   var col = subCol(b.sub), nm = label || (b.sub === b.title ? b.sub : b.sub + ": " + b.title);
-  return '<details class="book" style="--sh:var(' + col + ')"' + (q || ST.bopen[b.code] ? ' open' : '') + ' data-code="' + b.code + '"><summary><span class="bi" style="background:var(' + col + ')">' + subIcon(b.sub) + '</span><span class="bt"><b>' + (b.cls <= 10 || b.fold ? esc(nm) : 'Class ' + b.cls + ' ' + esc(b.title)) + '</b><span>' + chs.length + ' chapter' + (chs.length === 1 ? '' : 's') + (q ? ' match' : '') + '</span></span><svg class="car" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3l5 5-5 5" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><div class="chs">' + chRows(b, chs) + (q ? '' : extraRows(b)) +
+  return '<details class="book" style="--sh:var(' + col + ')"' + (q || op || ST.bopen[b.code] ? ' open' : '') + ' data-code="' + b.code + '"><summary><span class="bi" style="background:var(' + col + ')">' + subIcon(b.sub) + '</span><span class="bt"><b>' + (b.cls <= 10 || b.fold ? esc(nm) : 'Class ' + b.cls + ' ' + esc(b.title)) + '</b><span>' + chs.length + ' chapter' + (chs.length === 1 ? '' : 's') + (q ? ' match' : '') + '</span></span><svg class="car" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3l5 5-5 5" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><div class="chs">' + chRows(b, chs) + (q ? '' : extraRows(b)) +
     (b.zip ? zipBtn(b) : '<a class="btn" href="' + BPORTAL + '" target="_blank" rel="noopener" style="margin-top:12px">Open NCERT textbook page ↗</a>') + '</div></details>';
 }
 function matchCh(b, q){
@@ -628,6 +633,100 @@ VIEWS.qbank = function(){
    '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on cbseacademic.nic.in or ncert.nic.in. GraphPaper does not host them.' + (ok && (n === 10 || n === 12) ? ' CBSE adds practice questions by session, so the newest ones may take a while to appear here.' : '') + '</p></div>';
 };
 
+/* ---------- subject pages (Class 9 to 12) ---------- */
+function slug(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
+var SUBALIAS = {"Mathematics":"(mathematics|applied math)", "Social Science":"social science"};
+function subRe(f){ return new RegExp("^" + (SUBALIAS[f] || f.toLowerCase().replace(/[^a-z0-9 ]/g, ""))); }
+function subjectFolds(c, byStream){
+  var seen = [];
+  classBooks(c).forEach(function(b){ var f = foldOf(b); if (f !== "Other books" && (!byStream || streamOk(b)) && seen.indexOf(f) < 0) seen.push(f); });
+  var od = hasStreams(c) ? (byStream ? FOLD12S[(ST.stream || "Science").charAt(0)] : FOLD12) : FOLD10;
+  return seen.sort(function(a, b){ var x = od.indexOf(a), y = od.indexOf(b); return (x < 0 ? 99 : x) - (y < 0 ? 99 : y); });
+}
+function subjectOf(r){
+  var c = r.cls || ST.cls, found = null;
+  if (!c || +c < 9) return null;
+  subjectFolds(c, false).forEach(function(f){ if (slug(f) === r.arg) found = f; });
+  return found;
+}
+function subHit(re){ return function(r){ return re.test(String(r[0]).toLowerCase()); }; }
+function subSyl(c, re){
+  var out = [];
+  SYL.parts[SYLKEY[c]].groups.forEach(function(g){ g.items.forEach(function(it){ if (re.test(it[0].toLowerCase())) out.push(it); }); });
+  return out;
+}
+function subSample(c, re){
+  var sq = PAP.sqp[c === "10" ? "X" : "XII"];
+  return sq.items.filter(subHit(re)).map(function(it){
+    return qbRow(it[0], (it[1] ? pillA(sq.base + it[1], "Sample paper \u2197") : "") + (it[2] ? pillA(sq.base + it[2], "Marking scheme \u2197") : ""));
+  });
+}
+function subPyq(c, re){
+  var key = c === "10" ? "X" : "XII", out = "", cnt = 0;
+  Object.keys(PAP.pyq[key]).sort().reverse().forEach(function(y){
+    var yd = PAP.pyq[key][y], pills = "";
+    ["main", "comp"].forEach(function(e){
+      var slot = yd[e]; if (!slot) return;
+      var hits = slot.items.filter(subHit(re));
+      hits.forEach(function(it){
+        var kind = /\.pdf$/i.test(it[1]) ? "PDF" : "ZIP", lab = e === "main" ? "Main exam" : (key === "X" && y === "2026" ? "Second board exam" : "Compartment");
+        pills += pillA(slot.base + it[1], lab + (hits.length > 1 ? " \u00b7 " + esc(it[0]) : "") + " \u00b7 " + kind + (it[2] ? " \u00b7 " + (it[2] < 1 ? "under 1" : Math.round(it[2])) + " MB" : "") + " \u2193");
+        cnt++;
+      });
+    });
+    if (pills) out += qbRow(y, pills);
+  });
+  return {n: cnt, html: out};
+}
+function subExList(a){
+  return a.map(function(l){ return '<a href="' + QB.base.ex + l[1] + '" target="_blank" rel="noopener" style="display:flex;justify-content:space-between;gap:12px;align-items:center;padding:12px 0;border-bottom:2px solid var(--gl);font-weight:600;overflow-wrap:anywhere"><span>' + esc(l[0]) + '</span><span style="flex:none">\u2197</span></a>'; }).join("");
+}
+function subQb(c, re, sg){
+  var B = QB.base, out = [], hit = subHit(re), k = sg + ":";
+  if (QB.cbse[c]){ var rows = QB.cbse[c].filter(hit); out.push(qbGrp(k + "cbse", "CBSE question bank", rows.length, "file", "--a2", rows.map(function(r){ return qbRow(r[0], pillA(B.cbse + r[1], "Open PDF" + qbMb(r[2]) + " \u2197")); }).join(""), "", false)); }
+  if (QB.apq[c]) Object.keys(QB.apq[c]).forEach(function(y){
+    var rs = QB.apq[c][y].filter(hit);
+    out.push(qbGrp(k + "apq" + y, "Practice questions " + y, rs.length, "file", "--a4", rs.map(function(r){ return qbRow(r[0], r[1].map(function(l){ return pillA(B.apq + l[1], esc(l[0]) + " \u2197"); }).join("")); }).join(""), "", false));
+  });
+  if (QB.items[c]){ var it = QB.items[c].filter(hit); out.push(qbGrp(k + "items", "Competency-based questions", it.length, "file", "--a1", it.map(function(r){ return qbRow(r[0], r[1].map(function(l){ return pillA(B.items + l[1], esc(l[0]) + qbMb(l[2]) + " \u2197"); }).join("")); }).join(""), "", false)); }
+  if (QB.ex[c]) QB.ex[c].filter(hit).forEach(function(sj){
+    var inner = subExList(sj[1]) + (sj[2].length ? '<div style="font-weight:700;margin:16px 0 0;padding-bottom:4px">\u0939\u093f\u0928\u094d\u0926\u0940 (Hindi medium)</div>' + subExList(sj[2]) : "");
+    out.push(qbGrp(k + "ex", "NCERT Exemplar: " + sj[0], sj[1].length + sj[2].length, "file", "--a3", inner, "", false));
+  });
+  return out.join("");
+}
+VIEWS.subject = function(r){
+  var c = r.cls || ST.cls || "10", n = +c, f = subjectOf(r), cn = "Class " + c;
+  var crumb = '<div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>' + (f ? esc(f) : 'Subject') + '</b></div>';
+  if (!f){
+    return '<div class="wrap sec">' + crumb + '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px)">' + (ST.booksLoaded ? 'Subject not found' : 'Loading...') + '</h1>' +
+      '<div class="card" style="--sh:var(--a1)">' + (ST.booksLoaded ? 'There is no such subject page for ' + cn + '. <a href="#/class" style="font-weight:700;text-decoration:underline">Go to the study shelf</a>.' : 'Loading books...') + '</div></div>';
+  }
+  var sg = slug(f), re = subRe(f), col = subCol(f), cards = [];
+  var bks = classBooks(c).filter(function(b){ return foldOf(b) === f; });
+  if (n === 10) bks.sort(function(x, y){ return ORDER10.indexOf(x.code) - ORDER10.indexOf(y.code); });
+  var chn = 0; bks.forEach(function(b){ chn += b.ch.length; });
+  bks.forEach(function(b){ cards.push(bookBlock(b, b.ch, "", bks.length > 1 ? (b.short || b.title) : undefined, true)); });
+  var loading = (!SYL && !ST.sylFail) || (!PAP && !ST.papFail && (n === 10 || n === 12)) || (!QB && !ST.qbFail);
+  if (SYL){
+    var sy = subSyl(c, re);
+    cards.push(qbGrp(sg + ":syl", "Syllabus 2026-27", sy.length, "file", "--a3", sy.map(function(it){ return '<div class="chr"><span class="no">PDF</span><a class="tt" style="font-weight:700" href="' + it[1] + '" target="_blank" rel="noopener">' + esc(it[0]) + '</a><span aria-hidden="true">\u2197</span></div>'; }).join(""), "", true));
+  }
+  if (PAP && (n === 10 || n === 12)){
+    var sm = subSample(c, re); cards.push(qbGrp(sg + ":sqp", "Sample papers 2026-27", sm.length, "paper", "--a4", sm.join(""), "", true));
+    var py = subPyq(c, re); cards.push(qbGrp(sg + ":pyq", "Past board papers", py.n, "file", "--a1", py.html, "", false));
+  }
+  if (QB && n >= 9) cards.push(subQb(c, re, sg));
+  var others = subjectFolds(c, false).filter(function(x){ return x !== f; });
+  var lead = cn + ' ' + f + ' has ' + bks.length + ' NCERT book' + (bks.length === 1 ? '' : 's') + ' with ' + chn + ' chapters on the official site' + (bks.length ? ': ' + bks.map(function(b){ return esc(b.title); }).join(', ') : '') + '. The syllabus, papers and practice questions for this subject are below, all linked from the official sites.';
+  return '<div class="wrap sec">' + crumb +
+   '<div class="head"><div class="tile" style="background:var(' + col + ')">' + subIcon(f) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">' + cn + ' ' + esc(f) + '</h1><p>' + lead + '</p></div></div>' +
+   '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));align-items:start">' + cards.join("") + '</div>' +
+   (loading ? '<div class="card" style="--sh:var(--a1);margin-top:20px">Loading the syllabus, papers and practice questions...</div>' : '') +
+   (others.length ? '<h2 style="margin-top:48px">More ' + cn + ' subjects</h2><div style="display:flex;flex-wrap:wrap;gap:10px">' + others.map(function(x){ return '<a class="pill" href="#/subject/' + slug(x) + '" style="background:var(' + subCol(x) + ');padding:6px 16px;font-size:15px">' + esc(x) + '</a>'; }).join("") + '</div>' : '') +
+   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on ncert.nic.in, cbseacademic.nic.in or cbse.gov.in. GraphPaper does not host them. ' + (hasStreams(c) ? 'The syllabus PDF covers both Class 11 and 12. ' : '') + '<a href="#/class" style="font-weight:700;text-decoration:underline">Back to the study shelf</a>.</p></div>';
+};
+
 var BOARDS = {
   "CBSE":{c:"--a1", l:"C", soon:false, url:"https://www.cbse.gov.in/", line:"The Central Board of Secondary Education runs the Class 10 and 12 board exams and publishes circulars, date sheets and results."},
   "ICSE":{c:"--a4", l:"I", soon:true, line:"ICSE notices are not on GraphPaper yet."},
@@ -708,6 +807,7 @@ function toPath(h){
   if (name === "home") p = "/";
   else if (name === "notice" || name === "board") p = "/" + name + "/" + arg;
   else if (name === "class") p = classBase(ST.cls || "4");
+  else if (name === "subject") p = "/class-" + (ST.cls || "10") + "/" + arg;
   else if (name === "books") p = classBase(bcls()) + "/books";
   else if (name === "syllabus" || name === "papers" || name === "qbank" || name === "booklist") p = classBase(ST.cls || "10") + "/" + SECT[name];
   else p = "/" + name;
@@ -722,7 +822,10 @@ function parse(){
     r.cls = String(+m[1]); var i = 1;
     if (hasStreams(r.cls) && /^(science|commerce|humanities)$/.test(segs[1] || "")){ r.stream = segs[1].charAt(0).toUpperCase() + segs[1].slice(1); i = 2; }
     var sec = segs[i];
-    r.name = !sec ? "class" : (SECT_REV[sec] && segs.length === i + 1 ? SECT_REV[sec] : "notfound");
+    if (!sec) r.name = "class";
+    else if (SECT_REV[sec] && segs.length === i + 1) r.name = SECT_REV[sec];
+    else if (+r.cls >= 9 && !r.stream && /^[a-z0-9-]+$/.test(sec) && segs.length === i + 1){ r.name = "subject"; r.arg = sec; }
+    else r.name = "notfound";
     return r;
   }
   r.name = segs.length > 2 ? "notfound" : segs[0]; r.arg = segs[1] || "";
@@ -752,6 +855,13 @@ function pageMeta(name, r){
   else if (name === "syllabus"){ m.t = "CBSE syllabus for " + cn + ", 2026-27 | GraphPaper"; m.d = "Official CBSE syllabus PDFs for " + cn + ", session 2026-27, subject by subject."; if (n < 9) m.ni = true; }
   else if (name === "papers"){ m.t = "CBSE sample papers and previous year papers for " + cn + " | GraphPaper"; m.d = "Official CBSE sample papers with marking schemes and past board question papers for " + cn + "."; if (n !== 10 && n !== 12) m.ni = true; }
   else if (name === "qbank"){ m.t = "CBSE question bank and practice questions for " + cn + " | GraphPaper"; m.d = "CBSE question bank, practice questions and NCERT Exemplar problems for " + cn + "."; if (n < 6) m.ni = true; }
+  else if (name === "subject"){
+    var sf = subjectOf(r);
+    if (sf){
+      m.t = "Class " + c + " " + sf + ": NCERT chapters, syllabus and papers | GraphPaper";
+      m.d = "Class " + c + " " + sf + " for CBSE: chapter-wise NCERT PDFs, the 2026-27 syllabus" + (n === 10 || n === 12 ? ", sample papers with marking schemes, past board papers" : "") + " and practice questions, all linked from the official sites.";
+    } else { m.t = "Subject not found | GraphPaper"; m.ni = true; }
+  }
   else if (name === "board"){ var b = BOARDS[r.arg] ? r.arg : "CBSE"; m.t = b + " notices | GraphPaper"; m.d = BOARDS[b].soon ? D0 : "Latest " + b + " circulars, date sheets, syllabus changes and results."; if (BOARDS[b].soon) m.ni = true; }
   else if (name === "parents"){ m.t = "CBSE for parents: Classes 1 to 8 explained | GraphPaper"; m.d = "Plain answers for parents of children in Classes 1 to 8: school stages, board exams, holding back, and the Holistic Progress Card, with official sources."; }
   else if (name === "about" || name === "contact" || name === "terms" || name === "privacy"){ m.t = (TITLES[name] || "GraphPaper"); }
@@ -774,7 +884,7 @@ function setMeta(name, r){
 function syncFromPath(r){
   if (r.cls && r.cls !== ST.cls) setClass(r.cls);
   if (r.stream && (r.stream !== ST.stream || !ST.streamSet)) setStream(r.stream);
-  if (r.cls && hasStreams(r.cls) && !r.stream && ST.streamSet){
+  if (r.cls && hasStreams(r.cls) && !r.stream && ST.streamSet && r.name !== "subject"){
     var sec = r.name === "class" ? "" : "/" + SECT[r.name];
     history.replaceState(null, "", classBase(r.cls) + sec + location.search);
   }
@@ -873,11 +983,11 @@ applyClass();
 if (/^#\//.test(location.hash)) history.replaceState(null, "", toPath(location.hash));
 route();
 function ready(){ if (--ST.pending === 0) window.GP_READY = true; }
-fetch("/papers.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ PAP = d; }).catch(function(){ ST.papFail = true; }).then(function(){ if (parse().name === "papers") route(true); ready(); });
-fetch("/qbank.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ QB = d; }).catch(function(){ ST.qbFail = true; }).then(function(){ if (parse().name === "qbank") route(true); ready(); });
-fetch("/syllabus.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ SYL = d; }).catch(function(){ ST.sylFail = true; }).then(function(){ if (parse().name === "syllabus") route(true); ready(); });
+fetch("/papers.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ PAP = d; }).catch(function(){ ST.papFail = true; }).then(function(){ var pn = parse().name; if (pn === "papers" || pn === "subject") route(true); ready(); });
+fetch("/qbank.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ QB = d; }).catch(function(){ ST.qbFail = true; }).then(function(){ var qn = parse().name; if (qn === "qbank" || qn === "subject") route(true); ready(); });
+fetch("/syllabus.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ SYL = d; }).catch(function(){ ST.sylFail = true; }).then(function(){ var yn = parse().name; if (yn === "syllabus" || yn === "subject") route(true); ready(); });
 function loadBooks(f){ return fetch(f).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ if (Array.isArray(d)) d.forEach(function(b){ BOOKS.push(b); }); }).catch(function(){}); }
-Promise.all([loadBooks("/books_1_8.json"), loadBooks("/books_1_10.json"), loadBooks("/books_9.json"), loadBooks("/books_11.json"), loadBooks("/books_12.json")]).then(function(){ ST.booksLoaded = true; var n = parse().name; if (n === "home" || n === "books" || n === "class" || n === "syllabus") route(true); ready(); });
+Promise.all([loadBooks("/books_1_8.json"), loadBooks("/books_1_10.json"), loadBooks("/books_9.json"), loadBooks("/books_11.json"), loadBooks("/books_12.json")]).then(function(){ ST.booksLoaded = true; var n = parse().name; if (n === "home" || n === "books" || n === "class" || n === "syllabus" || n === "subject") route(true); ready(); });
 fetch("/updates.json", {cache: "no-store"}).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){
   ST.items = (Array.isArray(d) ? d : []).filter(function(x){ return x && x.status === "approved" && !x.sample; }).sort(function(a, b){ return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
 }).catch(function(){}).then(function(){ ST.loaded = true; route(true); ready(); });

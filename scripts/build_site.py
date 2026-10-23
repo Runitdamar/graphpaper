@@ -48,6 +48,23 @@ def load(name):
         return json.load(f)
 
 
+def slug(t):
+    import re
+    return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+
+
+def subject_slugs():
+    """Class 9-12 subject pages: one per NCERT subject folder (not 'Other books')."""
+    out = {c: [] for c in (9, 10, 11, 12)}
+    for f in ("books_1_10.json", "books_9.json", "books_11.json", "books_12.json"):
+        for b in load(f):
+            c = b.get("cls")
+            fold = b.get("fold") or b.get("sub")
+            if c in out and fold and fold != "Other books" and slug(fold) not in out[c]:
+                out[c].append(slug(fold))
+    return out
+
+
 def routes():
     """Every public URL: (path, lastmod or None)."""
     out = [("/", None), ("/updates", None), ("/about", None), ("/contact", None),
@@ -68,6 +85,9 @@ def routes():
                 out.append((b + "/papers", None))
             if c >= 6:
                 out.append((b + "/question-bank", None))
+    for c, subs in subject_slugs().items():
+        for sl in subs:
+            out.append(("/class-%d/%s" % (c, sl), None))
     return out
 
 
