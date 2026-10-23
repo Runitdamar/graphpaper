@@ -42,7 +42,7 @@ def build():
         "There is no 2027 Class 10 or 12 date sheet in CBSE’s notices yet. Ignore date sheets forwarded on WhatsApp and wait for the official one.",
         {"t": "CBSE notice", "u": ds["url"]} if ds else None, {"t": "All date sheets on GraphPaper", "u": "#/updates?type=Date%20Sheet"})
     pr = _find(notices, r"practical")
-    add("practicals", [12], "Are the 2027 practical exam dates announced?", pr,
+    add("practicals", [10, 12], "Are the 2027 practical exam dates announced?", pr,
         "CBSE has published it: “%s” (%s). Your school gives you your own date." % (pr["title"], pr["date"]) if pr else "",
         "There is no 2027 practical exam circular in CBSE’s notices yet. Your school gives you your date once it comes out.",
         {"t": "CBSE notice", "u": pr["url"]} if pr else None, {"t": "All circulars on GraphPaper", "u": "#/updates?type=Circular"})
