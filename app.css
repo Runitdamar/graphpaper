@@ -102,3 +102,19 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 .stp i{width:12px;height:12px;border-radius:50%;background:var(--d,#999);border:1.5px solid var(--ink);flex:none}
 .st-no{--d:#d64545}.st-yes{--d:#3aa76d}.st-soon{--d:#e3b23c}
 @media(max-width:600px){.hr{padding-top:20px}#topnav{padding-bottom:8px}}
+
+.chr.tk{grid-template-columns:auto auto minmax(0,1fr) auto;gap:10px}
+.chr.tk small{grid-column:3/5}
+.chr a.no{text-decoration:underline;text-underline-offset:3px}
+.tick{box-sizing:border-box;width:36px;height:36px;flex:none;border:2px solid var(--ink);border-radius:10px;background:var(--bg);color:var(--ink);display:grid;place-items:center;padding:0;cursor:pointer}
+.tick svg{opacity:0}
+.tick[aria-pressed="true"]{background:var(--a3)}
+.tick[aria-pressed="true"] svg{opacity:1}
+.tick:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.pbar{height:16px;border:2px solid var(--ink);border-radius:999px;background:var(--bg);overflow:hidden}
+.pbar i{display:block;height:100%;background:var(--a3)}
+.crow{display:grid;grid-template-columns:22px minmax(0,1fr) 12px minmax(0,1fr) 44px;gap:8px;align-items:center;margin-bottom:10px}
+.crow .cn{color:var(--mut);font-weight:700;font-size:14px}
+.crow input,.cin{box-sizing:border-box;border:2px solid var(--ink);border-radius:14px;padding:12px;font-size:17px;background:var(--bg);color:var(--ink);width:100%;min-width:0}
+.crow .rm{width:44px;height:44px;border:2px solid var(--ink);border-radius:14px;background:var(--bg);color:var(--ink);font-size:22px;cursor:pointer}
+.cres{font-size:clamp(40px,10vw,64px);font-weight:700;line-height:1}

@@ -31,7 +31,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://graphpaper-peach.vercel.app"
 SHELL = os.path.join(ROOT, "scripts", "shell.html")
 STREAMS = ["science", "commerce", "humanities"]
-GENERATED_DIRS = ["notice", "board", "updates", "about", "contact", "privacy", "terms", "welcome"]
+GENERATED_DIRS = ["notice", "board", "updates", "about", "contact", "privacy", "terms", "welcome", "calculator"]
 
 
 def shell_html():
@@ -68,7 +68,7 @@ def subject_slugs():
 def routes():
     """Every public URL: (path, lastmod or None)."""
     out = [("/", None), ("/updates", None), ("/about", None), ("/contact", None),
-           ("/privacy", None), ("/terms", None), ("/parents", None), ("/welcome", None),
+           ("/privacy", None), ("/terms", None), ("/parents", None), ("/welcome", None), ("/calculator", None),
            ("/board/CBSE", None), ("/board/ICSE", None), ("/board/State%20boards", None)]
     notices = [x for x in load("updates.json") if x.get("status") == "approved" and not x.get("sample")]
     for x in sorted(notices, key=lambda n: n["date"], reverse=True):
