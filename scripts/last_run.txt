@@ -1,3 +1,3 @@
-OK https://cbseacademic.nic.in/circulars.html (HTTP 200, 93848 bytes, 7 candidate links)
+OK https://cbseacademic.nic.in/circulars.html (HTTP 200, 93836 bytes, 7 candidate links)
 OK https://www.cbse.gov.in/cbsenew/cbse.html (HTTP 200, 233607 bytes, 66 candidate links)
 Added 0 new pending item(s).
