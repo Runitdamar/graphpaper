@@ -21,10 +21,10 @@ jobs:
       - name: Commit new pending items and run status
         if: always()
         run: |
-          if [ -n "$(git status --porcelain updates.json scripts/last_run.txt)" ]; then
+          if [ -n "$(git status --porcelain updates.json scripts/last_run.txt checked.json)" ]; then
             git config user.name "graphpaper-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add updates.json scripts/last_run.txt
+            git add updates.json scripts/last_run.txt checked.json
             git commit -m "Update CBSE check results"
             git push
           fi

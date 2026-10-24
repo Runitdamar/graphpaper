@@ -51,13 +51,60 @@ function relatedBox(x){
 function nurl(x){ return "#/notice/" + encodeURIComponent(x.slug || x.id); }
 function typeOf(x){ return TYPES[x.tag] || TYPES.Circular; }
 function pill(x, extra){ var t = typeOf(x); return '<span class="pill" style="background:var(' + t.c + ')">' + esc(t.label) + '</span>' + (extra || ""); }
+var CHECKED = "";
+try { var chkEl = document.getElementById("chk"); if (chkEl) CHECKED = (JSON.parse(chkEl.textContent) || {}).date || ""; } catch(e){}
+var NSUBJ = [["Physics",/physics/i],["Chemistry",/chemistry/i],["Mathematics",/\bmaths?\b|mathematics/i],["Biology",/biology/i],["Accountancy",/accountancy/i],["Business Studies",/business studies/i],["Economics",/economics/i],["English",/english/i],["Hindi",/hindi/i],["Sanskrit",/sanskrit/i],["History",/history/i],["Geography",/geography/i],["Political Science",/political science/i],["Psychology",/psychology/i],["Sociology",/sociology/i],["Computer Science",/computer science|informatics/i],["Science",null],["Social Science",/social science/i]];
+function nmeta(x){
+  if (x._m) return x._m;
+  var t = x.title || "", t2 = t.replace(/social science/ig, ""), m = {};
+  m.classes = noticeClasses(x);
+  m.streams = []; if (/\bscience\b/i.test(t2)) m.streams.push("Science"); if (/\bcommerce\b/i.test(t2)) m.streams.push("Commerce"); if (/\bhumanities\b|\barts\b/i.test(t2)) m.streams.push("Humanities");
+  m.subjects = []; NSUBJ.forEach(function(s){ if (s[1] ? s[1].test(t) : /\bscience\b/i.test(t2)) m.subjects.push(s[0]); });
+  var yr = /\b(20\d\d)\b/.exec(t); m.year = yr ? yr[1] : "";
+  var d = new Date(x.date + "T00:00:00"); m.age = isNaN(d) ? 0 : Math.floor((Date.now() - d.getTime()) / 864e5);
+  m.archived = x.archived === true || (x.archived !== false && m.age > 180);
+  var who = [];
+  if (m.classes.length) who.push((m.classes.length === 1 ? "Class " + m.classes[0] : "Classes " + m.classes.join(", ")) + " students");
+  if (/school|principal|affiliat|\bLOC\b|UDISE|registration|submission|portal/i.test(t)) who.push("school heads and staff");
+  if (/parent/i.test(t)) who.push("parents");
+  if (/teacher|faculty|training|webinar|workshop|capacity/i.test(t)) who.push("teachers");
+  m.affectsAuto = !x.affects;
+  m.affects = x.affects || (who.length ? who.join(", ").replace(/^./, function(c){ return c.toUpperCase(); }) : "Students, parents and schools");
+  return (x._m = m);
+}
+function ageText(m){ return m.age < 1 ? "today" : m.age < 31 ? m.age + " day" + (m.age === 1 ? "" : "s") + " ago" : m.age < 365 ? Math.round(m.age / 30) + " months ago" : (Math.round(m.age / 36.5) / 10) + " years ago"; }
+var UCAT = {
+  "circulars": ["Circular", "circulars", "Circulars from CBSE and CBSE Academic about exams, registration, schools and students, each linked to the official notice."],
+  "date-sheets": ["Date Sheet", "date sheets", "CBSE date sheets for board and special examinations, each linked to the official PDF. Always check dates in the official PDF before you plan."],
+  "syllabus-changes": ["Syllabus Change", "syllabus changes", "CBSE notices that change a syllabus or curriculum, each linked to the official source."],
+  "results": ["Result", "results", "CBSE result announcements, each linked to the official source."]
+};
+var UCAT_SLUG = {}; Object.keys(UCAT).forEach(function(k){ UCAT_SLUG[UCAT[k][0]] = k; });
+function uPreset(arg){ var p = {type: "", cls: "", arg: arg || ""}; if (arg && UCAT[arg]) p.type = UCAT[arg][0]; var m = /^class-(9|1[0-2])$/.exec(arg || ""); if (m) p.cls = m[1]; return p; }
+function uFilter(p, raw){
+  var q = raw ? "" : (ST.q || "").trim().toLowerCase(), cur = [], arc = [], type = p.type || (raw ? "all" : ST.type);
+  ST.items.forEach(function(x){
+    var m = nmeta(x);
+    if (type && type !== "all" && x.tag !== type) return;
+    if (p.cls && m.classes.indexOf(+p.cls) < 0) return;
+    if (!raw){
+      if (ST.fs && m.streams.length && m.streams.indexOf(ST.fs) < 0) return;
+      if (ST.fsub && m.subjects.indexOf(ST.fsub) < 0) return;
+      if (ST.fy && m.year !== ST.fy) return;
+      if (q && (x.title + " " + typeOf(x).label + " " + (x.summary || "")).toLowerCase().indexOf(q) < 0) return;
+    }
+    (m.archived ? arc : cur).push(x);
+  });
+  return {cur: cur, arc: arc};
+}
 function noticeCard(x, small){
-  var t = typeOf(x);
+  var t = typeOf(x), m = nmeta(x);
   return '<article class="card' + (small ? ' sm' : '') + '" style="--sh:var(' + t.c + ')">' +
     '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;font-weight:700;font-size:14px">' + pill(x) +
-    (isNew(x.date) ? '<span class="pill" style="background:var(--a3)">New</span>' : '<span>CBSE</span>') + '</div>' +
+    (m.archived ? '<span class="pill tag-arch">Archived</span>' : isNew(x.date) ? '<span class="pill" style="background:var(--a3)">New</span>' : '<span>CBSE</span>') + '</div>' +
     '<h3><a href="' + nurl(x) + '">' + esc(x.title) + '</a></h3>' +
     '<div class="meta">' + esc(fmt(x.date)) + ' \u00b7 ' + esc(noticeClass(x)) + '</div>' +
+    (x.deadline ? '<div class="meta" style="color:var(--ink);font-weight:700">Deadline: ' + esc(x.deadline) + '</div>' : '') +
     '<a class="more" href="' + nurl(x) + '">Read notice →</a></article>';
 }
 function loadingOrEmpty(msg){ return '<div class="card" style="grid-column:1/-1;text-align:center;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? esc(msg) : 'Loading notices...') + '</div>'; }
@@ -455,6 +502,7 @@ function toPath(h){
   var m = /^#\/?([^\/?]*)(?:\/([^?]*))?(?:\?(.*))?$/.exec(h || "#/") || [], name = m[1] || "home", arg = m[2] || "", qs = m[3] ? "?" + m[3] : "", p;
   if (name === "home") p = "/";
   else if (name === "notice" || name === "board") p = "/" + name + "/" + arg;
+  else if (name === "updates") p = "/updates" + (arg ? "/" + arg : "");
   else if (name === "class") p = classBase(ST.cls || "4");
   else if (name === "subject") p = "/class-" + (ST.cls || "10") + "/" + arg;
   else if (name === "chapter"){ var cbk = bookByCode(arg.split("-")[0]); p = cbk ? chapPath(cbk, +arg.split("-")[1]) : "/"; }
@@ -497,7 +545,14 @@ function pageMeta(name, r){
   var T = "GraphPaper: CBSE notices, NCERT books and syllabus", D0 = "CBSE circulars, date sheets and results for Class 1 to 12, with NCERT books and the syllabus, in one place.";
   var c = r.cls || ST.cls, cn = c ? clsName(c) : "", n = c ? +c : 0, m = {t: T, d: D0, ni: false};
   if (name === "welcome"){ m.t = "Welcome | GraphPaper"; m.ni = true; }
-  else if (name === "updates"){ m.t = "All CBSE updates | GraphPaper"; m.d = "Every CBSE circular, date sheet, syllabus change and result in one list, newest first."; m.bc = [["Updates", "/updates"]]; }
+  else if (name === "updates"){
+    var up = uPreset(r.arg), uc = UCAT[r.arg];
+    m.t = "All CBSE updates: circulars, date sheets and results | GraphPaper"; m.d = "Every CBSE circular, date sheet, syllabus change and result in one list, newest first, with older notices archived separately."; m.bc = [["Updates", "/updates"]];
+    if (uc){ m.t = "CBSE " + uc[1] + ": latest notices and archive | GraphPaper"; m.d = uc[2]; m.bc.push(["CBSE " + uc[1], "/updates/" + r.arg]); }
+    else if (up.cls){ m.t = "CBSE Class " + up.cls + " notices: circulars, date sheets and results | GraphPaper"; m.d = "Circulars, date sheets, syllabus changes and results that name Class " + up.cls + " in the CBSE notice title, with the official link for each and older notices archived."; m.bc.push(["Class " + up.cls, "/updates/class-" + up.cls]); }
+    else if (r.arg){ m.t = "Page not found | GraphPaper"; m.ni = true; m.bc = null; }
+    if (r.arg && ST.loaded && (up.type || up.cls)){ var uf = uFilter(up, true); if (!uf.cur.length && !uf.arc.length) m.ni = true; }
+  }
   else if (name === "notice"){
     var x = findNotice(r.arg);
     if (x){
@@ -594,7 +649,7 @@ function route(keepScroll){
   if (!VIEWS[name]) name = "notfound";
   if (ST.cls && hasStreams(ST.cls) && !ST.streamSet && /^(class|books|syllabus|papers|sqp|pyq|qbank|booklist)$/.test(name)){ ST.wc = ST.wc || ST.cls; name = "welcome"; }
   if (!keepScroll){
-    if (name !== "updates" || !ST.fromSearch){ if (name === "updates" || ST.navFrom === "updates"){ ST.type = "all"; ST.q = ""; ST.ub = "all"; } }
+    if (name !== "updates" || !ST.fromSearch){ if (name === "updates" || ST.navFrom === "updates"){ ST.type = "all"; ST.q = ""; ST.ub = "all"; ST.fs = ""; ST.fsub = ""; ST.fy = ""; } }
     if (name !== "books"){ ST.bq = ""; ST.bsub = "All"; }
     if (name !== "syllabus") ST.sq = "";
     if (name !== "papers" && name !== "sqp" && name !== "pyq") ST.pq = "";
@@ -658,6 +713,7 @@ D.addEventListener("click", function(e){
   else if (a === "wgo"){ var we = $("#werr"); if (!ST.wc){ we.textContent = "Please pick your class first."; we.hidden = false; return; } if (hasStreams(ST.wc) && !ST.ws){ we.textContent = "Please pick your stream first."; we.hidden = false; return; } setClass(ST.wc); if (hasStreams(ST.wc)) setStream(ST.ws); go("/"); }
   else if (a === "hf"){ ST.hf = v; route(true); }
   else if (a === "ut"){ ST.type = v; route(true); }
+  else if (a === "uf"){ var uk = el.dataset.k; ST[uk] = ST[uk] === v ? "" : v; route(true); }
   else if (a === "ws"){ ST.ws = v; route(true); }
   else if (a === "bs"){ ST.bsub = v; route(true); }
   else if (a === "pt"){ ST.pt = v; ST.pq = ""; route(true); }
@@ -680,9 +736,13 @@ D.addEventListener("input", function(e){
   if (e.target.id === "qq"){ ST.qq = e.target.value; if (QB) $("#qlist").innerHTML = qbBody(ST.cls || "10"); return; }
   if (e.target.id === "sq"){ ST.sq = e.target.value; if (SYL) $("#slist").innerHTML = sylHtml(ST.cls || "10", ST.sq.trim().toLowerCase()).html; return; }
   if (e.target.id === "uq" || e.target.id === "bq"){
-    if (e.target.id === "uq"){ ST.q = e.target.value; var l = listHtml(); $("#ulist").innerHTML = l.html; $("#ucount").textContent = "Showing " + l.n + " notice" + (l.n === 1 ? "" : "s"); }
+    if (e.target.id === "uq"){ ST.q = e.target.value; var l = listHtml(); $("#ulist").innerHTML = l.html; $("#uarc").innerHTML = l.arc; $("#ucount").textContent = ucount(l); }
     else { ST.bq = e.target.value; $("#blist").innerHTML = booksHtml().html; }
   }
+});
+D.addEventListener("change", function(e){
+  if (e.target.id === "usub"){ ST.fsub = e.target.value; route(true); }
+  else if (e.target.id === "uyr"){ ST.fy = e.target.value; route(true); }
 });
 D.addEventListener("toggle", function(e){
   var t = e.target; if (!t.classList || ST.bq) return; if (t.classList.contains("folder")) ST.bfold[t.dataset.fold] = t.open; else if (t.classList.contains("book")) ST.bopen[t.dataset.code] = t.open;

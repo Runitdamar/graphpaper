@@ -17,6 +17,7 @@ on:
       - "scripts/build_site.py"
       - "scripts/build_tracker.py"
       - "updates.json"
+      - "checked.json"
       - "books_*.json"
       - "papers.json"
       - "qbank.json"
