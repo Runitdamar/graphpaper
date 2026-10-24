@@ -1,0 +1,28 @@
+name: Check links
+
+# Opens every official link the site shows (NCERT PDFs and ZIPs, CBSE syllabus, papers,
+# question bank, notices) and lists the ones that fail in the run summary.
+# It does not change any file in the repository.
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # every Monday
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/check_links.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: link-report
+          path: link_report.json

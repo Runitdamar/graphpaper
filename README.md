@@ -26,4 +26,3 @@ CBSE updates, syllabus, papers, question bank and NCERT book links for Classes 1
   "title": "...", "date": "YYYY-MM-DD", "summary": "...",
   "url": "official link", "status": "approved | pending" }
 ```
-While the file is empty, the site shows clearly labeled sample items.
