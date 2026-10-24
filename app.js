@@ -675,6 +675,7 @@ function route(keepScroll){
     if (name !== "qbank") ST.qq = "";
     ST.fromSearch = false; ST.navFrom = name;
   }
+  if (typeof needData === "function") needData(name);
   $("#topnav").hidden = $("#foot").hidden = (name === "welcome");
   if (name !== "welcome") applyClass();
   $("#view").innerHTML = VIEWS[name](r);

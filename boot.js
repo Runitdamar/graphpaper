@@ -2,11 +2,29 @@
 /* ---------- data ---------- */
 applyClass();
 if (/^#\//.test(location.hash)) history.replaceState(null, "", toPath(location.hash));
+/* Papers, question bank and syllabus are only fetched when a page needs them. */
+var LAZY = {
+  papers: ["/papers.json", function(d){ PAP = d; }, "papFail"],
+  qbank: ["/qbank.json", function(d){ QB = d; }, "qbFail"],
+  syllabus: ["/syllabus.json", function(d){ SYL = d; }, "sylFail"]
+};
+var NEEDS = {papers:["papers"], sqp:["papers"], pyq:["papers"], qbank:["qbank"], syllabus:["syllabus"], subject:["papers", "qbank", "syllabus"], chapter:["papers", "qbank", "syllabus"]};
+var LOADING = {};
+ST.inflight = 0;
+function ready(){ if (ST.booksLoaded && ST.loaded && !ST.inflight) window.GP_READY = true; }
+function needData(name){
+  (NEEDS[name] || []).forEach(function(k){
+    if (LOADING[k]) return;
+    LOADING[k] = 1; ST.inflight++;
+    var L = LAZY[k];
+    fetch(L[0]).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(L[1]).catch(function(){ ST[L[2]] = true; }).then(function(){
+      ST.inflight--;
+      if ((NEEDS[parse().name] || []).indexOf(k) > -1) route(true);
+      ready();
+    });
+  });
+}
 route();
-function ready(){ if (--ST.pending === 0) window.GP_READY = true; }
-fetch("/papers.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ PAP = d; }).catch(function(){ ST.papFail = true; }).then(function(){ var pn = parse().name; if (pn === "papers" || pn === "sqp" || pn === "pyq" || pn === "subject" || pn === "chapter") route(true); ready(); });
-fetch("/qbank.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ QB = d; }).catch(function(){ ST.qbFail = true; }).then(function(){ var qn = parse().name; if (qn === "qbank" || qn === "subject") route(true); ready(); });
-fetch("/syllabus.json").then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ SYL = d; }).catch(function(){ ST.sylFail = true; }).then(function(){ var yn = parse().name; if (yn === "syllabus" || yn === "subject") route(true); ready(); });
 function loadBooks(f){ return fetch(f).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ if (Array.isArray(d)) d.forEach(function(b){ BOOKS.push(b); }); }).catch(function(){}); }
 Promise.all([loadBooks("/books_1_8.json"), loadBooks("/books_1_10.json"), loadBooks("/books_9.json"), loadBooks("/books_11.json"), loadBooks("/books_12.json")]).then(function(){ ST.booksLoaded = true; if (parse().name !== "welcome") route(true); ready(); });
 fetch("/updates.json", {cache: "no-store"}).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){
