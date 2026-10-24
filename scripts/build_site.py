@@ -100,6 +100,8 @@ def routes():
                 out.append((b + "/syllabus", None))
             if c in (10, 12):
                 out.append((b + "/papers", None))
+                out.append((b + "/sample-papers", None))
+                out.append((b + "/previous-year-papers", None))
             if c >= 6:
                 out.append((b + "/question-bank", None))
     for c, subs in subject_slugs().items():
