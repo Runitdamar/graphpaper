@@ -1,0 +1,38 @@
+name: Speed check (Lighthouse)
+
+# Runs Lighthouse (the engine behind PageSpeed Insights) in mobile mode against the live site
+# and prints the scores in the run summary. Changes no files.
+
+on:
+  workflow_dispatch:
+    inputs:
+      base:
+        description: "Site address"
+        default: "https://graphpaper-peach.vercel.app"
+
+permissions:
+  contents: read
+
+jobs:
+  lh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run Lighthouse on key pages
+        run: |
+          npm i -g lighthouse@12 >/dev/null 2>&1
+          B="${{ github.event.inputs.base }}"
+          echo "## Lighthouse (mobile) for $B" >> $GITHUB_STEP_SUMMARY
+          echo "| Page | Performance | Accessibility | Best practices | SEO | LCP | CLS | TBT | Page weight |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|---|---|---|---|---|---|---|" >> $GITHUB_STEP_SUMMARY
+          for P in / /class-10 /class-12/science /class-10/mathematics /updates /updates/date-sheets /class-4 /calculator; do
+            lighthouse "$B$P" --quiet --chrome-flags="--headless=new --no-sandbox" --output=json --output-path=/tmp/lh.json || true
+            node -e '
+              const r=require("/tmp/lh.json"), c=r.categories, a=r.audits, s=k=>Math.round((c[k].score||0)*100);
+              const kb=Math.round((a["total-byte-weight"].numericValue||0)/1024);
+              console.log("| '"$P"' | "+s("performance")+" | "+s("accessibility")+" | "+s("best-practices")+" | "+s("seo")+" | "+a["largest-contentful-paint"].displayValue+" | "+a["cumulative-layout-shift"].displayValue+" | "+a["total-blocking-time"].displayValue+" | "+kb+" KB |");
+            ' >> $GITHUB_STEP_SUMMARY
+          done
