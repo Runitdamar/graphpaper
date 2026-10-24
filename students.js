@@ -71,10 +71,9 @@ VIEWS.updates = function(r){
     '<p class="meta" style="margin:0 0 24px">' + (CHECKED ? 'CBSE’s notice lists last checked on ' + esc(fmt(CHECKED)) + '. ' : '') + 'A new notice can take a day to appear here, so also look at cbse.gov.in.</p>' +
     '<div class="search" style="max-width:560px;margin-bottom:20px"><label for="uq" style="position:absolute;left:-9999px">Search updates</label><input id="uq" type="search" placeholder="Search updates" value="' + esc(ST.q) + '" autocomplete="off"></div>' +
     '<div class="flab">Type</div><div class="chips" role="group" aria-label="Type" style="margin-bottom:16px">' + types + '</div>' +
-    '<div class="flab">Class</div><div class="chips" role="group" aria-label="Class" style="margin-bottom:16px">' + cls + '</div>' +
-    '<div class="flab">Stream (Class 11 and 12)</div><div class="chips" role="group" aria-label="Stream" style="margin-bottom:16px">' + streams + '</div>' +
     '<div style="display:flex;flex-wrap:wrap;gap:16px;margin-bottom:20px">' + uSelect("usub", "Subject", Object.keys(subs).sort(), ST.fsub) + uSelect("uyr", "Exam year", Object.keys(yrs).sort().reverse(), ST.fy) + '</div>' +
-    '<div class="meta" id="ucount" aria-live="polite" style="margin-bottom:16px">' + ucount(l) + '</div><div class="grid g3" id="ulist">' + l.html + '</div><div id="uarc">' + l.arc + '</div></div>';
+    '<div class="meta" id="ucount" aria-live="polite" style="margin-bottom:16px">' + ucount(l) + '</div><div class="grid g3" id="ulist">' + l.html + '</div><div id="uarc">' + l.arc + '</div>' +
+    '<p class="meta" style="margin-top:40px">Notices that name a class: ' + cls.replace(/class="f"/g, 'style="text-decoration:underline;font-weight:700;margin-right:12px"') + '</p></div>';
 };
 
 VIEWS.notice = function(r){
