@@ -9,6 +9,9 @@ on:
     branches: [main]
     paths:
       - "app.js"
+      - "parents.js"
+      - "students.js"
+      - "boot.js"
       - "app.css"
       - "scripts/shell.html"
       - "scripts/build_site.py"
