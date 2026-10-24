@@ -87,7 +87,7 @@ def routes():
     """Every public URL: (path, lastmod or None)."""
     out = [("/", None), ("/updates", None), ("/about", None), ("/contact", None),
            ("/privacy", None), ("/terms", None), ("/parents", None), ("/welcome", None), ("/calculator", None),
-           ("/board/CBSE", None)]
+           ("/class-11", None), ("/class-12", None)]
     for sl in ("circulars", "date-sheets", "syllabus-changes", "results", "class-9", "class-10", "class-11", "class-12"):
         out.append(("/updates/" + sl, None))
     notices = [x for x in load("updates.json") if x.get("status") == "approved" and not x.get("sample")]
