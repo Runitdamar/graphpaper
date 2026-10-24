@@ -187,7 +187,7 @@ def main():
             page.wait_for_timeout(150)
             html = "<!doctype html>\n" + page.evaluate("document.documentElement.outerHTML")
             robots = page.evaluate("(document.querySelector('meta[name=robots]')||{}).content || ''")
-            canon = page.evaluate("document.querySelector('link[rel=canonical]').href")
+            canon = page.evaluate("(document.querySelector('link[rel=canonical]')||{}).href || ''")
             view = page.evaluate("document.querySelector('#view').innerText.length")
             ctx.close()
             if errs:
