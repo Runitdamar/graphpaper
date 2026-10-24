@@ -10,7 +10,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   check:
@@ -26,3 +26,20 @@ jobs:
         with:
           name: link-report
           path: link_report.json
+      - name: Save the report on the qa-reports branch
+        run: |
+          python - <<'PY'
+          import json
+          d = json.load(open("link_report.json"))
+          lines = ["# Link check: %d links, %d problem(s)" % (d["total"], d["failed"]), ""]
+          lines += ["- %s | %s | %s" % (b["what"], b.get("error") or b.get("status"), b["url"]) for b in d["failures"]]
+          open("/tmp/links.md", "w").write("\n".join(lines) + "\n")
+          PY
+          git config user.name "graphpaper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git fetch origin qa-reports || true
+          git checkout -B qa-reports $(git rev-parse --verify -q origin/qa-reports || echo HEAD)
+          mkdir -p reports && cp /tmp/links.md reports/links.md
+          git add reports/links.md
+          git commit -m "Link report" || true
+          git push origin qa-reports
