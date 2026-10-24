@@ -557,22 +557,23 @@ function pageMeta(name, r){
     var x = findNotice(r.arg);
     if (x){
       var nt = x.title.replace(/\s+([:;,])/g, "$1").replace(/\s+/g, " ").trim(), tl = typeOf(x).label;
-      m.t = nt + " | " + (/cbse/i.test(nt) ? "" : "CBSE ") + tl + " | GraphPaper";
+      var ntt = nt.length > 100 ? nt.slice(0, 100).replace(/\s+\S*$/, "") + "\u2026" : nt;
+      m.t = ntt + " | " + (nt.length > 60 ? "" : (/cbse/i.test(nt) ? "" : "CBSE ") + tl + " | ") + "GraphPaper";
       m.d = x.summary || (tl + " from CBSE dated " + fmt(x.date) + ": " + nt + ". Official link, publish date and related NCERT books, syllabus and papers.");
       m.art = x; m.bc = [["Updates", "/updates"], [nt, "/notice/" + (x.slug || x.id)]];
     } else { m.t = "Notice | GraphPaper"; m.ni = true; }
   }
   else if (name === "class"){ var pp = (n === 10 || n === 12), sy = n >= 9;
-    m.t = sy ? "CBSE " + cn + " (2026-27): syllabus, " + (pp ? "sample papers, " : "") + "NCERT books and notices | GraphPaper" : "NCERT books for " + cn + ": chapter list and downloads | GraphPaper";
+    m.t = sy ? "CBSE " + cn + " 2026-27: Syllabus, " + (pp ? "Papers, " : "") + "NCERT Books, Notices | GraphPaper" : "NCERT books for " + cn + ": chapter list and downloads | GraphPaper";
     m.d = sy ? classIntro(n, c).split(". ")[0].replace(/\.$/, "") + ". Official 2026-27 syllabus, " + (pp ? "sample papers, previous years\u2019 papers, " : "") + "NCERT books and the latest CBSE notices." : "Every NCERT book for " + cn + ", chapter by chapter, with a printable book list and a guide for parents.";
     if (!r.cls) m.ni = true; m.bc = [[cn, classBase(c)]]; }
-  else if (name === "books"){ m.t = "NCERT books for " + cn + " (2026-27): chapter-wise PDF download | GraphPaper"; m.d = "Chapter-wise NCERT PDFs for " + cn + ", linked from the official NCERT site, with a whole-book download for each."; m.bc = [[cn, classBase(c)], ["NCERT books", classBase(c) + "/books"]]; }
-  else if (name === "booklist"){ m.t = "NCERT book list for " + cn + ": all textbooks and chapters | GraphPaper"; m.d = "A printable checklist of every NCERT textbook for " + cn + " (CBSE), with chapter titles and download links."; m.bc = [[cn, classBase(c)], ["Book list", classBase(c) + "/book-list"]]; }
-  else if (name === "syllabus"){ m.t = "CBSE " + cn + " syllabus 2026-27: official PDF, subject-wise | GraphPaper"; m.d = "Official CBSE syllabus PDFs for " + cn + ", session 2026-27, subject by subject."; if (n < 9) m.ni = true; m.bc = [[cn, classBase(c)], ["Syllabus", classBase(c) + "/syllabus"]]; }
-  else if (name === "papers"){ m.t = "CBSE " + cn + " sample papers, marking schemes and previous year question papers | GraphPaper"; m.d = "Official CBSE sample papers with marking schemes and past board question papers for " + cn + "."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Papers", classBase(c) + "/papers"]]; }
-  else if (name === "sqp"){ m.t = "CBSE " + cn + " sample papers 2026-27 with marking schemes | GraphPaper"; m.d = "Official CBSE sample question papers and marking schemes for " + cn + ", session 2026-27, subject by subject, linked from CBSE."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Sample papers", classBase(c) + "/sample-papers"]]; }
-  else if (name === "pyq"){ m.t = "CBSE " + cn + " previous year question papers (board papers) | GraphPaper"; m.d = "Past CBSE board exam question papers for " + cn + ", year by year, including the second exam where CBSE held one. Files open on CBSE's own site."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Previous year papers", classBase(c) + "/previous-year-papers"]]; }
-  else if (name === "qbank"){ m.t = "CBSE " + cn + " question bank, practice questions and NCERT Exemplar | GraphPaper"; m.d = "CBSE question bank, practice questions and NCERT Exemplar problems for " + cn + "."; if (n < 6) m.ni = true; m.bc = [[cn, classBase(c)], ["Question bank", classBase(c) + "/question-bank"]]; }
+  else if (name === "books"){ m.t = cn + " NCERT Books 2026-27: Chapter-wise PDFs | GraphPaper"; m.d = "Chapter-wise NCERT PDFs for " + cn + ", linked from the official NCERT site, with a whole-book download for each."; m.bc = [[cn, classBase(c)], ["NCERT books", classBase(c) + "/books"]]; }
+  else if (name === "booklist"){ m.t = cn + " NCERT Book List: All Textbooks & Chapters | GraphPaper"; m.d = "A printable checklist of every NCERT textbook for " + cn + " (CBSE), with chapter titles and download links."; m.bc = [[cn, classBase(c)], ["Book list", classBase(c) + "/book-list"]]; }
+  else if (name === "syllabus"){ m.t = "CBSE " + cn + " Syllabus 2026-27 (Official PDF) | GraphPaper"; m.d = "Official CBSE syllabus PDFs for " + cn + ", session 2026-27, subject by subject."; if (n < 9) m.ni = true; m.bc = [[cn, classBase(c)], ["Syllabus", classBase(c) + "/syllabus"]]; }
+  else if (name === "papers"){ m.t = "CBSE " + cn + " Sample Papers & Previous Year Papers | GraphPaper"; m.d = "Official CBSE sample papers with marking schemes and past board question papers for " + cn + "."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Papers", classBase(c) + "/papers"]]; }
+  else if (name === "sqp"){ m.t = "CBSE " + cn + " Sample Papers 2026-27 with Marking Schemes | GraphPaper"; m.d = "Official CBSE sample question papers and marking schemes for " + cn + ", session 2026-27, subject by subject, linked from CBSE."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Sample papers", classBase(c) + "/sample-papers"]]; }
+  else if (name === "pyq"){ m.t = "CBSE " + cn + " Previous Year Question Papers (Board Papers) | GraphPaper"; m.d = "Past CBSE board exam question papers for " + cn + ", year by year, including the second exam where CBSE held one. Files open on CBSE's own site."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Previous year papers", classBase(c) + "/previous-year-papers"]]; }
+  else if (name === "qbank"){ m.t = "CBSE " + cn + " Question Bank & NCERT Exemplar | GraphPaper"; m.d = "CBSE question bank, practice questions and NCERT Exemplar problems for " + cn + "."; if (n < 6) m.ni = true; m.bc = [[cn, classBase(c)], ["Question bank", classBase(c) + "/question-bank"]]; }
   else if (name === "calculator"){ m.t = "Percentage and CGPA calculator for CBSE students | GraphPaper"; m.bc = [["Calculator", "/calculator"]]; m.d = "Work out your percentage from your marks, or convert CGPA to percentage using CBSE's own 9.5 rule. Free, and nothing is saved or sent."; }
   else if (name === "chapter"){
     var ch = chapterOf(r); m.ni = true;
@@ -581,14 +582,19 @@ function pageMeta(name, r){
   else if (name === "subject"){
     var sf = subjectOf(r);
     if (sf){
-      m.t = "Class " + c + " " + sf + ": NCERT book PDF, syllabus 2026-27" + (n === 10 || n === 12 ? ", sample papers" : " and questions") + " | GraphPaper";
+      var pp2 = (n === 10 || n === 12), sn = sf === "Mathematics" ? "Maths" : sf, nch = 0;
+      classBooks(c).forEach(function(b){ if (foldOf(b) === sf && streamOk(b)) nch += b.ch.length; });
+      m.t = "CBSE Class " + c + " " + sn + (pp2 ? " Syllabus, NCERT Book & Papers 2026-27" : " Syllabus & NCERT Book 2026-27") + " | GraphPaper";
       m.bc = (n < 11 ? [["Class " + c, "/class-" + c]] : []).concat([[sf, "/class-" + c + "/" + r.arg]]); m.col = true;
-      m.d = "Class " + c + " " + sf + " for CBSE: chapter-wise NCERT PDFs, the 2026-27 syllabus" + (n === 10 || n === 12 ? ", sample papers with marking schemes, past board papers" : "") + " and practice questions, all linked from the official sites.";
+      m.d = "CBSE Class " + c + " " + sf + " 2026-27: " + (nch ? nch + " NCERT chapters with PDF links, " : "") + "syllabus, " + (pp2 ? "sample papers with marking schemes and previous-year board papers." : "question bank and NCERT Exemplar practice.");
     } else { m.t = "Subject not found | GraphPaper"; m.ni = true; }
   }
   else if (name === "board"){ var b = BOARDS[r.arg] ? r.arg : "CBSE"; m.t = b + " notices | GraphPaper"; m.d = BOARDS[b].soon ? D0 : "Latest " + b + " circulars, date sheets, syllabus changes and results."; if (BOARDS[b].soon) m.ni = true; }
   else if (name === "parents"){ m.t = "CBSE for parents: Classes 1 to 8 explained | GraphPaper"; m.d = "Plain answers for parents of children in Classes 1 to 8: school stages, board exams, holding back, and the Holistic Progress Card, with official sources."; m.bc = [["For parents", "/parents"]]; }
-  else if (name === "about" || name === "contact" || name === "terms" || name === "privacy"){ m.t = (TITLES[name] || "GraphPaper"); }
+  else if (name === "about"){ m.t = "About GraphPaper: a free guide to CBSE and NCERT | GraphPaper"; m.d = "GraphPaper brings NCERT books, the CBSE syllabus, papers and official notices together for Class 1 to 12, with links to the official sources only."; }
+  else if (name === "contact"){ m.t = "Contact GraphPaper: report a wrong notice or send an idea"; m.d = "Write to GraphPaper to report a wrong or missing CBSE notice, ask a question or suggest a feature."; }
+  else if (name === "terms"){ m.t = "Terms of use | GraphPaper"; m.d = "The terms for using GraphPaper: an independent site that links to official CBSE and NCERT sources and is not an official board website."; }
+  else if (name === "privacy"){ m.t = "Privacy | GraphPaper: no accounts, nothing collected"; m.d = "What GraphPaper stores on your device (your class and progress ticks) and what it does not collect."; }
   else if (name === "notfound"){ m.t = "Page not found | GraphPaper"; m.ni = true; }
   return m;
 }
@@ -597,6 +603,7 @@ function setMeta(name, r){
   var m = pageMeta(name, r), path = location.pathname.replace(/\/+$/, "") || "/", url = SITE + (path === "/" ? "/" : path);
   if (r.q && name === "home" && r.q.get("s")) url = SITE + "/";
   function el(sel, tag, attrs){ var e = $(sel); if (!e){ e = D.createElement(tag); for (var k in attrs) e.setAttribute(k, attrs[k]); D.head.appendChild(e); } return e; }
+  if (m.d.length > 165){ m.d = m.d.slice(0, 162).replace(/[\s,;:.\-]+\S*$/, "") + "\u2026"; }
   D.title = m.t;
   el('meta[name="description"]', "meta", {name:"description"}).setAttribute("content", m.d);
   el('link[rel="canonical"]', "link", {rel:"canonical"}).setAttribute("href", url);
