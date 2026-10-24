@@ -40,6 +40,351 @@
       "source": "/syllabus.html",
       "destination": "/#/syllabus",
       "permanent": true
+    },
+    {
+      "source": "/notice/cbse-3b89ed7093",
+      "destination": "/notice/date-sheet-for-class-xii-special-examinations-for-west-asia-2026",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-876f8d6511",
+      "destination": "/notice/reminder-1-following-accuracy-and-timeliness-while-submitting-loc-for-class-x",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-715cb1bee1",
+      "destination": "/notice/submission-of-examination-forms-by-private-candidates-for-senior-secondary",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-b70fd5a36f",
+      "destination": "/notice/submission-of-examination-forms-by-private-candidates-for-class-x-examinations",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-c8e3122144",
+      "destination": "/notice/cbse-holds-live-q-a-webinar-on-registration-and-loc-for-board-examinations-2027",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-c6e147c319",
+      "destination": "/notice/submission-of-list-of-candidates-loc-for-class-x-and-class-xii-main",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-96f66bc888",
+      "destination": "/notice/submission-of-list-of-candidates-loc-for-class-xii-2026-special-examinations",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-5188955845",
+      "destination": "/notice/prior-intimation-of-submission-of-list-of-candidates-loc-for-class-x-xii",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-bc6f572dd9",
+      "destination": "/notice/notice-for-post-result-declaration-facilities-to-the-students-class-xii",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-8bd410da3e",
+      "destination": "/notice/press-release-cbse-declares-class-xii-supplementary-examination-results-2026",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-606abafb56",
+      "destination": "/notice/post-result-declaration-facilities-to-the-students-of-class-x-main-and-second",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-2334755e06",
+      "destination": "/notice/guidelines-for-conducting-practical-examinations-with-the-supplementary",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-7828a3cee0",
+      "destination": "/notice/issuance-of-admit-cards-for-supplementary-examinations-2026",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-7d4d72f94a",
+      "destination": "/notice/press-release-cbse-declares-class-x-second-board-examination-results-2026",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-938faa56b0",
+      "destination": "/notice/datesheet-for-senior-secondary-supplementary-examination-2026",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-91f66b0181",
+      "destination": "/notice/extension-of-last-date-for-filling-list-of-candidates-loc-for-regular-students",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-bf78779bcd",
+      "destination": "/notice/extension-of-last-date-for-filling-examination-forms-for-private-candidates-for",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-aa27a37da7",
+      "destination": "/notice/online-submission-of-list-of-candidates-for-class-xii-supplementary-examination",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-49426df7c3",
+      "destination": "/notice/online-submission-of-forms-by-private-candidates-of-class-xii-supplementary",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-83b44c561e",
+      "destination": "/notice/verification-of-issues-observed-re-evaluation-class-xii-guidance-for-students",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-311de87f6c",
+      "destination": "/notice/press-release-cbse-commences-release-of-class-xii-verification-of-issues",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-57a58246f3",
+      "destination": "/notice/reminder-3-only-05-days-are-left-in-the-last-date-for-submission-of-loc-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-ce0743eb5f",
+      "destination": "/notice/reminder-2-only-06-days-are-left-in-the-last-date-for-submission-of-loc-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-2b1379386b",
+      "destination": "/notice/reminder-1-only-07-days-are-left-in-the-last-date-for-submission-of-loc-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-0e8e38e5a9",
+      "destination": "/notice/rerun-of-second-cycle-of-nishtha-courses-during-2026-27-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-d4f18c432f",
+      "destination": "/notice/screening-of-sensitization-module-on-inclusive-education-for-school-staff-on",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-9fea31cb52",
+      "destination": "/notice/promotion-of-digital-payments-in-schools-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-0ba55b8c75",
+      "destination": "/notice/streamlining-the-process-of-corrections-in-the-demographic-details-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-05691f3883",
+      "destination": "/notice/revised-national-scholarship-portal-nsp-framework-for-academic-year-2026-27",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-01cf846320",
+      "destination": "/notice/user-manual",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-ac681c4118",
+      "destination": "/notice/cbse-talkathon-on-nasha-mukt-yuva-for-viksit-bharat-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-420edaebd4",
+      "destination": "/notice/webinar-on-career-guidance-my-career-advisor-tamanna-aptitude-test-etc-for",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-67142c4ab2",
+      "destination": "/notice/rescheduling-of-the-4th-national-summit-on-facilitating-school-to-work",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-baac20a04b",
+      "destination": "/notice/message-from-hon-ble-president-of-india-on-the-occasion-of-teachers-day-2026",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-d11840e53a",
+      "destination": "/notice/message-from-hon-ble-prime-minister-of-india-on-the-occasion-of-teachers-day",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-d88cf4006d",
+      "destination": "/notice/message-from-hon-ble-minister-of-education-of-india-on-the-occasion-of-teachers",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-42acec70a2",
+      "destination": "/notice/message-from-hon-ble-minister-of-state-education-of-india-on-the-occasion-of",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-d4fcbb04ff",
+      "destination": "/notice/extension-of-date-for-registration-for-cbse-national-teachers-conference-ntc",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-00d052b5cc",
+      "destination": "/notice/public-notice-re-opening-of-online-application-window-for-the-22nd-edition-of",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-5dfe35fcef",
+      "destination": "/notice/dissemination-of-845-curriculum-aligned-virtual-labs-and-digital-resources",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-070acedb1b",
+      "destination": "/notice/enrollment-in-nishtha-courses-during-2026-27-cycle-1-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-b997175e69",
+      "destination": "/notice/3030-eklavya-computational-thinking-ct-and-artificial-intelligence-ai-online",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-5bb84bb123",
+      "destination": "/notice/extension-of-timelines-for-submission-of-various-categories-of-applications",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-a72c78f3dd",
+      "destination": "/notice/nep-2020-empowering-sedgs-27-to-31-july-2026-online-training-programme-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-478f380e36",
+      "destination": "/notice/press-release-cbse-issues-guidelines-on-the-three-language-policy",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-8ae7a6f0df",
+      "destination": "/notice/press-release-cbse-lodges-complaint-with-delhi-police-over-coordinated-cyber",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-b3061bdfeb",
+      "destination": "/notice/clarification-on-totaling-of-marks-when-extra-questions-are-attempted-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-b491ad2562",
+      "destination": "/notice/press-release-regarding-verification-of-issues-observed-in-scanned-copies-of",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-56a57b9fd7",
+      "destination": "/notice/advisory-on-procurement-of-genuine-ncert-textbooks",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-506816ea8c",
+      "destination": "/notice/advisory-on-circulation-of-misleading-information-related-to-cbse",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-2d72a99496",
+      "destination": "/notice/public-alert-access-of-practice-papers-from-cbse-official-website",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-a4b51e789e",
+      "destination": "/notice/urgent-advisory-alert-against-fraudulent-activity-of-wizcorp-edtech-pvt-ltd",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-42da81d574",
+      "destination": "/notice/most-urgent-public-notice",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-914e800406",
+      "destination": "/notice/cyber-safety-and-security-guidelines-for-school",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-a485ca6847",
+      "destination": "/notice/regarding-safety-of-children-in-schools",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-d8388acb9e",
+      "destination": "/notice/notification-avoid-rumours",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-2fdca68633",
+      "destination": "/notice/public-advisory-unauthorized-use-of-cbse-name-and-logo-on-social-media",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-87d5eb8a10",
+      "destination": "/notice/faqs",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-d73f6ea849",
+      "destination": "/notice/single-window-cell-swc",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-4a177b32b5",
+      "destination": "/notice/reminder-5-only-02-days-are-left-in-the-last-date-for-submission-of-loc-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-a7ca2efe0e",
+      "destination": "/notice/reminder-4-only-04-days-are-left-in-the-last-date-for-submission-of-loc-reg",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-e59a4833f5",
+      "destination": "/notice/compliance-with-introduction-of-r3-in-class-vi-follow-up-to-circular-no-acad-17",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-1f3db03910",
+      "destination": "/notice/09-2026-17-2026-vi-r3",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-8bea9c121d",
+      "destination": "/notice/student-outreach-programme-invitation-to-participate-in-webinar-on-cyber",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-bfc97a480a",
+      "destination": "/notice/postponement-of-the-cbp-to-be-held-at-indian-hotel-academy-new-delhi-2026-02-18",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-ae737f9736",
+      "destination": "/notice/postponement-of-the-cbp-to-be-held-at-indian-hotel-academy-new-delhi",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-553b2f042b",
+      "destination": "/notice/postponement-of-the-cbp-to-be-held-at-cooch-behar-west-bengal-notification-no",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-90f6227a65",
+      "destination": "/notice/addendum-to-notification-no-skill-147-2025-dated-31-12-2025",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-83a0abbebd",
+      "destination": "/notice/reminder-6-today-is-the-last-date-for-the-submission-of-loc-reg",
+      "permanent": true
     }
   ],
   "rewrites": [

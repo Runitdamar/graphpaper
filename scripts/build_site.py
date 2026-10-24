@@ -65,6 +65,23 @@ def subject_slugs():
     return out
 
 
+def ensure_slugs():
+    """Give new notices their descriptive URL slug and keep old id URLs redirecting to it."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts"))
+    import slugs
+    items = load("updates.json")
+    if slugs.assign(items):
+        with open(os.path.join(ROOT, "updates.json"), "w", encoding="utf-8") as f:
+            f.write(json.dumps(items, indent=2, ensure_ascii=False) + "\n")
+    vj = os.path.join(ROOT, "vercel.json")
+    cfg = json.load(open(vj, encoding="utf-8"))
+    keep = [r for r in cfg.get("redirects", []) if not r["source"].startswith("/notice/")]
+    gen = [{"source": "/notice/" + x["id"], "destination": "/notice/" + x["slug"], "permanent": True} for x in items if x.get("slug")]
+    cfg["redirects"] = keep + gen
+    with open(vj, "w", encoding="utf-8") as f:
+        f.write(json.dumps(cfg, indent=2) + "\n")
+
+
 def routes():
     """Every public URL: (path, lastmod or None)."""
     out = [("/", None), ("/updates", None), ("/about", None), ("/contact", None),
@@ -72,7 +89,7 @@ def routes():
            ("/board/CBSE", None), ("/board/ICSE", None), ("/board/State%20boards", None)]
     notices = [x for x in load("updates.json") if x.get("status") == "approved" and not x.get("sample")]
     for x in sorted(notices, key=lambda n: n["date"], reverse=True):
-        out.append(("/notice/" + x["id"], x["date"]))
+        out.append(("/notice/" + x.get("slug", x["id"]), x["date"]))
     for c in range(1, 13):
         bases = ["/class-%d" % c] if c < 11 else ["/class-%d/%s" % (c, s) for s in STREAMS]
         for b in bases:
@@ -134,6 +151,7 @@ def main():
         if name.startswith("class-") and os.path.isdir(os.path.join(ROOT, name)):
             shutil.rmtree(os.path.join(ROOT, name))
 
+    ensure_slugs()
     pages, sitemap, problems = routes(), [], []
     with sync_playwright() as p:
         browser = p.chromium.launch(args=["--no-sandbox"])
