@@ -8,6 +8,11 @@ CBSE updates, syllabus, papers, question bank and NCERT book links for Classes 1
 - You can also run the check by hand: Actions tab > Check CBSE updates > Run workflow.
 - The scraper has not been tested against the live CBSE site. If a run adds nothing or fails, check the Actions log.
 
+## Sitemap and indexing
+- `sitemap.xml` lists every indexable page (own canonical URL, never a noindex page). Its `lastmod` moves only when the text of that page changes (fingerprints are kept in `lastmod.json`), and a notice starts with its published date.
+- Deliberately noindex: `/welcome`, the 404 page, chapter pages, and any category page with no notices yet (it indexes itself automatically once a notice exists).
+- The workflow rebuilds it after every CBSE check (every 6 hours) and on any app or data change.
+
 ## Notice pages and categories
 - Every approved notice has its own page (`/notice/<slug>`), plus category pages `/updates/circulars`, `/updates/date-sheets`, `/updates/syllabus-changes`, `/updates/results` and `/updates/class-9` to `/updates/class-12`.
 - Class, stream, subject and exam year are worked out from the notice title. "Who it affects" is also worked out from the title unless you add an `affects` field.

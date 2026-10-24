@@ -14,7 +14,9 @@ Everything it writes is generated; do not edit it by hand:
     index.html, 404.html, sitemap.xml, robots.txt and the folders
     class-*/, notice/, board/, updates/, about/, contact/, privacy/, terms/, welcome/
 """
+import hashlib
 import http.server
+import re
 import json
 import mimetypes
 import os
@@ -22,7 +24,7 @@ import shutil
 import socketserver
 import sys
 import threading
-from datetime import date
+from datetime import date, datetime, timedelta
 from urllib.parse import unquote, urlparse
 
 from playwright.sync_api import sync_playwright
@@ -137,6 +139,16 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         self.wfile.write(data)
 
 
+def page_sig(html):
+    """A fingerprint of what a visitor reads on the page, so lastmod only moves when the page really changes."""
+    m = re.search(r'<main id="view".*?</main>', html, re.S)
+    t = m.group(0) if m else html
+    t = re.sub(r"last checked on \d+ \w+ \d{4}", "", t, flags=re.I)
+    t = re.sub(r"<small>Last checked</small><div>[^<]*</div>", "", t)
+    t += "".join(re.findall(r"<title>.*?</title>|name=\"description\" content=\"[^\"]*\"", html))
+    return hashlib.sha1(t.encode("utf-8")).hexdigest()[:12]
+
+
 def out_file(path):
     if path == "/":
         return os.path.join(ROOT, "index.html")
@@ -157,6 +169,10 @@ def main():
             shutil.rmtree(os.path.join(ROOT, name))
 
     ensure_slugs()
+    today = (datetime.utcnow() + timedelta(hours=5, minutes=30)).date().isoformat()
+    lm_file = os.path.join(ROOT, "lastmod.json")
+    LM = json.load(open(lm_file, encoding="utf-8")) if os.path.exists(lm_file) else {}
+    LM_new = {}
     pages, sitemap, problems = routes(), [], []
     with sync_playwright() as p:
         browser = p.chromium.launch(args=["--no-sandbox"])
@@ -186,11 +202,16 @@ def main():
             os.makedirs(os.path.dirname(dest), exist_ok=True)
             with open(dest, "w", encoding="utf-8") as f:
                 f.write(html)
+            sig, old = page_sig(html), LM.get(path)
+            lm = old[1] if old and old[0] == sig else (lastmod if not old and lastmod else today)
+            LM_new[path] = [sig, lm]
             if "noindex" not in robots:
-                sitemap.append((canon, lastmod))
+                sitemap.append((canon, lm))
         browser.close()
     srv.shutdown()
 
+    with open(lm_file, "w", encoding="utf-8") as f:
+        f.write(json.dumps(LM_new, indent=0, sort_keys=True) + "\n")
     rows = []
     for url, lm in sitemap:
         rows.append("  <url><loc>%s</loc>%s</url>" % (url, "<lastmod>%s</lastmod>" % lm if lm else ""))

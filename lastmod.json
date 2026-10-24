@@ -1,0 +1,702 @@
+{
+"/": [
+"bab42b46e3c7",
+"2026-10-24"
+],
+"/about": [
+"42baef1d2949",
+"2026-10-24"
+],
+"/calculator": [
+"a71df1c5bdf8",
+"2026-10-24"
+],
+"/class-1": [
+"756f8c1b6b53",
+"2026-10-24"
+],
+"/class-1/book-list": [
+"2b250373863b",
+"2026-10-24"
+],
+"/class-1/books": [
+"7c76024f3128",
+"2026-10-24"
+],
+"/class-10": [
+"9ba439250a82",
+"2026-10-24"
+],
+"/class-10/book-list": [
+"930dd31e3488",
+"2026-10-24"
+],
+"/class-10/books": [
+"232b98ba46d8",
+"2026-10-24"
+],
+"/class-10/english": [
+"08c484d686b4",
+"2026-10-24"
+],
+"/class-10/hindi": [
+"839a30bd737f",
+"2026-10-24"
+],
+"/class-10/mathematics": [
+"7d28eb0d9c48",
+"2026-10-24"
+],
+"/class-10/papers": [
+"dbb447d86cd5",
+"2026-10-24"
+],
+"/class-10/previous-year-papers": [
+"e606f541fdb2",
+"2026-10-24"
+],
+"/class-10/question-bank": [
+"77eed80368a8",
+"2026-10-24"
+],
+"/class-10/sample-papers": [
+"e192497bb0a9",
+"2026-10-24"
+],
+"/class-10/science": [
+"7dcc5712f693",
+"2026-10-24"
+],
+"/class-10/social-science": [
+"c4c12de6c881",
+"2026-10-24"
+],
+"/class-10/syllabus": [
+"5cd0d7b2a35e",
+"2026-10-24"
+],
+"/class-11": [
+"73b94b16ae5a",
+"2026-10-24"
+],
+"/class-11/accountancy": [
+"1a472fff683c",
+"2026-10-24"
+],
+"/class-11/biology": [
+"aea59dc7d900",
+"2026-10-24"
+],
+"/class-11/business-studies": [
+"7c1f60b0e32d",
+"2026-10-24"
+],
+"/class-11/chemistry": [
+"88baa780328f",
+"2026-10-24"
+],
+"/class-11/commerce": [
+"af86d023bcda",
+"2026-10-24"
+],
+"/class-11/commerce/book-list": [
+"64f0e75ddef9",
+"2026-10-24"
+],
+"/class-11/commerce/books": [
+"4a2f132724a4",
+"2026-10-24"
+],
+"/class-11/commerce/question-bank": [
+"bb4583779f71",
+"2026-10-24"
+],
+"/class-11/commerce/syllabus": [
+"7b4517e18a77",
+"2026-10-24"
+],
+"/class-11/economics": [
+"1f7a1106561e",
+"2026-10-24"
+],
+"/class-11/english": [
+"4aad4a19949d",
+"2026-10-24"
+],
+"/class-11/geography": [
+"b3715e53c09a",
+"2026-10-24"
+],
+"/class-11/hindi": [
+"4f3a7a411763",
+"2026-10-24"
+],
+"/class-11/history": [
+"8144fb3e35aa",
+"2026-10-24"
+],
+"/class-11/humanities": [
+"56f7209c3bdc",
+"2026-10-24"
+],
+"/class-11/humanities/book-list": [
+"95db273d8b48",
+"2026-10-24"
+],
+"/class-11/humanities/books": [
+"84cb5ed60d2f",
+"2026-10-24"
+],
+"/class-11/humanities/question-bank": [
+"0ee7e58794ee",
+"2026-10-24"
+],
+"/class-11/humanities/syllabus": [
+"a70b5c3bd149",
+"2026-10-24"
+],
+"/class-11/mathematics": [
+"56680d495ea8",
+"2026-10-24"
+],
+"/class-11/physics": [
+"0fe2f4d08a32",
+"2026-10-24"
+],
+"/class-11/political-science": [
+"6e811c5f4cde",
+"2026-10-24"
+],
+"/class-11/psychology": [
+"00fd6fe3ea1b",
+"2026-10-24"
+],
+"/class-11/science": [
+"1c5299cbc9c2",
+"2026-10-24"
+],
+"/class-11/science/book-list": [
+"3d11d8921dff",
+"2026-10-24"
+],
+"/class-11/science/books": [
+"020e2ac36ce5",
+"2026-10-24"
+],
+"/class-11/science/question-bank": [
+"c8ddd35c91fe",
+"2026-10-24"
+],
+"/class-11/science/syllabus": [
+"6a75e4d81b3f",
+"2026-10-24"
+],
+"/class-11/sociology": [
+"d0d371851dd0",
+"2026-10-24"
+],
+"/class-12": [
+"ad1231f2edad",
+"2026-10-24"
+],
+"/class-12/accountancy": [
+"6b1bd289c894",
+"2026-10-24"
+],
+"/class-12/biology": [
+"47646bd557b7",
+"2026-10-24"
+],
+"/class-12/business-studies": [
+"3a43a0a3cad4",
+"2026-10-24"
+],
+"/class-12/chemistry": [
+"601942771fe9",
+"2026-10-24"
+],
+"/class-12/commerce": [
+"f43bf6cd6173",
+"2026-10-24"
+],
+"/class-12/commerce/book-list": [
+"c044cdd6f929",
+"2026-10-24"
+],
+"/class-12/commerce/books": [
+"145f03bff4c8",
+"2026-10-24"
+],
+"/class-12/commerce/papers": [
+"039f9d3eb0a8",
+"2026-10-24"
+],
+"/class-12/commerce/previous-year-papers": [
+"0c14d2282cdf",
+"2026-10-24"
+],
+"/class-12/commerce/question-bank": [
+"6bd40e36d398",
+"2026-10-24"
+],
+"/class-12/commerce/sample-papers": [
+"dcdcced276ac",
+"2026-10-24"
+],
+"/class-12/commerce/syllabus": [
+"5171d24d5afd",
+"2026-10-24"
+],
+"/class-12/economics": [
+"02c494597630",
+"2026-10-24"
+],
+"/class-12/english": [
+"dbdc94b5afa9",
+"2026-10-24"
+],
+"/class-12/geography": [
+"69c36cf53336",
+"2026-10-24"
+],
+"/class-12/hindi": [
+"37409ea6944d",
+"2026-10-24"
+],
+"/class-12/history": [
+"6d95ef3b9a64",
+"2026-10-24"
+],
+"/class-12/humanities": [
+"0289f66ed477",
+"2026-10-24"
+],
+"/class-12/humanities/book-list": [
+"14e9f8bd711d",
+"2026-10-24"
+],
+"/class-12/humanities/books": [
+"e1d7a75b08ef",
+"2026-10-24"
+],
+"/class-12/humanities/papers": [
+"04e6b9ddb894",
+"2026-10-24"
+],
+"/class-12/humanities/previous-year-papers": [
+"9187fb47c9ac",
+"2026-10-24"
+],
+"/class-12/humanities/question-bank": [
+"782af3f5de85",
+"2026-10-24"
+],
+"/class-12/humanities/sample-papers": [
+"5396a18ea7f0",
+"2026-10-24"
+],
+"/class-12/humanities/syllabus": [
+"c56cb69f2bf0",
+"2026-10-24"
+],
+"/class-12/mathematics": [
+"71d6be8abc3c",
+"2026-10-24"
+],
+"/class-12/physics": [
+"15ceacaa566f",
+"2026-10-24"
+],
+"/class-12/political-science": [
+"8a673bc97f03",
+"2026-10-24"
+],
+"/class-12/psychology": [
+"b59253c4e684",
+"2026-10-24"
+],
+"/class-12/science": [
+"a2dde7b679f8",
+"2026-10-24"
+],
+"/class-12/science/book-list": [
+"a30ce780a6ec",
+"2026-10-24"
+],
+"/class-12/science/books": [
+"a15b5e7b7429",
+"2026-10-24"
+],
+"/class-12/science/papers": [
+"fcaa40905a05",
+"2026-10-24"
+],
+"/class-12/science/previous-year-papers": [
+"cfe75688d9b3",
+"2026-10-24"
+],
+"/class-12/science/question-bank": [
+"30af053f322c",
+"2026-10-24"
+],
+"/class-12/science/sample-papers": [
+"af812c49f566",
+"2026-10-24"
+],
+"/class-12/science/syllabus": [
+"73e6037dd044",
+"2026-10-24"
+],
+"/class-12/sociology": [
+"77c478dcdd45",
+"2026-10-24"
+],
+"/class-2": [
+"721cacffec8d",
+"2026-10-24"
+],
+"/class-2/book-list": [
+"7e933dfb8fc8",
+"2026-10-24"
+],
+"/class-2/books": [
+"229e02a89479",
+"2026-10-24"
+],
+"/class-3": [
+"680a4b774b72",
+"2026-10-24"
+],
+"/class-3/book-list": [
+"21a1c3bd10b6",
+"2026-10-24"
+],
+"/class-3/books": [
+"256dc935ec28",
+"2026-10-24"
+],
+"/class-4": [
+"8a76dbdd9f85",
+"2026-10-24"
+],
+"/class-4/book-list": [
+"662c5086d79a",
+"2026-10-24"
+],
+"/class-4/books": [
+"f5aec40e268f",
+"2026-10-24"
+],
+"/class-5": [
+"671cb30b057a",
+"2026-10-24"
+],
+"/class-5/book-list": [
+"f57a0ef58e5a",
+"2026-10-24"
+],
+"/class-5/books": [
+"3693ba36cf8b",
+"2026-10-24"
+],
+"/class-6": [
+"82c4251d3ae5",
+"2026-10-24"
+],
+"/class-6/book-list": [
+"e2362d67c751",
+"2026-10-24"
+],
+"/class-6/books": [
+"eb126684a81c",
+"2026-10-24"
+],
+"/class-6/question-bank": [
+"ef230e9ff11c",
+"2026-10-24"
+],
+"/class-7": [
+"eb377bb81c02",
+"2026-10-24"
+],
+"/class-7/book-list": [
+"e787ba94d863",
+"2026-10-24"
+],
+"/class-7/books": [
+"0eaeeb532b95",
+"2026-10-24"
+],
+"/class-7/question-bank": [
+"5e2bb6cf5291",
+"2026-10-24"
+],
+"/class-8": [
+"04351dba6a9a",
+"2026-10-24"
+],
+"/class-8/book-list": [
+"aecd17d4273e",
+"2026-10-24"
+],
+"/class-8/books": [
+"bc7d4f21e593",
+"2026-10-24"
+],
+"/class-8/question-bank": [
+"ba80d47c0a21",
+"2026-10-24"
+],
+"/class-9": [
+"102601e8df86",
+"2026-10-24"
+],
+"/class-9/book-list": [
+"f8906cff81ee",
+"2026-10-24"
+],
+"/class-9/books": [
+"088d73fddff3",
+"2026-10-24"
+],
+"/class-9/english": [
+"3215c4226f66",
+"2026-10-24"
+],
+"/class-9/hindi": [
+"b691c01c528b",
+"2026-10-24"
+],
+"/class-9/mathematics": [
+"3e8ed8e525c6",
+"2026-10-24"
+],
+"/class-9/question-bank": [
+"bdbc89df1488",
+"2026-10-24"
+],
+"/class-9/science": [
+"de07171a81d5",
+"2026-10-24"
+],
+"/class-9/social-science": [
+"e1796d31d88c",
+"2026-10-24"
+],
+"/class-9/syllabus": [
+"ce4f34902fd3",
+"2026-10-24"
+],
+"/contact": [
+"82612d20419c",
+"2026-10-24"
+],
+"/notice/advisory-on-circulation-of-misleading-information-related-to-cbse": [
+"46288066a6fb",
+"2024-06-11"
+],
+"/notice/advisory-on-procurement-of-genuine-ncert-textbooks": [
+"51a16e7f8320",
+"2025-11-13"
+],
+"/notice/cbse-holds-live-q-a-webinar-on-registration-and-loc-for-board-examinations-2027": [
+"38d01683b4b4",
+"2026-09-29"
+],
+"/notice/cbse-talkathon-on-nasha-mukt-yuva-for-viksit-bharat-reg": [
+"e0feba991e8f",
+"2026-09-16"
+],
+"/notice/clarification-on-totaling-of-marks-when-extra-questions-are-attempted-reg": [
+"d764e11b07cf",
+"2026-06-04"
+],
+"/notice/date-sheet-for-class-xii-special-examinations-for-west-asia-2026": [
+"9189dbcbca46",
+"2026-10-09"
+],
+"/notice/datesheet-for-senior-secondary-supplementary-examination-2026": [
+"f89757c973db",
+"2026-07-17"
+],
+"/notice/dissemination-of-845-curriculum-aligned-virtual-labs-and-digital-resources": [
+"68cf3098a7d0",
+"2026-08-13"
+],
+"/notice/extension-of-last-date-for-filling-examination-forms-for-private-candidates-for": [
+"f9056e56a5fd",
+"2026-07-07"
+],
+"/notice/extension-of-last-date-for-filling-list-of-candidates-loc-for-regular-students": [
+"b25f4731ae0d",
+"2026-07-07"
+],
+"/notice/guidelines-for-conducting-practical-examinations-with-the-supplementary": [
+"17d1ca66f53e",
+"2026-07-22"
+],
+"/notice/issuance-of-admit-cards-for-supplementary-examinations-2026": [
+"d28398950621",
+"2026-07-21"
+],
+"/notice/most-urgent-public-notice": [
+"4311572232f9",
+"2023-02-22"
+],
+"/notice/notice-for-post-result-declaration-facilities-to-the-students-class-xii": [
+"c723cedebb48",
+"2026-08-27"
+],
+"/notice/notification-avoid-rumours": [
+"8cb4ae7244b3",
+"2020-04-06"
+],
+"/notice/online-submission-of-forms-by-private-candidates-of-class-xii-supplementary": [
+"1b0d7bcab068",
+"2026-06-30"
+],
+"/notice/online-submission-of-list-of-candidates-for-class-xii-supplementary-examination": [
+"844687099858",
+"2026-06-30"
+],
+"/notice/post-result-declaration-facilities-to-the-students-of-class-x-main-and-second": [
+"a7a1af769d0a",
+"2026-08-05"
+],
+"/notice/press-release-cbse-commences-release-of-class-xii-verification-of-issues": [
+"f2544ef63171",
+"2026-06-21"
+],
+"/notice/press-release-cbse-declares-class-x-second-board-examination-results-2026": [
+"502d1b21a99c",
+"2026-07-18"
+],
+"/notice/press-release-cbse-declares-class-xii-supplementary-examination-results-2026": [
+"f6e0d482edfd",
+"2026-08-12"
+],
+"/notice/press-release-cbse-issues-guidelines-on-the-three-language-policy": [
+"57c8b9796695",
+"2026-06-29"
+],
+"/notice/press-release-cbse-lodges-complaint-with-delhi-police-over-coordinated-cyber": [
+"547373ac1344",
+"2026-06-05"
+],
+"/notice/press-release-regarding-verification-of-issues-observed-in-scanned-copies-of": [
+"7c66c6eaf139",
+"2026-06-02"
+],
+"/notice/prior-intimation-of-submission-of-list-of-candidates-loc-for-class-x-xii": [
+"873282d040e6",
+"2026-09-10"
+],
+"/notice/public-advisory-unauthorized-use-of-cbse-name-and-logo-on-social-media": [
+"be1a32ac8bde",
+"2019-03-09"
+],
+"/notice/public-alert-access-of-practice-papers-from-cbse-official-website": [
+"b3436dc8be3f",
+"2023-09-13"
+],
+"/notice/reminder-1-following-accuracy-and-timeliness-while-submitting-loc-for-class-x": [
+"2dc1a8d053cf",
+"2026-10-09"
+],
+"/notice/reminder-1-only-07-days-are-left-in-the-last-date-for-submission-of-loc-reg": [
+"ad20eaa97256",
+"2026-10-14"
+],
+"/notice/reminder-2-only-06-days-are-left-in-the-last-date-for-submission-of-loc-reg": [
+"96214b297750",
+"2026-10-15"
+],
+"/notice/reminder-3-only-05-days-are-left-in-the-last-date-for-submission-of-loc-reg": [
+"2d554b7bb7e9",
+"2026-10-16"
+],
+"/notice/revised-national-scholarship-portal-nsp-framework-for-academic-year-2026-27": [
+"7f73379a0d0b",
+"2026-09-22"
+],
+"/notice/streamlining-the-process-of-corrections-in-the-demographic-details-reg": [
+"fce39c260141",
+"2026-09-23"
+],
+"/notice/submission-of-examination-forms-by-private-candidates-for-class-x-examinations": [
+"d717834fbaad",
+"2026-10-07"
+],
+"/notice/submission-of-examination-forms-by-private-candidates-for-senior-secondary": [
+"b840277dd5ba",
+"2026-10-07"
+],
+"/notice/submission-of-list-of-candidates-loc-for-class-x-and-class-xii-main": [
+"6774c34c77a5",
+"2026-09-21"
+],
+"/notice/submission-of-list-of-candidates-loc-for-class-xii-2026-special-examinations": [
+"c119b24c2d8e",
+"2026-09-15"
+],
+"/notice/urgent-advisory-alert-against-fraudulent-activity-of-wizcorp-edtech-pvt-ltd": [
+"1dc6da58ac4d",
+"2023-08-03"
+],
+"/notice/verification-of-issues-observed-re-evaluation-class-xii-guidance-for-students": [
+"e2a2bb15b6d1",
+"2026-06-21"
+],
+"/parents": [
+"41436179b616",
+"2026-10-24"
+],
+"/privacy": [
+"7739f850a515",
+"2026-10-24"
+],
+"/terms": [
+"5fc6b02d5b20",
+"2026-10-24"
+],
+"/updates": [
+"10fc9e9bcd69",
+"2026-10-24"
+],
+"/updates/circulars": [
+"bd69239c348f",
+"2026-10-24"
+],
+"/updates/class-10": [
+"aa622bf86897",
+"2026-10-24"
+],
+"/updates/class-11": [
+"101265c94b00",
+"2026-10-24"
+],
+"/updates/class-12": [
+"26f75390d68a",
+"2026-10-24"
+],
+"/updates/class-9": [
+"58943116b63b",
+"2026-10-24"
+],
+"/updates/date-sheets": [
+"a317a4ae6776",
+"2026-10-24"
+],
+"/updates/results": [
+"618f54e2876c",
+"2026-10-24"
+],
+"/updates/syllabus-changes": [
+"06c28d6661f5",
+"2026-10-24"
+],
+"/welcome": [
+"0e7cb1616319",
+"2026-10-24"
+]
+}
