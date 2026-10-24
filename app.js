@@ -110,8 +110,7 @@ function pickerCard(){
    '<div style="font-size:14px;color:var(--mut);margin-top:12px">Colors grow up with you, from candy pastels to calm, deep tones.</div></div>' +
    (needS ? '<div>' + step(2, "wh3", "Your stream") + '<div role="group" aria-labelledby="wh3" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px">' + sb + '</div>' +
    '<div style="font-size:14px;color:var(--mut);margin-top:12px">Books, syllabus, papers and question banks will show your stream\u2019s subjects first. You can change this any time.</div></div>' : '') +
-   '<div>' + step(needS ? 3 : 2, "wh2", "Your board") + '<div role="group" aria-labelledby="wh2" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">' + bd("CBSE", "--a1", "on") + bd("ICSE", "--a4", "off", "Coming soon") + bd("State boards", "--a2", "off", "Coming soon") + '</div>' +
-   '<div style="font-size:14px;color:var(--mut);margin-top:12px">CBSE notices are live. Other boards are on the way. Books and notices are live for Class 1 to 12, and the syllabus for Class 9 to 12.</div></div>' +
+   '<div style="font-size:14px;color:var(--mut)">Books and CBSE notices are live for Class 1 to 12, and the syllabus for Class 9 to 12.</div>' +
    '<div id="werr" role="alert" hidden style="background:var(--a2);border:2px solid var(--ink);border-radius:16px;padding:10px 16px;font-weight:700">Please pick your class first.</div>' +
    '<button class="btn dark" data-act="wgo" style="min-height:56px;font-size:19px;padding:14px 32px">Take me in</button></div>';
 }
@@ -214,7 +213,6 @@ function homeShelf(c){
   if (n >= 9) cards += shelfCard("--a2", "doc", "Syllabus", "Official 2026-27 syllabus for Class " + c, "#/syllabus");
   if (n === 10 || n === 12) cards += shelfCard("--a4", "doc", "Papers", "CBSE sample papers and past board papers", "#/papers");
   if (n >= 6) cards += shelfCard("--a2", "doc", "Question bank", "Practice questions and NCERT Exemplar problems", "#/qbank");
-  cards += shelfCard("--a5", "notes", 'Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span>', "Chapter notes and quick revision sheets", "");
   return '<div id="shelf" style="background:var(--shelf);padding:64px 0"><div class="wrap"><h2 style="font-size:34px;margin:0 0 8px">Your study shelf</h2><p style="margin:0 0 28px;color:var(--mut);max-width:560px">Everything for Class ' + c + tag + ', in one place.</p><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr))">' + cards + '</div></div></div>';
 }
 function homeCopy(c){
@@ -333,7 +331,6 @@ VIEWS["class"] = function(){
   if (n === 10 || n === 12) more += lk("Papers", "#/papers", "--a4", "CBSE sample papers with marking schemes, and board question papers from past years.");
   if (n >= 9) more += lk("Calculator", "#/calculator", "--a1", "Marks to percentage, and CGPA to percentage by CBSE's own rule.");
   if (n >= 6) more += lk("Question bank", "#/qbank", "--a2", n === 10 || n === 12 ? 'CBSE\'s official question bank and practice questions with marking schemes, plus NCERT Exemplar problems.' : n === 11 ? 'NCERT Exemplar problems for Maths, Physics, Chemistry and Biology.' : 'CBSE competency-based questions and NCERT Exemplar problems.');
-  more += '<div class="card" style="--sh:var(--a5)"><h3 style="font-size:22px">Notes <span class="pill" style="background:var(--a4);font-size:13px;margin-left:6px">Coming soon</span></h3><div class="meta">Chapter notes and quick revision sheets.</div></div>';
   var subj = n >= 9 ? subjectFolds(c, true) : [];
   var bySub = subj.length ? '<h2>By subject</h2><div class="grid g4" style="margin-bottom:48px">' + subj.map(function(f){
     var cnt = 0; classBooks(c).forEach(function(b){ if (foldOf(b) === f && streamOk(b)) cnt += b.ch.length; });

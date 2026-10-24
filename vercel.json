@@ -3,6 +3,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/board/State boards",
+      "destination": "/board/CBSE",
+      "permanent": false
+    },
+    {
+      "source": "/board/State%20boards",
+      "destination": "/board/CBSE",
+      "permanent": false
+    },
+    {
+      "source": "/board/ICSE",
+      "destination": "/board/CBSE",
+      "permanent": false
+    },
+    {
       "source": "/updates.html",
       "has": [
         {
