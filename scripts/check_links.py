@@ -35,21 +35,65 @@ def collect():
                 urls[BBASE + b["zip"]] = b["title"] + " (ZIP)"
             for x in b.get("extra", []):
                 urls[BBASE + x[1]] = b["title"] + " " + x[0]
-    for f in ("papers.json", "qbank.json", "syllabus.json", "updates.json"):
-        txt = open(os.path.join(ROOT, f), encoding="utf-8").read()
-        for u in re.findall(r"https?://[^\"\s\\]+", txt):
-            urls.setdefault(u, f)
+    P = load("papers.json")
+    for cls, sq in P["sqp"].items():
+        for it in sq["items"]:
+            for fl in it[1:3]:
+                if isinstance(fl, str):
+                    urls[sq["base"] + fl] = "Sample paper %s %s" % (cls, it[0])
+    for cls, years in P["pyq"].items():
+        for yr, kinds in years.items():
+            for kind, slot in kinds.items():
+                for it in slot["items"]:
+                    urls[slot["base"] + it[1]] = "Previous year %s %s %s %s" % (cls, yr, kind, it[0])
+    Q = load("qbank.json")
+    B = Q["base"]
+    for cls, rows in Q["cbse"].items():
+        for it in rows:
+            urls[B["cbse"] + it[1]] = "Question bank %s %s" % (cls, it[0])
+    def files(node):
+        if isinstance(node, str):
+            yield node
+        elif isinstance(node, list):
+            for x in node:
+                yield from files(x)
+        elif isinstance(node, dict):
+            for x in node.values():
+                yield from files(x)
+    for key, base in (("apq", B["apq"]), ("items", B["items"]), ("ex", B["ex"])):
+        for cls, tree in Q[key].items():
+            for fl in files(tree):
+                if re.search(r"\.(pdf|zip)$", fl, re.I):
+                    urls[base + fl] = "Question bank %s %s" % (key, cls)
+    def strings(o):
+        if isinstance(o, str):
+            yield o
+        elif isinstance(o, list):
+            for x in o:
+                yield from strings(x)
+        elif isinstance(o, dict):
+            for x in o.values():
+                yield from strings(x)
+    for f in ("syllabus.json", "updates.json"):
+        data = load(f)
+        if f == "updates.json":
+            data = [x for x in data if x.get("status") == "approved"]  # only what the site shows
+        for u in strings(data):
+            if u.startswith("http"):
+                urls.setdefault(u, f)
     return urls
 
 
 def probe(u):
+    import urllib.parse
+    u0, u = u, urllib.parse.quote(u, safe=":/?&=%#+,;@~!$'()*[]")
     last = ""
     for attempt in range(3):
         try:
             req = urllib.request.Request(u, headers=UA)
             with urllib.request.urlopen(req, timeout=30) as r:
                 head = r.read(8)
-                return {"url": u, "status": r.status, "type": r.headers.get("Content-Type", ""), "len": r.headers.get("Content-Length", ""),
+                return {"url": u0, "status": r.status, "type": r.headers.get("Content-Type", ""), "len": r.headers.get("Content-Length", ""),
                         "pdf_ok": head.startswith(b"%PDF"), "zip_ok": head.startswith(b"PK")}
         except urllib.error.HTTPError as e:
             last = "HTTP %d" % e.code
@@ -58,7 +102,7 @@ def probe(u):
         except Exception as e:  # network trouble: retry
             last = type(e).__name__
         time.sleep(2 + attempt * 3)
-    return {"url": u, "status": 0, "error": last}
+    return {"url": u0, "status": 0, "error": last}
 
 
 def main():
