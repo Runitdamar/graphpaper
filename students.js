@@ -181,7 +181,7 @@ function papBody(c){
   return out;
 }
 function papCtl(c){
-  var key = c === "10" ? "X" : "XII", html = chipRow("Paper type", "pt", [["sample", "Sample papers 2026-27"], ["pyq", "Previous years"]], ST.pt);
+  var key = c === "10" ? "X" : "XII", html = ST.pm ? "" : chipRow("Paper type", "pt", [["sample", "Sample papers 2026-27"], ["pyq", "Previous years"]], ST.pt);
   if (ST.pt === "pyq") {
     var years = Object.keys(PAP.pyq[key]).sort().reverse();
     if (years.indexOf(ST.py) < 0) ST.py = years[0];
@@ -204,8 +204,8 @@ VIEWS.papers = function(){
       '<div class="grid" id="plist" style="grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));align-items:start">' + papBody(c) + '</div>';
   }
   var lead = !ok ? 'Sample papers and previous years\' board papers, straight from CBSE.' : ST.pt === "sample" ? 'Official CBSE sample papers and marking schemes for the 2026-27 session, Class ' + c + '.' : 'Past board exam question papers for Class ' + c + ', from CBSE.';
-  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>Papers</b></div>' +
-   '<div class="head"><div class="tile" style="background:var(--a4)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Papers</h1><p>' + lead + (ok && hasStreams(c) ? ' ' + ST.stream + ' subjects are listed first.' : '') + '</p></div></div>' + body +
+  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / ' + (ST.pm ? '<a href="#/papers">Papers</a> / <b>' + (ST.pm === "sample" ? "Sample papers" : "Previous years") + '</b>' : '<b>Papers</b>') + '</div>' +
+   '<div class="head"><div class="tile" style="background:var(--a4)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">' + (ST.pm === "sample" ? "Sample papers 2026-27" : ST.pm === "pyq" ? "Previous year papers" : "Papers") + '</h1><p>' + lead + (ok && hasStreams(c) ? ' ' + ST.stream + ' subjects are listed first.' : '') + '</p></div></div>' + body +
    '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on cbseacademic.nic.in or cbse.gov.in. GraphPaper does not host CBSE papers.' + (ok && ST.pt === "pyq" ? ' Each previous-year file is a ZIP (or PDF) with that subject\'s papers, and may hold more than one set.' : '') + '</p></div>';
 };
 
@@ -474,3 +474,8 @@ VIEWS.board = function(r){
    (b.url ? '<div class="badge" style="margin-bottom:18px">Official source: ' + esc(host(b.url)) + '</div>' : '') + '<div style="display:flex;flex-wrap:wrap;gap:12px">' + btns + '</div></div></div>' + body + '</div>';
 };
 
+
+/* sample papers and previous-year papers each get their own page (same data as Papers) */
+function papMode(mode, r){ ST.pm = mode; ST.pt = mode; var h = VIEWS.papers(r); ST.pm = ""; return h; }
+VIEWS.sqp = function(r){ return papMode("sample", r); };
+VIEWS.pyq = function(r){ return papMode("pyq", r); };
