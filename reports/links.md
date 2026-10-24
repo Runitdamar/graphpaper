@@ -1,0 +1,33 @@
+# Link check: 2589 links, 31 problem(s)
+
+- papers.json | HTTP 404 | https://cbseacademic.nic.in/web_material/SQP/ClassX_2026_27/
+- papers.json | HTTP 404 | https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2026-COMPTT/XII/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2026/XII/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2025-COMPTT/XII/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2025/XII/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2024-COMPTT/XII/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2024/XII/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/XII/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2023/XII/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/XII/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2022/XII/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2026-COMPTT/Second_Board_X/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2026/X/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2025-COMPTT/X/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2025/X/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2024-COMPTT/X/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2024/X/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2023-COMPTT/X/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2023/X/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2022-COMPTT/X/
+- papers.json | HTTP 403 | https://www.cbse.gov.in/cbsenew/question-paper/2022/X/
+- qbank.json | HTTP 404 | https://cbseacademic.nic.in/web_material/QuestionBank/
+- qbank.json | HTTP 404 | https://cbseacademic.nic.in/web_material/SQP/
+- qbank.json | HTTP 404 | https://cbseacademic.nic.in/cbe/documents/
+- qbank.json | HTTP 403 | https://ncert.nic.in/pdf/publication/exemplarproblem/
+- updates.json | URLError | https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf
+- updates.json | HTTP 404 | https://www.cbse.gov.in/cbsenew/documents/NOTIFICATION
+- updates.json | HTTP 404 | https://www.cbse.gov.in/cbsenew/documents/Public
+- updates.json | HTTP 404 | https://www.cbse.gov.in/cbsenew/documents/FAQs_DATED
+- updates.json | HTTP 404 | https://www.cbse.gov.in/cbsenew/documents/Single
