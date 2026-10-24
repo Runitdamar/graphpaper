@@ -6,8 +6,12 @@ from xml.sax.saxutils import escape
 
 SITE = "https://graphpaper-peach.vercel.app"
 root = Path(__file__).resolve().parent.parent
-items = [x for x in json.loads((root / "updates.json").read_text(encoding="utf-8"))
-         if x.get("status") == "approved" and not x.get("sample")]
+import sys
+sys.path.insert(0, str(root / "scripts"))
+import slugs
+_all = json.loads((root / "updates.json").read_text(encoding="utf-8"))
+slugs.assign(_all)  # same deterministic result as the site build
+items = [x for x in _all if x.get("status") == "approved" and not x.get("sample")]
 items.sort(key=lambda x: x["date"], reverse=True)
 items = items[:50]
 
@@ -23,7 +27,7 @@ out = ['<?xml version="1.0" encoding="utf-8"?>',
        '<id>%s/</id>' % SITE,
        '<updated>%s</updated>' % ts(items[0]["date"] if items else "1970-01-01")]
 for x in items:
-    link = "%s/notice/%s" % (SITE, quote(x["id"]))
+    link = "%s/notice/%s" % (SITE, quote(x.get("slug") or x["id"]))
     out += ['<entry>',
             '<title>%s</title>' % escape(x["title"]),
             '<link href="%s"/>' % escape(link),

@@ -33,6 +33,29 @@ try { var sv = localStorage.getItem("gp-class"); if (/^(1[0-2]|[1-9])$/.test(sv 
 try { var sv2 = localStorage.getItem("gp-stream"); if (sv2 === "Science" || sv2 === "Commerce" || sv2 === "Humanities"){ ST.stream = sv2; ST.streamSet = true; } } catch(e){}
 ST.ws = ST.streamSet ? ST.stream : ""; ST.pending = 5;
 
+function findNotice(a){ var x = null; ST.items.forEach(function(i){ if (i.slug === a || i.id === a) x = i; }); return x; }
+var ROM = {I:1,II:2,III:3,IV:4,V:5,VI:6,VII:7,VIII:8,IX:9,X:10,XI:11,XII:12};
+function noticeClasses(x){
+  var tok = "(?:XII|XI|IX|X|VIII|VII|VI|IV|V|III|II|I|1[0-2]|[1-9])", out = [];
+  var re = new RegExp("class(?:es)?\\s*[:\\-]?\\s*(" + tok + "(?:\\s*(?:,|&|and|to|-)\\s*" + tok + ")*)(?![A-Za-z0-9])", "i"), m = re.exec(x.title || "");
+  if (!m) return out;
+  m[1].split(/[^A-Za-z0-9]+/).forEach(function(t){ var n = /^\d+$/.test(t) ? +t : ROM[t.toUpperCase()]; if (n && out.indexOf(n) < 0) out.push(n); });
+  return out.sort(function(a, b){ return a - b; });
+}
+function relatedBox(x){
+  var cls = noticeClasses(x); if (!cls.length) return "";
+  var h = '<div class="card" style="--sh:var(--a3)"><h2 style="font-size:22px;margin:0">Study resources</h2>';
+  cls.forEach(function(c){
+    var base = "/class-" + c + (hasStreams(c) ? "/" + (ST.streamSet ? ST.stream : "Science").toLowerCase() : ""), links = [];
+    links.push(['NCERT books', base + "/books"]);
+    if (c >= 9) links.push(['Syllabus 2026-27', base + "/syllabus"]);
+    if (c === 10 || c === 12) links.push(['Sample and past papers', base + "/papers"]);
+    if (c >= 6) links.push(['Question bank', base + "/question-bank"]);
+    h += '<div><b>Class ' + c + '</b><div style="display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:6px">' + links.map(function(l){ return '<a href="' + l[1] + '" style="text-decoration:underline;font-weight:700">' + l[0] + '</a>'; }).join("") + '</div></div>';
+  });
+  return h + '</div>';
+}
+function nurl(x){ return "#/notice/" + encodeURIComponent(x.slug || x.id); }
 function typeOf(x){ return TYPES[x.tag] || TYPES.Circular; }
 function pill(x, extra){ var t = typeOf(x); return '<span class="pill" style="background:var(' + t.c + ')">' + esc(t.label) + '</span>' + (extra || ""); }
 function noticeCard(x, small){
@@ -40,9 +63,9 @@ function noticeCard(x, small){
   return '<article class="card' + (small ? ' sm' : '') + '" style="--sh:var(' + t.c + ')">' +
     '<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;font-weight:700;font-size:14px">' + pill(x) +
     (isNew(x.date) ? '<span class="pill" style="background:var(--a3)">New</span>' : '<span>CBSE</span>') + '</div>' +
-    '<h3><a href="#/notice/' + encodeURIComponent(x.id) + '">' + esc(x.title) + '</a></h3>' +
+    '<h3><a href="' + nurl(x) + '">' + esc(x.title) + '</a></h3>' +
     '<div class="meta">' + esc(fmt(x.date)) + ' \u00b7 ' + esc(noticeClass(x)) + '</div>' +
-    '<a class="more" href="#/notice/' + encodeURIComponent(x.id) + '">Read notice →</a></article>';
+    '<a class="more" href="' + nurl(x) + '">Read notice →</a></article>';
 }
 function loadingOrEmpty(msg){ return '<div class="card" style="grid-column:1/-1;text-align:center;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? esc(msg) : 'Loading notices...') + '</div>'; }
 function classOf(x, c){ return noticeClasses(x).indexOf(+(c || ST.cls)) > -1; }
@@ -237,7 +260,7 @@ function homeReturning(){
     '<a class="pill" href="#/updates?type=Circular" style="background:var(--a1);padding:6px 14px;font-size:15px">CBSE circulars</a><a class="pill" href="#/updates?type=Date%20Sheet" style="background:var(--a4);padding:6px 14px;font-size:15px">Date sheets</a><a class="pill" href="#/updates?type=Result" style="background:var(--a5);padding:6px 14px;font-size:15px">Results</a><a class="pill" href="#/calculator" style="background:var(--a3);padding:6px 14px;font-size:15px">Percentage calculator</a></div></div>' +
     '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:36px;background:var(--a3);transform:rotate(14deg)"></div>' +
     '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:14px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">Latest from CBSE</div>' +
-    (latest3.length ? latest3.map(function(x){ return '<a href="#/notice/' + encodeURIComponent(x.id) + '" style="display:block;background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + pill(x) + '<div style="margin-top:6px;font-weight:700;overflow-wrap:anywhere">' + esc(x.title) + '</div></a>'; }).join("") : '<div style="background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + (ST.loaded ? 'No notices yet.' : 'Loading notices...') + '</div>') +
+    (latest3.length ? latest3.map(function(x){ return '<a href="' + nurl(x) + '" style="display:block;background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + pill(x) + '<div style="margin-top:6px;font-weight:700;overflow-wrap:anywhere">' + esc(x.title) + '</div></a>'; }).join("") : '<div style="background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + (ST.loaded ? 'No notices yet.' : 'Loading notices...') + '</div>') +
     '<a class="btn dark" href="#/updates" style="display:flex;justify-content:center;padding:12px 20px">See all updates</a></div></div></div>' +
     trackerSection(c) +
     homeShelf(c);
@@ -267,7 +290,7 @@ VIEWS.updates = function(r){
 };
 
 VIEWS.notice = function(r){
-  var x = null; ST.items.forEach(function(i){ if (i.id === r.arg) x = i; });
+  var x = findNotice(r.arg);
   if (!x) return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/updates">Updates</a></div><h1 id="pg" tabindex="-1" style="font-size:clamp(30px,5vw,48px)">' + (ST.loaded ? 'Notice not found' : 'Loading...') + '</h1><p style="color:var(--mut)">' + (ST.loaded ? 'This notice may have been removed. <a href="#/updates" style="text-decoration:underline;font-weight:700">See all updates</a>.' : '') + '</p></div>';
   var t = typeOf(x), url = safeUrl(x.url);
   var more = ST.items.filter(function(i){ return i.id !== x.id; });
@@ -283,7 +306,7 @@ VIEWS.notice = function(r){
    '<div class="fr" style="font-weight:500;font-size:20px">The official notice is on ' + esc(host(url)) + '</div><div style="color:var(--mut)">It opens in a new tab. GraphPaper does not host the file.</div></div></div></div>' +
    '<aside style="flex:1 1 280px;max-width:360px;display:flex;flex-direction:column;gap:16px;min-width:0"><a class="btn dark" href="' + esc(url) + '" target="_blank" rel="noopener">Open official notice ↗</a>' +
    '<button class="btn" data-act="share" type="button">Share</button><div id="shmsg" class="meta" role="status" style="text-align:center"></div>' +
-   '<div class="badge"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" style="fill:var(--card);stroke:var(--ink)" stroke-width="2"/><path d="M6 10.5l3 3 5-6" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Official source: ' + esc(host(url)) + '</div></aside></div>' +
+   '<div class="badge"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" style="fill:var(--card);stroke:var(--ink)" stroke-width="2"/><path d="M6 10.5l3 3 5-6" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Official source: ' + esc(host(url)) + '</div>' + relatedBox(x) + '</aside></div>' +
    '<div style="margin-top:56px"><h2>More from CBSE</h2><div class="grid g3">' + more.map(function(i){ return noticeCard(i, true); }).join("") + '</div></div></div>';
 };
 
@@ -966,18 +989,23 @@ function pageMeta(name, r){
   var T = "GraphPaper: CBSE notices, NCERT books and syllabus", D0 = "CBSE circulars, date sheets and results for Class 1 to 12, with NCERT books and the syllabus, in one place.";
   var c = r.cls || ST.cls, cn = c ? clsName(c) : "", n = c ? +c : 0, m = {t: T, d: D0, ni: false};
   if (name === "welcome"){ m.t = "Welcome | GraphPaper"; m.ni = true; }
-  else if (name === "updates"){ m.t = "All CBSE updates | GraphPaper"; m.d = "Every CBSE circular, date sheet, syllabus change and result in one list, newest first."; }
+  else if (name === "updates"){ m.t = "All CBSE updates | GraphPaper"; m.d = "Every CBSE circular, date sheet, syllabus change and result in one list, newest first."; m.bc = [["Updates", "/updates"]]; }
   else if (name === "notice"){
-    var x = null; ST.items.forEach(function(i){ if (i.id === r.arg) x = i; });
-    if (x){ m.t = x.title + " | GraphPaper"; m.d = x.summary || (typeOf(x).label + " from CBSE dated " + fmt(x.date) + ": " + x.title); } else { m.t = "Notice | GraphPaper"; m.ni = true; }
+    var x = findNotice(r.arg);
+    if (x){
+      var nt = x.title.replace(/\s+([:;,])/g, "$1").replace(/\s+/g, " ").trim(), tl = typeOf(x).label;
+      m.t = nt + " | " + (/cbse/i.test(nt) ? "" : "CBSE ") + tl + " | GraphPaper";
+      m.d = x.summary || (tl + " from CBSE dated " + fmt(x.date) + ": " + nt + ". Official link, publish date and related NCERT books, syllabus and papers.");
+      m.art = x; m.bc = [["Updates", "/updates"], [nt, "/notice/" + (x.slug || x.id)]];
+    } else { m.t = "Notice | GraphPaper"; m.ni = true; }
   }
-  else if (name === "class"){ m.t = cn + " study shelf | GraphPaper"; m.d = "NCERT books, syllabus, papers and question bank for " + cn + " (CBSE)."; if (!r.cls) m.ni = true; }
-  else if (name === "books"){ m.t = "NCERT books for " + cn + " | GraphPaper"; m.d = "Chapter-wise NCERT PDFs for " + cn + ", linked from the official NCERT site, with a whole-book download for each."; }
-  else if (name === "booklist"){ m.t = "NCERT book list for " + cn + " | GraphPaper"; m.d = "A printable checklist of every NCERT textbook for " + cn + " (CBSE), with chapter titles and download links."; }
-  else if (name === "syllabus"){ m.t = "CBSE syllabus for " + cn + ", 2026-27 | GraphPaper"; m.d = "Official CBSE syllabus PDFs for " + cn + ", session 2026-27, subject by subject."; if (n < 9) m.ni = true; }
-  else if (name === "papers"){ m.t = "CBSE sample papers and previous year papers for " + cn + " | GraphPaper"; m.d = "Official CBSE sample papers with marking schemes and past board question papers for " + cn + "."; if (n !== 10 && n !== 12) m.ni = true; }
-  else if (name === "qbank"){ m.t = "CBSE question bank and practice questions for " + cn + " | GraphPaper"; m.d = "CBSE question bank, practice questions and NCERT Exemplar problems for " + cn + "."; if (n < 6) m.ni = true; }
-  else if (name === "calculator"){ m.t = "Percentage and CGPA calculator for CBSE students | GraphPaper"; m.d = "Work out your percentage from your marks, or convert CGPA to percentage using CBSE's own 9.5 rule. Free, and nothing is saved or sent."; }
+  else if (name === "class"){ m.t = cn + " study shelf | GraphPaper"; m.d = "NCERT books, syllabus, papers and question bank for " + cn + " (CBSE)."; if (!r.cls) m.ni = true; m.bc = [[cn, classBase(c)]]; }
+  else if (name === "books"){ m.t = "NCERT books for " + cn + " (2026-27): chapter-wise PDF download | GraphPaper"; m.d = "Chapter-wise NCERT PDFs for " + cn + ", linked from the official NCERT site, with a whole-book download for each."; m.bc = [[cn, classBase(c)], ["NCERT books", classBase(c) + "/books"]]; }
+  else if (name === "booklist"){ m.t = "NCERT book list for " + cn + ": all textbooks and chapters | GraphPaper"; m.d = "A printable checklist of every NCERT textbook for " + cn + " (CBSE), with chapter titles and download links."; m.bc = [[cn, classBase(c)], ["Book list", classBase(c) + "/book-list"]]; }
+  else if (name === "syllabus"){ m.t = "CBSE " + cn + " syllabus 2026-27: official PDF, subject-wise | GraphPaper"; m.d = "Official CBSE syllabus PDFs for " + cn + ", session 2026-27, subject by subject."; if (n < 9) m.ni = true; m.bc = [[cn, classBase(c)], ["Syllabus", classBase(c) + "/syllabus"]]; }
+  else if (name === "papers"){ m.t = "CBSE " + cn + " sample papers, marking schemes and previous year question papers | GraphPaper"; m.d = "Official CBSE sample papers with marking schemes and past board question papers for " + cn + "."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Papers", classBase(c) + "/papers"]]; }
+  else if (name === "qbank"){ m.t = "CBSE " + cn + " question bank, practice questions and NCERT Exemplar | GraphPaper"; m.d = "CBSE question bank, practice questions and NCERT Exemplar problems for " + cn + "."; if (n < 6) m.ni = true; m.bc = [[cn, classBase(c)], ["Question bank", classBase(c) + "/question-bank"]]; }
+  else if (name === "calculator"){ m.t = "Percentage and CGPA calculator for CBSE students | GraphPaper"; m.bc = [["Calculator", "/calculator"]]; m.d = "Work out your percentage from your marks, or convert CGPA to percentage using CBSE's own 9.5 rule. Free, and nothing is saved or sent."; }
   else if (name === "chapter"){
     var ch = chapterOf(r); m.ni = true;
     if (ch){ m.t = (ch.h[1] || ch.b.label + " " + ch.h[0]) + " | Class " + ch.b.cls + " " + foldOf(ch.b) + " | GraphPaper"; m.d = "Official NCERT PDF for Class " + ch.b.cls + " " + foldOf(ch.b) + ", " + ch.b.label + " " + ch.h[0] + ", with the next chapter and the whole-book download."; } else m.t = "Chapter not found | GraphPaper";
@@ -985,17 +1013,19 @@ function pageMeta(name, r){
   else if (name === "subject"){
     var sf = subjectOf(r);
     if (sf){
-      m.t = "Class " + c + " " + sf + ": NCERT chapters, syllabus and papers | GraphPaper";
+      m.t = "Class " + c + " " + sf + ": NCERT book PDF, syllabus 2026-27" + (n === 10 || n === 12 ? ", sample papers" : " and questions") + " | GraphPaper";
+      m.bc = (n < 11 ? [["Class " + c, "/class-" + c]] : []).concat([[sf, "/class-" + c + "/" + r.arg]]); m.col = true;
       m.d = "Class " + c + " " + sf + " for CBSE: chapter-wise NCERT PDFs, the 2026-27 syllabus" + (n === 10 || n === 12 ? ", sample papers with marking schemes, past board papers" : "") + " and practice questions, all linked from the official sites.";
     } else { m.t = "Subject not found | GraphPaper"; m.ni = true; }
   }
   else if (name === "board"){ var b = BOARDS[r.arg] ? r.arg : "CBSE"; m.t = b + " notices | GraphPaper"; m.d = BOARDS[b].soon ? D0 : "Latest " + b + " circulars, date sheets, syllabus changes and results."; if (BOARDS[b].soon) m.ni = true; }
-  else if (name === "parents"){ m.t = "CBSE for parents: Classes 1 to 8 explained | GraphPaper"; m.d = "Plain answers for parents of children in Classes 1 to 8: school stages, board exams, holding back, and the Holistic Progress Card, with official sources."; }
+  else if (name === "parents"){ m.t = "CBSE for parents: Classes 1 to 8 explained | GraphPaper"; m.d = "Plain answers for parents of children in Classes 1 to 8: school stages, board exams, holding back, and the Holistic Progress Card, with official sources."; m.bc = [["For parents", "/parents"]]; }
   else if (name === "about" || name === "contact" || name === "terms" || name === "privacy"){ m.t = (TITLES[name] || "GraphPaper"); }
   else if (name === "notfound"){ m.t = "Page not found | GraphPaper"; m.ni = true; }
   return m;
 }
 function setMeta(name, r){
+  if (name === "notice"){ var nx = findNotice(r.arg); if (nx && nx.slug && r.arg !== nx.slug){ history.replaceState(null, "", "/notice/" + encodeURIComponent(nx.slug) + location.search); r.arg = nx.slug; } }
   var m = pageMeta(name, r), path = location.pathname.replace(/\/+$/, "") || "/", url = SITE + (path === "/" ? "/" : path);
   if (r.q && name === "home" && r.q.get("s")) url = SITE + "/";
   function el(sel, tag, attrs){ var e = $(sel); if (!e){ e = D.createElement(tag); for (var k in attrs) e.setAttribute(k, attrs[k]); D.head.appendChild(e); } return e; }
@@ -1005,6 +1035,28 @@ function setMeta(name, r){
   el('meta[property="og:title"]', "meta", {property:"og:title"}).setAttribute("content", m.t);
   el('meta[property="og:description"]', "meta", {property:"og:description"}).setAttribute("content", m.d);
   el('meta[property="og:url"]', "meta", {property:"og:url"}).setAttribute("content", url);
+  var graph = [];
+  if (name === "home"){
+    graph.push({"@type":"Organization", "@id":SITE + "/#org", name:"GraphPaper", url:SITE + "/", logo:SITE + "/logo.png"});
+    graph.push({"@type":"WebSite", "@id":SITE + "/#site", name:"GraphPaper", url:SITE + "/", publisher:{"@id":SITE + "/#org"}, inLanguage:"en-IN"});
+  }
+  if (m.bc && !m.ni){
+    var bl = [["Home", "/"]].concat(m.bc);
+    graph.push({"@type":"BreadcrumbList", itemListElement: bl.map(function(b, i){ return {"@type":"ListItem", position:i + 1, name:b[0], item:SITE + b[1]}; })});
+  }
+  if (m.art && !m.ni){
+    graph.push({"@type":"Article", headline:m.art.title.replace(/\s+([:;,])/g, "$1").replace(/\s+/g, " ").trim().slice(0, 110), description:m.d, datePublished:m.art.date, dateModified:m.art.date, mainEntityOfPage:url, url:url, inLanguage:"en-IN",
+      about:{"@type":"Organization", name:"Central Board of Secondary Education (CBSE)", url:"https://www.cbse.gov.in/"}, isBasedOn:safeUrl(m.art.url),
+      author:{"@type":"Organization", name:"GraphPaper", url:SITE + "/"}, publisher:{"@type":"Organization", name:"GraphPaper", logo:{"@type":"ImageObject", url:SITE + "/logo.png"}}, image:SITE + "/logo.png"});
+  }
+  if (m.col && !m.ni){
+    graph.push({"@type":"CollectionPage", name:m.t.replace(/ \| GraphPaper$/, ""), description:m.d, url:url, isPartOf:{"@type":"WebSite", name:"GraphPaper", url:SITE + "/"}, inLanguage:"en-IN"});
+  }
+  var ld = $("#ld");
+  if (graph.length){
+    ld = el("#ld", "script", {type:"application/ld+json", id:"ld"});
+    ld.textContent = JSON.stringify({"@context":"https://schema.org", "@graph":graph});
+  } else if (ld){ ld.parentNode.removeChild(ld); }
   var rb = $('meta[name="robots"]');
   if (m.ni){ el('meta[name="robots"]', "meta", {name:"robots"}).setAttribute("content", "noindex"); } else if (rb){ rb.parentNode.removeChild(rb); }
 }
