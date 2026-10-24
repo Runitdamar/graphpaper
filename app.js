@@ -487,7 +487,7 @@ VIEWS.about = function(){
   return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>About</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">About GraphPaper</h1>' +
    '<p style="margin:0 0 28px;color:var(--mut)">Books, syllabus and notices for your class, in one calm place.</p><div style="display:flex;flex-direction:column;gap:22px">' +
    sec("Our idea", "Students and parents should not have to hunt through several websites for a book, a syllabus or a circular. GraphPaper gathers the official material, sorts it by class, and links to the original so you read the real thing.", "var(--a1)") +
-   sec("What you will find here", "<b>NCERT books:</b> every chapter PDF for Class 1 to 12, English-medium books plus the Hindi and Sanskrit language books, with chapter titles, a whole-book download and a printable book list.<br><b>Syllabus:</b> the official 2026-27 CBSE syllabus for Class 9 to 12.<br><b>Papers and question bank:</b> CBSE sample papers and past board papers for Class 10 and 12, and practice questions from Class 6.<br><b>Updates:</b> CBSE circulars, date sheets and results, plus a quick status check for Class 10 and 12.<br><b>For parents:</b> plain answers about school stages, exams and report cards, for Classes 1 to 8 and beyond.<br><b>Subject pages and progress:</b> every Class 9 to 12 subject has one page with its books, syllabus, papers and practice questions. Tick chapters as you finish them.<br><b>Calculator:</b> marks to percentage, and CGPA to percentage.<br><b>Notes:</b> coming later.", "var(--a3)") +
+   sec("What you will find here", "<b>NCERT books:</b> every chapter PDF for Class 1 to 12, English-medium books plus the Hindi and Sanskrit language books, with chapter titles, a whole-book download and a printable book list.<br><b>Syllabus:</b> the official 2026-27 CBSE syllabus for Class 9 to 12.<br><b>Papers and question bank:</b> CBSE sample papers and past board papers for Class 10 and 12, and practice questions from Class 6.<br><b>Updates:</b> CBSE circulars, date sheets and results, plus a quick status check for Class 10 and 12.<br><b>For parents:</b> plain answers about school stages, exams and report cards, for Classes 1 to 8 and beyond.<br><b>Subject pages and progress:</b> every Class 9 to 12 subject has one page with its books, syllabus, papers and practice questions. Tick chapters as you finish them.<br><b>Calculator:</b> marks to percentage, and CGPA to percentage.", "var(--a3)") +
    sec("How it works", "Pick your class once, and your stream for Class 11 and 12. It is remembered on your device, so there is no account to make. Every link goes to the official CBSE or NCERT website. GraphPaper does not host the files.", "var(--a2)") +
    '<section style="background:var(--a4);border:2px solid var(--ink);border-radius:28px;padding:24px 26px;box-shadow:0 6px 0 var(--ink)"><h2 style="font-size:24px;margin:0 0 8px">Not an official website</h2><div>GraphPaper is not run by any board. Notices can change, so always check them at the official source before you act on them.</div></section>' +
    '</div></div>';
@@ -615,7 +615,8 @@ function setMeta(name, r){
   if (m.d.length > 165){ m.d = m.d.slice(0, 162).replace(/[\s,;:.\-]+\S*$/, "") + "\u2026"; }
   D.title = m.t;
   el('meta[name="description"]', "meta", {name:"description"}).setAttribute("content", m.d);
-  el('link[rel="canonical"]', "link", {rel:"canonical"}).setAttribute("href", url);
+  if (name === "notfound"){ var cn0 = $('link[rel="canonical"]'); if (cn0) cn0.parentNode.removeChild(cn0); }
+  else el('link[rel="canonical"]', "link", {rel:"canonical"}).setAttribute("href", url);
   el('meta[property="og:title"]', "meta", {property:"og:title"}).setAttribute("content", m.t);
   el('meta[property="og:description"]', "meta", {property:"og:description"}).setAttribute("content", m.d);
   el('meta[property="og:url"]', "meta", {property:"og:url"}).setAttribute("content", url);
@@ -663,6 +664,7 @@ function route(keepScroll){
   if (r.cls){ syncFromPath(r); r = parse(); name = r.name; }
   if (!name) name = "home";
   if (!VIEWS[name]) name = "notfound";
+  if (name === "updates" && r.arg && !UCAT[r.arg] && !/^class-(9|1[0-2])$/.test(r.arg)) name = "notfound";
   if (name === "class" && r.cls && hasStreams(r.cls) && !r.stream) name = "streams";
   if (ST.cls && hasStreams(ST.cls) && !ST.streamSet && /^(class|books|syllabus|papers|sqp|pyq|qbank|booklist)$/.test(name)){ ST.wc = ST.wc || ST.cls; name = "welcome"; }
   if (!keepScroll){
