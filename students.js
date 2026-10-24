@@ -58,10 +58,11 @@ VIEWS.updates = function(r){
   var h1 = info ? "CBSE " + info[1] : P.cls ? "CBSE notices for Class " + P.cls : "All updates";
   var lead = info ? info[2] : P.cls ? "Circulars, date sheets, syllabus changes and results that name Class " + P.cls + " in the CBSE notice title. Notices sent to every class may not name one, so check All updates too." : "Every CBSE notice, newest first. Current notices come first, and older ones are archived below.";
   var curT = P.type || (r.arg ? "" : ST.type);
-  var types = '<a class="f" href="#/updates" aria-current="' + (!r.arg && ST.type === "all" ? "page" : "false") + '">All</a>' + TYPE_KEYS.map(function(k){
+  var cnt = {}; ST.items.forEach(function(x){ cnt[x.tag] = (cnt[x.tag] || 0) + 1; });
+  var types = '<a class="f" href="#/updates" aria-current="' + (!r.arg && ST.type === "all" ? "page" : "false") + '">All</a>' + TYPE_KEYS.filter(function(k){ return cnt[k] || curT === k; }).map(function(k){
     return '<a class="f" href="#/updates/' + UCAT_SLUG[k] + '" aria-current="' + (curT === k ? "page" : "false") + '">' + esc(TYPES[k].plural) + '</a>';
   }).join("");
-  var cls = [9, 10, 11, 12].map(function(c){ return '<a class="f" href="#/updates/class-' + c + '" aria-current="' + (P.cls === String(c) ? "page" : "false") + '">Class ' + c + '</a>'; }).join("");
+  var cls = [9, 10, 11, 12].filter(function(c){ return uFilter(uPreset("class-" + c), true).cur.length + uFilter(uPreset("class-" + c), true).arc.length; }).map(function(c){ return '<a class="f" href="#/updates/class-' + c + '" aria-current="' + (P.cls === String(c) ? "page" : "false") + '">Class ' + c + '</a>'; }).join("");
   var streams = ["Science", "Commerce", "Humanities"].map(function(v){ return '<button class="f" data-act="uf" data-k="fs" data-v="' + v + '" aria-pressed="' + (ST.fs === v ? "true" : "false") + '">' + v + '</button>'; }).join("");
   var subs = {}, yrs = {};
   ST.items.forEach(function(x){ var m = nmeta(x); m.subjects.forEach(function(s){ subs[s] = 1; }); if (m.year) yrs[m.year] = 1; });
@@ -482,7 +483,7 @@ VIEWS.board = function(r){
   var name = BOARDS[r.arg] ? r.arg : "CBSE", b = BOARDS[name];
   var btns, body = "";
   if (b.soon) {
-    btns = '<a class="btn dark" href="#/board/CBSE" style="display:inline-flex">See CBSE notices</a>';
+    btns = '<a class="btn dark" href="#/updates" style="display:inline-flex">See CBSE notices</a>';
     body = '<div class="card" style="--sh:var(--a4)"><h3 style="font-size:22px">Coming soon</h3><div class="meta">For now GraphPaper covers CBSE notices and NCERT books for Class 1 to 12.</div></div>';
   } else {
     btns = '<a class="btn dark" href="' + b.url + '" target="_blank" rel="noopener" style="display:inline-flex">Open official site ↗</a>';

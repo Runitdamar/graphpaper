@@ -254,6 +254,14 @@ var SUBJ = {
   a:["English","Hindi","Mathematics","EVS","Art"], b:["English","Hindi","Mathematics","Science","Social Science","Sanskrit"], c:["English","Hindi","Mathematics","Science","Social Science"],
   Science:["Physics","Chemistry","Mathematics","Biology","English"], Commerce:["Accountancy","Business Studies","Economics","Mathematics","English"], Humanities:["History","Political Science","Geography","Psychology","English"]
 };
+VIEWS.streams = function(r){
+  var c = r.cls, info = {Science: "Physics, Chemistry, Mathematics, Biology and more", Commerce: "Accountancy, Business Studies, Economics and more", Humanities: "History, Political Science, Geography, Psychology and more"}, cols = {Science: "--a3", Commerce: "--a4", Humanities: "--a2"};
+  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Class ' + c + '</b></div>' +
+   '<div class="head"><div class="tile" style="background:var(--a1)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">CBSE Class ' + c + ': choose your stream</h1><p>Class ' + c + ' books, syllabus' + (+c === 12 ? ', papers' : '') + ' and question banks are organised by stream. Pick yours.</p></div></div>' +
+   '<div class="grid g3" style="margin-bottom:48px">' + ["Science", "Commerce", "Humanities"].map(function(st){
+     return '<a class="card" href="/class-' + c + '/' + st.toLowerCase() + '" style="--sh:var(' + cols[st] + ')"><h3 style="font-size:24px">Class ' + c + ' ' + st + '</h3><div class="meta">' + info[st] + '</div><span class="more">Open \u2192</span></a>';
+   }).join("") + '</div></div>';
+};
 VIEWS["class"] = function(){
   var c = ST.cls || "4", n = +c, hi = n >= 11;
   var subs, cols = ["--a1","--a2","--a3","--a4","--a5"], s2b = {Physics:"Physics", Chemistry:"Chemistry", Mathematics:"Maths", Biology:"Biology"};
@@ -563,6 +571,7 @@ function pageMeta(name, r){
       m.art = x; m.bc = [["Updates", "/updates"], [nt, "/notice/" + (x.slug || x.id)]];
     } else { m.t = "Notice | GraphPaper"; m.ni = true; }
   }
+  else if (name === "streams"){ m.t = "CBSE Class " + r.cls + ": choose Science, Commerce or Humanities | GraphPaper"; m.d = "Pick your Class " + r.cls + " stream to see its NCERT books, syllabus" + (r.cls === "12" ? ", sample papers" : "") + " and question bank, each linked from the official sources."; m.bc = [["Class " + r.cls, "/class-" + r.cls]]; }
   else if (name === "class"){ var pp = (n === 10 || n === 12), sy = n >= 9;
     m.t = sy ? "CBSE " + cn + " 2026-27: Syllabus, " + (pp ? "Papers, " : "") + "NCERT Books, Notices | GraphPaper" : "NCERT books for " + cn + ": chapter list and downloads | GraphPaper";
     m.d = sy ? classIntro(n, c).split(". ")[0].replace(/\.$/, "") + ". Official 2026-27 syllabus, " + (pp ? "sample papers, previous years\u2019 papers, " : "") + "NCERT books and the latest CBSE notices." : "Every NCERT book for " + cn + ", chapter by chapter, with a printable book list and a guide for parents.";
@@ -639,7 +648,7 @@ function syncFromPath(r){
   if (r.cls && r.cls !== ST.cls) setClass(r.cls);
   if (r.stream && (r.stream !== ST.stream || !ST.streamSet)) setStream(r.stream);
   if (r.cls && hasStreams(r.cls) && !r.stream && ST.streamSet && r.name !== "subject" && r.name !== "chapter"){
-    var sec = r.name === "class" ? "" : "/" + SECT[r.name];
+    var sec = (r.name === "class" || r.name === "streams") ? "" : "/" + SECT[r.name];
     history.replaceState(null, "", classBase(r.cls) + sec + location.search);
   }
 }
@@ -654,6 +663,7 @@ function route(keepScroll){
   if (r.cls){ syncFromPath(r); r = parse(); name = r.name; }
   if (!name) name = "home";
   if (!VIEWS[name]) name = "notfound";
+  if (name === "class" && r.cls && hasStreams(r.cls) && !r.stream) name = "streams";
   if (ST.cls && hasStreams(ST.cls) && !ST.streamSet && /^(class|books|syllabus|papers|sqp|pyq|qbank|booklist)$/.test(name)){ ST.wc = ST.wc || ST.cls; name = "welcome"; }
   if (!keepScroll){
     if (name !== "updates" || !ST.fromSearch){ if (name === "updates" || ST.navFrom === "updates"){ ST.type = "all"; ST.q = ""; ST.ub = "all"; ST.fs = ""; ST.fsub = ""; ST.fy = ""; } }
