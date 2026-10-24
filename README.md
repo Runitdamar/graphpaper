@@ -8,6 +8,13 @@ CBSE updates, syllabus, papers, question bank and NCERT book links for Classes 1
 - You can also run the check by hand: Actions tab > Check CBSE updates > Run workflow.
 - The scraper has not been tested against the live CBSE site. If a run adds nothing or fails, check the Actions log.
 
+## Notice pages and categories
+- Every approved notice has its own page (`/notice/<slug>`), plus category pages `/updates/circulars`, `/updates/date-sheets`, `/updates/syllabus-changes`, `/updates/results` and `/updates/class-9` to `/updates/class-12`.
+- Class, stream, subject and exam year are worked out from the notice title. "Who it affects" is also worked out from the title unless you add an `affects` field.
+- A notice older than 180 days is archived automatically. Set `"archived": true` or `false` on a notice to override.
+- Optional hand-written fields: `summary` (shown as "In short"), `affects`, `deadline` (shown on the card and the page).
+- `checked.json` holds the date the scraper last read CBSE's lists (written by the scraper, shown as "last checked").
+
 ## Data format (`updates.json`)
 ```json
 { "id": "unique-id", "tag": "Circular | Date Sheet | Syllabus Change | Result",

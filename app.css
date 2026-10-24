@@ -118,3 +118,12 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 .crow input,.cin{box-sizing:border-box;border:2px solid var(--ink);border-radius:14px;padding:12px;font-size:17px;background:var(--bg);color:var(--ink);width:100%;min-width:0}
 .crow .rm{width:44px;height:44px;border:2px solid var(--ink);border-radius:14px;background:var(--bg);color:var(--ink);font-size:22px;cursor:pointer}
 .cres{font-size:clamp(40px,10vw,64px);font-weight:700;line-height:1}
+
+a.f{display:inline-flex;align-items:center;text-decoration:none}
+a.f[aria-current=page]{background:var(--ink);color:var(--bg)}
+.sel{border:2px solid var(--ink);border-radius:999px;padding:8px 14px;min-height:44px;font-weight:700;font-size:15px;background:var(--card);color:var(--ink);max-width:100%}
+.flab{font-weight:700;font-size:14px;color:var(--mut);margin:0 0 6px}
+details.arch{margin-top:40px}
+details.arch>summary{cursor:pointer;font-family:Fredoka,sans-serif;font-weight:600;font-size:24px;margin-bottom:16px}
+.tag-arch{background:var(--shelf)}
+.offbtn{display:flex;align-items:center;justify-content:center;gap:8px;padding:18px 28px;font-size:19px;min-height:60px;text-align:center}

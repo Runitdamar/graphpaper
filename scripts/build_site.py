@@ -39,8 +39,9 @@ def shell_html():
     sys.path.insert(0, os.path.join(ROOT, "scripts"))
     from build_tracker import build
     blob = json.dumps(build(), ensure_ascii=False).replace("</", "<\\/")
+    chk = open(os.path.join(ROOT, "checked.json"), encoding="utf-8").read().strip() if os.path.exists(os.path.join(ROOT, "checked.json")) else "{}"
     html = open(SHELL, encoding="utf-8").read()
-    return html.replace('<script src="/app.js" defer></script>', '<script type="application/json" id="trk">' + blob + '</script>\n<script src="/app.js" defer></script>').encode("utf-8")
+    return html.replace('<script src="/app.js" defer></script>', '<script type="application/json" id="trk">' + blob + '</script>\n<script type="application/json" id="chk">' + chk + '</script>\n<script src="/app.js" defer></script>').encode("utf-8")
 
 
 def load(name):
@@ -87,6 +88,8 @@ def routes():
     out = [("/", None), ("/updates", None), ("/about", None), ("/contact", None),
            ("/privacy", None), ("/terms", None), ("/parents", None), ("/welcome", None), ("/calculator", None),
            ("/board/CBSE", None)]
+    for sl in ("circulars", "date-sheets", "syllabus-changes", "results", "class-9", "class-10", "class-11", "class-12"):
+        out.append(("/updates/" + sl, None))
     notices = [x for x in load("updates.json") if x.get("status") == "approved" and not x.get("sample")]
     for x in sorted(notices, key=lambda n: n["date"], reverse=True):
         out.append(("/notice/" + x.get("slug", x["id"]), x["date"]))

@@ -39,45 +39,66 @@ function homeReturning(){
     homeShelf(c);
 }
 
+ST.fs = ""; ST.fsub = ""; ST.fy = ""; ST.up = uPreset("");
+function ucount(l){ return "Showing " + l.n + " current notice" + (l.n === 1 ? "" : "s") + (l.a ? " and " + l.a + " archived" : ""); }
 function listHtml(){
-  var q = ST.q.trim().toLowerCase();
-  var shown = ST.items.filter(function(x){
-    if (ST.type !== "all" && x.tag !== ST.type) return false;
-    if (ST.ub !== "all" && ST.ub !== "CBSE") return false;
-    return !q || (x.title + " " + typeOf(x).label + " " + (x.summary || "")).toLowerCase().indexOf(q) !== -1;
-  });
-  return {n: shown.length, html: shown.length ? shown.map(function(x){ return noticeCard(x); }).join("") : loadingOrEmpty(ST.ub !== "all" && ST.ub !== "CBSE" ? ST.ub + " notices are coming soon." : "No notices found.")};
+  var f = uFilter(ST.up), card = function(x){ return noticeCard(x); };
+  var cur = f.cur.length ? f.cur.map(card).join("") : loadingOrEmpty("No current notices match these filters." + (f.arc.length ? " See the archived notices below." : ""));
+  var arc = f.arc.length ? '<details class="arch"' + (!f.cur.length ? ' open' : '') + '><summary>Archived notices (' + f.arc.length + ')</summary><p class="meta" style="margin:-8px 0 16px">Older than about six months. They may be out of date, so check CBSE for newer notices.</p><div class="grid g3">' + f.arc.map(card).join("") + '</div></details>' : '';
+  return {n: f.cur.length, a: f.arc.length, html: cur, arc: arc};
+}
+function uSelect(id, label, opts, val){
+  return '<div><div class="flab"><label for="' + id + '">' + label + '</label></div><select id="' + id + '" class="sel"><option value="">All</option>' + opts.map(function(o){ return '<option' + (o === val ? ' selected' : '') + '>' + esc(o) + '</option>'; }).join("") + '</select></div>';
 }
 VIEWS.updates = function(r){
-  var t = r.q.get("type"); if (t && (t === "all" || TYPES[t])) ST.type = t;
+  var P = uPreset(r.arg); ST.up = P;
+  var t = r.q.get("type"); if (!r.arg && t && (t === "all" || TYPES[t])) ST.type = t;
   var qq = r.q.get("q"); if (qq !== null) ST.q = qq;
-  var f = [["all","All"]].concat(TYPE_KEYS.map(function(k){ return [k, TYPES[k].plural]; })).map(function(p){
-    return '<button class="f" data-act="ut" data-v="' + esc(p[0]) + '" aria-pressed="' + (ST.type === p[0] ? "true" : "false") + '">' + esc(p[1]) + '</button>';
+  var info = UCAT[r.arg];
+  var h1 = info ? "CBSE " + info[1] : P.cls ? "CBSE notices for Class " + P.cls : "All updates";
+  var lead = info ? info[2] : P.cls ? "Circulars, date sheets, syllabus changes and results that name Class " + P.cls + " in the CBSE notice title. Notices sent to every class may not name one, so check All updates too." : "Every CBSE notice, newest first. Current notices come first, and older ones are archived below.";
+  var curT = P.type || (r.arg ? "" : ST.type);
+  var types = '<a class="f" href="#/updates" aria-current="' + (!r.arg && ST.type === "all" ? "page" : "false") + '">All</a>' + TYPE_KEYS.map(function(k){
+    return '<a class="f" href="#/updates/' + UCAT_SLUG[k] + '" aria-current="' + (curT === k ? "page" : "false") + '">' + esc(TYPES[k].plural) + '</a>';
   }).join("");
+  var cls = [9, 10, 11, 12].map(function(c){ return '<a class="f" href="#/updates/class-' + c + '" aria-current="' + (P.cls === String(c) ? "page" : "false") + '">Class ' + c + '</a>'; }).join("");
+  var streams = ["Science", "Commerce", "Humanities"].map(function(v){ return '<button class="f" data-act="uf" data-k="fs" data-v="' + v + '" aria-pressed="' + (ST.fs === v ? "true" : "false") + '">' + v + '</button>'; }).join("");
+  var subs = {}, yrs = {};
+  ST.items.forEach(function(x){ var m = nmeta(x); m.subjects.forEach(function(s){ subs[s] = 1; }); if (m.year) yrs[m.year] = 1; });
   var l = listHtml();
-  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Updates</b></div>' +
-    '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">All updates</h1><p style="margin:0 0 24px;color:var(--mut)">Every CBSE notice, newest first.</p>' +
+  return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / ' + (r.arg && (info || P.cls) ? '<a href="#/updates">Updates</a> / <b>' + esc(h1) + '</b>' : '<b>Updates</b>') + '</div>' +
+    '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">' + esc(h1) + '</h1><p style="margin:0 0 8px;color:var(--mut);max-width:680px">' + esc(lead) + '</p>' +
+    '<p class="meta" style="margin:0 0 24px">' + (CHECKED ? 'CBSE’s notice lists last checked on ' + esc(fmt(CHECKED)) + '. ' : '') + 'A new notice can take a day to appear here, so also look at cbse.gov.in.</p>' +
     '<div class="search" style="max-width:560px;margin-bottom:20px"><label for="uq" style="position:absolute;left:-9999px">Search updates</label><input id="uq" type="search" placeholder="Search updates" value="' + esc(ST.q) + '" autocomplete="off"></div>' +
-    '<div class="chips" role="group" aria-label="Type" style="margin-bottom:16px">' + f + '</div>' +
-    '<div class="meta" id="ucount" aria-live="polite" style="margin-bottom:16px">Showing ' + l.n + ' notice' + (l.n === 1 ? '' : 's') + '</div><div class="grid g3" id="ulist">' + l.html + '</div></div>';
+    '<div class="flab">Type</div><div class="chips" role="group" aria-label="Type" style="margin-bottom:16px">' + types + '</div>' +
+    '<div class="flab">Class</div><div class="chips" role="group" aria-label="Class" style="margin-bottom:16px">' + cls + '</div>' +
+    '<div class="flab">Stream (Class 11 and 12)</div><div class="chips" role="group" aria-label="Stream" style="margin-bottom:16px">' + streams + '</div>' +
+    '<div style="display:flex;flex-wrap:wrap;gap:16px;margin-bottom:20px">' + uSelect("usub", "Subject", Object.keys(subs).sort(), ST.fsub) + uSelect("uyr", "Exam year", Object.keys(yrs).sort().reverse(), ST.fy) + '</div>' +
+    '<div class="meta" id="ucount" aria-live="polite" style="margin-bottom:16px">' + ucount(l) + '</div><div class="grid g3" id="ulist">' + l.html + '</div><div id="uarc">' + l.arc + '</div></div>';
 };
 
 VIEWS.notice = function(r){
   var x = findNotice(r.arg);
   if (!x) return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/updates">Updates</a></div><h1 id="pg" tabindex="-1" style="font-size:clamp(30px,5vw,48px)">' + (ST.loaded ? 'Notice not found' : 'Loading...') + '</h1><p style="color:var(--mut)">' + (ST.loaded ? 'This notice may have been removed. <a href="#/updates" style="text-decoration:underline;font-weight:700">See all updates</a>.' : '') + '</p></div>';
-  var t = typeOf(x), url = safeUrl(x.url);
-  var more = ST.items.filter(function(i){ return i.id !== x.id; });
+  var t = typeOf(x), url = safeUrl(x.url), m = nmeta(x);
+  var more = ST.items.filter(function(i){ return i.id !== x.id && !nmeta(i).archived; });
   more = more.filter(function(i){ return i.tag === x.tag; }).concat(more.filter(function(i){ return i.tag !== x.tag; })).slice(0, 3);
-  return '<div class="wrap sec" style="padding-bottom:64px"><div class="crumb"><a href="#/home">Home</a> / <a href="#/updates">Updates</a> / <b>' + esc(t.label) + '</b></div>' +
-   '<div style="display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start"><div style="flex:1 1 560px;min-width:0;display:flex;flex-direction:column;gap:28px">' +
-   '<div><div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px">' + pill(x, (isNew(x.date) ? '<span class="pill" style="background:var(--a3)">New</span>' : '') + '<span style="font-weight:700;font-size:15px">CBSE</span>') + '</div>' +
+  function cell(k, v){ return '<div><small>' + k + '</small><div>' + v + '</div></div>'; }
+  var facts = cell("Published", esc(fmt(x.date))) + (CHECKED ? cell("Last checked", esc(fmt(CHECKED))) : "") + cell("Status", m.archived ? "Archived" : "Current") + cell("Type", esc(t.label)) +
+    cell("Who it affects", esc(m.affects) + (m.affectsAuto ? ' <span style="font-weight:400;color:var(--mut);font-size:13px">(from the title)</span>' : '')) +
+    (x.deadline ? cell("Deadline", esc(x.deadline)) : "") + (m.year ? cell("Exam year", esc(m.year)) : "") + (m.subjects.length ? cell("Subject", esc(m.subjects.join(", "))) : "") + cell("Source", esc(host(url)));
+  var typeLink = '<a href="#/updates/' + UCAT_SLUG[x.tag] + '" style="text-decoration:underline;font-weight:700">More CBSE ' + esc(UCAT[UCAT_SLUG[x.tag]][1]) + '</a>';
+  var clsLinks = m.classes.filter(function(c){ return c >= 9; }).map(function(c){ return '<a href="#/updates/class-' + c + '" style="text-decoration:underline;font-weight:700">Class ' + c + ' notices</a>'; });
+  return '<div class="wrap sec" style="padding-bottom:64px"><div class="crumb"><a href="#/home">Home</a> / <a href="#/updates">Updates</a> / <a href="#/updates/' + UCAT_SLUG[x.tag] + '">' + esc(t.label) + '</a></div>' +
+   '<div style="display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start"><div style="flex:1 1 560px;min-width:0;display:flex;flex-direction:column;gap:24px">' +
+   '<div><div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px">' + pill(x, (m.archived ? '<span class="pill tag-arch">Archived</span>' : isNew(x.date) ? '<span class="pill" style="background:var(--a3)">New</span>' : '') + '<span style="font-weight:700;font-size:15px">CBSE</span>') + '</div>' +
    '<h1 id="pg" tabindex="-1" style="font-size:clamp(28px,4.6vw,46px);line-height:1.15;overflow-wrap:anywhere">' + esc(x.title) + '</h1></div>' +
-   '<div class="info"><div><small>Published</small><div>' + esc(fmt(x.date)) + '</div></div><div><small>Type</small><div>' + esc(t.label) + '</div></div><div><small>Board</small><div>CBSE</div></div><div><small>Source</small><div>' + esc(host(url)) + '</div></div></div>' +
+   '<a class="btn dark offbtn" href="' + esc(url) + '" target="_blank" rel="noopener">Open the official notice on ' + esc(host(url)) + ' ↗</a>' +
+   (m.archived ? '<div class="card" style="--sh:var(--a4)"><b>This notice is archived.</b> It was published ' + esc(ageText(m)) + ' and may be out of date. Check CBSE for newer notices on the same topic.</div>' : '') +
+   '<div class="info">' + facts + '</div>' +
    (x.summary ? '<div style="background:var(--a4);border:2px solid var(--ink);border-radius:28px;padding:24px;box-shadow:0 6px 0 var(--ink)"><h2 style="font-size:24px;margin:0 0 12px">In short</h2><div>' + esc(x.summary) + '</div></div>' : '') +
-   '<div><h2 style="font-size:26px;margin:0 0 14px">The full notice</h2><div class="grid-paper" style="border:2px solid var(--ink);border-radius:28px;min-height:280px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:24px">' +
-   '<svg width="72" height="88" viewBox="0 0 72 88" aria-hidden="true"><path d="M8 4h38l18 18v62H8z" style="fill:var(--a2);stroke:var(--ink)" stroke-width="3" stroke-linejoin="round"/><path d="M46 4v18h18" fill="none" style="stroke:var(--ink)" stroke-width="3" stroke-linejoin="round"/><path d="M20 44h32M20 56h32M20 68h20" style="stroke:var(--ink)" stroke-width="3" stroke-linecap="round"/></svg>' +
-   '<div class="fr" style="font-weight:500;font-size:20px">The official notice is on ' + esc(host(url)) + '</div><div style="color:var(--mut)">It opens in a new tab. GraphPaper does not host the file.</div></div></div></div>' +
-   '<aside style="flex:1 1 280px;max-width:360px;display:flex;flex-direction:column;gap:16px;min-width:0"><a class="btn dark" href="' + esc(url) + '" target="_blank" rel="noopener">Open official notice ↗</a>' +
+   '<div class="meta">The notice itself is a CBSE file. GraphPaper does not host it, and the official file is the only authority for dates and rules. ' + typeLink + (clsLinks.length ? ' · ' + clsLinks.join(' · ') : '') + '</div></div>' +
+   '<aside style="flex:1 1 280px;max-width:360px;display:flex;flex-direction:column;gap:16px;min-width:0">' +
    '<button class="btn" data-act="share" type="button">Share</button><div id="shmsg" class="meta" role="status" style="text-align:center"></div>' +
    '<div class="badge"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" style="fill:var(--card);stroke:var(--ink)" stroke-width="2"/><path d="M6 10.5l3 3 5-6" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Official source: ' + esc(host(url)) + '</div>' + relatedBox(x) + '</aside></div>' +
    '<div style="margin-top:56px"><h2>More from CBSE</h2><div class="grid g3">' + more.map(function(i){ return noticeCard(i, true); }).join("") + '</div></div></div>';

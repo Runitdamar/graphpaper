@@ -185,6 +185,11 @@ def main():
         DATA_FILE.write_text(json.dumps(existing, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     status.append(f"Added {len(added)} new pending item(s).")
     STATUS_FILE.write_text("\n".join(status) + "\n", encoding="utf-8")
+    if errors < len(SOURCES):
+        # the date shown on GraphPaper as "CBSE's lists last checked" (IST)
+        import datetime as _dt
+        _today = (_dt.datetime.utcnow() + _dt.timedelta(hours=5, minutes=30)).date().isoformat()
+        (ROOT / "checked.json").write_text(json.dumps({"date": _today, "sources_ok": len(SOURCES) - errors}) + "\n", encoding="utf-8")
     print(f"Added {len(added)} new pending item(s).")
     if errors == len(SOURCES):
         sys.exit(1)  # every source failed: make the run show as failed
