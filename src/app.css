@@ -1,3 +1,5 @@
+@font-face{font-family:"Nunito Fallback";src:local("Arial");ascent-override:101.1%;descent-override:35.3%;line-gap-override:0%}
+@font-face{font-family:"Fredoka Fallback";src:local("Arial");ascent-override:97.4%;descent-override:23.6%;line-gap-override:0%}
 body{margin:0}
 a{color:inherit;text-decoration:none}
 a:hover{text-decoration:underline}
@@ -15,11 +17,11 @@ button,input,select{font-family:inherit}
 .r[data-c="10"]{--bg:#D3EAE8;--card:#F3FBFA;--ink:#12383C;--mut:#2F5A5E;--a1:#86C1BE;--a2:#E3AD8C;--a3:#A8CC9A;--a4:#DBC46F;--a5:#9DB4DC;--shelf:#B5DAD7;--gl:#BFDDDA;--gr:70,155,150}
 .r[data-c="11"]{--bg:#E8D9EE;--card:#FBF5FD;--ink:#2E1C38;--mut:#5A4366;--a1:#C79FD6;--a2:#E3A98C;--a3:#9FCBB0;--a4:#DEC274;--a5:#9EAEDB;--shelf:#D6BEDF;--gl:#DCC8E3;--gr:150,100,170}
 .r[data-c="12"]{--bg:#F0DCCB;--card:#FFF8F2;--ink:#2E1A14;--mut:#5E3F33;--a1:#D99A7A;--a2:#C9A15B;--a3:#8DB5A0;--a4:#E0B94F;--a5:#9AA9CB;--shelf:#E3C3A8;--gl:#E6CDB8;--gr:190,130,90}
-.r{background-color:var(--bg);background-image:linear-gradient(rgba(var(--gr),.38) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--gr),.38) 1px,transparent 1px),linear-gradient(rgba(var(--gr),.16) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--gr),.16) 1px,transparent 1px);background-size:128px 128px,128px 128px,32px 32px,32px 32px;background-position:-1px -1px;color:var(--ink);font-family:'Nunito',sans-serif;font-size:17px;line-height:1.5;min-height:100vh;display:flex;flex-direction:column}
+.r{background-color:var(--bg);background-image:linear-gradient(rgba(var(--gr),.38) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--gr),.38) 1px,transparent 1px),linear-gradient(rgba(var(--gr),.16) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--gr),.16) 1px,transparent 1px);background-size:128px 128px,128px 128px,32px 32px,32px 32px;background-position:-1px -1px;color:var(--ink);font-family:'Nunito','Nunito Fallback',sans-serif;font-size:17px;line-height:1.5;min-height:100vh;display:flex;flex-direction:column}
 .r *{transition:background-color .35s ease,color .35s ease,border-color .35s ease}
 [hidden]{display:none!important}
 summary{list-style:none}summary::-webkit-details-marker{display:none}
-h1,h2,h3,.fr{font-family:'Fredoka',sans-serif}
+h1,h2,h3,.fr{font-family:'Fredoka','Fredoka Fallback',sans-serif}
 h1{font-weight:600;line-height:1.1;margin:0}
 h2{font-weight:600;font-size:30px;margin:0 0 20px}
 h3{font-weight:500;margin:0}
@@ -45,8 +47,8 @@ h3{font-weight:500;margin:0}
 .bq{background:var(--card);border:2px solid var(--ink);border-radius:24px;padding:20px;text-align:left;color:var(--ink);font-size:16px;display:flex;flex-direction:column;gap:6px;box-shadow:0 5px 0 var(--sh,var(--a1))}
 .bq:hover{transform:translateY(-2px);text-decoration:none}
 .bq .ic{width:44px;height:44px;border-radius:14px;border:2px solid var(--ink);margin-bottom:6px}
-.bq b{font-family:'Fredoka',sans-serif;font-weight:600;font-size:20px}
-.tile{flex:none;width:112px;height:112px;border-radius:32px;border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:'Fredoka',sans-serif;font-weight:600;font-size:60px;box-shadow:0 6px 0 var(--ink)}
+.bq b{font-family:'Fredoka','Fredoka Fallback',sans-serif;font-weight:600;font-size:20px}
+.tile{flex:none;width:112px;height:112px;border-radius:32px;border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:'Fredoka','Fredoka Fallback',sans-serif;font-weight:600;font-size:60px;box-shadow:0 6px 0 var(--ink)}
 .head{display:flex;flex-wrap:wrap;align-items:center;gap:28px;margin-bottom:36px}
 .head p{margin:8px 0 0;color:var(--mut);max-width:560px}
 .search{display:flex;gap:12px;background:var(--card);border:2px solid var(--ink);border-radius:999px;padding:8px;max-width:520px;box-shadow:0 6px 0 var(--a1)}
@@ -63,7 +65,7 @@ h3{font-weight:500;margin:0}
 .book summary{cursor:pointer;display:flex;align-items:center;gap:14px;padding:16px 18px}
 .book .bi{flex:none;width:44px;height:44px;border-radius:14px;border:2px solid var(--ink)}
 .book .bt{flex:1;min-width:0}
-.book .bt b{display:block;font-family:'Fredoka',sans-serif;font-weight:500;font-size:20px}
+.book .bt b{display:block;font-family:'Fredoka','Fredoka Fallback',sans-serif;font-weight:500;font-size:20px}
 .book .bt span{color:var(--mut);font-size:14px}
 .book .car{transition:transform .2s}
 .book[open] .car{transform:rotate(90deg)}
@@ -82,7 +84,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
 .menu{left:0}
 .cgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
 .f[disabled]{opacity:.55;cursor:default}
-.bcard{display:block;border-radius:24px;padding:28px 12px;text-align:center;font-family:Fredoka,sans-serif;font-weight:500;font-size:22px}
+.bcard{display:block;border-radius:24px;padding:28px 12px;text-align:center;font-family:Fredoka,'Fredoka Fallback',sans-serif;font-weight:500;font-size:22px}
 @media (min-width:760px){.menu{left:auto;right:0}}
 .ic,.bi{display:flex;align-items:center;justify-content:center;color:var(--ink)}
 .sq{display:flex;align-items:center;justify-content:center;color:var(--ink);border:2px solid var(--ink)}
@@ -124,6 +126,6 @@ a.f[aria-current=page]{background:var(--ink);color:var(--bg)}
 .sel{border:2px solid var(--ink);border-radius:999px;padding:8px 14px;min-height:44px;font-weight:700;font-size:15px;background:var(--card);color:var(--ink);max-width:100%}
 .flab{font-weight:700;font-size:14px;color:var(--mut);margin:0 0 6px}
 details.arch{margin-top:40px}
-details.arch>summary{cursor:pointer;font-family:Fredoka,sans-serif;font-weight:600;font-size:24px;margin-bottom:16px}
+details.arch>summary{cursor:pointer;font-family:Fredoka,'Fredoka Fallback',sans-serif;font-weight:600;font-size:24px;margin-bottom:16px}
 .tag-arch{background:var(--shelf)}
 .offbtn{display:flex;align-items:center;justify-content:center;gap:8px;padding:18px 28px;font-size:19px;min-height:60px;text-align:center}
