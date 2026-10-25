@@ -24,7 +24,9 @@ function needData(name){
     });
   });
 }
-route();
+/* A pre-rendered page (every real URL) is already on screen. Keep it as it is until all data has arrived, then redraw once. Visitors with saved choices get the live render straight away. */
+try { HYD = !!$("#view").firstElementChild && !localStorage.getItem("gp-class") && !localStorage.getItem("gp-done") && !localStorage.getItem("gp-stream"); } catch(e){ HYD = !!$("#view").firstElementChild; }
+route(HYD);
 function loadBooks(f){ return fetch(f).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ if (Array.isArray(d)) d.forEach(function(b){ BOOKS.push(b); }); }).catch(function(){}); }
 Promise.all([loadBooks("/books_1_8.json"), loadBooks("/books_1_10.json"), loadBooks("/books_9.json"), loadBooks("/books_11.json"), loadBooks("/books_12.json")]).then(function(){ ST.booksLoaded = true; if (parse().name !== "welcome") route(true); ready(); });
 fetch("/updates.json", {cache: "no-store"}).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){

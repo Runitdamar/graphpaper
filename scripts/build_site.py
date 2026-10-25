@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build GraphPaper's real, crawlable pages.
 
-The site is a small single-page app (app.js + app.css + scripts/shell.html).
+The site is a small single-page app (src/*.js + src/app.css + scripts/shell.html).
 This script opens every public URL in a headless browser, saves the finished
 HTML as a static file at that URL, and writes sitemap.xml and robots.txt.
 
@@ -22,6 +22,7 @@ import mimetypes
 import os
 import shutil
 import socketserver
+import subprocess
 import sys
 import threading
 from datetime import date, datetime, timedelta
@@ -36,6 +37,36 @@ STREAMS = ["science", "commerce", "humanities"]
 GENERATED_DIRS = ["notice", "board", "updates", "about", "contact", "privacy", "terms", "welcome", "calculator"]
 
 
+SRC = os.path.join(ROOT, "src")
+JS_FILES = ["app.js", "parents.js", "students.js", "boot.js"]
+
+
+def esbuild(text, loader):
+    """Minify with esbuild when it is installed (the build workflow installs it); otherwise return the text as it is."""
+    exe = shutil.which("esbuild") or next((c for c in ["/opt/npm-tools/node_modules/.bin/esbuild"] if os.path.exists(c)), None)
+    if not exe:
+        print("esbuild not found: shipping %s unminified" % loader)
+        return text
+    r = subprocess.run([exe, "--minify", "--loader=" + loader, "--charset=utf8", "--target=es2017"], input=text, capture_output=True, text=True)
+    if r.returncode != 0:
+        print("esbuild failed:", r.stderr[:300])
+        return text
+    return r.stdout
+
+
+def build_css():
+    css = open(os.path.join(SRC, "app.css"), encoding="utf-8").read()
+    return esbuild(css, "css").strip()
+
+
+def build_js():
+    """The four scripts are joined in order into one file (gp.js), so the browser makes one request instead of four."""
+    js = "\n;\n".join(open(os.path.join(SRC, f), encoding="utf-8").read() for f in JS_FILES)
+    out = esbuild(js, "js")
+    with open(os.path.join(ROOT, "gp.js"), "w", encoding="utf-8") as f:
+        f.write(out)
+
+
 def shell_html():
     """The app shell with the status-check data (scripts/build_tracker.py) embedded, so it is there on the first paint."""
     sys.path.insert(0, os.path.join(ROOT, "scripts"))
@@ -43,7 +74,8 @@ def shell_html():
     blob = json.dumps(build(), ensure_ascii=False).replace("</", "<\\/")
     chk = open(os.path.join(ROOT, "checked.json"), encoding="utf-8").read().strip() if os.path.exists(os.path.join(ROOT, "checked.json")) else "{}"
     html = open(SHELL, encoding="utf-8").read()
-    return html.replace('<script src="/app.js" defer></script>', '<script type="application/json" id="trk">' + blob + '</script>\n<script type="application/json" id="chk">' + chk + '</script>\n<script src="/app.js" defer></script>').encode("utf-8")
+    html = html.replace("/*CSS*/", build_css())
+    return html.replace('<script src="/gp.js" defer></script>', '<script type="application/json" id="trk">' + blob + '</script>\n<script type="application/json" id="chk">' + chk + '</script>\n<script src="/gp.js" defer></script>').encode("utf-8")
 
 
 def load(name):
@@ -168,6 +200,7 @@ def main():
         if name.startswith("class-") and os.path.isdir(os.path.join(ROOT, name)):
             shutil.rmtree(os.path.join(ROOT, name))
 
+    build_js()
     ensure_slugs()
     today = (datetime.utcnow() + timedelta(hours=5, minutes=30)).date().isoformat()
     lm_file = os.path.join(ROOT, "lastmod.json")

@@ -8,11 +8,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "app.js"
-      - "parents.js"
-      - "students.js"
-      - "boot.js"
-      - "app.css"
+      - "src/**"
       - "scripts/shell.html"
       - "scripts/build_site.py"
       - "scripts/build_tracker.py"
@@ -46,6 +42,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install playwright && playwright install --with-deps chromium
+      - run: npm install -g esbuild
       - run: python scripts/build_site.py
       - name: Commit generated pages
         run: |

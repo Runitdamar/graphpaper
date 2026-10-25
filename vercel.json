@@ -412,5 +412,16 @@
       "source": "/class-:c(9|10|11|12)/:s([a-z0-9-]+)/:k([a-z0-9]+-[0-9]+[a-z0-9-]*)",
       "destination": "/"
     }
+  ],
+  "headers": [
+    {
+      "source": "/:file(.*)\\.(png|ico)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
+    }
   ]
 }

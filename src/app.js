@@ -29,6 +29,7 @@ var TYPES = {
   "Result":{label:"Result", plural:"Results", c:"--a2"}
 };
 var TYPE_KEYS = ["Circular", "Date Sheet", "Syllabus Change", "Result"];
+var HYD = false; /* true while a pre-rendered page is still showing and data is loading: do not redraw until everything is here, so nothing jumps */
 var ST = {ub:"all", stream:"Science", cls:"", wc:"", items:[], loaded:false, q:"", type:"all", hf:"all", bsub:"All", bq:""};
 try { var sv = localStorage.getItem("gp-class"); if (/^(1[0-2]|[1-9])$/.test(sv || "")) ST.cls = sv; } catch(e){}
 try { var sv2 = localStorage.getItem("gp-stream"); if (sv2 === "Science" || sv2 === "Commerce" || sv2 === "Humanities"){ ST.stream = sv2; ST.streamSet = true; } } catch(e){}
@@ -162,7 +163,7 @@ VIEWS.welcome = function(){
   return '<div style="position:relative;max-width:720px;margin:0 auto;padding:40px 24px 64px;text-align:center">' +
    '<div style="position:absolute;top:24px;right:12px;width:90px;height:90px;border-radius:50%;background:var(--a4);pointer-events:none"></div>' +
    '<div style="position:absolute;top:150px;left:8px;width:64px;height:64px;border-radius:22px;background:var(--a3);transform:rotate(14deg);pointer-events:none"></div>' +
-   '<div style="position:relative"><img src="/logo-192.png" width="72" height="72" alt="" style="border-radius:20px">' +
+   '<div style="position:relative"><img src="/logo-96.png" width="72" height="72" alt="" style="border-radius:20px">' +
    '<div class="fr" style="font-weight:600;font-size:28px;margin:8px 0 28px">GraphPaper</div>' +
    '<h1 style="font-size:clamp(34px,7vw,56px);margin-bottom:12px">Hi there! Which class are you in?</h1>' +
    '<p style="margin:0 auto 32px;color:var(--mut);max-width:460px">Pick your class and, for Class 11 and 12, your stream, and we’ll set up your page.</p>' +
@@ -676,6 +677,7 @@ function route(keepScroll){
     ST.fromSearch = false; ST.navFrom = name;
   }
   if (typeof needData === "function") needData(name);
+  if (HYD){ if (keepScroll && !(ST.booksLoaded && ST.loaded && !ST.inflight)) return; HYD = false; }
   $("#topnav").hidden = $("#foot").hidden = (name === "welcome");
   if (name !== "welcome") applyClass();
   $("#view").innerHTML = VIEWS[name](r);
@@ -698,6 +700,7 @@ function setClass(v){
 }
 
 /* ---------- events ---------- */
+["click", "input", "change", "submit", "keydown"].forEach(function(ev){ document.addEventListener(ev, function(){ HYD = false; }, true); });
 D.addEventListener("click", function(e){
   var el = e.target.closest("[data-act]"); if (!el) return;
   var a = el.dataset.act, v = el.dataset.v;
