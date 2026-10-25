@@ -3,6 +3,17 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "graphpaper-peach.vercel.app"
+        }
+      ],
+      "destination": "https://graphpaper.co.in/:path*",
+      "permanent": true
+    },
+    {
       "source": "/board/CBSE",
       "destination": "/updates",
       "permanent": true

@@ -503,7 +503,7 @@ VIEWS.privacy = function(){
 };
 
 /* ---------- router ---------- */
-var SITE = "https://graphpaper-peach.vercel.app";
+var SITE = "https://graphpaper.co.in";
 var SECT = {books:"books", syllabus:"syllabus", papers:"papers", sqp:"sample-papers", pyq:"previous-year-papers", qbank:"question-bank", booklist:"book-list"};
 var SECT_REV = {"books":"books", "syllabus":"syllabus", "papers":"papers", "sample-papers":"sqp", "previous-year-papers":"pyq", "question-bank":"qbank", "book-list":"booklist"};
 function classBase(c){ return "/class-" + c + (hasStreams(c) && ST.streamSet ? "/" + ST.stream.toLowerCase() : ""); }

@@ -4,7 +4,7 @@ from pathlib import Path
 from urllib.parse import quote
 from xml.sax.saxutils import escape
 
-SITE = "https://graphpaper-peach.vercel.app"
+SITE = "https://graphpaper.co.in"
 root = Path(__file__).resolve().parent.parent
 import sys
 sys.path.insert(0, str(root / "scripts"))
