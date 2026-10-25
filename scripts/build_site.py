@@ -238,7 +238,8 @@ def main():
             sig, old = page_sig(html), LM.get(path)
             lm = old[1] if old and old[0] == sig else (lastmod if not old and lastmod else today)
             LM_new[path] = [sig, lm]
-            if "noindex" not in robots:
+            self_url = SITE + ("/" if path == "/" else path)
+            if "noindex" not in robots and canon == self_url:
                 sitemap.append((canon, lm))
         browser.close()
     srv.shutdown()
