@@ -477,10 +477,21 @@ VIEWS.contact = function(){
 VIEWS.terms = function(){
   return legal("Terms", "The simple rules for using GraphPaper.", [
    ["Using GraphPaper", "GraphPaper is free to use. It gathers links to official notices, books and syllabus pages so they are easier to find."],
-   ["Not an official website", "GraphPaper is not run by CBSE, NCERT or any other board. Notices and dates can change, so always confirm them at the official source before you act on them."],
+   ["Not an official website", "GraphPaper is not run by CBSE, NCERT or any other board. Notices and dates can change, so always confirm them at the official source before you act on them. Read the <a href=\"/disclaimer\" data-h=\"#/disclaimer\" style=\"font-weight:700;text-decoration:underline\">full disclaimer</a>."],
    ["Other people's files", "GraphPaper does not host board or NCERT files. Links open the official sites, which have their own terms."],
    ["No promises", "We try to keep things correct and current, but we cannot promise that nothing is missing or out of date. If you spot a mistake, please tell us from the Contact page."],
    ["Changes", "We may update these terms as GraphPaper grows. The latest version is always on this page."]]);
+};
+
+VIEWS.disclaimer = function(){
+  return legal("Disclaimer", "What GraphPaper is, and what it is not.", [
+   ["Not an official website", "GraphPaper is an independent website. It is not run by, connected to, or endorsed by CBSE, NCERT, the Ministry of Education or any other board or government body."],
+   ["Always check the official source", "Notices, dates and rules can change or be corrected. The official notice on the board's own website always comes first. Please confirm anything important there, or with your school, before you act on it. Do not rely on GraphPaper alone for deadlines, forms or fees."],
+   ["Links and files", "GraphPaper does not host board or NCERT files. Books, papers and notices open on the official websites, and they belong to their publishers. We do not control those websites, and a link can stop working when they move or remove a page."],
+   ["Names and logos", "CBSE, NCERT and other names belong to their owners. They are used here only to say which board or books the information is about."],
+   ["Accuracy", "Notices are checked automatically and the last-checked date is shown on the page. We work to keep everything correct and current, but mistakes and delays can happen, and we do not promise that nothing is missing or out of date."],
+   ["Not advice", "GraphPaper gives general information for students and parents. It is not academic, legal or professional advice. For admissions, results, marks and other decisions, ask your school or the board."],
+   ["Corrections and removal requests", "If something is wrong, or you own material linked here and want it changed or removed, tell us from the <a href=\"/contact\" data-h=\"#/contact\" style=\"font-weight:700;text-decoration:underline\">Contact page</a>. We will look at it quickly and fix or remove it."]], "25 October 2026");
 };
 
 VIEWS.about = function(){
@@ -603,6 +614,7 @@ function pageMeta(name, r){
   else if (name === "parents"){ m.t = "CBSE for parents: Classes 1 to 8 explained | GraphPaper"; m.d = "Plain answers for parents of children in Classes 1 to 8: school stages, board exams, holding back, and the Holistic Progress Card, with official sources."; m.bc = [["For parents", "/parents"]]; }
   else if (name === "about"){ m.t = "About GraphPaper: a free guide to CBSE and NCERT | GraphPaper"; m.d = "GraphPaper brings NCERT books, the CBSE syllabus, papers and official notices together for Class 1 to 12, with links to the official sources only."; }
   else if (name === "contact"){ m.t = "Contact GraphPaper: report a wrong notice or send an idea"; m.d = "Write to GraphPaper to report a wrong or missing CBSE notice, ask a question or suggest a feature."; }
+  else if (name === "disclaimer"){ m.t = "Disclaimer | GraphPaper: independent, not an official board website"; m.d = "GraphPaper is independent and not affiliated with CBSE or NCERT. Always confirm notices and dates at the official source."; }
   else if (name === "terms"){ m.t = "Terms of use | GraphPaper"; m.d = "The terms for using GraphPaper: an independent site that links to official CBSE and NCERT sources and is not an official board website."; }
   else if (name === "privacy"){ m.t = "Privacy | GraphPaper: no accounts, nothing collected"; m.d = "What GraphPaper stores on your device (your class and progress ticks) and what it does not collect."; }
   else if (name === "notfound"){ m.t = "Page not found | GraphPaper"; m.ni = true; }
