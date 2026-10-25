@@ -12,8 +12,8 @@ function homeParents(c){
     '<p style="color:var(--mut);margin:0 0 28px;max-width:520px">' + cp.p + '</p>' +
     '<div style="display:flex;flex-wrap:wrap;gap:12px"><a class="btn dark" href="#/books" style="display:inline-flex;padding:14px 28px">Open NCERT books</a><a class="btn" href="#/booklist" style="display:inline-flex;padding:14px 28px;background:var(--card);border:2px solid var(--ink)">Printable book list</a></div>' +
     '<p style="margin:22px 0 0"><a href="#/parents" style="font-weight:700;text-decoration:underline">Read the guide for parents</a></p></div>' +
-    '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:36px;background:var(--a3);transform:rotate(14deg)"></div>' +
-    '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:12px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">What your child learns in Class ' + c + '</div>' + list + '</div></div></div>' +
+    '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:16px;background:var(--a3);transform:rotate(14deg)"></div>' +
+    '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:20px;padding:28px;display:flex;flex-direction:column;gap:12px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">What your child learns in Class ' + c + '</div>' + list + '</div></div></div>' +
     homeShelf(c);
 }
 VIEWS.parents = function(){
