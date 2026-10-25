@@ -31,7 +31,7 @@ from urllib.parse import unquote, urlparse
 from playwright.sync_api import sync_playwright
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = "https://graphpaper-peach.vercel.app"
+SITE = "https://graphpaper.co.in"
 SHELL = os.path.join(ROOT, "scripts", "shell.html")
 STREAMS = ["science", "commerce", "humanities"]
 GENERATED_DIRS = ["notice", "board", "updates", "about", "contact", "privacy", "terms", "welcome", "calculator"]

@@ -8,7 +8,7 @@ on:
     inputs:
       base:
         description: "Site address"
-        default: "https://graphpaper-peach.vercel.app"
+        default: "https://graphpaper.co.in"
 
 permissions:
   contents: write
