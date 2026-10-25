@@ -81,8 +81,7 @@ VIEWS.notice = function(r){
   var x = findNotice(r.arg);
   if (!x) return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/updates">Updates</a></div><h1 id="pg" tabindex="-1" style="font-size:clamp(30px,5vw,48px)">' + (ST.loaded ? 'Notice not found' : 'Loading...') + '</h1><p style="color:var(--mut)">' + (ST.loaded ? 'This notice may have been removed. <a href="#/updates" style="text-decoration:underline;font-weight:700">See all updates</a>.' : '') + '</p></div>';
   var t = typeOf(x), url = safeUrl(x.url), m = nmeta(x);
-  var more = ST.items.filter(function(i){ return i.id !== x.id && !nmeta(i).archived; });
-  more = more.filter(function(i){ return i.tag === x.tag; }).concat(more.filter(function(i){ return i.tag !== x.tag; })).slice(0, 3);
+  var at = ST.items.indexOf(x), more = ST.items.slice(Math.max(0, at - 2), at).concat(ST.items.slice(at + 1, at + 4)).slice(-4);
   function cell(k, v){ return '<div><small>' + k + '</small><div>' + v + '</div></div>'; }
   var facts = cell("Published", esc(fmt(x.date))) + (CHECKED ? cell("Last checked", esc(fmt(CHECKED))) : "") + cell("Status", m.archived ? "Archived" : "Current") + cell("Type", esc(t.label)) +
     cell("Who it affects", esc(m.affects) + (m.affectsAuto ? ' <span style="font-weight:400;color:var(--mut);font-size:13px">(from the title)</span>' : '')) +
@@ -97,11 +96,11 @@ VIEWS.notice = function(r){
    (m.archived ? '<div class="card" style="--sh:var(--a4)"><b>This notice is archived.</b> It was published ' + esc(ageText(m)) + ' and may be out of date. Check CBSE for newer notices on the same topic.</div>' : '') +
    '<div class="info">' + facts + '</div>' +
    (x.summary ? '<div style="background:var(--a4);border:2px solid var(--ink);border-radius:28px;padding:24px;box-shadow:0 6px 0 var(--ink)"><h2 style="font-size:24px;margin:0 0 12px">In short</h2><div>' + esc(x.summary) + '</div></div>' : '') +
-   '<div class="meta">The notice itself is a CBSE file. GraphPaper does not host it, and the official file is the only authority for dates and rules. ' + typeLink + (clsLinks.length ? ' · ' + clsLinks.join(' · ') : '') + '</div></div>' +
+   '<div class="meta">' + typeLink + (clsLinks.length ? ' · ' + clsLinks.join(' · ') : '') + '</div></div>' +
    '<aside style="flex:1 1 280px;max-width:360px;display:flex;flex-direction:column;gap:16px;min-width:0">' +
    '<button class="btn" data-act="share" type="button">Share</button><div id="shmsg" class="meta" role="status" style="text-align:center"></div>' +
    '<div class="badge"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" style="fill:var(--card);stroke:var(--ink)" stroke-width="2"/><path d="M6 10.5l3 3 5-6" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Official source: ' + esc(host(url)) + '</div>' + relatedBox(x) + '</aside></div>' +
-   '<div style="margin-top:56px"><h2>More from CBSE</h2><div class="grid g3">' + more.map(function(i){ return noticeCard(i, true); }).join("") + '</div></div></div>';
+   (more.length ? '<div style="margin-top:48px"><h2 style="font-size:24px">Around the same date</h2><ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px">' + more.map(function(i){ return '<li><a href="' + nurl(i) + '" style="text-decoration:underline;overflow-wrap:anywhere">' + esc(i.title) + '</a> <span class="meta">' + esc(fmt(i.date)) + '</span></li>'; }).join("") + '</ul></div>' : '') + '</div>';
 };
 
 var SYLKEY = {"9":"IX", "10":"X", "11":"XI-XII", "12":"XI-XII"};
@@ -227,7 +226,7 @@ VIEWS.papers = function(){
   var lead = !ok ? 'Sample papers and previous years\' board papers, straight from CBSE.' : ST.pt === "sample" ? 'Official CBSE sample papers and marking schemes for the 2026-27 session, Class ' + c + '.' : 'Past board exam question papers for Class ' + c + ', from CBSE.';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / ' + (ST.pm ? '<a href="#/papers">Papers</a> / <b>' + (ST.pm === "sample" ? "Sample papers" : "Previous years") + '</b>' : '<b>Papers</b>') + '</div>' +
    '<div class="head"><div class="tile" style="background:var(--a4)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">' + (ST.pm === "sample" ? "Sample papers 2026-27" : ST.pm === "pyq" ? "Previous year papers" : "Papers") + '</h1><p>' + lead + (ok && hasStreams(c) ? ' ' + ST.stream + ' subjects are listed first.' : '') + '</p></div></div>' + body +
-   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on cbseacademic.nic.in or cbse.gov.in. GraphPaper does not host CBSE papers.' + (ok && ST.pt === "pyq" ? ' Each previous-year file is a ZIP (or PDF) with that subject\'s papers, and may hold more than one set.' : '') + '</p></div>';
+   (ok && ST.pt === "pyq" ? '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Each previous-year file is a ZIP (or PDF) with that subject\'s papers, and may hold more than one set.</p>' : '') + '</div>';
 };
 
 /* ---------- question bank ---------- */
@@ -291,7 +290,7 @@ VIEWS.qbank = function(){
   var lead = !ok ? 'Question banks and practice questions, straight from CBSE and NCERT.' : n === 10 || n === 12 ? 'CBSE\'s own question bank and practice questions with marking schemes, plus NCERT Exemplar problems for Class ' + c + '.' : n === 11 ? 'NCERT Exemplar problems for Class 11 Maths, Physics, Chemistry and Biology.' : 'CBSE competency-based questions and NCERT Exemplar problems for Class ' + c + '.';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>Question bank</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a2)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Question bank</h1><p>' + lead + (hasStreams(c) ? ' ' + ST.stream + ' subjects are listed first.' : '') + '</p></div></div>' + body +
-   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on cbseacademic.nic.in or ncert.nic.in. GraphPaper does not host them.' + (ok && (n === 10 || n === 12) ? ' CBSE adds practice questions by session, so the newest ones may take a while to appear here.' : '') + '</p></div>';
+   (ok && (n === 10 || n === 12) ? '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">CBSE adds practice questions by session, so the newest ones may take a while to appear here.</p>' : '') + '</div>';
 };
 
 /* ---------- subject pages (Class 9 to 12) ---------- */
@@ -356,6 +355,18 @@ function subQb(c, re, sg){
   });
   return out.join("");
 }
+function subjectLead(c, f, bks, chn, n){
+  var cn = "Class " + c + " " + f;
+  if (!bks.length) return cn + " has no NCERT book on the official site. The syllabus and practice questions are below.";
+  var first = "", last = "";
+  var all = []; bks.forEach(function(b){ b.ch.forEach(function(h){ if (h[1]) all.push(h[1]); }); });
+  if (all.length > 3){ first = all[0]; last = all[all.length - 1]; }
+  var out = cn + " has " + (bks.length === 1 ? "one NCERT book" : (["", "", "two", "three", "four", "five"][bks.length] || bks.length) + " NCERT books (" + bks.map(function(b){ return esc(b.short || b.title); }).join(" and ") + ")") + " with " + chn + " chapters" + (first ? ", from " + esc(first) + " to " + esc(last) : "") + ".";
+  var extra = [];
+  if (n === 10 || n === 12) extra.push("sample papers and past board papers");
+  else extra.push("a question bank");
+  return out + " Below you will also find the syllabus, " + extra[0] + " and your chapter progress.";
+}
 VIEWS.subject = function(r){
   var c = r.cls || ST.cls || "10", n = +c, f = subjectOf(r), cn = "Class " + c;
   var crumb = '<div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>' + (f ? esc(f) : 'Subject') + '</b></div>';
@@ -379,14 +390,14 @@ VIEWS.subject = function(r){
   }
   if (QB && n >= 9) cards.push(subQb(c, re, sg));
   var others = subjectFolds(c, false).filter(function(x){ return x !== f; });
-  var lead = cn + ' ' + f + ' has ' + bks.length + ' NCERT book' + (bks.length === 1 ? '' : 's') + ' with ' + chn + ' chapters on the official site' + (bks.length ? ': ' + bks.map(function(b){ return esc(b.title); }).join(', ') : '') + '. The syllabus, papers and practice questions for this subject are below, all linked from the official sites.';
+  var lead = subjectLead(c, f, bks, chn, n);
   return '<div class="wrap sec">' + crumb +
    '<div class="head"><div class="tile" style="background:var(' + col + ')">' + subIcon(f) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">' + cn + ' ' + esc(f) + '</h1><p>' + lead + '</p></div></div>' +
    '<div class="card" style="--sh:var(--a3);gap:10px;margin-bottom:22px;padding:20px 24px"><div data-prog="sub" data-c="' + c + '" data-f="' + esc(f) + '" style="display:flex;flex-direction:column;gap:10px">' + progInner(c, f) + '</div><div class="meta">Tick chapters as you finish them. Saved only on this device.</div></div>' +
    '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));align-items:start">' + cards.join("") + '</div>' +
    (loading ? '<div class="card" style="--sh:var(--a1);margin-top:20px">Loading the syllabus, papers and practice questions...</div>' : '') +
    (others.length ? '<h2 style="margin-top:48px">More ' + cn + ' subjects</h2><div style="display:flex;flex-wrap:wrap;gap:10px">' + others.map(function(x){ return '<a class="pill" href="#/subject/' + slug(x) + '" style="background:var(' + subCol(x) + ');padding:6px 16px;font-size:15px">' + esc(x) + '</a>'; }).join("") + '</div>' : '') +
-   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on ncert.nic.in, cbseacademic.nic.in or cbse.gov.in. GraphPaper does not host them. ' + (hasStreams(c) ? 'The syllabus PDF covers both Class 11 and 12. ' : '') + '<a href="#/class" style="font-weight:700;text-decoration:underline">Back to the study shelf</a>.</p></div>';
+   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">' + (hasStreams(c) ? 'The syllabus PDF covers both Class 11 and 12. ' : '') + '<a href="#/class" style="font-weight:700;text-decoration:underline">Back to the study shelf</a></p></div>';
 };
 
 /* ---------- calculator ---------- */
