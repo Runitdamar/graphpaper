@@ -31,8 +31,8 @@ function homeReturning(){
     '<form class="search" data-act="hsearch"><label for="hq" style="position:absolute;left:-9999px">Search notices</label><input id="hq" placeholder="Search notices, e.g. date sheet" autocomplete="off"><button class="go" type="submit">Search</button></form>' +
     '<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;font-weight:700;font-size:15px;align-items:center"><span style="color:var(--mut)">Popular:</span>' +
     '<a class="pill" href="#/updates?type=Circular" style="background:var(--a1);padding:6px 14px;font-size:15px">CBSE circulars</a><a class="pill" href="#/updates?type=Date%20Sheet" style="background:var(--a4);padding:6px 14px;font-size:15px">Date sheets</a><a class="pill" href="#/updates?type=Result" style="background:var(--a5);padding:6px 14px;font-size:15px">Results</a><a class="pill" href="#/calculator" style="background:var(--a3);padding:6px 14px;font-size:15px">Percentage calculator</a></div></div>' +
-    '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:36px;background:var(--a3);transform:rotate(14deg)"></div>' +
-    '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:14px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">Latest from CBSE</div>' +
+    '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:16px;background:var(--a3);transform:rotate(14deg)"></div>' +
+    '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:20px;padding:28px;display:flex;flex-direction:column;gap:14px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">Latest from CBSE</div>' +
     (latest3.length ? latest3.map(function(x){ return '<a href="' + nurl(x) + '" style="display:block;background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + pill(x) + '<div style="margin-top:6px;font-weight:700;overflow-wrap:anywhere">' + esc(x.title) + '</div></a>'; }).join("") : '<div style="background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + (ST.loaded ? 'No notices yet.' : 'Loading notices...') + '</div>') +
     '<a class="btn dark" href="#/updates" style="display:flex;justify-content:center;padding:12px 20px">See all updates</a></div></div></div>' +
     trackerSection(c) +
@@ -95,7 +95,7 @@ VIEWS.notice = function(r){
    '<a class="btn dark offbtn" href="' + esc(url) + '" target="_blank" rel="noopener">Open the official notice on ' + esc(host(url)) + ' ↗</a>' +
    (m.archived ? '<div class="card" style="--sh:var(--a4)"><b>This notice is archived.</b> It was published ' + esc(ageText(m)) + ' and may be out of date. Check CBSE for newer notices on the same topic.</div>' : '') +
    '<div class="info">' + facts + '</div>' +
-   (x.summary ? '<div style="background:var(--a4);border:2px solid var(--ink);border-radius:28px;padding:24px;box-shadow:0 6px 0 var(--ink)"><h2 style="font-size:24px;margin:0 0 12px">In short</h2><div>' + esc(x.summary) + '</div></div>' : '') +
+   (x.summary ? '<div style="background:var(--a4);border:2px solid var(--ink);border-radius:18px;padding:24px;box-shadow:0 3px 0 var(--ink)"><h2 style="font-size:24px;margin:0 0 12px">In short</h2><div>' + esc(x.summary) + '</div></div>' : '') +
    '<div class="meta">' + typeLink + (clsLinks.length ? ' · ' + clsLinks.join(' · ') : '') + '</div></div>' +
    '<aside style="flex:1 1 280px;max-width:360px;display:flex;flex-direction:column;gap:16px;min-width:0">' +
    '<button class="btn" data-act="share" type="button">Share</button><div id="shmsg" class="meta" role="status" style="text-align:center"></div>' +
@@ -133,7 +133,7 @@ function sylHtml(c, q){
     }).join("");
     out += '<details class="book folder" style="--sh:var(' + col + ')"' + (open ? ' open' : '') + ' data-fold="syl:' + esc(g.name) + '"><summary><span class="bi" style="background:var(' + col + ')">' + ico("doc", 24) + '</span><span class="bt"><b>' + esc(g.name) + '</b><span>' + items.length + ' subject file' + (items.length === 1 ? '' : 's') + (q ? ' match' : '') + '</span></span><svg class="car" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3l5 5-5 5" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><div class="chs" style="border-top:2px solid var(--gl)">' + rows + '</div></details>';
   });
-  return {n:n, html: out || '<div class="card" style="box-shadow:0 6px 0 var(--a1)">No subject found. Try another name.</div>'};
+  return {n:n, html: out || '<div class="card" style="box-shadow:0 3px 0 var(--a1)">No subject found. Try another name.</div>'};
 }
 ST.sq = "";
 VIEWS.syllabus = function(){
@@ -178,7 +178,7 @@ function papRows(items, mk, q, cls, open1){
       list.map(function(it){ return '<div style="padding:12px 0;border-bottom:2px solid var(--gl)"><div style="font-weight:700;margin-bottom:8px;overflow-wrap:anywhere">' + esc(it[0]) + '</div><div style="display:flex;flex-wrap:wrap;gap:8px">' + mk(it) + '</div></div>'; }).join("") + '</div></details>';
   }
   var html = q ? grp("Matching subjects", other, "--a3", true) : grp(cls === "XII" && hasStreams(ST.cls) ? ST.stream + " subjects" : "Main subjects", main, "--a3", true) + grp("Other subjects", other, "--a1", false);
-  return html || '<div class="card" style="box-shadow:0 6px 0 var(--a1)">No subject found. Try another name.</div>';
+  return html || '<div class="card" style="box-shadow:0 3px 0 var(--a1)">No subject found. Try another name.</div>';
 }
 function papBody(c){
   var key = c === "10" ? "X" : "XII", q = ST.pq.trim().toLowerCase(), out;
@@ -275,7 +275,7 @@ function qbBody(c){
     });
     if (exOther) html += otherBlk('<div style="display:grid;gap:16px;margin-top:8px">' + exOther + '</div>', exN);
   }
-  return html || '<div class="card" style="box-shadow:0 6px 0 var(--a1)">Nothing found. Try another subject name.</div>';
+  return html || '<div class="card" style="box-shadow:0 3px 0 var(--a1)">Nothing found. Try another subject name.</div>';
 }
 VIEWS.qbank = function(){
   var c = ST.cls || "10", n = +c, ok = n >= 6, body;
