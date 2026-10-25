@@ -10,7 +10,9 @@ CBSE updates, syllabus, papers, question bank and NCERT book links for Classes 1
 
 ## Sitemap and indexing
 - `sitemap.xml` lists every indexable page (own canonical URL, never a noindex page). Its `lastmod` moves only when the text of that page changes (fingerprints are kept in `lastmod.json`), and a notice starts with its published date.
-- Deliberately noindex: `/welcome`, the 404 page, chapter pages, and any category page with no notices yet (it indexes itself automatically once a notice exists).
+- Deliberately noindex: `/welcome`, the 404 page, chapter pages, and any updates list with fewer than 5 current notices or that is nearly the same as the main list (they index themselves as notices grow).
+- Duplicate pages point at one main version with a canonical tag and stay out of the sitemap: Class 11 and 12 stream copies of sample papers, previous-year papers and the question bank point at the Science version (titled "all streams"), the Papers overview points at Sample papers, and Class 11 syllabus pages point at the Class 12 page for the same stream (CBSE issues one PDF for both years). See `dupCanon()` in `src/app.js`.
+- A notice page is indexed only when `updates.json` gives it a written `summary` or a `deadline`. Plain copies of a CBSE title stay noindex (still linked and readable). Switch with `INDEX_PLAIN_NOTICES` in `src/app.js`.
 - The workflow rebuilds it after every CBSE check (every 6 hours) and on any app or data change.
 
 ## Notice pages and categories
