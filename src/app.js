@@ -265,6 +265,7 @@ VIEWS.streams = function(r){
 };
 VIEWS["class"] = function(){
   var c = ST.cls || "4", n = +c, hi = n >= 11;
+  if (n >= 9) return studentClass(c);
   var subs, cols = ["--a1","--a2","--a3","--a4","--a5"], s2b = {Physics:"Physics", Chemistry:"Chemistry", Mathematics:"Maths", Biology:"Biology"};
   function card(label, href, icon, col, note){
     var inner = '<span class="ic" style="background:var(' + col + ')">' + icon + '</span><b>' + esc(label) + '</b><span style="color:var(--mut);font-size:15px">' + note + '</span>' + (href ? '<span style="font-weight:700">Open →</span>' : '');
@@ -666,15 +667,26 @@ function syncFromPath(r){
     history.replaceState(null, "", classBase(r.cls) + sec + location.search);
   }
 }
+var FOOT_DEFAULT = '<div class="wrap" style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:32px"><div style="max-width:380px"><div class="fr" style="font-weight:600;font-size:26px;margin-bottom:8px;display:flex;align-items:center;gap:10px"><img src="/logo-96.png" width="36" height="36" alt="" style="border-radius:10px" loading="lazy">GraphPaper</div><div style="color:var(--a1);font-size:15px">GraphPaper is not an official board website. Always verify notices at the source.</div></div><div style="display:flex;flex-wrap:wrap;gap:24px;font-weight:700;align-items:flex-start"><a href="#/about">About</a><a href="#/contact">Contact</a><a href="#/privacy">Privacy</a><a href="#/terms">Terms</a><a href="#/disclaimer">Disclaimer</a></div></div>';
 function applyClass(){
-  $("#app").dataset.c = ST.cls;
-  var young = !!ST.cls && +ST.cls <= 8, up = $("#nv-up"), nav = $("#topnav nav");
+  var app = $("#app"), n = +ST.cls, st = n >= 9, young = !!ST.cls && n <= 8, up = $("#nv-up"), nav = $("#topnav nav"), ft = $("#foot");
+  app.dataset.c = ST.cls;
+  if (st) app.dataset.s = "1"; else delete app.dataset.s;
   if (up) up.hidden = young;
   if (nav) nav.className = young ? "few" : "";
+  if (ft){
+    var key = st ? "s" + n + (hasStreams(n) && ST.streamSet ? ST.stream : "") : "d";
+    if (ft.dataset.k !== key){ ft.dataset.k = key; ft.innerHTML = st ? sxFoot(n) : FOOT_DEFAULT; rewriteLinks(); }
+  }
+}
+var NAVOF = {updates:"nv-up", notice:"nv-up", board:"nv-up", parents:"nv-pa", "class":"nv-sh", streams:"nv-sh", books:"nv-sh", syllabus:"nv-sh", papers:"nv-sh", sqp:"nv-sh", pyq:"nv-sh", qbank:"nv-sh", booklist:"nv-sh", subject:"nv-sh", chapter:"nv-sh", calculator:"nv-sh"};
+function markNav(name){
+  ["nv-up", "nv-sh", "nv-pa"].forEach(function(id){ var a = $("#" + id); if (!a) return; if (NAVOF[name] === id) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
 }
 function route(keepScroll){
   var r = parse(), name = r.name;
   if (r.cls){ syncFromPath(r); r = parse(); name = r.name; }
+  else if (name === "updates" && /^class-(9|1[0-2])$/.test(r.arg || "") && r.arg.slice(6) !== ST.cls) setClass(r.arg.slice(6));
   if (!name) name = "home";
   if (!VIEWS[name]) name = "notfound";
   if (name === "updates" && r.arg && !UCAT[r.arg] && !/^class-(9|1[0-2])$/.test(r.arg)) name = "notfound";
@@ -690,9 +702,10 @@ function route(keepScroll){
   }
   if (typeof needData === "function") needData(name);
   if (HYD){ if (keepScroll && !(ST.booksLoaded && ST.loaded && !ST.inflight)) return; HYD = false; }
-  $("#topnav").hidden = $("#foot").hidden = (name === "welcome");
+  $("#hdr").hidden = $("#foot").hidden = (name === "welcome");
   if (name !== "welcome") applyClass();
   $("#view").innerHTML = VIEWS[name](r);
+  markNav(name);
   rewriteLinks();
   setMeta(name, r);
   if (!keepScroll){
@@ -743,10 +756,10 @@ D.addEventListener("click", function(e){
     Array.prototype.forEach.call(cr2.children, function(r2, i){ r2.querySelector(".cn").textContent = i + 1; });
     calcRun();
   }
-  else if (a === "wc"){ ST.wc = v; route(true); $("#app").dataset.c = v; }
+  else if (a === "wc"){ ST.wc = v; route(true); var wa = $("#app"); wa.dataset.c = v; if (+v >= 9) wa.dataset.s = "1"; else delete wa.dataset.s; }
   else if (a === "copyfeed"){ var fu = $("#feedurl").textContent, cm = $("#copymsg"); if (navigator.clipboard) navigator.clipboard.writeText(fu).then(function(){ cm.textContent = "Copied."; }, function(){ cm.textContent = "Press and hold the address to copy it."; }); else cm.textContent = "Press and hold the address to copy it."; }
   else if (a === "wgo"){ var we = $("#werr"); if (!ST.wc){ we.textContent = "Please pick your class first."; we.hidden = false; return; } if (hasStreams(ST.wc) && !ST.ws){ we.textContent = "Please pick your stream first."; we.hidden = false; return; } setClass(ST.wc); if (hasStreams(ST.wc)) setStream(ST.ws); go("/"); }
-  else if (a === "hf"){ ST.hf = v; route(true); }
+  else if (a === "sxchip"){ var qi = $("#sxq"); if (qi) qi.value = v; sxFilter(v); var rs = $("#resources"); if (rs) rs.scrollIntoView({behavior: "smooth"}); }
   else if (a === "ut"){ ST.type = v; route(true); }
   else if (a === "uf"){ var uk = el.dataset.k; ST[uk] = ST[uk] === v ? "" : v; route(true); }
   else if (a === "ws"){ ST.ws = v; route(true); }
@@ -766,6 +779,7 @@ D.addEventListener("submit", function(e){
   if (e.target.dataset && e.target.dataset.act === "hsearch"){ e.preventDefault(); ST.q = $("#hq").value; ST.type = "all"; ST.fromSearch = true; go(toPath("#/updates")); }
 });
 D.addEventListener("input", function(e){
+  if (e.target.id === "sxq"){ sxFilter(e.target.value); return; }
   if (e.target.dataset && e.target.dataset.calc){ calcInput(e.target); return; }
   if (e.target.id === "pq"){ ST.pq = e.target.value; if (PAP) $("#plist").innerHTML = papBody(ST.cls || "10"); return; }
   if (e.target.id === "qq"){ ST.qq = e.target.value; if (QB) $("#qlist").innerHTML = qbBody(ST.cls || "10"); return; }
