@@ -9,34 +9,113 @@ function trackerSection(c){
     return '<div class="card st-' + esc(x.status) + '" style="--sh:var(--a3)"><h3 style="font-size:20px;margin:0">' + esc(x.q) + '</h3>' +
       '<div><span class="stp"><i aria-hidden="true"></i>' + esc(x.label) + '</span></div>' +
       '<div style="color:var(--mut)">' + esc(x.detail) + '</div>' +
-      '<div class="meta" style="margin-top:auto">Source: <a href="' + esc(u) + '"' + (ext ? ' target="_blank" rel="noopener"' : '') + ' style="text-decoration:underline">' + esc(x.src.t) + '</a> \u00b7 checked ' + esc(fmt(x.asof)) + '</div></div>';
+      '<div class="meta" style="margin-top:auto">Source: <a href="' + esc(u) + '"' + (ext ? ' target="_blank" rel="noopener"' : '') + ' style="text-decoration:underline">' + esc(x.src.t) + '</a> · checked ' + esc(fmt(x.asof)) + '</div></div>';
   }).join("");
-  return '<div id="status" class="wrap sec" style="padding-bottom:64px"><h2 style="font-size:34px;margin:0 0 8px">Quick status check</h2>' +
-    '<p style="margin:0 0 24px;color:var(--mut);max-width:620px">The questions students ask most about Class ' + c + (hasStreams(c) ? ' ' + ST.stream : '') + ', answered automatically from CBSE\u2019s own notices and lists. Last checked ' + esc(fmt(TRK.checked)) + '. Always confirm on cbse.gov.in.</p>' +
-    '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))">' + cards + '</div>' +
-    '</div>';
+  return '<section id="status" class="sx-sec"><div class="wrap"><h2>Quick status check</h2>' +
+    '<p class="sx-lead">The questions students ask most about Class ' + c + (hasStreams(c) ? ' ' + ST.stream : '') + ', answered automatically from CBSE’s own notices and lists. Last checked ' + esc(fmt(TRK.checked)) + '. Always confirm on cbse.gov.in.</p>' +
+    '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))">' + cards + '</div></div></section>';
+}
+
+/* ---------- Class 9 to 12 class page (the home page for students) ---------- */
+var SXI = {
+  list: '<path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/>',
+  book: '<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H19v13H6a2 2 0 0 0-2 2z"/><path d="M4 19a2 2 0 0 0 2 2h13v-4"/>',
+  paper: '<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/>',
+  pencil: '<path d="M4 20l1-5L16 4l4 4L9 19z"/><path d="M14 6l4 4"/>',
+  bell: '<path d="M6 17v-6a6 6 0 0 1 12 0v6l2 2H4z"/><path d="M10 21a2 2 0 0 0 4 0"/>',
+  calc: '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/>'
+};
+function sxIco(n){ return '<svg class="sx-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + SXI[n] + '</svg>'; }
+var SXMARK = {
+  9: '<path d="M4 20C4 11 10 4 21 4c0 10-6 16-17 16z" fill="currentColor"/><path d="M4 20L14 10" stroke="var(--paper)" stroke-width="1.6" fill="none" stroke-linecap="round"/>',
+  10: '<path d="M12 2.5S5 10 5 15a7 7 0 0 0 14 0c0-5-7-12.5-7-12.5z" fill="currentColor"/><path d="M9 15.5a3 3 0 0 0 2.5 2.8" stroke="var(--paper)" stroke-width="1.6" fill="none" stroke-linecap="round"/>',
+  11: '<path d="M12 2c1 4 5 6.5 5 11.5a5 5 0 0 1-10 0c0-2 1-3.5 2-4.5 0 2 1 3 2 3 0-3-1-6 1-10z" fill="currentColor"/><path d="M12 21a2.6 2.6 0 0 0 2.6-2.6c0-1.6-1.6-2.4-2.6-4-1 1.6-2.6 2.4-2.6 4A2.6 2.6 0 0 0 12 21z" fill="var(--paper)"/>',
+  12: '<path d="M3 9h11a3 3 0 1 0-3-3M3 14h15a3 3 0 1 1-3 3M3 19h7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'
+};
+var SXP = {
+  9: {h: "Everything for Class 9, in one calm place", s: "Textbooks, the syllabus, a question bank and official notices live on different websites. GraphPaper helps you find them from one page.", col: ["#2E4A36", "#6E8F5E", "#8A6F52", "#8C8A4A", "#A9BFA0", "#B9A98A"], by: "subject by subject"},
+  10: {h: "Everything for Class 10 boards, clearly organised", s: "Syllabus, sample papers, past papers and official notices are spread across many websites. GraphPaper helps you find them from one page.", col: ["#15506C", "#3E8DAB", "#5E8296", "#4F8FA0", "#A4CDDD", "#9DBCC8"], by: "subject by subject"},
+  11: {h: "Everything for Class 11, from your first chapter", s: "Textbooks, syllabus and official notices differ by stream and live on different websites. GraphPaper helps you find yours from one page.", col: ["#6E2A25", "#C8592B", "#A04A2A", "#B5742E", "#EDB27C", "#D9A47C"], by: "stream by stream"},
+  12: {h: "Everything for Class 12 boards, in one clear place", s: "Syllabus, sample papers, past papers and official notices are spread across many websites. GraphPaper helps you find what you need from one page.", col: ["#3A5775", "#7C98B4", "#8896A6", "#6F8AA5", "#BFD0E2", "#AFBCCB"], by: "stream by stream"}
+};
+var SXSRC = [["CBSE", "https://www.cbse.gov.in/"], ["CBSE Academic", "https://cbseacademic.nic.in/"], ["Pariksha Sangam", "https://parikshasangam.cbse.gov.in/ps/"], ["NCERT", "https://ncert.nic.in/"]];
+function srcName(h){ return {"cbse.gov.in": "CBSE", "cbseacademic.nic.in": "CBSE Academic", "parikshasangam.cbse.gov.in": "Pariksha Sangam", "ncert.nic.in": "NCERT"}[h] || h; }
+ST.sxq = "";
+function sxHit(txt, q){ return !q || txt.toLowerCase().indexOf(q) > -1; }
+function sxFilter(v){
+  ST.sxq = v; var q = v.trim().toLowerCase(), n = 0;
+  D.querySelectorAll(".sx-rc[data-t]").forEach(function(a){ var ok = sxHit(a.dataset.t, q); a.hidden = !ok; if (ok) n++; });
+  var none = $("#sxnone"); if (none) none.hidden = n > 0;
+}
+function sxFoot(n){
+  var base = classBase(n);
+  function L(h, t){ return '<li><a href="' + h + '">' + t + '</a></li>'; }
+  var mine = L(base + "/syllabus", "Syllabus") + L(base + "/books", "NCERT books") +
+    (n === 10 || n === 12 ? L(base + "/sample-papers", "Sample papers") + L(base + "/previous-year-papers", "Previous-year papers") : "") +
+    L(base + "/question-bank", "Question bank") + L("/updates/class-" + n, "Notices");
+  var all = [9, 10, 11, 12].map(function(k){ return L("/class-" + k, "Class " + k); }).join("");
+  var info = L("/about", "About") + L("/contact", "Contact") + L("/privacy", "Privacy") + L("/terms", "Terms") + L("/disclaimer", "Disclaimer");
+  var off = SXSRC.map(function(s){ return '<li><a href="' + s[1] + '" target="_blank" rel="noopener">' + s[0] + '</a></li>'; }).join("");
+  return '<div class="wrap"><div class="sx-fg"><div><h2>GraphPaper</h2><p style="margin:0">A free study hub for CBSE students.</p></div>' +
+    '<div><h2>Class ' + n + '</h2><ul>' + mine + '</ul></div><div><h2>All classes</h2><ul>' + all + '</ul></div>' +
+    '<div><h2>GraphPaper</h2><ul>' + info + '</ul></div><div><h2>Official sources</h2><ul>' + off + '</ul></div></div>' +
+    '<p class="sx-fine">GraphPaper is not run by CBSE or NCERT. Always confirm important updates on the official website.</p></div>';
+}
+function studentClass(c){
+  var n = +c, hi = n >= 11, P = SXP[n], cn = "Class " + n, cs = cn + (hi && ST.streamSet ? " " + ST.stream : ""), q = ST.sxq.trim().toLowerCase();
+  var nb = classBooks(c).filter(streamOk).length, two = n === 10 || n === 12;
+  var res = [
+    ["list", "Syllabus", "#/syllabus", "Official 2026-27 CBSE syllabus for every subject of " + cn + (hi ? " (one PDF covers Class 11 and 12)" : "") + "."],
+    ["book", "NCERT books", nb || !ST.booksLoaded ? "#/books" : "", "Chapter-wise PDFs for " + (nb ? "all " + nb + " books of " : "") + cs + ", linked from the official NCERT site, plus a whole-book download for each."],
+    ["paper", "Book list", nb ? "#/booklist" : "", "A printable checklist of every NCERT book for " + cs + ", with its chapter titles."]
+  ];
+  if (two) res.push(["paper", "Sample papers 2026-27", "#/sqp", "Official CBSE sample papers with marking schemes for " + cn + ", subject by subject."], ["clock", "Previous-year papers", "#/pyq", "Past board exam question papers for " + cn + ", year by year, with the second exam where CBSE held one."]);
+  res.push(["pencil", "Question bank", "#/qbank", two ? "CBSE’s official question bank and practice questions with marking schemes, plus NCERT Exemplar problems." : n === 11 ? "NCERT Exemplar problems for Maths, Physics, Chemistry and Biology." : "CBSE competency-based questions and NCERT Exemplar problems."],
+    ["calc", "Calculator", "#/calculator", "Marks to percentage, and CGPA to percentage by CBSE’s own rule."],
+    ["bell", "Latest notices", "#/updates/class-" + n, "CBSE circulars, date sheets and results that mention " + cn + ", each with its date and a link to the original."]);
+  var cards = res.map(function(r, i){
+    var t = r[1] + " " + r[3], inner = sxIco(r[0]) + '<h3>' + esc(r[1]) + '</h3><span class="sx-d">' + esc(r[3]) + '</span>', st = '--c:' + P.col[i % P.col.length], hid = sxHit(t, q) ? "" : " hidden";
+    return r[2] ? '<a class="sx-rc" data-t="' + esc(t) + '" href="' + r[2] + '" style="' + st + '"' + hid + '>' + inner + '</a>' : '<div class="sx-rc" data-t="' + esc(t) + '" style="' + st + '"' + hid + '>' + inner + '</div>';
+  }).join("");
+  var chips = ["Syllabus", "NCERT books"].concat(two ? ["Sample papers"] : [], ["Question bank", "Notices"]).map(function(t){ return '<button type="button" data-act="sxchip" data-v="' + t + '">' + t + '</button>'; }).join("");
+  var subj = subjectFolds(c, true), bySub = "";
+  if (subj.length) bySub = '<section class="sx-sec"><div class="wrap"><h2>' + cn + ' by subject</h2><p class="sx-lead">Each subject has one page with its books, syllabus, papers and practice questions.</p><div class="sx-rg">' + subj.map(function(f, i){
+    var cnt = 0; classBooks(c).forEach(function(b){ if (foldOf(b) === f && streamOk(b)) cnt += b.ch.length; });
+    var d = subProg(c, f, true).d;
+    return '<a class="sx-rc sm" style="--c:' + P.col[i % P.col.length] + '" href="#/subject/' + slug(f) + '"><h3>' + esc(f) + '</h3><span class="sx-d">' + cnt + ' chapters' + (d ? ', ' + d + ' done' : '') + '</span></a>';
+  }).join("") + '</div></div></section>';
+  var mine = ST.items.filter(function(x){ return classOf(x, c); }).slice(0, 5), rows;
+  if (mine.length) rows = mine.map(function(x){
+    var u = safeUrl(x.url), h = host(u);
+    return '<li><span class="sx-dt">' + esc(fmt(x.date)) + '</span><span class="sx-tt"><a href="' + nurl(x) + '">' + esc(x.title) + '</a><span class="sx-sr">' + esc(typeOf(x).label) + ' · Source: ' + esc(srcName(h)) + '</span></span><a class="btn" href="' + esc(u) + '" target="_blank" rel="noopener">Read on ' + esc(srcName(h)) + '</a></li>';
+  }).join("");
+  else rows = '<li><span class="sx-tt">' + (ST.loaded ? 'No notices that mention ' + cn + ' yet.' : 'Loading notices...') + '</span></li>';
+  var tag = cn + (hi && ST.streamSet ? ' · ' + ST.stream : '');
+  var hl = ["Official updates", "NCERT books", "Syllabus"].concat(two ? ["Sample and past papers"] : [], ["Question bank"]).map(function(t){ return '<li>' + t + '</li>'; }).join("");
+  var src = SXSRC.map(function(s){ return '<a href="' + s[1] + '" target="_blank" rel="noopener">' + s[0] + '</a>'; }).join("");
+  var ql = SXSRC.map(function(s, i){ return '<a class="btn" href="' + s[1] + '" target="_blank" rel="noopener">' + ["CBSE website", "CBSE Academic", "Pariksha Sangam", "NCERT"][i] + '</a>'; }).join("");
+  var why = [["Sourced from official sites", "Every notice and document points back to where it was published."], ["Organised by class and subject", "Find a chapter or a paper without opening five websites."], ["Made for students", "Plain labels and a layout that works on a phone."], ["Updates in one place", "Circulars, date sheets and results, each with a date."]].map(function(w){ return '<div><h3>' + w[0] + '</h3><p>' + w[1] + '</p></div>'; }).join("");
+  return '<section class="sx-hero"><div class="wrap sx-hg"><div>' +
+    '<span class="sx-tag"><svg viewBox="0 0 24 24" aria-hidden="true">' + SXMARK[n] + '</svg>CBSE ' + esc(tag) + '</span>' +
+    '<h1 id="pg" tabindex="-1">' + esc(P.h) + '</h1><p class="sx-s">' + esc(P.s) + '</p>' +
+    '<a class="btn dark" href="#resources">Explore resources</a>' +
+    '<ul class="sx-hl">' + hl + '</ul><p class="sx-src">Linked to official sources: ' + src + '</p>' +
+    '<p class="sx-src" style="margin-top:10px"><a class="sx-chg" href="#/welcome" style="margin:0">Change class' + (hi ? ' or stream' : '') + '</a></p></div>' +
+    '<div class="sx-art">' + SXART[n] + '</div></div></section>' +
+    '<section class="sx-sec" id="find"><div class="wrap"><div class="sx-find"><div><h2>Find it fast</h2><p>Type what you need, or tap a suggestion.</p></div><div class="sx-sf"><label for="sxq" style="position:absolute;left:-9999px">Search ' + esc(cn) + ' resources</label><input id="sxq" type="search" placeholder="Try syllabus, books or sample papers" autocomplete="off" value="' + esc(ST.sxq) + '"><div class="sx-chips">' + chips + '</div></div></div></div></section>' +
+    '<section class="sx-sec" id="resources"><div class="wrap"><h2>Find what you need for ' + esc(cs) + '</h2><p class="sx-lead">' + esc(classIntro(n, c)) + '</p><div class="sx-rg">' + cards + '</div><div class="sx-none" id="sxnone" hidden>Nothing matches yet. Try syllabus, books, papers or notices.</div></div></section>' +
+    bySub + trackerSection(c) +
+    '<section class="sx-sec"><div class="wrap"><div class="sx-feat"><div><h2>The ' + cn + ' syllabus, ' + P.by + '</h2><p>See what each subject covers this year, with a link to the official document for 2026-27.</p><a class="btn" href="#/syllabus">Open the syllabus</a></div><svg class="sx-lv sx-lv' + n + '" viewBox="0 0 24 24" aria-hidden="true">' + SXMARK[n] + '</svg></div></div></section>' +
+    '<section class="sx-sec" id="notices"><div class="wrap"><h2>Latest official notices</h2><p class="sx-lead">Each notice shows its date and links to the original document.</p><ul class="sx-nl">' + rows + '</ul><p class="sx-note"><a class="sx-chg" href="#/updates/class-' + n + '">See every notice that mentions ' + cn + '</a></p></div></section>' +
+    '<section class="sx-sec"><div class="wrap"><h2>Official sites, one tap away</h2><p class="sx-lead">Always confirm important updates on the official website.</p><div class="sx-ql">' + ql + '</div></div></section>' +
+    '<section class="sx-sec"><div class="wrap"><h2 style="margin-bottom:28px">Why GraphPaper</h2><div class="sx-why">' + why + '</div></div></section>' +
+    '<section class="sx-sec"><div class="wrap sx-ab"><h2>About GraphPaper</h2><div><p style="margin:0 0 16px">GraphPaper is a free study hub for CBSE students. Every notice, book and paper links back to the official CBSE or NCERT website, and nothing here is hosted by us.</p><a class="btn" href="#/about">Read more about GraphPaper</a></div></div></section>' +
+    '<section class="sx-sec" style="padding-bottom:8px"><div class="wrap"><div class="sx-close"><h2>Ready to start with ' + cn + '?</h2><a class="btn dark" href="#resources">Explore resources</a></div></div></section>';
 }
 function homeReturning(){
   var c = ST.cls;
-  if (+c <= 8) return homeParents(c);
-  var it = ST.items, latest3 = it.slice(0, 3), cp = homeCopy(c);
-  var fresh = it.filter(function(x){ return ST.hf === "all" || x.tag === ST.hf; }).slice(0, 4);
-  var f = [["all","All"]].concat(TYPE_KEYS.map(function(k){ return [k, TYPES[k].plural]; })).map(function(p){
-    return '<button class="f" data-act="hf" data-v="' + esc(p[0]) + '" aria-pressed="' + (ST.hf === p[0] ? "true" : "false") + '">' + esc(p[1]) + '</button>';
-  }).join("");
-  return '<div class="wrap hr"><div>' +
-    '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">Class ' + c + (hasStreams(c) && ST.streamSet ? ' · ' + ST.stream : '') + ' · CBSE · Change</a>' +
-    '<h1 id="pg" tabindex="-1" style="font-size:clamp(32px,5.4vw,60px);line-height:1.1;margin:20px 0 16px">' + cp.h + '</h1>' +
-    '<p style="color:var(--mut);margin:0 0 28px;max-width:520px">' + cp.p + '</p>' +
-    '<form class="search" data-act="hsearch"><label for="hq" style="position:absolute;left:-9999px">Search notices</label><input id="hq" placeholder="Search notices, e.g. date sheet" autocomplete="off"><button class="go" type="submit">Search</button></form>' +
-    '<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;font-weight:700;font-size:15px;align-items:center"><span style="color:var(--mut)">Popular:</span>' +
-    '<a class="pill" href="#/updates?type=Circular" style="background:var(--a1);padding:6px 14px;font-size:15px">CBSE circulars</a><a class="pill" href="#/updates?type=Date%20Sheet" style="background:var(--a4);padding:6px 14px;font-size:15px">Date sheets</a><a class="pill" href="#/updates?type=Result" style="background:var(--a5);padding:6px 14px;font-size:15px">Results</a><a class="pill" href="#/calculator" style="background:var(--a3);padding:6px 14px;font-size:15px">Percentage calculator</a></div></div>' +
-    '<div style="position:relative;padding:20px"><div style="position:absolute;top:-8px;right:-4px;width:150px;height:150px;border-radius:50%;background:var(--a4)"></div><div style="position:absolute;bottom:-12px;left:0;width:110px;height:110px;border-radius:36px;background:var(--a3);transform:rotate(14deg)"></div>' +
-    '<div class="grid-paper" style="position:relative;border:2px solid var(--ink);border-radius:32px;padding:28px;display:flex;flex-direction:column;gap:14px;transform:rotate(-2deg)"><div class="fr" style="font-weight:600;font-size:22px">Latest from CBSE</div>' +
-    (latest3.length ? latest3.map(function(x){ return '<a href="' + nurl(x) + '" style="display:block;background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + pill(x) + '<div style="margin-top:6px;font-weight:700;overflow-wrap:anywhere">' + esc(x.title) + '</div></a>'; }).join("") : '<div style="background:var(--card);border:2px solid var(--ink);border-radius:18px;padding:14px 16px">' + (ST.loaded ? 'No notices yet.' : 'Loading notices...') + '</div>') +
-    '<a class="btn dark" href="#/updates" style="display:flex;justify-content:center;padding:12px 20px">See all updates</a></div></div></div>' +
-    trackerSection(c) +
-    homeShelf(c);
+  return +c <= 8 ? homeParents(c) : studentClass(c);
 }
 
 ST.fs = ""; ST.fsub = ""; ST.fy = ""; ST.up = uPreset("");

@@ -38,7 +38,7 @@ GENERATED_DIRS = ["notice", "board", "updates", "about", "contact", "privacy", "
 
 
 SRC = os.path.join(ROOT, "src")
-JS_FILES = ["app.js", "parents.js", "students.js", "boot.js"]
+JS_FILES = ["app.js", "art.js", "parents.js", "students.js", "boot.js"]
 
 
 def esbuild(text, loader):
@@ -60,7 +60,7 @@ def build_css():
 
 
 def build_js():
-    """The four scripts are joined in order into one file (gp.js), so the browser makes one request instead of four."""
+    """The scripts are joined in order into one file (gp.js), so the browser makes one request instead of four."""
     js = "\n;\n".join(open(os.path.join(SRC, f), encoding="utf-8").read() for f in JS_FILES)
     out = esbuild(js, "js")
     with open(os.path.join(ROOT, "gp.js"), "w", encoding="utf-8") as f:
@@ -219,6 +219,9 @@ def main():
             page.wait_for_function("window.GP_READY === true", timeout=30000)
             page.wait_for_timeout(150)
             html = "<!doctype html>\n" + page.evaluate("document.documentElement.outerHTML")
+            if re.match(r"^/class-(9|10|11|12)(/|$)", path):
+                # Classes 9 to 12 use the Young Serif headline font: start loading it before the stylesheet is read.
+                html = html.replace('<style id="css">', '<link rel="preload" href="/fonts/young-serif.woff" as="font" type="font/woff" crossorigin>\n<style id="css">', 1)
             robots = page.evaluate("(document.querySelector('meta[name=robots]')||{}).content || ''")
             canon = page.evaluate("(document.querySelector('link[rel=canonical]')||{}).href || ''")
             view = page.evaluate("document.querySelector('#view').innerText.length")
