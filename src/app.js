@@ -4,6 +4,12 @@ var BBASE = "https://ncert.nic.in/textbook/pdf/";
 var BPORTAL = "https://ncert.nic.in/textbook.php";
 var SYL = null, PAP = null;
 var P = {
+ qb:'<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 1-1 1.7M12 17h.01"/>',
+ target:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+ flask:'<path d="M9 3h6M10 3v6l-5 10a1 1 0 0 0 1 2h12a1 1 0 0 0 1-2l-5-10V3"/><path d="M8 15h8"/>',
+ list:'<path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/>',
+ clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/>',
+ calc:'<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/>',
  book:'<path d="M5 4h10a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3V4z"/><path d="M5 17a3 3 0 0 1 3-3h10"/>',
  doc:'<path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/>',
  notes:'<path d="M4 20l1-4L16 5l3 3L8 19z"/><path d="M14 7l3 3"/>',
@@ -186,13 +192,13 @@ VIEWS.booklist = function(){
       return '<section class="card" style="--sh:var(' + subCol(f) + ');gap:6px;padding:22px 24px"><h2 style="font-size:24px;margin:0 0 6px">' + esc(f) + '</h2>' + bks.map(function(b){
         nb++; nc += b.ch.length;
         var titles = b.ch.map(function(h){ return h[1]; }).filter(Boolean);
-        var outline = titles.length === b.ch.length ? '<div class="meta" style="margin-top:4px">' + titles.map(esc).join(' \u00b7 ') + '</div>' : '<div class="meta" style="margin-top:4px">' + b.ch.length + ' ' + b.label.toLowerCase() + (b.ch.length === 1 ? '' : 's') + '</div>';
-        return '<div style="display:flex;gap:12px;padding:12px 0;border-top:2px solid var(--gl)"><span aria-hidden="true" style="font-size:22px;line-height:1.2">\u2610</span><div style="min-width:0"><div style="font-weight:700;overflow-wrap:anywhere">' + esc(b.title) + '</div><div class="meta">' + esc(b.code) + ' \u00b7 ' + b.ch.length + ' ' + b.label.toLowerCase() + (b.ch.length === 1 ? '' : 's') + '</div>' + outline + '<div class="noprint" style="margin-top:8px">' + (b.zip ? '<a href="' + BBASE + b.zip + '" target="_blank" rel="noopener" style="font-weight:700;text-decoration:underline">Whole book (ZIP' + (b.mb ? ', ' + b.mb + ' MB' : '') + ') \u2193</a> \u00b7 ' : '') + '<a href="#/books" style="font-weight:700;text-decoration:underline">Chapters</a></div></div></div>';
+        var outline = titles.length === b.ch.length ? '<div class="bko">' + titles.map(esc).join(' \u00b7 ') + '</div>' : '';
+        return '<div class="bkrow"><span class="bkbox" aria-hidden="true">\u2610</span><div class="bkmain"><div class="bkt">' + esc(b.title) + '</div><div class="bkm"><span>' + esc(b.code) + '</span><span>' + b.ch.length + ' ' + b.label.toLowerCase() + (b.ch.length === 1 ? '' : 's') + '</span></div>' + outline + '<div class="noprint bka">' + (b.zip ? '<a class="fpill dl" href="' + BBASE + b.zip + '" target="_blank" rel="noopener">Whole book ZIP' + (b.mb ? ' \u00b7 ' + b.mb + ' MB' : '') + '</a>' : '') + '<a class="fpill alt" href="#/books">Chapters</a></div></div></div>';
       }).join("") + '</section>';
     }).join("");
     body = '<div class="meta" style="margin-bottom:16px">' + nb + ' books \u00b7 ' + nc + ' chapters. Tick each book as you get it.</div><div style="display:flex;flex-direction:column;gap:22px">' + body + '</div>';
   }
-  return '<div class="wrap sec" style="max-width:860px">' + crumb + '<div class="head"><div class="tile" style="background:var(--a1)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Book list</h1><p>Every NCERT textbook for ' + cn + ', in one checklist. English-medium books plus the Hindi and Sanskrit language books.</p></div></div>' +
+  return '<div class="wrap sec" style="max-width:860px">' + crumb + '<div class="head"><div class="tile" style="background:var(--a1)">' + ico("list", 30) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Book list</h1><p>Every NCERT textbook for ' + cn + ', in one checklist. English-medium books plus the Hindi and Sanskrit language books.</p></div></div>' +
    '<div class="noprint" style="margin-bottom:20px"><button class="btn dark" type="button" data-act="print">Print this list</button></div>' + body +
    '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Books are free to read and download on ncert.nic.in. GraphPaper does not host them. Your school may use other books as well, so check its list.</p></div>';
 };
@@ -451,7 +457,7 @@ VIEWS.books = function(r){
     'Chapter-wise PDFs for Class ' + c + ', linked from the official NCERT site. Chapter titles show where they could be read from the PDF.';
   var note = f10 ? 'Every chapter opens on ncert.nic.in. GraphPaper does not host NCERT files. NCERT offers each whole book as a ZIP of chapter PDFs, not as one single PDF.' + (hasStreams(c) ? ' Showing ' + ST.stream + ' books. Tap Change above to pick another stream. English-medium books only for now.' : '') : 'Every chapter opens on ncert.nic.in. GraphPaper does not host NCERT files. English-medium books only for now.';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>NCERT books</b></div>' +
-   '<div class="head"><div class="tile" style="background:var(--a3)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">NCERT books</h1><p>' + lead + '</p></div></div>' +
+   '<div class="head"><div class="tile" style="background:var(--a3)">' + ico("book", 30) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">NCERT books</h1><p>' + lead + '</p></div></div>' +
    '<div class="search" style="max-width:560px;margin-bottom:16px"><label for="bq" style="position:absolute;left:-9999px">Search chapters</label><input id="bq" type="search" placeholder="Search chapters" value="' + esc(ST.bq) + '" autocomplete="off"></div>' + chips +
    '<div class="grid" id="blist" style="grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));align-items:start">' + booksHtml().html + '</div>' +
    '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">' + note + '</p></div>';
@@ -683,6 +689,8 @@ var NAVOF = {updates:"nv-up", notice:"nv-up", board:"nv-up", parents:"nv-pa", "c
 function markNav(name){
   ["nv-up", "nv-sh", "nv-pa"].forEach(function(id){ var a = $("#" + id); if (!a) return; if (NAVOF[name] === id) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
 }
+/* While data is still arriving the footer is kept out of sight, so a page that briefly gets shorter does not pull it up into view and then push it back down. */
+function setBusy(){ D.documentElement.classList.toggle("gp-busy", !(ST.booksLoaded && ST.loaded && !ST.inflight)); }
 function route(keepScroll){
   var r = parse(), name = r.name;
   if (r.cls){ syncFromPath(r); r = parse(); name = r.name; }
@@ -702,6 +710,7 @@ function route(keepScroll){
   }
   if (typeof needData === "function") needData(name);
   if (HYD){ if (keepScroll && !(ST.booksLoaded && ST.loaded && !ST.inflight)) return; HYD = false; }
+  setBusy();
   $("#hdr").hidden = $("#foot").hidden = (name === "welcome");
   if (name !== "welcome") applyClass();
   $("#view").innerHTML = VIEWS[name](r);
