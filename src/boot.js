@@ -32,6 +32,7 @@ try {
   HYD = !!$("#view").firstElementChild && (fresh || same);
 } catch(e){ HYD = !!$("#view").firstElementChild; }
 route(HYD);
+try { var nav0 = performance.getEntriesByType("navigation")[0]; if (nav0 && nav0.type !== "navigate" && SCR[scrKey()] > 0) restoreScroll(SCR[scrKey()]); } catch(e){}
 function loadBooks(f){ return fetch(f).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){ if (Array.isArray(d)) d.forEach(function(b){ BOOKS.push(b); }); }).catch(function(){}); }
 Promise.all([loadBooks("/books_1_8.json"), loadBooks("/books_1_10.json"), loadBooks("/books_9.json"), loadBooks("/books_11.json"), loadBooks("/books_12.json")]).then(function(){ ST.booksLoaded = true; if (parse().name !== "welcome") route(true); ready(); });
 fetch("/updates.json", {cache: "no-store"}).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){

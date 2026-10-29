@@ -253,6 +253,18 @@ details.arch>summary{cursor:pointer;font-family:Fredoka,'Fredoka Fallback',sans-
 .sx-close h2{margin:0 0 18px!important}
 .r[data-s] .sx-close .btn.dark{background:var(--deep);color:var(--paper)}
 .sx-chg{font-weight:700;text-decoration:underline;text-underline-offset:3px;color:var(--deep)}
+.sx-tag{text-decoration:none;min-height:40px;box-sizing:border-box;border:1.5px solid var(--deep);cursor:pointer}
+a.sx-tag:hover{background:var(--deep);color:var(--paper);text-decoration:none}
+a.sx-tag:hover svg{color:var(--paper)}
+.sx-chev{width:16px!important;height:16px!important;margin-left:2px}
+.sx-ad{background:var(--soft);border-radius:20px;padding:26px 28px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px 28px;color:var(--ink)}
+.sx-ad>div{flex:1 1 320px;min-width:0}
+.sx-adl{display:block;font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--deep);margin-bottom:6px}
+.sx-ad h2{font-size:clamp(22px,3.4vw,28px)!important;margin:0 0 6px!important}
+.sx-ad p{margin:0;color:var(--mut);max-width:56ch}
+.r[data-s] .sx-ad .btn{background:var(--deep);color:var(--paper);border-color:var(--deep);flex:none}
+.wst{display:grid;grid-template-columns:1fr;gap:10px}
+@media (min-width:560px){.wst{grid-template-columns:repeat(3,1fr)}}
 /* artwork motion */
 @keyframes sxpulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.06);opacity:.9}}
 @keyframes sxsway{0%,100%{transform:rotate(-1.6deg)}50%{transform:rotate(1.6deg)}}

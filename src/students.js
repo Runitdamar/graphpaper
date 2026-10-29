@@ -12,7 +12,7 @@ function trackerSection(c){
       '<div class="meta" style="margin-top:auto">Source: <a href="' + esc(u) + '"' + (ext ? ' target="_blank" rel="noopener"' : '') + ' style="text-decoration:underline">' + esc(x.src.t) + '</a> · checked ' + esc(fmt(x.asof)) + '</div></div>';
   }).join("");
   return '<section id="status" class="sx-sec"><div class="wrap"><h2>Quick status check</h2>' +
-    '<p class="sx-lead">The questions students ask most about Class ' + c + (hasStreams(c) ? ' ' + ST.stream : '') + ', answered automatically from CBSE’s own notices and lists. Last checked ' + esc(fmt(TRK.checked)) + '. Always confirm on cbse.gov.in.</p>' +
+    '<p class="sx-lead">The questions students ask most about Class ' + c + (hasStreams(c) ? ' ' + ST.stream : '') + ', answered automatically from CBSE’s own notices and lists. Last checked ' + esc(fmt(TRK.checked)) + '.</p>' +
     '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))">' + cards + '</div></div></section>';
 }
 
@@ -60,10 +60,10 @@ function sxFoot(n){
   var off = SXSRC.map(function(s){ return '<li><a href="' + s[1] + '" target="_blank" rel="noopener">' + s[0] + '</a></li>'; }).join("");
   return '<div class="wrap"><div class="sx-fg"><div><h2>GraphPaper</h2><p style="margin:0">A free study hub for CBSE students.</p></div>' +
     '<div><h2>Class ' + n + '</h2><ul>' + mine + '</ul></div><div><h2>All classes</h2><ul>' + all + '</ul></div>' +
-    '<div><h2>GraphPaper</h2><ul>' + info + '</ul></div><div><h2>Official sources</h2><ul>' + off + '</ul></div></div>' +
+    '<div><h2>GraphPaper</h2><ul>' + info + '</ul></div></div>' +
     '<p class="sx-fine">GraphPaper is not run by CBSE or NCERT. Always confirm important updates on the official website.</p></div>';
 }
-function studentClass(c){
+function studentShelf(c){
   var n = +c, hi = n >= 11, P = SXP[n], cn = "Class " + n, cs = cn + (hi && ST.streamSet ? " " + ST.stream : ""), q = ST.sxq.trim().toLowerCase();
   var nb = classBooks(c).filter(streamOk).length, two = n === 10 || n === 12;
   var res = [
@@ -86,37 +86,42 @@ function studentClass(c){
     var d = subProg(c, f, true).d;
     return '<a class="sx-rc sm" style="--c:' + P.col[i % P.col.length] + '" href="#/subject/' + slug(f) + '"><h3>' + esc(f) + '</h3><span class="sx-d">' + cnt + ' chapters' + (d ? ', ' + d + ' done' : '') + '</span></a>';
   }).join("") + '</div></div></section>';
+  var tag = cn + (hi && ST.streamSet ? ' · ' + ST.stream : '');
+  var pill = '<a class="sx-tag" href="#/welcome" aria-label="Change class or stream, now ' + esc(tag) + '"><svg viewBox="0 0 24 24" aria-hidden="true">' + SXMARK[n] + '</svg>CBSE ' + esc(tag) + '<svg class="sx-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a>';
+  return '<section class="sx-sec" style="padding-top:36px"><div class="wrap">' + pill +
+    '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5.6vw,54px);margin:0 0 14px">' + esc(cs) + ' study shelf</h1><p class="sx-lead" style="margin-bottom:0">' + esc(classIntro(n, c)) + '</p></div></section>' +
+    '<section class="sx-sec" id="find"><div class="wrap"><div class="sx-find"><div><h2>Find it fast</h2><p>Type what you need, or tap a suggestion.</p></div><div class="sx-sf"><label for="sxq" style="position:absolute;left:-9999px">Search ' + esc(cn) + ' resources</label><input id="sxq" type="search" placeholder="Try syllabus, books or sample papers" autocomplete="off" value="' + esc(ST.sxq) + '"><div class="sx-chips">' + chips + '</div></div></div></div></section>' +
+    '<section class="sx-sec" id="resources"><div class="wrap"><h2>Find what you need for ' + esc(cs) + '</h2><div class="sx-rg">' + cards + '</div><div class="sx-none" id="sxnone" hidden>Nothing matches yet. Try syllabus, books, papers or notices.</div></div></section>' +
+    bySub + '<div style="height:8px"></div>';
+}
+/* One ad slot, used on every Class 9 to 12 home page. Change the text or link here. */
+var CAMPUS = {label: "From the GraphPaper team", head: "Is your school’s website out of date?", text: "Campus builds and looks after school websites, with notices, circulars, events and admissions kept up to date.", cta: "See Campus", url: "https://campus.graphpaper.co.in/"};
+function campusAd(){
+  return '<section class="sx-sec"><div class="wrap"><aside class="sx-ad" aria-label="Campus, school websites"><div><span class="sx-adl">' + CAMPUS.label + '</span><h2>' + CAMPUS.head + '</h2><p>' + CAMPUS.text + '</p></div><a class="btn" href="' + CAMPUS.url + '" target="_blank" rel="noopener">' + CAMPUS.cta + '</a></aside></div></section>';
+}
+function studentHome(c){
+  var n = +c, hi = n >= 11, P = SXP[n], cn = "Class " + n, two = n === 10 || n === 12;
+  var tag = cn + (hi && ST.streamSet ? ' · ' + ST.stream : '');
+  var pill = '<a class="sx-tag" href="#/welcome" aria-label="Change class or stream, now ' + esc(tag) + '"><svg viewBox="0 0 24 24" aria-hidden="true">' + SXMARK[n] + '</svg>CBSE ' + esc(tag) + '<svg class="sx-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a>';
   var mine = ST.items.filter(function(x){ return classOf(x, c); }).slice(0, 5), rows;
   if (mine.length) rows = mine.map(function(x){
     var u = safeUrl(x.url), h = host(u);
-    return '<li><span class="sx-dt">' + esc(fmt(x.date)) + '</span><span class="sx-tt"><a href="' + nurl(x) + '">' + esc(x.title) + '</a><span class="sx-sr">' + esc(typeOf(x).label) + ' · Source: ' + esc(srcName(h)) + '</span></span><a class="btn" href="' + esc(u) + '" target="_blank" rel="noopener">Read on ' + esc(srcName(h)) + '</a></li>';
+    return '<li><span class="sx-dt">' + esc(fmt(x.date)) + '</span><span class="sx-tt"><a href="' + nurl(x) + '">' + esc(x.title) + '</a><span class="sx-sr">' + esc(typeOf(x).label) + ' · ' + esc(srcName(h)) + '</span></span><a class="btn" href="' + esc(u) + '" target="_blank" rel="noopener">Read on ' + esc(srcName(h)) + '</a></li>';
   }).join("");
   else rows = '<li><span class="sx-tt">' + (ST.loaded ? 'No notices that mention ' + cn + ' yet.' : 'Loading notices...') + '</span></li>';
-  var tag = cn + (hi && ST.streamSet ? ' · ' + ST.stream : '');
-  var hl = ["Official updates", "NCERT books", "Syllabus"].concat(two ? ["Sample and past papers"] : [], ["Question bank"]).map(function(t){ return '<li>' + t + '</li>'; }).join("");
-  var src = SXSRC.map(function(s){ return '<a href="' + s[1] + '" target="_blank" rel="noopener">' + s[0] + '</a>'; }).join("");
-  var ql = SXSRC.map(function(s, i){ return '<a class="btn" href="' + s[1] + '" target="_blank" rel="noopener">' + ["CBSE website", "CBSE Academic", "Pariksha Sangam", "NCERT"][i] + '</a>'; }).join("");
-  var why = [["Sourced from official sites", "Every notice and document points back to where it was published."], ["Organised by class and subject", "Find a chapter or a paper without opening five websites."], ["Made for students", "Plain labels and a layout that works on a phone."], ["Updates in one place", "Circulars, date sheets and results, each with a date."]].map(function(w){ return '<div><h3>' + w[0] + '</h3><p>' + w[1] + '</p></div>'; }).join("");
-  return '<section class="sx-hero"><div class="wrap sx-hg"><div>' +
-    '<span class="sx-tag"><svg viewBox="0 0 24 24" aria-hidden="true">' + SXMARK[n] + '</svg>CBSE ' + esc(tag) + '</span>' +
+  var jump = [["Syllabus", "#/syllabus"], ["NCERT books", "#/books"]].concat(two ? [["Sample papers", "#/sqp"], ["Previous-year papers", "#/pyq"]] : [], [["Question bank", "#/qbank"], ["Calculator", "#/calculator"]]).map(function(j){ return '<a class="btn" href="' + j[1] + '">' + j[0] + '</a>'; }).join("");
+  return '<section class="sx-hero"><div class="wrap sx-hg"><div>' + pill +
     '<h1 id="pg" tabindex="-1">' + esc(P.h) + '</h1><p class="sx-s">' + esc(P.s) + '</p>' +
-    '<a class="btn dark" href="#resources">Explore resources</a>' +
-    '<ul class="sx-hl">' + hl + '</ul><p class="sx-src">Linked to official sources: ' + src + '</p>' +
-    '<p class="sx-src" style="margin-top:10px"><a class="sx-chg" href="#/welcome" style="margin:0">Change class' + (hi ? ' or stream' : '') + '</a></p></div>' +
+    '<a class="btn dark" href="#/class">Open the study shelf</a></div>' +
     '<div class="sx-art">' + SXART[n] + '</div></div></section>' +
-    '<section class="sx-sec" id="find"><div class="wrap"><div class="sx-find"><div><h2>Find it fast</h2><p>Type what you need, or tap a suggestion.</p></div><div class="sx-sf"><label for="sxq" style="position:absolute;left:-9999px">Search ' + esc(cn) + ' resources</label><input id="sxq" type="search" placeholder="Try syllabus, books or sample papers" autocomplete="off" value="' + esc(ST.sxq) + '"><div class="sx-chips">' + chips + '</div></div></div></div></section>' +
-    '<section class="sx-sec" id="resources"><div class="wrap"><h2>Find what you need for ' + esc(cs) + '</h2><p class="sx-lead">' + esc(classIntro(n, c)) + '</p><div class="sx-rg">' + cards + '</div><div class="sx-none" id="sxnone" hidden>Nothing matches yet. Try syllabus, books, papers or notices.</div></div></section>' +
-    bySub + trackerSection(c) +
-    '<section class="sx-sec"><div class="wrap"><div class="sx-feat"><div><h2>The ' + cn + ' syllabus, ' + P.by + '</h2><p>See what each subject covers this year, with a link to the official document for 2026-27.</p><a class="btn" href="#/syllabus">Open the syllabus</a></div><svg class="sx-lv sx-lv' + n + '" viewBox="0 0 24 24" aria-hidden="true">' + SXMARK[n] + '</svg></div></div></section>' +
-    '<section class="sx-sec" id="notices"><div class="wrap"><h2>Latest official notices</h2><p class="sx-lead">Each notice shows its date and links to the original document.</p><ul class="sx-nl">' + rows + '</ul><p class="sx-note"><a class="sx-chg" href="#/updates/class-' + n + '">See every notice that mentions ' + cn + '</a></p></div></section>' +
-    '<section class="sx-sec"><div class="wrap"><h2>Official sites, one tap away</h2><p class="sx-lead">Always confirm important updates on the official website.</p><div class="sx-ql">' + ql + '</div></div></section>' +
-    '<section class="sx-sec"><div class="wrap"><h2 style="margin-bottom:28px">Why GraphPaper</h2><div class="sx-why">' + why + '</div></div></section>' +
-    '<section class="sx-sec"><div class="wrap sx-ab"><h2>About GraphPaper</h2><div><p style="margin:0 0 16px">GraphPaper is a free study hub for CBSE students. Every notice, book and paper links back to the official CBSE or NCERT website, and nothing here is hosted by us.</p><a class="btn" href="#/about">Read more about GraphPaper</a></div></div></section>' +
-    '<section class="sx-sec" style="padding-bottom:8px"><div class="wrap"><div class="sx-close"><h2>Ready to start with ' + cn + '?</h2><a class="btn dark" href="#resources">Explore resources</a></div></div></section>';
+    trackerSection(c) +
+    '<section class="sx-sec" id="notices"><div class="wrap"><h2>Latest notices</h2><p class="sx-lead">Each notice shows its date and links to the original document.</p><ul class="sx-nl">' + rows + '</ul><p class="sx-note"><a class="sx-chg" href="#/updates/class-' + n + '">See every notice that mentions ' + cn + '</a></p></div></section>' +
+    '<section class="sx-sec"><div class="wrap"><h2>On the study shelf</h2><div class="sx-ql" style="margin-top:14px">' + jump + '</div></div></section>' +
+    campusAd() + '<div style="height:8px"></div>';
 }
 function homeReturning(){
   var c = ST.cls;
-  return +c <= 8 ? homeParents(c) : studentClass(c);
+  return +c <= 8 ? homeParents(c) : studentHome(c);
 }
 
 ST.fs = ""; ST.fsub = ""; ST.fy = ""; ST.up = uPreset("");
@@ -177,7 +182,7 @@ VIEWS.notice = function(r){
    (m.archived ? '<div class="card" style="--sh:var(--a4)"><b>This notice is archived.</b> It was published ' + esc(ageText(m)) + ' and may be out of date. Check CBSE for newer notices on the same topic.</div>' : '') +
    '<div class="info">' + facts + '</div>' +
    (x.summary ? '<div style="background:var(--a4);border:2px solid var(--ink);border-radius:28px;padding:24px;box-shadow:0 6px 0 var(--ink)"><h2 style="font-size:24px;margin:0 0 12px">In short</h2><div>' + esc(x.summary) + '</div></div>' : '') +
-   '<div class="meta">The notice itself is a CBSE file. GraphPaper does not host it, and the official file is the only authority for dates and rules. ' + typeLink + (clsLinks.length ? ' · ' + clsLinks.join(' · ') : '') + '</div></div>' +
+   '<div class="meta">The official file is the only authority for dates and rules. ' + typeLink + (clsLinks.length ? ' · ' + clsLinks.join(' · ') : '') + '</div></div>' +
    '<aside style="flex:1 1 280px;max-width:360px;display:flex;flex-direction:column;gap:16px;min-width:0">' +
    '<button class="btn" data-act="share" type="button">Share</button><div id="shmsg" class="meta" role="status" style="text-align:center"></div>' +
    '<div class="badge"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" style="fill:var(--card);stroke:var(--ink)" stroke-width="2"/><path d="M6 10.5l3 3 5-6" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Official source: ' + esc(host(url)) + '</div>' + relatedBox(x) + '</aside></div>' +
@@ -235,7 +240,7 @@ VIEWS.syllabus = function(){
   var lead = !key ? 'CBSE publishes syllabus PDFs for Classes 9 to 12.' : 'Official CBSE syllabus for Class ' + c + ', session 2026-27' + (+c >= 11 ? '. One PDF per subject covers both Class 11 and 12. ' + ST.stream + ' subjects are listed first.' : '. Pick a subject to open its PDF.');
   return '<div class="wrap sec">' + crumb +
    '<div class="head"><div class="tile" style="background:var(--a2)">' + ico("list", 30) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Syllabus</h1><p>' + lead + '</p></div></div>' + body +
-   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">The PDFs open on cbseacademic.nic.in and are not hosted here. Always check CBSE for changes during the year. <a href="#/updates?type=Syllabus%20Change" style="font-weight:700;text-decoration:underline">See syllabus change notices</a>.</p></div>';
+   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">CBSE can change the syllabus during the year. <a href="#/updates?type=Syllabus%20Change" style="font-weight:700;text-decoration:underline">See syllabus change notices</a>.</p></div>';
 };
 
 var PMAIN = {
@@ -307,7 +312,7 @@ VIEWS.papers = function(){
   var lead = !ok ? 'Sample papers and previous years\' board papers, straight from CBSE.' : ST.pt === "sample" ? 'Official CBSE sample papers and marking schemes for the 2026-27 session, Class ' + c + '.' : 'Past board exam question papers for Class ' + c + ', from CBSE.';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / ' + (ST.pm ? '<a href="#/papers">Papers</a> / <b>' + (ST.pm === "sample" ? "Sample papers" : "Previous years") + '</b>' : '<b>Papers</b>') + '</div>' +
    '<div class="head"><div class="tile" style="background:var(--a4)">' + ico("doc", 30) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">' + (ST.pm === "sample" ? "Sample papers 2026-27" : ST.pm === "pyq" ? "Previous year papers" : "Papers") + '</h1><p>' + lead + (ok && hasStreams(c) ? ' ' + ST.stream + ' subjects are listed first.' : '') + '</p></div></div>' + body +
-   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on cbseacademic.nic.in or cbse.gov.in. GraphPaper does not host CBSE papers.' + (ok && ST.pt === "pyq" ? ' Each previous-year file is a ZIP (or PDF) with that subject\'s papers, and may hold more than one set.' : '') + '</p></div>';
+   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">' + (ok && ST.pt === "pyq" ? 'Each previous-year file is a ZIP (or PDF) with that subject\'s papers, and may hold more than one set.' : '') + '</p></div>';
 };
 
 /* ---------- question bank ---------- */
@@ -372,7 +377,7 @@ VIEWS.qbank = function(){
   var lead = !ok ? 'Question banks and practice questions, straight from CBSE and NCERT.' : n === 10 || n === 12 ? 'CBSE\'s own question bank and practice questions with marking schemes, plus NCERT Exemplar problems for Class ' + c + '.' : n === 11 ? 'NCERT Exemplar problems for Class 11 Maths, Physics, Chemistry and Biology.' : 'CBSE competency-based questions and NCERT Exemplar problems for Class ' + c + '.';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>Question bank</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a2)">' + ico("qb", 30) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Question bank</h1><p>' + lead + (hasStreams(c) ? ' ' + ST.stream + ' subjects are listed first.' : '') + '</p></div></div>' + body +
-   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on cbseacademic.nic.in or ncert.nic.in. GraphPaper does not host them.' + (ok && (n === 10 || n === 12) ? ' CBSE adds practice questions by session, so the newest ones may take a while to appear here.' : '') + '</p></div>';
+   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">' + (ok && (n === 10 || n === 12) ? 'CBSE adds practice questions by session, so the newest ones may take a while to appear here.' : '') + '</p></div>';
 };
 
 /* ---------- subject pages (Class 9 to 12) ---------- */
@@ -467,7 +472,7 @@ VIEWS.subject = function(r){
    '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));align-items:start">' + cards.join("") + '</div>' +
    (loading ? '<div class="card" style="--sh:var(--a1);margin-top:20px">Loading the syllabus, papers and practice questions...</div>' : '') +
    (others.length ? '<h2 style="margin-top:48px">More ' + cn + ' subjects</h2><div style="display:flex;flex-wrap:wrap;gap:10px">' + others.map(function(x){ return '<a class="pill" href="#/subject/' + slug(x) + '" style="background:var(' + subCol(x) + ');padding:6px 16px;font-size:15px">' + esc(x) + '</a>'; }).join("") + '</div>' : '') +
-   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Every file opens on ncert.nic.in, cbseacademic.nic.in or cbse.gov.in. GraphPaper does not host them. ' + (hasStreams(c) ? 'The syllabus PDF covers both Class 11 and 12. ' : '') + '<a href="#/class" style="font-weight:700;text-decoration:underline">Back to the study shelf</a>.</p></div>';
+   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">' + (hasStreams(c) ? 'The syllabus PDF covers both Class 11 and 12. ' : '') + '<a href="#/class" style="font-weight:700;text-decoration:underline">Back to the study shelf</a>.</p></div>';
 };
 
 /* ---------- calculator ---------- */
