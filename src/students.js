@@ -115,14 +115,18 @@ function studentHome(c){
   }).join("");
   else rows = '<li><span class="sx-tt">' + (ST.loaded ? 'No notices that mention ' + cn + ' yet.' : 'Loading notices...') + '</span></li>';
   var why = [["Sourced from official sites", "Every notice and document points back to where it was published."], ["Organised by class and subject", "Find a chapter or a paper without opening five websites."], ["Made for students", "Plain labels and a layout that works on a phone."], ["Updates in one place", "Circulars, date sheets and results, each with a date."]].map(function(w){ return '<div><h3>' + w[0] + '</h3><p>' + w[1] + '</p></div>'; }).join("");
-  var jump = [["Syllabus", "#/syllabus"], ["NCERT books", "#/books"]].concat(two ? [["Sample papers", "#/sqp"], ["Previous-year papers", "#/pyq"]] : [], [["Question bank", "#/qbank"], ["Calculator", "#/calculator"]]).map(function(j){ return '<a class="btn" href="' + j[1] + '">' + j[0] + '</a>'; }).join("");
+  var nb = classBooks(c).filter(streamOk).length, sh = [
+    ["list", "Syllabus", "#/syllabus", "Official 2026-27 syllabus for every subject."],
+    ["book", "NCERT books", "#/books", nb ? nb + " books, chapter by chapter, with a whole-book download." : "Chapter-wise PDFs for every book."]
+  ].concat(two ? [["paper", "Sample papers", "#/sqp", "With marking schemes, subject by subject."]] : [["calc", "Calculator", "#/calculator", "Marks to percentage, and CGPA to percentage."]], [["qb", "Question bank", "#/qbank", "CBSE practice questions and NCERT Exemplar."]]);
+  var jump = sh.map(function(r, i){ return '<a class="sx-rc sm" style="--c:' + P.col[i % P.col.length] + '" href="' + r[2] + '">' + sxIco(r[0]) + '<h3>' + r[1] + '</h3><span class="sx-d">' + esc(r[3]) + '</span></a>'; }).join("");
   return '<section class="sx-hero"><div class="wrap sx-hg"><div>' + pill +
     '<h1 id="pg" tabindex="-1">' + esc(P.h) + '</h1><p class="sx-s">' + esc(P.s) + '</p>' +
     '<a class="btn dark" href="#/class">Open the study shelf</a></div>' +
     '<div class="sx-art">' + SXART[n] + '</div></div></section>' +
     sxFind(n, cn, two) + trackerSection(c) +
     '<section class="sx-sec" id="notices"><div class="wrap"><h2>Latest notices</h2><p class="sx-lead">Each notice shows its date and links to the original document.</p><ul class="sx-nl">' + rows + '</ul><p class="sx-note"><a class="sx-chg" href="#/updates/class-' + n + '">See every notice that mentions ' + cn + '</a></p></div></section>' +
-    '<section class="sx-sec"><div class="wrap"><h2>On the study shelf</h2><div class="sx-ql" style="margin-top:14px">' + jump + '</div></div></section>' +
+    '<section class="sx-sec"><div class="wrap"><h2>From the study shelf</h2><p class="sx-lead">A few of the things waiting for you.</p><div class="sx-rg">' + jump + '</div><p class="sx-note"><a class="sx-chg" href="#/class">See the whole study shelf</a></p></div></section>' +
     campusAd(n) +
     '<section class="sx-sec"><div class="wrap"><h2 style="margin-bottom:28px">Why GraphPaper</h2><div class="sx-why">' + why + '</div></div></section>' +
     '<section class="sx-sec"><div class="wrap sx-ab"><h2>About GraphPaper</h2><div><p style="margin:0 0 16px">GraphPaper is a free study hub for CBSE students. Every notice, book and paper links back to the official CBSE or NCERT website, and nothing here is hosted by us.</p><a class="btn" href="#/about">Read more about GraphPaper</a></div></div></section>' +
