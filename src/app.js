@@ -158,7 +158,7 @@ function pickerCard(){
    '<div class="fr" style="font-weight:600;font-size:17px;margin:0 0 8px">Parent of a child in Class 1 to 8</div><div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px">' + cbP + '</div>' +
    '<div class="fr" style="font-weight:600;font-size:17px;margin:0 0 8px">Student in Class 9 to 12</div><div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">' + cb + '</div></div>' +
    '<div style="font-size:14px;color:var(--mut);margin-top:12px">Colors grow up with you, from candy pastels to calm, deep tones.</div></div>' +
-   (needS ? '<div>' + step(2, "wh3", "Your stream") + '<div role="group" aria-labelledby="wh3" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px">' + sb + '</div>' +
+   (needS ? '<div>' + step(2, "wh3", "Your stream") + '<div role="group" aria-labelledby="wh3" class="wst">' + sb + '</div>' +
    '<div style="font-size:14px;color:var(--mut);margin-top:12px">Books, syllabus, papers and question banks will show your stream\u2019s subjects first. You can change this any time.</div></div>' : '') +
    '<div style="font-size:14px;color:var(--mut)">Books and CBSE notices are live for Class 1 to 12, and the syllabus for Class 9 to 12.</div>' +
    '<div id="werr" role="alert" hidden style="background:var(--a2);border:2px solid var(--ink);border-radius:16px;padding:10px 16px;font-weight:700">Please pick your class first.</div>' +
@@ -200,7 +200,7 @@ VIEWS.booklist = function(){
   }
   return '<div class="wrap sec" style="max-width:860px">' + crumb + '<div class="head"><div class="tile" style="background:var(--a1)">' + ico("list", 30) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Book list</h1><p>Every NCERT textbook for ' + cn + ', in one checklist. English-medium books plus the Hindi and Sanskrit language books.</p></div></div>' +
    '<div class="noprint" style="margin-bottom:20px"><button class="btn dark" type="button" data-act="print">Print this list</button></div>' + body +
-   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Books are free to read and download on ncert.nic.in. GraphPaper does not host them. Your school may use other books as well, so check its list.</p></div>';
+   '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Your school may use other books as well, so check its list.</p></div>';
 };
 VIEWS.notfound = function(){
   return '<div class="wrap sec" style="padding-bottom:64px"><div class="crumb"><a href="#/home">Home</a> / <b>Not found</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(30px,5vw,48px)">Page not found</h1><p style="color:var(--mut)">That page does not exist. <a href="#/home" style="text-decoration:underline;font-weight:700">Go to the home page</a> or <a href="#/updates" style="text-decoration:underline;font-weight:700">see all updates</a>.</p></div>';
@@ -271,7 +271,7 @@ VIEWS.streams = function(r){
 };
 VIEWS["class"] = function(){
   var c = ST.cls || "4", n = +c, hi = n >= 11;
-  if (n >= 9) return studentClass(c);
+  if (n >= 9) return studentShelf(c);
   var subs, cols = ["--a1","--a2","--a3","--a4","--a5"], s2b = {Physics:"Physics", Chemistry:"Chemistry", Mathematics:"Maths", Biology:"Biology"};
   function card(label, href, icon, col, note){
     var inner = '<span class="ic" style="background:var(' + col + ')">' + icon + '</span><b>' + esc(label) + '</b><span style="color:var(--mut);font-size:15px">' + note + '</span>' + (href ? '<span style="font-weight:700">Open →</span>' : '');
@@ -455,7 +455,7 @@ VIEWS.books = function(r){
   var chips = hasStreams(c) ? '<div style="margin-bottom:20px"><a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">Class ' + c + ' ' + ST.stream + ' \u00b7 Change</a></div>' : f10 ? "" : '<div class="chips" role="group" aria-label="Subject" style="margin-bottom:20px">' + ["All"].concat(subs).map(function(s){ return '<button class="f" data-act="bs" data-v="' + esc(s) + '" aria-pressed="' + (ST.bsub === s ? "true" : "false") + '">' + esc(s) + '</button>'; }).join("") + '</div>';
   var lead = f10 ? 'Open a subject folder, then pick a chapter. Each book also has a whole-book download from NCERT.' :
     'Chapter-wise PDFs for Class ' + c + ', linked from the official NCERT site. Chapter titles show where they could be read from the PDF.';
-  var note = f10 ? 'Every chapter opens on ncert.nic.in. GraphPaper does not host NCERT files. NCERT offers each whole book as a ZIP of chapter PDFs, not as one single PDF.' + (hasStreams(c) ? ' Showing ' + ST.stream + ' books. Tap Change above to pick another stream. English-medium books only for now.' : '') : 'Every chapter opens on ncert.nic.in. GraphPaper does not host NCERT files. English-medium books only for now.';
+  var note = f10 ? 'NCERT offers each whole book as a ZIP of chapter PDFs, not as one single PDF.' + (hasStreams(c) ? ' Showing ' + ST.stream + ' books. Tap Change above to pick another stream. English-medium books only for now.' : '') : 'English-medium books only for now.';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <a href="#/class">Study shelf</a> / <b>NCERT books</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a3)">' + ico("book", 30) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">NCERT books</h1><p>' + lead + '</p></div></div>' +
    '<div class="search" style="max-width:560px;margin-bottom:16px"><label for="bq" style="position:absolute;left:-9999px">Search chapters</label><input id="bq" type="search" placeholder="Search chapters" value="' + esc(ST.bq) + '" autocomplete="off"></div>' + chips +
@@ -560,6 +560,7 @@ function parse(){
   return r;
 }
 function go(p, replace){
+  clearTimeout(scrT); if (!replace) scrSave();
   history[replace ? "replaceState" : "pushState"](null, "", p);
   route();
 }
@@ -568,63 +569,92 @@ function rewriteLinks(){
   for (var i = 0; i < as.length; i++){ var a = as[i]; if (!a.dataset.h) a.dataset.h = a.getAttribute("href"); a.setAttribute("href", toPath(a.dataset.h)); }
 }
 function clsName(c){ return "Class " + c + (hasStreams(c) ? " " + ST.stream : ""); }
+function bstat(c){
+  var bs = classBooks(c).filter(streamOk), ch = 0, f = {}, ns = 0;
+  bs.forEach(function(b){ ch += b.ch.length; var k = foldOf(b); if (k && k !== "Other books") f[k] = 1; });
+  for (var k in f) ns++;
+  return {nb: bs.length, nch: ch, ns: ns};
+}
+function plu(n, w){ return n + " " + w + (n === 1 ? "" : "s"); }
+var RNUM = {"9": "IX", "10": "X", "11": "XI", "12": "XII"};
 function pageMeta(name, r){
   var T = "GraphPaper: CBSE notices, NCERT books and syllabus", D0 = "CBSE circulars, date sheets and results for Class 1 to 12, with NCERT books and the syllabus, in one place.";
-  var c = r.cls || ST.cls, cn = c ? clsName(c) : "", n = c ? +c : 0, m = {t: T, d: D0, ni: false};
-  if (name === "welcome"){ m.t = "Welcome | GraphPaper"; m.ni = true; }
+  var c = r.cls || ST.cls, cn = c ? clsName(c) : "", n = c ? +c : 0, m = {t: T, d: D0, ni: false}, bs = c ? bstat(c) : {nb: 0, nch: 0, ns: 0}, rm = RNUM[c];
+  if (name === "welcome"){ m.t = "Choose your class and stream"; m.ni = true; }
   else if (name === "updates"){
     var up = uPreset(r.arg), uc = UCAT[r.arg];
-    m.t = "All CBSE updates: circulars, date sheets and results | GraphPaper"; m.d = "Every CBSE circular, date sheet, syllabus change and result in one list, newest first, with older notices archived separately."; m.bc = [["Updates", "/updates"]];
-    if (uc){ m.t = "CBSE " + uc[1] + ": latest notices and archive | GraphPaper"; m.d = uc[2]; m.bc.push(["CBSE " + uc[1], "/updates/" + r.arg]); }
-    else if (up.cls){ m.t = "CBSE Class " + up.cls + " notices: circulars, date sheets and results | GraphPaper"; m.d = "Circulars, date sheets, syllabus changes and results that name Class " + up.cls + " in the CBSE notice title, with the official link for each and older notices archived."; m.bc.push(["Class " + up.cls, "/updates/class-" + up.cls]); }
-    else if (r.arg){ m.t = "Page not found | GraphPaper"; m.ni = true; m.bc = null; }
+    m.t = "CBSE circulars, date sheets and results"; m.d = "Every CBSE circular, date sheet, syllabus change and result in one list, newest first, with older notices archived separately."; m.bc = [["Updates", "/updates"]];
+    if (uc){ m.t = "CBSE " + uc[1] + ", newest first"; m.d = uc[2]; m.bc.push(["CBSE " + uc[1], "/updates/" + r.arg]); }
+    else if (up.cls){ m.t = "CBSE notices that name Class " + up.cls; m.d = "Circulars, date sheets, syllabus changes and results that name Class " + up.cls + " in the CBSE notice title, with the official link for each and older notices archived."; m.bc.push(["Class " + up.cls, "/updates/class-" + up.cls]); }
+    else if (r.arg){ m.t = "Page not found"; m.ni = true; m.bc = null; }
     if (r.arg && ST.loaded && (up.type || up.cls)){ var uf = uFilter(up, true); if (!uf.cur.length && !uf.arc.length) m.ni = true; }
   }
   else if (name === "notice"){
     var x = findNotice(r.arg);
     if (x){
       var nt = x.title.replace(/\s+([:;,])/g, "$1").replace(/\s+/g, " ").trim(), tl = typeOf(x).label;
-      var ntt = nt.length > 100 ? nt.slice(0, 100).replace(/\s+\S*$/, "") + "\u2026" : nt;
-      m.t = ntt + " | " + (nt.length > 60 ? "" : (/cbse/i.test(nt) ? "" : "CBSE ") + tl + " | ") + "GraphPaper";
+      var ntt = nt.length > 90 ? nt.slice(0, 90).replace(/\s+\S*$/, "") + "…" : nt;
+      m.t = ntt;
       m.d = x.summary || (tl + " from CBSE dated " + fmt(x.date) + ": " + nt + ". Official link, publish date and related NCERT books, syllabus and papers.");
       m.art = x; m.bc = [["Updates", "/updates"], [nt, "/notice/" + (x.slug || x.id)]];
-    } else { m.t = "Notice | GraphPaper"; m.ni = true; }
+    } else { m.t = "Notice not found"; m.ni = true; }
   }
-  else if (name === "streams"){ m.t = "CBSE Class " + r.cls + ": choose Science, Commerce or Humanities | GraphPaper"; m.d = "Pick your Class " + r.cls + " stream to see its NCERT books, syllabus" + (r.cls === "12" ? ", sample papers" : "") + " and question bank, each linked from the official sources."; m.bc = [["Class " + r.cls, "/class-" + r.cls]]; }
+  else if (name === "streams"){ m.t = "Class " + r.cls + ": Science, Commerce or Humanities?"; m.d = "Pick your Class " + r.cls + " stream to see its NCERT books, syllabus" + (r.cls === "12" ? ", sample papers" : "") + " and question bank."; m.bc = [["Class " + r.cls, "/class-" + r.cls]]; }
   else if (name === "class"){ var pp = (n === 10 || n === 12), sy = n >= 9;
-    m.t = sy ? "CBSE " + cn + " 2026-27: Syllabus, " + (pp ? "Papers, " : "") + "NCERT Books, Notices | GraphPaper" : "NCERT books for " + cn + ": chapter list and downloads | GraphPaper";
-    m.d = sy ? classIntro(n, c).split(". ")[0].replace(/\.$/, "") + ". Official 2026-27 syllabus, " + (pp ? "sample papers, previous years\u2019 papers, " : "") + "NCERT books and the latest CBSE notices." : "Every NCERT book for " + cn + ", chapter by chapter, with a printable book list and a guide for parents.";
+    m.t = sy ? (pp ? cn + " boards: syllabus, sample papers and past papers" : cn + " syllabus, NCERT books and question bank") : "NCERT books for " + cn + ", chapter by chapter";
+    if (bs.nb) m.d = sy ? cn + " has " + plu(bs.nb, "NCERT book") + (bs.ns ? " in " + plu(bs.ns, "subject") : "") + " with " + bs.nch + " chapter PDFs, plus the 2026-27 syllabus, " + (pp ? "CBSE sample papers, past board papers" : "a question bank") + " and recent CBSE notices." : "All " + plu(bs.nb, "NCERT book") + " for " + cn + " with " + bs.nch + " chapter titles and PDFs, a printable book list and a short guide for parents.";
+    else m.d = sy ? cn + " syllabus, NCERT books and recent CBSE notices, each linked to the official file." : "Every NCERT book for " + cn + ", chapter by chapter, with a printable book list.";
     if (!r.cls) m.ni = true; m.bc = [[cn, classBase(c)]]; }
-  else if (name === "books"){ m.t = cn + " NCERT Books 2026-27: Chapter-wise PDFs | GraphPaper"; m.d = "Chapter-wise NCERT PDFs for " + cn + ", linked from the official NCERT site, with a whole-book download for each."; m.bc = [[cn, classBase(c)], ["NCERT books", classBase(c) + "/books"]]; }
-  else if (name === "booklist"){ m.t = cn + " NCERT Book List: All Textbooks & Chapters | GraphPaper"; m.d = "A printable checklist of every NCERT textbook for " + cn + " (CBSE), with chapter titles and download links."; m.bc = [[cn, classBase(c)], ["Book list", classBase(c) + "/book-list"]]; }
-  else if (name === "syllabus"){ m.t = "CBSE " + cn + " Syllabus 2026-27 (Official PDF) | GraphPaper"; m.d = "Official CBSE syllabus PDFs for " + cn + ", session 2026-27, subject by subject."; if (n < 9) m.ni = true; m.bc = [[cn, classBase(c)], ["Syllabus", classBase(c) + "/syllabus"]]; }
-  else if (name === "papers"){ m.t = "CBSE " + cn + " Sample Papers & Previous Year Papers | GraphPaper"; m.d = "Official CBSE sample papers with marking schemes and past board question papers for " + cn + "."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Papers", classBase(c) + "/papers"]]; }
-  else if (name === "sqp"){ m.t = "CBSE " + cn + " Sample Papers 2026-27 with Marking Schemes | GraphPaper"; m.d = "Official CBSE sample question papers and marking schemes for " + cn + ", session 2026-27, subject by subject, linked from CBSE."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Sample papers", classBase(c) + "/sample-papers"]]; }
-  else if (name === "pyq"){ m.t = "CBSE " + cn + " Previous Year Question Papers (Board Papers) | GraphPaper"; m.d = "Past CBSE board exam question papers for " + cn + ", year by year, including the second exam where CBSE held one. Files open on CBSE's own site."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Previous year papers", classBase(c) + "/previous-year-papers"]]; }
-  else if (name === "qbank"){ m.t = "CBSE " + cn + " Question Bank & NCERT Exemplar | GraphPaper"; m.d = "CBSE question bank, practice questions and NCERT Exemplar problems for " + cn + "."; if (n < 6) m.ni = true; m.bc = [[cn, classBase(c)], ["Question bank", classBase(c) + "/question-bank"]]; }
-  else if (name === "calculator"){ m.t = "Percentage and CGPA calculator for CBSE students | GraphPaper"; m.bc = [["Calculator", "/calculator"]]; m.d = "Work out your percentage from your marks, or convert CGPA to percentage using CBSE's own 9.5 rule. Free, and nothing is saved or sent."; }
+  else if (name === "books"){ m.t = cn + " NCERT textbooks with chapter-wise PDFs";
+    m.d = bs.nb ? "All " + plu(bs.nb, "NCERT book") + " for " + cn + (bs.ns ? ", grouped into " + plu(bs.ns, "subject") : "") + ", with " + bs.nch + " chapter PDFs and a whole-book download for each. Files open on ncert.nic.in." : "Chapter-wise NCERT PDFs for " + cn + ", linked from the NCERT site.";
+    m.bc = [[cn, classBase(c)], ["NCERT books", classBase(c) + "/books"]]; }
+  else if (name === "booklist"){ m.t = "Printable NCERT book list for " + cn;
+    m.d = bs.nb ? "A checklist of the " + plu(bs.nb, "NCERT book") + " for " + cn + " with all " + bs.nch + " chapter titles, ready to print." : "A printable checklist of the NCERT books for " + cn + ", with chapter titles.";
+    m.bc = [[cn, classBase(c)], ["Book list", classBase(c) + "/book-list"]]; }
+  else if (name === "syllabus"){ m.t = cn + " CBSE syllabus for 2026-27, subject by subject";
+    var sg = 0; try { SYL.parts[SYLKEY[c]].groups.forEach(function(g){ sg += g.items.length; }); } catch(e){}
+    m.d = sg ? "Official 2026-27 syllabus PDFs for " + plu(sg, "subject") + " at the " + (n >= 11 ? "Class 11 and 12 level (CBSE publishes both years in one document)" : "Class " + n + " level") + ", linked from cbseacademic.nic.in." : "Official CBSE syllabus PDFs for " + cn + ", session 2026-27.";
+    if (n < 9) m.ni = true; m.bc = [[cn, classBase(c)], ["Syllabus", classBase(c) + "/syllabus"]]; }
+  else if (name === "papers"){ m.t = cn + " sample and past board papers"; m.d = "Sample papers with marking schemes and earlier board question papers for " + cn + ", each file hosted by CBSE."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Papers", classBase(c) + "/papers"]]; }
+  else if (name === "sqp"){ m.t = cn + " sample papers with marking schemes";
+    var sq = 0; try { sq = PAP.sqp[rm].items.length; } catch(e){}
+    m.d = sq ? "Sample question papers and marking schemes for " + plu(sq, "subject") + " of " + cn + ", session 2026-27, linked from cbseacademic.nic.in." : "Official CBSE sample question papers and marking schemes for " + cn + ", session 2026-27.";
+    if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Sample papers", classBase(c) + "/sample-papers"]]; }
+  else if (name === "pyq"){ m.t = cn + " board question papers from earlier years";
+    var ys = []; try { ys = Object.keys(PAP.pyq[rm]).sort(); } catch(e){}
+    m.d = ys.length ? "Board exam question papers for " + cn + " from " + ys[0] + " to " + ys[ys.length - 1] + ", including the second exam where CBSE held one. Files open on CBSE’s own site." : "Past CBSE board exam question papers for " + cn + ", year by year. Files open on CBSE’s own site.";
+    if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Previous year papers", classBase(c) + "/previous-year-papers"]]; }
+  else if (name === "qbank"){ m.t = "Practice questions for " + cn + " from CBSE and NCERT Exemplar";
+    var qp = []; try {
+      if (QB.cbse[c]) qp.push(plu(QB.cbse[c].length, "CBSE question bank PDF"));
+      if (QB.items[c]) qp.push("competency-based questions for " + plu(QB.items[c].length, "subject"));
+      if (QB.ex[c]) qp.push("NCERT Exemplar problems for " + plu(QB.ex[c].length, "subject"));
+    } catch(e){}
+    m.d = qp.length ? cn + " practice material: " + qp.join(", ") + ". Everything opens on the CBSE or NCERT site." : "CBSE question bank, practice questions and NCERT Exemplar problems for " + cn + ".";
+    if (n < 6) m.ni = true; m.bc = [[cn, classBase(c)], ["Question bank", classBase(c) + "/question-bank"]]; }
+  else if (name === "calculator"){ m.t = "Marks to percentage and CGPA calculator"; m.bc = [["Calculator", "/calculator"]]; m.d = "Work out your percentage from your marks, or convert CGPA to percentage using CBSE's own 9.5 rule. Free, and nothing is saved or sent."; }
   else if (name === "chapter"){
     var ch = chapterOf(r); m.ni = true;
-    if (ch){ m.t = (ch.h[1] || ch.b.label + " " + ch.h[0]) + " | Class " + ch.b.cls + " " + foldOf(ch.b) + " | GraphPaper"; m.d = "Official NCERT PDF for Class " + ch.b.cls + " " + foldOf(ch.b) + ", " + ch.b.label + " " + ch.h[0] + ", with the next chapter and the whole-book download."; } else m.t = "Chapter not found | GraphPaper";
+    if (ch){ m.t = (ch.h[1] || ch.b.label + " " + ch.h[0]) + " | Class " + ch.b.cls + " " + foldOf(ch.b); m.d = "Official NCERT PDF for Class " + ch.b.cls + " " + foldOf(ch.b) + ", " + ch.b.label + " " + ch.h[0] + ", with the next chapter and the whole-book download."; } else m.t = "Chapter not found";
   }
   else if (name === "subject"){
     var sf = subjectOf(r);
     if (sf){
       var pp2 = (n === 10 || n === 12), sn = sf === "Mathematics" ? "Maths" : sf, nch = 0;
       classBooks(c).forEach(function(b){ if (foldOf(b) === sf && streamOk(b)) nch += b.ch.length; });
-      m.t = "CBSE Class " + c + " " + sn + (pp2 ? " Syllabus, NCERT Book & Papers 2026-27" : " Syllabus & NCERT Book 2026-27") + " | GraphPaper";
+      m.t = pp2 ? "Class " + c + " " + sn + " for the board exam: chapters and papers" : "Class " + c + " " + sn + " chapters, syllabus and practice";
       m.bc = (n < 11 ? [["Class " + c, "/class-" + c]] : []).concat([[sf, "/class-" + c + "/" + r.arg]]); m.col = true;
-      m.d = "CBSE Class " + c + " " + sf + " 2026-27: " + (nch ? nch + " NCERT chapters with PDF links, " : "") + "syllabus, " + (pp2 ? "sample papers with marking schemes and previous-year board papers." : "question bank and NCERT Exemplar practice.");
-    } else { m.t = "Subject not found | GraphPaper"; m.ni = true; }
+      m.d = "Class " + c + " " + sf + ": " + (nch ? nch + " NCERT chapters with PDF links, " : "") + "the 2026-27 syllabus, " + (pp2 ? "sample papers with marking schemes and earlier board papers." : "question bank and NCERT Exemplar practice.");
+    } else { m.t = "Subject not found"; m.ni = true; }
   }
-  else if (name === "board"){ var b = BOARDS[r.arg] ? r.arg : "CBSE"; m.t = b + " notices | GraphPaper"; m.d = BOARDS[b].soon ? D0 : "Latest " + b + " circulars, date sheets, syllabus changes and results."; if (BOARDS[b].soon) m.ni = true; }
-  else if (name === "parents"){ m.t = "CBSE for parents: Classes 1 to 8 explained | GraphPaper"; m.d = "Plain answers for parents of children in Classes 1 to 8: school stages, board exams, holding back, and the Holistic Progress Card, with official sources."; m.bc = [["For parents", "/parents"]]; }
-  else if (name === "about"){ m.t = "About GraphPaper: a free guide to CBSE and NCERT | GraphPaper"; m.d = "GraphPaper brings NCERT books, the CBSE syllabus, papers and official notices together for Class 1 to 12, with links to the official sources only."; }
-  else if (name === "contact"){ m.t = "Contact GraphPaper: report a wrong notice or send an idea"; m.d = "Write to GraphPaper to report a wrong or missing CBSE notice, ask a question or suggest a feature."; }
-  else if (name === "disclaimer"){ m.t = "Disclaimer | GraphPaper: independent, not an official board website"; m.d = "GraphPaper is independent and not affiliated with CBSE or NCERT. Always confirm notices and dates at the official source."; }
-  else if (name === "terms"){ m.t = "Terms of use | GraphPaper"; m.d = "The terms for using GraphPaper: an independent site that links to official CBSE and NCERT sources and is not an official board website."; }
-  else if (name === "privacy"){ m.t = "Privacy | GraphPaper: no accounts, nothing collected"; m.d = "What GraphPaper stores on your device (your class and progress ticks) and what it does not collect."; }
-  else if (name === "notfound"){ m.t = "Page not found | GraphPaper"; m.ni = true; }
+  else if (name === "board"){ var b = BOARDS[r.arg] ? r.arg : "CBSE"; m.t = b + " notices"; m.d = BOARDS[b].soon ? D0 : "Latest " + b + " circulars, date sheets, syllabus changes and results."; if (BOARDS[b].soon) m.ni = true; }
+  else if (name === "parents"){ m.t = "Classes 1 to 8 explained for parents"; m.d = "Plain answers for parents of children in Classes 1 to 8: school stages, board exams, holding back, and the Holistic Progress Card, with official sources."; m.bc = [["For parents", "/parents"]]; }
+  else if (name === "about"){ m.t = "About GraphPaper"; m.d = "GraphPaper brings NCERT books, the CBSE syllabus, papers and official notices together for Class 1 to 12, with links to the official sources only."; }
+  else if (name === "contact"){ m.t = "Contact GraphPaper"; m.d = "Write to GraphPaper to report a wrong or missing CBSE notice, ask a question or suggest a feature."; }
+  else if (name === "disclaimer"){ m.t = "Disclaimer: GraphPaper is not CBSE or NCERT"; m.d = "GraphPaper is independent and not affiliated with CBSE or NCERT. Always confirm notices and dates at the official source."; }
+  else if (name === "terms"){ m.t = "Terms of use"; m.d = "The terms for using GraphPaper: an independent site that links to official CBSE and NCERT sources and is not an official board website."; }
+  else if (name === "privacy"){ m.t = "Privacy: no accounts, nothing collected"; m.d = "What GraphPaper stores on your device (your class and progress ticks) and what it does not collect."; }
+  else if (name === "notfound"){ m.t = "Page not found"; m.ni = true; }
   return m;
 }
 function setMeta(name, r){
@@ -633,6 +663,7 @@ function setMeta(name, r){
   if (r.q && name === "home" && r.q.get("s")) url = SITE + "/";
   function el(sel, tag, attrs){ var e = $(sel); if (!e){ e = D.createElement(tag); for (var k in attrs) e.setAttribute(k, attrs[k]); D.head.appendChild(e); } return e; }
   if (m.d.length > 165){ m.d = m.d.slice(0, 162).replace(/[\s,;:.\-]+\S*$/, "") + "\u2026"; }
+  if (m.t.length <= 50 && m.t.indexOf("GraphPaper") < 0) m.t += " | GraphPaper";
   D.title = m.t;
   el('meta[name="description"]', "meta", {name:"description"}).setAttribute("content", m.d);
   if (name === "notfound"){ var cn0 = $('link[rel="canonical"]'); if (cn0) cn0.parentNode.removeChild(cn0); }
@@ -691,7 +722,24 @@ function markNav(name){
 }
 /* While data is still arriving the footer is kept out of sight, so a page that briefly gets shorter does not pull it up into view and then push it back down. */
 function setBusy(){ D.documentElement.classList.toggle("gp-busy", !(ST.booksLoaded && ST.loaded && !ST.inflight)); }
+/* Back and forward: remember where each page was scrolled to and go back to that spot (the browser cannot do it itself, because the page is drawn by script). */
+try { history.scrollRestoration = "manual"; } catch(e){}
+var SCR = {}, POP = false, scrT = 0, scrStop = false;
+try { SCR = JSON.parse(sessionStorage.getItem("gp-scr") || "{}") || {}; } catch(e){}
+function scrKey(){ return location.pathname + location.search; }
+function scrSave(){ SCR[scrKey()] = Math.round(window.scrollY); try { sessionStorage.setItem("gp-scr", JSON.stringify(SCR)); } catch(e){} }
+function restoreScroll(y){
+  scrStop = false; var t0 = Date.now();
+  (function tick(){
+    if (scrStop) return;
+    window.scrollTo(0, y);
+    if (Math.abs(window.scrollY - y) > 2 && Date.now() - t0 < 3000) requestAnimationFrame(tick);
+  })();
+}
+window.addEventListener("scroll", function(){ clearTimeout(scrT); scrT = setTimeout(scrSave, 120); }, {passive: true});
+["touchstart", "wheel", "keydown"].forEach(function(ev){ window.addEventListener(ev, function(){ scrStop = true; }, {passive: true}); });
 function route(keepScroll){
+  var pop = POP; POP = false;
   var r = parse(), name = r.name;
   if (r.cls){ syncFromPath(r); r = parse(); name = r.name; }
   else if (name === "updates" && /^class-(9|1[0-2])$/.test(r.arg || "") && r.arg.slice(6) !== ST.cls) setClass(r.arg.slice(6));
@@ -719,7 +767,8 @@ function route(keepScroll){
   setMeta(name, r);
   if (!keepScroll){
     var s = r.q.get("s"), tgt = s && D.getElementById(s);
-    if (tgt) tgt.scrollIntoView({behavior: "smooth"}); else window.scrollTo(0, 0);
+    var back = pop && SCR[scrKey()] > 0 ? SCR[scrKey()] : 0;
+    if (tgt) tgt.scrollIntoView({behavior: "smooth"}); else if (back) restoreScroll(back); else window.scrollTo(0, 0);
     var pg = $("#pg"); if (pg && !tgt) pg.focus({preventScroll:true});
   }
 }
@@ -811,6 +860,6 @@ D.addEventListener("click", function(e){
   var h = a.getAttribute("href"); if (!h || h.charAt(0) !== "/" || h.charAt(1) === "/" || /\.(xml|json|pdf|zip|html)(\?|$)/i.test(h)) return;
   e.preventDefault(); go(h);
 });
-window.addEventListener("popstate", function(){ route(); });
+window.addEventListener("popstate", function(){ clearTimeout(scrT); POP = true; route(); });
 window.addEventListener("hashchange", function(){ if (/^#\//.test(location.hash)) go(toPath(location.hash), true); });
 
