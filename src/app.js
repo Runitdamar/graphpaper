@@ -193,12 +193,12 @@ VIEWS.booklist = function(){
         nb++; nc += b.ch.length;
         var titles = b.ch.map(function(h){ return h[1]; }).filter(Boolean);
         var outline = titles.length === b.ch.length ? '<div class="bko">' + titles.map(esc).join(' \u00b7 ') + '</div>' : '';
-        return '<div class="bkrow"><span class="bkbox" aria-hidden="true">\u2610</span><div class="bkmain"><div class="bkt">' + esc(b.title) + '</div><div class="bkm"><span>' + esc(b.code) + '</span><span>' + b.ch.length + ' ' + b.label.toLowerCase() + (b.ch.length === 1 ? '' : 's') + '</span></div>' + outline + '<div class="noprint bka">' + (b.zip ? '<a class="fpill dl" href="' + BBASE + b.zip + '" target="_blank" rel="noopener">Whole book ZIP' + (b.mb ? ' \u00b7 ' + b.mb + ' MB' : '') + '</a>' : '') + '<a class="fpill alt" href="#/books">Chapters</a></div></div></div>';
+        return '<div class="bkrow"><div class="bkmain"><div class="bkt">' + esc(b.title) + '</div><div class="bkm"><span>' + esc(b.code) + '</span><span>' + b.ch.length + ' ' + b.label.toLowerCase() + (b.ch.length === 1 ? '' : 's') + '</span></div>' + outline + '<div class="noprint bka">' + (b.zip ? '<a class="fpill dl" href="' + BBASE + b.zip + '" target="_blank" rel="noopener">Whole book ZIP' + (b.mb ? ' \u00b7 ' + b.mb + ' MB' : '') + '</a>' : '') + '<a class="fpill alt" href="#/books">Chapters</a></div></div></div>';
       }).join("") + '</section>';
     }).join("");
-    body = '<div class="meta" style="margin-bottom:16px">' + nb + ' books \u00b7 ' + nc + ' chapters. Tick each book as you get it.</div><div style="display:flex;flex-direction:column;gap:22px">' + body + '</div>';
+    body = '<div class="meta" style="margin-bottom:16px">' + nb + ' books \u00b7 ' + nc + ' chapters.</div><div style="display:flex;flex-direction:column;gap:22px">' + body + '</div>';
   }
-  return '<div class="wrap sec" style="max-width:860px">' + crumb + '<div class="head"><div class="tile" style="background:var(--a1)">' + ico("list", 30) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Book list</h1><p>Every NCERT textbook for ' + cn + ', in one checklist. English-medium books plus the Hindi and Sanskrit language books.</p></div></div>' +
+  return '<div class="wrap sec" style="max-width:860px">' + crumb + '<div class="head"><div class="tile" style="background:var(--a1)">' + ico("list", 30) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">Book list</h1><p>Every NCERT textbook for ' + cn + ', in one list. English-medium books plus the Hindi and Sanskrit language books.</p></div></div>' +
    '<div class="noprint" style="margin-bottom:20px"><button class="btn dark" type="button" data-act="print">Print this list</button></div>' + body +
    '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">Your school may use other books as well, so check its list.</p></div>';
 };
@@ -241,7 +241,7 @@ function shelfCard(bg, icon, title, text, href){
 function homeShelf(c){
   var n = +c, hi = n >= 11, tag = (hi ? ' ' + ST.stream : '');
   var cards = shelfCard("--a3", "book", "NCERT books", n <= 8 ? "Every book for Class " + c + ", chapter by chapter" : "Class " + c + tag + ", subject by subject", "#/books") +
-    shelfCard("--a1", "doc", "Book list", "A printable checklist with chapter titles", "#/booklist");
+    shelfCard("--a1", "doc", "Book list", "A printable list with chapter titles", "#/booklist");
   if (n <= 8) cards += shelfCard("--a4", "news", "For parents", "How school stages, exams and report cards work", "#/parents");
   if (n >= 9) cards += shelfCard("--a2", "doc", "Syllabus", "Official 2026-27 syllabus for Class " + c, "#/syllabus");
   if (n === 10 || n === 12) cards += shelfCard("--a4", "doc", "Papers", "CBSE sample papers and past board papers", "#/papers");
@@ -281,7 +281,7 @@ VIEWS["class"] = function(){
   var desc = 'Chapter-wise PDFs for ' + (nb ? 'all ' + nb + ' books of ' : '') + 'Class ' + c + (hasStreams(n) ? ' ' + ST.stream : '') + ', linked from the official NCERT site' + (hasFolders(c) ? ', plus a whole-book download for each.' : '.');
   subs = card("NCERT books", !nb && ST.booksLoaded ? "" : '#/books', ico("book"), "--a3", desc);
   var streams = hi ? '<a href="#/welcome" class="pill" style="background:var(--a3);padding:6px 16px;font-size:15px">' + ST.stream + ' \u00b7 Change</a>' : '';
-  var more0 = card("Book list", nb ? '#/booklist' : "", ico("doc"), "--a1", 'A printable checklist of every NCERT book for Class ' + c + (hi ? ' ' + ST.stream : '') + ', with its chapter titles.');
+  var more0 = card("Book list", nb ? '#/booklist' : "", ico("doc"), "--a1", 'A printable list of every NCERT book for Class ' + c + (hi ? ' ' + ST.stream : '') + ', with its chapter titles.');
   function lk(t, h, col, d){ return '<a class="card" href="' + h + '" style="--sh:var(' + col + ')"><h3 style="font-size:22px">' + t + '</h3><div class="meta">' + d + '</div><span class="more">Open \u2192</span></a>'; }
   var more = "";
   if (n <= 8) more += lk("For parents", "#/parents", "--a5", "How school stages, exams, holding back and report cards work, from official documents.");
@@ -560,9 +560,10 @@ function parse(){
   return r;
 }
 function go(p, replace){
+  var inUp = /^\/updates(\/|$)/.test(location.pathname) && /^\/updates(\/|$)/.test(p.split("?")[0]);
   clearTimeout(scrT); if (!replace) scrSave();
   history[replace ? "replaceState" : "pushState"](null, "", p);
-  route();
+  route(inUp && !replace);
 }
 function rewriteLinks(){
   var as = D.querySelectorAll('a[href^="#/"], a[data-h]');
@@ -609,7 +610,7 @@ function pageMeta(name, r){
     m.d = bs.nb ? "All " + plu(bs.nb, "NCERT book") + " for " + cn + (bs.ns ? ", grouped into " + plu(bs.ns, "subject") : "") + ", with " + bs.nch + " chapter PDFs and a whole-book download for each. Files open on ncert.nic.in." : "Chapter-wise NCERT PDFs for " + cn + ", linked from the NCERT site.";
     m.bc = [[cn, classBase(c)], ["NCERT books", classBase(c) + "/books"]]; }
   else if (name === "booklist"){ m.t = "Printable NCERT book list for " + cn;
-    m.d = bs.nb ? "A checklist of the " + plu(bs.nb, "NCERT book") + " for " + cn + " with all " + bs.nch + " chapter titles, ready to print." : "A printable checklist of the NCERT books for " + cn + ", with chapter titles.";
+    m.d = bs.nb ? "A list of the " + plu(bs.nb, "NCERT book") + " for " + cn + " with all " + bs.nch + " chapter titles, ready to print." : "A printable list of the NCERT books for " + cn + ", with chapter titles.";
     m.bc = [[cn, classBase(c)], ["Book list", classBase(c) + "/book-list"]]; }
   else if (name === "syllabus"){ m.t = cn + " CBSE syllabus for 2026-27, subject by subject";
     var sg = 0; try { SYL.parts[SYLKEY[c]].groups.forEach(function(g){ sg += g.items.length; }); } catch(e){}
