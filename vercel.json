@@ -416,6 +416,11 @@
       "source": "/notice/cbse-83a0abbebd",
       "destination": "/notice/reminder-6-today-is-the-last-date-for-the-submission-of-loc-reg",
       "permanent": true
+    },
+    {
+      "source": "/notice/cbse-4aeb5f24e4",
+      "destination": "/notice/scheme-of-studies-for-class-ix-2026-27-reg",
+      "permanent": true
     }
   ],
   "rewrites": [
