@@ -817,7 +817,7 @@ D.addEventListener("click", function(e){
   else if (a === "wc"){ ST.wc = v; route(true); var wa = $("#app"); wa.dataset.c = v; if (+v >= 9) wa.dataset.s = "1"; else delete wa.dataset.s; }
   else if (a === "copyfeed"){ var fu = $("#feedurl").textContent, cm = $("#copymsg"); if (navigator.clipboard) navigator.clipboard.writeText(fu).then(function(){ cm.textContent = "Copied."; }, function(){ cm.textContent = "Press and hold the address to copy it."; }); else cm.textContent = "Press and hold the address to copy it."; }
   else if (a === "wgo"){ var we = $("#werr"); if (!ST.wc){ we.textContent = "Please pick your class first."; we.hidden = false; return; } if (hasStreams(ST.wc) && !ST.ws){ we.textContent = "Please pick your stream first."; we.hidden = false; return; } setClass(ST.wc); if (hasStreams(ST.wc)) setStream(ST.ws); go("/"); }
-  else if (a === "sxchip"){ var qi = $("#sxq"); if (qi) qi.value = v; sxFilter(v); var rs = $("#resources"); if (rs) rs.scrollIntoView({behavior: "smooth"}); }
+  else if (a === "sxchip"){ if (!$("#resources")){ ST.sxq = v; go(toPath("#/class")); return; } var qi = $("#sxq"); if (qi) qi.value = v; sxFilter(v); var rs = $("#resources"); if (rs) rs.scrollIntoView({behavior: "smooth"}); }
   else if (a === "ut"){ ST.type = v; route(true); }
   else if (a === "uf"){ var uk = el.dataset.k; ST[uk] = ST[uk] === v ? "" : v; route(true); }
   else if (a === "ws"){ ST.ws = v; route(true); }
@@ -862,4 +862,4 @@ D.addEventListener("click", function(e){
 });
 window.addEventListener("popstate", function(){ clearTimeout(scrT); POP = true; route(); });
 window.addEventListener("hashchange", function(){ if (/^#\//.test(location.hash)) go(toPath(location.hash), true); });
-
+D.addEventListener("keydown", function(e){ if (e.key === "Enter" && e.target.id === "sxq" && !$("#resources")){ e.preventDefault(); ST.sxq = e.target.value; go(toPath("#/class")); } });
