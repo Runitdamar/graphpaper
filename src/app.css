@@ -263,6 +263,7 @@ a.sx-tag:hover svg{color:var(--paper)}
 .sx-ad h2{font-size:clamp(22px,3.4vw,28px)!important;margin:0 0 6px!important}
 .sx-ad p{margin:0;color:var(--mut);max-width:56ch}
 .r[data-s] .sx-ad .btn{background:var(--deep);color:var(--paper);border-color:var(--deep);flex:none}
+.sx-fine.sx-offl{margin-top:10px;padding-top:0;border-top:0}.sx-offl a{text-decoration:underline;text-underline-offset:3px;font-weight:700}
 .wst{display:grid;grid-template-columns:1fr;gap:10px}
 @media (min-width:560px){.wst{grid-template-columns:repeat(3,1fr)}}
 /* artwork motion */
