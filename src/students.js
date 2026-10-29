@@ -96,8 +96,8 @@ function studentShelf(c){
 }
 /* One ad slot, used on every Class 9 to 12 home page. Change the text or link here. */
 var CAMPUS = {label: "From the GraphPaper team", head: "Is your school’s website out of date?", text: "Campus builds and looks after school websites, with notices, circulars, events and admissions kept up to date.", cta: "See Campus", url: "https://campus.graphpaper.co.in/"};
-function campusAd(){
-  return '<section class="sx-sec"><div class="wrap"><aside class="sx-ad" aria-label="Campus, school websites"><div><span class="sx-adl">' + CAMPUS.label + '</span><h2>' + CAMPUS.head + '</h2><p>' + CAMPUS.text + '</p></div><a class="btn" href="' + CAMPUS.url + '" target="_blank" rel="noopener">' + CAMPUS.cta + '</a></aside></div></section>';
+function campusAd(n){
+  return '<section class="sx-sec"><div class="wrap"><aside class="sx-feat" aria-label="Campus, school websites"><div><span class="sx-adl">' + CAMPUS.label + '</span><h2>' + CAMPUS.head + '</h2><p>' + CAMPUS.text + '</p><a class="btn" href="' + CAMPUS.url + '" target="_blank" rel="noopener">' + CAMPUS.cta + '</a></div><svg class="sx-lv sx-lv' + n + '" viewBox="0 0 24 24" aria-hidden="true">' + SXMARK[n] + '</svg></aside></div></section>';
 }
 function studentHome(c){
   var n = +c, hi = n >= 11, P = SXP[n], cn = "Class " + n, two = n === 10 || n === 12;
@@ -117,7 +117,7 @@ function studentHome(c){
     trackerSection(c) +
     '<section class="sx-sec" id="notices"><div class="wrap"><h2>Latest notices</h2><p class="sx-lead">Each notice shows its date and links to the original document.</p><ul class="sx-nl">' + rows + '</ul><p class="sx-note"><a class="sx-chg" href="#/updates/class-' + n + '">See every notice that mentions ' + cn + '</a></p></div></section>' +
     '<section class="sx-sec"><div class="wrap"><h2>On the study shelf</h2><div class="sx-ql" style="margin-top:14px">' + jump + '</div></div></section>' +
-    campusAd() + '<div style="height:8px"></div>';
+    campusAd(n) + '<div style="height:8px"></div>';
 }
 function homeReturning(){
   var c = ST.cls;
