@@ -1,6 +1,6 @@
 {
 "/": [
-"c0df896f128e",
+"f408ffec8167",
 "2026-10-30"
 ],
 "/about": [
@@ -8,28 +8,28 @@
 "2026-10-29"
 ],
 "/calculator": [
-"f639ecd9630b",
-"2026-10-29"
+"3ba6a2c389b2",
+"2026-10-30"
 ],
 "/class-1": [
-"e48888010b7e",
-"2026-10-29"
+"9c57a8331b32",
+"2026-10-30"
 ],
 "/class-1/book-list": [
-"39bda0047a5b",
-"2026-10-29"
+"ddaf2c3d85f3",
+"2026-10-30"
 ],
 "/class-1/books": [
 "be36cad39d35",
 "2026-10-29"
 ],
 "/class-10": [
-"7e8b81cd7ab3",
-"2026-10-29"
+"1623c9b7516b",
+"2026-10-30"
 ],
 "/class-10/book-list": [
-"ecf2af5f279e",
-"2026-10-29"
+"1ee8536c4b69",
+"2026-10-30"
 ],
 "/class-10/books": [
 "6ffb2ae1124e",
@@ -96,12 +96,12 @@
 "2026-10-29"
 ],
 "/class-11/commerce": [
-"66b9b0e70379",
-"2026-10-29"
+"f0a5d358fe03",
+"2026-10-30"
 ],
 "/class-11/commerce/book-list": [
-"60fa32c3b59d",
-"2026-10-29"
+"60895db8d360",
+"2026-10-30"
 ],
 "/class-11/commerce/books": [
 "f64bf4466149",
@@ -136,12 +136,12 @@
 "2026-10-29"
 ],
 "/class-11/humanities": [
-"d94258751f23",
-"2026-10-29"
+"f7417b70965a",
+"2026-10-30"
 ],
 "/class-11/humanities/book-list": [
-"83a59f29577e",
-"2026-10-29"
+"1a1b5503978e",
+"2026-10-30"
 ],
 "/class-11/humanities/books": [
 "70479d65493c",
@@ -172,12 +172,12 @@
 "2026-10-29"
 ],
 "/class-11/science": [
-"4bc88080ed01",
-"2026-10-29"
+"3937fc88d7dd",
+"2026-10-30"
 ],
 "/class-11/science/book-list": [
-"2662aec68a57",
-"2026-10-29"
+"1aabe9b29e3e",
+"2026-10-30"
 ],
 "/class-11/science/books": [
 "29d7e33b39db",
@@ -216,12 +216,12 @@
 "2026-10-29"
 ],
 "/class-12/commerce": [
-"8929d2498cb6",
-"2026-10-29"
+"483f9e6ed0e3",
+"2026-10-30"
 ],
 "/class-12/commerce/book-list": [
-"72bb9f8c2c2d",
-"2026-10-29"
+"c8fa5c547af2",
+"2026-10-30"
 ],
 "/class-12/commerce/books": [
 "272808dc8e16",
@@ -268,12 +268,12 @@
 "2026-10-29"
 ],
 "/class-12/humanities": [
-"6326edc35a22",
-"2026-10-29"
+"9bd2f815e5d2",
+"2026-10-30"
 ],
 "/class-12/humanities/book-list": [
-"ce0edbd84d19",
-"2026-10-29"
+"de09010da47f",
+"2026-10-30"
 ],
 "/class-12/humanities/books": [
 "3a6fd59767e9",
@@ -316,12 +316,12 @@
 "2026-10-29"
 ],
 "/class-12/science": [
-"ce8a4724ddfa",
-"2026-10-29"
+"c4dbccf3dc62",
+"2026-10-30"
 ],
 "/class-12/science/book-list": [
-"fa787d08818b",
-"2026-10-29"
+"41a96f63c7f3",
+"2026-10-30"
 ],
 "/class-12/science/books": [
 "44db45fb4be4",
@@ -352,60 +352,60 @@
 "2026-10-29"
 ],
 "/class-2": [
-"9d4e031e9bbc",
-"2026-10-29"
+"3671c78ef5c3",
+"2026-10-30"
 ],
 "/class-2/book-list": [
-"7cd54f547eeb",
-"2026-10-29"
+"146c726a5611",
+"2026-10-30"
 ],
 "/class-2/books": [
 "ca011997436d",
 "2026-10-29"
 ],
 "/class-3": [
-"ffe33567ec20",
-"2026-10-29"
+"e2050ce7293a",
+"2026-10-30"
 ],
 "/class-3/book-list": [
-"765f9c573a8a",
-"2026-10-29"
+"0563b00d53da",
+"2026-10-30"
 ],
 "/class-3/books": [
 "d6acc810144c",
 "2026-10-29"
 ],
 "/class-4": [
-"eafac00db721",
-"2026-10-29"
+"ce124892d53c",
+"2026-10-30"
 ],
 "/class-4/book-list": [
-"d6e177ef3fbf",
-"2026-10-29"
+"00fb28234ef8",
+"2026-10-30"
 ],
 "/class-4/books": [
 "a99c32d4913e",
 "2026-10-29"
 ],
 "/class-5": [
-"df14a1653eee",
-"2026-10-29"
+"d439fa5faa48",
+"2026-10-30"
 ],
 "/class-5/book-list": [
-"a58237af5870",
-"2026-10-29"
+"b0c5fd1af37c",
+"2026-10-30"
 ],
 "/class-5/books": [
 "681e8b20b863",
 "2026-10-29"
 ],
 "/class-6": [
-"ae8456f40f6d",
-"2026-10-29"
+"6baaa0f4ef25",
+"2026-10-30"
 ],
 "/class-6/book-list": [
-"698a906314e8",
-"2026-10-29"
+"81bb74f1333e",
+"2026-10-30"
 ],
 "/class-6/books": [
 "cec17dd11c3d",
@@ -416,12 +416,12 @@
 "2026-10-29"
 ],
 "/class-7": [
-"77bb5aec43ab",
-"2026-10-29"
+"96e30be015f7",
+"2026-10-30"
 ],
 "/class-7/book-list": [
-"2116bd65d4df",
-"2026-10-29"
+"65c07deacb1b",
+"2026-10-30"
 ],
 "/class-7/books": [
 "7b76d5d65b10",
@@ -432,12 +432,12 @@
 "2026-10-29"
 ],
 "/class-8": [
-"5c8ef062ddb8",
-"2026-10-29"
+"8f61d99213e0",
+"2026-10-30"
 ],
 "/class-8/book-list": [
-"81c1034f6e00",
-"2026-10-29"
+"9b2f86379903",
+"2026-10-30"
 ],
 "/class-8/books": [
 "58a6473f879c",
@@ -448,12 +448,12 @@
 "2026-10-29"
 ],
 "/class-9": [
-"4ccdb3f57704",
-"2026-10-29"
+"14dfd6df6cd6",
+"2026-10-30"
 ],
 "/class-9/book-list": [
-"fa1e01e80aea",
-"2026-10-29"
+"de31c0366c71",
+"2026-10-30"
 ],
 "/class-9/books": [
 "81bd70aa04c9",
@@ -496,55 +496,55 @@
 "2026-10-29"
 ],
 "/notice/advisory-on-circulation-of-misleading-information-related-to-cbse": [
-"6cf0e85c626a",
+"385fc3e9c644",
 "2026-10-30"
 ],
 "/notice/advisory-on-procurement-of-genuine-ncert-textbooks": [
-"25cc1fa99db4",
+"3f39f5bfb7dc",
 "2026-10-30"
 ],
 "/notice/cbse-holds-live-q-a-webinar-on-registration-and-loc-for-board-examinations-2027": [
-"c3ada18ea24e",
+"ac2dca2171b0",
 "2026-10-30"
 ],
 "/notice/cbse-talkathon-on-nasha-mukt-yuva-for-viksit-bharat-reg": [
-"3839db61381b",
+"2f3e81c5dcf7",
 "2026-10-30"
 ],
 "/notice/clarification-on-totaling-of-marks-when-extra-questions-are-attempted-reg": [
-"9334a253c01f",
+"069788243cef",
 "2026-10-30"
 ],
 "/notice/date-sheet-for-class-xii-special-examinations-for-west-asia-2026": [
-"1574eb724470",
+"67f3e1abee9e",
 "2026-10-30"
 ],
 "/notice/datesheet-for-senior-secondary-supplementary-examination-2026": [
-"b833ffe8ff94",
+"075189e5c105",
 "2026-10-30"
 ],
 "/notice/dissemination-of-845-curriculum-aligned-virtual-labs-and-digital-resources": [
-"d7d10c32d222",
+"96b32915faa5",
 "2026-10-30"
 ],
 "/notice/extension-of-last-date-for-filling-examination-forms-for-private-candidates-for": [
-"8894ce301ddb",
+"8a181fb90e13",
 "2026-10-30"
 ],
 "/notice/extension-of-last-date-for-filling-list-of-candidates-loc-for-regular-students": [
-"49a9d3461650",
+"8e5a1f72f218",
 "2026-10-30"
 ],
 "/notice/guidelines-for-conducting-practical-examinations-with-the-supplementary": [
-"d4b8a59332c1",
+"099221f5e438",
 "2026-10-30"
 ],
 "/notice/issuance-of-admit-cards-for-supplementary-examinations-2026": [
-"4215b5b85e3d",
+"02613de71395",
 "2026-10-30"
 ],
 "/notice/most-urgent-public-notice": [
-"03106a343588",
+"4b58d1865f74",
 "2026-10-30"
 ],
 "/notice/notice-for-post-result-declaration-facilities-to-the-students-class-xii": [
@@ -552,15 +552,15 @@
 "2026-10-29"
 ],
 "/notice/notification-avoid-rumours": [
-"11264acafde8",
+"af914d8379a5",
 "2026-10-30"
 ],
 "/notice/online-submission-of-forms-by-private-candidates-of-class-xii-supplementary": [
-"1bbb3a68bc33",
+"6c739353b191",
 "2026-10-30"
 ],
 "/notice/online-submission-of-list-of-candidates-for-class-xii-supplementary-examination": [
-"420a40f9947b",
+"e11b88c37b30",
 "2026-10-30"
 ],
 "/notice/post-result-declaration-facilities-to-the-students-of-class-x-main-and-second": [
@@ -568,7 +568,7 @@
 "2026-10-29"
 ],
 "/notice/press-release-cbse-commences-release-of-class-xii-verification-of-issues": [
-"57dbd4ba8e3c",
+"7b7395dfda70",
 "2026-10-30"
 ],
 "/notice/press-release-cbse-declares-class-x-second-board-examination-results-2026": [
@@ -580,7 +580,7 @@
 "2026-10-29"
 ],
 "/notice/press-release-cbse-issues-guidelines-on-the-three-language-policy": [
-"3e954062810a",
+"8d40fab31bd2",
 "2026-10-30"
 ],
 "/notice/press-release-cbse-lodges-complaint-with-delhi-police-over-coordinated-cyber": [
@@ -588,67 +588,67 @@
 "2026-10-29"
 ],
 "/notice/press-release-regarding-verification-of-issues-observed-in-scanned-copies-of": [
-"e6f5cc8dbd91",
+"a2461527438e",
 "2026-10-30"
 ],
 "/notice/prior-intimation-of-submission-of-list-of-candidates-loc-for-class-x-xii": [
-"a6a3a868cf53",
+"97eda511a24d",
 "2026-10-30"
 ],
 "/notice/public-advisory-unauthorized-use-of-cbse-name-and-logo-on-social-media": [
-"d67793c76f80",
+"fe379030d355",
 "2026-10-30"
 ],
 "/notice/public-alert-access-of-practice-papers-from-cbse-official-website": [
-"cf6f5a0a1eb7",
+"27ee3e67ea36",
 "2026-10-30"
 ],
 "/notice/reminder-1-following-accuracy-and-timeliness-while-submitting-loc-for-class-x": [
-"b045fe051392",
+"f516afe7874e",
 "2026-10-30"
 ],
 "/notice/reminder-1-only-07-days-are-left-in-the-last-date-for-submission-of-loc-reg": [
-"8b0916cccce8",
+"6e935e513daa",
 "2026-10-30"
 ],
 "/notice/reminder-2-only-06-days-are-left-in-the-last-date-for-submission-of-loc-reg": [
-"5af7f9474bd0",
+"d7cc3595281a",
 "2026-10-30"
 ],
 "/notice/reminder-3-only-05-days-are-left-in-the-last-date-for-submission-of-loc-reg": [
-"7307c3d5e334",
+"c9fb392ea5b9",
 "2026-10-30"
 ],
 "/notice/revised-national-scholarship-portal-nsp-framework-for-academic-year-2026-27": [
-"1c3268f04926",
+"24a531860b04",
 "2026-10-30"
 ],
 "/notice/streamlining-the-process-of-corrections-in-the-demographic-details-reg": [
-"2e140490ef76",
+"384f58e5ad48",
 "2026-10-30"
 ],
 "/notice/submission-of-examination-forms-by-private-candidates-for-class-x-examinations": [
-"6c2b0576702c",
+"72b2354e5d32",
 "2026-10-30"
 ],
 "/notice/submission-of-examination-forms-by-private-candidates-for-senior-secondary": [
-"b5bbae6d8c63",
+"81ddf77a7fed",
 "2026-10-30"
 ],
 "/notice/submission-of-list-of-candidates-loc-for-class-x-and-class-xii-main": [
-"6cf0927de69f",
+"17d0ffb9bcd5",
 "2026-10-30"
 ],
 "/notice/submission-of-list-of-candidates-loc-for-class-xii-2026-special-examinations": [
-"aed51274b5a8",
+"5c4d026f963d",
 "2026-10-30"
 ],
 "/notice/urgent-advisory-alert-against-fraudulent-activity-of-wizcorp-edtech-pvt-ltd": [
-"a4055b197e0a",
+"b2e7b7d3517b",
 "2026-10-30"
 ],
 "/notice/verification-of-issues-observed-re-evaluation-class-xii-guidance-for-students": [
-"be11fcdea924",
+"762d68034620",
 "2026-10-30"
 ],
 "/parents": [
@@ -664,11 +664,11 @@
 "2026-10-25"
 ],
 "/updates": [
-"3c68884c4b04",
+"66aaed2a6ee2",
 "2026-10-30"
 ],
 "/updates/circulars": [
-"3fa9d782315c",
+"f37e701b766d",
 "2026-10-30"
 ],
 "/updates/class-10": [

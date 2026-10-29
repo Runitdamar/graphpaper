@@ -74,7 +74,7 @@ function studentShelf(c){
   var res = [
     ["list", "Syllabus", "#/syllabus", "Official 2026-27 CBSE syllabus for every subject of " + cn + (hi ? " (one PDF covers Class 11 and 12)" : "") + "."],
     ["book", "NCERT books", nb || !ST.booksLoaded ? "#/books" : "", "Chapter-wise PDFs for " + (nb ? "all " + nb + " books of " : "") + cs + ", linked from the official NCERT site, plus a whole-book download for each."],
-    ["list", "Book list", nb ? "#/booklist" : "", "A printable checklist of every NCERT book for " + cs + ", with its chapter titles."]
+    ["list", "Book list", nb ? "#/booklist" : "", "A printable list of every NCERT book for " + cs + ", with its chapter titles."]
   ];
   if (two) res.push(["paper", "Sample papers 2026-27", "#/sqp", "Official CBSE sample papers with marking schemes for " + cn + ", subject by subject."], ["clock", "Previous-year papers", "#/pyq", "Past board exam question papers for " + cn + ", year by year, with the second exam where CBSE held one."]);
   res.push(["qb", "Question bank", "#/qbank", two ? "CBSE’s official question bank and practice questions with marking schemes, plus NCERT Exemplar problems." : n === 11 ? "NCERT Exemplar problems for Maths, Physics, Chemistry and Biology." : "CBSE competency-based questions and NCERT Exemplar problems."],
@@ -142,7 +142,7 @@ function ucount(l){ return "Showing " + l.n + " current notice" + (l.n === 1 ? "
 function listHtml(){
   var f = uFilter(ST.up), card = function(x){ return noticeCard(x); };
   var cur = f.cur.length ? f.cur.map(card).join("") : loadingOrEmpty("No current notices match these filters." + (f.arc.length ? " See the archived notices below." : ""));
-  var arc = f.arc.length ? '<details class="arch"' + (!f.cur.length ? ' open' : '') + '><summary>Archived notices (' + f.arc.length + ')</summary><p class="meta" style="margin:-8px 0 16px">Older than about six months. They may be out of date, so check CBSE for newer notices.</p><div class="grid g3">' + f.arc.map(card).join("") + '</div></details>' : '';
+  var arc = f.arc.length ? '<details class="arch" open><summary>Archived notices (' + f.arc.length + ')</summary><p class="meta" style="margin:-8px 0 16px">Older than about six months. They may be out of date, so check CBSE for newer notices.</p><div class="grid g3">' + f.arc.map(card).join("") + '</div></details>' : '';
   return {n: f.cur.length, a: f.arc.length, html: cur, arc: arc};
 }
 function uSelect(id, label, opts, val){
@@ -552,6 +552,7 @@ VIEWS.calculator = function(){
   return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>Calculator</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a3)">' + ico("calc", 30) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px)">Percentage calculator</h1><p style="margin:6px 0 0;color:var(--mut)">Work out your percentage, convert CGPA, or plan the marks you still need. Nothing you type is saved or sent anywhere.</p></div></div>' +
    '<div style="display:flex;flex-direction:column;gap:22px">' +
+   '<section class="card" style="--sh:var(--a2);gap:10px;padding:24px 26px"><h2 style="font-size:24px;margin:0">How to use these tools</h2><ol style="margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px"><li><b>Marks to percentage:</b> enter your marks and the maximum for each subject. Use Add subject for more, and Count to use only your best subjects.</li><li><b>Marks you still need:</b> fill the first card, then set a target percentage and the marks still to come.</li><li><b>CGPA and percentage:</b> type in either box, or slide, and the other updates.</li></ol><div class="meta">Nothing you type is saved or sent anywhere.</div></section>' +
    '<section class="card" id="calc" style="--sh:var(--a3);gap:14px;padding:24px 26px"><h2 style="font-size:24px;margin:0">Marks to percentage</h2><div class="meta">Enter the marks you got and the maximum marks for each subject.</div>' +
    '<div id="crows">' + rows + '</div>' +
    '<div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center"><button class="btn" type="button" data-act="calcadd" style="padding:10px 20px">Add subject</button>' +
