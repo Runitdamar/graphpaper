@@ -6,9 +6,12 @@ expects. If a run finds nothing or fails, check the Actions log and adjust
 SOURCES / the parsing in extract_items().
 
 Rules this script follows:
-- It only ever ADDS new items, always with status "pending".
-- It never edits or removes items you already approved (or any existing item).
-- Nothing shows on the site until you change "pending" to "approved".
+- It only ever ADDS new items and never removes or rewrites existing ones.
+- AUTO_PUBLISH is on: a new item from an official CBSE site (cbse.gov.in or cbseacademic.nic.in)
+  with a real date inside the last PUBLISH_WINDOW_DAYS goes live straight away ("approved", with "auto": true).
+  Anything else is added as "pending" and stays hidden until you change it to "approved".
+- To hide an item that went live, set "status": "pending" and "hold": true on it (hold keeps it from being published again).
+- To turn automatic publishing off, set AUTO_PUBLISH = False.
 """
 import hashlib
 import json
@@ -45,6 +48,26 @@ TAG_RULES = [
     ("Syllabus Change", ["syllabus", "curriculum", "marking scheme", "sample paper", "question paper design"]),
 ]
 DEFAULT_TAG = "Circular"
+
+AUTO_PUBLISH = True
+PUBLISH_WINDOW_DAYS = 45
+OFFICIAL_HOSTS = ("cbse.gov.in", "cbseacademic.nic.in")
+
+
+def can_publish(item):
+    """Official site, a real date that is recent, and not in the future."""
+    from urllib.parse import urlparse
+    host = (urlparse(item["url"]).hostname or "").lower()
+    if len(item.get("title", "").split()) < 3:
+        return False  # a bare label such as "User Manual" says nothing: keep it for review
+    if not any(host == h or host.endswith("." + h) for h in OFFICIAL_HOSTS):
+        return False
+    try:
+        d = date.fromisoformat(item["date"])
+    except (KeyError, ValueError):
+        return False
+    age = (date.today() - d).days
+    return -2 <= age <= PUBLISH_WINDOW_DAYS
 
 # Only keep items that look relevant to Class 11/12. Set to [] to keep everything.
 RELEVANT_WORDS = ["loc", "candidates", "xi", "xii", "11", "12", "senior secondary", "secondary", "board", "science", "practical", "exam"]
@@ -179,18 +202,31 @@ def main():
                 "url": it["url"],
                 "status": "pending",
             })
+            if AUTO_PUBLISH and can_publish(added[-1]):
+                added[-1]["status"] = "approved"
+                added[-1]["auto"] = True
 
-    if added:
+    # Items that were added earlier and are still pending: publish the recent official ones too.
+    promoted = 0
+    if AUTO_PUBLISH:
+        for x in existing:
+            if x.get("status") == "pending" and not x.get("hold") and can_publish(x):
+                x["status"] = "approved"
+                x["auto"] = True
+                promoted += 1
+
+    if added or promoted:
         existing.extend(added)
         DATA_FILE.write_text(json.dumps(existing, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    status.append(f"Added {len(added)} new pending item(s).")
+    live = sum(1 for x in added if x["status"] == "approved")
+    status.append(f"Added {len(added)} new item(s), {live} published at once, {promoted} earlier pending item(s) published.")
     STATUS_FILE.write_text("\n".join(status) + "\n", encoding="utf-8")
     if errors < len(SOURCES):
         # the date shown on GraphPaper as "CBSE's lists last checked" (IST)
         import datetime as _dt
         _today = (_dt.datetime.utcnow() + _dt.timedelta(hours=5, minutes=30)).date().isoformat()
         (ROOT / "checked.json").write_text(json.dumps({"date": _today, "sources_ok": len(SOURCES) - errors}) + "\n", encoding="utf-8")
-    print(f"Added {len(added)} new pending item(s).")
+    print(f"Added {len(added)} new item(s), {live} published at once, {promoted} earlier pending item(s) published.")
     if errors == len(SOURCES):
         sys.exit(1)  # every source failed: make the run show as failed
 

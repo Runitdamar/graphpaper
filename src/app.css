@@ -264,6 +264,10 @@ a.sx-tag:hover svg{color:var(--paper)}
 .sx-ad p{margin:0;color:var(--mut);max-width:56ch}
 .r[data-s] .sx-ad .btn{background:var(--deep);color:var(--paper);border-color:var(--deep);flex:none}
 .sx-fine.sx-offl{margin-top:10px;padding-top:0;border-top:0}.sx-offl a{text-decoration:underline;text-underline-offset:3px;font-weight:700}
+.sx-strip{display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px;border-top:1px solid var(--stone);border-bottom:1px solid var(--stone);padding:12px 2px;font-size:15px;color:var(--mut)}
+.sx-strip b{color:var(--deep);font-size:19px;font-family:'Fredoka','Young Serif',sans-serif;font-weight:600}
+.sx-sw{margin-left:auto}
+@media (max-width:520px){.sx-sw{margin-left:0;flex-basis:100%}}
 .wst{display:grid;grid-template-columns:1fr;gap:10px}
 @media (min-width:560px){.wst{grid-template-columns:repeat(3,1fr)}}
 /* artwork motion */

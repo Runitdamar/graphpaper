@@ -2,11 +2,16 @@ name: Check CBSE updates
 
 on:
   schedule:
-    - cron: "30 */6 * * *"   # every 6 hours
+    - cron: "*/30 * * * *"   # every 30 minutes, day and night (GitHub may start a run a few minutes late)
   workflow_dispatch: {}       # lets you run it by hand from the Actions tab
 
 permissions:
   contents: write
+  actions: write
+
+concurrency:
+  group: check-cbse
+  cancel-in-progress: false
 
 jobs:
   check:
@@ -18,13 +23,22 @@ jobs:
           python-version: "3.12"
       - run: pip install -r scripts/requirements.txt
       - run: python scripts/scrape_cbse.py
-      - name: Commit new pending items and run status
+      - name: Commit new notices and run status
         if: always()
         run: |
-          if [ -n "$(git status --porcelain updates.json scripts/last_run.txt checked.json)" ]; then
+          # Commit only when something worth showing changed: a notice, the daily "last checked" date,
+          # or a failed run. Quiet runs leave no commit, so the site is not redeployed every 30 minutes.
+          CHANGED_NOTICES=$(git status --porcelain updates.json)
+          FILES="updates.json checked.json"
+          if [ -n "$CHANGED_NOTICES" ] || grep -q FAILED scripts/last_run.txt; then FILES="$FILES scripts/last_run.txt"; fi
+          if [ -n "$(git status --porcelain $FILES)" ]; then
             git config user.name "graphpaper-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add updates.json scripts/last_run.txt checked.json
+            git add $FILES
             git commit -m "Update CBSE check results"
-            git push
+            for i in 1 2 3 4 5; do git pull -q --rebase --autostash origin main && git push && break; sleep $((RANDOM % 10 + 3)); done
+            # Rebuild the pages only when a notice was added or published.
+            if [ -n "$CHANGED_NOTICES" ]; then gh workflow run site.yml --ref main; fi
           fi
+        env:
+          GH_TOKEN: ${{ github.token }}

@@ -67,6 +67,17 @@ def build_js():
         f.write(out)
 
 
+def link_stats():
+    """How many official links GraphPaper points to, for the small strip on the home page (same list the weekly link check opens)."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts"))
+    import check_links
+    urls = check_links.collect()
+    ext = lambda u: urlparse(u).path.lower()
+    pdf = sum(1 for u in urls if ext(u).endswith(".pdf"))
+    zp = sum(1 for u in urls if ext(u).endswith(".zip"))
+    return {"links": len(urls), "pdf": pdf, "zip": zp}
+
+
 def shell_html():
     """The app shell with the status-check data (scripts/build_tracker.py) embedded, so it is there on the first paint."""
     sys.path.insert(0, os.path.join(ROOT, "scripts"))
@@ -75,7 +86,8 @@ def shell_html():
     chk = open(os.path.join(ROOT, "checked.json"), encoding="utf-8").read().strip() if os.path.exists(os.path.join(ROOT, "checked.json")) else "{}"
     html = open(SHELL, encoding="utf-8").read()
     html = html.replace("/*CSS*/", build_css())
-    return html.replace('<script src="/gp.js" defer></script>', '<script type="application/json" id="trk">' + blob + '</script>\n<script type="application/json" id="chk">' + chk + '</script>\n<script src="/gp.js" defer></script>').encode("utf-8")
+    st = json.dumps(link_stats()).replace("</", "<\\/")
+    return html.replace('<script src="/gp.js" defer></script>', '<script type="application/json" id="trk">' + blob + '</script>\n<script type="application/json" id="chk">' + chk + '</script>\n<script type="application/json" id="lks">' + st + '</script>\n<script src="/gp.js" defer></script>').encode("utf-8")
 
 
 def load(name):

@@ -2,7 +2,7 @@ name: Build site pages
 
 # Turns the app into real, crawlable pages (one per class, stream, section and
 # notice), plus sitemap.xml and robots.txt. Runs by itself whenever the app or
-# any data file changes, and after every CBSE update check.
+# any data file changes, and whenever the CBSE check finds a new notice.
 
 on:
   push:
@@ -18,9 +18,6 @@ on:
       - "papers.json"
       - "qbank.json"
       - "syllabus.json"
-  workflow_run:
-    workflows: ["Check CBSE updates"]
-    types: [completed]
   workflow_dispatch: {}
 
 permissions:
