@@ -107,7 +107,9 @@ function campusAd(n){
 function linkStrip(){
   if (!LKS) return "";
   var f = function(n){ return n.toLocaleString("en-IN"); };
-  return '<section class="sx-sec" style="padding-top:28px"><div class="wrap"><div class="sx-strip" role="group" aria-label="Official links GraphPaper keeps track of"><span class="sx-sn"><b>' + f(LKS.links) + '</b> official links</span><span class="sx-sn"><b>' + f(LKS.pdf) + '</b> PDFs</span><span class="sx-sn"><b>' + f(LKS.zip) + '</b> whole-book ZIPs</span><span class="sx-sw">All checked every week</span></div></div></section>';
+  var items = [f(LKS.links) + " official links", f(LKS.pdf) + " PDFs", f(LKS.zip) + " whole-book ZIPs", "Links checked every week", "CBSE notices checked every 30 minutes"];
+  var one = items.map(function(t){ return '<span>' + t + '</span><i aria-hidden="true"></i>'; }).join("");
+  return '<section class="sx-mq" aria-label="' + esc(items.join(". ")) + '"><div class="sx-mt" aria-hidden="true">' + one + one + '</div></section>';
 }
 function studentHome(c){
   var n = +c, hi = n >= 11, P = SXP[n], cn = "Class " + n, two = n === 10 || n === 12;
