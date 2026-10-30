@@ -246,8 +246,9 @@
     "date": "2026-10-07",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/21_Circular_2026_07102026.pdf",
-    "status": "pending",
-    "slug": "rerun-of-second-cycle-of-nishtha-courses-during-2026-27-reg"
+    "status": "approved",
+    "slug": "rerun-of-second-cycle-of-nishtha-courses-during-2026-27-reg",
+    "auto": true
   },
   {
     "id": "cbse-d4f18c432f",
@@ -256,8 +257,9 @@
     "date": "2026-10-05",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/20_Circular_2026_05102026.pdf",
-    "status": "pending",
-    "slug": "screening-of-sensitization-module-on-inclusive-education-for-school-staff-on"
+    "status": "approved",
+    "slug": "screening-of-sensitization-module-on-inclusive-education-for-school-staff-on",
+    "auto": true
   },
   {
     "id": "cbse-9fea31cb52",
@@ -266,8 +268,9 @@
     "date": "2026-10-01",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Promoting_Digital_Payment_01102026.pdf",
-    "status": "pending",
-    "slug": "promotion-of-digital-payments-in-schools-reg"
+    "status": "approved",
+    "slug": "promotion-of-digital-payments-in-schools-reg",
+    "auto": true
   },
   {
     "id": "cbse-0ba55b8c75",
@@ -316,8 +319,9 @@
     "date": "2026-09-16",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/131_Notification_2026_Webinar_Career_Guidance_16092026.pdf",
-    "status": "pending",
-    "slug": "webinar-on-career-guidance-my-career-advisor-tamanna-aptitude-test-etc-for"
+    "status": "approved",
+    "slug": "webinar-on-career-guidance-my-career-advisor-tamanna-aptitude-test-etc-for",
+    "auto": true
   },
   {
     "id": "cbse-67142c4ab2",
@@ -596,8 +600,9 @@
     "date": "2026-10-19",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Reminder_5_Submission_LOC_19102026.pdf",
-    "status": "pending",
-    "slug": "reminder-5-only-02-days-are-left-in-the-last-date-for-submission-of-loc-reg"
+    "status": "approved",
+    "slug": "reminder-5-only-02-days-are-left-in-the-last-date-for-submission-of-loc-reg",
+    "auto": true
   },
   {
     "id": "cbse-a7ca2efe0e",
@@ -606,8 +611,9 @@
     "date": "2026-10-17",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Reminder_4_Submission_LOC_17102026.pdf",
-    "status": "pending",
-    "slug": "reminder-4-only-04-days-are-left-in-the-last-date-for-submission-of-loc-reg"
+    "status": "approved",
+    "slug": "reminder-4-only-04-days-are-left-in-the-last-date-for-submission-of-loc-reg",
+    "auto": true
   },
   {
     "id": "cbse-e59a4833f5",
@@ -686,8 +692,9 @@
     "date": "2026-10-21",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Reminder_6_Submission_LOC_21102026.pdf",
-    "status": "pending",
-    "slug": "reminder-6-today-is-the-last-date-for-the-submission-of-loc-reg"
+    "status": "approved",
+    "slug": "reminder-6-today-is-the-last-date-for-the-submission-of-loc-reg",
+    "auto": true
   },
   {
     "id": "cbse-4aeb5f24e4",
@@ -696,7 +703,8 @@
     "date": "2026-10-29",
     "summary": "",
     "url": "https://cbseacademic.nic.in/web_material/Circulars/2026/70_Circular_2026.pdf",
-    "status": "pending",
-    "slug": "scheme-of-studies-for-class-ix-2026-27-reg"
+    "status": "approved",
+    "slug": "scheme-of-studies-for-class-ix-2026-27-reg",
+    "auto": true
   }
 ]
