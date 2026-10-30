@@ -299,8 +299,9 @@
     "date": "2026-09-15",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/User_Manual_West_Asian_Countries_LOC_21092026.pdf",
-    "status": "pending",
-    "slug": "user-manual"
+    "status": "approved",
+    "slug": "user-manual",
+    "auto": true
   },
   {
     "id": "cbse-ac681c4118",
@@ -330,8 +331,9 @@
     "date": "2026-09-08",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Fourth_National_Summit_Rescheduling_09082026.pdf",
-    "status": "pending",
-    "slug": "rescheduling-of-the-4th-national-summit-on-facilitating-school-to-work"
+    "status": "approved",
+    "slug": "rescheduling-of-the-4th-national-summit-on-facilitating-school-to-work",
+    "auto": true
   },
   {
     "id": "cbse-baac20a04b",
@@ -340,8 +342,9 @@
     "date": "2026-09-05",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Message_Honble_President_India_2026.pdf",
-    "status": "pending",
-    "slug": "message-from-hon-ble-president-of-india-on-the-occasion-of-teachers-day-2026"
+    "status": "approved",
+    "slug": "message-from-hon-ble-president-of-india-on-the-occasion-of-teachers-day-2026",
+    "auto": true
   },
   {
     "id": "cbse-d11840e53a",
@@ -350,8 +353,9 @@
     "date": "2026-09-05",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Message_Honble_PM_2026.pdf",
-    "status": "pending",
-    "slug": "message-from-hon-ble-prime-minister-of-india-on-the-occasion-of-teachers-day"
+    "status": "approved",
+    "slug": "message-from-hon-ble-prime-minister-of-india-on-the-occasion-of-teachers-day",
+    "auto": true
   },
   {
     "id": "cbse-d88cf4006d",
@@ -360,8 +364,9 @@
     "date": "2026-09-05",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Message_Honble_EM_2026.pdf",
-    "status": "pending",
-    "slug": "message-from-hon-ble-minister-of-education-of-india-on-the-occasion-of-teachers"
+    "status": "approved",
+    "slug": "message-from-hon-ble-minister-of-education-of-india-on-the-occasion-of-teachers",
+    "auto": true
   },
   {
     "id": "cbse-42acec70a2",
@@ -370,8 +375,9 @@
     "date": "2026-09-05",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Message_Honble_MoS_2026.pdf",
-    "status": "pending",
-    "slug": "message-from-hon-ble-minister-of-state-education-of-india-on-the-occasion-of"
+    "status": "approved",
+    "slug": "message-from-hon-ble-minister-of-state-education-of-india-on-the-occasion-of",
+    "auto": true
   },
   {
     "id": "cbse-d4fcbb04ff",
@@ -380,8 +386,9 @@
     "date": "2026-09-01",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/18_Circular_2026_01092026.pdf",
-    "status": "pending",
-    "slug": "extension-of-date-for-registration-for-cbse-national-teachers-conference-ntc"
+    "status": "approved",
+    "slug": "extension-of-date-for-registration-for-cbse-national-teachers-conference-ntc",
+    "auto": true
   },
   {
     "id": "cbse-00d052b5cc",
@@ -390,8 +397,9 @@
     "date": "2026-08-25",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/CTET_Public_Notice_Date_Ete_25082026.pdf",
-    "status": "pending",
-    "slug": "public-notice-re-opening-of-online-application-window-for-the-22nd-edition-of"
+    "status": "approved",
+    "slug": "public-notice-re-opening-of-online-application-window-for-the-22nd-edition-of",
+    "auto": true
   },
   {
     "id": "cbse-5dfe35fcef",
@@ -410,8 +418,9 @@
     "date": "2026-08-13",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/15_Circular_2026_13082026.pdf",
-    "status": "pending",
-    "slug": "enrollment-in-nishtha-courses-during-2026-27-cycle-1-reg"
+    "status": "approved",
+    "slug": "enrollment-in-nishtha-courses-during-2026-27-cycle-1-reg",
+    "auto": true
   },
   {
     "id": "cbse-b997175e69",
@@ -420,8 +429,9 @@
     "date": "2026-08-05",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/14_Circular_2026_05082026.pdf",
-    "status": "pending",
-    "slug": "3030-eklavya-computational-thinking-ct-and-artificial-intelligence-ai-online"
+    "status": "approved",
+    "slug": "3030-eklavya-computational-thinking-ct-and-artificial-intelligence-ai-online",
+    "auto": true
   },
   {
     "id": "cbse-5bb84bb123",
@@ -430,8 +440,9 @@
     "date": "2026-07-24",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Notification_0001_Aff_24072026.pdf",
-    "status": "pending",
-    "slug": "extension-of-timelines-for-submission-of-various-categories-of-applications"
+    "status": "approved",
+    "slug": "extension-of-timelines-for-submission-of-various-categories-of-applications",
+    "auto": true
   },
   {
     "id": "cbse-a72c78f3dd",
@@ -440,8 +451,9 @@
     "date": "2026-07-21",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/13_Circular_2026_21072026.pdf",
-    "status": "pending",
-    "slug": "nep-2020-empowering-sedgs-27-to-31-july-2026-online-training-programme-reg"
+    "status": "approved",
+    "slug": "nep-2020-empowering-sedgs-27-to-31-july-2026-online-training-programme-reg",
+    "auto": true
   },
   {
     "id": "cbse-478f380e36",
@@ -550,8 +562,9 @@
     "date": "2022-01-05",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Student_Safety_2022.pdf",
-    "status": "pending",
-    "slug": "regarding-safety-of-children-in-schools"
+    "status": "approved",
+    "slug": "regarding-safety-of-children-in-schools",
+    "auto": true
   },
   {
     "id": "cbse-d8388acb9e",
@@ -580,8 +593,9 @@
     "date": "2020-07-17",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/FAQs_DATED 17.07.2020.pdf",
-    "status": "pending",
-    "slug": "faqs"
+    "status": "approved",
+    "slug": "faqs",
+    "auto": true
   },
   {
     "id": "cbse-d73f6ea849",
@@ -590,8 +604,9 @@
     "date": "2017-07-10",
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Single Window Cell - 10.7.2017.pdf",
-    "status": "pending",
-    "slug": "single-window-cell-swc"
+    "status": "approved",
+    "slug": "single-window-cell-swc",
+    "auto": true
   },
   {
     "id": "cbse-4a177b32b5",
@@ -622,8 +637,9 @@
     "date": "2026-04-09",
     "summary": "",
     "url": "https://cbseacademic.nic.in/web_material/Circulars/2026/25_Circular_2026.pdf",
-    "status": "pending",
-    "slug": "compliance-with-introduction-of-r3-in-class-vi-follow-up-to-circular-no-acad-17"
+    "status": "approved",
+    "slug": "compliance-with-introduction-of-r3-in-class-vi-follow-up-to-circular-no-acad-17",
+    "auto": true
   },
   {
     "id": "cbse-1f3db03910",
@@ -632,8 +648,9 @@
     "date": "2026-04-09",
     "summary": "",
     "url": "https://cbseacademic.nic.in/web_material/Circulars/2026/25_Circular_2026_hi.pdf",
-    "status": "pending",
-    "slug": "09-2026-17-2026-vi-r3"
+    "status": "approved",
+    "slug": "09-2026-17-2026-vi-r3",
+    "auto": true
   },
   {
     "id": "cbse-8bea9c121d",
@@ -642,8 +659,9 @@
     "date": "2026-08-06",
     "summary": "",
     "url": "https://cbseacademic.nic.in/web_material/Notifications/2026/98_Notification_2026.pdf",
-    "status": "pending",
-    "slug": "student-outreach-programme-invitation-to-participate-in-webinar-on-cyber"
+    "status": "approved",
+    "slug": "student-outreach-programme-invitation-to-participate-in-webinar-on-cyber",
+    "auto": true
   },
   {
     "id": "cbse-bfc97a480a",
@@ -652,8 +670,9 @@
     "date": "2026-02-18",
     "summary": "",
     "url": "https://cbseacademic.nic.in/web_material/Notifications/2026/30_Notification_2026.pdf",
-    "status": "pending",
-    "slug": "postponement-of-the-cbp-to-be-held-at-indian-hotel-academy-new-delhi-2026-02-18"
+    "status": "approved",
+    "slug": "postponement-of-the-cbp-to-be-held-at-indian-hotel-academy-new-delhi-2026-02-18",
+    "auto": true
   },
   {
     "id": "cbse-ae737f9736",
@@ -662,8 +681,9 @@
     "date": "2026-02-11",
     "summary": "",
     "url": "https://cbseacademic.nic.in/web_material/Notifications/2026/29_Notification_2026.pdf",
-    "status": "pending",
-    "slug": "postponement-of-the-cbp-to-be-held-at-indian-hotel-academy-new-delhi"
+    "status": "approved",
+    "slug": "postponement-of-the-cbp-to-be-held-at-indian-hotel-academy-new-delhi",
+    "auto": true
   },
   {
     "id": "cbse-553b2f042b",
@@ -672,8 +692,9 @@
     "date": "2026-02-03",
     "summary": "",
     "url": "https://cbseacademic.nic.in/web_material/Notifications/2026/20_Notification_2026.pdf",
-    "status": "pending",
-    "slug": "postponement-of-the-cbp-to-be-held-at-cooch-behar-west-bengal-notification-no"
+    "status": "approved",
+    "slug": "postponement-of-the-cbp-to-be-held-at-cooch-behar-west-bengal-notification-no",
+    "auto": true
   },
   {
     "id": "cbse-90f6227a65",
@@ -682,8 +703,9 @@
     "date": "2025-12-31",
     "summary": "",
     "url": "https://cbseacademic.nic.in/web_material/Notifications/2026/08_Notification_2026.pdf",
-    "status": "pending",
-    "slug": "addendum-to-notification-no-skill-147-2025-dated-31-12-2025"
+    "status": "approved",
+    "slug": "addendum-to-notification-no-skill-147-2025-dated-31-12-2025",
+    "auto": true
   },
   {
     "id": "cbse-83a0abbebd",
