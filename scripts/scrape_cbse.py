@@ -8,7 +8,7 @@ SOURCES / the parsing in extract_items().
 Rules this script follows:
 - It only ever ADDS new items and never removes or rewrites existing ones.
 - AUTO_PUBLISH is on: a new item from an official CBSE site (cbse.gov.in or cbseacademic.nic.in)
-  with a real date inside the last PUBLISH_WINDOW_DAYS goes live straight away ("approved", with "auto": true).
+  with a real date goes live straight away ("approved", with "auto": true).
   Anything else is added as "pending" and stays hidden until you change it to "approved".
 - To hide an item that went live, set "status": "pending" and "hold": true on it (hold keeps it from being published again).
 - To turn automatic publishing off, set AUTO_PUBLISH = False.
@@ -50,24 +50,21 @@ TAG_RULES = [
 DEFAULT_TAG = "Circular"
 
 AUTO_PUBLISH = True
-PUBLISH_WINDOW_DAYS = 45
 OFFICIAL_HOSTS = ("cbse.gov.in", "cbseacademic.nic.in")
 
 
 def can_publish(item):
-    """Official site, a real date that is recent, and not in the future."""
+    """Fully automatic: any item from an official CBSE site with a real date (not in the future) goes live.
+    Old ones are archived by the site itself after 180 days. Set "hold": true on an item to keep it hidden."""
     from urllib.parse import urlparse
     host = (urlparse(item["url"]).hostname or "").lower()
-    if len(item.get("title", "").split()) < 3:
-        return False  # a bare label such as "User Manual" says nothing: keep it for review
     if not any(host == h or host.endswith("." + h) for h in OFFICIAL_HOSTS):
         return False
     try:
         d = date.fromisoformat(item["date"])
     except (KeyError, ValueError):
         return False
-    age = (date.today() - d).days
-    return -2 <= age <= PUBLISH_WINDOW_DAYS
+    return (date.today() - d).days >= -2
 
 # Only keep items that look relevant to Class 11/12. Set to [] to keep everything.
 RELEVANT_WORDS = ["loc", "candidates", "xi", "xii", "11", "12", "senior secondary", "secondary", "board", "science", "practical", "exam"]
