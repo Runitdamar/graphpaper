@@ -104,6 +104,11 @@ var CAMPUS = {label: "From the GraphPaper team", head: "Is your school’s websi
 function campusAd(n){
   return '<section class="sx-sec"><div class="wrap"><aside class="sx-feat" aria-label="Campus, school websites"><div><span class="sx-adl">' + CAMPUS.label + '</span><h2>' + CAMPUS.head + '</h2><p>' + CAMPUS.text + '</p><a class="btn" href="' + CAMPUS.url + '" target="_blank" rel="noopener">' + CAMPUS.cta + '</a></div><svg class="sx-lv sx-lv' + n + '" viewBox="0 0 24 24" aria-hidden="true">' + SXMARK[n] + '</svg></aside></div></section>';
 }
+function linkStrip(){
+  if (!LKS) return "";
+  var f = function(n){ return n.toLocaleString("en-IN"); };
+  return '<section class="sx-sec" style="padding-top:28px"><div class="wrap"><div class="sx-strip" role="group" aria-label="Official links GraphPaper keeps track of"><span class="sx-sn"><b>' + f(LKS.links) + '</b> official links</span><span class="sx-sn"><b>' + f(LKS.pdf) + '</b> PDFs</span><span class="sx-sn"><b>' + f(LKS.zip) + '</b> whole-book ZIPs</span><span class="sx-sw">All checked every week</span></div></div></section>';
+}
 function studentHome(c){
   var n = +c, hi = n >= 11, P = SXP[n], cn = "Class " + n, two = n === 10 || n === 12;
   var tag = cn + (hi && ST.streamSet ? ' · ' + ST.stream : '');
@@ -124,7 +129,7 @@ function studentHome(c){
     '<h1 id="pg" tabindex="-1">' + esc(P.h) + '</h1><p class="sx-s">' + esc(P.s) + '</p>' +
     '<a class="btn dark" href="#/class">Open the study shelf</a></div>' +
     '<div class="sx-art">' + SXART[n] + '</div></div></section>' +
-    sxFind(n, cn, two) + trackerSection(c) +
+    linkStrip() + sxFind(n, cn, two) + trackerSection(c) +
     '<section class="sx-sec" id="notices"><div class="wrap"><h2>Latest notices</h2><p class="sx-lead">Each notice shows its date and links to the original document.</p><ul class="sx-nl">' + rows + '</ul><p class="sx-note"><a class="sx-chg" href="#/updates/class-' + n + '">See every notice that mentions ' + cn + '</a></p></div></section>' +
     '<section class="sx-sec"><div class="wrap"><h2>From the study shelf</h2><p class="sx-lead">A few of the things waiting for you.</p><div class="sx-rg">' + jump + '</div><p class="sx-note"><a class="sx-chg" href="#/class">See the whole study shelf</a></p></div></section>' +
     campusAd(n) +

@@ -59,6 +59,8 @@ function nurl(x){ return "#/notice/" + encodeURIComponent(x.slug || x.id); }
 function typeOf(x){ return TYPES[x.tag] || TYPES.Circular; }
 function pill(x, extra){ var t = typeOf(x); return '<span class="pill" style="background:var(' + t.c + ')">' + esc(t.label) + '</span>' + (extra || ""); }
 var CHECKED = "";
+var LKS = null;
+try { var lksEl = document.getElementById("lks"); if (lksEl) LKS = JSON.parse(lksEl.textContent); } catch(e){}
 try { var chkEl = document.getElementById("chk"); if (chkEl) CHECKED = (JSON.parse(chkEl.textContent) || {}).date || ""; } catch(e){}
 var NSUBJ = [["Physics",/physics/i],["Chemistry",/chemistry/i],["Mathematics",/\bmaths?\b|mathematics/i],["Biology",/biology/i],["Accountancy",/accountancy/i],["Business Studies",/business studies/i],["Economics",/economics/i],["English",/english/i],["Hindi",/hindi/i],["Sanskrit",/sanskrit/i],["History",/history/i],["Geography",/geography/i],["Political Science",/political science/i],["Psychology",/psychology/i],["Sociology",/sociology/i],["Computer Science",/computer science|informatics/i],["Science",null],["Social Science",/social science/i]];
 function nmeta(x){
@@ -261,12 +263,13 @@ var SUBJ = {
   a:["English","Hindi","Mathematics","EVS","Art"], b:["English","Hindi","Mathematics","Science","Social Science","Sanskrit"], c:["English","Hindi","Mathematics","Science","Social Science"],
   Science:["Physics","Chemistry","Mathematics","Biology","English"], Commerce:["Accountancy","Business Studies","Economics","Mathematics","English"], Humanities:["History","Political Science","Geography","Psychology","English"]
 };
+function sbk(c, st){ var l = st.charAt(0), n = 0, ch = 0; classBooks(c).forEach(function(b){ if (!b.st || b.st.indexOf(l) > -1){ n++; ch += b.ch.length; } }); return n ? n + " NCERT books, " + ch + " chapters" : ""; }
 VIEWS.streams = function(r){
   var c = r.cls, info = {Science: "Physics, Chemistry, Mathematics, Biology and more", Commerce: "Accountancy, Business Studies, Economics and more", Humanities: "History, Political Science, Geography, Psychology and more"}, cols = {Science: "--a3", Commerce: "--a4", Humanities: "--a2"};
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Class ' + c + '</b></div>' +
-   '<div class="head"><div class="tile" style="background:var(--a1)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">CBSE Class ' + c + ': choose your stream</h1><p>Class ' + c + ' books, syllabus' + (+c === 12 ? ', papers' : '') + ' and question banks are organised by stream. Pick yours.</p></div></div>' +
+   '<div class="head"><div class="tile" style="background:var(--a1)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">CBSE Class ' + c + ': choose your stream</h1><p>Class ' + c + ' splits into Science, Commerce and Humanities, and each stream has its own subjects, NCERT books' + (+c === 12 ? ', sample papers' : '') + ' and question banks. Pick yours and GraphPaper keeps the page for that stream, so you only see what applies to you. English and Hindi are common to every stream, and the syllabus for Classes 11 and 12 is published by CBSE as one document.</p></div></div>' +
    '<div class="grid g3" style="margin-bottom:48px">' + ["Science", "Commerce", "Humanities"].map(function(st){
-     return '<a class="card" href="/class-' + c + '/' + st.toLowerCase() + '" style="--sh:var(' + cols[st] + ')"><h3 style="font-size:24px">Class ' + c + ' ' + st + '</h3><div class="meta">' + info[st] + '</div><span class="more">Open \u2192</span></a>';
+     return '<a class="card" href="/class-' + c + '/' + st.toLowerCase() + '" style="--sh:var(' + cols[st] + ')"><h3 style="font-size:24px">Class ' + c + ' ' + st + '</h3><div class="meta">' + info[st] + '</div><div class="meta">' + sbk(c, st) + '</div><span class="more">Open \u2192</span></a>';
    }).join("") + '</div></div>';
 };
 VIEWS["class"] = function(){
@@ -612,9 +615,9 @@ function pageMeta(name, r){
   else if (name === "booklist"){ m.t = "Printable NCERT book list for " + cn;
     m.d = bs.nb ? "A list of the " + plu(bs.nb, "NCERT book") + " for " + cn + " with all " + bs.nch + " chapter titles, ready to print." : "A printable list of the NCERT books for " + cn + ", with chapter titles.";
     m.bc = [[cn, classBase(c)], ["Book list", classBase(c) + "/book-list"]]; }
-  else if (name === "syllabus"){ m.t = cn + " CBSE syllabus for 2026-27, subject by subject";
+  else if (name === "syllabus"){ m.t = cn + " syllabus 2026-27, subject by subject";
     var sg = 0; try { SYL.parts[SYLKEY[c]].groups.forEach(function(g){ sg += g.items.length; }); } catch(e){}
-    m.d = sg ? "Official 2026-27 syllabus PDFs for " + plu(sg, "subject") + " at the " + (n >= 11 ? "Class 11 and 12 level (CBSE publishes both years in one document)" : "Class " + n + " level") + ", linked from cbseacademic.nic.in." : "Official CBSE syllabus PDFs for " + cn + ", session 2026-27.";
+    m.d = sg ? cn + " syllabus for 2026-27: official PDFs for " + plu(sg, "subject") + (n >= 11 ? " (CBSE publishes Classes 11 and 12 in one document)" : "") + ", linked from cbseacademic.nic.in." : "Official CBSE syllabus PDFs for " + cn + ", session 2026-27.";
     if (n < 9) m.ni = true; m.bc = [[cn, classBase(c)], ["Syllabus", classBase(c) + "/syllabus"]]; }
   else if (name === "papers"){ m.t = cn + " sample and past board papers"; m.d = "Sample papers with marking schemes and earlier board question papers for " + cn + ", each file hosted by CBSE."; if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Papers", classBase(c) + "/papers"]]; }
   else if (name === "sqp"){ m.t = cn + " sample papers with marking schemes";
@@ -625,7 +628,7 @@ function pageMeta(name, r){
     var ys = []; try { ys = Object.keys(PAP.pyq[rm]).sort(); } catch(e){}
     m.d = ys.length ? "Board exam question papers for " + cn + " from " + ys[0] + " to " + ys[ys.length - 1] + ", including the second exam where CBSE held one. Files open on CBSE’s own site." : "Past CBSE board exam question papers for " + cn + ", year by year. Files open on CBSE’s own site.";
     if (n !== 10 && n !== 12) m.ni = true; m.bc = [[cn, classBase(c)], ["Previous year papers", classBase(c) + "/previous-year-papers"]]; }
-  else if (name === "qbank"){ m.t = "Practice questions for " + cn + " from CBSE and NCERT Exemplar";
+  else if (name === "qbank"){ m.t = cn + " question bank with NCERT Exemplar";
     var qp = []; try {
       if (QB.cbse[c]) qp.push(plu(QB.cbse[c].length, "CBSE question bank PDF"));
       if (QB.items[c]) qp.push("competency-based questions for " + plu(QB.items[c].length, "subject"));
@@ -664,7 +667,7 @@ function setMeta(name, r){
   if (r.q && name === "home" && r.q.get("s")) url = SITE + "/";
   function el(sel, tag, attrs){ var e = $(sel); if (!e){ e = D.createElement(tag); for (var k in attrs) e.setAttribute(k, attrs[k]); D.head.appendChild(e); } return e; }
   if (m.d.length > 165){ m.d = m.d.slice(0, 162).replace(/[\s,;:.\-]+\S*$/, "") + "\u2026"; }
-  if (m.t.length <= 50 && m.t.indexOf("GraphPaper") < 0) m.t += " | GraphPaper";
+  if (m.t.length <= 46 && m.t.indexOf("GraphPaper") < 0) m.t += " | GraphPaper";
   D.title = m.t;
   el('meta[name="description"]', "meta", {name:"description"}).setAttribute("content", m.d);
   if (name === "notfound"){ var cn0 = $('link[rel="canonical"]'); if (cn0) cn0.parentNode.removeChild(cn0); }
