@@ -268,7 +268,7 @@ a.sx-tag:hover svg{color:var(--paper)}
 .sx-mt{display:inline-flex;align-items:center;animation:sxmq 38s linear infinite;will-change:transform}
 .sx-mt span{padding:0 28px}
 .sx-mt i{width:8px;height:8px;border-radius:50%;background:var(--deep);flex:none}
-.sx-mq:hover .sx-mt{animation-play-state:paused}
+.sx-mq.hold .sx-mt{animation-play-state:paused}
 @keyframes sxmq{to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.sx-mt{animation:none;overflow-x:auto}}
 .wst{display:grid;grid-template-columns:1fr;gap:10px}

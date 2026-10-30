@@ -867,3 +867,9 @@ D.addEventListener("click", function(e){
 window.addEventListener("popstate", function(){ clearTimeout(scrT); POP = true; route(); });
 window.addEventListener("hashchange", function(){ if (/^#\//.test(location.hash)) go(toPath(location.hash), true); });
 D.addEventListener("keydown", function(e){ if (e.key === "Enter" && e.target.id === "sxq" && !$("#resources")){ e.preventDefault(); ST.sxq = e.target.value; go(toPath("#/class")); } });
+/* The moving strip holds for 2.5 seconds when touched or hovered, then moves on by itself. */
+(function(){
+  var tm = 0;
+  function hold(e){ var m = e.target.closest ? e.target.closest(".sx-mq") : null; if (!m) return; m.classList.add("hold"); clearTimeout(tm); tm = setTimeout(function(){ m.classList.remove("hold"); }, 2500); }
+  D.addEventListener("pointerdown", hold); D.addEventListener("pointerover", hold);
+})();
