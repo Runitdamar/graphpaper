@@ -597,7 +597,7 @@ function pageMeta(name, r){
     var x = findNotice(r.arg);
     if (x){
       var nt = x.title.replace(/\s+([:;,])/g, "$1").replace(/\s+/g, " ").trim(), tl = typeOf(x).label;
-      var ntt = nt.length > 90 ? nt.slice(0, 90).replace(/\s+\S*$/, "") + "…" : nt;
+      var ntt = nt.length > 62 ? nt.slice(0, 62).replace(/[\s,;:\-\u2013]+\S*$/, "") + "…" : nt;
       m.t = ntt;
       m.d = x.summary || (tl + " from CBSE dated " + fmt(x.date) + ": " + nt + ". Official link, publish date and related NCERT books, syllabus and papers.");
       m.art = x; m.bc = [["Updates", "/updates"], [nt, "/notice/" + (x.slug || x.id)]];
@@ -605,7 +605,7 @@ function pageMeta(name, r){
   }
   else if (name === "streams"){ m.t = "Class " + r.cls + ": Science, Commerce or Humanities?"; m.d = "Pick your Class " + r.cls + " stream to see its NCERT books, syllabus" + (r.cls === "12" ? ", sample papers" : "") + " and question bank."; m.bc = [["Class " + r.cls, "/class-" + r.cls]]; }
   else if (name === "class"){ var pp = (n === 10 || n === 12), sy = n >= 9;
-    m.t = sy ? (pp ? cn + " boards: syllabus, sample papers and past papers" : cn + " syllabus, NCERT books and question bank") : "NCERT books for " + cn + ", chapter by chapter";
+    m.t = sy ? (pp ? cn + " boards: syllabus and papers" : cn + " syllabus, NCERT books and question bank") : "NCERT books for " + cn + ", chapter by chapter";
     if (bs.nb) m.d = sy ? cn + " has " + plu(bs.nb, "NCERT book") + (bs.ns ? " in " + plu(bs.ns, "subject") : "") + " with " + bs.nch + " chapter PDFs, plus the 2026-27 syllabus, " + (pp ? "CBSE sample papers, past board papers" : "a question bank") + " and recent CBSE notices." : "All " + plu(bs.nb, "NCERT book") + " for " + cn + " with " + bs.nch + " chapter titles and PDFs, a printable book list and a short guide for parents.";
     else m.d = sy ? cn + " syllabus, NCERT books and recent CBSE notices, each linked to the official file." : "Every NCERT book for " + cn + ", chapter by chapter, with a printable book list.";
     if (!r.cls) m.ni = true; m.bc = [[cn, classBase(c)]]; }
