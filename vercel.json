@@ -421,6 +421,11 @@
       "source": "/notice/cbse-4aeb5f24e4",
       "destination": "/notice/scheme-of-studies-for-class-ix-2026-27-reg",
       "permanent": true
+    },
+    {
+      "source": "/notice/cbse-2a7f8065ef",
+      "destination": "/notice/visit-of-students-of-cbse-affiliated-schools-to-the-cbse-experience-centre-reg",
+      "permanent": true
     }
   ],
   "rewrites": [
