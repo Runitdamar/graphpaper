@@ -1,7 +1,7 @@
 {
 "/": [
-"39e12cafa6ae",
-"2026-10-31"
+"a15625cc6926",
+"2026-10-30"
 ],
 "/about": [
 "6ad8e424f146",
@@ -24,8 +24,8 @@
 "2026-10-29"
 ],
 "/class-10": [
-"c9a2edbfe7bb",
-"2026-10-30"
+"bdbfb59804e5",
+"2026-10-31"
 ],
 "/class-10/book-list": [
 "1ee8536c4b69",
@@ -96,8 +96,8 @@
 "2026-10-30"
 ],
 "/class-11/commerce": [
-"f0a5d358fe03",
-"2026-10-30"
+"ed01dcbae37f",
+"2026-10-31"
 ],
 "/class-11/commerce/book-list": [
 "19bee2a715fc",
@@ -136,8 +136,8 @@
 "2026-10-30"
 ],
 "/class-11/humanities": [
-"f7417b70965a",
-"2026-10-30"
+"e4c3713cc07a",
+"2026-10-31"
 ],
 "/class-11/humanities/book-list": [
 "4f66db3d178e",
@@ -172,8 +172,8 @@
 "2026-10-29"
 ],
 "/class-11/science": [
-"3937fc88d7dd",
-"2026-10-30"
+"6e81e5e33cce",
+"2026-10-31"
 ],
 "/class-11/science/book-list": [
 "1aabe9b29e3e",
@@ -216,8 +216,8 @@
 "2026-10-29"
 ],
 "/class-12/commerce": [
-"8bc8c8de0c2f",
-"2026-10-30"
+"a746e9ae4990",
+"2026-10-31"
 ],
 "/class-12/commerce/book-list": [
 "51d7331ed367",
@@ -268,8 +268,8 @@
 "2026-10-29"
 ],
 "/class-12/humanities": [
-"b725bae4a7c3",
-"2026-10-30"
+"b431f043f2a7",
+"2026-10-31"
 ],
 "/class-12/humanities/book-list": [
 "c31546d5a74c",
@@ -316,8 +316,8 @@
 "2026-10-29"
 ],
 "/class-12/science": [
-"f21822479e0b",
-"2026-10-30"
+"f3801711cf2a",
+"2026-10-31"
 ],
 "/class-12/science/book-list": [
 "41a96f63c7f3",
@@ -448,8 +448,8 @@
 "2026-10-30"
 ],
 "/class-9": [
-"b52cd6296426",
-"2026-10-30"
+"9ef8460d6448",
+"2026-10-31"
 ],
 "/class-9/book-list": [
 "de31c0366c71",
@@ -495,145 +495,81 @@
 "91112105d274",
 "2026-10-29"
 ],
-"/notice/09-2026-17-2026-vi-r3": [
-"6bc41e94cda0",
-"2026-10-31"
-],
-"/notice/3030-eklavya-computational-thinking-ct-and-artificial-intelligence-ai-online": [
-"4cb46939e6e1",
-"2026-10-31"
-],
-"/notice/addendum-to-notification-no-skill-147-2025-dated-31-12-2025": [
-"b4c2ccf95f18",
-"2026-10-31"
-],
 "/notice/advisory-on-circulation-of-misleading-information-related-to-cbse": [
-"e56592f08d5b",
-"2026-10-31"
+"b72971cb9b31",
+"2026-10-30"
 ],
 "/notice/advisory-on-procurement-of-genuine-ncert-textbooks": [
-"05aca55702f6",
-"2026-10-31"
+"c589d2e51cc0",
+"2026-10-30"
 ],
 "/notice/cbse-holds-live-q-a-webinar-on-registration-and-loc-for-board-examinations-2027": [
-"ce020b663a35",
-"2026-10-31"
+"2380c29577d1",
+"2026-10-30"
 ],
 "/notice/cbse-talkathon-on-nasha-mukt-yuva-for-viksit-bharat-reg": [
-"e74124d803f3",
-"2026-10-31"
+"1dd156d0dca5",
+"2026-10-30"
 ],
 "/notice/clarification-on-totaling-of-marks-when-extra-questions-are-attempted-reg": [
-"a4f966132dc5",
-"2026-10-31"
-],
-"/notice/compliance-with-introduction-of-r3-in-class-vi-follow-up-to-circular-no-acad-17": [
-"bbe53ac4f32b",
-"2026-10-31"
+"51d6de670bb3",
+"2026-10-30"
 ],
 "/notice/date-sheet-for-class-xii-special-examinations-for-west-asia-2026": [
-"2cd6fe232075",
-"2026-10-31"
+"12f218a34216",
+"2026-10-30"
 ],
 "/notice/datesheet-for-senior-secondary-supplementary-examination-2026": [
-"d91dd7442302",
-"2026-10-31"
+"e166a3c59b7f",
+"2026-10-30"
 ],
 "/notice/dissemination-of-845-curriculum-aligned-virtual-labs-and-digital-resources": [
-"386b11aca057",
-"2026-10-31"
-],
-"/notice/enrollment-in-nishtha-courses-during-2026-27-cycle-1-reg": [
-"5b0b86ce2c82",
-"2026-10-31"
-],
-"/notice/extension-of-date-for-registration-for-cbse-national-teachers-conference-ntc": [
-"157cf96a7c95",
-"2026-10-31"
+"0b54e424daaa",
+"2026-10-30"
 ],
 "/notice/extension-of-last-date-for-filling-examination-forms-for-private-candidates-for": [
-"3681299ab8ed",
-"2026-10-31"
+"d9bd91d6c6b5",
+"2026-10-30"
 ],
 "/notice/extension-of-last-date-for-filling-list-of-candidates-loc-for-regular-students": [
-"20c28794f3da",
-"2026-10-31"
-],
-"/notice/extension-of-timelines-for-submission-of-various-categories-of-applications": [
-"03528cdcc645",
-"2026-10-31"
-],
-"/notice/faqs": [
-"fcb1e84789d8",
-"2026-10-31"
+"f5fc86da1680",
+"2026-10-30"
 ],
 "/notice/guidelines-for-conducting-practical-examinations-with-the-supplementary": [
-"36e2d8438077",
-"2026-10-31"
+"f2457b51e120",
+"2026-10-30"
 ],
 "/notice/issuance-of-admit-cards-for-supplementary-examinations-2026": [
-"6650b697cec4",
-"2026-10-31"
-],
-"/notice/message-from-hon-ble-minister-of-education-of-india-on-the-occasion-of-teachers": [
-"6a8c4bffd00a",
-"2026-10-31"
-],
-"/notice/message-from-hon-ble-minister-of-state-education-of-india-on-the-occasion-of": [
-"f4c4cccb959f",
-"2026-10-31"
-],
-"/notice/message-from-hon-ble-president-of-india-on-the-occasion-of-teachers-day-2026": [
-"61b8cc6aa781",
-"2026-10-31"
-],
-"/notice/message-from-hon-ble-prime-minister-of-india-on-the-occasion-of-teachers-day": [
-"f72fc6290c1d",
-"2026-10-31"
+"1ee1958788db",
+"2026-10-30"
 ],
 "/notice/most-urgent-public-notice": [
-"60daa92a27a3",
-"2026-10-31"
-],
-"/notice/nep-2020-empowering-sedgs-27-to-31-july-2026-online-training-programme-reg": [
-"e99f60dd642d",
-"2026-10-31"
+"ab2d8f9f6964",
+"2026-10-30"
 ],
 "/notice/notice-for-post-result-declaration-facilities-to-the-students-class-xii": [
 "e193367e441b",
 "2026-10-30"
 ],
 "/notice/notification-avoid-rumours": [
-"483f9de6243e",
-"2026-10-31"
+"4c1d1d9f6a0a",
+"2026-10-30"
 ],
 "/notice/online-submission-of-forms-by-private-candidates-of-class-xii-supplementary": [
-"53561f4d2b72",
-"2026-10-31"
+"2ea8f8117bf2",
+"2026-10-30"
 ],
 "/notice/online-submission-of-list-of-candidates-for-class-xii-supplementary-examination": [
-"37686f250266",
-"2026-10-31"
+"c7eb9a5aeaa6",
+"2026-10-30"
 ],
 "/notice/post-result-declaration-facilities-to-the-students-of-class-x-main-and-second": [
 "06a9e8b95457",
 "2026-10-30"
 ],
-"/notice/postponement-of-the-cbp-to-be-held-at-cooch-behar-west-bengal-notification-no": [
-"3f83ab70dc89",
-"2026-10-31"
-],
-"/notice/postponement-of-the-cbp-to-be-held-at-indian-hotel-academy-new-delhi": [
-"04a9ad4d35b1",
-"2026-10-31"
-],
-"/notice/postponement-of-the-cbp-to-be-held-at-indian-hotel-academy-new-delhi-2026-02-18": [
-"e755a4c589d9",
-"2026-10-31"
-],
 "/notice/press-release-cbse-commences-release-of-class-xii-verification-of-issues": [
-"cbdbb61b9f23",
-"2026-10-31"
+"a8bc60d4fa7b",
+"2026-10-30"
 ],
 "/notice/press-release-cbse-declares-class-x-second-board-examination-results-2026": [
 "357edf594f9e",
@@ -644,136 +580,108 @@
 "2026-10-30"
 ],
 "/notice/press-release-cbse-issues-guidelines-on-the-three-language-policy": [
-"abc2adb114b8",
-"2026-10-31"
+"c7295ff54e84",
+"2026-10-30"
 ],
 "/notice/press-release-cbse-lodges-complaint-with-delhi-police-over-coordinated-cyber": [
 "b87d38c7a688",
 "2026-10-30"
 ],
 "/notice/press-release-regarding-verification-of-issues-observed-in-scanned-copies-of": [
-"121009585706",
-"2026-10-31"
+"e9d6983e70b1",
+"2026-10-30"
 ],
 "/notice/prior-intimation-of-submission-of-list-of-candidates-loc-for-class-x-xii": [
-"f3a78535b54f",
-"2026-10-31"
+"2d000618b7f9",
+"2026-10-30"
 ],
 "/notice/promotion-of-digital-payments-in-schools-reg": [
-"382bb58533ff",
-"2026-10-31"
+"525e0e1d17d6",
+"2026-10-01"
 ],
 "/notice/public-advisory-unauthorized-use-of-cbse-name-and-logo-on-social-media": [
-"79bc127044c5",
+"8417541d6654",
 "2026-10-31"
 ],
 "/notice/public-alert-access-of-practice-papers-from-cbse-official-website": [
-"f10861523d05",
-"2026-10-31"
-],
-"/notice/public-notice-re-opening-of-online-application-window-for-the-22nd-edition-of": [
-"d8b180d35cd8",
-"2026-10-31"
-],
-"/notice/regarding-safety-of-children-in-schools": [
-"b98809b22209",
-"2026-10-31"
+"1c216599d06d",
+"2026-10-30"
 ],
 "/notice/reminder-1-following-accuracy-and-timeliness-while-submitting-loc-for-class-x": [
-"1cddf7cf9eed",
-"2026-10-31"
+"affb95485352",
+"2026-10-30"
 ],
 "/notice/reminder-1-only-07-days-are-left-in-the-last-date-for-submission-of-loc-reg": [
-"7bf29dc1c677",
-"2026-10-31"
+"e0f61aa30d7f",
+"2026-10-30"
 ],
 "/notice/reminder-2-only-06-days-are-left-in-the-last-date-for-submission-of-loc-reg": [
-"e924ea85e4d1",
-"2026-10-31"
+"e8d03716abe8",
+"2026-10-30"
 ],
 "/notice/reminder-3-only-05-days-are-left-in-the-last-date-for-submission-of-loc-reg": [
-"f90fb4330ae4",
-"2026-10-31"
+"69655fafce50",
+"2026-10-30"
 ],
 "/notice/reminder-4-only-04-days-are-left-in-the-last-date-for-submission-of-loc-reg": [
-"ffb773dc85f7",
+"97f811595f8d",
 "2026-10-31"
 ],
 "/notice/reminder-5-only-02-days-are-left-in-the-last-date-for-submission-of-loc-reg": [
-"ef69b2fc9076",
+"faab8e95218a",
 "2026-10-31"
 ],
 "/notice/reminder-6-today-is-the-last-date-for-the-submission-of-loc-reg": [
-"84816379efbd",
+"ac5cb506ba63",
 "2026-10-31"
 ],
 "/notice/rerun-of-second-cycle-of-nishtha-courses-during-2026-27-reg": [
-"7deba1ef690e",
-"2026-10-31"
-],
-"/notice/rescheduling-of-the-4th-national-summit-on-facilitating-school-to-work": [
-"9aadef2876bb",
-"2026-10-31"
+"d28ed518fc93",
+"2026-10-07"
 ],
 "/notice/revised-national-scholarship-portal-nsp-framework-for-academic-year-2026-27": [
-"587de131d27e",
-"2026-10-31"
+"1fb068ade036",
+"2026-10-30"
 ],
 "/notice/scheme-of-studies-for-class-ix-2026-27-reg": [
-"5d38fd131c4b",
+"d36f1e08e4b1",
 "2026-10-31"
 ],
 "/notice/screening-of-sensitization-module-on-inclusive-education-for-school-staff-on": [
-"9f6e73368cd4",
-"2026-10-31"
-],
-"/notice/single-window-cell-swc": [
-"bfdfe87697e3",
-"2026-10-31"
+"316f60e7a0ec",
+"2026-10-05"
 ],
 "/notice/streamlining-the-process-of-corrections-in-the-demographic-details-reg": [
-"71b1ac3384cd",
-"2026-10-31"
-],
-"/notice/student-outreach-programme-invitation-to-participate-in-webinar-on-cyber": [
-"e62fee8ddd52",
-"2026-10-31"
+"02ddf2676ab3",
+"2026-10-30"
 ],
 "/notice/submission-of-examination-forms-by-private-candidates-for-class-x-examinations": [
-"be84a1ed1a33",
-"2026-10-31"
+"73721a7a7864",
+"2026-10-30"
 ],
 "/notice/submission-of-examination-forms-by-private-candidates-for-senior-secondary": [
-"7512f11992ab",
-"2026-10-31"
+"af537f8f446d",
+"2026-10-30"
 ],
 "/notice/submission-of-list-of-candidates-loc-for-class-x-and-class-xii-main": [
-"11d8aa13a1b7",
-"2026-10-31"
+"c680cbc99786",
+"2026-10-30"
 ],
 "/notice/submission-of-list-of-candidates-loc-for-class-xii-2026-special-examinations": [
-"d441236d6053",
-"2026-10-31"
+"78e178949311",
+"2026-10-30"
 ],
 "/notice/urgent-advisory-alert-against-fraudulent-activity-of-wizcorp-edtech-pvt-ltd": [
-"d7927fa59d0d",
-"2026-10-31"
-],
-"/notice/user-manual": [
-"4acfbfaae763",
-"2026-10-31"
+"bb7057663ded",
+"2026-10-30"
 ],
 "/notice/verification-of-issues-observed-re-evaluation-class-xii-guidance-for-students": [
-"ad6fd22f9bb1",
-"2026-10-31"
-],
-"/notice/visit-of-students-of-cbse-affiliated-schools-to-the-cbse-experience-centre-reg": [
-"6b2be74ac50c",
+"2ef7c9c781da",
 "2026-10-30"
 ],
 "/notice/webinar-on-career-guidance-my-career-advisor-tamanna-aptitude-test-etc-for": [
-"ab65d090eb56",
-"2026-10-31"
+"21b25873da02",
+"2026-09-16"
 ],
 "/parents": [
 "d5f78bd9753d",
@@ -788,39 +696,39 @@
 "2026-10-25"
 ],
 "/updates": [
-"dbaebde319ab",
+"8a4448a366fa",
 "2026-10-31"
 ],
 "/updates/circulars": [
-"2b3d8d0025ac",
+"7e72c332203a",
 "2026-10-31"
 ],
 "/updates/class-10": [
-"d98d2d421f3a",
+"0655aba498fa",
 "2026-10-30"
 ],
 "/updates/class-11": [
-"df0f98f73eae",
+"18d6ae390d97",
 "2026-10-30"
 ],
 "/updates/class-12": [
-"78466ef86a63",
+"99e534f97a8f",
 "2026-10-30"
 ],
 "/updates/class-9": [
-"015e2c309e02",
+"2e16155d52f4",
 "2026-10-30"
 ],
 "/updates/date-sheets": [
-"a927100bdbdf",
+"8b35f0d7fd80",
 "2026-10-30"
 ],
 "/updates/results": [
-"857409da7da4",
+"860e0f24943f",
 "2026-10-30"
 ],
 "/updates/syllabus-changes": [
-"ed01c226653e",
+"86c36afc791b",
 "2026-10-30"
 ],
 "/welcome": [
