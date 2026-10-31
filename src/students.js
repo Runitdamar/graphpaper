@@ -93,7 +93,7 @@ function studentShelf(c){
   }).join("") + '</div></div></section>';
   var tag = cn + (hi && ST.streamSet ? ' · ' + ST.stream : '');
   var pill = '<a class="sx-tag" href="#/welcome" aria-label="Change class or stream, now ' + esc(tag) + '"><svg viewBox="0 0 24 24" aria-hidden="true">' + SXMARK[n] + '</svg>CBSE ' + esc(tag) + '<svg class="sx-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a>';
-  return '<section class="sx-sec" style="padding-top:36px"><div class="wrap">' + pill +
+  return '<section class="sx-hero"><div class="wrap" style="padding-top:36px;padding-bottom:36px">' + pill +
     '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5.6vw,54px);margin:0 0 14px">' + esc(cs) + ' study shelf</h1><p class="sx-lead" style="margin-bottom:0">' + esc(classIntro(n, c)) + '</p></div></section>' +
     sxFind(n, cn, two) +
     '<section class="sx-sec" id="resources"><div class="wrap"><h2>Find what you need for ' + esc(cs) + '</h2><div class="sx-rg">' + cards + '</div><div class="sx-none" id="sxnone" hidden>Nothing matches yet. Try syllabus, books, papers or notices.</div></div></section>' +
