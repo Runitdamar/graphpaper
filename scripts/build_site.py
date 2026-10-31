@@ -38,7 +38,7 @@ GENERATED_DIRS = ["notice", "board", "updates", "about", "contact", "privacy", "
 
 
 SRC = os.path.join(ROOT, "src")
-JS_FILES = ["app.js", "art.js", "parents.js", "students.js", "boot.js"]
+JS_FILES = ["app.js", "art.js", "logos.js", "parents.js", "students.js", "boot.js"]
 
 
 def esbuild(text, loader):
