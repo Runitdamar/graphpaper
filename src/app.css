@@ -134,7 +134,7 @@ details.arch>summary{cursor:pointer;font-family:Fredoka,'Fredoka Fallback',sans-
 .r[data-c="10"]{--paper:#EBF3F5;--stone:#D3E3E9;--deep:#15506C;--mid:#3E8DAB;--soft:#A4CDDD;--ftx:#D4E8F0;--dot:21,80,108;--bg:#EBF3F5;--card:#F6FAFB;--ink:#0E2733;--mut:#3B5766;--a1:#A4CDDD;--a2:#7CC4C8;--a3:#8DBFD4;--a4:#B9D9E6;--a5:#9DBCC8;--shelf:#D3E3E9;--gl:#D3E3E9}
 .r[data-c="11"]{--paper:#F8EFE6;--stone:#EBD9C8;--deep:#6E2A25;--mid:#C8592B;--soft:#EDB27C;--ftx:#F6DFCB;--dot:110,42,37;--bg:#F8EFE6;--card:#FFF8F1;--ink:#2B1712;--mut:#6A4A3C;--a1:#EDB27C;--a2:#E89A3C;--a3:#D9A47C;--a4:#F2B45F;--a5:#E3B79A;--shelf:#EBD9C8;--gl:#EBD9C8}
 .r[data-c="12"]{--paper:#F3F6FA;--stone:#DDE5EE;--deep:#3A5775;--mid:#7C98B4;--soft:#BFD0E2;--ftx:#E4ECF5;--dot:58,87,117;--bg:#F3F6FA;--card:#FAFCFE;--ink:#1D2A3A;--mut:#4D5F73;--a1:#BFD0E2;--a2:#F2DC9A;--a3:#9FB8D2;--a4:#D3DEEA;--a5:#AFBCCB;--shelf:#DDE5EE;--gl:#DDE5EE}
-.r[data-s]{background-image:radial-gradient(rgba(var(--dot),.13) 1.2px,transparent 1.2px);background-size:26px 26px;font-family:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif}
+.r[data-s]{background-image:none;font-family:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif}
 .r[data-s] h1,.r[data-s] h2,.r[data-s] h3,.r[data-s] .fr,.r[data-s] .bq b,.r[data-s] .book .bt b,.r[data-s] details.arch>summary{font-family:'Young Serif','Young Serif Fallback',Georgia,serif;font-weight:400!important;line-height:1.15}
 .r[data-s] .wrap{max-width:1120px;padding:0 24px}
 .r[data-s] .sec{padding-bottom:48px}
@@ -193,7 +193,7 @@ details.arch>summary{cursor:pointer;font-family:Fredoka,'Fredoka Fallback',sans-
 .r[data-s] a[style*="solid var(--ink)"]{border-width:1.5px!important}
 .r[data-s] a:focus-visible,.r[data-s] button:focus-visible,.r[data-s] summary:focus-visible,.r[data-s] input:focus-visible,.r[data-s] select:focus-visible{outline-color:var(--deep)}
 /* class page */
-.sx-hero{}
+.sx-hero{background-image:radial-gradient(rgba(var(--dot),.13) 1.2px,transparent 1.2px);background-size:26px 26px}
 .sx-hg{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:40px;align-items:center;padding-top:40px;padding-bottom:48px}
 .sx-tag{display:inline-flex;align-items:center;gap:8px;background:var(--soft);color:var(--ink);padding:5px 14px;border-radius:999px;font-weight:700;font-size:15px;margin-bottom:18px}
 .sx-tag svg{width:18px;height:18px;color:var(--deep)}
