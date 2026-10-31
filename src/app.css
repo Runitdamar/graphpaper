@@ -328,7 +328,7 @@ a.sx-tag:hover svg{color:var(--paper)}
 @keyframes rdfloat{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-9px) rotate(5deg)}}
 
 /* page banner */
-.r[data-s] .head{position:relative;overflow:hidden;isolation:isolate;display:flex;flex-wrap:wrap;align-items:center;gap:18px;padding:24px;margin:0 0 22px;border:1px solid var(--stone);border-radius:28px;background:radial-gradient(rgba(var(--dot),.16) 1.2px,transparent 1.2px) 0 0/26px 26px,linear-gradient(135deg,var(--stone) 0%,var(--card) 72%)}
+.r[data-s] .head{position:relative;overflow:hidden;isolation:isolate;display:flex;flex-wrap:wrap;align-items:center;gap:18px;padding:24px;margin:0 0 22px;border:1px solid var(--stone);border-radius:28px;background:linear-gradient(135deg,var(--stone) 0%,var(--card) 72%)}
 .r[data-s] .head::after{content:"";position:absolute;z-index:-1;right:-12px;bottom:-24px;width:150px;height:150px;background:var(--deep);opacity:.1;-webkit-mask:var(--motif) center/contain no-repeat;mask:var(--motif) center/contain no-repeat;animation:rdfloat 8s ease-in-out infinite}
 .r[data-s] .head .tile{display:flex;align-items:center;justify-content:center;flex:none;width:64px;height:64px;border:0;border-radius:20px;box-shadow:none;font-size:28px;background:var(--deep)!important;color:var(--paper)}
 .r[data-s] .head h1{margin:0}
