@@ -193,7 +193,7 @@ details.arch>summary{cursor:pointer;font-family:Fredoka,'Fredoka Fallback',sans-
 .r[data-s] a[style*="solid var(--ink)"]{border-width:1.5px!important}
 .r[data-s] a:focus-visible,.r[data-s] button:focus-visible,.r[data-s] summary:focus-visible,.r[data-s] input:focus-visible,.r[data-s] select:focus-visible{outline-color:var(--deep)}
 /* class page */
-.sx-hero{background-image:radial-gradient(rgba(var(--dot),.13) 1.2px,transparent 1.2px);background-size:26px 26px}
+.sx-hero{background-image:linear-gradient(rgba(var(--dot),.17) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--dot),.17) 1px,transparent 1px),linear-gradient(rgba(var(--dot),.08) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--dot),.08) 1px,transparent 1px);background-size:130px 130px,130px 130px,26px 26px,26px 26px;background-position:-1px -1px,-1px -1px,-1px -1px,-1px -1px}
 .sx-hg{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:40px;align-items:center;padding-top:40px;padding-bottom:48px}
 .sx-tag{display:inline-flex;align-items:center;gap:8px;background:var(--soft);color:var(--ink);padding:5px 14px;border-radius:999px;font-weight:700;font-size:15px;margin-bottom:18px}
 .sx-tag svg{width:18px;height:18px;color:var(--deep)}
