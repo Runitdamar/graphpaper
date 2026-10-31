@@ -2,7 +2,7 @@ name: Check CBSE updates
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes, day and night (GitHub may start a run a few minutes late)
+    - cron: "*/30 * * * *"   # slow backup; the reliable 15-minute trigger is an outside timer (cron-job.org) that starts this workflow
   workflow_dispatch: {}       # lets you run it by hand from the Actions tab
 
 permissions:
@@ -27,7 +27,7 @@ jobs:
         if: always()
         run: |
           # Commit only when something worth showing changed: a notice, the daily "last checked" date,
-          # or a failed run. Quiet runs leave no commit, so the site is not redeployed every 30 minutes.
+          # or a failed run. Quiet runs leave no commit, so the site is not redeployed every 15 minutes.
           CHANGED_NOTICES=$(git status --porcelain updates.json)
           FILES="updates.json checked.json"
           if [ -n "$CHANGED_NOTICES" ] || grep -q FAILED scripts/last_run.txt; then FILES="$FILES scripts/last_run.txt"; fi

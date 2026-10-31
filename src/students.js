@@ -107,7 +107,7 @@ function campusAd(n){
 function linkStrip(){
   if (!LKS) return "";
   var f = function(n){ return n.toLocaleString("en-IN"); };
-  var items = [f(LKS.links) + " official links", f(LKS.pdf) + " PDFs", f(LKS.zip) + " whole-book ZIPs", "Links checked every week", "CBSE notices checked every 30 minutes"];
+  var items = [f(LKS.links) + " official links", f(LKS.pdf) + " PDFs", f(LKS.zip) + " whole-book ZIPs", "Links checked every week", "CBSE notices checked every 15 minutes"];
   var one = items.map(function(t){ return '<span>' + t + '</span><i aria-hidden="true"></i>'; }).join("");
   return '<section class="sx-mq" aria-label="' + esc(items.join(". ")) + '"><div class="sx-mt" aria-hidden="true">' + one + one + '</div></section>';
 }
@@ -174,7 +174,7 @@ VIEWS.updates = function(r){
   var l = listHtml();
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / ' + (r.arg && (info || P.cls) ? '<a href="#/updates">Updates</a> / <b>' + esc(h1) + '</b>' : '<b>Updates</b>') + '</div>' +
     '<div class="head"><div class="tile" style="background:var(--a1)">' + ico("news", 30) + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px)">' + esc(h1) + '</h1><p style="margin:6px 0 0;color:var(--mut);max-width:680px">' + esc(lead) + '</p></div></div>' +
-    '<p class="meta" style="margin:0 0 24px">' + (CHECKED ? 'CBSE’s notice lists last checked on ' + esc(fmt(CHECKED)) + '. ' : '') + 'A new notice can take a day to appear here, so also look at cbse.gov.in.</p>' +
+    '<p class="meta" style="margin:0 0 24px">' + (CHECKED ? 'CBSE’s notice lists last checked on ' + esc(fmt(CHECKED)) + '. ' : '') + 'CBSE’s sites are checked every 15 minutes, so a new notice usually appears here within about 20 minutes. Also look at cbse.gov.in for anything urgent.</p>' +
     '<div class="search" style="max-width:560px;margin-bottom:20px"><label for="uq" style="position:absolute;left:-9999px">Search updates</label><input id="uq" type="search" placeholder="Search updates" value="' + esc(ST.q) + '" autocomplete="off"></div>' +
     '<div class="flab">Type</div><div class="chips" role="group" aria-label="Type" style="margin-bottom:16px">' + types + '</div>' +
     '<div style="display:flex;flex-wrap:wrap;gap:16px;margin-bottom:20px">' + uSelect("uyr", "Exam year", Object.keys(yrs).sort().reverse(), ST.fy) + '</div>' +
