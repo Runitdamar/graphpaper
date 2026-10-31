@@ -713,6 +713,19 @@ function applyClass(){
   var app = $("#app"), n = +ST.cls, st = n >= 9, young = !!ST.cls && n <= 8, up = $("#nv-up"), nav = $("#topnav nav"), ft = $("#foot");
   app.dataset.c = ST.cls;
   if (st) app.dataset.s = "1"; else delete app.dataset.s;
+  var br = $("#topnav .brand");
+  if (br){
+    var want = st && typeof HLOGO !== "undefined" && HLOGO[n] ? String(n) : "";
+    if ((br.dataset.hl || "") !== want){
+      br.dataset.hl = want;
+      var cur = br.firstElementChild;
+      if (cur){
+        var tmp = document.createElement("div");
+        tmp.innerHTML = want ? HLOGO[n] : '<img src="/logo-96.png" width="44" height="44" alt="" decoding="async">';
+        br.replaceChild(tmp.firstChild, cur);
+      }
+    }
+  }
   if (up) up.hidden = young;
   if (nav) nav.className = young ? "few" : "";
   if (ft){
