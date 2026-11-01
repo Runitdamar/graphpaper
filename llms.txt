@@ -1,0 +1,41 @@
+# GraphPaper
+
+> GraphPaper is a free study hub for CBSE Classes 1 to 12. It does not host files: it links to NCERT and CBSE official sources (5017 links, 3511 PDFs, 1505 whole-book ZIPs, all re-checked every week) and shows CBSE notices within about 20 minutes of publication. GraphPaper is not an official board website.
+
+## Classes 9 to 12
+
+- [Class 9](https://graphpaper.co.in/class-9): NCERT books, syllabus and official CBSE links for Class 9
+- [Class 10](https://graphpaper.co.in/class-10): Board-exam hub: notices, syllabus, sample papers, previous-year papers, NCERT books
+- [Class 11](https://graphpaper.co.in/class-11): Science, Commerce and Humanities: books, syllabus and papers
+- [Class 12](https://graphpaper.co.in/class-12): Board-exam hub for all three streams
+
+## Study shelf
+
+- [NCERT books, Class 10](https://graphpaper.co.in/class-10/books): Chapter-wise PDFs and whole-book ZIPs, linked from ncert.nic.in
+- [Syllabus, Class 10](https://graphpaper.co.in/class-10/syllabus): CBSE 2026-27 syllabus by subject, linked from cbseacademic.nic.in
+- [Sample papers, Class 10](https://graphpaper.co.in/class-10/sample-papers): CBSE sample papers with marking schemes
+- [Previous-year papers, Class 10](https://graphpaper.co.in/class-10/previous-year-papers): CBSE question papers by year
+- [Sample papers, Class 12](https://graphpaper.co.in/class-12/science/sample-papers): CBSE sample papers with marking schemes
+- [Percentage and CGPA calculator](https://graphpaper.co.in/calculator): CBSE CGPA to percentage (x 9.5) and marks tools
+
+## CBSE notices
+
+- [All CBSE notices](https://graphpaper.co.in/updates): Date sheets, circulars and exam notices, checked every 15 minutes
+
+## Latest CBSE notices
+
+- [Visit of Students of CBSE - Affiliated Schools to the CBSE Experience Centre - reg.](https://graphpaper.co.in/notice/visit-of-students-of-cbse-affiliated-schools-to-the-cbse-experience-centre-reg): published 2026-10-30
+- [Scheme of Studies for Class IX 2026-27 – reg.](https://graphpaper.co.in/notice/scheme-of-studies-for-class-ix-2026-27-reg): published 2026-10-29
+- [Reminder 6 : Today is the last date for the submission of LOC - Reg.](https://graphpaper.co.in/notice/reminder-6-today-is-the-last-date-for-the-submission-of-loc-reg): published 2026-10-21
+- [Reminder 5 : Only 02 days are left in the last date for submission of LOC - Reg.](https://graphpaper.co.in/notice/reminder-5-only-02-days-are-left-in-the-last-date-for-submission-of-loc-reg): published 2026-10-19
+- [Reminder 4 : Only 04 days are left in the last date for submission of LOC - Reg.](https://graphpaper.co.in/notice/reminder-4-only-04-days-are-left-in-the-last-date-for-submission-of-loc-reg): published 2026-10-17
+- [Reminder 3 : Only 05 days are left in the last date for submission of LOC - Reg.](https://graphpaper.co.in/notice/reminder-3-only-05-days-are-left-in-the-last-date-for-submission-of-loc-reg): published 2026-10-16
+- [Reminder 2 : Only 06 days are left in the last date for submission of LOC - Reg.](https://graphpaper.co.in/notice/reminder-2-only-06-days-are-left-in-the-last-date-for-submission-of-loc-reg): published 2026-10-15
+- [Reminder 1 : Only 07 days are left in the last date for submission of LOC - Reg.](https://graphpaper.co.in/notice/reminder-1-only-07-days-are-left-in-the-last-date-for-submission-of-loc-reg): published 2026-10-14
+- [Date Sheet for Class XII : Special Examinations for West Asia - 2026](https://graphpaper.co.in/notice/date-sheet-for-class-xii-special-examinations-for-west-asia-2026): published 2026-10-09
+- [Reminder 1 : Following accuracy and timeliness while submitting LOC for Class X/XII - 2026-2027 - reg](https://graphpaper.co.in/notice/reminder-1-following-accuracy-and-timeliness-while-submitting-loc-for-class-x): published 2026-10-09
+
+## Optional
+
+- [Sitemap](https://graphpaper.co.in/sitemap.xml): every page
+- [About](https://graphpaper.co.in/about): who runs GraphPaper and how it is checked

@@ -11,7 +11,7 @@ such as a notice in updates.json or a book in books_*.json). Run:
     python scripts/build_site.py
 
 Everything it writes is generated; do not edit it by hand:
-    index.html, 404.html, sitemap.xml, robots.txt and the folders
+    index.html, 404.html, sitemap.xml, robots.txt, llms.txt and the folders
     class-*/, notice/, board/, updates/, about/, contact/, privacy/, terms/, disclaimer/, welcome/
 """
 import hashlib
@@ -199,6 +199,55 @@ def out_file(path):
     return os.path.join(ROOT, unquote(path).strip("/"), "index.html")
 
 
+def write_llms(sitemap):
+    """llms.txt: a short plain-text guide to the site for AI assistants, built from the same pages as the sitemap
+    (only pages that really exist are listed) and the newest published notices."""
+    have = {u for u, _ in sitemap}
+    st = link_stats()
+
+    def line(path, title, note):
+        url = SITE + path
+        return "- [%s](%s): %s" % (title, url, note) if url in have else None
+
+    sections = [
+        ("Classes 9 to 12", [
+            line("/class-9", "Class 9", "NCERT books, syllabus and official CBSE links for Class 9"),
+            line("/class-10", "Class 10", "Board-exam hub: notices, syllabus, sample papers, previous-year papers, NCERT books"),
+            line("/class-11", "Class 11", "Science, Commerce and Humanities: books, syllabus and papers"),
+            line("/class-12", "Class 12", "Board-exam hub for all three streams"),
+        ]),
+        ("Study shelf", [
+            line("/class-10/books", "NCERT books, Class 10", "Chapter-wise PDFs and whole-book ZIPs, linked from ncert.nic.in"),
+            line("/class-10/syllabus", "Syllabus, Class 10", "CBSE 2026-27 syllabus by subject, linked from cbseacademic.nic.in"),
+            line("/class-10/sample-papers", "Sample papers, Class 10", "CBSE sample papers with marking schemes"),
+            line("/class-10/previous-year-papers", "Previous-year papers, Class 10", "CBSE question papers by year"),
+            line("/class-12/science/sample-papers", "Sample papers, Class 12", "CBSE sample papers with marking schemes"),
+            line("/calculator", "Percentage and CGPA calculator", "CBSE CGPA to percentage (x 9.5) and marks tools"),
+        ]),
+        ("CBSE notices", [line("/updates", "All CBSE notices", "Date sheets, circulars and exam notices, checked every 15 minutes")]),
+    ]
+    out = ["# GraphPaper", "",
+           "> GraphPaper is a free study hub for CBSE Classes 1 to 12. It does not host files: it links to NCERT and CBSE official sources "
+           "(%d links, %d PDFs, %d whole-book ZIPs, all re-checked every week) and shows CBSE notices within about 20 minutes of publication. "
+           "GraphPaper is not an official board website." % (st["links"], st["pdf"], st["zip"]), ""]
+    for title, rows in sections:
+        rows = [r for r in rows if r]
+        if rows:
+            out += ["## " + title, ""] + rows + [""]
+    try:
+        items = [n for n in json.load(open(os.path.join(ROOT, "updates.json"), encoding="utf-8")) if n.get("status") == "approved" and not n.get("hold")]
+    except (OSError, ValueError):
+        items = []
+    items.sort(key=lambda n: n.get("date", ""), reverse=True)
+    rows = ["- [%s](%s/notice/%s): published %s" % (n["title"].replace("[", "(").replace("]", ")"), SITE, n.get("slug") or n["id"], n.get("date", ""))
+            for n in items[:10] if "%s/notice/%s" % (SITE, n.get("slug") or n["id"]) in have]
+    if rows:
+        out += ["## Latest CBSE notices", ""] + rows + [""]
+    out += ["## Optional", "", "- [Sitemap](%s/sitemap.xml): every page" % SITE, "- [About](%s/about): who runs GraphPaper and how it is checked" % SITE, ""]
+    with open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(out))
+
+
 def main():
     socketserver.TCPServer.allow_reuse_address = True
     srv = socketserver.ThreadingTCPServer(("127.0.0.1", 0), Handler)
@@ -268,6 +317,8 @@ def main():
                 + "\n".join(rows) + "\n</urlset>\n")
     with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8") as f:
         f.write("User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n" % SITE)
+
+    write_llms(sitemap)
 
     print("built %d pages, %d in sitemap, built on %s" % (len(pages), len(sitemap), date.today()))
     for pth, e in problems:
