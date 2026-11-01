@@ -7,6 +7,9 @@ on:
   workflow_run:
     workflows: ["Build site pages"]
     types: [completed]
+  push:
+    branches: [main]
+    paths: ["site-news.json"]     # a new line in site-news.json is announced too
   workflow_dispatch: {}
 
 permissions:
@@ -18,7 +21,7 @@ concurrency:
 
 jobs:
   post:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

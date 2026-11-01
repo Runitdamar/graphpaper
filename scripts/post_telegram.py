@@ -4,6 +4,8 @@ Runs after the site has been rebuilt (see .github/workflows/telegram.yml), so ev
 its page on graphpaper.co.in. posted.json remembers which notices went out. The first run only records
 the notices that already exist (nothing is posted), so the channel is never flooded with old items.
 
+Site news (new features and changes we make) comes from site-news.json and is posted the same way.
+
 Needs two repository secrets: TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID (for example @graphpaper_updates).
 Without them the script does nothing. Use DRY_RUN=1 to print the messages instead of sending them.
 """
@@ -38,6 +40,14 @@ def message(n):
     return "\n".join(lines)
 
 
+def news_message(n):
+    lines = ["<b>New on GraphPaper</b>", html.escape(n["title"])]
+    if n.get("text"):
+        lines.append(html.escape(n["text"]))
+    lines += ["", '<a href="%s">%s</a>' % (html.escape(n.get("link") or SITE + "/", quote=True), html.escape(n.get("label") or "Have a look"))]
+    return "\n".join(lines)
+
+
 def send(token, chat, text):
     data = urllib.parse.urlencode({"chat_id": chat, "text": text, "parse_mode": "HTML", "disable_web_page_preview": "true"}).encode()
     req = urllib.request.Request("https://api.telegram.org/bot%s/sendMessage" % token, data=data)
@@ -47,6 +57,8 @@ def send(token, chat, text):
 
 def main():
     items = [n for n in load("updates.json", []) if n.get("status") == "approved" and not n.get("hold")]
+    # site news: changes made to GraphPaper itself, listed in site-news.json (id, date, title, text, link, label)
+    items += [dict(n, news=True) for n in load("site-news.json", [])]
     path = os.path.join(ROOT, "posted.json")
     posted = load("posted.json", None)
     if posted is None:
@@ -74,7 +86,7 @@ def main():
             continue
         new.append(n)
     for n in new[:MAX_PER_RUN]:
-        text = message(n)
+        text = news_message(n) if n.get("news") else message(n)
         if dry:
             print(text, "\n---")
             continue
