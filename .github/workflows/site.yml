@@ -41,6 +41,8 @@ jobs:
       - run: pip install playwright && playwright install --with-deps chromium
       - run: npm install -g esbuild
       - run: python scripts/build_site.py
+      - name: Rebuild the notice feed (feed.xml)
+        run: python scripts/build_feed.py
       - name: Commit generated pages
         run: |
           git add -A
