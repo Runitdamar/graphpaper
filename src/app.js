@@ -675,6 +675,10 @@ function setMeta(name, r){
   el('meta[property="og:title"]', "meta", {property:"og:title"}).setAttribute("content", m.t);
   el('meta[property="og:description"]', "meta", {property:"og:description"}).setAttribute("content", m.d);
   el('meta[property="og:url"]', "meta", {property:"og:url"}).setAttribute("content", url);
+  var ogc = r.cls && +r.cls >= 9 && +r.cls <= 12 ? String(r.cls) : "default", ogi = SITE + "/og/og-" + ogc + ".png";
+  el('meta[property="og:image"]', "meta", {property:"og:image"}).setAttribute("content", ogi);
+  el('meta[name="twitter:image"]', "meta", {name:"twitter:image"}).setAttribute("content", ogi);
+  el('meta[property="og:type"]', "meta", {property:"og:type"}).setAttribute("content", name === "notice" ? "article" : "website");
   var graph = [];
   if (name === "home"){
     graph.push({"@type":"Organization", "@id":SITE + "/#org", name:"GraphPaper", url:SITE + "/", logo:SITE + "/logo.png"});
