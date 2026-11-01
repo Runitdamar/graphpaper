@@ -204,7 +204,7 @@ VIEWS.notice = function(r){
    (x.summary ? '<div style="background:var(--a4);border:2px solid var(--ink);border-radius:28px;padding:24px;box-shadow:0 6px 0 var(--ink)"><h2 style="font-size:24px;margin:0 0 12px">In short</h2><div>' + esc(x.summary) + '</div></div>' : '') +
    '<div class="meta">The official file is the only authority for dates and rules. ' + typeLink + (clsLinks.length ? ' · ' + clsLinks.join(' · ') : '') + '</div></div>' +
    '<aside style="flex:1 1 280px;max-width:360px;display:flex;flex-direction:column;gap:16px;min-width:0">' +
-   '<button class="btn" data-act="share" type="button">Share</button><div id="shmsg" class="meta" role="status" style="text-align:center"></div>' +
+   '<a class="btn" href="https://wa.me/?text=' + encodeURIComponent(x.title + " " + SITE + "/notice/" + (x.slug || x.id)) + '" target="_blank" rel="noopener" style="text-align:center">Share on WhatsApp</a><button class="btn" data-act="share" type="button">Share</button><div id="shmsg" class="meta" role="status" style="text-align:center"></div>' +
    '<div class="badge"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" style="fill:var(--card);stroke:var(--ink)" stroke-width="2"/><path d="M6 10.5l3 3 5-6" fill="none" style="stroke:var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Official source: ' + esc(host(url)) + '</div>' + relatedBox(x) + '</aside></div>' +
    '<div style="margin-top:56px"><h2>More from CBSE</h2><div class="grid g3">' + more.map(function(i){ return noticeCard(i, true); }).join("") + '</div></div></div>';
 };

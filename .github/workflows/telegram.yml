@@ -1,0 +1,45 @@
+name: Post notices to Telegram
+
+# After the site pages are rebuilt, new CBSE notices are posted to the GraphPaper Telegram channel.
+# Needs the repository secrets TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID; without them it does nothing.
+
+on:
+  workflow_run:
+    workflows: ["Build site pages"]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Give the new pages a minute to go live
+        run: sleep 90
+      - name: Post new notices
+        run: python scripts/post_telegram.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Remember what was posted
+        run: |
+          if [ -n "$(git status --porcelain posted.json)" ]; then
+            git config user.name "graphpaper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add posted.json
+            git commit -m "Remember posted notices"
+            for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push && break; sleep $((RANDOM % 10 + 3)); done
+          fi
