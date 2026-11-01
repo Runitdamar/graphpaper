@@ -6,7 +6,7 @@ daily.json remembers where each rotation has got to, so the same item is not pos
 list has been used. Needs the secrets TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID; without them it does nothing.
 DRY_RUN=1 prints the next posts instead of sending them (DRY_COUNT=n prints n).
 """
-import html, json, os, random, sys, urllib.parse, urllib.request
+import datetime, html, json, os, random, sys, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://graphpaper.co.in"
@@ -131,6 +131,12 @@ def main():
     if not dry and not (token and chat):
         print("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set: nothing posted.")
         return
+    now = datetime.datetime.now(datetime.timezone.utc)
+    if not dry and os.environ.get("FORCE") != "true" and st.get("last"):
+        # the outside timer and GitHub's own schedule may both fire; only one post per 5 hours goes out
+        if (now - datetime.datetime.fromisoformat(st["last"])).total_seconds() < 5 * 3600:
+            print("Posted less than 5 hours ago: skipping this run.")
+            return
     for _ in range(int(os.environ.get("DRY_COUNT", "1")) if dry else 1):
         kind = ORDER[st["n"] % len(ORDER)]
         text = build(kind, st["c"].get(kind, 0))
@@ -146,6 +152,7 @@ def main():
         st["n"] += 1
         st["c"][kind] = st["c"].get(kind, 0) + 1
     if not dry:
+        st["last"] = now.isoformat()
         with open(path, "w", encoding="utf-8") as f:
             json.dump(st, f, indent=0)
 
