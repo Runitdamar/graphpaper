@@ -1,0 +1,43 @@
+name: Post a study resource to Telegram
+
+# Twice a day (8:00 and 20:00 India time) posts one sample paper, previous-year paper, NCERT book, syllabus or
+# tool to the GraphPaper Telegram channel, taken from the site's own data. Needs the secrets
+# TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID; without them it does nothing.
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+    - cron: "30 14 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram-daily
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post the next resource
+        run: python scripts/post_daily.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Remember where the rotation got to
+        run: |
+          if [ -n "$(git status --porcelain daily.json)" ]; then
+            git config user.name "graphpaper-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add daily.json
+            git commit -m "Remember daily post"
+            for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push && break; sleep $((RANDOM % 10 + 3)); done
+          fi
