@@ -426,6 +426,11 @@
       "source": "/notice/cbse-2a7f8065ef",
       "destination": "/notice/visit-of-students-of-cbse-affiliated-schools-to-the-cbse-experience-centre-reg",
       "permanent": true
+    },
+    {
+      "source": "/notice/cbse-f4184c00af",
+      "destination": "/notice/correction-of-loc-data-2026-27-reg",
+      "permanent": true
     }
   ],
   "rewrites": [
