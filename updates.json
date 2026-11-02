@@ -739,5 +739,15 @@
     "status": "approved",
     "auto": true,
     "slug": "visit-of-students-of-cbse-affiliated-schools-to-the-cbse-experience-centre-reg"
+  },
+  {
+    "id": "cbse-f4184c00af",
+    "tag": "Circular",
+    "title": "Correction of LOC data 2026-27 - reg.",
+    "date": "2026-11-02",
+    "summary": "",
+    "url": "https://www.cbse.gov.in/cbsenew/documents/LOC_Correction_2026_27_02112026.pdf",
+    "status": "approved",
+    "auto": true
   }
 ]
