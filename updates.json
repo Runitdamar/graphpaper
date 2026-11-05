@@ -750,5 +750,25 @@
     "status": "approved",
     "auto": true,
     "slug": "correction-of-loc-data-2026-27-reg"
+  },
+  {
+    "id": "cbse-30420a27ad",
+    "tag": "Circular",
+    "title": "Circular regarding Subject-wise Marks Bifurcation of Class X/XII, Examination 2026-27",
+    "date": "2026-11-05",
+    "summary": "",
+    "url": "https://www.cbse.gov.in/cbsenew/documents/FINAL_Circular_Marks_Bifrucation_05112026.pdf",
+    "status": "approved",
+    "auto": true
+  },
+  {
+    "id": "cbse-9b95499efe",
+    "tag": "Circular",
+    "title": "Conduct of Practical Examination/Project Assessment/Internal Assessment for Classes X and XII, for Winter Bound Schools for session 2026-27 – Regarding",
+    "date": "2026-11-05",
+    "summary": "",
+    "url": "https://www.cbse.gov.in/cbsenew/documents/Circular_Practical_Examination_Winter_Bound_05112026.pdf",
+    "status": "approved",
+    "auto": true
   }
 ]
