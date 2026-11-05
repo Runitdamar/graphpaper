@@ -759,7 +759,8 @@
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/FINAL_Circular_Marks_Bifrucation_05112026.pdf",
     "status": "approved",
-    "auto": true
+    "auto": true,
+    "slug": "circular-regarding-subject-wise-marks-bifurcation-of-class-x-xii-examination"
   },
   {
     "id": "cbse-9b95499efe",
@@ -769,6 +770,7 @@
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/Circular_Practical_Examination_Winter_Bound_05112026.pdf",
     "status": "approved",
-    "auto": true
+    "auto": true,
+    "slug": "conduct-of-practical-examination-project-assessment-internal-assessment-for"
   }
 ]
