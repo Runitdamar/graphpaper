@@ -431,6 +431,16 @@
       "source": "/notice/cbse-f4184c00af",
       "destination": "/notice/correction-of-loc-data-2026-27-reg",
       "permanent": true
+    },
+    {
+      "source": "/notice/cbse-30420a27ad",
+      "destination": "/notice/circular-regarding-subject-wise-marks-bifurcation-of-class-x-xii-examination",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-9b95499efe",
+      "destination": "/notice/conduct-of-practical-examination-project-assessment-internal-assessment-for",
+      "permanent": true
     }
   ],
   "rewrites": [
