@@ -73,6 +73,21 @@
       "permanent": true
     },
     {
+      "source": "/class-:n([1-8])",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/class-:n([1-8])/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/parents",
+      "destination": "/",
+      "permanent": false
+    },
+    {
       "source": "/notice/cbse-3b89ed7093",
       "destination": "/notice/date-sheet-for-class-xii-special-examinations-for-west-asia-2026",
       "permanent": true

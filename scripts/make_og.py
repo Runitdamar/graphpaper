@@ -11,7 +11,7 @@ CARDS = {
     "10": ("Class 10", "Board-exam hub: notices, sample papers, previous-year papers, books", "#EBF3F5", "#15506C", "#C7DBE2"),
     "11": ("Class 11", "Science, Commerce and Humanities: books, syllabus and papers", "#F8EFE6", "#6E2A25", "#E8D3C2"),
     "12": ("Class 12", "Board-exam hub for every stream: notices, papers, books and syllabus", "#EEF3F8", "#3A5775", "#CBD9E8"),
-    "default": ("GraphPaper", "CBSE notices, NCERT books and syllabus for Classes 1 to 12", "#F4F1E8", "#2E4A36", "#D8D3C0"),
+    "default": ("GraphPaper", "CBSE notices, NCERT books and syllabus for Classes 9 to 12", "#F4F1E8", "#2E4A36", "#D8D3C0"),
 }
 
 

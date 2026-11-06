@@ -38,7 +38,7 @@ GENERATED_DIRS = ["notice", "board", "updates", "about", "contact", "privacy", "
 
 
 SRC = os.path.join(ROOT, "src")
-JS_FILES = ["app.js", "art.js", "logos.js", "parents.js", "students.js", "boot.js"]
+JS_FILES = ["app.js", "art.js", "logos.js", "students.js", "boot.js"]
 
 
 def esbuild(text, loader):
@@ -132,14 +132,14 @@ def ensure_slugs():
 def routes():
     """Every public URL: (path, lastmod or None)."""
     out = [("/", None), ("/updates", None), ("/about", None), ("/contact", None),
-           ("/privacy", None), ("/terms", None), ("/disclaimer", None), ("/parents", None), ("/welcome", None), ("/calculator", None),
+           ("/privacy", None), ("/terms", None), ("/disclaimer", None), ("/welcome", None), ("/calculator", None),
            ("/class-11", None), ("/class-12", None)]
     for sl in ("circulars", "date-sheets", "syllabus-changes", "results", "class-9", "class-10", "class-11", "class-12"):
         out.append(("/updates/" + sl, None))
     notices = [x for x in load("updates.json") if x.get("status") == "approved" and not x.get("sample")]
     for x in sorted(notices, key=lambda n: n["date"], reverse=True):
         out.append(("/notice/" + x.get("slug", x["id"]), x["date"]))
-    for c in range(1, 13):
+    for c in range(9, 13):
         bases = ["/class-%d" % c] if c < 11 else ["/class-%d/%s" % (c, s) for s in STREAMS]
         for b in bases:
             out.append((b, None))
@@ -227,7 +227,7 @@ def write_llms(sitemap):
         ("CBSE notices", [line("/updates", "All CBSE notices", "Date sheets, circulars and exam notices, checked every 15 minutes")]),
     ]
     out = ["# GraphPaper", "",
-           "> GraphPaper is a free study hub for CBSE Classes 1 to 12. It does not host files: it links to NCERT and CBSE official sources "
+           "> GraphPaper is a free study hub for CBSE Classes 9 to 12. It does not host files: it links to NCERT and CBSE official sources "
            "(%d links, %d PDFs, %d whole-book ZIPs, all re-checked every week) and shows CBSE notices within about 20 minutes of publication. "
            "GraphPaper is not an official board website." % (st["links"], st["pdf"], st["zip"]), ""]
     for title, rows in sections:

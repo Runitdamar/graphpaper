@@ -29,7 +29,7 @@ jobs:
           echo "## Lighthouse (mobile) for $B"  | tee -a $GITHUB_STEP_SUMMARY | tee -a /tmp/lighthouse.md
           echo "| Page | Performance | Accessibility | Best practices | SEO | LCP | CLS | TBT | Page weight |"  | tee -a $GITHUB_STEP_SUMMARY | tee -a /tmp/lighthouse.md
           echo "|---|---|---|---|---|---|---|---|---|"  | tee -a $GITHUB_STEP_SUMMARY | tee -a /tmp/lighthouse.md
-          for P in / /class-10 /class-12/science /class-10/mathematics /updates /updates/date-sheets /class-4 /calculator; do
+          for P in / /class-10 /class-12/science /class-10/mathematics /updates /updates/date-sheets /class-9 /calculator; do
             lighthouse "$B$P" --quiet --chrome-flags="--headless=new --no-sandbox" --output=json --output-path=/tmp/lh.json || true
             node -e '
               const r=require("/tmp/lh.json"), c=r.categories, a=r.audits, s=k=>Math.round((c[k].score||0)*100);

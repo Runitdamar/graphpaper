@@ -37,7 +37,7 @@ var TYPES = {
 var TYPE_KEYS = ["Circular", "Date Sheet", "Syllabus Change", "Result"];
 var HYD = false; /* true while a pre-rendered page is still showing and data is loading: do not redraw until everything is here, so nothing jumps */
 var ST = {ub:"all", stream:"Science", cls:"", wc:"", items:[], loaded:false, q:"", type:"all", hf:"all", bsub:"All", bq:""};
-try { var sv = localStorage.getItem("gp-class"); if (/^(1[0-2]|[1-9])$/.test(sv || "")) ST.cls = sv; } catch(e){}
+try { var sv = localStorage.getItem("gp-class"); if (/^(9|1[0-2])$/.test(sv || "")) ST.cls = sv; } catch(e){}
 try { var sv2 = localStorage.getItem("gp-stream"); if (sv2 === "Science" || sv2 === "Commerce" || sv2 === "Humanities"){ ST.stream = sv2; ST.streamSet = true; } } catch(e){}
 ST.ws = ST.streamSet ? ST.stream : ""; ST.pending = 5;
 
@@ -143,26 +143,23 @@ function clsLabel(){ return ST.cls ? "Class " + ST.cls : "Class 11 and 12"; }
 
 /* ---------- views ---------- */
 var VIEWS = {};
-var TITLES = {home:"GraphPaper: CBSE notices, NCERT books and syllabus", welcome:"Welcome | GraphPaper", updates:"All updates | GraphPaper", notice:"Notice | GraphPaper", "class":"Study shelf | GraphPaper", books:"NCERT books | GraphPaper", booklist:"Book list | GraphPaper", syllabus:"Syllabus | GraphPaper", papers:"Papers | GraphPaper", qbank:"Question bank | GraphPaper", board:"Boards | GraphPaper", about:"About | GraphPaper", parents:"For parents | GraphPaper", contact:"Contact | GraphPaper", terms:"Terms | GraphPaper", privacy:"Privacy | GraphPaper"};
+var TITLES = {home:"GraphPaper: CBSE notices, NCERT books and syllabus", welcome:"Welcome | GraphPaper", updates:"All updates | GraphPaper", notice:"Notice | GraphPaper", "class":"Study shelf | GraphPaper", books:"NCERT books | GraphPaper", booklist:"Book list | GraphPaper", syllabus:"Syllabus | GraphPaper", papers:"Papers | GraphPaper", qbank:"Question bank | GraphPaper", board:"Boards | GraphPaper", about:"About | GraphPaper", contact:"Contact | GraphPaper", terms:"Terms | GraphPaper", privacy:"Privacy | GraphPaper"};
 
 function pickerCard(){
   var sel = ST.wc, cb = "";
   var needS = hasStreams(ST.wc), sb = "";
   if (needS) STREAMS.forEach(function(v){ sb += '<button class="f fr" data-act="ws" data-v="' + v + '" aria-pressed="' + (ST.ws === v ? "true" : "false") + '" style="font-weight:600;font-size:19px;min-height:56px;padding:6px 10px">' + v + '</button>'; });
-  var cbP = "";
-  for (var i = 1; i <= 12; i++) { var one = '<button class="f fr" data-act="wc" data-v="' + i + '" aria-pressed="' + (sel === String(i) ? "true" : "false") + '" style="font-weight:600;font-size:22px;min-height:56px;padding:6px">' + i + '</button>'; if (i <= 8) cbP += one; else cb += one; }
+  for (var i = 9; i <= 12; i++) { var one = '<button class="f fr" data-act="wc" data-v="' + i + '" aria-pressed="' + (sel === String(i) ? "true" : "false") + '" style="font-weight:600;font-size:22px;min-height:56px;padding:6px">' + i + '</button>'; cb += one; }
   function bd(n, c, state, note){
     return '<button class="f fr" ' + (state === "on" ? 'aria-pressed="true"' : 'disabled aria-disabled="true"') + ' style="background:var(' + c + ');color:var(--ink);font-weight:500;font-size:20px;min-height:72px;border-radius:24px;padding:8px">' + n + (note ? '<span style="display:block;font-family:Nunito,sans-serif;font-weight:700;font-size:12px">' + note + '</span>' : '') + '</button>';
   }
   function step(n, id, t){ return '<div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><span class="fr" style="flex:none;width:34px;height:34px;border-radius:50%;background:var(--a1);border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-weight:600;font-size:17px">' + n + '</span><div id="' + id + '" class="fr" style="font-weight:600;font-size:22px">' + t + '</div></div>'; }
   return '<div style="background:var(--card);border:2px solid var(--ink);border-radius:32px;padding:28px 24px;text-align:left;display:flex;flex-direction:column;gap:22px;box-shadow:0 6px 0 var(--a1)">' +
    '<div>' + step(1, "wh1", "Your class") + '<div role="group" aria-labelledby="wh1">' +
-   '<div class="fr" style="font-weight:600;font-size:17px;margin:0 0 8px">Parent of a child in Class 1 to 8</div><div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px">' + cbP + '</div>' +
-   '<div class="fr" style="font-weight:600;font-size:17px;margin:0 0 8px">Student in Class 9 to 12</div><div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">' + cb + '</div></div>' +
-   '<div style="font-size:14px;color:var(--mut);margin-top:12px">Colors grow up with you, from candy pastels to calm, deep tones.</div></div>' +
+   '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">' + cb + '</div></div></div>' +
    (needS ? '<div>' + step(2, "wh3", "Your stream") + '<div role="group" aria-labelledby="wh3" class="wst">' + sb + '</div>' +
    '<div style="font-size:14px;color:var(--mut);margin-top:12px">Books, syllabus, papers and question banks will show your stream\u2019s subjects first. You can change this any time.</div></div>' : '') +
-   '<div style="font-size:14px;color:var(--mut)">Books and CBSE notices are live for Class 1 to 12, and the syllabus for Class 9 to 12.</div>' +
+   '<div style="font-size:14px;color:var(--mut)">Books, the syllabus and CBSE notices are live for Class 9 to 12.</div>' +
    '<div id="werr" role="alert" hidden style="background:var(--a2);border:2px solid var(--ink);border-radius:16px;padding:10px 16px;font-weight:700">Please pick your class first.</div>' +
    '<button class="btn dark" data-act="wgo" style="min-height:56px;font-size:19px;padding:14px 32px">Take me in</button></div>';
 }
@@ -217,16 +214,15 @@ function landing(){
   var latest = ST.items.slice(0, 3);
   return '<div class="wrap hr" style="align-items:start"><div>' +
     '<h1 id="pg" tabindex="-1" style="font-size:clamp(38px,6vw,64px);line-height:1.08;margin:0 0 16px">Your school year, all in one cozy place.</h1>' +
-    '<p style="color:var(--mut);margin:0 0 22px;max-width:520px;font-size:18px">NCERT books, the syllabus and official notices, sorted for your class. Free, with no sign-up.</p>' +
-    '<div style="display:flex;flex-wrap:wrap;gap:10px;font-weight:700;font-size:15px"><span class="pill" style="background:var(--a1);padding:6px 14px">Parents: Class 1 to 8</span><span class="pill" style="background:var(--a3);padding:6px 14px">Students: Class 9 to 12</span><span class="pill" style="background:var(--a4);padding:6px 14px">Official sources only</span><span class="pill" style="background:var(--a5);padding:6px 14px">Free</span></div>' +
+    '<p style="color:var(--mut);margin:0 0 22px;max-width:520px;font-size:18px">NCERT books, the syllabus and official CBSE notices for Class 9 to 12. Free, with no sign-up.</p>' +
+    '<div style="display:flex;flex-wrap:wrap;gap:10px;font-weight:700;font-size:15px"><span class="pill" style="background:var(--a3);padding:6px 14px">Class 9 to 12</span><span class="pill" style="background:var(--a4);padding:6px 14px">Official sources only</span><span class="pill" style="background:var(--a5);padding:6px 14px">Free</span></div>' +
     '<p style="margin:24px 0 0"><a href="#/updates" style="font-weight:700;text-decoration:underline">Just browsing? See the latest CBSE updates</a></p></div>' +
     '<div id="boards" style="scroll-margin-top:16px"><div class="fr" style="font-weight:600;font-size:26px;margin:0 0 12px">Let\u2019s set up your page</div>' + pickerCard() + '</div></div>' +
     '<div class="wrap sec"><h2 style="font-size:34px;margin:0 0 8px">What you\u2019ll find here</h2><p style="margin:0 0 24px;color:var(--mut);max-width:560px">Everything links to the official CBSE and NCERT websites. We never host the files ourselves.</p>' +
     '<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))">' +
-    featCard("--a1", "news", "Official updates", "CBSE circulars, date sheets and results, newest first. Most useful from Class 9.", "#/updates") +
-    featCard("--a3", "book", "NCERT books", "Class 1 to 12, chapter by chapter, with a whole-book download and a printable book list. Pick your class to start.", "#/home?s=boards") +
+    featCard("--a1", "news", "Official updates", "CBSE circulars, date sheets and results, newest first.", "#/updates") +
+    featCard("--a3", "book", "NCERT books", "Class 9 to 12, chapter by chapter, with a whole-book download and a printable book list. Pick your class to start.", "#/home?s=boards") +
     featCard("--a2", "doc", "Syllabus and papers", "The official 2026-27 syllabus, sample papers and question banks where CBSE publishes them. Pick your class to start.", "#/home?s=boards") +
-    featCard("--a4", "notes", "For parents", "Plain answers on school stages, exams and report cards, for Classes 1 to 8 and beyond.", "#/parents") +
     '</div></div>' +
     '<div style="background:var(--shelf);padding:56px 0"><div class="wrap"><h2 style="font-size:34px;margin:0 0 24px">How it works</h2><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:24px">' +
     howStep(1, "Pick your class", "Choose your class, and your stream for Class 11 and 12. It is remembered on your device, so there is no account to make.") +
@@ -244,7 +240,6 @@ function homeShelf(c){
   var n = +c, hi = n >= 11, tag = (hi ? ' ' + ST.stream : '');
   var cards = shelfCard("--a3", "book", "NCERT books", n <= 8 ? "Every book for Class " + c + ", chapter by chapter" : "Class " + c + tag + ", subject by subject", "#/books") +
     shelfCard("--a1", "doc", "Book list", "A printable list with chapter titles", "#/booklist");
-  if (n <= 8) cards += shelfCard("--a4", "news", "For parents", "How school stages, exams and report cards work", "#/parents");
   if (n >= 9) cards += shelfCard("--a2", "doc", "Syllabus", "Official 2026-27 syllabus for Class " + c, "#/syllabus");
   if (n === 10 || n === 12) cards += shelfCard("--a4", "doc", "Papers", "CBSE sample papers and past board papers", "#/papers");
   if (n >= 6) cards += shelfCard("--a2", "doc", "Question bank", "Practice questions and NCERT Exemplar problems", "#/qbank");
@@ -252,8 +247,6 @@ function homeShelf(c){
 }
 function homeCopy(c){
   var n = +c, hi = n >= 11;
-  if (n <= 5) return {h: "Your child’s Class " + c + ", made simple. One cozy place.", p: "Every NCERT book chapter by chapter, a printable book list, and plain answers about how school works."};
-  if (n <= 8) return {h: "Class " + c + ", made simple for you and your child. One cozy place.", p: "Every NCERT book chapter by chapter, a printable book list, and plain answers about exams and report cards."};
   var parts = ["NCERT books", "the official syllabus"];
   if (n === 10 || n === 12) parts.push("sample papers");
   parts.push("a question bank", "and the latest CBSE updates");
@@ -287,7 +280,6 @@ VIEWS["class"] = function(){
   var more0 = card("Book list", nb ? '#/booklist' : "", ico("doc"), "--a1", 'A printable list of every NCERT book for Class ' + c + (hi ? ' ' + ST.stream : '') + ', with its chapter titles.');
   function lk(t, h, col, d){ return '<a class="card" href="' + h + '" style="--sh:var(' + col + ')"><h3 style="font-size:22px">' + t + '</h3><div class="meta">' + d + '</div><span class="more">Open \u2192</span></a>'; }
   var more = "";
-  if (n <= 8) more += lk("For parents", "#/parents", "--a5", "How school stages, exams, holding back and report cards work, from official documents.");
   if (n >= 9) more += lk("Syllabus", "#/syllabus", "--a3", 'Official 2026-27 CBSE syllabus for every subject of Class ' + c + (hi ? ' (one PDF covers Class 11 and 12)' : '') + '.');
   if (n === 10 || n === 12) more += lk("Sample papers 2026-27", "#/sqp", "--a4", "Official CBSE sample papers with marking schemes for Class " + c + ", subject by subject.") + lk("Previous year papers", "#/pyq", "--a5", "Past board exam question papers for Class " + c + ", year by year, with the second exam where CBSE held one.");
   if (n >= 9) more += lk("Calculator", "#/calculator", "--a1", "Marks to percentage, and CGPA to percentage by CBSE's own rule.");
@@ -298,7 +290,7 @@ VIEWS["class"] = function(){
     return '<a class="card sm" href="#/subject/' + slug(f) + '" style="--sh:var(' + subCol(f) + ')"><h3>' + esc(f) + '</h3><div class="meta">' + cnt + ' chapters' + (subProg(c, f, true).d ? ', ' + subProg(c, f, true).d + ' done' : ', syllabus and practice') + '</div><span class="more">Open \u2192</span></a>';
   }).join("") + '</div>' : "";
   var mine = ST.items.filter(function(x){ return classOf(x, c); }).slice(0, 3);
-  var latest = '<h2>Latest for Class ' + c + '</h2><div class="grid g3">' + (mine.length ? mine.map(function(x){ return noticeCard(x, true); }).join("") : '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? (n <= 8 ? 'CBSE rarely sends notices meant for Classes 1 to 8. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a> or read the <a href="#/parents" style="font-weight:700;text-decoration:underline">guide for parents</a>.' : 'No notices that mention Class ' + c + ' yet. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a>.') : 'Loading notices...') + '</div>') + '</div>';
+  var latest = '<h2>Latest for Class ' + c + '</h2><div class="grid g3">' + (mine.length ? mine.map(function(x){ return noticeCard(x, true); }).join("") : '<div class="card" style="grid-column:1/-1;box-shadow:0 6px 0 var(--a1)">' + (ST.loaded ? 'No notices that mention Class ' + c + ' yet. <a href="#/updates" style="font-weight:700;text-decoration:underline">See all CBSE updates</a>.' : 'Loading notices...') + '</div>') + '</div>';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Study shelf</b></div>' +
    '<div class="head"><div class="tile" style="background:var(--a1)">' + c + '</div><div style="flex:1 1 320px"><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,54px)">' + (n >= 9 ? 'CBSE ' : '') + 'Class ' + c + (hi ? ' ' + ST.stream : '') + (n >= 9 ? ' for 2026-27' : '') + '</h1><p>' + (n >= 9 ? esc(classIntro(n, c)) : 'Every NCERT book for Class ' + c + ', chapter by chapter, with a printable book list.') + ' <a href="#/welcome" style="font-weight:700;text-decoration:underline">Change class' + (hi ? ' or stream' : '') + '</a></p></div></div>' +
    '<div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px"><h2 style="margin:0">NCERT books</h2>' + streams + '</div>' +
@@ -509,7 +501,7 @@ VIEWS.about = function(){
   return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>About</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">About GraphPaper</h1>' +
    '<p style="margin:0 0 28px;color:var(--mut)">Books, syllabus and notices for your class, in one calm place.</p><div style="display:flex;flex-direction:column;gap:22px">' +
    sec("Our idea", "Students and parents should not have to hunt through several websites for a book, a syllabus or a circular. GraphPaper gathers the official material, sorts it by class, and links to the original so you read the real thing.", "var(--a1)") +
-   sec("What you will find here", "<b>NCERT books:</b> every chapter PDF for Class 1 to 12, English-medium books plus the Hindi and Sanskrit language books, with chapter titles, a whole-book download and a printable book list.<br><b>Syllabus:</b> the official 2026-27 CBSE syllabus for Class 9 to 12.<br><b>Papers and question bank:</b> CBSE sample papers and past board papers for Class 10 and 12, and practice questions from Class 6.<br><b>Updates:</b> CBSE circulars, date sheets and results, plus a quick status check for Class 10 and 12.<br><b>For parents:</b> plain answers about school stages, exams and report cards, for Classes 1 to 8 and beyond.<br><b>Subject pages and progress:</b> every Class 9 to 12 subject has one page with its books, syllabus, papers and practice questions. Tick chapters as you finish them.<br><b>Calculator:</b> marks to percentage, and CGPA to percentage.", "var(--a3)") +
+   sec("What you will find here", "<b>NCERT books:</b> every chapter PDF for Class 9 to 12, English-medium books plus the Hindi and Sanskrit language books, with chapter titles, a whole-book download and a printable book list.<br><b>Syllabus:</b> the official 2026-27 CBSE syllabus for Class 9 to 12.<br><b>Papers and question bank:</b> CBSE sample papers and past board papers for Class 10 and 12, and practice questions.<br><b>Updates:</b> CBSE circulars, date sheets and results, plus a quick status check for Class 10 and 12.<br><b>Subject pages and progress:</b> every Class 9 to 12 subject has one page with its books, syllabus, papers and practice questions. Tick chapters as you finish them.<br><b>Calculator:</b> marks to percentage, and CGPA to percentage.", "var(--a3)") +
    sec("How it works", "Pick your class once, and your stream for Class 11 and 12. It is remembered on your device, so there is no account to make. Every link goes to the official CBSE or NCERT website. GraphPaper does not host the files.", "var(--a2)") +
    '<section style="background:var(--a4);border:2px solid var(--ink);border-radius:28px;padding:24px 26px;box-shadow:0 6px 0 var(--ink)"><h2 style="font-size:24px;margin:0 0 8px">Not an official website</h2><div>GraphPaper is not run by any board. Notices can change, so always check them at the official source before you act on them.</div></section>' +
    '</div></div>';
@@ -533,7 +525,7 @@ function toPath(h){
   if (name === "home") p = "/";
   else if (name === "notice" || name === "board") p = "/" + name + "/" + arg;
   else if (name === "updates") p = "/updates" + (arg ? "/" + arg : "");
-  else if (name === "class") p = classBase(ST.cls || "4");
+  else if (name === "class") p = ST.cls ? classBase(ST.cls) : "/welcome";
   else if (name === "subject") p = "/class-" + (ST.cls || "10") + "/" + arg;
   else if (name === "chapter"){ var cbk = bookByCode(arg.split("-")[0]); p = cbk ? chapPath(cbk, +arg.split("-")[1]) : "/"; }
   else if (name === "books") p = classBase(bcls()) + "/books";
@@ -546,7 +538,7 @@ function parse(){
   var r = {name:"", arg:"", q:new URLSearchParams(location.search)};
   if (!segs.length) return r;
   var m = /^class-(\d{1,2})$/.exec(segs[0]);
-  if (m && +m[1] >= 1 && +m[1] <= 12){
+  if (m && +m[1] >= 9 && +m[1] <= 12){
     r.cls = String(+m[1]); var i = 1;
     if (hasStreams(r.cls) && /^(science|commerce|humanities)$/.test(segs[1] || "")){ r.stream = segs[1].charAt(0).toUpperCase() + segs[1].slice(1); i = 2; }
     var sec = segs[i];
@@ -582,7 +574,7 @@ function bstat(c){
 function plu(n, w){ return n + " " + w + (n === 1 ? "" : "s"); }
 var RNUM = {"9": "IX", "10": "X", "11": "XI", "12": "XII"};
 function pageMeta(name, r){
-  var T = "GraphPaper: CBSE notices, NCERT books and syllabus", D0 = "CBSE circulars, date sheets and results for Class 1 to 12, with NCERT books and the syllabus, in one place.";
+  var T = "GraphPaper: CBSE notices, NCERT books and syllabus", D0 = "CBSE circulars, date sheets and results for Class 9 to 12, with NCERT books and the syllabus, in one place.";
   var c = r.cls || ST.cls, cn = c ? clsName(c) : "", n = c ? +c : 0, m = {t: T, d: D0, ni: false}, bs = c ? bstat(c) : {nb: 0, nch: 0, ns: 0}, rm = RNUM[c];
   if (name === "welcome"){ m.t = "Choose your class and stream"; m.ni = true; }
   else if (name === "updates"){
@@ -652,8 +644,7 @@ function pageMeta(name, r){
     } else { m.t = "Subject not found"; m.ni = true; }
   }
   else if (name === "board"){ var b = BOARDS[r.arg] ? r.arg : "CBSE"; m.t = b + " notices"; m.d = BOARDS[b].soon ? D0 : "Latest " + b + " circulars, date sheets, syllabus changes and results."; if (BOARDS[b].soon) m.ni = true; }
-  else if (name === "parents"){ m.t = "Classes 1 to 8 explained for parents"; m.d = "Plain answers for parents of children in Classes 1 to 8: school stages, board exams, holding back, and the Holistic Progress Card, with official sources."; m.bc = [["For parents", "/parents"]]; }
-  else if (name === "about"){ m.t = "About GraphPaper"; m.d = "GraphPaper brings NCERT books, the CBSE syllabus, papers and official notices together for Class 1 to 12, with links to the official sources only."; }
+  else if (name === "about"){ m.t = "About GraphPaper"; m.d = "GraphPaper brings NCERT books, the CBSE syllabus, papers and official notices together for Class 9 to 12, with links to the official sources only."; }
   else if (name === "contact"){ m.t = "Contact GraphPaper"; m.d = "Write to GraphPaper to report a wrong or missing CBSE notice, ask a question or suggest a feature."; }
   else if (name === "disclaimer"){ m.t = "Disclaimer: GraphPaper is not CBSE or NCERT"; m.d = "GraphPaper is independent and not affiliated with CBSE or NCERT. Always confirm notices and dates at the official source."; }
   else if (name === "terms"){ m.t = "Terms of use"; m.d = "The terms for using GraphPaper: an independent site that links to official CBSE and NCERT sources and is not an official board website."; }
@@ -737,9 +728,9 @@ function applyClass(){
     if (ft.dataset.k !== key){ ft.dataset.k = key; ft.innerHTML = st ? sxFoot(n) : FOOT_DEFAULT; rewriteLinks(); }
   }
 }
-var NAVOF = {updates:"nv-up", notice:"nv-up", board:"nv-up", parents:"nv-pa", "class":"nv-sh", streams:"nv-sh", books:"nv-sh", syllabus:"nv-sh", papers:"nv-sh", sqp:"nv-sh", pyq:"nv-sh", qbank:"nv-sh", booklist:"nv-sh", subject:"nv-sh", chapter:"nv-sh", calculator:"nv-sh"};
+var NAVOF = {updates:"nv-up", notice:"nv-up", board:"nv-up", "class":"nv-sh", streams:"nv-sh", books:"nv-sh", syllabus:"nv-sh", papers:"nv-sh", sqp:"nv-sh", pyq:"nv-sh", qbank:"nv-sh", booklist:"nv-sh", subject:"nv-sh", chapter:"nv-sh", calculator:"nv-sh"};
 function markNav(name){
-  ["nv-up", "nv-sh", "nv-pa"].forEach(function(id){ var a = $("#" + id); if (!a) return; if (NAVOF[name] === id) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+  ["nv-up", "nv-sh"].forEach(function(id){ var a = $("#" + id); if (!a) return; if (NAVOF[name] === id) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
 }
 /* While data is still arriving the footer is kept out of sight, so a page that briefly gets shorter does not pull it up into view and then push it back down. */
 function setBusy(){ D.documentElement.classList.toggle("gp-busy", !(ST.booksLoaded && ST.loaded && !ST.inflight)); }
