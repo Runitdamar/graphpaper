@@ -441,6 +441,11 @@
       "source": "/notice/cbse-9b95499efe",
       "destination": "/notice/conduct-of-practical-examination-project-assessment-internal-assessment-for",
       "permanent": true
+    },
+    {
+      "source": "/notice/cbse-c7ff687918",
+      "destination": "/notice/circular-regarding-subject-wise-marks-bifurcation-of-class-x-xii-examination-2026-11-06",
+      "permanent": true
     }
   ],
   "rewrites": [
