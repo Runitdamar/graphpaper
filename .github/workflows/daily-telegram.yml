@@ -11,7 +11,7 @@ on:
   workflow_dispatch:           # also started by the outside timer (cron-job.org) at 8:00 and 20:00 India time
     inputs:
       force:
-        description: "Post even if something was posted in the last 5 hours"
+        description: "Post even if something was posted in the last 11 hours"
         default: "false"
 
 permissions:
