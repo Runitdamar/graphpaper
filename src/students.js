@@ -141,7 +141,7 @@ function studentHome(c){
 }
 function homeReturning(){
   var c = ST.cls;
-  return +c <= 8 ? homeParents(c) : studentHome(c);
+  return studentHome(c);
 }
 
 ST.fs = ""; ST.fsub = ""; ST.fy = ""; ST.up = uPreset("");
@@ -622,7 +622,7 @@ VIEWS.board = function(r){
   var btns, body = "";
   if (b.soon) {
     btns = '<a class="btn dark" href="#/updates" style="display:inline-flex">See CBSE notices</a>';
-    body = '<div class="card" style="--sh:var(--a4)"><h3 style="font-size:22px">Coming soon</h3><div class="meta">For now GraphPaper covers CBSE notices and NCERT books for Class 1 to 12.</div></div>';
+    body = '<div class="card" style="--sh:var(--a4)"><h3 style="font-size:22px">Coming soon</h3><div class="meta">For now GraphPaper covers CBSE notices and NCERT books for Class 9 to 12.</div></div>';
   } else {
     btns = '<a class="btn dark" href="' + b.url + '" target="_blank" rel="noopener" style="display:inline-flex">Open official site ↗</a>';
     var counts = TYPE_KEYS.map(function(k){ var n = ST.items.filter(function(x){ return x.tag === k; }).length; return '<a class="card sm" href="#/updates?type=' + encodeURIComponent(k) + '" style="--sh:var(' + TYPES[k].c + ')"><h3>' + TYPES[k].plural + '</h3><div class="meta">' + n + ' notice' + (n === 1 ? '' : 's') + '</div><span class="more">See all →</span></a>'; }).join("");

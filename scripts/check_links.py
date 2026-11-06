@@ -25,7 +25,7 @@ def load(n):
 
 def collect():
     urls = {}
-    for f in ("books_1_8.json", "books_1_10.json", "books_9.json", "books_11.json", "books_12.json"):
+    for f in ("books_1_10.json", "books_9.json", "books_11.json", "books_12.json"):
         for b in load(f):
             for ch in b.get("ch", []):
                 fl = ch[2]
