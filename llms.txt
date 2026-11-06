@@ -1,6 +1,6 @@
 # GraphPaper
 
-> GraphPaper is a free study hub for CBSE Classes 1 to 12. It does not host files: it links to NCERT and CBSE official sources (5021 links, 3515 PDFs, 1505 whole-book ZIPs, all re-checked every week) and shows CBSE notices within about 20 minutes of publication. GraphPaper is not an official board website.
+> GraphPaper is a free study hub for CBSE Classes 1 to 12. It does not host files: it links to NCERT and CBSE official sources (5023 links, 3517 PDFs, 1505 whole-book ZIPs, all re-checked every week) and shows CBSE notices within about 20 minutes of publication. GraphPaper is not an official board website.
 
 ## Classes 9 to 12
 
@@ -25,6 +25,8 @@
 ## Latest CBSE notices
 
 - [Circular regarding Subject-wise Marks Bifurcation of Class X/XII, Examination 2026-27](https://graphpaper.co.in/notice/circular-regarding-subject-wise-marks-bifurcation-of-class-x-xii-examination-2026-11-06): published 2026-11-06
+- [Date Sheet for Class X and Class XII Board Examinations, 2027](https://graphpaper.co.in/notice/date-sheet-for-class-x-and-class-xii-board-examinations-2027): published 2026-11-06
+- [Result of Class XII Special Examination – West Asia (2026) Available on DigiLocker](https://graphpaper.co.in/notice/result-of-class-xii-special-examination-west-asia-2026-available-on-digilocker): published 2026-11-06
 - [Circular regarding Subject-wise Marks Bifurcation of Class X/XII, Examination 2026-27](https://graphpaper.co.in/notice/circular-regarding-subject-wise-marks-bifurcation-of-class-x-xii-examination): published 2026-11-05
 - [Conduct of Practical Examination/Project Assessment/Internal Assessment for Classes X and XII, for Winter Bound Schools for session 2026-27 – Regarding](https://graphpaper.co.in/notice/conduct-of-practical-examination-project-assessment-internal-assessment-for): published 2026-11-05
 - [Correction of LOC data 2026-27 - reg.](https://graphpaper.co.in/notice/correction-of-loc-data-2026-27-reg): published 2026-11-02
@@ -32,8 +34,6 @@
 - [Scheme of Studies for Class IX 2026-27 – reg.](https://graphpaper.co.in/notice/scheme-of-studies-for-class-ix-2026-27-reg): published 2026-10-29
 - [Reminder 6 : Today is the last date for the submission of LOC - Reg.](https://graphpaper.co.in/notice/reminder-6-today-is-the-last-date-for-the-submission-of-loc-reg): published 2026-10-21
 - [Reminder 5 : Only 02 days are left in the last date for submission of LOC - Reg.](https://graphpaper.co.in/notice/reminder-5-only-02-days-are-left-in-the-last-date-for-submission-of-loc-reg): published 2026-10-19
-- [Reminder 4 : Only 04 days are left in the last date for submission of LOC - Reg.](https://graphpaper.co.in/notice/reminder-4-only-04-days-are-left-in-the-last-date-for-submission-of-loc-reg): published 2026-10-17
-- [Reminder 3 : Only 05 days are left in the last date for submission of LOC - Reg.](https://graphpaper.co.in/notice/reminder-3-only-05-days-are-left-in-the-last-date-for-submission-of-loc-reg): published 2026-10-16
 
 ## Optional
 
