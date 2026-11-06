@@ -772,5 +772,38 @@
     "status": "approved",
     "auto": true,
     "slug": "conduct-of-practical-examination-project-assessment-internal-assessment-for"
+  },
+  {
+    "id": "cbse-c7ff687918",
+    "tag": "Circular",
+    "title": "Circular regarding Subject-wise Marks Bifurcation of Class X/XII, Examination 2026-27",
+    "date": "2026-11-06",
+    "summary": "",
+    "url": "https://www.cbse.gov.in/cbsenew/documents/Circular_Marks_Bifurcation_06112026 -.pdf",
+    "status": "approved",
+    "auto": true,
+    "slug": "circular-regarding-subject-wise-marks-bifurcation-of-class-x-xii-examination-2026-11-06"
+  },
+  {
+    "id": "cbse-9c896ef013",
+    "tag": "Date Sheet",
+    "title": "Date Sheet for Class X and Class XII Board Examinations, 2027",
+    "date": "2026-11-06",
+    "summary": "",
+    "url": "https://www.cbse.gov.in/cbsenew/documents/Datesheet_ClassX _XII_2027_Main_06112026.pdf",
+    "status": "approved",
+    "auto": true,
+    "slug": "date-sheet-for-class-x-and-class-xii-board-examinations-2027"
+  },
+  {
+    "id": "cbse-0a9e51615b",
+    "tag": "Result",
+    "title": "Result of Class XII Special Examination – West Asia (2026) Available on DigiLocker",
+    "date": "2026-11-06",
+    "summary": "",
+    "url": "https://www.cbse.gov.in/cbsenew/documents/Notification_Result_XII_Special Examination_West Asia_06112026.pdf",
+    "status": "approved",
+    "auto": true,
+    "slug": "result-of-class-xii-special-examination-west-asia-2026-available-on-digilocker"
   }
 ]

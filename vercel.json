@@ -456,6 +456,21 @@
       "source": "/notice/cbse-9b95499efe",
       "destination": "/notice/conduct-of-practical-examination-project-assessment-internal-assessment-for",
       "permanent": true
+    },
+    {
+      "source": "/notice/cbse-c7ff687918",
+      "destination": "/notice/circular-regarding-subject-wise-marks-bifurcation-of-class-x-xii-examination-2026-11-06",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-9c896ef013",
+      "destination": "/notice/date-sheet-for-class-x-and-class-xii-board-examinations-2027",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-0a9e51615b",
+      "destination": "/notice/result-of-class-xii-special-examination-west-asia-2026-available-on-digilocker",
+      "permanent": true
     }
   ],
   "rewrites": [
