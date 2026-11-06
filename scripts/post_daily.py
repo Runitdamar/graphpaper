@@ -133,9 +133,9 @@ def main():
         return
     now = datetime.datetime.now(datetime.timezone.utc)
     if not dry and os.environ.get("FORCE") != "true" and st.get("last"):
-        # the outside timer and GitHub's own schedule may both fire; only one post per 5 hours goes out
-        if (now - datetime.datetime.fromisoformat(st["last"])).total_seconds() < 5 * 3600:
-            print("Posted less than 5 hours ago: skipping this run.")
+        # the outside timer and GitHub's own schedule may both fire; only one post per 11 hours goes out (GitHub's schedule can run 6 to 7 hours late, so a shorter gap let late runs add extra posts)
+        if (now - datetime.datetime.fromisoformat(st["last"])).total_seconds() < 11 * 3600:
+            print("Posted less than 11 hours ago: skipping this run.")
             return
     for _ in range(int(os.environ.get("DRY_COUNT", "1")) if dry else 1):
         kind = ORDER[st["n"] % len(ORDER)]
