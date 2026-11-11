@@ -250,7 +250,9 @@ details.arch>summary{cursor:pointer;font-family:Fredoka,'Fredoka Fallback',sans-
 .sx-ab{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:24px 48px;align-items:center}
 .sx-ab h2{margin:0!important}
 .sx-close{background:var(--soft);border-radius:32px;padding:48px 28px;text-align:center;color:var(--ink)}
-.sx-close h2{margin:0 0 18px!important}
+.sx-close h2{margin:0 0 12px!important}
+.sx-close .sx-adl{color:var(--deep);opacity:.75}
+.sx-close p{max-width:46ch;margin:0 auto 22px}
 .r[data-s] .sx-close .btn.dark{background:var(--deep);color:var(--paper)}
 .sx-chg{font-weight:700;text-decoration:underline;text-underline-offset:3px;color:var(--deep)}
 .sx-tag{text-decoration:none;min-height:40px;box-sizing:border-box;border:1.5px solid var(--deep);cursor:pointer}

@@ -104,6 +104,11 @@ var CAMPUS = {label: "From the GraphPaper team", head: "Is your school’s websi
 function campusAd(n){
   return '<section class="sx-sec"><div class="wrap"><aside class="sx-feat" aria-label="Campus, school websites"><div><span class="sx-adl">' + CAMPUS.label + '</span><h2>' + CAMPUS.head + '</h2><p>' + CAMPUS.text + '</p><a class="btn" href="' + CAMPUS.url + '" target="_blank" rel="noopener">' + CAMPUS.cta + '</a></div><svg class="sx-lv sx-lv' + n + '" viewBox="0 0 24 24" aria-hidden="true">' + SXMARK[n] + '</svg></aside></div></section>';
 }
+/* Closing ad slot on every Class 9 to 12 home page: Postscript, our PDF tools. Change the text or link here. */
+var POSTSCRIPT = {label: "Also from the GraphPaper team", head: "Need to merge, split or compress a PDF?", text: "Postscript does it in your browser. Your files stay on your device and there is nothing to sign up for.", cta: "Open Postscript", url: "https://pdf.graphpaper.co.in/"};
+function psAd(){
+  return '<section class="sx-sec" style="padding-bottom:8px"><div class="wrap"><aside class="sx-close" aria-label="Postscript, PDF tools"><span class="sx-adl">' + POSTSCRIPT.label + '</span><h2>' + POSTSCRIPT.head + '</h2><p>' + POSTSCRIPT.text + '</p><a class="btn dark" href="' + POSTSCRIPT.url + '" target="_blank" rel="noopener">' + POSTSCRIPT.cta + '</a></aside></div></section>';
+}
 function linkStrip(){
   if (!LKS) return "";
   var f = function(n){ return n.toLocaleString("en-IN"); };
@@ -137,7 +142,7 @@ function studentHome(c){
     campusAd(n) +
     '<section class="sx-sec"><div class="wrap"><h2 style="margin-bottom:28px">Why GraphPaper</h2><div class="sx-why">' + why + '</div></div></section>' +
     '<section class="sx-sec"><div class="wrap sx-ab"><h2>About GraphPaper</h2><div><p style="margin:0 0 16px">GraphPaper is a free study hub for CBSE students. Every notice, book and paper links back to the official CBSE or NCERT website, and nothing here is hosted by us.</p><a class="btn" href="#/about">Read more about GraphPaper</a></div></div></section>' +
-    '<section class="sx-sec" style="padding-bottom:8px"><div class="wrap"><div class="sx-close"><h2>Ready to start with ' + cn + '?</h2><a class="btn dark" href="#/class">Open the study shelf</a></div></div></section>';
+    psAd();
 }
 function homeReturning(){
   var c = ST.cls;
