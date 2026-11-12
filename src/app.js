@@ -143,7 +143,7 @@ function clsLabel(){ return ST.cls ? "Class " + ST.cls : "Class 11 and 12"; }
 
 /* ---------- views ---------- */
 var VIEWS = {};
-var TITLES = {home:"GraphPaper: CBSE notices, NCERT books and syllabus", welcome:"Welcome | GraphPaper", updates:"All updates | GraphPaper", notice:"Notice | GraphPaper", "class":"Study shelf | GraphPaper", books:"NCERT books | GraphPaper", booklist:"Book list | GraphPaper", syllabus:"Syllabus | GraphPaper", papers:"Papers | GraphPaper", qbank:"Question bank | GraphPaper", board:"Boards | GraphPaper", about:"About | GraphPaper", contact:"Contact | GraphPaper", terms:"Terms | GraphPaper", privacy:"Privacy | GraphPaper"};
+var TITLES = {home:"GraphPaper: CBSE notices, NCERT books and syllabus", welcome:"Welcome | GraphPaper", status:"System status | GraphPaper", updates:"All updates | GraphPaper", notice:"Notice | GraphPaper", "class":"Study shelf | GraphPaper", books:"NCERT books | GraphPaper", booklist:"Book list | GraphPaper", syllabus:"Syllabus | GraphPaper", papers:"Papers | GraphPaper", qbank:"Question bank | GraphPaper", board:"Boards | GraphPaper", about:"About | GraphPaper", contact:"Contact | GraphPaper", terms:"Terms | GraphPaper", privacy:"Privacy | GraphPaper"};
 
 function pickerCard(){
   var sel = ST.wc, cb = "";
@@ -577,6 +577,7 @@ function pageMeta(name, r){
   var T = "GraphPaper: CBSE notices, NCERT books and syllabus", D0 = "CBSE circulars, date sheets and results for Class 9 to 12, with NCERT books and the syllabus, in one place.";
   var c = r.cls || ST.cls, cn = c ? clsName(c) : "", n = c ? +c : 0, m = {t: T, d: D0, ni: false}, bs = c ? bstat(c) : {nb: 0, nch: 0, ns: 0}, rm = RNUM[c];
   if (name === "welcome"){ m.t = "Choose your class and stream"; m.ni = true; }
+  else if (name === "status"){ m.t = "System status"; m.d = "Live checks of the GraphPaper website, its notice list, books and the automatic CBSE check."; m.ni = true; m.bc = [["System status", "/status"]]; }
   else if (name === "updates"){
     var up = uPreset(r.arg), uc = UCAT[r.arg];
     m.t = "CBSE circulars, date sheets and results"; m.d = "Every CBSE circular, date sheet, syllabus change and result in one list, newest first, with older notices archived separately."; m.bc = [["Updates", "/updates"]];
@@ -703,22 +704,37 @@ function syncFromPath(r){
     history.replaceState(null, "", classBase(r.cls) + sec + location.search);
   }
 }
-var FOOT_DEFAULT = '<div class="wrap" style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:32px"><div style="max-width:380px"><div class="fr" style="font-weight:600;font-size:26px;margin-bottom:8px;display:flex;align-items:center;gap:10px"><img src="/logo-96.png" width="36" height="36" alt="" style="border-radius:10px" loading="lazy">GraphPaper</div><div style="color:var(--a1);font-size:15px">GraphPaper is not an official board website. Always verify notices at the source.</div></div><div style="display:flex;flex-wrap:wrap;gap:24px;font-weight:700;align-items:flex-start"><a href="#/about">About</a><a href="#/contact">Contact</a><a href="#/privacy">Privacy</a><a href="#/terms">Terms</a><a href="#/disclaimer">Disclaimer</a></div></div>';
-/* Site status pill in the footer. Reads /checked.json, which the CBSE notice check rewrites on every run:
-   operational when the file loads, the last check is recent and at least one source answered. */
+var FOOT_DEFAULT = '<div class="wrap gp-fd"><div class="gp-fb"><div class="fr gp-fn"><img src="/logo-96.png" width="36" height="36" alt="" style="border-radius:10px" loading="lazy">GraphPaper</div><p>GraphPaper is not an official board website. Always verify notices at the source.</p></div><nav class="gp-fl" aria-label="About GraphPaper"><a href="#/about">About</a><a href="#/contact">Contact</a><a href="#/privacy">Privacy</a><a href="#/terms">Terms</a><a href="#/disclaimer">Disclaimer</a></nav></div>';
+/* ---------- site status: the footer pill and the /status page ----------
+   Everything here is read from the visitor's own browser. The CBSE notice check rewrites /checked.json
+   ({date, sources_ok, sources_total}); the site counts as operational when that file loads, the last check
+   is recent and at least one CBSE page answered. */
 var GPSTAT = {s: "checking", at: 0};
 var GPSTAT_TXT = {checking: "Checking status", ok: "Site operational", late: "Notice check delayed", down: "Status unavailable"};
+var ACT_ICON = '<svg class="gp-act" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>';
+function checkedState(d){
+  var age = (Date.now() - Date.parse(((d && d.date) || "") + "T00:00:00Z")) / 86400000;
+  return d && d.sources_ok > 0 && age < 3 ? "ok" : "late";
+}
+function loadChecked(cb){
+  var t0 = Date.now();
+  try {
+    fetch("/checked.json", {cache: "no-store"}).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){
+      cb(checkedState(d), d, Date.now() - t0);
+    }).catch(function(){ cb("down", null, null); });
+  } catch(e){ cb("down", null, null); }
+}
 function paintStatus(){
   var el = document.querySelector(".gp-stat");
   if (!el) return;
   el.dataset.s = GPSTAT.s;
-  el.lastChild.textContent = GPSTAT_TXT[GPSTAT.s];
+  el.querySelector("span").textContent = GPSTAT_TXT[GPSTAT.s];
 }
 function mountStatus(ft){
   if (!ft.querySelector(".gp-stat")){
     var row = document.createElement("div");
     row.className = "gp-statrow";
-    row.innerHTML = '<span class="gp-stat" role="status" aria-live="polite"><i aria-hidden="true"></i><span></span></span>';
+    row.innerHTML = '<a class="gp-stat" href="/status"><i aria-hidden="true"></i><span role="status" aria-live="polite"></span>' + ACT_ICON + '</a>';
     var fine = ft.querySelector(".sx-fine"), box = ft.querySelector(".wrap") || ft;
     if (fine) fine.parentNode.insertBefore(row, fine); else box.appendChild(row);
   }
@@ -726,18 +742,75 @@ function mountStatus(ft){
   if (navigator.webdriver) return; /* the page build must not bake a live status into the static HTML */
   if (GPSTAT.s !== "checking" && Date.now() - GPSTAT.at < 300000) return;
   GPSTAT.at = Date.now();
-  var done = function(v){ GPSTAT.s = v; paintStatus(); };
-  try {
-    fetch("/checked.json", {cache: "no-store"}).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){
-      var age = (Date.now() - Date.parse(d.date + "T00:00:00Z")) / 86400000;
-      done(d.sources_ok > 0 && age < 3 ? "ok" : "late");
-    }).catch(function(){ done("down"); });
-  } catch(e){ done("down"); }
+  loadChecked(function(v){ GPSTAT.s = v; paintStatus(); });
 }
+
+/* The /status page: five plain checks, each run from this browser. */
+var STAT = {at: 0, running: false, site: null, data: null, chk: null};
+var STAT_WORD = {checking: "Checking", ok: "Operational", late: "Delayed", down: "Not working"};
+function statRows(){
+  var nl = ST.items ? ST.items.length : 0, nb = BOOKS.length, nc = 0, i, newest = "";
+  for (i = 0; i < nb; i++) nc += BOOKS[i].ch ? BOOKS[i].ch.length : 0;
+  if (nl) newest = ST.items[0].date;
+  var chk = STAT.chk, ck = chk && chk.d ? chk.d : null;
+  return [
+    {n: "Website", t: "Serves every page, including this one.", s: STAT.site ? STAT.site.s : "checking", x: STAT.site && STAT.site.ms != null ? STAT.site.ms + " ms" : ""},
+    {n: "CBSE notices", t: !ST.loaded ? "Loading the notice list." : nl ? plu(nl, "published notice") + ", newest from " + fmt(newest) + "." : "The notice list did not load.", s: !ST.loaded ? "checking" : nl ? "ok" : "down"},
+    {n: "NCERT books", t: !ST.booksLoaded ? "Loading the book lists." : nb ? plu(nb, "book") + " and " + plu(nc, "chapter") + " for Class 1 to 12." : "The book lists did not load.", s: !ST.booksLoaded ? "checking" : nb ? "ok" : "down"},
+    {n: "Syllabus, papers and question bank", t: STAT.data ? (STAT.data.s === "ok" ? "All three files answered." : "One or more of these files did not answer.") : "Checking the three files.", s: STAT.data ? STAT.data.s : "checking", x: STAT.data && STAT.data.ms != null ? STAT.data.ms + " ms" : ""},
+    {n: "Automatic CBSE check", t: !chk ? "Reading the last result." : ck ? "Last run on " + fmt(ck.date) + ": " + ck.sources_ok + (ck.sources_total ? " of " + ck.sources_total : "") + " CBSE pages read." : "The result of the last run could not be read.", s: chk ? chk.s : "checking"}
+  ];
+}
+function statList(){
+  return statRows().map(function(r){
+    return '<li class="gp-sr" data-s="' + r.s + '"><i aria-hidden="true"></i><div><b>' + r.n + '</b><span>' + esc(r.t) + '</span></div><em>' + STAT_WORD[r.s] + (r.x ? ' <small>' + r.x + '</small>' : '') + '</em></li>';
+  }).join("");
+}
+function statBanner(rows){
+  var bad = 0, late = 0, wait = 0;
+  rows.forEach(function(r){ if (r.s === "down") bad++; else if (r.s === "late") late++; else if (r.s === "checking") wait++; });
+  if (bad) return ["down", "Some parts are not working"];
+  if (wait) return ["checking", "Checking everything"];
+  if (late) return ["late", "Working, with a delayed notice check"];
+  return ["ok", "All systems operational"];
+}
+function statPaint(){
+  var ul = $("#slist"), bn = $("#sban"); if (!ul || !bn) return;
+  var rows = statRows(), b = statBanner(rows);
+  ul.innerHTML = statList(); bn.dataset.s = b[0]; bn.querySelector("b").textContent = b[1];
+  var bt = $("#sagain"); if (bt) bt.disabled = STAT.running;
+}
+function statRun(force){
+  if (navigator.webdriver || STAT.running) return;
+  if (!force && STAT.at && Date.now() - STAT.at < 30000) return;
+  STAT.running = true; STAT.at = Date.now();
+  var left = 2, fin = function(){ if (--left === 0){ STAT.running = false; } statPaint(); };
+  loadChecked(function(v, d, ms){
+    STAT.site = {s: d ? "ok" : "down", ms: ms}; STAT.chk = {s: v, d: d}; GPSTAT.s = v; GPSTAT.at = Date.now(); paintStatus(); fin();
+  });
+  var t0 = Date.now(), files = ["/syllabus.json", "/papers.json", "/qbank.json"], got = 0, bad = 0;
+  files.forEach(function(f){
+    var done = function(ok){ if (!ok) bad++; if (++got === files.length){ STAT.data = {s: bad ? "down" : "ok", ms: Date.now() - t0}; fin(); } };
+    try { fetch(f, {method: "HEAD", cache: "no-store"}).then(function(r){ done(r.ok); }).catch(function(){ done(false); }); } catch(e){ done(false); }
+  });
+}
+VIEWS.status = function(){
+  var rows = statRows(), b = statBanner(rows);
+  return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>System status</b></div>' +
+   '<h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">System status</h1>' +
+   '<p style="margin:0 0 22px;color:var(--mut)">Live checks, run from your browser right now.</p>' +
+   '<div id="sban" class="gp-sb" data-s="' + b[0] + '" role="status" aria-live="polite"><i aria-hidden="true"></i><b>' + b[1] + '</b></div>' +
+   '<ul id="slist" class="gp-sl">' + statList() + '</ul>' +
+   '<div style="display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:22px"><button id="sagain" class="btn dark" type="button" data-act="statrun">Check again</button></div>' +
+   '<p class="meta" style="margin-top:22px;max-width:62ch">GraphPaper links to CBSE and NCERT but does not host their files. If one of those websites is down, GraphPaper can still be up. Spotted a problem? Tell us on the <a href="/contact" style="font-weight:700;text-decoration:underline">Contact page</a>.</p></div>';
+};
+
 function applyClass(){
   var app = $("#app"), n = +ST.cls, st = n >= 9, young = !!ST.cls && n <= 8, up = $("#nv-up"), nav = $("#topnav nav"), ft = $("#foot");
-  app.dataset.c = ST.cls;
-  if (st) app.dataset.s = "1"; else delete app.dataset.s;
+  /* While someone is still choosing (nothing saved yet), the page wears the colours of the class they have tapped, and keeps them when they then tap a stream. */
+  var pv = ST.cls || ST.wc;
+  app.dataset.c = pv;
+  if (+pv >= 9) app.dataset.s = "1"; else delete app.dataset.s;
   var br = $("#topnav .brand");
   if (br){
     var want = st && typeof HLOGO !== "undefined" && HLOGO[n] ? String(n) : "";
@@ -805,6 +878,7 @@ function route(keepScroll){
   $("#hdr").hidden = $("#foot").hidden = (name === "welcome");
   if (name !== "welcome") applyClass();
   $("#view").innerHTML = VIEWS[name](r);
+  if (name === "status") statRun();
   markNav(name);
   rewriteLinks();
   setMeta(name, r);
@@ -859,6 +933,7 @@ D.addEventListener("click", function(e){
   }
   else if (a === "wc"){ ST.wc = v; route(true); var wa = $("#app"); wa.dataset.c = v; if (+v >= 9) wa.dataset.s = "1"; else delete wa.dataset.s; }
   else if (a === "copyfeed"){ var fu = $("#feedurl").textContent, cm = $("#copymsg"); if (navigator.clipboard) navigator.clipboard.writeText(fu).then(function(){ cm.textContent = "Copied."; }, function(){ cm.textContent = "Press and hold the address to copy it."; }); else cm.textContent = "Press and hold the address to copy it."; }
+  else if (a === "statrun"){ statRun(true); statPaint(); }
   else if (a === "wgo"){ var we = $("#werr"); if (!ST.wc){ we.textContent = "Please pick your class first."; we.hidden = false; return; } if (hasStreams(ST.wc) && !ST.ws){ we.textContent = "Please pick your stream first."; we.hidden = false; return; } setClass(ST.wc); if (hasStreams(ST.wc)) setStream(ST.ws); go("/"); }
   else if (a === "sxchip"){ if (!$("#resources")){ ST.sxq = v; go(toPath("#/class")); return; } var qi = $("#sxq"); if (qi) qi.value = v; sxFilter(v); var rs = $("#resources"); if (rs) rs.scrollIntoView({behavior: "smooth"}); }
   else if (a === "ut"){ ST.type = v; route(true); }
