@@ -25,18 +25,35 @@ def load(name, default):
         return default
 
 
-def message(n):
+def nice(iso):
     try:
-        d = datetime.date.fromisoformat(n["date"]).strftime("%d %b %Y").lstrip("0")
-    except (KeyError, ValueError):
-        d = ""
+        return datetime.date.fromisoformat(iso).strftime("%d %b %Y").lstrip("0")
+    except (TypeError, ValueError):
+        return ""
+
+
+def earlier_version(n, items):
+    """CBSE sometimes issues the same circular again with a correction. When an older notice has exactly the same
+    title, the new post says so, instead of looking like a repeat of the first one."""
+    key = " ".join("".join(ch if ch.isalnum() else " " for ch in n["title"].lower()).split())
+    older = [i for i in items if i["id"] != n["id"] and not i.get("news") and i.get("date", "") < n.get("date", "")
+             and " ".join("".join(ch if ch.isalnum() else " " for ch in i["title"].lower()).split()) == key]
+    return max(older, key=lambda i: i["date"]) if older else None
+
+
+def message(n, items=()):
+    d = nice(n.get("date"))
     page = "%s/notice/%s" % (SITE, n.get("slug") or n["id"])
-    lines = ["<b>%s</b>" % html.escape(n.get("tag") or "CBSE notice"), html.escape(n["title"])]
+    prev = earlier_version(n, items)
+    tag = n.get("tag") or "CBSE notice"
+    lines = ["<b>%s</b>" % html.escape(tag + (" (updated)" if prev else "")), html.escape(n["title"])]
     if d:
         lines.append("Published " + d)
+    if prev and nice(prev["date"]):
+        lines.append("CBSE issued this notice again. The first one was published " + nice(prev["date"]) + ".")
     lines += ["", '<a href="%s">Open on GraphPaper</a>' % html.escape(page, quote=True)]
     if n.get("url"):
-        lines.append('<a href="%s">Official notice (PDF)</a>' % html.escape(n["url"], quote=True))
+        lines.append('<a href="%s">Official notice (PDF)</a>' % html.escape(urllib.parse.quote(n["url"], safe=":/?&=%#~-._+,;@!$'()*"), quote=True))   # a space in CBSE's file name would cut the link short
     return "\n".join(lines)
 
 
@@ -86,7 +103,7 @@ def main():
             continue
         new.append(n)
     for n in new[:MAX_PER_RUN]:
-        text = news_message(n) if n.get("news") else message(n)
+        text = news_message(n) if n.get("news") else message(n, items)
         if dry:
             print(text, "\n---")
             continue
