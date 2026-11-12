@@ -222,7 +222,7 @@ def main():
         # the date shown on GraphPaper as "CBSE's lists last checked" (IST)
         import datetime as _dt
         _today = (_dt.datetime.utcnow() + _dt.timedelta(hours=5, minutes=30)).date().isoformat()
-        (ROOT / "checked.json").write_text(json.dumps({"date": _today, "sources_ok": len(SOURCES) - errors}) + "\n", encoding="utf-8")
+        (ROOT / "checked.json").write_text(json.dumps({"date": _today, "sources_ok": len(SOURCES) - errors, "sources_total": len(SOURCES)}) + "\n", encoding="utf-8")
     print(f"Added {len(added)} new item(s), {live} published at once, {promoted} earlier pending item(s) published.")
     if errors == len(SOURCES):
         sys.exit(1)  # every source failed: make the run show as failed
