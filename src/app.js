@@ -704,6 +704,36 @@ function syncFromPath(r){
   }
 }
 var FOOT_DEFAULT = '<div class="wrap" style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:32px"><div style="max-width:380px"><div class="fr" style="font-weight:600;font-size:26px;margin-bottom:8px;display:flex;align-items:center;gap:10px"><img src="/logo-96.png" width="36" height="36" alt="" style="border-radius:10px" loading="lazy">GraphPaper</div><div style="color:var(--a1);font-size:15px">GraphPaper is not an official board website. Always verify notices at the source.</div></div><div style="display:flex;flex-wrap:wrap;gap:24px;font-weight:700;align-items:flex-start"><a href="#/about">About</a><a href="#/contact">Contact</a><a href="#/privacy">Privacy</a><a href="#/terms">Terms</a><a href="#/disclaimer">Disclaimer</a></div></div>';
+/* Site status pill in the footer. Reads /checked.json, which the CBSE notice check rewrites on every run:
+   operational when the file loads, the last check is recent and at least one source answered. */
+var GPSTAT = {s: "checking", at: 0};
+var GPSTAT_TXT = {checking: "Checking status", ok: "Site operational", late: "Notice check delayed", down: "Status unavailable"};
+function paintStatus(){
+  var el = document.querySelector(".gp-stat");
+  if (!el) return;
+  el.dataset.s = GPSTAT.s;
+  el.lastChild.textContent = GPSTAT_TXT[GPSTAT.s];
+}
+function mountStatus(ft){
+  if (!ft.querySelector(".gp-stat")){
+    var row = document.createElement("div");
+    row.className = "gp-statrow";
+    row.innerHTML = '<span class="gp-stat" role="status" aria-live="polite"><i aria-hidden="true"></i><span></span></span>';
+    var fine = ft.querySelector(".sx-fine"), box = ft.querySelector(".wrap") || ft;
+    if (fine) fine.parentNode.insertBefore(row, fine); else box.appendChild(row);
+  }
+  paintStatus();
+  if (navigator.webdriver) return; /* the page build must not bake a live status into the static HTML */
+  if (GPSTAT.s !== "checking" && Date.now() - GPSTAT.at < 300000) return;
+  GPSTAT.at = Date.now();
+  var done = function(v){ GPSTAT.s = v; paintStatus(); };
+  try {
+    fetch("/checked.json", {cache: "no-store"}).then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){
+      var age = (Date.now() - Date.parse(d.date + "T00:00:00Z")) / 86400000;
+      done(d.sources_ok > 0 && age < 3 ? "ok" : "late");
+    }).catch(function(){ done("down"); });
+  } catch(e){ done("down"); }
+}
 function applyClass(){
   var app = $("#app"), n = +ST.cls, st = n >= 9, young = !!ST.cls && n <= 8, up = $("#nv-up"), nav = $("#topnav nav"), ft = $("#foot");
   app.dataset.c = ST.cls;
@@ -726,6 +756,7 @@ function applyClass(){
   if (ft){
     var key = st ? "s" + n + (hasStreams(n) && ST.streamSet ? ST.stream : "") : "d";
     if (ft.dataset.k !== key){ ft.dataset.k = key; ft.innerHTML = st ? sxFoot(n) : FOOT_DEFAULT; rewriteLinks(); }
+    mountStatus(ft);
   }
 }
 var NAVOF = {updates:"nv-up", notice:"nv-up", board:"nv-up", "class":"nv-sh", streams:"nv-sh", books:"nv-sh", syllabus:"nv-sh", papers:"nv-sh", sqp:"nv-sh", pyq:"nv-sh", qbank:"nv-sh", booklist:"nv-sh", subject:"nv-sh", chapter:"nv-sh", calculator:"nv-sh"};
