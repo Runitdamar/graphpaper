@@ -9,7 +9,9 @@ Site news (new features and changes we make) comes from site-news.json and is po
 Needs two repository secrets: TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID (for example @graphpaper_updates).
 Without them the script does nothing. Use DRY_RUN=1 to print the messages instead of sending them.
 """
-import datetime, html, json, os, sys, urllib.parse, urllib.request
+import datetime, html, json, os, sys
+
+import tg
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://graphpaper.co.in"
@@ -35,41 +37,42 @@ def nice(iso):
 def earlier_version(n, items):
     """CBSE sometimes issues the same circular again with a correction. When an older notice has exactly the same
     title, the new post says so, instead of looking like a repeat of the first one."""
-    key = " ".join("".join(ch if ch.isalnum() else " " for ch in n["title"].lower()).split())
-    older = [i for i in items if i["id"] != n["id"] and not i.get("news") and i.get("date", "") < n.get("date", "")
-             and " ".join("".join(ch if ch.isalnum() else " " for ch in i["title"].lower()).split()) == key]
+    def key(t):
+        return " ".join("".join(ch if ch.isalnum() else " " for ch in t.lower()).split())
+    older = [i for i in items if i["id"] != n["id"] and not i.get("news") and i.get("date", "") < n.get("date", "") and key(i["title"]) == key(n["title"])]
     return max(older, key=lambda i: i["date"]) if older else None
 
 
+ICONS = {"Circular": "\U0001F4E2", "Date Sheet": "\U0001F5D3\uFE0F", "Result": "\U0001F393", "Syllabus Change": "\U0001F4CB"}
+
+
 def message(n, items=()):
-    d = nice(n.get("date"))
+    """Returns (text, buttons) for one CBSE notice."""
     page = "%s/notice/%s" % (SITE, n.get("slug") or n["id"])
     prev = earlier_version(n, items)
-    tag = n.get("tag") or "CBSE notice"
-    lines = ["<b>%s</b>" % html.escape(tag + (" (updated)" if prev else "")), html.escape(n["title"])]
-    if d:
-        lines.append("Published " + d)
+    tag = n.get("tag") or "Circular"
+    label = {"Syllabus Change": "Syllabus change"}.get(tag, tag)
+    meta = " \u00b7 ".join(x for x in [label + (" (updated)" if prev else ""), tg.class_label(n["title"]), nice(n.get("date"))] if x)
+    lines = ["%s <b>%s</b>" % (ICONS.get(tag, "\U0001F4E2"), html.escape(n["title"])), "<i>%s</i>" % html.escape(meta)]
     if prev and nice(prev["date"]):
-        lines.append("CBSE issued this notice again. The first one was published " + nice(prev["date"]) + ".")
-    lines += ["", '<a href="%s">Open on GraphPaper</a>' % html.escape(page, quote=True)]
+        lines += ["", "CBSE issued this notice again. The first one was published %s." % nice(prev["date"])]
+    if n.get("deadline"):
+        lines += ["", "\u23F0 Deadline: " + html.escape(str(n["deadline"]))]
+    rows = [[{"text": "Open on GraphPaper", "url": page}]]
+    row2 = []
     if n.get("url"):
-        lines.append('<a href="%s">Official notice (PDF)</a>' % html.escape(urllib.parse.quote(n["url"], safe=":/?&=%#~-._+,;@!$'()*"), quote=True))   # a space in CBSE's file name would cut the link short
-    return "\n".join(lines)
+        row2.append({"text": "Official notice (PDF)", "url": tg.safe(n["url"])})
+    row2.append(tg.share_button(page, n["title"]))
+    rows.append(row2)
+    return "\n".join(lines), rows
 
 
 def news_message(n):
-    lines = ["<b>New on GraphPaper</b>", html.escape(n["title"])]
+    link = n.get("link") or SITE + "/"
+    lines = ["\u2728 <b>%s</b>" % html.escape(n["title"]), "<i>New on GraphPaper</i>"]
     if n.get("text"):
-        lines.append(html.escape(n["text"]))
-    lines += ["", '<a href="%s">%s</a>' % (html.escape(n.get("link") or SITE + "/", quote=True), html.escape(n.get("label") or "Have a look"))]
-    return "\n".join(lines)
-
-
-def send(token, chat, text):
-    data = urllib.parse.urlencode({"chat_id": chat, "text": text, "parse_mode": "HTML", "disable_web_page_preview": "true"}).encode()
-    req = urllib.request.Request("https://api.telegram.org/bot%s/sendMessage" % token, data=data)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r).get("ok", False)
+        lines += ["", html.escape(n["text"])]
+    return "\n".join(lines), [[{"text": n.get("label") or "Have a look", "url": link}], [tg.share_button(link, n["title"])]]
 
 
 def main():
@@ -103,12 +106,12 @@ def main():
             continue
         new.append(n)
     for n in new[:MAX_PER_RUN]:
-        text = news_message(n) if n.get("news") else message(n, items)
+        text, buttons = news_message(n) if n.get("news") else message(n, items)
         if dry:
-            print(text, "\n---")
+            print(text, "\n", buttons, "\n---")
             continue
         try:
-            if send(token, chat, text):
+            if tg.send(token, chat, text, buttons):
                 seen.add(n["id"])
                 print("Posted:", n["title"])
         except Exception as e:                       # leave it unposted; the next run retries

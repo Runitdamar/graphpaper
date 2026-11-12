@@ -6,7 +6,9 @@ daily.json remembers where each rotation has got to, so the same item is not pos
 list has been used. Needs the secrets TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID; without them it does nothing.
 DRY_RUN=1 prints the next posts instead of sending them (DRY_COUNT=n prints n).
 """
-import datetime, html, json, os, random, sys, urllib.parse, urllib.request
+import datetime, html, json, os, random, sys
+
+import tg
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://graphpaper.co.in"
@@ -39,7 +41,8 @@ def clean(name):
 
 
 def a(url, label):
-    return '<a href="%s">%s</a>' % (html.escape(url, quote=True), html.escape(label))
+    """A tap button under the post."""
+    return {"text": label, "url": tg.safe(url)}
 
 
 def sample_items():
@@ -105,19 +108,23 @@ def tool_items():
 KINDS = {"sample": sample_items, "pyq": pyq_items, "ncert": ncert_items, "syllabus": syllabus_items, "tool": tool_items}
 
 
+ICONS = {"sample": "\U0001F4DD", "pyq": "\U0001F5C2\uFE0F", "ncert": "\U0001F4DA", "syllabus": "\U0001F4D8", "tool": "\U0001F9EE"}
+HEADS = {"sample": "Sample paper", "pyq": "Previous-year paper", "ncert": "NCERT book", "syllabus": "Syllabus", "tool": "Tool"}
+
+
 def build(kind, count):
+    """Returns (text, buttons). Items are a title plus a list of buttons; a plain string in that list is a sentence under the title."""
     items = KINDS[kind]()
     random.Random(kind).shuffle(items)
     title, links = items[count % len(items)]
-    head = {"sample": "Sample paper", "pyq": "Previous-year paper", "ncert": "NCERT book", "syllabus": "Syllabus", "tool": "Tool"}[kind]
-    return "<b>%s</b>\n%s\n\n%s" % (head, html.escape(title), "\n".join(links))
-
-
-def send(token, chat, text):
-    data = urllib.parse.urlencode({"chat_id": chat, "text": text, "parse_mode": "HTML", "disable_web_page_preview": "true"}).encode()
-    req = urllib.request.Request("https://api.telegram.org/bot%s/sendMessage" % token, data=data)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r).get("ok", False)
+    lines = ["%s <b>%s</b>" % (ICONS[kind], html.escape(title)), "<i>%s</i>" % HEADS[kind]]
+    for x in links:
+        if isinstance(x, str):
+            lines += ["", html.escape(x)]
+    rows = [[x] for x in links if isinstance(x, dict)]
+    mine = next((x["url"] for x in links if isinstance(x, dict) and x["url"].startswith(SITE)), SITE + "/")
+    rows.append([tg.share_button(mine, title)])
+    return "\n".join(lines), rows
 
 
 def main():
@@ -139,12 +146,12 @@ def main():
             return
     for _ in range(int(os.environ.get("DRY_COUNT", "1")) if dry else 1):
         kind = ORDER[st["n"] % len(ORDER)]
-        text = build(kind, st["c"].get(kind, 0))
+        text, buttons = build(kind, st["c"].get(kind, 0))
         if dry:
-            print(text, "\n---")
+            print(text, "\n", [[b["text"] for b in r] for r in buttons], "\n---")
         else:
             try:
-                if not send(token, chat, text):
+                if not tg.send(token, chat, text, buttons):
                     print("Telegram refused the post.", file=sys.stderr); return
             except Exception as e:
                 print("Could not post: %s" % e, file=sys.stderr); return

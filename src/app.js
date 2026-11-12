@@ -704,7 +704,8 @@ function syncFromPath(r){
     history.replaceState(null, "", classBase(r.cls) + sec + location.search);
   }
 }
-var FOOT_DEFAULT = '<div class="wrap gp-fd"><div class="gp-fb"><div class="fr gp-fn"><img src="/logo-96.png" width="36" height="36" alt="" style="border-radius:10px" loading="lazy">GraphPaper</div><p>GraphPaper is not an official board website. Always verify notices at the source.</p></div><nav class="gp-fl" aria-label="About GraphPaper"><a href="#/about">About</a><a href="#/contact">Contact</a><a href="#/privacy">Privacy</a><a href="#/terms">Terms</a><a href="#/disclaimer">Disclaimer</a></nav></div>';
+var TGURL = "https://t.me/graphpaper_updates";
+var FOOT_DEFAULT = '<div class="wrap gp-fd"><div class="gp-fb"><div class="fr gp-fn"><img src="/logo-96.png" width="36" height="36" alt="" style="border-radius:10px" loading="lazy">GraphPaper</div><p>GraphPaper is not an official board website. Always verify notices at the source.</p></div><nav class="gp-fl" aria-label="About GraphPaper"><a href="#/about">About</a><a href="#/contact">Contact</a><a href="#/privacy">Privacy</a><a href="#/terms">Terms</a><a href="#/disclaimer">Disclaimer</a><a href="' + TGURL + '" target="_blank" rel="noopener">Telegram</a></nav></div>';
 /* ---------- site status: the footer pill and the /status page ----------
    Everything here is read from the visitor's own browser. The CBSE notice check rewrites /checked.json
    ({date, sources_ok, sources_total}); the site counts as operational when that file loads, the last check
