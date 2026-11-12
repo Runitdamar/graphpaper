@@ -34,7 +34,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://graphpaper.co.in"
 SHELL = os.path.join(ROOT, "scripts", "shell.html")
 STREAMS = ["science", "commerce", "humanities"]
-GENERATED_DIRS = ["notice", "board", "updates", "about", "contact", "privacy", "terms", "disclaimer", "welcome", "calculator"]
+GENERATED_DIRS = ["notice", "board", "updates", "about", "contact", "privacy", "terms", "disclaimer", "welcome", "calculator", "status"]
 
 
 SRC = os.path.join(ROOT, "src")
@@ -132,7 +132,7 @@ def ensure_slugs():
 def routes():
     """Every public URL: (path, lastmod or None)."""
     out = [("/", None), ("/updates", None), ("/about", None), ("/contact", None),
-           ("/privacy", None), ("/terms", None), ("/disclaimer", None), ("/welcome", None), ("/calculator", None),
+           ("/privacy", None), ("/terms", None), ("/disclaimer", None), ("/welcome", None), ("/calculator", None), ("/status", None),
            ("/class-11", None), ("/class-12", None)]
     for sl in ("circulars", "date-sheets", "syllabus-changes", "results", "class-9", "class-10", "class-11", "class-12"):
         out.append(("/updates/" + sl, None))
