@@ -471,6 +471,11 @@
       "source": "/notice/cbse-0a9e51615b",
       "destination": "/notice/result-of-class-xii-special-examination-west-asia-2026-available-on-digilocker",
       "permanent": true
+    },
+    {
+      "source": "/notice/cbse-8491b5f7dc",
+      "destination": "/notice/providing-osm-evaluation-data-on-ips-spot-evaluation-portal-2026-and-enabling",
+      "permanent": true
     }
   ],
   "rewrites": [
