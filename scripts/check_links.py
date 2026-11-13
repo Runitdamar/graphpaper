@@ -101,13 +101,17 @@ def probe(u):
             if e.code in (404, 410):
                 break
         except Exception as e:  # network trouble: retry
-            last = type(e).__name__
+            last = "%s: %s" % (type(e).__name__, str(getattr(e, "reason", e))[:90])
         time.sleep(2 + attempt * 3)
     return {"url": u0, "status": 0, "error": last}
 
 
 def main():
     urls = collect()
+    sample = int(os.environ.get("LINK_SAMPLE") or 0)
+    if sample:  # a quick look at some of the links, spread evenly, to see why they fail
+        keys = list(urls)
+        urls = {k: urls[k] for k in keys[:: max(1, len(keys) // sample)]}
     print("checking", len(urls), "links")
     # The weekly run used to hit the workflow's 60 minute limit and get cancelled with no report. Now 16 links are
     # opened at a time, and after BUDGET seconds whatever is still waiting is left out and the report says so.
