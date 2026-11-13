@@ -1,1865 +1,1381 @@
-# Link check: 4016 links, 1863 problem(s)
+# Link check: 3280 links, 1377 problem(s)
 
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep419.pdf
-- अंतराल भाग 1 (Hindi Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/khan102.pdf
-- Mathematics Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/lemh106.pdf
-- Fundamentals of Human Geography Glossary | URLError | https://ncert.nic.in/textbook/pdf/legy1gl.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep420.pdf
-- अंतराल भाग 1 (Hindi Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khan1dd.zip
-- Mathematics Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lemh1dd.zip
-- Fundamentals of Human Geography Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/legy1ps.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep421.pdf
-- अंतराल भाग 1 (Hindi Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khan1ps.pdf
-- Mathematics Part I Answers | URLError | https://ncert.nic.in/textbook/pdf/lemh1an.pdf
-- India: People and Economy 1 | URLError | https://ncert.nic.in/textbook/pdf/legy201.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep422.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 1 | URLError | https://ncert.nic.in/textbook/pdf/kham101.pdf
-- Mathematics Part I Appendix 1: Proofs in Mathematics | URLError | https://ncert.nic.in/textbook/pdf/lemh1a1.pdf
-- India: People and Economy 2 | URLError | https://ncert.nic.in/textbook/pdf/legy202.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep423.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 2 | URLError | https://ncert.nic.in/textbook/pdf/kham102.pdf
-- Mathematics Part I Appendix 2: Mathematical Modelling | URLError | https://ncert.nic.in/textbook/pdf/lemh1a2.pdf
-- India: People and Economy 3 | URLError | https://ncert.nic.in/textbook/pdf/legy203.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep424.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 3 | URLError | https://ncert.nic.in/textbook/pdf/kham103.pdf
-- Mathematics Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lemh1ps.pdf
-- India: People and Economy 4 | URLError | https://ncert.nic.in/textbook/pdf/legy204.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep425.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 4 | URLError | https://ncert.nic.in/textbook/pdf/kham104.pdf
-- Mathematics Part II 7 | URLError | https://ncert.nic.in/textbook/pdf/lemh201.pdf
-- India: People and Economy 5 | URLError | https://ncert.nic.in/textbook/pdf/legy205.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep401.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 5 | URLError | https://ncert.nic.in/textbook/pdf/kham105.pdf
-- Mathematics Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/lemh202.pdf
-- India: People and Economy 6 | URLError | https://ncert.nic.in/textbook/pdf/legy206.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep402.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 6 | URLError | https://ncert.nic.in/textbook/pdf/kham106.pdf
-- Mathematics Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/lemh203.pdf
-- India: People and Economy 7 | URLError | https://ncert.nic.in/textbook/pdf/legy207.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep403.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 7 | URLError | https://ncert.nic.in/textbook/pdf/kham107.pdf
-- Mathematics Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/lemh204.pdf
-- India: People and Economy 8 | URLError | https://ncert.nic.in/textbook/pdf/legy208.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep404.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 8 | URLError | https://ncert.nic.in/textbook/pdf/kham108.pdf
-- Mathematics Part II 11 | URLError | https://ncert.nic.in/textbook/pdf/lemh205.pdf
-- India: People and Economy 9 | URLError | https://ncert.nic.in/textbook/pdf/legy209.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep405.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 9 | URLError | https://ncert.nic.in/textbook/pdf/kham109.pdf
-- Mathematics Part II 12 | URLError | https://ncert.nic.in/textbook/pdf/lemh206.pdf
-- India: People and Economy (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/legy2dd.zip
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep406.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 10 | URLError | https://ncert.nic.in/textbook/pdf/kham110.pdf
-- Mathematics Part II 13 | URLError | https://ncert.nic.in/textbook/pdf/lemh207.pdf
-- India: People and Economy Appendix | URLError | https://ncert.nic.in/textbook/pdf/legy2a1.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep407.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 11 | URLError | https://ncert.nic.in/textbook/pdf/kham111.pdf
-- Mathematics Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lemh2dd.zip
-- India: People and Economy Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/legy2ps.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep408.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 12 | URLError | https://ncert.nic.in/textbook/pdf/kham112.pdf
-- Mathematics Part II Answers | URLError | https://ncert.nic.in/textbook/pdf/lemh2an.pdf
-- Practical Work in Geography Part II 1 | URLError | https://ncert.nic.in/textbook/pdf/legy301.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep409.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 13 | URLError | https://ncert.nic.in/textbook/pdf/kham113.pdf
-- Mathematics Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lemh2ps.pdf
-- Practical Work in Geography Part II 2 | URLError | https://ncert.nic.in/textbook/pdf/legy302.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep410.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 14 | URLError | https://ncert.nic.in/textbook/pdf/kham114.pdf
-- Biology 1 | URLError | https://ncert.nic.in/textbook/pdf/lebo101.pdf
-- Practical Work in Geography Part II 3 | URLError | https://ncert.nic.in/textbook/pdf/legy303.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep411.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 15 | URLError | https://ncert.nic.in/textbook/pdf/kham115.pdf
-- Biology 2 | URLError | https://ncert.nic.in/textbook/pdf/lebo102.pdf
-- Practical Work in Geography Part II 4 | URLError | https://ncert.nic.in/textbook/pdf/legy304.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep412.pdf
-- अभिव्यक्ति और माध्यम (Hindi) 16 | URLError | https://ncert.nic.in/textbook/pdf/kham116.pdf
-- Biology 3 | URLError | https://ncert.nic.in/textbook/pdf/lebo103.pdf
-- Practical Work in Geography Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/legy3dd.zip
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep413.pdf
-- अभिव्यक्ति और माध्यम (Hindi) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kham1dd.zip
-- Biology 4 | URLError | https://ncert.nic.in/textbook/pdf/lebo104.pdf
-- Practical Work in Geography Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/legy3ps.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep414.pdf
-- अभिव्यक्ति और माध्यम (Hindi) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kham1ps.pdf
-- Biology 5 | URLError | https://ncert.nic.in/textbook/pdf/lebo105.pdf
-- Contemporary World Politics 1 | URLError | https://ncert.nic.in/textbook/pdf/leps101.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep415.pdf
-- सृजन भाग 1 (Hindi Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/khsr101.pdf
-- Biology 6 | URLError | https://ncert.nic.in/textbook/pdf/lebo106.pdf
-- Contemporary World Politics 2 | URLError | https://ncert.nic.in/textbook/pdf/leps102.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep416.pdf
-- सृजन भाग 1 (Hindi Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/khsr102.pdf
-- Biology 7 | URLError | https://ncert.nic.in/textbook/pdf/lebo107.pdf
-- Contemporary World Politics 3 | URLError | https://ncert.nic.in/textbook/pdf/leps103.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep417.pdf
-- सृजन भाग 1 (Hindi Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/khsr103.pdf
-- Biology 8 | URLError | https://ncert.nic.in/textbook/pdf/lebo108.pdf
-- Contemporary World Politics 4 | URLError | https://ncert.nic.in/textbook/pdf/leps104.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep418.pdf
-- सृजन भाग 1 (Hindi Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/khsr104.pdf
-- Biology 9 | URLError | https://ncert.nic.in/textbook/pdf/lebo109.pdf
-- Contemporary World Politics 5 | URLError | https://ncert.nic.in/textbook/pdf/leps105.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep419.pdf
-- सृजन भाग 1 (Hindi Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khsr1dd.zip
-- Biology 10 | URLError | https://ncert.nic.in/textbook/pdf/lebo110.pdf
-- Contemporary World Politics 6 | URLError | https://ncert.nic.in/textbook/pdf/leps106.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep420.pdf
-- सृजन भाग 1 (Hindi Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khsr1ps.pdf
-- Biology 11 | URLError | https://ncert.nic.in/textbook/pdf/lebo111.pdf
-- Contemporary World Politics 7 | URLError | https://ncert.nic.in/textbook/pdf/leps107.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep421.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/khsk101.pdf
-- Biology 12 | URLError | https://ncert.nic.in/textbook/pdf/lebo112.pdf
-- Contemporary World Politics (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leps1dd.zip
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep422.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/khsk102.pdf
-- Biology 13 | URLError | https://ncert.nic.in/textbook/pdf/lebo113.pdf
-- Contemporary World Politics Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leps1ps.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep423.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/khsk103.pdf
-- Biology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lebo1dd.zip
-- Politics in India since Independence 1 | URLError | https://ncert.nic.in/textbook/pdf/leps201.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep424.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/khsk104.pdf
-- Biology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lebo1ps.pdf
-- Politics in India since Independence 2 | URLError | https://ncert.nic.in/textbook/pdf/leps202.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology(hindi)/khep425.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/khsk105.pdf
-- Flamingo (English Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/lefl101.pdf
-- Politics in India since Independence 3 | URLError | https://ncert.nic.in/textbook/pdf/leps203.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep501.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/khsk106.pdf
-- Flamingo (English Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/lefl102.pdf
-- Politics in India since Independence 4 | URLError | https://ncert.nic.in/textbook/pdf/leps204.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep502.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/khsk107.pdf
-- Flamingo (English Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/lefl103.pdf
-- Politics in India since Independence 5 | URLError | https://ncert.nic.in/textbook/pdf/leps205.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep503.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/khsk108.pdf
-- Flamingo (English Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/lefl104.pdf
-- Politics in India since Independence 6 | URLError | https://ncert.nic.in/textbook/pdf/leps206.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep504.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/khsk109.pdf
-- Flamingo (English Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/lefl105.pdf
-- Politics in India since Independence 7 | URLError | https://ncert.nic.in/textbook/pdf/leps207.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep505.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/khsk110.pdf
-- Flamingo (English Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/lefl106.pdf
-- Politics in India since Independence 8 | URLError | https://ncert.nic.in/textbook/pdf/leps208.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep506.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) 11 | URLError | https://ncert.nic.in/textbook/pdf/khsk111.pdf
-- Flamingo (English Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/lefl107.pdf
-- Politics in India since Independence (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leps2dd.zip
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep507.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khsk1dd.zip
-- Flamingo (English Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/lefl108.pdf
-- Politics in India since Independence Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leps2ps.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep508.pdf
-- First Flight 1 | URLError | https://ncert.nic.in/textbook/pdf/jeff101.pdf
-- भास्वती प्रथमो भागः (Sanskrit Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khsk1ps.pdf
-- Flamingo (English Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/lefl111.pdf
-- Indian Society 1 | URLError | https://ncert.nic.in/textbook/pdf/lesy101.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep509.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/khsk201.pdf
-- Flamingo (English Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/lefl112.pdf
-- Indian Society 2 | URLError | https://ncert.nic.in/textbook/pdf/lesy102.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep510.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/khsk202.pdf
-- Flamingo (English Core) 11 | URLError | https://ncert.nic.in/textbook/pdf/lefl113.pdf
-- Indian Society 3 | URLError | https://ncert.nic.in/textbook/pdf/lesy103.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep511.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/khsk203.pdf
-- Flamingo (English Core) 12 | URLError | https://ncert.nic.in/textbook/pdf/lefl114.pdf
-- Indian Society 4 | URLError | https://ncert.nic.in/textbook/pdf/lesy104.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep512.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/khsk204.pdf
-- Flamingo (English Core) 13 | URLError | https://ncert.nic.in/textbook/pdf/lefl115.pdf
-- Indian Society 5 | URLError | https://ncert.nic.in/textbook/pdf/lesy105.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep513.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/khsk205.pdf
-- Flamingo (English Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lefl1dd.zip
-- Indian Society 6 | URLError | https://ncert.nic.in/textbook/pdf/lesy106.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep514.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/khsk206.pdf
-- Flamingo (English Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lefl1ps.pdf
-- Indian Society 7 | URLError | https://ncert.nic.in/textbook/pdf/lesy107.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep515.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/khsk207.pdf
-- Vistas (English Core, supplementary reader) 1 | URLError | https://ncert.nic.in/textbook/pdf/levt101.pdf
-- Indian Society (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lesy1dd.zip
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry/keep516.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/khsk208.pdf
-- Vistas (English Core, supplementary reader) 2 | URLError | https://ncert.nic.in/textbook/pdf/levt102.pdf
-- Indian Society Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lesy1ps.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep501.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/khsk209.pdf
-- Vistas (English Core, supplementary reader) 3 | URLError | https://ncert.nic.in/textbook/pdf/levt103.pdf
-- Social Change and Development in India 1 | URLError | https://ncert.nic.in/textbook/pdf/lesy201.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep502.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/khsk210.pdf
-- Vistas (English Core, supplementary reader) 4 | URLError | https://ncert.nic.in/textbook/pdf/levt104.pdf
-- Social Change and Development in India 2 | URLError | https://ncert.nic.in/textbook/pdf/lesy202.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep503.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) 11 | URLError | https://ncert.nic.in/textbook/pdf/khsk211.pdf
-- Vistas (English Core, supplementary reader) 5 | URLError | https://ncert.nic.in/textbook/pdf/levt105.pdf
-- Social Change and Development in India 3 | URLError | https://ncert.nic.in/textbook/pdf/lesy203.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep504.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khsk2dd.zip
-- Vistas (English Core, supplementary reader) 6 | URLError | https://ncert.nic.in/textbook/pdf/levt106.pdf
-- Social Change and Development in India 4 | URLError | https://ncert.nic.in/textbook/pdf/lesy204.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep505.pdf
-- शाश्वती प्रथमो भागः (Sanskrit Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khsk2ps.pdf
-- Vistas (English Core, supplementary reader) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/levt1dd.zip
-- Social Change and Development in India 5 | URLError | https://ncert.nic.in/textbook/pdf/lesy205.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep506.pdf
-- संगीत: तबला एवं पखावज (Music) 1 | URLError | https://ncert.nic.in/textbook/pdf/khtp101.pdf
-- Vistas (English Core, supplementary reader) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/levt1ps.pdf
-- Social Change and Development in India 6 | URLError | https://ncert.nic.in/textbook/pdf/lesy206.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep507.pdf
-- संगीत: तबला एवं पखावज (Music) 2 | URLError | https://ncert.nic.in/textbook/pdf/khtp102.pdf
-- Kaleidoscope (English Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/lekl101.pdf
-- Social Change and Development in India 7 | URLError | https://ncert.nic.in/textbook/pdf/lesy207.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep508.pdf
-- संगीत: तबला एवं पखावज (Music) 3 | URLError | https://ncert.nic.in/textbook/pdf/khtp103.pdf
-- Kaleidoscope (English Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/lekl102.pdf
-- Social Change and Development in India 8 | URLError | https://ncert.nic.in/textbook/pdf/lesy208.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep509.pdf
-- संगीत: तबला एवं पखावज (Music) 4 | URLError | https://ncert.nic.in/textbook/pdf/khtp104.pdf
-- Kaleidoscope (English Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/lekl103.pdf
-- Social Change and Development in India (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lesy2dd.zip
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep510.pdf
-- संगीत: तबला एवं पखावज (Music) 5 | URLError | https://ncert.nic.in/textbook/pdf/khtp105.pdf
-- Kaleidoscope (English Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/lekl104.pdf
-- Social Change and Development in India Glossary | URLError | https://ncert.nic.in/textbook/pdf/lesy2gl.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep511.pdf
-- संगीत: तबला एवं पखावज (Music) 6 | URLError | https://ncert.nic.in/textbook/pdf/khtp106.pdf
-- Kaleidoscope (English Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/lekl105.pdf
-- Social Change and Development in India Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lesy2ps.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep512.pdf
-- संगीत: तबला एवं पखावज (Music) 7 | URLError | https://ncert.nic.in/textbook/pdf/khtp107.pdf
-- Kaleidoscope (English Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/lekl111.pdf
-- Psychology 1 | URLError | https://ncert.nic.in/textbook/pdf/lepy101.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep513.pdf
-- संगीत: तबला एवं पखावज (Music) 8 | URLError | https://ncert.nic.in/textbook/pdf/khtp108.pdf
-- Kaleidoscope (English Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/lekl112.pdf
-- Psychology 2 | URLError | https://ncert.nic.in/textbook/pdf/lepy102.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep514.pdf
-- संगीत: तबला एवं पखावज (Music) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khtp1dd.zip
-- Kaleidoscope (English Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/lekl113.pdf
-- Psychology 3 | URLError | https://ncert.nic.in/textbook/pdf/lepy103.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep515.pdf
-- संगीत: तबला एवं पखावज (Music) परिशिष्ट (appendices) | URLError | https://ncert.nic.in/textbook/pdf/khtp1a1.pdf
-- Kaleidoscope (English Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/lekl114.pdf
-- Psychology 4 | URLError | https://ncert.nic.in/textbook/pdf/lepy104.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/chemistry(hindi)/khep516.pdf
-- संगीत: तबला एवं पखावज (Music) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khtp1ps.pdf
-- Kaleidoscope (English Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/lekl115.pdf
-- Psychology 5 | URLError | https://ncert.nic.in/textbook/pdf/lepy105.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep201.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 1 | URLError | https://ncert.nic.in/textbook/pdf/khgv101.pdf
-- Kaleidoscope (English Elective) 11 | URLError | https://ncert.nic.in/textbook/pdf/lekl116.pdf
-- Psychology 6 | URLError | https://ncert.nic.in/textbook/pdf/lepy106.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep202.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 2 | URLError | https://ncert.nic.in/textbook/pdf/khgv102.pdf
-- Kaleidoscope (English Elective) 12 | URLError | https://ncert.nic.in/textbook/pdf/lekl117.pdf
-- Psychology 7 | URLError | https://ncert.nic.in/textbook/pdf/lepy107.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep203.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 3 | URLError | https://ncert.nic.in/textbook/pdf/khgv103.pdf
-- Kaleidoscope (English Elective) 13 | URLError | https://ncert.nic.in/textbook/pdf/lekl118.pdf
-- Psychology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lepy1dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep204.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 4 | URLError | https://ncert.nic.in/textbook/pdf/khgv104.pdf
-- Kaleidoscope (English Elective) 14 | URLError | https://ncert.nic.in/textbook/pdf/lekl121.pdf
-- Psychology Glossary | URLError | https://ncert.nic.in/textbook/pdf/lepy1gl.pdf
-- Science 10 | URLError | https://ncert.nic.in/textbook/pdf/jesc110.pdf
-- Science Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iesc1ps.pdf
-- Indian Economic Development 6 | URLError | https://ncert.nic.in/textbook/pdf/keec106.pdf
-- Science 11 | URLError | https://ncert.nic.in/textbook/pdf/jesc111.pdf
-- Understanding Society: India and Beyond (Part 1) 1 | URLError | https://ncert.nic.in/textbook/pdf/iest101.pdf
-- Indian Economic Development 7 | URLError | https://ncert.nic.in/textbook/pdf/keec107.pdf
-- Science 12 | URLError | https://ncert.nic.in/textbook/pdf/jesc112.pdf
-- Understanding Society: India and Beyond (Part 1) 2 | URLError | https://ncert.nic.in/textbook/pdf/iest102.pdf
-- Indian Economic Development 8 | URLError | https://ncert.nic.in/textbook/pdf/keec108.pdf
-- Science 13 | URLError | https://ncert.nic.in/textbook/pdf/jesc113.pdf
-- Understanding Society: India and Beyond (Part 1) 3 | URLError | https://ncert.nic.in/textbook/pdf/iest103.pdf
-- Indian Economic Development (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keec1dd.zip
-- Science (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jesc1dd.zip
-- Understanding Society: India and Beyond (Part 1) 4 | URLError | https://ncert.nic.in/textbook/pdf/iest104.pdf
-- Indian Economic Development Glossary | URLError | https://ncert.nic.in/textbook/pdf/keec1gl.pdf
-- Science Answers | URLError | https://ncert.nic.in/textbook/pdf/jesc1an.pdf
-- Understanding Society: India and Beyond (Part 1) 5 | URLError | https://ncert.nic.in/textbook/pdf/iest105.pdf
-- Indian Economic Development Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keec1ps.pdf
-- Science Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jesc1ps.pdf
-- Understanding Society: India and Beyond (Part 1) 6 | URLError | https://ncert.nic.in/textbook/pdf/iest106.pdf
-- Statistics for Economics 1 | URLError | https://ncert.nic.in/textbook/pdf/kest101.pdf
-- Geography: Contemporary India II 1 | URLError | https://ncert.nic.in/textbook/pdf/jess101.pdf
-- Understanding Society: India and Beyond (Part 1) 7 | URLError | https://ncert.nic.in/textbook/pdf/iest107.pdf
-- Statistics for Economics 2 | URLError | https://ncert.nic.in/textbook/pdf/kest102.pdf
-- Geography: Contemporary India II 2 | URLError | https://ncert.nic.in/textbook/pdf/jess102.pdf
-- Understanding Society: India and Beyond (Part 1) 8 | URLError | https://ncert.nic.in/textbook/pdf/iest108.pdf
-- Statistics for Economics 3 | URLError | https://ncert.nic.in/textbook/pdf/kest103.pdf
-- Geography: Contemporary India II 3 | URLError | https://ncert.nic.in/textbook/pdf/jess103.pdf
-- Understanding Society: India and Beyond (Part 1) 9 | URLError | https://ncert.nic.in/textbook/pdf/iest109.pdf
-- Statistics for Economics 4 | URLError | https://ncert.nic.in/textbook/pdf/kest104.pdf
-- Geography: Contemporary India II 4 | URLError | https://ncert.nic.in/textbook/pdf/jess104.pdf
-- Understanding Society: India and Beyond (Part 1) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iest1dd.zip
-- Statistics for Economics 5 | URLError | https://ncert.nic.in/textbook/pdf/kest105.pdf
-- Geography: Contemporary India II 5 | URLError | https://ncert.nic.in/textbook/pdf/jess105.pdf
-- Understanding Society: India and Beyond (Part 1) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iest1ps.pdf
-- Statistics for Economics 6 | URLError | https://ncert.nic.in/textbook/pdf/kest106.pdf
-- Geography: Contemporary India II 6 | URLError | https://ncert.nic.in/textbook/pdf/jess106.pdf
-- Understanding Society: India and Beyond (Part 2) 1 | URLError | https://ncert.nic.in/textbook/pdf/iest201.pdf
-- Statistics for Economics 7 | URLError | https://ncert.nic.in/textbook/pdf/kest107.pdf
-- Geography: Contemporary India II 7 | URLError | https://ncert.nic.in/textbook/pdf/jess107.pdf
-- Understanding Society: India and Beyond (Part 2) 2 | URLError | https://ncert.nic.in/textbook/pdf/iest202.pdf
-- Statistics for Economics 8 | URLError | https://ncert.nic.in/textbook/pdf/kest108.pdf
-- Geography: Contemporary India II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jess1dd.zip
-- Understanding Society: India and Beyond (Part 2) 3 | URLError | https://ncert.nic.in/textbook/pdf/iest203.pdf
-- Statistics for Economics (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kest1dd.zip
-- Geography: Contemporary India II Appendix I: Websites you can visit | URLError | https://ncert.nic.in/textbook/pdf/jess1a1.pdf
-- Understanding Society: India and Beyond (Part 2) 4 | URLError | https://ncert.nic.in/textbook/pdf/iest204.pdf
-- Statistics for Economics Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kest1ps.pdf
-- Geography: Contemporary India II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jess1ps.pdf
-- Understanding Society: India and Beyond (Part 2) 5 | URLError | https://ncert.nic.in/textbook/pdf/iest205.pdf
-- Themes in World History 1 | URLError | https://ncert.nic.in/textbook/pdf/kehs101.pdf
-- Economics: Understanding Economic Development 1 | URLError | https://ncert.nic.in/textbook/pdf/jess201.pdf
-- Understanding Society: India and Beyond (Part 2) 6 | URLError | https://ncert.nic.in/textbook/pdf/iest206.pdf
-- Themes in World History 2 | URLError | https://ncert.nic.in/textbook/pdf/kehs102.pdf
-- Economics: Understanding Economic Development 2 | URLError | https://ncert.nic.in/textbook/pdf/jess202.pdf
-- Understanding Society: India and Beyond (Part 2) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iest2dd.zip
-- Themes in World History 3 | URLError | https://ncert.nic.in/textbook/pdf/kehs103.pdf
-- Economics: Understanding Economic Development 3 | URLError | https://ncert.nic.in/textbook/pdf/jess203.pdf
-- Understanding Society: India and Beyond (Part 2) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iest2ps.pdf
-- Themes in World History 4 | URLError | https://ncert.nic.in/textbook/pdf/kehs104.pdf
-- Economics: Understanding Economic Development 4 | URLError | https://ncert.nic.in/textbook/pdf/jess204.pdf
-- Madhurima: A Textbook of Arts 1 | URLError | https://ncert.nic.in/textbook/pdf/iemr101.pdf
-- Themes in World History 5 | URLError | https://ncert.nic.in/textbook/pdf/kehs105.pdf
-- Economics: Understanding Economic Development 5 | URLError | https://ncert.nic.in/textbook/pdf/jess205.pdf
-- Madhurima: A Textbook of Arts 2 | URLError | https://ncert.nic.in/textbook/pdf/iemr102.pdf
-- Themes in World History 6 | URLError | https://ncert.nic.in/textbook/pdf/kehs106.pdf
-- Economics: Understanding Economic Development (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jess2dd.zip
-- Madhurima: A Textbook of Arts 3 | URLError | https://ncert.nic.in/textbook/pdf/iemr103.pdf
-- Themes in World History 7 | URLError | https://ncert.nic.in/textbook/pdf/kehs107.pdf
-- Economics: Understanding Economic Development Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jess2ps.pdf
-- Madhurima: A Textbook of Arts 4 | URLError | https://ncert.nic.in/textbook/pdf/iemr104.pdf
-- Themes in World History (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kehs1dd.zip
-- History: India and the Contemporary World II 1 | URLError | https://ncert.nic.in/textbook/pdf/jess301.pdf
-- Madhurima: A Textbook of Arts 5 | URLError | https://ncert.nic.in/textbook/pdf/iemr105.pdf
-- Themes in World History Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kehs1ps.pdf
-- History: India and the Contemporary World II 2 | URLError | https://ncert.nic.in/textbook/pdf/jess302.pdf
-- Madhurima: A Textbook of Arts 6 | URLError | https://ncert.nic.in/textbook/pdf/iemr106.pdf
-- India: Physical Environment 1 | URLError | https://ncert.nic.in/textbook/pdf/kegy101.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep101.pdf
-- History: India and the Contemporary World II 3 | URLError | https://ncert.nic.in/textbook/pdf/jess303.pdf
-- Madhurima: A Textbook of Arts 7 | URLError | https://ncert.nic.in/textbook/pdf/iemr107.pdf
-- India: Physical Environment 2 | URLError | https://ncert.nic.in/textbook/pdf/kegy102.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep102.pdf
-- History: India and the Contemporary World II 4 | URLError | https://ncert.nic.in/textbook/pdf/jess304.pdf
-- Madhurima: A Textbook of Arts 8 | URLError | https://ncert.nic.in/textbook/pdf/iemr108.pdf
-- India: Physical Environment 3 | URLError | https://ncert.nic.in/textbook/pdf/kegy103.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep103.pdf
-- History: India and the Contemporary World II 5 | URLError | https://ncert.nic.in/textbook/pdf/jess305.pdf
-- Madhurima: A Textbook of Arts 9 | URLError | https://ncert.nic.in/textbook/pdf/iemr109.pdf
-- India: Physical Environment 4 | URLError | https://ncert.nic.in/textbook/pdf/kegy104.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep104.pdf
-- History: India and the Contemporary World II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jess3dd.zip
-- Madhurima: A Textbook of Arts 10 | URLError | https://ncert.nic.in/textbook/pdf/iemr110.pdf
-- India: Physical Environment 5 | URLError | https://ncert.nic.in/textbook/pdf/kegy105.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep105.pdf
-- History: India and the Contemporary World II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jess3ps.pdf
-- Madhurima: A Textbook of Arts 11 | URLError | https://ncert.nic.in/textbook/pdf/iemr111.pdf
-- India: Physical Environment 6 | URLError | https://ncert.nic.in/textbook/pdf/kegy106.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep106.pdf
-- Political Science: Democratic Politics II 2 | URLError | https://ncert.nic.in/textbook/pdf/jess402.pdf
-- Madhurima: A Textbook of Arts 12 | URLError | https://ncert.nic.in/textbook/pdf/iemr112.pdf
-- India: Physical Environment (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kegy1dd.zip
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep107.pdf
-- Political Science: Democratic Politics II 3 | URLError | https://ncert.nic.in/textbook/pdf/jess403.pdf
-- Madhurima: A Textbook of Arts 13 | URLError | https://ncert.nic.in/textbook/pdf/iemr113.pdf
-- India: Physical Environment Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kegy1ps.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep108.pdf
-- Political Science: Democratic Politics II 4 | URLError | https://ncert.nic.in/textbook/pdf/jess404.pdf
-- Madhurima: A Textbook of Arts 14 | URLError | https://ncert.nic.in/textbook/pdf/iemr114.pdf
-- Fundamentals of Physical Geography 1 | URLError | https://ncert.nic.in/textbook/pdf/kegy201.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep109.pdf
-- Political Science: Democratic Politics II 5 | URLError | https://ncert.nic.in/textbook/pdf/jess405.pdf
-- Madhurima: A Textbook of Arts 15 | URLError | https://ncert.nic.in/textbook/pdf/iemr115.pdf
-- Fundamentals of Physical Geography 2 | URLError | https://ncert.nic.in/textbook/pdf/kegy202.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep1an.pdf
-- Political Science: Democratic Politics II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jess4dd.zip
-- Madhurima: A Textbook of Arts 16 | URLError | https://ncert.nic.in/textbook/pdf/iemr116.pdf
-- Fundamentals of Physical Geography 3 | URLError | https://ncert.nic.in/textbook/pdf/kegy203.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep101.pdf
-- Political Science: Democratic Politics II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jess4ps.pdf
-- Madhurima: A Textbook of Arts 17 | URLError | https://ncert.nic.in/textbook/pdf/iemr117.pdf
-- Fundamentals of Physical Geography 4 | URLError | https://ncert.nic.in/textbook/pdf/kegy204.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep102.pdf
-- Door-Paas (supplementary reader) 1 | URLError | https://ncert.nic.in/textbook/pdf/judp101.pdf
-- Madhurima: A Textbook of Arts (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iemr1dd.zip
-- Fundamentals of Physical Geography 5 | URLError | https://ncert.nic.in/textbook/pdf/kegy205.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep103.pdf
-- Door-Paas (supplementary reader) 2 | URLError | https://ncert.nic.in/textbook/pdf/judp102.pdf
-- Madhurima: A Textbook of Arts Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iemr1ps.pdf
-- Fundamentals of Physical Geography 6 | URLError | https://ncert.nic.in/textbook/pdf/kegy206.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep104.pdf
-- Door-Paas (supplementary reader) 3 | URLError | https://ncert.nic.in/textbook/pdf/judp103.pdf
-- Khel Praveen: Physical Education and Well-being 1 | URLError | https://ncert.nic.in/textbook/pdf/iehp101.pdf
-- Fundamentals of Physical Geography 7 | URLError | https://ncert.nic.in/textbook/pdf/kegy207.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep105.pdf
-- Door-Paas (supplementary reader) 4 | URLError | https://ncert.nic.in/textbook/pdf/judp104.pdf
-- Khel Praveen: Physical Education and Well-being 2 | URLError | https://ncert.nic.in/textbook/pdf/iehp102.pdf
-- Fundamentals of Physical Geography 8 | URLError | https://ncert.nic.in/textbook/pdf/kegy208.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep106.pdf
-- Door-Paas (supplementary reader) 5 | URLError | https://ncert.nic.in/textbook/pdf/judp105.pdf
-- Khel Praveen: Physical Education and Well-being 3 | URLError | https://ncert.nic.in/textbook/pdf/iehp103.pdf
-- Fundamentals of Physical Geography 9 | URLError | https://ncert.nic.in/textbook/pdf/kegy209.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep107.pdf
-- Door-Paas (supplementary reader) 6 | URLError | https://ncert.nic.in/textbook/pdf/judp106.pdf
-- Khel Praveen: Physical Education and Well-being 4 | URLError | https://ncert.nic.in/textbook/pdf/iehp104.pdf
-- Fundamentals of Physical Geography 10 | URLError | https://ncert.nic.in/textbook/pdf/kegy210.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep108.pdf
-- Door-Paas (supplementary reader) 7 | URLError | https://ncert.nic.in/textbook/pdf/judp107.pdf
-- Khel Praveen: Physical Education and Well-being 5 | URLError | https://ncert.nic.in/textbook/pdf/iehp105.pdf
-- Fundamentals of Physical Geography 11 | URLError | https://ncert.nic.in/textbook/pdf/kegy211.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep109.pdf
-- Door-Paas (supplementary reader) 8 | URLError | https://ncert.nic.in/textbook/pdf/judp108.pdf
-- Khel Praveen: Physical Education and Well-being 6 | URLError | https://ncert.nic.in/textbook/pdf/iehp106.pdf
-- Fundamentals of Physical Geography 12 | URLError | https://ncert.nic.in/textbook/pdf/kegy212.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep1an.pdf
-- Door-Paas (supplementary reader) 9 | URLError | https://ncert.nic.in/textbook/pdf/judp109.pdf
-- Khel Praveen: Physical Education and Well-being (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iehp1dd.zip
-- Fundamentals of Physical Geography 13 | URLError | https://ncert.nic.in/textbook/pdf/kegy213.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep201.pdf
-- Door-Paas (supplementary reader) 10 | URLError | https://ncert.nic.in/textbook/pdf/judp110.pdf
-- Khel Praveen: Physical Education and Well-being Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iehp1ps.pdf
-- Fundamentals of Physical Geography 14 | URLError | https://ncert.nic.in/textbook/pdf/kegy214.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep202.pdf
-- Door-Paas (supplementary reader) 11 | URLError | https://ncert.nic.in/textbook/pdf/judp111.pdf
-- Kaushal Vikas: Skill Education 1 | URLError | https://ncert.nic.in/textbook/pdf/iekv101.pdf
-- Fundamentals of Physical Geography (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kegy2dd.zip
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep203.pdf
-- Door-Paas (supplementary reader) 12 | URLError | https://ncert.nic.in/textbook/pdf/judp112.pdf
-- Kaushal Vikas: Skill Education 2 | URLError | https://ncert.nic.in/textbook/pdf/iekv102.pdf
-- Fundamentals of Physical Geography Glossary | URLError | https://ncert.nic.in/textbook/pdf/kegy2gl.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep204.pdf
-- Door-Paas (supplementary reader) 13 | URLError | https://ncert.nic.in/textbook/pdf/judp113.pdf
-- Kaushal Vikas: Skill Education 3 | URLError | https://ncert.nic.in/textbook/pdf/iekv103.pdf
-- Fundamentals of Physical Geography Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kegy2ps.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep205.pdf
-- Door-Paas (supplementary reader) 14 | URLError | https://ncert.nic.in/textbook/pdf/judp114.pdf
-- Kaushal Vikas: Skill Education 4 | URLError | https://ncert.nic.in/textbook/pdf/iekv104.pdf
-- Practical Work in Geography Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/kegy301.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep206.pdf
-- Door-Paas (supplementary reader) 15 | URLError | https://ncert.nic.in/textbook/pdf/judp115.pdf
-- Kaushal Vikas: Skill Education 5 | URLError | https://ncert.nic.in/textbook/pdf/iekv105.pdf
-- Practical Work in Geography Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/kegy302.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep207.pdf
-- Door-Paas (supplementary reader) 16 | URLError | https://ncert.nic.in/textbook/pdf/judp116.pdf
-- Kaushal Vikas: Skill Education 6 | URLError | https://ncert.nic.in/textbook/pdf/iekv106.pdf
-- Practical Work in Geography Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/kegy303.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep208.pdf
-- Door-Paas (supplementary reader) 17 | URLError | https://ncert.nic.in/textbook/pdf/judp117.pdf
-- Kaushal Vikas: Skill Education 7 | URLError | https://ncert.nic.in/textbook/pdf/iekv107.pdf
-- Practical Work in Geography Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/kegy304.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep209.pdf
-- Door-Paas (supplementary reader) 18 | URLError | https://ncert.nic.in/textbook/pdf/judp118.pdf
-- Kaushal Vikas: Skill Education 8 | URLError | https://ncert.nic.in/textbook/pdf/iekv108.pdf
-- Practical Work in Geography Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/kegy305.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep210.pdf
-- Door-Paas (supplementary reader) 19 | URLError | https://ncert.nic.in/textbook/pdf/judp119.pdf
-- Kaushal Vikas: Skill Education 9 | URLError | https://ncert.nic.in/textbook/pdf/iekv109.pdf
-- Practical Work in Geography Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/kegy306.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep211.pdf
-- Door-Paas (supplementary reader) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/judp1dd.zip
-- Kaushal Vikas: Skill Education 10 | URLError | https://ncert.nic.in/textbook/pdf/iekv110.pdf
-- Practical Work in Geography Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kegy3dd.zip
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep212.pdf
-- Door-Paas (supplementary reader) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/judp1ps.pdf
-- Kaushal Vikas: Skill Education 11 | URLError | https://ncert.nic.in/textbook/pdf/iekv111.pdf
-- Practical Work in Geography Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kegy3ps.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep213.pdf
-- Gulzar-e-Urdu (supplementary reader) 1 | URLError | https://ncert.nic.in/textbook/pdf/juge101.pdf
-- Kaushal Vikas: Skill Education 12 | URLError | https://ncert.nic.in/textbook/pdf/iekv112.pdf
-- Political Theory 1 | URLError | https://ncert.nic.in/textbook/pdf/keps101.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep214.pdf
-- Gulzar-e-Urdu (supplementary reader) 2 | URLError | https://ncert.nic.in/textbook/pdf/juge102.pdf
-- Kaushal Vikas: Skill Education (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iekv1dd.zip
-- Political Theory 2 | URLError | https://ncert.nic.in/textbook/pdf/keps102.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep215.pdf
-- Gulzar-e-Urdu (supplementary reader) 3 | URLError | https://ncert.nic.in/textbook/pdf/juge103.pdf
-- Kaushal Vikas: Skill Education Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iekv1ps.pdf
-- Political Theory 3 | URLError | https://ncert.nic.in/textbook/pdf/keps103.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep216.pdf
-- Gulzar-e-Urdu (supplementary reader) 4 | URLError | https://ncert.nic.in/textbook/pdf/juge104.pdf
-- शारदा (Sanskrit) 1 | URLError | https://ncert.nic.in/textbook/pdf/ihsh101.pdf
-- Political Theory 4 | URLError | https://ncert.nic.in/textbook/pdf/keps104.pdf
-- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep2an.pdf
-- Gulzar-e-Urdu (supplementary reader) 5 | URLError | https://ncert.nic.in/textbook/pdf/juge105.pdf
-- शारदा (Sanskrit) 2 | URLError | https://ncert.nic.in/textbook/pdf/ihsh102.pdf
-- Political Theory 5 | URLError | https://ncert.nic.in/textbook/pdf/keps105.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp101.pdf
-- Gulzar-e-Urdu (supplementary reader) 6 | URLError | https://ncert.nic.in/textbook/pdf/juge106.pdf
-- शारदा (Sanskrit) 3 | URLError | https://ncert.nic.in/textbook/pdf/ihsh103.pdf
-- Political Theory 6 | URLError | https://ncert.nic.in/textbook/pdf/keps106.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp102.pdf
-- Gulzar-e-Urdu (supplementary reader) 7 | URLError | https://ncert.nic.in/textbook/pdf/juge107.pdf
-- शारदा (Sanskrit) 4 | URLError | https://ncert.nic.in/textbook/pdf/ihsh104.pdf
-- Political Theory 7 | URLError | https://ncert.nic.in/textbook/pdf/keps107.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp103.pdf
-- Gulzar-e-Urdu (supplementary reader) 8 | URLError | https://ncert.nic.in/textbook/pdf/juge108.pdf
-- शारदा (Sanskrit) 5 | URLError | https://ncert.nic.in/textbook/pdf/ihsh105.pdf
-- Political Theory 8 | URLError | https://ncert.nic.in/textbook/pdf/keps108.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp104.pdf
-- Gulzar-e-Urdu (supplementary reader) 9 | URLError | https://ncert.nic.in/textbook/pdf/juge109.pdf
-- शारदा (Sanskrit) 6 | URLError | https://ncert.nic.in/textbook/pdf/ihsh106.pdf
-- Political Theory (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keps1dd.zip
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp105.pdf
-- शारदा (Sanskrit) 7 | URLError | https://ncert.nic.in/textbook/pdf/ihsh107.pdf
-- Political Theory Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keps1ps.pdf
-- Gulzar-e-Urdu (supplementary reader) 10 | URLError | https://ncert.nic.in/textbook/pdf/juge110.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp106.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep203.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep111.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep204.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep112.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep205.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep113.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep206.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep114.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep207.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep115.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep208.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep116.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep209.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep117.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep210.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep1an.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep211.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep101.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep212.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep102.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep213.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep103.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep214.pdf
-- First Flight 3 | URLError | https://ncert.nic.in/textbook/pdf/jeff103.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep104.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep215.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep105.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep216.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep106.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep217.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep107.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep218.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep108.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep301.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep109.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep302.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep110.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep303.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep111.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep304.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep112.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep305.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep113.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep306.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep114.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep307.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep115.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep308.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep116.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep309.pdf
-- First Flight 5 | URLError | https://ncert.nic.in/textbook/pdf/jeff105.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep117.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep310.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science(hindi)/ihep1an.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep311.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep201.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep312.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep202.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep313.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep203.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep314.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep204.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep315.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep205.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep316.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep206.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics/keep317.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep207.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep301.pdf
-- First Flight 4 | URLError | https://ncert.nic.in/textbook/pdf/jeff104.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep208.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep302.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep209.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep303.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep210.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep304.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep211.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep305.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep212.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep306.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep213.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep307.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep214.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep308.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep215.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep309.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics/jeep2an.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep310.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep201.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep311.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep202.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep312.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep203.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep313.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep314.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep315.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep316.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/physics(hindi)/khep317.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep401.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep402.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep403.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep404.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep405.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep406.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep407.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep408.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep409.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep410.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep411.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep412.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep204.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep413.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep205.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep414.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep206.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep415.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep207.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep416.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep208.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep417.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep209.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/biology/keep418.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep407.pdf
-- Human Ecology and Family Sciences Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/kehe101.pdf
-- Accountancy Part II: Company Accounts and Analysis of Financial Statements (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leac2dd.zip
-- An Introduction to Indian Art Part II 4 | URLError | https://ncert.nic.in/textbook/pdf/lefa104.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep408.pdf
-- Human Ecology and Family Sciences Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/kehe102.pdf
-- Accountancy Part II: Company Accounts and Analysis of Financial Statements Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leac2ps.pdf
-- An Introduction to Indian Art Part II 5 | URLError | https://ncert.nic.in/textbook/pdf/lefa105.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep409.pdf
-- Human Ecology and Family Sciences Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/kehe103.pdf
-- Accountancy: Computerised Accounting System 1 | URLError | https://ncert.nic.in/textbook/pdf/leca101.pdf
-- An Introduction to Indian Art Part II 6 | URLError | https://ncert.nic.in/textbook/pdf/lefa106.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep410.pdf
-- Human Ecology and Family Sciences Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/kehe104.pdf
-- Accountancy: Computerised Accounting System 2 | URLError | https://ncert.nic.in/textbook/pdf/leca102.pdf
-- An Introduction to Indian Art Part II 7 | URLError | https://ncert.nic.in/textbook/pdf/lefa107.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep411.pdf
-- Footprints without Feet 4 | URLError | https://ncert.nic.in/textbook/pdf/jefp104.pdf
-- Human Ecology and Family Sciences Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/kehe105.pdf
-- Accountancy: Computerised Accounting System 3 | URLError | https://ncert.nic.in/textbook/pdf/leca103.pdf
-- An Introduction to Indian Art Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/lefa108.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep412.pdf
-- Human Ecology and Family Sciences Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/kehe106.pdf
-- Accountancy: Computerised Accounting System 4 | URLError | https://ncert.nic.in/textbook/pdf/leca104.pdf
-- An Introduction to Indian Art Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lefa1dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep413.pdf
-- Human Ecology and Family Sciences Part I 7 | URLError | https://ncert.nic.in/textbook/pdf/kehe107.pdf
-- Accountancy: Computerised Accounting System (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leca1dd.zip
-- An Introduction to Indian Art Part II Glossary | URLError | https://ncert.nic.in/textbook/pdf/lefa1gl.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep414.pdf
-- Human Ecology and Family Sciences Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kehe1dd.zip
-- Accountancy: Computerised Accounting System Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leca1ps.pdf
-- An Introduction to Indian Art Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lefa1ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep415.pdf
-- Human Ecology and Family Sciences Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kehe1ps.pdf
-- Business Studies Part I: Principles and Functions of Management 1 | URLError | https://ncert.nic.in/textbook/pdf/lebs101.pdf
-- Human Ecology and Family Sciences Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/lehe101.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep416.pdf
-- Human Ecology and Family Sciences Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/kehe201.pdf
-- Business Studies Part I: Principles and Functions of Management 2 | URLError | https://ncert.nic.in/textbook/pdf/lebs102.pdf
-- Human Ecology and Family Sciences Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/lehe102.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep417.pdf
-- Footprints without Feet 5 | URLError | https://ncert.nic.in/textbook/pdf/jefp105.pdf
-- Human Ecology and Family Sciences Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/kehe202.pdf
-- Business Studies Part I: Principles and Functions of Management 3 | URLError | https://ncert.nic.in/textbook/pdf/lebs103.pdf
-- Human Ecology and Family Sciences Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/lehe103.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep418.pdf
-- Human Ecology and Family Sciences Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/kehe203.pdf
-- Business Studies Part I: Principles and Functions of Management 4 | URLError | https://ncert.nic.in/textbook/pdf/lebs104.pdf
-- Human Ecology and Family Sciences Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/lehe104.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep419.pdf
-- Human Ecology and Family Sciences Part II 11 | URLError | https://ncert.nic.in/textbook/pdf/kehe204.pdf
-- Business Studies Part I: Principles and Functions of Management 5 | URLError | https://ncert.nic.in/textbook/pdf/lebs105.pdf
-- Human Ecology and Family Sciences Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/lehe105.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep501.pdf
-- Human Ecology and Family Sciences Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kehe2dd.zip
-- Business Studies Part I: Principles and Functions of Management 6 | URLError | https://ncert.nic.in/textbook/pdf/lebs106.pdf
-- Human Ecology and Family Sciences Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/lehe106.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep502.pdf
-- Human Ecology and Family Sciences Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kehe2ps.pdf
-- Business Studies Part I: Principles and Functions of Management 7 | URLError | https://ncert.nic.in/textbook/pdf/lebs107.pdf
-- Human Ecology and Family Sciences Part I 7 | URLError | https://ncert.nic.in/textbook/pdf/lehe107.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep503.pdf
-- Knowledge Traditions and Practices of India 1 | URLError | https://ncert.nic.in/textbook/pdf/keks101.pdf
-- Business Studies Part I: Principles and Functions of Management 8 | URLError | https://ncert.nic.in/textbook/pdf/lebs108.pdf
-- Human Ecology and Family Sciences Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lehe1dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep504.pdf
-- Knowledge Traditions and Practices of India 2 | URLError | https://ncert.nic.in/textbook/pdf/keks102.pdf
-- Business Studies Part I: Principles and Functions of Management (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lebs1dd.zip
-- Human Ecology and Family Sciences Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lehe1ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep505.pdf
-- Knowledge Traditions and Practices of India 3 | URLError | https://ncert.nic.in/textbook/pdf/keks103.pdf
-- Business Studies Part I: Principles and Functions of Management Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lebs1ps.pdf
-- Human Ecology and Family Sciences Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/lehe201.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep506.pdf
-- Knowledge Traditions and Practices of India 4 | URLError | https://ncert.nic.in/textbook/pdf/keks104.pdf
-- Business Studies Part II: Business Finance and Marketing 1 | URLError | https://ncert.nic.in/textbook/pdf/lebs201.pdf
-- Human Ecology and Family Sciences Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/lehe202.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep507.pdf
-- Footprints without Feet 6 | URLError | https://ncert.nic.in/textbook/pdf/jefp106.pdf
-- Footprints without Feet 7 | URLError | https://ncert.nic.in/textbook/pdf/jefp107.pdf
-- Knowledge Traditions and Practices of India 5 | URLError | https://ncert.nic.in/textbook/pdf/keks105.pdf
-- Business Studies Part II: Business Finance and Marketing 2 | URLError | https://ncert.nic.in/textbook/pdf/lebs202.pdf
-- Human Ecology and Family Sciences Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/lehe203.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep508.pdf
-- Footprints without Feet 8 | URLError | https://ncert.nic.in/textbook/pdf/jefp108.pdf
-- Knowledge Traditions and Practices of India 6 | URLError | https://ncert.nic.in/textbook/pdf/keks106.pdf
-- Business Studies Part II: Business Finance and Marketing 3 | URLError | https://ncert.nic.in/textbook/pdf/lebs203.pdf
-- Human Ecology and Family Sciences Part II 11 | URLError | https://ncert.nic.in/textbook/pdf/lehe204.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep509.pdf
-- Footprints without Feet 9 | URLError | https://ncert.nic.in/textbook/pdf/jefp109.pdf
-- Knowledge Traditions and Practices of India 7 | URLError | https://ncert.nic.in/textbook/pdf/keks107.pdf
-- Business Studies Part II: Business Finance and Marketing (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lebs2dd.zip
-- Human Ecology and Family Sciences Part II 12 | URLError | https://ncert.nic.in/textbook/pdf/lehe205.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep510.pdf
-- Footprints without Feet (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jefp1dd.zip
-- Knowledge Traditions and Practices of India 8 | URLError | https://ncert.nic.in/textbook/pdf/keks108.pdf
-- Business Studies Part II: Business Finance and Marketing Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lebs2ps.pdf
-- Human Ecology and Family Sciences Part II 13 | URLError | https://ncert.nic.in/textbook/pdf/lehe206.pdf
-- Footprints without Feet Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jefp1ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep511.pdf
-- Kritika Part 2 (Hindi A) 1 | URLError | https://ncert.nic.in/textbook/pdf/jhkr101.pdf
-- Knowledge Traditions and Practices of India 9 | URLError | https://ncert.nic.in/textbook/pdf/keks109.pdf
-- Introductory Macroeconomics 1 | URLError | https://ncert.nic.in/textbook/pdf/leec101.pdf
-- Human Ecology and Family Sciences Part II 14 | URLError | https://ncert.nic.in/textbook/pdf/lehe207.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep512.pdf
-- Kritika Part 2 (Hindi A) 2 | URLError | https://ncert.nic.in/textbook/pdf/jhkr102.pdf
-- Knowledge Traditions and Practices of India (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keks1dd.zip
-- Introductory Macroeconomics 2 | URLError | https://ncert.nic.in/textbook/pdf/leec102.pdf
-- Human Ecology and Family Sciences Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lehe2dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep513.pdf
-- Kritika Part 2 (Hindi A) 3 | URLError | https://ncert.nic.in/textbook/pdf/jhkr103.pdf
-- Knowledge Traditions and Practices of India Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keks1ps.pdf
-- Introductory Macroeconomics 3 | URLError | https://ncert.nic.in/textbook/pdf/leec103.pdf
-- Human Ecology and Family Sciences Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lehe2ps.pdf
-- Political Science: Democratic Politics II 1 | URLError | https://ncert.nic.in/textbook/pdf/jess401.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep514.pdf
-- Kritika Part 2 (Hindi A) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jhkr1dd.zip
-- Physics Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/leph101.pdf
-- Introductory Macroeconomics 4 | URLError | https://ncert.nic.in/textbook/pdf/leec104.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep515.pdf
-- Kritika Part 2 (Hindi A) लेखक परिचय (author introductions) | URLError | https://ncert.nic.in/textbook/pdf/jhkr1lp.pdf
-- Physics Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/leph102.pdf
-- Introductory Macroeconomics 5 | URLError | https://ncert.nic.in/textbook/pdf/leec105.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep516.pdf
-- Kritika Part 2 (Hindi A) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jhkr1ps.pdf
-- Physics Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/leph103.pdf
-- Introductory Macroeconomics 6 | URLError | https://ncert.nic.in/textbook/pdf/leec106.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep517.pdf
-- Kshitij Part 2 (Hindi A) 1 | URLError | https://ncert.nic.in/textbook/pdf/jhks101.pdf
-- Physics Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/leph104.pdf
-- Introductory Macroeconomics (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leec1dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry/leep518.pdf
-- Kshitij Part 2 (Hindi A) 2 | URLError | https://ncert.nic.in/textbook/pdf/jhks102.pdf
-- Physics Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/leph105.pdf
-- Introductory Macroeconomics Glossary | URLError | https://ncert.nic.in/textbook/pdf/leec1gl.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep401.pdf
-- Kshitij Part 2 (Hindi A) 3 | URLError | https://ncert.nic.in/textbook/pdf/jhks103.pdf
-- Physics Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/leph106.pdf
-- Introductory Macroeconomics Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leec1ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep402.pdf
-- Kshitij Part 2 (Hindi A) 4 | URLError | https://ncert.nic.in/textbook/pdf/jhks104.pdf
-- Physics Part I 7 | URLError | https://ncert.nic.in/textbook/pdf/leph107.pdf
-- Introductory Microeconomics 1 | URLError | https://ncert.nic.in/textbook/pdf/leec201.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep403.pdf
-- Kshitij Part 2 (Hindi A) 5 | URLError | https://ncert.nic.in/textbook/pdf/jhks105.pdf
-- Physics Part I 8 | URLError | https://ncert.nic.in/textbook/pdf/leph108.pdf
-- Introductory Microeconomics 2 | URLError | https://ncert.nic.in/textbook/pdf/leec202.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep404.pdf
-- Kshitij Part 2 (Hindi A) 6 | URLError | https://ncert.nic.in/textbook/pdf/jhks106.pdf
-- Physics Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leph1dd.zip
-- Introductory Microeconomics 3 | URLError | https://ncert.nic.in/textbook/pdf/leec203.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep405.pdf
-- Kshitij Part 2 (Hindi A) 7 | URLError | https://ncert.nic.in/textbook/pdf/jhks107.pdf
-- Physics Part I Answers | URLError | https://ncert.nic.in/textbook/pdf/leph1an.pdf
-- Introductory Microeconomics 4 | URLError | https://ncert.nic.in/textbook/pdf/leec204.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep406.pdf
+736 links were not checked (out of time).
+
 - Kshitij Part 2 (Hindi A) 8 | URLError | https://ncert.nic.in/textbook/pdf/jhks108.pdf
-- Physics Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leph1ps.pdf
-- Introductory Microeconomics 5 | URLError | https://ncert.nic.in/textbook/pdf/leec205.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep407.pdf
 - Kshitij Part 2 (Hindi A) 9 | URLError | https://ncert.nic.in/textbook/pdf/jhks109.pdf
-- Physics Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/leph201.pdf
-- Introductory Microeconomics (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leec2dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep408.pdf
-- Kshitij Part 2 (Hindi A) 10 | URLError | https://ncert.nic.in/textbook/pdf/jhks110.pdf
-- Physics Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/leph202.pdf
-- Introductory Microeconomics Glossary | URLError | https://ncert.nic.in/textbook/pdf/leec2gl.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep409.pdf
-- Kshitij Part 2 (Hindi A) 11 | URLError | https://ncert.nic.in/textbook/pdf/jhks111.pdf
-- Physics Part II 11 | URLError | https://ncert.nic.in/textbook/pdf/leph203.pdf
-- Introductory Microeconomics Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leec2ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep410.pdf
-- Kshitij Part 2 (Hindi A) 12 | URLError | https://ncert.nic.in/textbook/pdf/jhks112.pdf
-- Physics Part II 12 | URLError | https://ncert.nic.in/textbook/pdf/leph204.pdf
-- Themes in Indian History Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/lehs101.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep411.pdf
-- Kshitij Part 2 (Hindi A) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jhks1dd.zip
-- Physics Part II 13 | URLError | https://ncert.nic.in/textbook/pdf/leph205.pdf
-- Themes in Indian History Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/lehs102.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep412.pdf
-- Kshitij Part 2 (Hindi A) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jhks1ps.pdf
-- Physics Part II 14 | URLError | https://ncert.nic.in/textbook/pdf/leph206.pdf
-- Themes in Indian History Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/lehs103.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep413.pdf
-- Sparsh Part 2 (Hindi B) 1 | URLError | https://ncert.nic.in/textbook/pdf/jhsp101.pdf
-- Physics Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leph2dd.zip
-- Themes in Indian History Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/lehs104.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep414.pdf
-- Sparsh Part 2 (Hindi B) 2 | URLError | https://ncert.nic.in/textbook/pdf/jhsp102.pdf
-- Physics Part II Answers | URLError | https://ncert.nic.in/textbook/pdf/leph2an.pdf
-- Themes in Indian History Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lehs1dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep415.pdf
-- Sparsh Part 2 (Hindi B) 3 | URLError | https://ncert.nic.in/textbook/pdf/jhsp103.pdf
-- Physics Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leph2ps.pdf
-- Themes in Indian History Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lehs1ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep416.pdf
-- Sparsh Part 2 (Hindi B) 4 | URLError | https://ncert.nic.in/textbook/pdf/jhsp104.pdf
-- Chemistry Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/lech101.pdf
-- Themes in Indian History Part II 5 | URLError | https://ncert.nic.in/textbook/pdf/lehs201.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/chemistry(hindi)/lhep417.pdf
-- Sparsh Part 2 (Hindi B) 5 | URLError | https://ncert.nic.in/textbook/pdf/jhsp105.pdf
-- Chemistry Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/lech102.pdf
-- Themes in Indian History Part II 6 | URLError | https://ncert.nic.in/textbook/pdf/lehs202.pdf
-- Sparsh Part 2 (Hindi B) 6 | URLError | https://ncert.nic.in/textbook/pdf/jhsp106.pdf
-- Chemistry Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/lech103.pdf
-- Themes in Indian History Part II 7 | URLError | https://ncert.nic.in/textbook/pdf/lehs203.pdf
-- Sparsh Part 2 (Hindi B) 7 | URLError | https://ncert.nic.in/textbook/pdf/jhsp107.pdf
-- Chemistry Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/lech104.pdf
-- Themes in Indian History Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/lehs204.pdf
-- Sparsh Part 2 (Hindi B) 8 | URLError | https://ncert.nic.in/textbook/pdf/jhsp108.pdf
-- Chemistry Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/lech105.pdf
-- Themes in Indian History Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lehs2dd.zip
-- Sparsh Part 2 (Hindi B) 9 | URLError | https://ncert.nic.in/textbook/pdf/jhsp109.pdf
-- Chemistry Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lech1dd.zip
-- Themes in Indian History Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lehs2ps.pdf
-- Sparsh Part 2 (Hindi B) 10 | URLError | https://ncert.nic.in/textbook/pdf/jhsp110.pdf
-- Chemistry Part I Answers to some questions | URLError | https://ncert.nic.in/textbook/pdf/lech1an.pdf
-- Themes in Indian History Part III 9 | URLError | https://ncert.nic.in/textbook/pdf/lehs301.pdf
-- Sparsh Part 2 (Hindi B) 11 | URLError | https://ncert.nic.in/textbook/pdf/jhsp111.pdf
-- Chemistry Part I Appendix | URLError | https://ncert.nic.in/textbook/pdf/lech1a1.pdf
-- Themes in Indian History Part III 10 | URLError | https://ncert.nic.in/textbook/pdf/lehs302.pdf
-- Sparsh Part 2 (Hindi B) 12 | URLError | https://ncert.nic.in/textbook/pdf/jhsp112.pdf
-- Chemistry Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lech1ps.pdf
-- Themes in Indian History Part III 11 | URLError | https://ncert.nic.in/textbook/pdf/lehs303.pdf
-- Sparsh Part 2 (Hindi B) 13 | URLError | https://ncert.nic.in/textbook/pdf/jhsp113.pdf
-- Chemistry Part II 6 | URLError | https://ncert.nic.in/textbook/pdf/lech201.pdf
-- Themes in Indian History Part III 12 | URLError | https://ncert.nic.in/textbook/pdf/lehs304.pdf
-- Sparsh Part 2 (Hindi B) 14 | URLError | https://ncert.nic.in/textbook/pdf/jhsp114.pdf
-- Chemistry Part II 7 | URLError | https://ncert.nic.in/textbook/pdf/lech202.pdf
-- Themes in Indian History Part III (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lehs3dd.zip
-- Sparsh Part 2 (Hindi B) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jhsp1dd.zip
-- Chemistry Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/lech203.pdf
-- Themes in Indian History Part III Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lehs3ps.pdf
-- Sparsh Part 2 (Hindi B) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jhsp1ps.pdf
-- Chemistry Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/lech204.pdf
-- Fundamentals of Human Geography 1 | URLError | https://ncert.nic.in/textbook/pdf/legy101.pdf
-- Sanchayan Part 2 (Hindi B) 1 | URLError | https://ncert.nic.in/textbook/pdf/jhsy101.pdf
-- Chemistry Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/lech205.pdf
-- Fundamentals of Human Geography 2 | URLError | https://ncert.nic.in/textbook/pdf/legy102.pdf
-- Sanchayan Part 2 (Hindi B) 2 | URLError | https://ncert.nic.in/textbook/pdf/jhsy102.pdf
-- Chemistry Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lech2dd.zip
-- Fundamentals of Human Geography 3 | URLError | https://ncert.nic.in/textbook/pdf/legy103.pdf
-- Sanchayan Part 2 (Hindi B) 3 | URLError | https://ncert.nic.in/textbook/pdf/jhsy103.pdf
-- Chemistry Part II Answers to some questions | URLError | https://ncert.nic.in/textbook/pdf/lech2an.pdf
-- Fundamentals of Human Geography 4 | URLError | https://ncert.nic.in/textbook/pdf/legy104.pdf
-- Sanchayan Part 2 (Hindi B) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jhsy1dd.zip
-- Chemistry Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lech2ps.pdf
-- Fundamentals of Human Geography 5 | URLError | https://ncert.nic.in/textbook/pdf/legy105.pdf
-- Sanchayan Part 2 (Hindi B) लेखक परिचय (author introductions) | URLError | https://ncert.nic.in/textbook/pdf/jhsy1lp.pdf
-- Mathematics Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/lemh101.pdf
-- Fundamentals of Human Geography 6 | URLError | https://ncert.nic.in/textbook/pdf/legy106.pdf
-- Sanchayan Part 2 (Hindi B) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jhsy1ps.pdf
-- Mathematics Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/lemh102.pdf
-- Fundamentals of Human Geography 7 | URLError | https://ncert.nic.in/textbook/pdf/legy107.pdf
-- Mathematics 1 | URLError | https://ncert.nic.in/textbook/pdf/jemh101.pdf
-- Mathematics Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/lemh103.pdf
-- Fundamentals of Human Geography 8 | URLError | https://ncert.nic.in/textbook/pdf/legy108.pdf
-- Mathematics 2 | URLError | https://ncert.nic.in/textbook/pdf/jemh102.pdf
-- Mathematics Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/lemh104.pdf
-- Fundamentals of Human Geography (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/legy1dd.zip
-- Mathematics 3 | URLError | https://ncert.nic.in/textbook/pdf/jemh103.pdf
-- Mathematics Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/lemh105.pdf
-- Fundamentals of Human Geography Appendix | URLError | https://ncert.nic.in/textbook/pdf/legy1a1.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep210.pdf
-- Gulzar-e-Urdu (supplementary reader) 11 | URLError | https://ncert.nic.in/textbook/pdf/juge111.pdf
-- Urdu grammar and composition 14 | URLError | https://ncert.nic.in/textbook/pdf/juuq114.pdf
-- Mathematics 4 | URLError | https://ncert.nic.in/textbook/pdf/kemh104.pdf
-- Woven Words (English Elective) 11 | URLError | https://ncert.nic.in/textbook/pdf/keww113.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep115.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep211.pdf
-- Gulzar-e-Urdu (supplementary reader) 12 | URLError | https://ncert.nic.in/textbook/pdf/juge112.pdf
-- Urdu grammar and composition 15 | URLError | https://ncert.nic.in/textbook/pdf/juuq115.pdf
-- Mathematics 5 | URLError | https://ncert.nic.in/textbook/pdf/kemh105.pdf
-- Woven Words (English Elective) 12 | URLError | https://ncert.nic.in/textbook/pdf/keww114.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep116.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep212.pdf
-- Gulzar-e-Urdu (supplementary reader) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/juge1dd.zip
-- Urdu grammar and composition 16 | URLError | https://ncert.nic.in/textbook/pdf/juuq116.pdf
-- Mathematics 6 | URLError | https://ncert.nic.in/textbook/pdf/kemh106.pdf
-- Woven Words (English Elective) 13 | URLError | https://ncert.nic.in/textbook/pdf/keww115.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep117.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep213.pdf
-- Gulzar-e-Urdu (supplementary reader) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/juge1ps.pdf
-- Urdu grammar and composition 17 | URLError | https://ncert.nic.in/textbook/pdf/juuq117.pdf
-- Mathematics 7 | URLError | https://ncert.nic.in/textbook/pdf/kemh107.pdf
-- Woven Words (English Elective) 14 | URLError | https://ncert.nic.in/textbook/pdf/keww116.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep118.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep214.pdf
-- Jaan Pahechan 1 | URLError | https://ncert.nic.in/textbook/pdf/jujp101.pdf
-- Urdu grammar and composition 18 | URLError | https://ncert.nic.in/textbook/pdf/juuq118.pdf
-- Mathematics 8 | URLError | https://ncert.nic.in/textbook/pdf/kemh108.pdf
-- Woven Words (English Elective) 15 | URLError | https://ncert.nic.in/textbook/pdf/keww117.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep1an.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/mathematics(hindi)/jhep2an.pdf
-- Jaan Pahechan 2 | URLError | https://ncert.nic.in/textbook/pdf/jujp102.pdf
-- Urdu grammar and composition 19 | URLError | https://ncert.nic.in/textbook/pdf/juuq119.pdf
-- Mathematics 9 | URLError | https://ncert.nic.in/textbook/pdf/kemh109.pdf
-- Woven Words (English Elective) 16 | URLError | https://ncert.nic.in/textbook/pdf/keww118.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep101.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep101.pdf
-- Jaan Pahechan 3 | URLError | https://ncert.nic.in/textbook/pdf/jujp103.pdf
-- Urdu grammar and composition 20 | URLError | https://ncert.nic.in/textbook/pdf/juuq120.pdf
-- Mathematics 10 | URLError | https://ncert.nic.in/textbook/pdf/kemh110.pdf
-- Woven Words (English Elective) 17 | URLError | https://ncert.nic.in/textbook/pdf/keww119.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep102.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep102.pdf
-- Jaan Pahechan 4 | URLError | https://ncert.nic.in/textbook/pdf/jujp104.pdf
-- Urdu grammar and composition 21 | URLError | https://ncert.nic.in/textbook/pdf/juuq121.pdf
-- Mathematics 11 | URLError | https://ncert.nic.in/textbook/pdf/kemh111.pdf
-- Woven Words (English Elective) 18 | URLError | https://ncert.nic.in/textbook/pdf/keww120.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep103.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep103.pdf
-- Jaan Pahechan 5 | URLError | https://ncert.nic.in/textbook/pdf/jujp105.pdf
-- Urdu grammar and composition 22 | URLError | https://ncert.nic.in/textbook/pdf/juuq122.pdf
-- Mathematics 12 | URLError | https://ncert.nic.in/textbook/pdf/kemh112.pdf
-- Woven Words (English Elective) 19 | URLError | https://ncert.nic.in/textbook/pdf/keww121.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep104.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep104.pdf
-- Jaan Pahechan 6 | URLError | https://ncert.nic.in/textbook/pdf/jujp106.pdf
-- Urdu grammar and composition (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/juuq1dd.zip
-- Mathematics 13 | URLError | https://ncert.nic.in/textbook/pdf/kemh113.pdf
-- Woven Words (English Elective) 20 | URLError | https://ncert.nic.in/textbook/pdf/keww122.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep105.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep105.pdf
-- Jaan Pahechan 7 | URLError | https://ncert.nic.in/textbook/pdf/jujp107.pdf
-- Urdu grammar and composition Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/juuq1ps.pdf
-- Mathematics 14 | URLError | https://ncert.nic.in/textbook/pdf/kemh114.pdf
-- Woven Words (English Elective) 21 | URLError | https://ncert.nic.in/textbook/pdf/keww131.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep106.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep106.pdf
-- Jaan Pahechan 8 | URLError | https://ncert.nic.in/textbook/pdf/jujp108.pdf
-- Kaveri (English) 1 | URLError | https://ncert.nic.in/textbook/pdf/iebe101.pdf
-- Mathematics (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kemh1dd.zip
-- Woven Words (English Elective) 22 | URLError | https://ncert.nic.in/textbook/pdf/keww132.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep107.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep107.pdf
-- Jaan Pahechan 9 | URLError | https://ncert.nic.in/textbook/pdf/jujp109.pdf
-- Kaveri (English) 2 | URLError | https://ncert.nic.in/textbook/pdf/iebe102.pdf
-- Mathematics Answers | URLError | https://ncert.nic.in/textbook/pdf/kemh1an.pdf
-- Woven Words (English Elective) 23 | URLError | https://ncert.nic.in/textbook/pdf/keww133.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep108.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep108.pdf
-- Jaan Pahechan 10 | URLError | https://ncert.nic.in/textbook/pdf/jujp110.pdf
-- Kaveri (English) 3 | URLError | https://ncert.nic.in/textbook/pdf/iebe103.pdf
-- Mathematics Appendix 1: Infinite Series | URLError | https://ncert.nic.in/textbook/pdf/kemh1a1.pdf
-- Woven Words (English Elective) 24 | URLError | https://ncert.nic.in/textbook/pdf/keww134.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep109.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep109.pdf
-- Jaan Pahechan 11 | URLError | https://ncert.nic.in/textbook/pdf/jujp111.pdf
-- Kaveri (English) 4 | URLError | https://ncert.nic.in/textbook/pdf/iebe104.pdf
-- Mathematics Appendix 2: Mathematical Modelling | URLError | https://ncert.nic.in/textbook/pdf/kemh1a2.pdf
-- Woven Words (English Elective) 25 | URLError | https://ncert.nic.in/textbook/pdf/keww135.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep110.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep110.pdf
-- Jaan Pahechan 12 | URLError | https://ncert.nic.in/textbook/pdf/jujp112.pdf
-- Kaveri (English) 5 | URLError | https://ncert.nic.in/textbook/pdf/iebe105.pdf
-- Mathematics Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kemh1ps.pdf
-- Woven Words (English Elective) 26 | URLError | https://ncert.nic.in/textbook/pdf/keww136.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep111.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep111.pdf
-- Jaan Pahechan 13 | URLError | https://ncert.nic.in/textbook/pdf/jujp113.pdf
-- Kaveri (English) 6 | URLError | https://ncert.nic.in/textbook/pdf/iebe106.pdf
-- Biology 1 | URLError | https://ncert.nic.in/textbook/pdf/kebo101.pdf
-- Woven Words (English Elective) 27 | URLError | https://ncert.nic.in/textbook/pdf/keww137.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep112.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep112.pdf
-- Jaan Pahechan 14 | URLError | https://ncert.nic.in/textbook/pdf/jujp114.pdf
-- Kaveri (English) 7 | URLError | https://ncert.nic.in/textbook/pdf/iebe107.pdf
-- Biology 2 | URLError | https://ncert.nic.in/textbook/pdf/kebo102.pdf
-- Woven Words (English Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keww1dd.zip
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep113.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep113.pdf
-- Jaan Pahechan 15 | URLError | https://ncert.nic.in/textbook/pdf/jujp115.pdf
-- Kaveri (English) 8 | URLError | https://ncert.nic.in/textbook/pdf/iebe108.pdf
-- Biology 3 | URLError | https://ncert.nic.in/textbook/pdf/kebo103.pdf
-- Woven Words (English Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keww1ps.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/heep114.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep114.pdf
-- Jaan Pahechan 16 | URLError | https://ncert.nic.in/textbook/pdf/jujp116.pdf
-- Kaveri (English) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iebe1dd.zip
-- Biology 4 | URLError | https://ncert.nic.in/textbook/pdf/kebo104.pdf
-- आरोह भाग 1 (Hindi Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/khar101.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep115.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep115.pdf
-- Jaan Pahechan 17 | URLError | https://ncert.nic.in/textbook/pdf/jujp117.pdf
-- Kaveri (English) Appendix | URLError | https://ncert.nic.in/textbook/pdf/iebe1a1.pdf
-- Biology 5 | URLError | https://ncert.nic.in/textbook/pdf/kebo105.pdf
-- आरोह भाग 1 (Hindi Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/khar102.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep116.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep116.pdf
-- Jaan Pahechan 18 | URLError | https://ncert.nic.in/textbook/pdf/jujp118.pdf
-- Kaveri (English) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iebe1ps.pdf
-- Biology 6 | URLError | https://ncert.nic.in/textbook/pdf/kebo106.pdf
-- आरोह भाग 1 (Hindi Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/khar103.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep117.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep117.pdf
-- Jaan Pahechan 19 | URLError | https://ncert.nic.in/textbook/pdf/jujp119.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) 1 | URLError | https://ncert.nic.in/textbook/pdf/ihga101.pdf
-- Biology 7 | URLError | https://ncert.nic.in/textbook/pdf/kebo107.pdf
-- आरोह भाग 1 (Hindi Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/khar104.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep118.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep118.pdf
-- Jaan Pahechan 20 | URLError | https://ncert.nic.in/textbook/pdf/jujp120.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) 2 | URLError | https://ncert.nic.in/textbook/pdf/ihga102.pdf
-- Biology 8 | URLError | https://ncert.nic.in/textbook/pdf/kebo108.pdf
-- आरोह भाग 1 (Hindi Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/khar105.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science(hindi)/hhep1an.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep1an.pdf
-- Jaan Pahechan 21 | URLError | https://ncert.nic.in/textbook/pdf/jujp121.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) 3 | URLError | https://ncert.nic.in/textbook/pdf/ihga103.pdf
-- Biology 9 | URLError | https://ncert.nic.in/textbook/pdf/kebo109.pdf
-- आरोह भाग 1 (Hindi Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/khar106.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep201.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep119.pdf
-- Jaan Pahechan 22 | URLError | https://ncert.nic.in/textbook/pdf/jujp122.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) 4 | URLError | https://ncert.nic.in/textbook/pdf/ihga104.pdf
-- Biology 10 | URLError | https://ncert.nic.in/textbook/pdf/kebo110.pdf
-- आरोह भाग 1 (Hindi Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/khar107.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep202.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep120.pdf
-- Jaan Pahechan (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jujp1dd.zip
-- हिंदी की पाठ्यपुस्तक (Hindi) 5 | URLError | https://ncert.nic.in/textbook/pdf/ihga105.pdf
-- Biology 11 | URLError | https://ncert.nic.in/textbook/pdf/kebo111.pdf
-- आरोह भाग 1 (Hindi Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/khar108.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep203.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science/jeep121.pdf
-- Jaan Pahechan Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jujp1ps.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) 6 | URLError | https://ncert.nic.in/textbook/pdf/ihga106.pdf
-- Biology 12 | URLError | https://ncert.nic.in/textbook/pdf/kebo112.pdf
-- आरोह भाग 1 (Hindi Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/khar109.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep204.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep101.pdf
-- Nawa-e-Urdu 1 | URLError | https://ncert.nic.in/textbook/pdf/june101.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) 7 | URLError | https://ncert.nic.in/textbook/pdf/ihga107.pdf
-- Biology 13 | URLError | https://ncert.nic.in/textbook/pdf/kebo113.pdf
-- आरोह भाग 1 (Hindi Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/khar110.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep205.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep102.pdf
-- Nawa-e-Urdu 2 | URLError | https://ncert.nic.in/textbook/pdf/june102.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) 8 | URLError | https://ncert.nic.in/textbook/pdf/ihga108.pdf
-- Biology 14 | URLError | https://ncert.nic.in/textbook/pdf/kebo114.pdf
-- आरोह भाग 1 (Hindi Core) 11 | URLError | https://ncert.nic.in/textbook/pdf/khar111.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep206.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep103.pdf
-- Nawa-e-Urdu 3 | URLError | https://ncert.nic.in/textbook/pdf/june103.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) 9 | URLError | https://ncert.nic.in/textbook/pdf/ihga109.pdf
-- Biology 15 | URLError | https://ncert.nic.in/textbook/pdf/kebo115.pdf
-- आरोह भाग 1 (Hindi Core) 12 | URLError | https://ncert.nic.in/textbook/pdf/khar112.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep207.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep104.pdf
-- Nawa-e-Urdu 4 | URLError | https://ncert.nic.in/textbook/pdf/june104.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) 10 | URLError | https://ncert.nic.in/textbook/pdf/ihga110.pdf
-- Biology 16 | URLError | https://ncert.nic.in/textbook/pdf/kebo116.pdf
-- आरोह भाग 1 (Hindi Core) 13 | URLError | https://ncert.nic.in/textbook/pdf/khar113.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep208.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep105.pdf
-- Nawa-e-Urdu 5 | URLError | https://ncert.nic.in/textbook/pdf/june105.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) 11 | URLError | https://ncert.nic.in/textbook/pdf/ihga111.pdf
-- Biology 17 | URLError | https://ncert.nic.in/textbook/pdf/kebo117.pdf
-- आरोह भाग 1 (Hindi Core) 14 | URLError | https://ncert.nic.in/textbook/pdf/khar114.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep209.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep106.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) 12 | URLError | https://ncert.nic.in/textbook/pdf/ihga112.pdf
-- Nawa-e-Urdu 6 | URLError | https://ncert.nic.in/textbook/pdf/june106.pdf
-- Biology 18 | URLError | https://ncert.nic.in/textbook/pdf/kebo118.pdf
-- आरोह भाग 1 (Hindi Core) 15 | URLError | https://ncert.nic.in/textbook/pdf/khar115.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep210.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep107.pdf
-- Nawa-e-Urdu 7 | URLError | https://ncert.nic.in/textbook/pdf/june107.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/ihga1dd.zip
-- Biology 19 | URLError | https://ncert.nic.in/textbook/pdf/kebo119.pdf
-- आरोह भाग 1 (Hindi Core) 16 | URLError | https://ncert.nic.in/textbook/pdf/khar116.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep211.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep108.pdf
-- Nawa-e-Urdu 8 | URLError | https://ncert.nic.in/textbook/pdf/june108.pdf
-- हिंदी की पाठ्यपुस्तक (Hindi) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/ihga1ps.pdf
-- Biology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kebo1dd.zip
-- आरोह भाग 1 (Hindi Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khar1dd.zip
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep212.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep109.pdf
-- Nawa-e-Urdu 9 | URLError | https://ncert.nic.in/textbook/pdf/june109.pdf
-- Ganita Manjari (Part 1) 1 | URLError | https://ncert.nic.in/textbook/pdf/iemh101.pdf
-- Biology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kebo1ps.pdf
-- आरोह भाग 1 (Hindi Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khar1ps.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep213.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep110.pdf
-- Nawa-e-Urdu 10 | URLError | https://ncert.nic.in/textbook/pdf/june110.pdf
-- Ganita Manjari (Part 1) 2 | URLError | https://ncert.nic.in/textbook/pdf/iemh102.pdf
-- Financial Accounting Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/keac101.pdf
-- अंतरा भाग 1 (Hindi Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/khat101.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep214.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep111.pdf
-- Nawa-e-Urdu 11 | URLError | https://ncert.nic.in/textbook/pdf/june111.pdf
-- Ganita Manjari (Part 1) 3 | URLError | https://ncert.nic.in/textbook/pdf/iemh103.pdf
-- Financial Accounting Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/keac102.pdf
-- अंतरा भाग 1 (Hindi Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/khat102.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep215.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep112.pdf
-- Nawa-e-Urdu 12 | URLError | https://ncert.nic.in/textbook/pdf/june112.pdf
-- Ganita Manjari (Part 1) 4 | URLError | https://ncert.nic.in/textbook/pdf/iemh104.pdf
-- Financial Accounting Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/keac103.pdf
-- अंतरा भाग 1 (Hindi Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/khat103.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep216.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep113.pdf
-- Nawa-e-Urdu 13 | URLError | https://ncert.nic.in/textbook/pdf/june113.pdf
-- Ganita Manjari (Part 1) 5 | URLError | https://ncert.nic.in/textbook/pdf/iemh105.pdf
-- Financial Accounting Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/keac104.pdf
-- अंतरा भाग 1 (Hindi Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/khat104.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics/ieep2an.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep114.pdf
-- Nawa-e-Urdu 14 | URLError | https://ncert.nic.in/textbook/pdf/june114.pdf
-- Ganita Manjari (Part 1) 6 | URLError | https://ncert.nic.in/textbook/pdf/iemh106.pdf
-- Financial Accounting Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/keac105.pdf
-- अंतरा भाग 1 (Hindi Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/khat105.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep201.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep115.pdf
-- Nawa-e-Urdu (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/june1dd.zip
-- Ganita Manjari (Part 1) 7 | URLError | https://ncert.nic.in/textbook/pdf/iemh107.pdf
-- Financial Accounting Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/keac106.pdf
-- अंतरा भाग 1 (Hindi Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/khat106.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep202.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep116.pdf
-- Nawa-e-Urdu Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/june1ps.pdf
-- Ganita Manjari (Part 1) 8 | URLError | https://ncert.nic.in/textbook/pdf/iemh108.pdf
-- Financial Accounting Part I 7 | URLError | https://ncert.nic.in/textbook/pdf/keac107.pdf
-- अंतरा भाग 1 (Hindi Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/khat107.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep203.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep117.pdf
-- Sab Rang 1 | URLError | https://ncert.nic.in/textbook/pdf/jusr101.pdf
-- Ganita Manjari (Part 1) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iemh1dd.zip
-- Financial Accounting Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keac1dd.zip
-- अंतरा भाग 1 (Hindi Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/khat108.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep204.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep118.pdf
-- Sab Rang 2 | URLError | https://ncert.nic.in/textbook/pdf/jusr102.pdf
-- Ganita Manjari (Part 1) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iemh1ps.pdf
-- Financial Accounting Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keac1ps.pdf
-- अंतरा भाग 1 (Hindi Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/khat109.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep205.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep120.pdf
-- Sab Rang 3 | URLError | https://ncert.nic.in/textbook/pdf/jusr103.pdf
-- Ganita Manjari (Part 2) 9 | URLError | https://ncert.nic.in/textbook/pdf/iemh201.pdf
-- Financial Accounting Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/keac201.pdf
-- अंतरा भाग 1 (Hindi Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/khat110.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep206.pdf
-- Question bank ex 10 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classX/science(hindi)/jhep119.pdf
-- Sab Rang 4 | URLError | https://ncert.nic.in/textbook/pdf/jusr104.pdf
-- Ganita Manjari (Part 2) 10 | URLError | https://ncert.nic.in/textbook/pdf/iemh202.pdf
-- Financial Accounting Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/keac202.pdf
-- अंतरा भाग 1 (Hindi Elective) 11 | URLError | https://ncert.nic.in/textbook/pdf/khat111.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep207.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep201.pdf
-- Sab Rang 5 | URLError | https://ncert.nic.in/textbook/pdf/jusr105.pdf
-- Ganita Manjari (Part 2) 11 | URLError | https://ncert.nic.in/textbook/pdf/iemh203.pdf
-- Financial Accounting Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keac2dd.zip
-- अंतरा भाग 1 (Hindi Elective) 12 | URLError | https://ncert.nic.in/textbook/pdf/khat112.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep208.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep202.pdf
-- Sab Rang 6 | URLError | https://ncert.nic.in/textbook/pdf/jusr106.pdf
-- Ganita Manjari (Part 2) 12 | URLError | https://ncert.nic.in/textbook/pdf/iemh204.pdf
-- Financial Accounting Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keac2ps.pdf
-- अंतरा भाग 1 (Hindi Elective) 13 | URLError | https://ncert.nic.in/textbook/pdf/khat113.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep209.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep203.pdf
-- Sab Rang 7 | URLError | https://ncert.nic.in/textbook/pdf/jusr107.pdf
-- Ganita Manjari (Part 2) 13 | URLError | https://ncert.nic.in/textbook/pdf/iemh205.pdf
-- Business Studies 1 | URLError | https://ncert.nic.in/textbook/pdf/kebs101.pdf
-- अंतरा भाग 1 (Hindi Elective) 14 | URLError | https://ncert.nic.in/textbook/pdf/khat114.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep210.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep204.pdf
-- Sab Rang 8 | URLError | https://ncert.nic.in/textbook/pdf/jusr108.pdf
-- Ganita Manjari (Part 2) 14 | URLError | https://ncert.nic.in/textbook/pdf/iemh206.pdf
-- Business Studies 2 | URLError | https://ncert.nic.in/textbook/pdf/kebs102.pdf
-- अंतरा भाग 1 (Hindi Elective) 15 | URLError | https://ncert.nic.in/textbook/pdf/khat115.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep211.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep205.pdf
-- Sab Rang 9 | URLError | https://ncert.nic.in/textbook/pdf/jusr109.pdf
-- Ganita Manjari (Part 2) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iemh2dd.zip
-- Business Studies 3 | URLError | https://ncert.nic.in/textbook/pdf/kebs103.pdf
-- अंतरा भाग 1 (Hindi Elective) 16 | URLError | https://ncert.nic.in/textbook/pdf/khat116.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep212.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep206.pdf
-- Sab Rang (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jusr1dd.zip
-- Ganita Manjari (Part 2) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iemh2ps.pdf
-- Business Studies 4 | URLError | https://ncert.nic.in/textbook/pdf/kebs104.pdf
-- अंतरा भाग 1 (Hindi Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khat1dd.zip
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep213.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep207.pdf
-- Sab Rang Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jusr1ps.pdf
-- Science 1 | URLError | https://ncert.nic.in/textbook/pdf/iesc101.pdf
-- Business Studies 5 | URLError | https://ncert.nic.in/textbook/pdf/kebs105.pdf
-- अंतरा भाग 1 (Hindi Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khat1ps.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep214.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep208.pdf
-- Urdu grammar and composition 1 | URLError | https://ncert.nic.in/textbook/pdf/juuq101.pdf
-- Science 2 | URLError | https://ncert.nic.in/textbook/pdf/iesc102.pdf
-- Business Studies 6 | URLError | https://ncert.nic.in/textbook/pdf/kebs106.pdf
-- वितान भाग 1 (Hindi Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/khvt101.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep215.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep209.pdf
-- Urdu grammar and composition 2 | URLError | https://ncert.nic.in/textbook/pdf/juuq102.pdf
-- Science 3 | URLError | https://ncert.nic.in/textbook/pdf/iesc103.pdf
-- Business Studies 7 | URLError | https://ncert.nic.in/textbook/pdf/kebs107.pdf
-- वितान भाग 1 (Hindi Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/khvt102.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep216.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep210.pdf
-- Urdu grammar and composition 3 | URLError | https://ncert.nic.in/textbook/pdf/juuq103.pdf
-- Science 4 | URLError | https://ncert.nic.in/textbook/pdf/iesc104.pdf
-- Business Studies 8 | URLError | https://ncert.nic.in/textbook/pdf/kebs108.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/mathematics(hindi)/ihep2an.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep211.pdf
-- Urdu grammar and composition 4 | URLError | https://ncert.nic.in/textbook/pdf/juuq104.pdf
-- Science 5 | URLError | https://ncert.nic.in/textbook/pdf/iesc105.pdf
-- Business Studies 9 | URLError | https://ncert.nic.in/textbook/pdf/kebs109.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep101.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep212.pdf
-- Urdu grammar and composition 5 | URLError | https://ncert.nic.in/textbook/pdf/juuq105.pdf
-- Science 6 | URLError | https://ncert.nic.in/textbook/pdf/iesc106.pdf
-- Business Studies 10 | URLError | https://ncert.nic.in/textbook/pdf/kebs110.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep102.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep213.pdf
-- Urdu grammar and composition 6 | URLError | https://ncert.nic.in/textbook/pdf/juuq106.pdf
-- Science 7 | URLError | https://ncert.nic.in/textbook/pdf/iesc107.pdf
-- Business Studies 11 | URLError | https://ncert.nic.in/textbook/pdf/kebs111.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep103.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep214.pdf
-- Urdu grammar and composition 7 | URLError | https://ncert.nic.in/textbook/pdf/juuq107.pdf
-- Science 8 | URLError | https://ncert.nic.in/textbook/pdf/iesc108.pdf
-- Business Studies (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kebs1dd.zip
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep104.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep215.pdf
-- Urdu grammar and composition 8 | URLError | https://ncert.nic.in/textbook/pdf/juuq108.pdf
-- Science 9 | URLError | https://ncert.nic.in/textbook/pdf/iesc109.pdf
-- Business Studies Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kebs1ps.pdf
-- वितान भाग 1 (Hindi Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/khvt103.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep105.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep216.pdf
-- Urdu grammar and composition 9 | URLError | https://ncert.nic.in/textbook/pdf/juuq109.pdf
-- Science 10 | URLError | https://ncert.nic.in/textbook/pdf/iesc110.pdf
-- Indian Economic Development 1 | URLError | https://ncert.nic.in/textbook/pdf/keec101.pdf
-- वितान भाग 1 (Hindi Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/khvt104.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep106.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep217.pdf
-- Urdu grammar and composition 10 | URLError | https://ncert.nic.in/textbook/pdf/juuq110.pdf
-- Science 11 | URLError | https://ncert.nic.in/textbook/pdf/iesc111.pdf
-- Indian Economic Development 2 | URLError | https://ncert.nic.in/textbook/pdf/keec102.pdf
-- वितान भाग 1 (Hindi Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/khvt105.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep107.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics/keep218.pdf
-- Urdu grammar and composition 11 | URLError | https://ncert.nic.in/textbook/pdf/juuq111.pdf
-- Science 12 | URLError | https://ncert.nic.in/textbook/pdf/iesc112.pdf
-- Indian Economic Development 3 | URLError | https://ncert.nic.in/textbook/pdf/keec103.pdf
-- वितान भाग 1 (Hindi Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khvt1dd.zip
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep108.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep201.pdf
-- Urdu grammar and composition 12 | URLError | https://ncert.nic.in/textbook/pdf/juuq112.pdf
-- Science 13 | URLError | https://ncert.nic.in/textbook/pdf/iesc113.pdf
-- Indian Economic Development 4 | URLError | https://ncert.nic.in/textbook/pdf/keec104.pdf
-- वितान भाग 1 (Hindi Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khvt1ps.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep109.pdf
-- Question bank ex 11 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXI/mathematics(hindi)/khep202.pdf
-- Urdu grammar and composition 13 | URLError | https://ncert.nic.in/textbook/pdf/juuq113.pdf
-- Science (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iesc1dd.zip
-- Indian Economic Development 5 | URLError | https://ncert.nic.in/textbook/pdf/keec105.pdf
-- अंतराल भाग 1 (Hindi Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/khan101.pdf
-- Question bank ex 9 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classIX/science/ieep110.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep205.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 5 | URLError | https://ncert.nic.in/textbook/pdf/khgv105.pdf
-- Kaleidoscope (English Elective) 15 | URLError | https://ncert.nic.in/textbook/pdf/lekl122.pdf
-- Psychology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lepy1ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep206.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 6 | URLError | https://ncert.nic.in/textbook/pdf/khgv106.pdf
-- Kaleidoscope (English Elective) 16 | URLError | https://ncert.nic.in/textbook/pdf/lekl123.pdf
-- Computer Science 1 | URLError | https://ncert.nic.in/textbook/pdf/lecs101.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep207.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 7 | URLError | https://ncert.nic.in/textbook/pdf/khgv107.pdf
-- Kaleidoscope (English Elective) 17 | URLError | https://ncert.nic.in/textbook/pdf/lekl124.pdf
-- Computer Science 2 | URLError | https://ncert.nic.in/textbook/pdf/lecs102.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep208.pdf
-- First Flight 7 | URLError | https://ncert.nic.in/textbook/pdf/jeff107.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 8 | URLError | https://ncert.nic.in/textbook/pdf/khgv108.pdf
-- Kaleidoscope (English Elective) 18 | URLError | https://ncert.nic.in/textbook/pdf/lekl125.pdf
-- Computer Science 3 | URLError | https://ncert.nic.in/textbook/pdf/lecs103.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep209.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 9 | URLError | https://ncert.nic.in/textbook/pdf/khgv109.pdf
-- Kaleidoscope (English Elective) 19 | URLError | https://ncert.nic.in/textbook/pdf/lekl126.pdf
-- Computer Science 4 | URLError | https://ncert.nic.in/textbook/pdf/lecs104.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep210.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 10 | URLError | https://ncert.nic.in/textbook/pdf/khgv110.pdf
-- Kaleidoscope (English Elective) 20 | URLError | https://ncert.nic.in/textbook/pdf/lekl131.pdf
-- Computer Science 5 | URLError | https://ncert.nic.in/textbook/pdf/lecs105.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep211.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khgv1dd.zip
-- Kaleidoscope (English Elective) 21 | URLError | https://ncert.nic.in/textbook/pdf/lekl132.pdf
-- Computer Science 6 | URLError | https://ncert.nic.in/textbook/pdf/lecs106.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep212.pdf
-- संगीत: हिंदुस्तानी गायन एवं वादन (Music) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khgv1ps.pdf
-- Kaleidoscope (English Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lekl1dd.zip
-- Computer Science 7 | URLError | https://ncert.nic.in/textbook/pdf/lecs107.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep213.pdf
-- Health and Physical Education 1 | URLError | https://ncert.nic.in/textbook/pdf/kehp101.pdf
-- Kaleidoscope (English Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lekl1ps.pdf
-- Computer Science 8 | URLError | https://ncert.nic.in/textbook/pdf/lecs108.pdf
-- First Flight 8 | URLError | https://ncert.nic.in/textbook/pdf/jeff108.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep214.pdf
-- Health and Physical Education 2 | URLError | https://ncert.nic.in/textbook/pdf/kehp102.pdf
-- आरोह भाग 2 (Hindi Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/lhar101.pdf
-- Computer Science 9 | URLError | https://ncert.nic.in/textbook/pdf/lecs109.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep215.pdf
-- Health and Physical Education 3 | URLError | https://ncert.nic.in/textbook/pdf/kehp103.pdf
-- आरोह भाग 2 (Hindi Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/lhar102.pdf
-- Computer Science 10 | URLError | https://ncert.nic.in/textbook/pdf/lecs110.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics/leep216.pdf
-- Health and Physical Education 4 | URLError | https://ncert.nic.in/textbook/pdf/kehp104.pdf
-- आरोह भाग 2 (Hindi Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/lhar103.pdf
-- Computer Science 11 | URLError | https://ncert.nic.in/textbook/pdf/lecs111.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep201.pdf
-- Health and Physical Education 5 | URLError | https://ncert.nic.in/textbook/pdf/kehp105.pdf
-- आरोह भाग 2 (Hindi Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/lhar104.pdf
-- Computer Science 12 | URLError | https://ncert.nic.in/textbook/pdf/lecs112.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep202.pdf
-- Health and Physical Education 6 | URLError | https://ncert.nic.in/textbook/pdf/kehp106.pdf
-- आरोह भाग 2 (Hindi Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/lhar105.pdf
-- Computer Science 13 | URLError | https://ncert.nic.in/textbook/pdf/lecs113.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep203.pdf
-- Health and Physical Education 7 | URLError | https://ncert.nic.in/textbook/pdf/kehp107.pdf
-- आरोह भाग 2 (Hindi Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/lhar106.pdf
-- Computer Science (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lecs1dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep204.pdf
-- Health and Physical Education 8 | URLError | https://ncert.nic.in/textbook/pdf/kehp108.pdf
-- आरोह भाग 2 (Hindi Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/lhar107.pdf
-- Computer Science Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lecs1ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep205.pdf
-- Health and Physical Education 9 | URLError | https://ncert.nic.in/textbook/pdf/kehp109.pdf
-- आरोह भाग 2 (Hindi Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/lhar108.pdf
-- Informatics Practices 1 | URLError | https://ncert.nic.in/textbook/pdf/leip101.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep206.pdf
-- Health and Physical Education 10 | URLError | https://ncert.nic.in/textbook/pdf/kehp110.pdf
-- आरोह भाग 2 (Hindi Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/lhar109.pdf
-- Informatics Practices 2 | URLError | https://ncert.nic.in/textbook/pdf/leip102.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep207.pdf
-- First Flight 9 | URLError | https://ncert.nic.in/textbook/pdf/jeff109.pdf
-- Health and Physical Education 11 | URLError | https://ncert.nic.in/textbook/pdf/kehp111.pdf
-- आरोह भाग 2 (Hindi Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/lhar110.pdf
-- Informatics Practices 3 | URLError | https://ncert.nic.in/textbook/pdf/leip103.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep208.pdf
-- Health and Physical Education (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kehp1dd.zip
-- आरोह भाग 2 (Hindi Core) 11 | URLError | https://ncert.nic.in/textbook/pdf/lhar111.pdf
-- Informatics Practices 4 | URLError | https://ncert.nic.in/textbook/pdf/leip104.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep209.pdf
-- Health and Physical Education Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kehp1ps.pdf
-- आरोह भाग 2 (Hindi Core) 12 | URLError | https://ncert.nic.in/textbook/pdf/lhar112.pdf
-- Informatics Practices 5 | URLError | https://ncert.nic.in/textbook/pdf/leip105.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep210.pdf
-- Computer Science 1 | URLError | https://ncert.nic.in/textbook/pdf/kecs101.pdf
-- आरोह भाग 2 (Hindi Core) 13 | URLError | https://ncert.nic.in/textbook/pdf/lhar113.pdf
-- Informatics Practices 6 | URLError | https://ncert.nic.in/textbook/pdf/leip106.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep211.pdf
-- Computer Science 2 | URLError | https://ncert.nic.in/textbook/pdf/kecs102.pdf
-- आरोह भाग 2 (Hindi Core) 14 | URLError | https://ncert.nic.in/textbook/pdf/lhar114.pdf
-- Informatics Practices 7 | URLError | https://ncert.nic.in/textbook/pdf/leip107.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep212.pdf
-- Computer Science 3 | URLError | https://ncert.nic.in/textbook/pdf/kecs103.pdf
-- आरोह भाग 2 (Hindi Core) 15 | URLError | https://ncert.nic.in/textbook/pdf/lhar115.pdf
-- Informatics Practices (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leip1dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep213.pdf
-- First Flight (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jeff1dd.zip
-- Computer Science 4 | URLError | https://ncert.nic.in/textbook/pdf/kecs104.pdf
-- आरोह भाग 2 (Hindi Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lhar1dd.zip
-- Informatics Practices Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leip1ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep214.pdf
-- Computer Science 5 | URLError | https://ncert.nic.in/textbook/pdf/kecs105.pdf
-- आरोह भाग 2 (Hindi Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lhar1ps.pdf
-- Biotechnology 1 | URLError | https://ncert.nic.in/textbook/pdf/lebt101.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep215.pdf
-- Computer Science 6 | URLError | https://ncert.nic.in/textbook/pdf/kecs106.pdf
-- वितान भाग 2 (Hindi Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/lhvt101.pdf
-- Biotechnology 2 | URLError | https://ncert.nic.in/textbook/pdf/lebt102.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/mathematics(hindi)/lhep216.pdf
-- Computer Science 7 | URLError | https://ncert.nic.in/textbook/pdf/kecs107.pdf
-- वितान भाग 2 (Hindi Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/lhvt102.pdf
-- Biotechnology 3 | URLError | https://ncert.nic.in/textbook/pdf/lebt103.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep101.pdf
-- Computer Science 8 | URLError | https://ncert.nic.in/textbook/pdf/kecs108.pdf
-- वितान भाग 2 (Hindi Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/lhvt103.pdf
-- Biotechnology 4 | URLError | https://ncert.nic.in/textbook/pdf/lebt104.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep102.pdf
-- Computer Science 9 | URLError | https://ncert.nic.in/textbook/pdf/kecs109.pdf
-- वितान भाग 2 (Hindi Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lhvt1dd.zip
-- Biotechnology 5 | URLError | https://ncert.nic.in/textbook/pdf/lebt105.pdf
-- First Flight 6 | URLError | https://ncert.nic.in/textbook/pdf/jeff106.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep103.pdf
-- First Flight Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jeff1ps.pdf
-- Computer Science 10 | URLError | https://ncert.nic.in/textbook/pdf/kecs110.pdf
-- वितान भाग 2 (Hindi Core) लेखक परिचय (author introductions) | URLError | https://ncert.nic.in/textbook/pdf/lhvt1lp.pdf
-- Biotechnology 6 | URLError | https://ncert.nic.in/textbook/pdf/lebt106.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep104.pdf
-- Computer Science 11 | URLError | https://ncert.nic.in/textbook/pdf/kecs111.pdf
-- वितान भाग 2 (Hindi Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lhvt1ps.pdf
-- Biotechnology 7 | URLError | https://ncert.nic.in/textbook/pdf/lebt107.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep105.pdf
-- Computer Science (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kecs1dd.zip
-- अंतरा भाग 2 (Hindi Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/lhat101.pdf
-- Biotechnology 8 | URLError | https://ncert.nic.in/textbook/pdf/lebt108.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep106.pdf
-- Computer Science Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kecs1ps.pdf
-- अंतरा भाग 2 (Hindi Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/lhat102.pdf
-- Biotechnology 9 | URLError | https://ncert.nic.in/textbook/pdf/lebt109.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep107.pdf
-- Informatics Practices 1 | URLError | https://ncert.nic.in/textbook/pdf/keip101.pdf
-- अंतरा भाग 2 (Hindi Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/lhat103.pdf
-- Biotechnology 10 | URLError | https://ncert.nic.in/textbook/pdf/lebt110.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep108.pdf
-- Informatics Practices 2 | URLError | https://ncert.nic.in/textbook/pdf/keip102.pdf
-- अंतरा भाग 2 (Hindi Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/lhat104.pdf
-- Biotechnology 11 | URLError | https://ncert.nic.in/textbook/pdf/lebt111.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep109.pdf
-- Informatics Practices 3 | URLError | https://ncert.nic.in/textbook/pdf/keip103.pdf
-- अंतरा भाग 2 (Hindi Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/lhat105.pdf
-- Biotechnology 12 | URLError | https://ncert.nic.in/textbook/pdf/lebt112.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep110.pdf
-- Informatics Practices 4 | URLError | https://ncert.nic.in/textbook/pdf/keip104.pdf
-- अंतरा भाग 2 (Hindi Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/lhat106.pdf
-- Biotechnology 13 | URLError | https://ncert.nic.in/textbook/pdf/lebt113.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep111.pdf
-- Informatics Practices 5 | URLError | https://ncert.nic.in/textbook/pdf/keip105.pdf
-- अंतरा भाग 2 (Hindi Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/lhat107.pdf
-- Biotechnology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lebt1dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep112.pdf
-- Informatics Practices 6 | URLError | https://ncert.nic.in/textbook/pdf/keip106.pdf
-- अंतरा भाग 2 (Hindi Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/lhat108.pdf
-- Biotechnology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lebt1ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep113.pdf
-- Informatics Practices 7 | URLError | https://ncert.nic.in/textbook/pdf/keip107.pdf
-- अंतरा भाग 2 (Hindi Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/lhat109.pdf
-- भास्वती भाग 2 (Sanskrit Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/lhsk101.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep114.pdf
-- Informatics Practices 8 | URLError | https://ncert.nic.in/textbook/pdf/keip108.pdf
-- अंतरा भाग 2 (Hindi Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/lhat110.pdf
-- भास्वती भाग 2 (Sanskrit Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/lhsk102.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep115.pdf
+- Madhurima: A Textbook of Arts (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iemr1dd.zip
+- Hornbill (English Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/kehb101.pdf
 - Informatics Practices (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keip1dd.zip
 - अंतरा भाग 2 (Hindi Elective) 11 | URLError | https://ncert.nic.in/textbook/pdf/lhat111.pdf
-- भास्वती भाग 2 (Sanskrit Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/lhsk103.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep116.pdf
+- Kshitij Part 2 (Hindi A) 4 | URLError | https://ncert.nic.in/textbook/pdf/jhks104.pdf
+- Kshitij Part 2 (Hindi A) 10 | URLError | https://ncert.nic.in/textbook/pdf/jhks110.pdf
+- Madhurima: A Textbook of Arts Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iemr1ps.pdf
+- Hornbill (English Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/kehb102.pdf
 - Informatics Practices Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keip1ps.pdf
 - अंतरा भाग 2 (Hindi Elective) 12 | URLError | https://ncert.nic.in/textbook/pdf/lhat112.pdf
-- भास्वती भाग 2 (Sanskrit Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/lhsk104.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics/leep117.pdf
+- Kshitij Part 2 (Hindi A) 5 | URLError | https://ncert.nic.in/textbook/pdf/jhks105.pdf
+- Kshitij Part 2 (Hindi A) 11 | URLError | https://ncert.nic.in/textbook/pdf/jhks111.pdf
+- Khel Praveen: Physical Education and Well-being 1 | URLError | https://ncert.nic.in/textbook/pdf/iehp101.pdf
+- Hornbill (English Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/kehb103.pdf
 - Biotechnology 1 | URLError | https://ncert.nic.in/textbook/pdf/kebt101.pdf
 - अंतरा भाग 2 (Hindi Elective) 13 | URLError | https://ncert.nic.in/textbook/pdf/lhat113.pdf
-- भास्वती भाग 2 (Sanskrit Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/lhsk105.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep101.pdf
-- Footprints without Feet 1 | URLError | https://ncert.nic.in/textbook/pdf/jefp101.pdf
+- Kshitij Part 2 (Hindi A) 6 | URLError | https://ncert.nic.in/textbook/pdf/jhks106.pdf
+- Kshitij Part 2 (Hindi A) 12 | URLError | https://ncert.nic.in/textbook/pdf/jhks112.pdf
+- Khel Praveen: Physical Education and Well-being 2 | URLError | https://ncert.nic.in/textbook/pdf/iehp102.pdf
+- Hornbill (English Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/kehb104.pdf
 - Biotechnology 2 | URLError | https://ncert.nic.in/textbook/pdf/kebt102.pdf
 - अंतरा भाग 2 (Hindi Elective) 14 | URLError | https://ncert.nic.in/textbook/pdf/lhat114.pdf
-- भास्वती भाग 2 (Sanskrit Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/lhsk106.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep102.pdf
+- Kshitij Part 2 (Hindi A) 7 | URLError | https://ncert.nic.in/textbook/pdf/jhks107.pdf
+- Kshitij Part 2 (Hindi A) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jhks1dd.zip
+- Khel Praveen: Physical Education and Well-being 3 | URLError | https://ncert.nic.in/textbook/pdf/iehp103.pdf
+- Hornbill (English Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/kehb105.pdf
 - Biotechnology 3 | URLError | https://ncert.nic.in/textbook/pdf/kebt103.pdf
 - अंतरा भाग 2 (Hindi Elective) 15 | URLError | https://ncert.nic.in/textbook/pdf/lhat115.pdf
-- भास्वती भाग 2 (Sanskrit Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/lhsk107.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep103.pdf
+- Kritika Part 2 (Hindi A) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jhkr1dd.zip
+- Kshitij Part 2 (Hindi A) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jhks1ps.pdf
+- Khel Praveen: Physical Education and Well-being 4 | URLError | https://ncert.nic.in/textbook/pdf/iehp104.pdf
+- Hornbill (English Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/kehb106.pdf
 - Biotechnology 4 | URLError | https://ncert.nic.in/textbook/pdf/kebt104.pdf
 - अंतरा भाग 2 (Hindi Elective) 16 | URLError | https://ncert.nic.in/textbook/pdf/lhat116.pdf
-- भास्वती भाग 2 (Sanskrit Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/lhsk108.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep104.pdf
+- Kritika Part 2 (Hindi A) लेखक परिचय (author introductions) | URLError | https://ncert.nic.in/textbook/pdf/jhkr1lp.pdf
+- Sparsh Part 2 (Hindi B) 1 | URLError | https://ncert.nic.in/textbook/pdf/jhsp101.pdf
+- Khel Praveen: Physical Education and Well-being 5 | URLError | https://ncert.nic.in/textbook/pdf/iehp105.pdf
+- Hornbill (English Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/kehb111.pdf
 - Biotechnology 5 | URLError | https://ncert.nic.in/textbook/pdf/kebt105.pdf
 - अंतरा भाग 2 (Hindi Elective) 17 | URLError | https://ncert.nic.in/textbook/pdf/lhat117.pdf
-- भास्वती भाग 2 (Sanskrit Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/lhsk109.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep105.pdf
+- Kritika Part 2 (Hindi A) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jhkr1ps.pdf
+- Sparsh Part 2 (Hindi B) 2 | URLError | https://ncert.nic.in/textbook/pdf/jhsp102.pdf
+- Khel Praveen: Physical Education and Well-being 6 | URLError | https://ncert.nic.in/textbook/pdf/iehp106.pdf
+- Hornbill (English Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/kehb112.pdf
 - Biotechnology 6 | URLError | https://ncert.nic.in/textbook/pdf/kebt106.pdf
 - अंतरा भाग 2 (Hindi Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lhat1dd.zip
-- भास्वती भाग 2 (Sanskrit Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/lhsk110.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep106.pdf
+- Kshitij Part 2 (Hindi A) 1 | URLError | https://ncert.nic.in/textbook/pdf/jhks101.pdf
+- Sparsh Part 2 (Hindi B) 3 | URLError | https://ncert.nic.in/textbook/pdf/jhsp103.pdf
+- Khel Praveen: Physical Education and Well-being (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iehp1dd.zip
+- Hornbill (English Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/kehb113.pdf
 - Biotechnology 7 | URLError | https://ncert.nic.in/textbook/pdf/kebt107.pdf
 - अंतरा भाग 2 (Hindi Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lhat1ps.pdf
-- भास्वती भाग 2 (Sanskrit Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lhsk1dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep107.pdf
+- Kshitij Part 2 (Hindi A) 2 | URLError | https://ncert.nic.in/textbook/pdf/jhks102.pdf
+- Sparsh Part 2 (Hindi B) 4 | URLError | https://ncert.nic.in/textbook/pdf/jhsp104.pdf
+- Khel Praveen: Physical Education and Well-being Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iehp1ps.pdf
+- Hornbill (English Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/kehb114.pdf
 - Biotechnology 8 | URLError | https://ncert.nic.in/textbook/pdf/kebt108.pdf
 - अंतराल भाग 2 (Hindi Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/lhan101.pdf
-- भास्वती भाग 2 (Sanskrit Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lhsk1ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep108.pdf
+- Kshitij Part 2 (Hindi A) 3 | URLError | https://ncert.nic.in/textbook/pdf/jhks103.pdf
+- Sparsh Part 2 (Hindi B) 5 | URLError | https://ncert.nic.in/textbook/pdf/jhsp105.pdf
+- Kaushal Vikas: Skill Education 1 | URLError | https://ncert.nic.in/textbook/pdf/iekv101.pdf
+- Hornbill (English Core) 11 | URLError | https://ncert.nic.in/textbook/pdf/kehb115.pdf
 - Biotechnology 9 | URLError | https://ncert.nic.in/textbook/pdf/kebt109.pdf
 - अंतराल भाग 2 (Hindi Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/lhan102.pdf
-- शाश्वती भाग 2 (Sanskrit Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/lhsk201.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep109.pdf
+- Sparsh Part 2 (Hindi B) 6 | URLError | https://ncert.nic.in/textbook/pdf/jhsp106.pdf
+- Kaushal Vikas: Skill Education 2 | URLError | https://ncert.nic.in/textbook/pdf/iekv102.pdf
+- Hornbill (English Core) 12 | URLError | https://ncert.nic.in/textbook/pdf/kehb116.pdf
 - Biotechnology 10 | URLError | https://ncert.nic.in/textbook/pdf/kebt110.pdf
 - अंतराल भाग 2 (Hindi Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/lhan103.pdf
-- शाश्वती भाग 2 (Sanskrit Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/lhsk202.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep110.pdf
+- Sparsh Part 2 (Hindi B) 7 | URLError | https://ncert.nic.in/textbook/pdf/jhsp107.pdf
+- Kaushal Vikas: Skill Education 3 | URLError | https://ncert.nic.in/textbook/pdf/iekv103.pdf
+- Hornbill (English Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kehb1dd.zip
 - Biotechnology 11 | URLError | https://ncert.nic.in/textbook/pdf/kebt111.pdf
 - अंतराल भाग 2 (Hindi Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lhan1dd.zip
-- शाश्वती भाग 2 (Sanskrit Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/lhsk203.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep111.pdf
+- Sparsh Part 2 (Hindi B) 8 | URLError | https://ncert.nic.in/textbook/pdf/jhsp108.pdf
+- Kaushal Vikas: Skill Education 4 | URLError | https://ncert.nic.in/textbook/pdf/iekv104.pdf
+- Hornbill (English Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kehb1ps.pdf
 - Biotechnology 12 | URLError | https://ncert.nic.in/textbook/pdf/kebt112.pdf
+- Footprints without Feet Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jefp1ps.pdf
 - अंतराल भाग 2 (Hindi Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lhan1ps.pdf
-- शाश्वती भाग 2 (Sanskrit Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/lhsk204.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep112.pdf
+- Sparsh Part 2 (Hindi B) 9 | URLError | https://ncert.nic.in/textbook/pdf/jhsp109.pdf
+- Kritika Part 2 (Hindi A) 1 | URLError | https://ncert.nic.in/textbook/pdf/jhkr101.pdf
+- Kaushal Vikas: Skill Education 5 | URLError | https://ncert.nic.in/textbook/pdf/iekv105.pdf
+- Snapshots (English Core, supplementary reader) 1 | URLError | https://ncert.nic.in/textbook/pdf/kesp101.pdf
 - Biotechnology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kebt1dd.zip
 - Accountancy Part I: Partnership Accounts 1 | URLError | https://ncert.nic.in/textbook/pdf/leac101.pdf
-- शाश्वती भाग 2 (Sanskrit Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/lhsk205.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep113.pdf
+- Kritika Part 2 (Hindi A) 2 | URLError | https://ncert.nic.in/textbook/pdf/jhkr102.pdf
+- Sparsh Part 2 (Hindi B) 10 | URLError | https://ncert.nic.in/textbook/pdf/jhsp110.pdf
+- Kaushal Vikas: Skill Education 6 | URLError | https://ncert.nic.in/textbook/pdf/iekv106.pdf
+- Snapshots (English Core, supplementary reader) 2 | URLError | https://ncert.nic.in/textbook/pdf/kesp102.pdf
 - Biotechnology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kebt1ps.pdf
 - Accountancy Part I: Partnership Accounts 2 | URLError | https://ncert.nic.in/textbook/pdf/leac102.pdf
-- शाश्वती भाग 2 (Sanskrit Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/lhsk206.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep114.pdf
+- Kritika Part 2 (Hindi A) 3 | URLError | https://ncert.nic.in/textbook/pdf/jhkr103.pdf
+- Sparsh Part 2 (Hindi B) 11 | URLError | https://ncert.nic.in/textbook/pdf/jhsp111.pdf
+- Kaushal Vikas: Skill Education 7 | URLError | https://ncert.nic.in/textbook/pdf/iekv107.pdf
+- Snapshots (English Core, supplementary reader) 3 | URLError | https://ncert.nic.in/textbook/pdf/kesp103.pdf
 - An Introduction to Indian Art Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/kefa101.pdf
 - Accountancy Part I: Partnership Accounts 3 | URLError | https://ncert.nic.in/textbook/pdf/leac103.pdf
-- शाश्वती भाग 2 (Sanskrit Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/lhsk207.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep115.pdf
+- Footprints without Feet 8 | URLError | https://ncert.nic.in/textbook/pdf/jefp108.pdf
+- Sparsh Part 2 (Hindi B) 12 | URLError | https://ncert.nic.in/textbook/pdf/jhsp112.pdf
+- Kaushal Vikas: Skill Education 8 | URLError | https://ncert.nic.in/textbook/pdf/iekv108.pdf
+- Snapshots (English Core, supplementary reader) 4 | URLError | https://ncert.nic.in/textbook/pdf/kesp104.pdf
 - An Introduction to Indian Art Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/kefa102.pdf
+- Footprints without Feet 9 | URLError | https://ncert.nic.in/textbook/pdf/jefp109.pdf
 - Accountancy Part I: Partnership Accounts 4 | URLError | https://ncert.nic.in/textbook/pdf/leac104.pdf
-- शाश्वती भाग 2 (Sanskrit Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/lhsk208.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep116.pdf
-- Footprints without Feet 2 | URLError | https://ncert.nic.in/textbook/pdf/jefp102.pdf
+- Sparsh Part 2 (Hindi B) 13 | URLError | https://ncert.nic.in/textbook/pdf/jhsp113.pdf
+- Footprints without Feet (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jefp1dd.zip
+- Kaushal Vikas: Skill Education 9 | URLError | https://ncert.nic.in/textbook/pdf/iekv109.pdf
+- Snapshots (English Core, supplementary reader) 5 | URLError | https://ncert.nic.in/textbook/pdf/kesp105.pdf
 - An Introduction to Indian Art Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/kefa103.pdf
 - Accountancy Part I: Partnership Accounts (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leac1dd.zip
-- शाश्वती भाग 2 (Sanskrit Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/lhsk209.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/physics(hindi)/lhep117.pdf
+- Sparsh Part 2 (Hindi B) 14 | URLError | https://ncert.nic.in/textbook/pdf/jhsp114.pdf
+- Kaushal Vikas: Skill Education 10 | URLError | https://ncert.nic.in/textbook/pdf/iekv110.pdf
+- Snapshots (English Core, supplementary reader) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kesp1dd.zip
 - An Introduction to Indian Art Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/kefa104.pdf
 - Accountancy Part I: Partnership Accounts Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leac1ps.pdf
-- शाश्वती भाग 2 (Sanskrit Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/lhsk210.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep401.pdf
+- Sparsh Part 2 (Hindi B) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jhsp1dd.zip
+- Kaushal Vikas: Skill Education 11 | URLError | https://ncert.nic.in/textbook/pdf/iekv111.pdf
+- Snapshots (English Core, supplementary reader) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kesp1ps.pdf
 - An Introduction to Indian Art Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/kefa105.pdf
 - Accountancy Part II: Company Accounts and Analysis of Financial Statements 1 | URLError | https://ncert.nic.in/textbook/pdf/leac201.pdf
-- शाश्वती भाग 2 (Sanskrit Elective) 11 | URLError | https://ncert.nic.in/textbook/pdf/lhsk211.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep402.pdf
+- Sparsh Part 2 (Hindi B) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jhsp1ps.pdf
+- Kaushal Vikas: Skill Education 12 | URLError | https://ncert.nic.in/textbook/pdf/iekv112.pdf
+- Woven Words (English Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/keww101.pdf
 - An Introduction to Indian Art Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/kefa106.pdf
 - Accountancy Part II: Company Accounts and Analysis of Financial Statements 2 | URLError | https://ncert.nic.in/textbook/pdf/leac202.pdf
-- शाश्वती भाग 2 (Sanskrit Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lhsk2dd.zip
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep403.pdf
+- Sanchayan Part 2 (Hindi B) 1 | URLError | https://ncert.nic.in/textbook/pdf/jhsy101.pdf
+- Kaushal Vikas: Skill Education (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iekv1dd.zip
+- Woven Words (English Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/keww102.pdf
 - An Introduction to Indian Art Part I 7 | URLError | https://ncert.nic.in/textbook/pdf/kefa107.pdf
 - Accountancy Part II: Company Accounts and Analysis of Financial Statements 3 | URLError | https://ncert.nic.in/textbook/pdf/leac203.pdf
-- शाश्वती भाग 2 (Sanskrit Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lhsk2ps.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep404.pdf
+- Sanchayan Part 2 (Hindi B) 2 | URLError | https://ncert.nic.in/textbook/pdf/jhsy102.pdf
+- Kaushal Vikas: Skill Education Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iekv1ps.pdf
+- Woven Words (English Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/keww103.pdf
 - An Introduction to Indian Art Part I 8 | URLError | https://ncert.nic.in/textbook/pdf/kefa108.pdf
 - Accountancy Part II: Company Accounts and Analysis of Financial Statements 4 | URLError | https://ncert.nic.in/textbook/pdf/leac204.pdf
-- An Introduction to Indian Art Part II 1 | URLError | https://ncert.nic.in/textbook/pdf/lefa101.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep405.pdf
-- Footprints without Feet 3 | URLError | https://ncert.nic.in/textbook/pdf/jefp103.pdf
+- Footprints without Feet 4 | URLError | https://ncert.nic.in/textbook/pdf/jefp104.pdf
+- Sanchayan Part 2 (Hindi B) 3 | URLError | https://ncert.nic.in/textbook/pdf/jhsy103.pdf
+- शारदा (Sanskrit) 1 | URLError | https://ncert.nic.in/textbook/pdf/ihsh101.pdf
+- Woven Words (English Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/keww104.pdf
 - An Introduction to Indian Art Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kefa1dd.zip
+- Footprints without Feet 5 | URLError | https://ncert.nic.in/textbook/pdf/jefp105.pdf
 - Accountancy Part II: Company Accounts and Analysis of Financial Statements 5 | URLError | https://ncert.nic.in/textbook/pdf/leac205.pdf
-- An Introduction to Indian Art Part II 2 | URLError | https://ncert.nic.in/textbook/pdf/lefa102.pdf
-- Question bank ex 12 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classXII/biology/leep406.pdf
-- Accountancy Part II: Company Accounts and Analysis of Financial Statements 6 | URLError | https://ncert.nic.in/textbook/pdf/leac206.pdf
+- Sanchayan Part 2 (Hindi B) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jhsy1dd.zip
+- Footprints without Feet 6 | URLError | https://ncert.nic.in/textbook/pdf/jefp106.pdf
+- शारदा (Sanskrit) 2 | URLError | https://ncert.nic.in/textbook/pdf/ihsh102.pdf
+- Woven Words (English Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/keww105.pdf
 - An Introduction to Indian Art Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kefa1ps.pdf
-- An Introduction to Indian Art Part II 3 | URLError | https://ncert.nic.in/textbook/pdf/lefa103.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp107.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp108.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp109.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp110.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp111.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp112.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp1a1.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep101.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep102.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep103.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep104.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep105.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep106.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep107.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep108.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep109.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep110.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep111.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep112.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep113.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep114.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep115.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep116.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep117.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep118.pdf
-- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep1an.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep201.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep202.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep203.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep204.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep205.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep206.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep207.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep208.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep209.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep210.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep211.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep212.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep213.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics/heep2an.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep201.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep202.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep203.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep204.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep205.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep206.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep207.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep208.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep209.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep210.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep211.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep212.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep213.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/mathematics(hindi)/hhep2an.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep101.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep102.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep103.pdf
-- First Flight 2 | URLError | https://ncert.nic.in/textbook/pdf/jeff102.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep104.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep105.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep106.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep107.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep108.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep109.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep110.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep111.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep112.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep113.pdf
-- Question bank ex 8 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVIII/science/heep114.pdf
+- Accountancy Part II: Company Accounts and Analysis of Financial Statements 6 | URLError | https://ncert.nic.in/textbook/pdf/leac206.pdf
+- Footprints without Feet 7 | URLError | https://ncert.nic.in/textbook/pdf/jefp107.pdf
+- Sanchayan Part 2 (Hindi B) लेखक परिचय (author introductions) | URLError | https://ncert.nic.in/textbook/pdf/jhsy1lp.pdf
+- शारदा (Sanskrit) 3 | URLError | https://ncert.nic.in/textbook/pdf/ihsh103.pdf
+- Woven Words (English Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/keww106.pdf
+- Human Ecology and Family Sciences Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/kehe101.pdf
+- Accountancy Part II: Company Accounts and Analysis of Financial Statements (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leac2dd.zip
+- Sanchayan Part 2 (Hindi B) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jhsy1ps.pdf
+- शारदा (Sanskrit) 4 | URLError | https://ncert.nic.in/textbook/pdf/ihsh104.pdf
+- Woven Words (English Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/keww107.pdf
+- Human Ecology and Family Sciences Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/kehe102.pdf
+- Accountancy Part II: Company Accounts and Analysis of Financial Statements Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leac2ps.pdf
+- Mathematics 1 | URLError | https://ncert.nic.in/textbook/pdf/jemh101.pdf
+- शारदा (Sanskrit) 5 | URLError | https://ncert.nic.in/textbook/pdf/ihsh105.pdf
+- Woven Words (English Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/keww108.pdf
+- Human Ecology and Family Sciences Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/kehe103.pdf
+- Accountancy: Computerised Accounting System 1 | URLError | https://ncert.nic.in/textbook/pdf/leca101.pdf
+- Mathematics 2 | URLError | https://ncert.nic.in/textbook/pdf/jemh102.pdf
+- शारदा (Sanskrit) 6 | URLError | https://ncert.nic.in/textbook/pdf/ihsh106.pdf
+- Woven Words (English Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/keww111.pdf
+- Human Ecology and Family Sciences Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/kehe104.pdf
+- Accountancy: Computerised Accounting System 2 | URLError | https://ncert.nic.in/textbook/pdf/leca102.pdf
+- First Flight (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jeff1dd.zip
+- Mathematics 3 | URLError | https://ncert.nic.in/textbook/pdf/jemh103.pdf
+- शारदा (Sanskrit) 7 | URLError | https://ncert.nic.in/textbook/pdf/ihsh107.pdf
+- Woven Words (English Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/keww112.pdf
+- Human Ecology and Family Sciences Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/kehe105.pdf
+- First Flight Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jeff1ps.pdf
+- Accountancy: Computerised Accounting System 3 | URLError | https://ncert.nic.in/textbook/pdf/leca103.pdf
 - Mathematics 4 | URLError | https://ncert.nic.in/textbook/pdf/jemh104.pdf
+- Footprints without Feet 1 | URLError | https://ncert.nic.in/textbook/pdf/jefp101.pdf
 - शारदा (Sanskrit) 8 | URLError | https://ncert.nic.in/textbook/pdf/ihsh108.pdf
-- Indian Constitution at Work 1 | URLError | https://ncert.nic.in/textbook/pdf/keps201.pdf
+- Woven Words (English Elective) 11 | URLError | https://ncert.nic.in/textbook/pdf/keww113.pdf
+- Human Ecology and Family Sciences Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/kehe106.pdf
+- Accountancy: Computerised Accounting System 4 | URLError | https://ncert.nic.in/textbook/pdf/leca104.pdf
+- Footprints without Feet 2 | URLError | https://ncert.nic.in/textbook/pdf/jefp102.pdf
 - Mathematics 5 | URLError | https://ncert.nic.in/textbook/pdf/jemh105.pdf
 - शारदा (Sanskrit) 9 | URLError | https://ncert.nic.in/textbook/pdf/ihsh109.pdf
-- Indian Constitution at Work 2 | URLError | https://ncert.nic.in/textbook/pdf/keps202.pdf
+- Woven Words (English Elective) 12 | URLError | https://ncert.nic.in/textbook/pdf/keww114.pdf
+- Human Ecology and Family Sciences Part I 7 | URLError | https://ncert.nic.in/textbook/pdf/kehe107.pdf
+- Accountancy: Computerised Accounting System (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leca1dd.zip
+- Footprints without Feet 3 | URLError | https://ncert.nic.in/textbook/pdf/jefp103.pdf
 - Mathematics 6 | URLError | https://ncert.nic.in/textbook/pdf/jemh106.pdf
 - शारदा (Sanskrit) 10 | URLError | https://ncert.nic.in/textbook/pdf/ihsh110.pdf
-- Indian Constitution at Work 3 | URLError | https://ncert.nic.in/textbook/pdf/keps203.pdf
+- Woven Words (English Elective) 13 | URLError | https://ncert.nic.in/textbook/pdf/keww115.pdf
+- Human Ecology and Family Sciences Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kehe1dd.zip
+- Accountancy: Computerised Accounting System Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leca1ps.pdf
 - Mathematics 7 | URLError | https://ncert.nic.in/textbook/pdf/jemh107.pdf
 - शारदा (Sanskrit) 11 | URLError | https://ncert.nic.in/textbook/pdf/ihsh111.pdf
-- Indian Constitution at Work 4 | URLError | https://ncert.nic.in/textbook/pdf/keps204.pdf
+- Woven Words (English Elective) 14 | URLError | https://ncert.nic.in/textbook/pdf/keww116.pdf
+- Human Ecology and Family Sciences Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kehe1ps.pdf
+- Business Studies Part I: Principles and Functions of Management 1 | URLError | https://ncert.nic.in/textbook/pdf/lebs101.pdf
 - Mathematics 8 | URLError | https://ncert.nic.in/textbook/pdf/jemh108.pdf
 - शारदा (Sanskrit) 12 | URLError | https://ncert.nic.in/textbook/pdf/ihsh112.pdf
-- Indian Constitution at Work 5 | URLError | https://ncert.nic.in/textbook/pdf/keps205.pdf
+- Woven Words (English Elective) 15 | URLError | https://ncert.nic.in/textbook/pdf/keww117.pdf
+- Human Ecology and Family Sciences Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/kehe201.pdf
+- Business Studies Part I: Principles and Functions of Management 2 | URLError | https://ncert.nic.in/textbook/pdf/lebs102.pdf
 - Mathematics 9 | URLError | https://ncert.nic.in/textbook/pdf/jemh109.pdf
 - शारदा (Sanskrit) 13 | URLError | https://ncert.nic.in/textbook/pdf/ihsh113.pdf
-- Indian Constitution at Work 6 | URLError | https://ncert.nic.in/textbook/pdf/keps206.pdf
+- Woven Words (English Elective) 16 | URLError | https://ncert.nic.in/textbook/pdf/keww118.pdf
+- Human Ecology and Family Sciences Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/kehe202.pdf
+- Business Studies Part I: Principles and Functions of Management 3 | URLError | https://ncert.nic.in/textbook/pdf/lebs103.pdf
 - Mathematics 10 | URLError | https://ncert.nic.in/textbook/pdf/jemh110.pdf
 - शारदा (Sanskrit) 14 | URLError | https://ncert.nic.in/textbook/pdf/ihsh114.pdf
-- Indian Constitution at Work 7 | URLError | https://ncert.nic.in/textbook/pdf/keps207.pdf
+- Woven Words (English Elective) 17 | URLError | https://ncert.nic.in/textbook/pdf/keww119.pdf
+- Human Ecology and Family Sciences Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/kehe203.pdf
+- Business Studies Part I: Principles and Functions of Management 4 | URLError | https://ncert.nic.in/textbook/pdf/lebs104.pdf
 - Mathematics 11 | URLError | https://ncert.nic.in/textbook/pdf/jemh111.pdf
 - शारदा (Sanskrit) 15 | URLError | https://ncert.nic.in/textbook/pdf/ihsh115.pdf
-- Indian Constitution at Work 8 | URLError | https://ncert.nic.in/textbook/pdf/keps208.pdf
+- Woven Words (English Elective) 18 | URLError | https://ncert.nic.in/textbook/pdf/keww120.pdf
+- Human Ecology and Family Sciences Part II 11 | URLError | https://ncert.nic.in/textbook/pdf/kehe204.pdf
+- Business Studies Part I: Principles and Functions of Management 5 | URLError | https://ncert.nic.in/textbook/pdf/lebs105.pdf
 - Mathematics 12 | URLError | https://ncert.nic.in/textbook/pdf/jemh112.pdf
 - शारदा (Sanskrit) 16 | URLError | https://ncert.nic.in/textbook/pdf/ihsh116.pdf
-- Indian Constitution at Work 9 | URLError | https://ncert.nic.in/textbook/pdf/keps209.pdf
+- Woven Words (English Elective) 19 | URLError | https://ncert.nic.in/textbook/pdf/keww121.pdf
+- Human Ecology and Family Sciences Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kehe2dd.zip
+- Business Studies Part I: Principles and Functions of Management 6 | URLError | https://ncert.nic.in/textbook/pdf/lebs106.pdf
 - Mathematics 13 | URLError | https://ncert.nic.in/textbook/pdf/jemh113.pdf
 - शारदा (Sanskrit) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/ihsh1dd.zip
-- Indian Constitution at Work 10 | URLError | https://ncert.nic.in/textbook/pdf/keps210.pdf
+- Woven Words (English Elective) 20 | URLError | https://ncert.nic.in/textbook/pdf/keww122.pdf
+- Human Ecology and Family Sciences Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kehe2ps.pdf
+- Business Studies Part I: Principles and Functions of Management 7 | URLError | https://ncert.nic.in/textbook/pdf/lebs107.pdf
 - Mathematics 14 | URLError | https://ncert.nic.in/textbook/pdf/jemh114.pdf
 - शारदा (Sanskrit) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/ihsh1ps.pdf
-- Indian Constitution at Work (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keps2dd.zip
+- Woven Words (English Elective) 21 | URLError | https://ncert.nic.in/textbook/pdf/keww131.pdf
+- Knowledge Traditions and Practices of India 1 | URLError | https://ncert.nic.in/textbook/pdf/keks101.pdf
+- Business Studies Part I: Principles and Functions of Management 8 | URLError | https://ncert.nic.in/textbook/pdf/lebs108.pdf
 - Mathematics (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jemh1dd.zip
+- First Flight 8 | URLError | https://ncert.nic.in/textbook/pdf/jeff108.pdf
 - Jamuna (Urdu) 1 | URLError | https://ncert.nic.in/textbook/pdf/iuju101.pdf
-- Indian Constitution at Work Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keps2ps.pdf
+- Woven Words (English Elective) 22 | URLError | https://ncert.nic.in/textbook/pdf/keww132.pdf
+- Knowledge Traditions and Practices of India 2 | URLError | https://ncert.nic.in/textbook/pdf/keks102.pdf
+- Business Studies Part I: Principles and Functions of Management (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lebs1dd.zip
 - Mathematics Appendix A1: Proofs in Mathematics | URLError | https://ncert.nic.in/textbook/pdf/jemh1a1.pdf
 - Jamuna (Urdu) 2 | URLError | https://ncert.nic.in/textbook/pdf/iuju102.pdf
-- Introducing Sociology 1 | URLError | https://ncert.nic.in/textbook/pdf/kesy101.pdf
+- Woven Words (English Elective) 23 | URLError | https://ncert.nic.in/textbook/pdf/keww133.pdf
+- Knowledge Traditions and Practices of India 3 | URLError | https://ncert.nic.in/textbook/pdf/keks103.pdf
+- Business Studies Part I: Principles and Functions of Management Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lebs1ps.pdf
+- First Flight 9 | URLError | https://ncert.nic.in/textbook/pdf/jeff109.pdf
 - Mathematics Appendix A2: Mathematical Modelling | URLError | https://ncert.nic.in/textbook/pdf/jemh1a2.pdf
 - Jamuna (Urdu) 3 | URLError | https://ncert.nic.in/textbook/pdf/iuju103.pdf
-- Introducing Sociology 2 | URLError | https://ncert.nic.in/textbook/pdf/kesy102.pdf
+- Woven Words (English Elective) 24 | URLError | https://ncert.nic.in/textbook/pdf/keww134.pdf
+- Knowledge Traditions and Practices of India 4 | URLError | https://ncert.nic.in/textbook/pdf/keks104.pdf
+- Business Studies Part II: Business Finance and Marketing 1 | URLError | https://ncert.nic.in/textbook/pdf/lebs201.pdf
 - Mathematics Answers and hints | URLError | https://ncert.nic.in/textbook/pdf/jemh1an.pdf
 - Jamuna (Urdu) 4 | URLError | https://ncert.nic.in/textbook/pdf/iuju104.pdf
-- Introducing Sociology 3 | URLError | https://ncert.nic.in/textbook/pdf/kesy103.pdf
+- Woven Words (English Elective) 25 | URLError | https://ncert.nic.in/textbook/pdf/keww135.pdf
+- Knowledge Traditions and Practices of India 5 | URLError | https://ncert.nic.in/textbook/pdf/keks105.pdf
+- Business Studies Part II: Business Finance and Marketing 2 | URLError | https://ncert.nic.in/textbook/pdf/lebs202.pdf
 - Mathematics Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jemh1ps.pdf
 - Jamuna (Urdu) 5 | URLError | https://ncert.nic.in/textbook/pdf/iuju105.pdf
-- Introducing Sociology 4 | URLError | https://ncert.nic.in/textbook/pdf/kesy104.pdf
+- Woven Words (English Elective) 26 | URLError | https://ncert.nic.in/textbook/pdf/keww136.pdf
+- Knowledge Traditions and Practices of India 6 | URLError | https://ncert.nic.in/textbook/pdf/keks106.pdf
+- Business Studies Part II: Business Finance and Marketing 3 | URLError | https://ncert.nic.in/textbook/pdf/lebs203.pdf
 - Health and Physical Education 1 | URLError | https://ncert.nic.in/textbook/pdf/jehp101.pdf
 - Jamuna (Urdu) 6 | URLError | https://ncert.nic.in/textbook/pdf/iuju106.pdf
-- Introducing Sociology 5 | URLError | https://ncert.nic.in/textbook/pdf/kesy105.pdf
+- Woven Words (English Elective) 27 | URLError | https://ncert.nic.in/textbook/pdf/keww137.pdf
+- Knowledge Traditions and Practices of India 7 | URLError | https://ncert.nic.in/textbook/pdf/keks107.pdf
+- Business Studies Part II: Business Finance and Marketing (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lebs2dd.zip
 - Health and Physical Education 2 | URLError | https://ncert.nic.in/textbook/pdf/jehp102.pdf
 - Jamuna (Urdu) 7 | URLError | https://ncert.nic.in/textbook/pdf/iuju107.pdf
-- Introducing Sociology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kesy1dd.zip
+- Woven Words (English Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keww1dd.zip
+- Knowledge Traditions and Practices of India 8 | URLError | https://ncert.nic.in/textbook/pdf/keks108.pdf
+- Business Studies Part II: Business Finance and Marketing Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lebs2ps.pdf
+- First Flight 7 | URLError | https://ncert.nic.in/textbook/pdf/jeff107.pdf
 - Health and Physical Education 3 | URLError | https://ncert.nic.in/textbook/pdf/jehp103.pdf
 - Jamuna (Urdu) 8 | URLError | https://ncert.nic.in/textbook/pdf/iuju108.pdf
-- Introducing Sociology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kesy1ps.pdf
+- Woven Words (English Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keww1ps.pdf
+- Knowledge Traditions and Practices of India 9 | URLError | https://ncert.nic.in/textbook/pdf/keks109.pdf
+- Introductory Macroeconomics 1 | URLError | https://ncert.nic.in/textbook/pdf/leec101.pdf
 - Health and Physical Education 4 | URLError | https://ncert.nic.in/textbook/pdf/jehp104.pdf
 - Jamuna (Urdu) 9 | URLError | https://ncert.nic.in/textbook/pdf/iuju109.pdf
-- Understanding Society 1 | URLError | https://ncert.nic.in/textbook/pdf/kesy201.pdf
+- आरोह भाग 1 (Hindi Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/khar101.pdf
+- Knowledge Traditions and Practices of India (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keks1dd.zip
+- Introductory Macroeconomics 2 | URLError | https://ncert.nic.in/textbook/pdf/leec102.pdf
 - Health and Physical Education 5 | URLError | https://ncert.nic.in/textbook/pdf/jehp105.pdf
 - Jamuna (Urdu) 10 | URLError | https://ncert.nic.in/textbook/pdf/iuju110.pdf
-- Understanding Society 2 | URLError | https://ncert.nic.in/textbook/pdf/kesy202.pdf
+- आरोह भाग 1 (Hindi Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/khar102.pdf
+- Knowledge Traditions and Practices of India Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keks1ps.pdf
+- Introductory Macroeconomics 3 | URLError | https://ncert.nic.in/textbook/pdf/leec103.pdf
 - Health and Physical Education 6 | URLError | https://ncert.nic.in/textbook/pdf/jehp106..pdf
 - Jamuna (Urdu) 11 | URLError | https://ncert.nic.in/textbook/pdf/iuju111.pdf
-- Understanding Society 3 | URLError | https://ncert.nic.in/textbook/pdf/kesy203.pdf
+- आरोह भाग 1 (Hindi Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/khar103.pdf
+- Physics Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/leph101.pdf
+- Introductory Macroeconomics 4 | URLError | https://ncert.nic.in/textbook/pdf/leec104.pdf
 - Health and Physical Education 7 | URLError | https://ncert.nic.in/textbook/pdf/jehp107.pdf
 - Jamuna (Urdu) 12 | URLError | https://ncert.nic.in/textbook/pdf/iuju112.pdf
-- Understanding Society 4 | URLError | https://ncert.nic.in/textbook/pdf/kesy204.pdf
+- आरोह भाग 1 (Hindi Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/khar104.pdf
+- Physics Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/leph102.pdf
+- Introductory Macroeconomics 5 | URLError | https://ncert.nic.in/textbook/pdf/leec105.pdf
 - Health and Physical Education 8 | URLError | https://ncert.nic.in/textbook/pdf/jehp108..pdf
 - Jamuna (Urdu) 13 | URLError | https://ncert.nic.in/textbook/pdf/iuju113.pdf
-- Understanding Society 5 | URLError | https://ncert.nic.in/textbook/pdf/kesy205.pdf
+- आरोह भाग 1 (Hindi Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/khar105.pdf
+- Physics Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/leph103.pdf
+- Introductory Macroeconomics 6 | URLError | https://ncert.nic.in/textbook/pdf/leec106.pdf
 - Health and Physical Education 9 | URLError | https://ncert.nic.in/textbook/pdf/jehp109.pdf
 - Jamuna (Urdu) 14 | URLError | https://ncert.nic.in/textbook/pdf/iuju114.pdf
-- Understanding Society (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kesy2dd.zip
+- आरोह भाग 1 (Hindi Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/khar106.pdf
+- Physics Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/leph104.pdf
+- Introductory Macroeconomics (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leec1dd.zip
 - Health and Physical Education 10 | URLError | https://ncert.nic.in/textbook/pdf/jehp110.pdf
 - Jamuna (Urdu) 15 | URLError | https://ncert.nic.in/textbook/pdf/iuju115.pdf
-- Understanding Society Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kesy2ps.pdf
+- आरोह भाग 1 (Hindi Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/khar107.pdf
+- Physics Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/leph105.pdf
+- Introductory Macroeconomics Glossary | URLError | https://ncert.nic.in/textbook/pdf/leec1gl.pdf
 - Health and Physical Education 11 | URLError | https://ncert.nic.in/textbook/pdf/jehp111.pdf
 - Jamuna (Urdu) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iuju1dd.zip
-- Psychology 1 | URLError | https://ncert.nic.in/textbook/pdf/kepy101.pdf
+- आरोह भाग 1 (Hindi Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/khar108.pdf
+- Physics Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/leph106.pdf
+- Introductory Macroeconomics Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leec1ps.pdf
 - Health and Physical Education 12 | URLError | https://ncert.nic.in/textbook/pdf/jehp112.pdf
 - Jamuna (Urdu) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iuju1ps.pdf
-- Psychology 2 | URLError | https://ncert.nic.in/textbook/pdf/kepy102.pdf
+- आरोह भाग 1 (Hindi Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/khar109.pdf
+- Physics Part I 7 | URLError | https://ncert.nic.in/textbook/pdf/leph107.pdf
+- Introductory Microeconomics 1 | URLError | https://ncert.nic.in/textbook/pdf/leec201.pdf
 - Health and Physical Education 13 | URLError | https://ncert.nic.in/textbook/pdf/jehp113..pdf
 - Physics Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/keph101.pdf
-- Psychology 3 | URLError | https://ncert.nic.in/textbook/pdf/kepy103.pdf
+- आरोह भाग 1 (Hindi Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/khar110.pdf
+- Physics Part I 8 | URLError | https://ncert.nic.in/textbook/pdf/leph108.pdf
+- Introductory Microeconomics 2 | URLError | https://ncert.nic.in/textbook/pdf/leec202.pdf
 - Health and Physical Education (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jehp1dd.zip
 - Physics Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/keph102.pdf
-- Psychology 4 | URLError | https://ncert.nic.in/textbook/pdf/kepy104.pdf
+- आरोह भाग 1 (Hindi Core) 11 | URLError | https://ncert.nic.in/textbook/pdf/khar111.pdf
+- Physics Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leph1dd.zip
+- Introductory Microeconomics 3 | URLError | https://ncert.nic.in/textbook/pdf/leec203.pdf
 - Health and Physical Education Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jehp1ps.pdf
 - Physics Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/keph103.pdf
-- Psychology 5 | URLError | https://ncert.nic.in/textbook/pdf/kepy105.pdf
+- आरोह भाग 1 (Hindi Core) 12 | URLError | https://ncert.nic.in/textbook/pdf/khar112.pdf
+- Physics Part I Answers | URLError | https://ncert.nic.in/textbook/pdf/leph1an.pdf
+- Introductory Microeconomics 4 | URLError | https://ncert.nic.in/textbook/pdf/leec204.pdf
+- First Flight 6 | URLError | https://ncert.nic.in/textbook/pdf/jeff106.pdf
 - Shemushi Part 2 (Sanskrit) 1 | URLError | https://ncert.nic.in/textbook/pdf/jhsk101.pdf
 - Physics Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/keph104.pdf
-- Psychology 6 | URLError | https://ncert.nic.in/textbook/pdf/kepy106.pdf
+- आरोह भाग 1 (Hindi Core) 13 | URLError | https://ncert.nic.in/textbook/pdf/khar113.pdf
+- Physics Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leph1ps.pdf
+- Introductory Microeconomics 5 | URLError | https://ncert.nic.in/textbook/pdf/leec205.pdf
 - Shemushi Part 2 (Sanskrit) 2 | URLError | https://ncert.nic.in/textbook/pdf/jhsk102.pdf
 - Physics Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/keph105.pdf
-- Psychology 7 | URLError | https://ncert.nic.in/textbook/pdf/kepy107.pdf
+- आरोह भाग 1 (Hindi Core) 14 | URLError | https://ncert.nic.in/textbook/pdf/khar114.pdf
+- Physics Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/leph201.pdf
+- Introductory Microeconomics (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leec2dd.zip
 - Shemushi Part 2 (Sanskrit) 3 | URLError | https://ncert.nic.in/textbook/pdf/jhsk103.pdf
 - Physics Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/keph106.pdf
-- Psychology 8 | URLError | https://ncert.nic.in/textbook/pdf/kepy108.pdf
+- आरोह भाग 1 (Hindi Core) 15 | URLError | https://ncert.nic.in/textbook/pdf/khar115.pdf
+- Physics Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/leph202.pdf
+- Introductory Microeconomics Glossary | URLError | https://ncert.nic.in/textbook/pdf/leec2gl.pdf
 - Shemushi Part 2 (Sanskrit) 4 | URLError | https://ncert.nic.in/textbook/pdf/jhsk104.pdf
 - Physics Part I 7 | URLError | https://ncert.nic.in/textbook/pdf/keph107.pdf
-- Psychology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kepy1dd.zip
+- आरोह भाग 1 (Hindi Core) 16 | URLError | https://ncert.nic.in/textbook/pdf/khar116.pdf
+- Physics Part II 11 | URLError | https://ncert.nic.in/textbook/pdf/leph203.pdf
+- Introductory Microeconomics Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leec2ps.pdf
 - Shemushi Part 2 (Sanskrit) 5 | URLError | https://ncert.nic.in/textbook/pdf/jhsk105.pdf
 - Physics Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keph1dd.zip
-- Psychology Glossary | URLError | https://ncert.nic.in/textbook/pdf/kepy1gl.pdf
+- आरोह भाग 1 (Hindi Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khar1dd.zip
+- Physics Part II 12 | URLError | https://ncert.nic.in/textbook/pdf/leph204.pdf
+- Themes in Indian History Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/lehs101.pdf
 - Shemushi Part 2 (Sanskrit) 6 | URLError | https://ncert.nic.in/textbook/pdf/jhsk106.pdf
 - Physics Part I Answers | URLError | https://ncert.nic.in/textbook/pdf/keph1an.pdf
+- आरोह भाग 1 (Hindi Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khar1ps.pdf
+- Physics Part II 13 | URLError | https://ncert.nic.in/textbook/pdf/leph205.pdf
+- First Flight 5 | URLError | https://ncert.nic.in/textbook/pdf/jeff105.pdf
+- Themes in Indian History Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/lehs102.pdf
+- Nawa-e-Urdu 10 | URLError | https://ncert.nic.in/textbook/pdf/june110.pdf
+- Physics Part I Appendices | URLError | https://ncert.nic.in/textbook/pdf/keph1a1.pdf
+- भास्वती भाग 2 (Sanskrit Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/lhsk103.pdf
+- Nawa-e-Urdu 11 | URLError | https://ncert.nic.in/textbook/pdf/june111.pdf
+- Physics Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keph1ps.pdf
+- भास्वती भाग 2 (Sanskrit Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/lhsk104.pdf
+- Nawa-e-Urdu 12 | URLError | https://ncert.nic.in/textbook/pdf/june112.pdf
+- Physics Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/keph201.pdf
+- भास्वती भाग 2 (Sanskrit Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/lhsk105.pdf
+- Nawa-e-Urdu 13 | URLError | https://ncert.nic.in/textbook/pdf/june113.pdf
+- Physics Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/keph202.pdf
+- भास्वती भाग 2 (Sanskrit Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/lhsk106.pdf
+- Nawa-e-Urdu 14 | URLError | https://ncert.nic.in/textbook/pdf/june114.pdf
+- Physics Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/keph203.pdf
+- भास्वती भाग 2 (Sanskrit Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/lhsk107.pdf
+- Nawa-e-Urdu (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/june1dd.zip
+- Physics Part II 11 | URLError | https://ncert.nic.in/textbook/pdf/keph204.pdf
+- भास्वती भाग 2 (Sanskrit Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/lhsk108.pdf
+- Nawa-e-Urdu Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/june1ps.pdf
+- Physics Part II 12 | URLError | https://ncert.nic.in/textbook/pdf/keph205.pdf
+- भास्वती भाग 2 (Sanskrit Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/lhsk109.pdf
+- Sab Rang 1 | URLError | https://ncert.nic.in/textbook/pdf/jusr101.pdf
+- Physics Part II 13 | URLError | https://ncert.nic.in/textbook/pdf/keph206.pdf
+- भास्वती भाग 2 (Sanskrit Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/lhsk110.pdf
+- Sab Rang 2 | URLError | https://ncert.nic.in/textbook/pdf/jusr102.pdf
+- Physics Part II 14 | URLError | https://ncert.nic.in/textbook/pdf/keph207.pdf
+- भास्वती भाग 2 (Sanskrit Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lhsk1dd.zip
+- Sab Rang 3 | URLError | https://ncert.nic.in/textbook/pdf/jusr103.pdf
+- Physics Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keph2dd.zip
+- भास्वती भाग 2 (Sanskrit Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lhsk1ps.pdf
+- Sab Rang 4 | URLError | https://ncert.nic.in/textbook/pdf/jusr104.pdf
+- Physics Part II Answers | URLError | https://ncert.nic.in/textbook/pdf/keph2an.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/lhsk201.pdf
+- Sab Rang 5 | URLError | https://ncert.nic.in/textbook/pdf/jusr105.pdf
+- Physics Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keph2ps.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/lhsk202.pdf
+- Sab Rang 6 | URLError | https://ncert.nic.in/textbook/pdf/jusr106.pdf
+- Chemistry Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/kech101.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/lhsk203.pdf
+- Sab Rang 7 | URLError | https://ncert.nic.in/textbook/pdf/jusr107.pdf
+- Chemistry Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/kech102.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/lhsk204.pdf
+- Sab Rang 8 | URLError | https://ncert.nic.in/textbook/pdf/jusr108.pdf
+- Chemistry Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/kech103.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/lhsk205.pdf
+- Sab Rang 9 | URLError | https://ncert.nic.in/textbook/pdf/jusr109.pdf
+- Chemistry Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/kech104.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/lhsk206.pdf
+- Sab Rang (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jusr1dd.zip
+- Chemistry Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/kech105.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/lhsk207.pdf
+- Sab Rang Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jusr1ps.pdf
+- Chemistry Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/kech106.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/lhsk208.pdf
+- Urdu grammar and composition 1 | URLError | https://ncert.nic.in/textbook/pdf/juuq101.pdf
+- Chemistry Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kech1dd.zip
+- शाश्वती भाग 2 (Sanskrit Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/lhsk209.pdf
+- Urdu grammar and composition 2 | URLError | https://ncert.nic.in/textbook/pdf/juuq102.pdf
+- Chemistry Part I Answers | URLError | https://ncert.nic.in/textbook/pdf/kech1an.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/lhsk210.pdf
+- Urdu grammar and composition 3 | URLError | https://ncert.nic.in/textbook/pdf/juuq103.pdf
+- Chemistry Part I Appendix | URLError | https://ncert.nic.in/textbook/pdf/kech1a1.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) 11 | URLError | https://ncert.nic.in/textbook/pdf/lhsk211.pdf
+- Urdu grammar and composition 4 | URLError | https://ncert.nic.in/textbook/pdf/juuq104.pdf
+- Chemistry Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kech1ps.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lhsk2dd.zip
+- Urdu grammar and composition 5 | URLError | https://ncert.nic.in/textbook/pdf/juuq105.pdf
+- Chemistry Part II 7 | URLError | https://ncert.nic.in/textbook/pdf/kech201.pdf
+- शाश्वती भाग 2 (Sanskrit Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lhsk2ps.pdf
+- Urdu grammar and composition 6 | URLError | https://ncert.nic.in/textbook/pdf/juuq106.pdf
+- Chemistry Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/kech202.pdf
+- An Introduction to Indian Art Part II 1 | URLError | https://ncert.nic.in/textbook/pdf/lefa101.pdf
+- Urdu grammar and composition 7 | URLError | https://ncert.nic.in/textbook/pdf/juuq107.pdf
+- Chemistry Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/kech203.pdf
+- An Introduction to Indian Art Part II 2 | URLError | https://ncert.nic.in/textbook/pdf/lefa102.pdf
+- Urdu grammar and composition 8 | URLError | https://ncert.nic.in/textbook/pdf/juuq108.pdf
+- Chemistry Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kech2dd.zip
+- An Introduction to Indian Art Part II 3 | URLError | https://ncert.nic.in/textbook/pdf/lefa103.pdf
+- Urdu grammar and composition 9 | URLError | https://ncert.nic.in/textbook/pdf/juuq109.pdf
+- Chemistry Part II Answers | URLError | https://ncert.nic.in/textbook/pdf/kech2an.pdf
+- An Introduction to Indian Art Part II 4 | URLError | https://ncert.nic.in/textbook/pdf/lefa104.pdf
+- Urdu grammar and composition 10 | URLError | https://ncert.nic.in/textbook/pdf/juuq110.pdf
+- Chemistry Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kech2ps.pdf
+- An Introduction to Indian Art Part II 5 | URLError | https://ncert.nic.in/textbook/pdf/lefa105.pdf
+- Urdu grammar and composition 11 | URLError | https://ncert.nic.in/textbook/pdf/juuq111.pdf
+- Mathematics 1 | URLError | https://ncert.nic.in/textbook/pdf/kemh101.pdf
+- An Introduction to Indian Art Part II 6 | URLError | https://ncert.nic.in/textbook/pdf/lefa106.pdf
+- Urdu grammar and composition 12 | URLError | https://ncert.nic.in/textbook/pdf/juuq112.pdf
+- Mathematics 2 | URLError | https://ncert.nic.in/textbook/pdf/kemh102.pdf
+- An Introduction to Indian Art Part II 7 | URLError | https://ncert.nic.in/textbook/pdf/lefa107.pdf
+- Urdu grammar and composition 13 | URLError | https://ncert.nic.in/textbook/pdf/juuq113.pdf
+- Mathematics 3 | URLError | https://ncert.nic.in/textbook/pdf/kemh103.pdf
+- An Introduction to Indian Art Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/lefa108.pdf
+- Urdu grammar and composition 14 | URLError | https://ncert.nic.in/textbook/pdf/juuq114.pdf
+- Mathematics 4 | URLError | https://ncert.nic.in/textbook/pdf/kemh104.pdf
+- An Introduction to Indian Art Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lefa1dd.zip
+- Urdu grammar and composition 15 | URLError | https://ncert.nic.in/textbook/pdf/juuq115.pdf
+- Mathematics 5 | URLError | https://ncert.nic.in/textbook/pdf/kemh105.pdf
+- An Introduction to Indian Art Part II Glossary | URLError | https://ncert.nic.in/textbook/pdf/lefa1gl.pdf
+- Urdu grammar and composition 16 | URLError | https://ncert.nic.in/textbook/pdf/juuq116.pdf
+- Mathematics 6 | URLError | https://ncert.nic.in/textbook/pdf/kemh106.pdf
+- An Introduction to Indian Art Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lefa1ps.pdf
+- Urdu grammar and composition 17 | URLError | https://ncert.nic.in/textbook/pdf/juuq117.pdf
+- Mathematics 7 | URLError | https://ncert.nic.in/textbook/pdf/kemh107.pdf
+- Human Ecology and Family Sciences Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/lehe101.pdf
+- Urdu grammar and composition 18 | URLError | https://ncert.nic.in/textbook/pdf/juuq118.pdf
+- Mathematics 8 | URLError | https://ncert.nic.in/textbook/pdf/kemh108.pdf
+- Human Ecology and Family Sciences Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/lehe102.pdf
+- Urdu grammar and composition 19 | URLError | https://ncert.nic.in/textbook/pdf/juuq119.pdf
+- Mathematics 9 | URLError | https://ncert.nic.in/textbook/pdf/kemh109.pdf
+- Human Ecology and Family Sciences Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/lehe103.pdf
+- Urdu grammar and composition 20 | URLError | https://ncert.nic.in/textbook/pdf/juuq120.pdf
+- Mathematics 10 | URLError | https://ncert.nic.in/textbook/pdf/kemh110.pdf
+- Human Ecology and Family Sciences Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/lehe104.pdf
+- Urdu grammar and composition 21 | URLError | https://ncert.nic.in/textbook/pdf/juuq121.pdf
+- Mathematics 11 | URLError | https://ncert.nic.in/textbook/pdf/kemh111.pdf
+- Human Ecology and Family Sciences Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/lehe105.pdf
+- Urdu grammar and composition 22 | URLError | https://ncert.nic.in/textbook/pdf/juuq122.pdf
+- Mathematics 12 | URLError | https://ncert.nic.in/textbook/pdf/kemh112.pdf
+- Human Ecology and Family Sciences Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/lehe106.pdf
+- Urdu grammar and composition (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/juuq1dd.zip
+- Mathematics 13 | URLError | https://ncert.nic.in/textbook/pdf/kemh113.pdf
+- Human Ecology and Family Sciences Part I 7 | URLError | https://ncert.nic.in/textbook/pdf/lehe107.pdf
+- Urdu grammar and composition Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/juuq1ps.pdf
+- Mathematics 14 | URLError | https://ncert.nic.in/textbook/pdf/kemh114.pdf
+- Human Ecology and Family Sciences Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lehe1dd.zip
+- Kaveri (English) 1 | URLError | https://ncert.nic.in/textbook/pdf/iebe101.pdf
+- Mathematics (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kemh1dd.zip
+- Human Ecology and Family Sciences Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lehe1ps.pdf
+- Kaveri (English) 2 | URLError | https://ncert.nic.in/textbook/pdf/iebe102.pdf
+- Mathematics Answers | URLError | https://ncert.nic.in/textbook/pdf/kemh1an.pdf
+- Human Ecology and Family Sciences Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/lehe201.pdf
+- Kaveri (English) 3 | URLError | https://ncert.nic.in/textbook/pdf/iebe103.pdf
+- Mathematics Appendix 1: Infinite Series | URLError | https://ncert.nic.in/textbook/pdf/kemh1a1.pdf
+- Human Ecology and Family Sciences Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/lehe202.pdf
+- Kaveri (English) 4 | URLError | https://ncert.nic.in/textbook/pdf/iebe104.pdf
+- Mathematics Appendix 2: Mathematical Modelling | URLError | https://ncert.nic.in/textbook/pdf/kemh1a2.pdf
+- Human Ecology and Family Sciences Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/lehe203.pdf
+- Kaveri (English) 5 | URLError | https://ncert.nic.in/textbook/pdf/iebe105.pdf
+- Mathematics Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kemh1ps.pdf
+- Human Ecology and Family Sciences Part II 11 | URLError | https://ncert.nic.in/textbook/pdf/lehe204.pdf
+- Kaveri (English) 6 | URLError | https://ncert.nic.in/textbook/pdf/iebe106.pdf
+- Biology 1 | URLError | https://ncert.nic.in/textbook/pdf/kebo101.pdf
+- Human Ecology and Family Sciences Part II 12 | URLError | https://ncert.nic.in/textbook/pdf/lehe205.pdf
+- Kaveri (English) 7 | URLError | https://ncert.nic.in/textbook/pdf/iebe107.pdf
+- Biology 2 | URLError | https://ncert.nic.in/textbook/pdf/kebo102.pdf
+- Human Ecology and Family Sciences Part II 13 | URLError | https://ncert.nic.in/textbook/pdf/lehe206.pdf
+- Kaveri (English) 8 | URLError | https://ncert.nic.in/textbook/pdf/iebe108.pdf
+- Biology 3 | URLError | https://ncert.nic.in/textbook/pdf/kebo103.pdf
+- Human Ecology and Family Sciences Part II 14 | URLError | https://ncert.nic.in/textbook/pdf/lehe207.pdf
+- Kaveri (English) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iebe1dd.zip
+- Biology 4 | URLError | https://ncert.nic.in/textbook/pdf/kebo104.pdf
+- Human Ecology and Family Sciences Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lehe2dd.zip
+- Kaveri (English) Appendix | URLError | https://ncert.nic.in/textbook/pdf/iebe1a1.pdf
+- Biology 5 | URLError | https://ncert.nic.in/textbook/pdf/kebo105.pdf
+- Human Ecology and Family Sciences Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lehe2ps.pdf
+- Kaveri (English) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iebe1ps.pdf
+- Biology 6 | URLError | https://ncert.nic.in/textbook/pdf/kebo106.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 1 | URLError | https://ncert.nic.in/textbook/pdf/ihga101.pdf
+- Biology 7 | URLError | https://ncert.nic.in/textbook/pdf/kebo107.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 2 | URLError | https://ncert.nic.in/textbook/pdf/ihga102.pdf
+- Biology 8 | URLError | https://ncert.nic.in/textbook/pdf/kebo108.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 3 | URLError | https://ncert.nic.in/textbook/pdf/ihga103.pdf
+- Biology 9 | URLError | https://ncert.nic.in/textbook/pdf/kebo109.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 4 | URLError | https://ncert.nic.in/textbook/pdf/ihga104.pdf
+- Biology 10 | URLError | https://ncert.nic.in/textbook/pdf/kebo110.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 5 | URLError | https://ncert.nic.in/textbook/pdf/ihga105.pdf
+- Biology 11 | URLError | https://ncert.nic.in/textbook/pdf/kebo111.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 6 | URLError | https://ncert.nic.in/textbook/pdf/ihga106.pdf
+- Biology 12 | URLError | https://ncert.nic.in/textbook/pdf/kebo112.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 7 | URLError | https://ncert.nic.in/textbook/pdf/ihga107.pdf
+- Biology 13 | URLError | https://ncert.nic.in/textbook/pdf/kebo113.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 8 | URLError | https://ncert.nic.in/textbook/pdf/ihga108.pdf
+- Biology 14 | URLError | https://ncert.nic.in/textbook/pdf/kebo114.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 9 | URLError | https://ncert.nic.in/textbook/pdf/ihga109.pdf
+- Biology 15 | URLError | https://ncert.nic.in/textbook/pdf/kebo115.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 10 | URLError | https://ncert.nic.in/textbook/pdf/ihga110.pdf
+- Biology 16 | URLError | https://ncert.nic.in/textbook/pdf/kebo116.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 11 | URLError | https://ncert.nic.in/textbook/pdf/ihga111.pdf
+- Biology 17 | URLError | https://ncert.nic.in/textbook/pdf/kebo117.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 12 | URLError | https://ncert.nic.in/textbook/pdf/ihga112.pdf
+- Biology 18 | URLError | https://ncert.nic.in/textbook/pdf/kebo118.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/ihga1dd.zip
+- Biology 19 | URLError | https://ncert.nic.in/textbook/pdf/kebo119.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep101.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/ihga1ps.pdf
+- Biology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kebo1dd.zip
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep102.pdf
+- Biology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kebo1ps.pdf
+- Ganita Manjari (Part 1) 1 | URLError | https://ncert.nic.in/textbook/pdf/iemh101.pdf
+- Ganita Manjari (Part 1) 2 | URLError | https://ncert.nic.in/textbook/pdf/iemh102.pdf
+- Fundamentals of Physical Geography 5 | URLError | https://ncert.nic.in/textbook/pdf/kegy205.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/khsk203.pdf
+- Flamingo (English Core) 12 | URLError | https://ncert.nic.in/textbook/pdf/lefl114.pdf
+- Ganita Manjari (Part 1) 3 | URLError | https://ncert.nic.in/textbook/pdf/iemh103.pdf
+- Fundamentals of Physical Geography 6 | URLError | https://ncert.nic.in/textbook/pdf/kegy206.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/khsk204.pdf
+- Flamingo (English Core) 13 | URLError | https://ncert.nic.in/textbook/pdf/lefl115.pdf
+- Ganita Manjari (Part 1) 4 | URLError | https://ncert.nic.in/textbook/pdf/iemh104.pdf
+- Fundamentals of Physical Geography 7 | URLError | https://ncert.nic.in/textbook/pdf/kegy207.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/khsk205.pdf
+- Flamingo (English Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lefl1dd.zip
+- Ganita Manjari (Part 1) 5 | URLError | https://ncert.nic.in/textbook/pdf/iemh105.pdf
+- Fundamentals of Physical Geography 8 | URLError | https://ncert.nic.in/textbook/pdf/kegy208.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/khsk206.pdf
+- Flamingo (English Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lefl1ps.pdf
+- Ganita Manjari (Part 1) 6 | URLError | https://ncert.nic.in/textbook/pdf/iemh106.pdf
+- Fundamentals of Physical Geography 9 | URLError | https://ncert.nic.in/textbook/pdf/kegy209.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/khsk207.pdf
+- Vistas (English Core, supplementary reader) 1 | URLError | https://ncert.nic.in/textbook/pdf/levt101.pdf
+- Ganita Manjari (Part 1) 7 | URLError | https://ncert.nic.in/textbook/pdf/iemh107.pdf
+- Fundamentals of Physical Geography 10 | URLError | https://ncert.nic.in/textbook/pdf/kegy210.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/khsk208.pdf
+- Vistas (English Core, supplementary reader) 2 | URLError | https://ncert.nic.in/textbook/pdf/levt102.pdf
+- Ganita Manjari (Part 1) 8 | URLError | https://ncert.nic.in/textbook/pdf/iemh108.pdf
+- Fundamentals of Physical Geography 11 | URLError | https://ncert.nic.in/textbook/pdf/kegy211.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/khsk209.pdf
+- Vistas (English Core, supplementary reader) 3 | URLError | https://ncert.nic.in/textbook/pdf/levt103.pdf
+- Ganita Manjari (Part 1) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iemh1dd.zip
+- Fundamentals of Physical Geography 12 | URLError | https://ncert.nic.in/textbook/pdf/kegy212.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/khsk210.pdf
+- Vistas (English Core, supplementary reader) 4 | URLError | https://ncert.nic.in/textbook/pdf/levt104.pdf
+- Ganita Manjari (Part 1) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iemh1ps.pdf
+- Fundamentals of Physical Geography 13 | URLError | https://ncert.nic.in/textbook/pdf/kegy213.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) 11 | URLError | https://ncert.nic.in/textbook/pdf/khsk211.pdf
+- Vistas (English Core, supplementary reader) 5 | URLError | https://ncert.nic.in/textbook/pdf/levt105.pdf
+- Ganita Manjari (Part 2) 9 | URLError | https://ncert.nic.in/textbook/pdf/iemh201.pdf
+- Fundamentals of Physical Geography 14 | URLError | https://ncert.nic.in/textbook/pdf/kegy214.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khsk2dd.zip
+- Vistas (English Core, supplementary reader) 6 | URLError | https://ncert.nic.in/textbook/pdf/levt106.pdf
+- Ganita Manjari (Part 2) 10 | URLError | https://ncert.nic.in/textbook/pdf/iemh202.pdf
+- Fundamentals of Physical Geography (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kegy2dd.zip
+- शाश्वती प्रथमो भागः (Sanskrit Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khsk2ps.pdf
+- Vistas (English Core, supplementary reader) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/levt1dd.zip
+- Ganita Manjari (Part 2) 11 | URLError | https://ncert.nic.in/textbook/pdf/iemh203.pdf
+- Fundamentals of Physical Geography Glossary | URLError | https://ncert.nic.in/textbook/pdf/kegy2gl.pdf
+- संगीत: तबला एवं पखावज (Music) 1 | URLError | https://ncert.nic.in/textbook/pdf/khtp101.pdf
+- Vistas (English Core, supplementary reader) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/levt1ps.pdf
+- Ganita Manjari (Part 2) 12 | URLError | https://ncert.nic.in/textbook/pdf/iemh204.pdf
+- Fundamentals of Physical Geography Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kegy2ps.pdf
+- संगीत: तबला एवं पखावज (Music) 2 | URLError | https://ncert.nic.in/textbook/pdf/khtp102.pdf
+- Kaleidoscope (English Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/lekl101.pdf
+- Ganita Manjari (Part 2) 13 | URLError | https://ncert.nic.in/textbook/pdf/iemh205.pdf
+- Practical Work in Geography Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/kegy301.pdf
+- संगीत: तबला एवं पखावज (Music) 3 | URLError | https://ncert.nic.in/textbook/pdf/khtp103.pdf
+- Kaleidoscope (English Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/lekl102.pdf
+- Ganita Manjari (Part 2) 14 | URLError | https://ncert.nic.in/textbook/pdf/iemh206.pdf
+- Practical Work in Geography Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/kegy302.pdf
+- संगीत: तबला एवं पखावज (Music) 4 | URLError | https://ncert.nic.in/textbook/pdf/khtp104.pdf
+- Kaleidoscope (English Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/lekl103.pdf
+- Ganita Manjari (Part 2) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iemh2dd.zip
+- Practical Work in Geography Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/kegy303.pdf
+- संगीत: तबला एवं पखावज (Music) 5 | URLError | https://ncert.nic.in/textbook/pdf/khtp105.pdf
+- Kaleidoscope (English Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/lekl104.pdf
+- Ganita Manjari (Part 2) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iemh2ps.pdf
+- Practical Work in Geography Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/kegy304.pdf
+- संगीत: तबला एवं पखावज (Music) 6 | URLError | https://ncert.nic.in/textbook/pdf/khtp106.pdf
+- Kaleidoscope (English Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/lekl105.pdf
+- Science 1 | URLError | https://ncert.nic.in/textbook/pdf/iesc101.pdf
+- Practical Work in Geography Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/kegy305.pdf
+- संगीत: तबला एवं पखावज (Music) 7 | URLError | https://ncert.nic.in/textbook/pdf/khtp107.pdf
+- Kaleidoscope (English Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/lekl111.pdf
+- Science 2 | URLError | https://ncert.nic.in/textbook/pdf/iesc102.pdf
+- Practical Work in Geography Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/kegy306.pdf
+- संगीत: तबला एवं पखावज (Music) 8 | URLError | https://ncert.nic.in/textbook/pdf/khtp108.pdf
+- Kaleidoscope (English Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/lekl112.pdf
+- Science 3 | URLError | https://ncert.nic.in/textbook/pdf/iesc103.pdf
+- Practical Work in Geography Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kegy3dd.zip
+- संगीत: तबला एवं पखावज (Music) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khtp1dd.zip
+- Kaleidoscope (English Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/lekl113.pdf
+- Science 4 | URLError | https://ncert.nic.in/textbook/pdf/iesc104.pdf
+- Practical Work in Geography Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kegy3ps.pdf
+- संगीत: तबला एवं पखावज (Music) परिशिष्ट (appendices) | URLError | https://ncert.nic.in/textbook/pdf/khtp1a1.pdf
+- Kaleidoscope (English Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/lekl114.pdf
+- Science 5 | URLError | https://ncert.nic.in/textbook/pdf/iesc105.pdf
+- Political Theory 1 | URLError | https://ncert.nic.in/textbook/pdf/keps101.pdf
+- संगीत: तबला एवं पखावज (Music) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khtp1ps.pdf
+- Kaleidoscope (English Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/lekl115.pdf
+- Science 6 | URLError | https://ncert.nic.in/textbook/pdf/iesc106.pdf
+- Political Theory 2 | URLError | https://ncert.nic.in/textbook/pdf/keps102.pdf
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 1 | URLError | https://ncert.nic.in/textbook/pdf/khgv101.pdf
+- Kaleidoscope (English Elective) 11 | URLError | https://ncert.nic.in/textbook/pdf/lekl116.pdf
+- Science 7 | URLError | https://ncert.nic.in/textbook/pdf/iesc107.pdf
+- Political Theory 3 | URLError | https://ncert.nic.in/textbook/pdf/keps103.pdf
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 2 | URLError | https://ncert.nic.in/textbook/pdf/khgv102.pdf
+- Kaleidoscope (English Elective) 12 | URLError | https://ncert.nic.in/textbook/pdf/lekl117.pdf
+- Science 8 | URLError | https://ncert.nic.in/textbook/pdf/iesc108.pdf
+- Political Theory 4 | URLError | https://ncert.nic.in/textbook/pdf/keps104.pdf
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 3 | URLError | https://ncert.nic.in/textbook/pdf/khgv103.pdf
+- Kaleidoscope (English Elective) 13 | URLError | https://ncert.nic.in/textbook/pdf/lekl118.pdf
+- Science 9 | URLError | https://ncert.nic.in/textbook/pdf/iesc109.pdf
+- Political Theory 5 | URLError | https://ncert.nic.in/textbook/pdf/keps105.pdf
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 4 | URLError | https://ncert.nic.in/textbook/pdf/khgv104.pdf
+- Kaleidoscope (English Elective) 14 | URLError | https://ncert.nic.in/textbook/pdf/lekl121.pdf
+- Science 10 | URLError | https://ncert.nic.in/textbook/pdf/iesc110.pdf
+- Political Theory 6 | URLError | https://ncert.nic.in/textbook/pdf/keps106.pdf
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 5 | URLError | https://ncert.nic.in/textbook/pdf/khgv105.pdf
+- Kaleidoscope (English Elective) 15 | URLError | https://ncert.nic.in/textbook/pdf/lekl122.pdf
+- Science 11 | URLError | https://ncert.nic.in/textbook/pdf/iesc111.pdf
+- Political Theory 7 | URLError | https://ncert.nic.in/textbook/pdf/keps107.pdf
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 6 | URLError | https://ncert.nic.in/textbook/pdf/khgv106.pdf
+- Kaleidoscope (English Elective) 16 | URLError | https://ncert.nic.in/textbook/pdf/lekl123.pdf
+- Science 12 | URLError | https://ncert.nic.in/textbook/pdf/iesc112.pdf
+- Political Theory 8 | URLError | https://ncert.nic.in/textbook/pdf/keps108.pdf
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 7 | URLError | https://ncert.nic.in/textbook/pdf/khgv107.pdf
+- Kaleidoscope (English Elective) 17 | URLError | https://ncert.nic.in/textbook/pdf/lekl124.pdf
+- Science 13 | URLError | https://ncert.nic.in/textbook/pdf/iesc113.pdf
+- Political Theory (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keps1dd.zip
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 8 | URLError | https://ncert.nic.in/textbook/pdf/khgv108.pdf
+- Kaleidoscope (English Elective) 18 | URLError | https://ncert.nic.in/textbook/pdf/lekl125.pdf
+- Science (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iesc1dd.zip
+- Political Theory Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keps1ps.pdf
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 9 | URLError | https://ncert.nic.in/textbook/pdf/khgv109.pdf
+- Kaleidoscope (English Elective) 19 | URLError | https://ncert.nic.in/textbook/pdf/lekl126.pdf
+- Science Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iesc1ps.pdf
+- Indian Constitution at Work 1 | URLError | https://ncert.nic.in/textbook/pdf/keps201.pdf
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) 10 | URLError | https://ncert.nic.in/textbook/pdf/khgv110.pdf
+- Kaleidoscope (English Elective) 20 | URLError | https://ncert.nic.in/textbook/pdf/lekl131.pdf
+- Understanding Society: India and Beyond (Part 1) 1 | URLError | https://ncert.nic.in/textbook/pdf/iest101.pdf
+- Indian Constitution at Work 2 | URLError | https://ncert.nic.in/textbook/pdf/keps202.pdf
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khgv1dd.zip
+- Kaleidoscope (English Elective) 21 | URLError | https://ncert.nic.in/textbook/pdf/lekl132.pdf
+- Understanding Society: India and Beyond (Part 1) 2 | URLError | https://ncert.nic.in/textbook/pdf/iest102.pdf
+- Indian Constitution at Work 3 | URLError | https://ncert.nic.in/textbook/pdf/keps203.pdf
+- संगीत: हिंदुस्तानी गायन एवं वादन (Music) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khgv1ps.pdf
+- Kaleidoscope (English Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lekl1dd.zip
+- Understanding Society: India and Beyond (Part 1) 3 | URLError | https://ncert.nic.in/textbook/pdf/iest103.pdf
+- Indian Constitution at Work 4 | URLError | https://ncert.nic.in/textbook/pdf/keps204.pdf
+- Health and Physical Education 1 | URLError | https://ncert.nic.in/textbook/pdf/kehp101.pdf
+- Kaleidoscope (English Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lekl1ps.pdf
+- Understanding Society: India and Beyond (Part 1) 4 | URLError | https://ncert.nic.in/textbook/pdf/iest104.pdf
+- Indian Constitution at Work 5 | URLError | https://ncert.nic.in/textbook/pdf/keps205.pdf
+- Health and Physical Education 2 | URLError | https://ncert.nic.in/textbook/pdf/kehp102.pdf
+- आरोह भाग 2 (Hindi Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/lhar101.pdf
+- Understanding Society: India and Beyond (Part 1) 5 | URLError | https://ncert.nic.in/textbook/pdf/iest105.pdf
+- Indian Constitution at Work 6 | URLError | https://ncert.nic.in/textbook/pdf/keps206.pdf
+- Health and Physical Education 3 | URLError | https://ncert.nic.in/textbook/pdf/kehp103.pdf
+- आरोह भाग 2 (Hindi Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/lhar102.pdf
+- Understanding Society: India and Beyond (Part 1) 6 | URLError | https://ncert.nic.in/textbook/pdf/iest106.pdf
+- Indian Constitution at Work 7 | URLError | https://ncert.nic.in/textbook/pdf/keps207.pdf
+- Health and Physical Education 4 | URLError | https://ncert.nic.in/textbook/pdf/kehp104.pdf
+- आरोह भाग 2 (Hindi Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/lhar103.pdf
+- Understanding Society: India and Beyond (Part 1) 7 | URLError | https://ncert.nic.in/textbook/pdf/iest107.pdf
+- Indian Constitution at Work 8 | URLError | https://ncert.nic.in/textbook/pdf/keps208.pdf
+- Health and Physical Education 5 | URLError | https://ncert.nic.in/textbook/pdf/kehp105.pdf
+- आरोह भाग 2 (Hindi Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/lhar104.pdf
+- Understanding Society: India and Beyond (Part 1) 8 | URLError | https://ncert.nic.in/textbook/pdf/iest108.pdf
+- Indian Constitution at Work 9 | URLError | https://ncert.nic.in/textbook/pdf/keps209.pdf
+- Health and Physical Education 6 | URLError | https://ncert.nic.in/textbook/pdf/kehp106.pdf
+- आरोह भाग 2 (Hindi Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/lhar105.pdf
+- Understanding Society: India and Beyond (Part 1) 9 | URLError | https://ncert.nic.in/textbook/pdf/iest109.pdf
+- Indian Constitution at Work 10 | URLError | https://ncert.nic.in/textbook/pdf/keps210.pdf
+- Health and Physical Education 7 | URLError | https://ncert.nic.in/textbook/pdf/kehp107.pdf
+- आरोह भाग 2 (Hindi Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/lhar106.pdf
+- Understanding Society: India and Beyond (Part 1) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iest1dd.zip
+- Indian Constitution at Work (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keps2dd.zip
+- Health and Physical Education 8 | URLError | https://ncert.nic.in/textbook/pdf/kehp108.pdf
+- आरोह भाग 2 (Hindi Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/lhar107.pdf
+- Understanding Society: India and Beyond (Part 1) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iest1ps.pdf
+- Indian Constitution at Work Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keps2ps.pdf
+- Health and Physical Education 9 | URLError | https://ncert.nic.in/textbook/pdf/kehp109.pdf
+- आरोह भाग 2 (Hindi Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/lhar108.pdf
+- Gulzar-e-Urdu (supplementary reader) 5 | URLError | https://ncert.nic.in/textbook/pdf/juge105.pdf
+- Understanding Society: India and Beyond (Part 2) 1 | URLError | https://ncert.nic.in/textbook/pdf/iest201.pdf
+- Introducing Sociology 1 | URLError | https://ncert.nic.in/textbook/pdf/kesy101.pdf
+- Health and Physical Education 10 | URLError | https://ncert.nic.in/textbook/pdf/kehp110.pdf
+- आरोह भाग 2 (Hindi Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/lhar109.pdf
+- Understanding Society: India and Beyond (Part 2) 2 | URLError | https://ncert.nic.in/textbook/pdf/iest202.pdf
+- Introducing Sociology 2 | URLError | https://ncert.nic.in/textbook/pdf/kesy102.pdf
+- Health and Physical Education 11 | URLError | https://ncert.nic.in/textbook/pdf/kehp111.pdf
+- आरोह भाग 2 (Hindi Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/lhar110.pdf
+- Understanding Society: India and Beyond (Part 2) 3 | URLError | https://ncert.nic.in/textbook/pdf/iest203.pdf
+- Introducing Sociology 3 | URLError | https://ncert.nic.in/textbook/pdf/kesy103.pdf
+- Health and Physical Education (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kehp1dd.zip
+- आरोह भाग 2 (Hindi Core) 11 | URLError | https://ncert.nic.in/textbook/pdf/lhar111.pdf
+- Understanding Society: India and Beyond (Part 2) 4 | URLError | https://ncert.nic.in/textbook/pdf/iest204.pdf
+- Introducing Sociology 4 | URLError | https://ncert.nic.in/textbook/pdf/kesy104.pdf
+- Health and Physical Education Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kehp1ps.pdf
+- आरोह भाग 2 (Hindi Core) 12 | URLError | https://ncert.nic.in/textbook/pdf/lhar112.pdf
+- Understanding Society: India and Beyond (Part 2) 5 | URLError | https://ncert.nic.in/textbook/pdf/iest205.pdf
+- Introducing Sociology 5 | URLError | https://ncert.nic.in/textbook/pdf/kesy105.pdf
+- Computer Science 1 | URLError | https://ncert.nic.in/textbook/pdf/kecs101.pdf
+- आरोह भाग 2 (Hindi Core) 13 | URLError | https://ncert.nic.in/textbook/pdf/lhar113.pdf
+- Understanding Society: India and Beyond (Part 2) 6 | URLError | https://ncert.nic.in/textbook/pdf/iest206.pdf
+- Introducing Sociology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kesy1dd.zip
+- Computer Science 2 | URLError | https://ncert.nic.in/textbook/pdf/kecs102.pdf
+- आरोह भाग 2 (Hindi Core) 14 | URLError | https://ncert.nic.in/textbook/pdf/lhar114.pdf
+- Understanding Society: India and Beyond (Part 2) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/iest2dd.zip
+- Introducing Sociology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kesy1ps.pdf
+- Computer Science 3 | URLError | https://ncert.nic.in/textbook/pdf/kecs103.pdf
+- आरोह भाग 2 (Hindi Core) 15 | URLError | https://ncert.nic.in/textbook/pdf/lhar115.pdf
+- Understanding Society: India and Beyond (Part 2) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/iest2ps.pdf
+- Understanding Society 1 | URLError | https://ncert.nic.in/textbook/pdf/kesy201.pdf
+- Computer Science 4 | URLError | https://ncert.nic.in/textbook/pdf/kecs104.pdf
+- आरोह भाग 2 (Hindi Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lhar1dd.zip
+- Madhurima: A Textbook of Arts 1 | URLError | https://ncert.nic.in/textbook/pdf/iemr101.pdf
+- Understanding Society 2 | URLError | https://ncert.nic.in/textbook/pdf/kesy202.pdf
+- Computer Science 5 | URLError | https://ncert.nic.in/textbook/pdf/kecs105.pdf
+- आरोह भाग 2 (Hindi Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lhar1ps.pdf
+- Madhurima: A Textbook of Arts 2 | URLError | https://ncert.nic.in/textbook/pdf/iemr102.pdf
+- Understanding Society 3 | URLError | https://ncert.nic.in/textbook/pdf/kesy203.pdf
+- Computer Science 6 | URLError | https://ncert.nic.in/textbook/pdf/kecs106.pdf
+- वितान भाग 2 (Hindi Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/lhvt101.pdf
+- Madhurima: A Textbook of Arts 3 | URLError | https://ncert.nic.in/textbook/pdf/iemr103.pdf
+- Understanding Society 4 | URLError | https://ncert.nic.in/textbook/pdf/kesy204.pdf
+- Computer Science 7 | URLError | https://ncert.nic.in/textbook/pdf/kecs107.pdf
+- वितान भाग 2 (Hindi Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/lhvt102.pdf
+- Madhurima: A Textbook of Arts 4 | URLError | https://ncert.nic.in/textbook/pdf/iemr104.pdf
+- Understanding Society 5 | URLError | https://ncert.nic.in/textbook/pdf/kesy205.pdf
+- Computer Science 8 | URLError | https://ncert.nic.in/textbook/pdf/kecs108.pdf
+- वितान भाग 2 (Hindi Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/lhvt103.pdf
+- Madhurima: A Textbook of Arts 5 | URLError | https://ncert.nic.in/textbook/pdf/iemr105.pdf
+- Understanding Society (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kesy2dd.zip
+- Computer Science 9 | URLError | https://ncert.nic.in/textbook/pdf/kecs109.pdf
+- वितान भाग 2 (Hindi Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lhvt1dd.zip
+- Madhurima: A Textbook of Arts 6 | URLError | https://ncert.nic.in/textbook/pdf/iemr106.pdf
+- Understanding Society Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kesy2ps.pdf
+- Computer Science 10 | URLError | https://ncert.nic.in/textbook/pdf/kecs110.pdf
+- वितान भाग 2 (Hindi Core) लेखक परिचय (author introductions) | URLError | https://ncert.nic.in/textbook/pdf/lhvt1lp.pdf
+- Madhurima: A Textbook of Arts 7 | URLError | https://ncert.nic.in/textbook/pdf/iemr107.pdf
+- Psychology 1 | URLError | https://ncert.nic.in/textbook/pdf/kepy101.pdf
+- Computer Science 11 | URLError | https://ncert.nic.in/textbook/pdf/kecs111.pdf
+- वितान भाग 2 (Hindi Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lhvt1ps.pdf
+- Madhurima: A Textbook of Arts 8 | URLError | https://ncert.nic.in/textbook/pdf/iemr108.pdf
+- Psychology 2 | URLError | https://ncert.nic.in/textbook/pdf/kepy102.pdf
+- Computer Science (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kecs1dd.zip
+- अंतरा भाग 2 (Hindi Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/lhat101.pdf
+- Madhurima: A Textbook of Arts 9 | URLError | https://ncert.nic.in/textbook/pdf/iemr109.pdf
+- Psychology 3 | URLError | https://ncert.nic.in/textbook/pdf/kepy103.pdf
+- Computer Science Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kecs1ps.pdf
+- अंतरा भाग 2 (Hindi Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/lhat102.pdf
+- Madhurima: A Textbook of Arts 10 | URLError | https://ncert.nic.in/textbook/pdf/iemr110.pdf
+- Psychology 4 | URLError | https://ncert.nic.in/textbook/pdf/kepy104.pdf
+- Informatics Practices 1 | URLError | https://ncert.nic.in/textbook/pdf/keip101.pdf
+- अंतरा भाग 2 (Hindi Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/lhat103.pdf
+- Madhurima: A Textbook of Arts 11 | URLError | https://ncert.nic.in/textbook/pdf/iemr111.pdf
+- Psychology 5 | URLError | https://ncert.nic.in/textbook/pdf/kepy105.pdf
+- Informatics Practices 2 | URLError | https://ncert.nic.in/textbook/pdf/keip102.pdf
+- अंतरा भाग 2 (Hindi Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/lhat104.pdf
+- Madhurima: A Textbook of Arts 12 | URLError | https://ncert.nic.in/textbook/pdf/iemr112.pdf
+- Psychology 6 | URLError | https://ncert.nic.in/textbook/pdf/kepy106.pdf
+- Informatics Practices 3 | URLError | https://ncert.nic.in/textbook/pdf/keip103.pdf
+- अंतरा भाग 2 (Hindi Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/lhat105.pdf
+- Madhurima: A Textbook of Arts 13 | URLError | https://ncert.nic.in/textbook/pdf/iemr113.pdf
+- Psychology 7 | URLError | https://ncert.nic.in/textbook/pdf/kepy107.pdf
+- Informatics Practices 4 | URLError | https://ncert.nic.in/textbook/pdf/keip104.pdf
+- अंतरा भाग 2 (Hindi Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/lhat106.pdf
+- Madhurima: A Textbook of Arts 14 | URLError | https://ncert.nic.in/textbook/pdf/iemr114.pdf
+- Psychology 8 | URLError | https://ncert.nic.in/textbook/pdf/kepy108.pdf
+- Informatics Practices 5 | URLError | https://ncert.nic.in/textbook/pdf/keip105.pdf
+- अंतरा भाग 2 (Hindi Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/lhat107.pdf
+- Madhurima: A Textbook of Arts 15 | URLError | https://ncert.nic.in/textbook/pdf/iemr115.pdf
+- Psychology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kepy1dd.zip
+- Informatics Practices 6 | URLError | https://ncert.nic.in/textbook/pdf/keip106.pdf
+- अंतरा भाग 2 (Hindi Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/lhat108.pdf
+- Madhurima: A Textbook of Arts 16 | URLError | https://ncert.nic.in/textbook/pdf/iemr116.pdf
+- Psychology Glossary | URLError | https://ncert.nic.in/textbook/pdf/kepy1gl.pdf
+- Informatics Practices 7 | URLError | https://ncert.nic.in/textbook/pdf/keip107.pdf
+- अंतरा भाग 2 (Hindi Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/lhat109.pdf
+- Informatics Practices 8 | URLError | https://ncert.nic.in/textbook/pdf/keip108.pdf
+- अंतरा भाग 2 (Hindi Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/lhat110.pdf
+- Madhurima: A Textbook of Arts 17 | URLError | https://ncert.nic.in/textbook/pdf/iemr117.pdf
 - Psychology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kepy1ps.pdf
 - Shemushi Part 2 (Sanskrit) 7 | URLError | https://ncert.nic.in/textbook/pdf/jhsk107.pdf
-- Physics Part I Appendices | URLError | https://ncert.nic.in/textbook/pdf/keph1a1.pdf
-- Hornbill (English Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/kehb101.pdf
+- Indian Society 4 | URLError | https://ncert.nic.in/textbook/pdf/lesy104.pdf
 - Shemushi Part 2 (Sanskrit) 8 | URLError | https://ncert.nic.in/textbook/pdf/jhsk108.pdf
-- Physics Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keph1ps.pdf
-- Hornbill (English Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/kehb102.pdf
+- Indian Society 5 | URLError | https://ncert.nic.in/textbook/pdf/lesy105.pdf
 - Shemushi Part 2 (Sanskrit) 9 | URLError | https://ncert.nic.in/textbook/pdf/jhsk109.pdf
-- Physics Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/keph201.pdf
-- Hornbill (English Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/kehb103.pdf
+- Indian Society 6 | URLError | https://ncert.nic.in/textbook/pdf/lesy106.pdf
 - Shemushi Part 2 (Sanskrit) 10 | URLError | https://ncert.nic.in/textbook/pdf/jhsk110.pdf
-- Physics Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/keph202.pdf
-- Hornbill (English Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/kehb104.pdf
+- Indian Society 7 | URLError | https://ncert.nic.in/textbook/pdf/lesy107.pdf
 - Shemushi Part 2 (Sanskrit) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jhsk1dd.zip
-- Physics Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/keph203.pdf
-- Hornbill (English Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/kehb105.pdf
+- Indian Society (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lesy1dd.zip
 - Shemushi Part 2 (Sanskrit) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jhsk1ps.pdf
-- Physics Part II 11 | URLError | https://ncert.nic.in/textbook/pdf/keph204.pdf
-- Hornbill (English Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/kehb106.pdf
+- Indian Society Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lesy1ps.pdf
 - Vyakaranvithi (Sanskrit grammar) 1 | URLError | https://ncert.nic.in/textbook/pdf/jhva101.pdf
-- Physics Part II 12 | URLError | https://ncert.nic.in/textbook/pdf/keph205.pdf
-- Hornbill (English Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/kehb111.pdf
+- Social Change and Development in India 1 | URLError | https://ncert.nic.in/textbook/pdf/lesy201.pdf
 - Vyakaranvithi (Sanskrit grammar) 2 | URLError | https://ncert.nic.in/textbook/pdf/jhva102.pdf
-- Physics Part II 13 | URLError | https://ncert.nic.in/textbook/pdf/keph206.pdf
-- Hornbill (English Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/kehb112.pdf
+- Social Change and Development in India 2 | URLError | https://ncert.nic.in/textbook/pdf/lesy202.pdf
 - Vyakaranvithi (Sanskrit grammar) 3 | URLError | https://ncert.nic.in/textbook/pdf/jhva103.pdf
-- Physics Part II 14 | URLError | https://ncert.nic.in/textbook/pdf/keph207.pdf
-- Hornbill (English Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/kehb113.pdf
+- Social Change and Development in India 3 | URLError | https://ncert.nic.in/textbook/pdf/lesy203.pdf
 - Vyakaranvithi (Sanskrit grammar) 4 | URLError | https://ncert.nic.in/textbook/pdf/jhva104.pdf
-- Physics Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keph2dd.zip
-- Hornbill (English Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/kehb114.pdf
+- Social Change and Development in India 4 | URLError | https://ncert.nic.in/textbook/pdf/lesy204.pdf
 - Vyakaranvithi (Sanskrit grammar) 5 | URLError | https://ncert.nic.in/textbook/pdf/jhva105.pdf
-- Physics Part II Answers | URLError | https://ncert.nic.in/textbook/pdf/keph2an.pdf
-- Hornbill (English Core) 11 | URLError | https://ncert.nic.in/textbook/pdf/kehb115.pdf
+- Social Change and Development in India 5 | URLError | https://ncert.nic.in/textbook/pdf/lesy205.pdf
 - Vyakaranvithi (Sanskrit grammar) 6 | URLError | https://ncert.nic.in/textbook/pdf/jhva106.pdf
-- Physics Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keph2ps.pdf
-- Hornbill (English Core) 12 | URLError | https://ncert.nic.in/textbook/pdf/kehb116.pdf
+- Social Change and Development in India 6 | URLError | https://ncert.nic.in/textbook/pdf/lesy206.pdf
 - Vyakaranvithi (Sanskrit grammar) 7 | URLError | https://ncert.nic.in/textbook/pdf/jhva107.pdf
-- Chemistry Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/kech101.pdf
-- Hornbill (English Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kehb1dd.zip
+- Social Change and Development in India 7 | URLError | https://ncert.nic.in/textbook/pdf/lesy207.pdf
 - Vyakaranvithi (Sanskrit grammar) 8 | URLError | https://ncert.nic.in/textbook/pdf/jhva108.pdf
-- Chemistry Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/kech102.pdf
-- Hornbill (English Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kehb1ps.pdf
+- Social Change and Development in India 8 | URLError | https://ncert.nic.in/textbook/pdf/lesy208.pdf
 - Vyakaranvithi (Sanskrit grammar) 9 | URLError | https://ncert.nic.in/textbook/pdf/jhva109.pdf
-- Chemistry Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/kech103.pdf
-- Snapshots (English Core, supplementary reader) 1 | URLError | https://ncert.nic.in/textbook/pdf/kesp101.pdf
+- Social Change and Development in India (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lesy2dd.zip
 - Vyakaranvithi (Sanskrit grammar) 10 | URLError | https://ncert.nic.in/textbook/pdf/jhva110.pdf
-- Chemistry Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/kech104.pdf
-- Snapshots (English Core, supplementary reader) 2 | URLError | https://ncert.nic.in/textbook/pdf/kesp102.pdf
+- Social Change and Development in India Glossary | URLError | https://ncert.nic.in/textbook/pdf/lesy2gl.pdf
 - Vyakaranvithi (Sanskrit grammar) 11 | URLError | https://ncert.nic.in/textbook/pdf/jhva111.pdf
-- Chemistry Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/kech105.pdf
-- Snapshots (English Core, supplementary reader) 3 | URLError | https://ncert.nic.in/textbook/pdf/kesp103.pdf
+- Social Change and Development in India Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lesy2ps.pdf
 - Vyakaranvithi (Sanskrit grammar) 12 | URLError | https://ncert.nic.in/textbook/pdf/jhva112.pdf
-- Chemistry Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/kech106.pdf
-- Snapshots (English Core, supplementary reader) 4 | URLError | https://ncert.nic.in/textbook/pdf/kesp104.pdf
+- Psychology 1 | URLError | https://ncert.nic.in/textbook/pdf/lepy101.pdf
 - Vyakaranvithi (Sanskrit grammar) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jhva1dd.zip
-- Chemistry Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kech1dd.zip
-- Snapshots (English Core, supplementary reader) 5 | URLError | https://ncert.nic.in/textbook/pdf/kesp105.pdf
+- Psychology 2 | URLError | https://ncert.nic.in/textbook/pdf/lepy102.pdf
 - Vyakaranvithi (Sanskrit grammar) Appendix 1: शब्दरूपाणि | URLError | https://ncert.nic.in/textbook/pdf/jhva1a1.pdf
-- Chemistry Part I Answers | URLError | https://ncert.nic.in/textbook/pdf/kech1an.pdf
-- Snapshots (English Core, supplementary reader) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kesp1dd.zip
+- Psychology 3 | URLError | https://ncert.nic.in/textbook/pdf/lepy103.pdf
 - Vyakaranvithi (Sanskrit grammar) Appendix 2: धातुरूपाणि | URLError | https://ncert.nic.in/textbook/pdf/jhva1a2.pdf
-- Chemistry Part I Appendix | URLError | https://ncert.nic.in/textbook/pdf/kech1a1.pdf
-- Snapshots (English Core, supplementary reader) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kesp1ps.pdf
+- Psychology 4 | URLError | https://ncert.nic.in/textbook/pdf/lepy104.pdf
 - Vyakaranvithi (Sanskrit grammar) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jhva1ps.pdf
-- Chemistry Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kech1ps.pdf
-- Woven Words (English Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/keww101.pdf
+- Psychology 5 | URLError | https://ncert.nic.in/textbook/pdf/lepy105.pdf
 - Science 1 | URLError | https://ncert.nic.in/textbook/pdf/jesc101.pdf
-- Chemistry Part II 7 | URLError | https://ncert.nic.in/textbook/pdf/kech201.pdf
-- Woven Words (English Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/keww102.pdf
+- Psychology 6 | URLError | https://ncert.nic.in/textbook/pdf/lepy106.pdf
 - Science 2 | URLError | https://ncert.nic.in/textbook/pdf/jesc102.pdf
-- Chemistry Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/kech202.pdf
-- Woven Words (English Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/keww103.pdf
+- Psychology 7 | URLError | https://ncert.nic.in/textbook/pdf/lepy107.pdf
 - Science 3 | URLError | https://ncert.nic.in/textbook/pdf/jesc103.pdf
-- Chemistry Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/kech203.pdf
-- Woven Words (English Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/keww104.pdf
+- Psychology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lepy1dd.zip
 - Science 4 | URLError | https://ncert.nic.in/textbook/pdf/jesc104.pdf
-- Chemistry Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kech2dd.zip
-- Woven Words (English Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/keww105.pdf
+- Psychology Glossary | URLError | https://ncert.nic.in/textbook/pdf/lepy1gl.pdf
 - Science 5 | URLError | https://ncert.nic.in/textbook/pdf/jesc105.pdf
-- Chemistry Part II Answers | URLError | https://ncert.nic.in/textbook/pdf/kech2an.pdf
-- Woven Words (English Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/keww106.pdf
+- Psychology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lepy1ps.pdf
 - Science 6 | URLError | https://ncert.nic.in/textbook/pdf/jesc106.pdf
-- Chemistry Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kech2ps.pdf
-- Woven Words (English Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/keww107.pdf
+- Computer Science 1 | URLError | https://ncert.nic.in/textbook/pdf/lecs101.pdf
 - Science 7 | URLError | https://ncert.nic.in/textbook/pdf/jesc107.pdf
-- Mathematics 1 | URLError | https://ncert.nic.in/textbook/pdf/kemh101.pdf
-- Woven Words (English Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/keww108.pdf
-- Woven Words (English Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/keww112.pdf
+- Computer Science 2 | URLError | https://ncert.nic.in/textbook/pdf/lecs102.pdf
 - Science 8 | URLError | https://ncert.nic.in/textbook/pdf/jesc108.pdf
-- Mathematics 2 | URLError | https://ncert.nic.in/textbook/pdf/kemh102.pdf
-- Woven Words (English Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/keww111.pdf
+- Computer Science 3 | URLError | https://ncert.nic.in/textbook/pdf/lecs103.pdf
 - Science 9 | URLError | https://ncert.nic.in/textbook/pdf/jesc109.pdf
-- Mathematics 3 | URLError | https://ncert.nic.in/textbook/pdf/kemh103.pdf
+- Computer Science 4 | URLError | https://ncert.nic.in/textbook/pdf/lecs104.pdf
+- Science 10 | URLError | https://ncert.nic.in/textbook/pdf/jesc110.pdf
+- Computer Science 5 | URLError | https://ncert.nic.in/textbook/pdf/lecs105.pdf
+- Science 11 | URLError | https://ncert.nic.in/textbook/pdf/jesc111.pdf
+- First Flight 1 | URLError | https://ncert.nic.in/textbook/pdf/jeff101.pdf
+- Computer Science 6 | URLError | https://ncert.nic.in/textbook/pdf/lecs106.pdf
+- Science 12 | URLError | https://ncert.nic.in/textbook/pdf/jesc112.pdf
+- Computer Science 7 | URLError | https://ncert.nic.in/textbook/pdf/lecs107.pdf
+- Science 13 | URLError | https://ncert.nic.in/textbook/pdf/jesc113.pdf
+- Computer Science 8 | URLError | https://ncert.nic.in/textbook/pdf/lecs108.pdf
+- Science (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jesc1dd.zip
+- Computer Science 9 | URLError | https://ncert.nic.in/textbook/pdf/lecs109.pdf
+- Science Answers | URLError | https://ncert.nic.in/textbook/pdf/jesc1an.pdf
+- Computer Science 10 | URLError | https://ncert.nic.in/textbook/pdf/lecs110.pdf
+- Science Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jesc1ps.pdf
+- Computer Science 11 | URLError | https://ncert.nic.in/textbook/pdf/lecs111.pdf
+- Geography: Contemporary India II 1 | URLError | https://ncert.nic.in/textbook/pdf/jess101.pdf
+- Computer Science 12 | URLError | https://ncert.nic.in/textbook/pdf/lecs112.pdf
+- First Flight 4 | URLError | https://ncert.nic.in/textbook/pdf/jeff104.pdf
+- Geography: Contemporary India II 2 | URLError | https://ncert.nic.in/textbook/pdf/jess102.pdf
+- Computer Science 13 | URLError | https://ncert.nic.in/textbook/pdf/lecs113.pdf
+- Geography: Contemporary India II 3 | URLError | https://ncert.nic.in/textbook/pdf/jess103.pdf
+- Computer Science (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lecs1dd.zip
+- Geography: Contemporary India II 4 | URLError | https://ncert.nic.in/textbook/pdf/jess104.pdf
+- Computer Science Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lecs1ps.pdf
+- Geography: Contemporary India II 5 | URLError | https://ncert.nic.in/textbook/pdf/jess105.pdf
+- Informatics Practices 1 | URLError | https://ncert.nic.in/textbook/pdf/leip101.pdf
+- Geography: Contemporary India II 6 | URLError | https://ncert.nic.in/textbook/pdf/jess106.pdf
+- First Flight 3 | URLError | https://ncert.nic.in/textbook/pdf/jeff103.pdf
+- Informatics Practices 2 | URLError | https://ncert.nic.in/textbook/pdf/leip102.pdf
+- Geography: Contemporary India II 7 | URLError | https://ncert.nic.in/textbook/pdf/jess107.pdf
+- Informatics Practices 3 | URLError | https://ncert.nic.in/textbook/pdf/leip103.pdf
+- Geography: Contemporary India II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jess1dd.zip
+- Informatics Practices 4 | URLError | https://ncert.nic.in/textbook/pdf/leip104.pdf
+- Geography: Contemporary India II Appendix I: Websites you can visit | URLError | https://ncert.nic.in/textbook/pdf/jess1a1.pdf
+- Informatics Practices 5 | URLError | https://ncert.nic.in/textbook/pdf/leip105.pdf
+- Geography: Contemporary India II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jess1ps.pdf
+- Informatics Practices 6 | URLError | https://ncert.nic.in/textbook/pdf/leip106.pdf
+- Economics: Understanding Economic Development 1 | URLError | https://ncert.nic.in/textbook/pdf/jess201.pdf
+- Informatics Practices 7 | URLError | https://ncert.nic.in/textbook/pdf/leip107.pdf
+- Economics: Understanding Economic Development 2 | URLError | https://ncert.nic.in/textbook/pdf/jess202.pdf
+- Informatics Practices (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leip1dd.zip
+- Economics: Understanding Economic Development 3 | URLError | https://ncert.nic.in/textbook/pdf/jess203.pdf
+- Informatics Practices Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leip1ps.pdf
+- Economics: Understanding Economic Development 4 | URLError | https://ncert.nic.in/textbook/pdf/jess204.pdf
+- Biotechnology 1 | URLError | https://ncert.nic.in/textbook/pdf/lebt101.pdf
+- Economics: Understanding Economic Development 5 | URLError | https://ncert.nic.in/textbook/pdf/jess205.pdf
+- Biotechnology 2 | URLError | https://ncert.nic.in/textbook/pdf/lebt102.pdf
+- First Flight 2 | URLError | https://ncert.nic.in/textbook/pdf/jeff102.pdf
+- Economics: Understanding Economic Development (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jess2dd.zip
+- Biotechnology 3 | URLError | https://ncert.nic.in/textbook/pdf/lebt103.pdf
+- Economics: Understanding Economic Development Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jess2ps.pdf
+- Biotechnology 4 | URLError | https://ncert.nic.in/textbook/pdf/lebt104.pdf
+- History: India and the Contemporary World II 1 | URLError | https://ncert.nic.in/textbook/pdf/jess301.pdf
+- Biotechnology 5 | URLError | https://ncert.nic.in/textbook/pdf/lebt105.pdf
+- History: India and the Contemporary World II 2 | URLError | https://ncert.nic.in/textbook/pdf/jess302.pdf
+- Biotechnology 6 | URLError | https://ncert.nic.in/textbook/pdf/lebt106.pdf
+- History: India and the Contemporary World II 3 | URLError | https://ncert.nic.in/textbook/pdf/jess303.pdf
+- Biotechnology 7 | URLError | https://ncert.nic.in/textbook/pdf/lebt107.pdf
+- History: India and the Contemporary World II 4 | URLError | https://ncert.nic.in/textbook/pdf/jess304.pdf
+- Biotechnology 8 | URLError | https://ncert.nic.in/textbook/pdf/lebt108.pdf
+- History: India and the Contemporary World II 5 | URLError | https://ncert.nic.in/textbook/pdf/jess305.pdf
+- Biotechnology 9 | URLError | https://ncert.nic.in/textbook/pdf/lebt109.pdf
+- History: India and the Contemporary World II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jess3dd.zip
+- Biotechnology 10 | URLError | https://ncert.nic.in/textbook/pdf/lebt110.pdf
+- History: India and the Contemporary World II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jess3ps.pdf
+- Biotechnology 11 | URLError | https://ncert.nic.in/textbook/pdf/lebt111.pdf
+- Political Science: Democratic Politics II 1 | URLError | https://ncert.nic.in/textbook/pdf/jess401.pdf
+- Biotechnology 12 | URLError | https://ncert.nic.in/textbook/pdf/lebt112.pdf
+- Political Science: Democratic Politics II 2 | URLError | https://ncert.nic.in/textbook/pdf/jess402.pdf
+- Biotechnology 13 | URLError | https://ncert.nic.in/textbook/pdf/lebt113.pdf
+- Political Science: Democratic Politics II 3 | URLError | https://ncert.nic.in/textbook/pdf/jess403.pdf
+- Biotechnology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lebt1dd.zip
+- Political Science: Democratic Politics II 4 | URLError | https://ncert.nic.in/textbook/pdf/jess404.pdf
+- Biotechnology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lebt1ps.pdf
+- Political Science: Democratic Politics II 5 | URLError | https://ncert.nic.in/textbook/pdf/jess405.pdf
+- भास्वती भाग 2 (Sanskrit Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/lhsk101.pdf
+- Political Science: Democratic Politics II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jess4dd.zip
+- भास्वती भाग 2 (Sanskrit Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/lhsk102.pdf
+- Financial Accounting Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/keac101.pdf
+- अंतरा भाग 1 (Hindi Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/khat101.pdf
+- Physics Part II 14 | URLError | https://ncert.nic.in/textbook/pdf/leph206.pdf
+- Financial Accounting Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/keac102.pdf
+- अंतरा भाग 1 (Hindi Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/khat102.pdf
+- Physics Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leph2dd.zip
+- Financial Accounting Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/keac103.pdf
+- अंतरा भाग 1 (Hindi Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/khat103.pdf
+- Physics Part II Answers | URLError | https://ncert.nic.in/textbook/pdf/leph2an.pdf
+- Financial Accounting Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/keac104.pdf
+- अंतरा भाग 1 (Hindi Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/khat104.pdf
+- Physics Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leph2ps.pdf
+- Financial Accounting Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/keac105.pdf
+- अंतरा भाग 1 (Hindi Elective) 5 | URLError | https://ncert.nic.in/textbook/pdf/khat105.pdf
+- Chemistry Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/lech101.pdf
+- Financial Accounting Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/keac106.pdf
+- अंतरा भाग 1 (Hindi Elective) 6 | URLError | https://ncert.nic.in/textbook/pdf/khat106.pdf
+- Chemistry Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/lech102.pdf
+- Financial Accounting Part I 7 | URLError | https://ncert.nic.in/textbook/pdf/keac107.pdf
+- अंतरा भाग 1 (Hindi Elective) 7 | URLError | https://ncert.nic.in/textbook/pdf/khat107.pdf
+- Chemistry Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/lech103.pdf
+- Financial Accounting Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keac1dd.zip
+- अंतरा भाग 1 (Hindi Elective) 8 | URLError | https://ncert.nic.in/textbook/pdf/khat108.pdf
+- Chemistry Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/lech104.pdf
+- Financial Accounting Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keac1ps.pdf
+- अंतरा भाग 1 (Hindi Elective) 9 | URLError | https://ncert.nic.in/textbook/pdf/khat109.pdf
+- Chemistry Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/lech105.pdf
+- Financial Accounting Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/keac201.pdf
+- अंतरा भाग 1 (Hindi Elective) 10 | URLError | https://ncert.nic.in/textbook/pdf/khat110.pdf
+- Chemistry Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lech1dd.zip
+- Financial Accounting Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/keac202.pdf
+- अंतरा भाग 1 (Hindi Elective) 11 | URLError | https://ncert.nic.in/textbook/pdf/khat111.pdf
+- Chemistry Part I Answers to some questions | URLError | https://ncert.nic.in/textbook/pdf/lech1an.pdf
+- Financial Accounting Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keac2dd.zip
+- अंतरा भाग 1 (Hindi Elective) 12 | URLError | https://ncert.nic.in/textbook/pdf/khat112.pdf
+- Chemistry Part I Appendix | URLError | https://ncert.nic.in/textbook/pdf/lech1a1.pdf
+- Financial Accounting Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keac2ps.pdf
+- अंतरा भाग 1 (Hindi Elective) 13 | URLError | https://ncert.nic.in/textbook/pdf/khat113.pdf
+- Chemistry Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lech1ps.pdf
+- Business Studies 1 | URLError | https://ncert.nic.in/textbook/pdf/kebs101.pdf
+- अंतरा भाग 1 (Hindi Elective) 14 | URLError | https://ncert.nic.in/textbook/pdf/khat114.pdf
+- Chemistry Part II 6 | URLError | https://ncert.nic.in/textbook/pdf/lech201.pdf
+- Business Studies 2 | URLError | https://ncert.nic.in/textbook/pdf/kebs102.pdf
+- अंतरा भाग 1 (Hindi Elective) 15 | URLError | https://ncert.nic.in/textbook/pdf/khat115.pdf
+- Chemistry Part II 7 | URLError | https://ncert.nic.in/textbook/pdf/lech202.pdf
+- Business Studies 3 | URLError | https://ncert.nic.in/textbook/pdf/kebs103.pdf
+- अंतरा भाग 1 (Hindi Elective) 16 | URLError | https://ncert.nic.in/textbook/pdf/khat116.pdf
+- Chemistry Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/lech203.pdf
+- Business Studies 4 | URLError | https://ncert.nic.in/textbook/pdf/kebs104.pdf
+- अंतरा भाग 1 (Hindi Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khat1dd.zip
+- Chemistry Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/lech204.pdf
+- Business Studies 5 | URLError | https://ncert.nic.in/textbook/pdf/kebs105.pdf
+- अंतरा भाग 1 (Hindi Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khat1ps.pdf
+- Chemistry Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/lech205.pdf
+- Business Studies 6 | URLError | https://ncert.nic.in/textbook/pdf/kebs106.pdf
+- वितान भाग 1 (Hindi Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/khvt101.pdf
+- Chemistry Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lech2dd.zip
+- Business Studies 7 | URLError | https://ncert.nic.in/textbook/pdf/kebs107.pdf
+- वितान भाग 1 (Hindi Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/khvt102.pdf
+- Chemistry Part II Answers to some questions | URLError | https://ncert.nic.in/textbook/pdf/lech2an.pdf
+- Business Studies 8 | URLError | https://ncert.nic.in/textbook/pdf/kebs108.pdf
+- वितान भाग 1 (Hindi Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/khvt103.pdf
+- Chemistry Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lech2ps.pdf
+- Business Studies 9 | URLError | https://ncert.nic.in/textbook/pdf/kebs109.pdf
+- वितान भाग 1 (Hindi Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/khvt104.pdf
+- Mathematics Part I 1 | URLError | https://ncert.nic.in/textbook/pdf/lemh101.pdf
+- Business Studies 10 | URLError | https://ncert.nic.in/textbook/pdf/kebs110.pdf
+- वितान भाग 1 (Hindi Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/khvt105.pdf
+- Mathematics Part I 2 | URLError | https://ncert.nic.in/textbook/pdf/lemh102.pdf
+- Business Studies 11 | URLError | https://ncert.nic.in/textbook/pdf/kebs111.pdf
+- वितान भाग 1 (Hindi Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khvt1dd.zip
+- Mathematics Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/lemh103.pdf
+- Business Studies (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kebs1dd.zip
+- वितान भाग 1 (Hindi Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khvt1ps.pdf
+- Mathematics Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/lemh104.pdf
+- Business Studies Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kebs1ps.pdf
+- अंतराल भाग 1 (Hindi Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/khan101.pdf
+- Mathematics Part I 5 | URLError | https://ncert.nic.in/textbook/pdf/lemh105.pdf
+- Indian Economic Development 1 | URLError | https://ncert.nic.in/textbook/pdf/keec101.pdf
+- अंतराल भाग 1 (Hindi Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/khan102.pdf
+- Mathematics Part I 6 | URLError | https://ncert.nic.in/textbook/pdf/lemh106.pdf
+- Indian Economic Development 2 | URLError | https://ncert.nic.in/textbook/pdf/keec102.pdf
+- अंतराल भाग 1 (Hindi Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khan1dd.zip
+- Mathematics Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lemh1dd.zip
+- Indian Economic Development 3 | URLError | https://ncert.nic.in/textbook/pdf/keec103.pdf
+- अंतराल भाग 1 (Hindi Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khan1ps.pdf
+- Mathematics Part I Answers | URLError | https://ncert.nic.in/textbook/pdf/lemh1an.pdf
+- Indian Economic Development 4 | URLError | https://ncert.nic.in/textbook/pdf/keec104.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 1 | URLError | https://ncert.nic.in/textbook/pdf/kham101.pdf
+- Mathematics Part I Appendix 1: Proofs in Mathematics | URLError | https://ncert.nic.in/textbook/pdf/lemh1a1.pdf
+- Indian Economic Development 5 | URLError | https://ncert.nic.in/textbook/pdf/keec105.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 2 | URLError | https://ncert.nic.in/textbook/pdf/kham102.pdf
+- Mathematics Part I Appendix 2: Mathematical Modelling | URLError | https://ncert.nic.in/textbook/pdf/lemh1a2.pdf
+- Indian Economic Development 6 | URLError | https://ncert.nic.in/textbook/pdf/keec106.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 3 | URLError | https://ncert.nic.in/textbook/pdf/kham103.pdf
+- Mathematics Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lemh1ps.pdf
+- Indian Economic Development 7 | URLError | https://ncert.nic.in/textbook/pdf/keec107.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 4 | URLError | https://ncert.nic.in/textbook/pdf/kham104.pdf
+- Mathematics Part II 7 | URLError | https://ncert.nic.in/textbook/pdf/lemh201.pdf
+- Indian Economic Development 8 | URLError | https://ncert.nic.in/textbook/pdf/keec108.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 5 | URLError | https://ncert.nic.in/textbook/pdf/kham105.pdf
+- Mathematics Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/lemh202.pdf
+- Indian Economic Development (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/keec1dd.zip
+- अभिव्यक्ति और माध्यम (Hindi) 6 | URLError | https://ncert.nic.in/textbook/pdf/kham106.pdf
+- Mathematics Part II 9 | URLError | https://ncert.nic.in/textbook/pdf/lemh203.pdf
+- Indian Economic Development Glossary | URLError | https://ncert.nic.in/textbook/pdf/keec1gl.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 7 | URLError | https://ncert.nic.in/textbook/pdf/kham107.pdf
+- Mathematics Part II 10 | URLError | https://ncert.nic.in/textbook/pdf/lemh204.pdf
+- Indian Economic Development Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/keec1ps.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 8 | URLError | https://ncert.nic.in/textbook/pdf/kham108.pdf
+- Mathematics Part II 11 | URLError | https://ncert.nic.in/textbook/pdf/lemh205.pdf
+- Statistics for Economics 1 | URLError | https://ncert.nic.in/textbook/pdf/kest101.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 9 | URLError | https://ncert.nic.in/textbook/pdf/kham109.pdf
+- Mathematics Part II 12 | URLError | https://ncert.nic.in/textbook/pdf/lemh206.pdf
+- Statistics for Economics 2 | URLError | https://ncert.nic.in/textbook/pdf/kest102.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 10 | URLError | https://ncert.nic.in/textbook/pdf/kham110.pdf
+- Mathematics Part II 13 | URLError | https://ncert.nic.in/textbook/pdf/lemh207.pdf
+- Statistics for Economics 3 | URLError | https://ncert.nic.in/textbook/pdf/kest103.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 11 | URLError | https://ncert.nic.in/textbook/pdf/kham111.pdf
+- Mathematics Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lemh2dd.zip
+- Statistics for Economics 4 | URLError | https://ncert.nic.in/textbook/pdf/kest104.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 12 | URLError | https://ncert.nic.in/textbook/pdf/kham112.pdf
+- Mathematics Part II Answers | URLError | https://ncert.nic.in/textbook/pdf/lemh2an.pdf
+- Statistics for Economics 5 | URLError | https://ncert.nic.in/textbook/pdf/kest105.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 13 | URLError | https://ncert.nic.in/textbook/pdf/kham113.pdf
+- Mathematics Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lemh2ps.pdf
+- Statistics for Economics 6 | URLError | https://ncert.nic.in/textbook/pdf/kest106.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 14 | URLError | https://ncert.nic.in/textbook/pdf/kham114.pdf
+- Biology 1 | URLError | https://ncert.nic.in/textbook/pdf/lebo101.pdf
+- Statistics for Economics 7 | URLError | https://ncert.nic.in/textbook/pdf/kest107.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 15 | URLError | https://ncert.nic.in/textbook/pdf/kham115.pdf
+- Biology 2 | URLError | https://ncert.nic.in/textbook/pdf/lebo102.pdf
+- Statistics for Economics 8 | URLError | https://ncert.nic.in/textbook/pdf/kest108.pdf
+- अभिव्यक्ति और माध्यम (Hindi) 16 | URLError | https://ncert.nic.in/textbook/pdf/kham116.pdf
+- Biology 3 | URLError | https://ncert.nic.in/textbook/pdf/lebo103.pdf
+- Statistics for Economics (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kest1dd.zip
+- अभिव्यक्ति और माध्यम (Hindi) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kham1dd.zip
+- Biology 4 | URLError | https://ncert.nic.in/textbook/pdf/lebo104.pdf
+- Statistics for Economics Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kest1ps.pdf
+- अभिव्यक्ति और माध्यम (Hindi) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kham1ps.pdf
+- Biology 5 | URLError | https://ncert.nic.in/textbook/pdf/lebo105.pdf
+- Themes in World History 1 | URLError | https://ncert.nic.in/textbook/pdf/kehs101.pdf
+- सृजन भाग 1 (Hindi Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/khsr101.pdf
+- Biology 6 | URLError | https://ncert.nic.in/textbook/pdf/lebo106.pdf
+- Themes in World History 2 | URLError | https://ncert.nic.in/textbook/pdf/kehs102.pdf
+- सृजन भाग 1 (Hindi Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/khsr102.pdf
+- Biology 7 | URLError | https://ncert.nic.in/textbook/pdf/lebo107.pdf
+- Themes in World History 3 | URLError | https://ncert.nic.in/textbook/pdf/kehs103.pdf
+- सृजन भाग 1 (Hindi Elective) 3 | URLError | https://ncert.nic.in/textbook/pdf/khsr103.pdf
+- Biology 8 | URLError | https://ncert.nic.in/textbook/pdf/lebo108.pdf
+- Themes in World History 4 | URLError | https://ncert.nic.in/textbook/pdf/kehs104.pdf
+- सृजन भाग 1 (Hindi Elective) 4 | URLError | https://ncert.nic.in/textbook/pdf/khsr104.pdf
+- Biology 9 | URLError | https://ncert.nic.in/textbook/pdf/lebo109.pdf
+- Themes in World History 5 | URLError | https://ncert.nic.in/textbook/pdf/kehs105.pdf
+- सृजन भाग 1 (Hindi Elective) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khsr1dd.zip
+- Biology 10 | URLError | https://ncert.nic.in/textbook/pdf/lebo110.pdf
+- Themes in World History 6 | URLError | https://ncert.nic.in/textbook/pdf/kehs106.pdf
+- सृजन भाग 1 (Hindi Elective) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khsr1ps.pdf
+- Biology 11 | URLError | https://ncert.nic.in/textbook/pdf/lebo111.pdf
+- Themes in World History 7 | URLError | https://ncert.nic.in/textbook/pdf/kehs107.pdf
+- भास्वती प्रथमो भागः (Sanskrit Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/khsk101.pdf
+- Biology 12 | URLError | https://ncert.nic.in/textbook/pdf/lebo112.pdf
+- Themes in World History (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kehs1dd.zip
+- भास्वती प्रथमो भागः (Sanskrit Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/khsk102.pdf
+- Biology 13 | URLError | https://ncert.nic.in/textbook/pdf/lebo113.pdf
+- Themes in World History Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kehs1ps.pdf
+- भास्वती प्रथमो भागः (Sanskrit Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/khsk103.pdf
+- Biology (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lebo1dd.zip
+- India: Physical Environment 1 | URLError | https://ncert.nic.in/textbook/pdf/kegy101.pdf
+- भास्वती प्रथमो भागः (Sanskrit Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/khsk104.pdf
+- Biology Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lebo1ps.pdf
+- India: Physical Environment 2 | URLError | https://ncert.nic.in/textbook/pdf/kegy102.pdf
+- भास्वती प्रथमो भागः (Sanskrit Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/khsk105.pdf
+- Flamingo (English Core) 1 | URLError | https://ncert.nic.in/textbook/pdf/lefl101.pdf
+- India: Physical Environment 3 | URLError | https://ncert.nic.in/textbook/pdf/kegy103.pdf
+- भास्वती प्रथमो भागः (Sanskrit Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/khsk106.pdf
+- Flamingo (English Core) 2 | URLError | https://ncert.nic.in/textbook/pdf/lefl102.pdf
+- India: Physical Environment 4 | URLError | https://ncert.nic.in/textbook/pdf/kegy104.pdf
+- भास्वती प्रथमो भागः (Sanskrit Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/khsk107.pdf
+- Flamingo (English Core) 3 | URLError | https://ncert.nic.in/textbook/pdf/lefl103.pdf
+- India: Physical Environment 5 | URLError | https://ncert.nic.in/textbook/pdf/kegy105.pdf
+- भास्वती प्रथमो भागः (Sanskrit Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/khsk108.pdf
+- Flamingo (English Core) 4 | URLError | https://ncert.nic.in/textbook/pdf/lefl104.pdf
+- India: Physical Environment 6 | URLError | https://ncert.nic.in/textbook/pdf/kegy106.pdf
+- भास्वती प्रथमो भागः (Sanskrit Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/khsk109.pdf
+- Flamingo (English Core) 5 | URLError | https://ncert.nic.in/textbook/pdf/lefl105.pdf
+- India: Physical Environment (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/kegy1dd.zip
+- भास्वती प्रथमो भागः (Sanskrit Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/khsk110.pdf
+- Flamingo (English Core) 6 | URLError | https://ncert.nic.in/textbook/pdf/lefl106.pdf
+- India: Physical Environment Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/kegy1ps.pdf
+- भास्वती प्रथमो भागः (Sanskrit Core) 11 | URLError | https://ncert.nic.in/textbook/pdf/khsk111.pdf
+- Flamingo (English Core) 7 | URLError | https://ncert.nic.in/textbook/pdf/lefl107.pdf
+- Fundamentals of Physical Geography 1 | URLError | https://ncert.nic.in/textbook/pdf/kegy201.pdf
+- भास्वती प्रथमो भागः (Sanskrit Core) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/khsk1dd.zip
+- Flamingo (English Core) 8 | URLError | https://ncert.nic.in/textbook/pdf/lefl108.pdf
+- Fundamentals of Physical Geography 2 | URLError | https://ncert.nic.in/textbook/pdf/kegy202.pdf
+- भास्वती प्रथमो भागः (Sanskrit Core) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/khsk1ps.pdf
+- Flamingo (English Core) 9 | URLError | https://ncert.nic.in/textbook/pdf/lefl111.pdf
+- Fundamentals of Physical Geography 3 | URLError | https://ncert.nic.in/textbook/pdf/kegy203.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) 1 | URLError | https://ncert.nic.in/textbook/pdf/khsk201.pdf
+- Flamingo (English Core) 10 | URLError | https://ncert.nic.in/textbook/pdf/lefl112.pdf
+- Fundamentals of Physical Geography 4 | URLError | https://ncert.nic.in/textbook/pdf/kegy204.pdf
+- शाश्वती प्रथमो भागः (Sanskrit Elective) 2 | URLError | https://ncert.nic.in/textbook/pdf/khsk202.pdf
+- Flamingo (English Core) 11 | URLError | https://ncert.nic.in/textbook/pdf/lefl113.pdf
+- Political Science: Democratic Politics II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jess4ps.pdf
+- Themes in Indian History Part I 3 | URLError | https://ncert.nic.in/textbook/pdf/lehs103.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep103.pdf
+- Door-Paas (supplementary reader) 1 | URLError | https://ncert.nic.in/textbook/pdf/judp101.pdf
+- Themes in Indian History Part I 4 | URLError | https://ncert.nic.in/textbook/pdf/lehs104.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep104.pdf
+- Door-Paas (supplementary reader) 2 | URLError | https://ncert.nic.in/textbook/pdf/judp102.pdf
+- Themes in Indian History Part I (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lehs1dd.zip
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep105.pdf
+- Door-Paas (supplementary reader) 3 | URLError | https://ncert.nic.in/textbook/pdf/judp103.pdf
+- Themes in Indian History Part I Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lehs1ps.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep106.pdf
+- Door-Paas (supplementary reader) 4 | URLError | https://ncert.nic.in/textbook/pdf/judp104.pdf
+- Themes in Indian History Part II 5 | URLError | https://ncert.nic.in/textbook/pdf/lehs201.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep107.pdf
+- Door-Paas (supplementary reader) 5 | URLError | https://ncert.nic.in/textbook/pdf/judp105.pdf
+- Themes in Indian History Part II 6 | URLError | https://ncert.nic.in/textbook/pdf/lehs202.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep108.pdf
+- Door-Paas (supplementary reader) 6 | URLError | https://ncert.nic.in/textbook/pdf/judp106.pdf
+- Themes in Indian History Part II 7 | URLError | https://ncert.nic.in/textbook/pdf/lehs203.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep109.pdf
+- Door-Paas (supplementary reader) 7 | URLError | https://ncert.nic.in/textbook/pdf/judp107.pdf
+- Themes in Indian History Part II 8 | URLError | https://ncert.nic.in/textbook/pdf/lehs204.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics/feep1an.pdf
+- Door-Paas (supplementary reader) 8 | URLError | https://ncert.nic.in/textbook/pdf/judp108.pdf
+- Themes in Indian History Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lehs2dd.zip
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep101.pdf
+- Door-Paas (supplementary reader) 9 | URLError | https://ncert.nic.in/textbook/pdf/judp109.pdf
+- Themes in Indian History Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lehs2ps.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep102.pdf
+- Door-Paas (supplementary reader) 10 | URLError | https://ncert.nic.in/textbook/pdf/judp110.pdf
+- Themes in Indian History Part III 9 | URLError | https://ncert.nic.in/textbook/pdf/lehs301.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep103.pdf
+- Door-Paas (supplementary reader) 11 | URLError | https://ncert.nic.in/textbook/pdf/judp111.pdf
+- Themes in Indian History Part III 10 | URLError | https://ncert.nic.in/textbook/pdf/lehs302.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep104.pdf
+- Door-Paas (supplementary reader) 12 | URLError | https://ncert.nic.in/textbook/pdf/judp112.pdf
+- Themes in Indian History Part III 11 | URLError | https://ncert.nic.in/textbook/pdf/lehs303.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep105.pdf
+- Door-Paas (supplementary reader) 13 | URLError | https://ncert.nic.in/textbook/pdf/judp113.pdf
+- Themes in Indian History Part III 12 | URLError | https://ncert.nic.in/textbook/pdf/lehs304.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep106.pdf
+- Door-Paas (supplementary reader) 14 | URLError | https://ncert.nic.in/textbook/pdf/judp114.pdf
+- Themes in Indian History Part III (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/lehs3dd.zip
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep107.pdf
+- Door-Paas (supplementary reader) 15 | URLError | https://ncert.nic.in/textbook/pdf/judp115.pdf
+- Themes in Indian History Part III Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/lehs3ps.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep108.pdf
+- Door-Paas (supplementary reader) 16 | URLError | https://ncert.nic.in/textbook/pdf/judp116.pdf
+- Fundamentals of Human Geography 1 | URLError | https://ncert.nic.in/textbook/pdf/legy101.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep109.pdf
+- Door-Paas (supplementary reader) 17 | URLError | https://ncert.nic.in/textbook/pdf/judp117.pdf
+- Fundamentals of Human Geography 2 | URLError | https://ncert.nic.in/textbook/pdf/legy102.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/Mathematics(hindi)/fhep1an.pdf
+- Door-Paas (supplementary reader) 18 | URLError | https://ncert.nic.in/textbook/pdf/judp118.pdf
+- Fundamentals of Human Geography 3 | URLError | https://ncert.nic.in/textbook/pdf/legy103.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep201.pdf
+- Door-Paas (supplementary reader) 19 | URLError | https://ncert.nic.in/textbook/pdf/judp119.pdf
+- Fundamentals of Human Geography 4 | URLError | https://ncert.nic.in/textbook/pdf/legy104.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep202.pdf
+- Door-Paas (supplementary reader) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/judp1dd.zip
+- Fundamentals of Human Geography 5 | URLError | https://ncert.nic.in/textbook/pdf/legy105.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep203.pdf
+- Door-Paas (supplementary reader) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/judp1ps.pdf
+- Fundamentals of Human Geography 6 | URLError | https://ncert.nic.in/textbook/pdf/legy106.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep204.pdf
+- Gulzar-e-Urdu (supplementary reader) 1 | URLError | https://ncert.nic.in/textbook/pdf/juge101.pdf
+- Fundamentals of Human Geography 7 | URLError | https://ncert.nic.in/textbook/pdf/legy107.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep205.pdf
+- Gulzar-e-Urdu (supplementary reader) 2 | URLError | https://ncert.nic.in/textbook/pdf/juge102.pdf
+- Fundamentals of Human Geography 8 | URLError | https://ncert.nic.in/textbook/pdf/legy108.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep206.pdf
+- Gulzar-e-Urdu (supplementary reader) 3 | URLError | https://ncert.nic.in/textbook/pdf/juge103.pdf
+- Fundamentals of Human Geography (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/legy1dd.zip
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep207.pdf
+- Gulzar-e-Urdu (supplementary reader) 4 | URLError | https://ncert.nic.in/textbook/pdf/juge104.pdf
+- Fundamentals of Human Geography Appendix | URLError | https://ncert.nic.in/textbook/pdf/legy1a1.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep208.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep209.pdf
+- Gulzar-e-Urdu (supplementary reader) 6 | URLError | https://ncert.nic.in/textbook/pdf/juge106.pdf
+- Fundamentals of Human Geography Glossary | URLError | https://ncert.nic.in/textbook/pdf/legy1gl.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep210.pdf
+- Gulzar-e-Urdu (supplementary reader) 7 | URLError | https://ncert.nic.in/textbook/pdf/juge107.pdf
+- Fundamentals of Human Geography Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/legy1ps.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep211.pdf
+- Gulzar-e-Urdu (supplementary reader) 8 | URLError | https://ncert.nic.in/textbook/pdf/juge108.pdf
+- India: People and Economy 1 | URLError | https://ncert.nic.in/textbook/pdf/legy201.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep212.pdf
+- Gulzar-e-Urdu (supplementary reader) 9 | URLError | https://ncert.nic.in/textbook/pdf/juge109.pdf
+- India: People and Economy 2 | URLError | https://ncert.nic.in/textbook/pdf/legy202.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep213.pdf
+- Gulzar-e-Urdu (supplementary reader) 10 | URLError | https://ncert.nic.in/textbook/pdf/juge110.pdf
+- India: People and Economy 3 | URLError | https://ncert.nic.in/textbook/pdf/legy203.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep214.pdf
+- Gulzar-e-Urdu (supplementary reader) 11 | URLError | https://ncert.nic.in/textbook/pdf/juge111.pdf
+- India: People and Economy 4 | URLError | https://ncert.nic.in/textbook/pdf/legy204.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep215.pdf
+- Gulzar-e-Urdu (supplementary reader) 12 | URLError | https://ncert.nic.in/textbook/pdf/juge112.pdf
+- India: People and Economy 5 | URLError | https://ncert.nic.in/textbook/pdf/legy205.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep216.pdf
+- Gulzar-e-Urdu (supplementary reader) (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/juge1dd.zip
+- India: People and Economy 6 | URLError | https://ncert.nic.in/textbook/pdf/legy206.pdf
+- Question bank ex 6 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVI/science/feep2an.pdf
+- Gulzar-e-Urdu (supplementary reader) Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/juge1ps.pdf
+- India: People and Economy 7 | URLError | https://ncert.nic.in/textbook/pdf/legy207.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp101.pdf
+- Jaan Pahechan 1 | URLError | https://ncert.nic.in/textbook/pdf/jujp101.pdf
+- India: People and Economy 8 | URLError | https://ncert.nic.in/textbook/pdf/legy208.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp102.pdf
+- Jaan Pahechan 2 | URLError | https://ncert.nic.in/textbook/pdf/jujp102.pdf
+- India: People and Economy 9 | URLError | https://ncert.nic.in/textbook/pdf/legy209.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp103.pdf
+- Jaan Pahechan 3 | URLError | https://ncert.nic.in/textbook/pdf/jujp103.pdf
+- India: People and Economy (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/legy2dd.zip
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp104.pdf
+- Jaan Pahechan 4 | URLError | https://ncert.nic.in/textbook/pdf/jujp104.pdf
+- India: People and Economy Appendix | URLError | https://ncert.nic.in/textbook/pdf/legy2a1.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp105.pdf
+- Jaan Pahechan 5 | URLError | https://ncert.nic.in/textbook/pdf/jujp105.pdf
+- India: People and Economy Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/legy2ps.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp106.pdf
+- Jaan Pahechan 6 | URLError | https://ncert.nic.in/textbook/pdf/jujp106.pdf
+- Practical Work in Geography Part II 1 | URLError | https://ncert.nic.in/textbook/pdf/legy301.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp107.pdf
+- Jaan Pahechan 7 | URLError | https://ncert.nic.in/textbook/pdf/jujp107.pdf
+- Practical Work in Geography Part II 2 | URLError | https://ncert.nic.in/textbook/pdf/legy302.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp108.pdf
+- Jaan Pahechan 8 | URLError | https://ncert.nic.in/textbook/pdf/jujp108.pdf
+- Practical Work in Geography Part II 3 | URLError | https://ncert.nic.in/textbook/pdf/legy303.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp109.pdf
+- Jaan Pahechan 9 | URLError | https://ncert.nic.in/textbook/pdf/jujp109.pdf
+- Practical Work in Geography Part II 4 | URLError | https://ncert.nic.in/textbook/pdf/legy304.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp110.pdf
+- Jaan Pahechan 10 | URLError | https://ncert.nic.in/textbook/pdf/jujp110.pdf
+- Practical Work in Geography Part II (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/legy3dd.zip
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp111.pdf
+- Jaan Pahechan 11 | URLError | https://ncert.nic.in/textbook/pdf/jujp111.pdf
+- Practical Work in Geography Part II Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/legy3ps.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp112.pdf
+- Jaan Pahechan 12 | URLError | https://ncert.nic.in/textbook/pdf/jujp112.pdf
+- Contemporary World Politics 1 | URLError | https://ncert.nic.in/textbook/pdf/leps101.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Mathematics/gemp1a1.pdf
+- Jaan Pahechan 13 | URLError | https://ncert.nic.in/textbook/pdf/jujp113.pdf
+- Contemporary World Politics 2 | URLError | https://ncert.nic.in/textbook/pdf/leps102.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep101.pdf
+- Jaan Pahechan 14 | URLError | https://ncert.nic.in/textbook/pdf/jujp114.pdf
+- Contemporary World Politics 3 | URLError | https://ncert.nic.in/textbook/pdf/leps103.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep102.pdf
+- Jaan Pahechan 15 | URLError | https://ncert.nic.in/textbook/pdf/jujp115.pdf
+- Contemporary World Politics 4 | URLError | https://ncert.nic.in/textbook/pdf/leps104.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep103.pdf
+- Jaan Pahechan 16 | URLError | https://ncert.nic.in/textbook/pdf/jujp116.pdf
+- Contemporary World Politics 5 | URLError | https://ncert.nic.in/textbook/pdf/leps105.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep104.pdf
+- Jaan Pahechan 17 | URLError | https://ncert.nic.in/textbook/pdf/jujp117.pdf
+- Contemporary World Politics 6 | URLError | https://ncert.nic.in/textbook/pdf/leps106.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep105.pdf
+- Jaan Pahechan 18 | URLError | https://ncert.nic.in/textbook/pdf/jujp118.pdf
+- Contemporary World Politics 7 | URLError | https://ncert.nic.in/textbook/pdf/leps107.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep106.pdf
+- Jaan Pahechan 19 | URLError | https://ncert.nic.in/textbook/pdf/jujp119.pdf
+- Contemporary World Politics (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leps1dd.zip
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep107.pdf
+- Jaan Pahechan 20 | URLError | https://ncert.nic.in/textbook/pdf/jujp120.pdf
+- Contemporary World Politics Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leps1ps.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep108.pdf
+- Jaan Pahechan 21 | URLError | https://ncert.nic.in/textbook/pdf/jujp121.pdf
+- Politics in India since Independence 1 | URLError | https://ncert.nic.in/textbook/pdf/leps201.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep109.pdf
+- Jaan Pahechan 22 | URLError | https://ncert.nic.in/textbook/pdf/jujp122.pdf
+- Politics in India since Independence 2 | URLError | https://ncert.nic.in/textbook/pdf/leps202.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep110.pdf
+- Jaan Pahechan (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/jujp1dd.zip
+- Politics in India since Independence 3 | URLError | https://ncert.nic.in/textbook/pdf/leps203.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep111.pdf
+- Jaan Pahechan Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/jujp1ps.pdf
+- Politics in India since Independence 4 | URLError | https://ncert.nic.in/textbook/pdf/leps204.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep112.pdf
+- Nawa-e-Urdu 1 | URLError | https://ncert.nic.in/textbook/pdf/june101.pdf
+- Politics in India since Independence 5 | URLError | https://ncert.nic.in/textbook/pdf/leps205.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep113.pdf
+- Nawa-e-Urdu 2 | URLError | https://ncert.nic.in/textbook/pdf/june102.pdf
+- Politics in India since Independence 6 | URLError | https://ncert.nic.in/textbook/pdf/leps206.pdf
+- Question bank ex 7 | URLError | https://ncert.nic.in/pdf/publication/exemplarproblem/classVII/Science/geep114.pdf
+- Nawa-e-Urdu 3 | URLError | https://ncert.nic.in/textbook/pdf/june103.pdf
+- Politics in India since Independence 7 | URLError | https://ncert.nic.in/textbook/pdf/leps207.pdf
+- Nawa-e-Urdu 4 | URLError | https://ncert.nic.in/textbook/pdf/june104.pdf
+- Politics in India since Independence 8 | URLError | https://ncert.nic.in/textbook/pdf/leps208.pdf
+- Nawa-e-Urdu 5 | URLError | https://ncert.nic.in/textbook/pdf/june105.pdf
+- Politics in India since Independence (ZIP) | URLError | https://ncert.nic.in/textbook/pdf/leps2dd.zip
+- Nawa-e-Urdu 6 | URLError | https://ncert.nic.in/textbook/pdf/june106.pdf
+- Politics in India since Independence Preface and contents | URLError | https://ncert.nic.in/textbook/pdf/leps2ps.pdf
+- Nawa-e-Urdu 7 | URLError | https://ncert.nic.in/textbook/pdf/june107.pdf
+- Indian Society 1 | URLError | https://ncert.nic.in/textbook/pdf/lesy101.pdf
+- Nawa-e-Urdu 9 | URLError | https://ncert.nic.in/textbook/pdf/june109.pdf
+- Nawa-e-Urdu 8 | URLError | https://ncert.nic.in/textbook/pdf/june108.pdf
+- Indian Society 2 | URLError | https://ncert.nic.in/textbook/pdf/lesy102.pdf
+- Indian Society 3 | URLError | https://ncert.nic.in/textbook/pdf/lesy103.pdf
