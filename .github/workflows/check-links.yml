@@ -7,7 +7,11 @@ name: Check links
 on:
   schedule:
     - cron: "0 3 * * 1"   # every Monday
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      sample:
+        description: "Only look at this many links (0 = all of them)"
+        default: "0"
 
 permissions:
   contents: write
@@ -22,11 +26,14 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/check_links.py
+        env:
+          LINK_SAMPLE: ${{ inputs.sample }}
       - uses: actions/upload-artifact@v4
         with:
           name: link-report
           path: link_report.json
       - name: Save the report on the qa-reports branch
+        if: ${{ inputs.sample == '' || inputs.sample == '0' }}
         run: |
           python - <<'PY'
           import json
