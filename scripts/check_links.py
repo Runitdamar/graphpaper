@@ -16,6 +16,7 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BBASE = "https://ncert.nic.in/textbook/pdf/"
+BUDGET = int(os.environ.get("LINK_BUDGET", "2700"))   # seconds (45 minutes)
 UA = {"User-Agent": "Mozilla/5.0 (compatible; GraphPaperLinkCheck/1.0)", "Range": "bytes=0-1023"}
 
 
@@ -91,7 +92,7 @@ def probe(u):
     for attempt in range(3):
         try:
             req = urllib.request.Request(u, headers=UA)
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with urllib.request.urlopen(req, timeout=20) as r:
                 head = r.read(8)
                 return {"url": u0, "status": r.status, "type": r.headers.get("Content-Type", ""), "len": r.headers.get("Content-Length", ""),
                         "pdf_ok": head.startswith(b"%PDF"), "zip_ok": head.startswith(b"PK")}
@@ -108,8 +109,16 @@ def probe(u):
 def main():
     urls = collect()
     print("checking", len(urls), "links")
-    with cf.ThreadPoolExecutor(6) as ex:
-        res = list(ex.map(probe, urls))
+    # The weekly run used to hit the workflow's 60 minute limit and get cancelled with no report. Now 16 links are
+    # opened at a time, and after BUDGET seconds whatever is still waiting is left out and the report says so.
+    ex = cf.ThreadPoolExecutor(16)
+    futs = {ex.submit(probe, u): u for u in urls}
+    done, waiting = cf.wait(futs, timeout=BUDGET)
+    for f in waiting:
+        f.cancel()
+    ex.shutdown(wait=False, cancel_futures=True)
+    res = [f.result() for f in done]
+    skipped = len(waiting)
     bad = []
     for r in res:
         r["what"] = urls[r["url"]]
@@ -122,8 +131,8 @@ def main():
         r["ok"] = ok
         if not ok:
             bad.append(r)
-    json.dump({"total": len(res), "failed": len(bad), "failures": bad}, open(os.path.join(ROOT, "link_report.json"), "w"), indent=1)
-    lines = ["## Link check: %d links, %d problem(s)" % (len(res), len(bad))] + ["- %s | %s | %s" % (b["what"], b.get("error") or b.get("status"), b["url"]) for b in bad[:200]]
+    json.dump({"total": len(res), "failed": len(bad), "skipped": skipped, "failures": bad}, open(os.path.join(ROOT, "link_report.json"), "w"), indent=1)
+    lines = ["## Link check: %d links, %d problem(s)" % (len(res), len(bad))] + (["Ran out of time: %d links were not checked this week." % skipped] if skipped else []) + ["- %s | %s | %s" % (b["what"], b.get("error") or b.get("status"), b["url"]) for b in bad[:200]]
     print("\n".join(lines))
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         open(os.environ["GITHUB_STEP_SUMMARY"], "a").write("\n".join(lines) + "\n")
