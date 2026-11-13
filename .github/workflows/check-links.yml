@@ -31,7 +31,7 @@ jobs:
           python - <<'PY'
           import json
           d = json.load(open("link_report.json"))
-          lines = ["# Link check: %d links, %d problem(s)" % (d["total"], d["failed"]), ""]
+          lines = ["# Link check: %d links, %d problem(s)" % (d["total"], d["failed"]), ""] + (["%d links were not checked (out of time)." % d["skipped"], ""] if d.get("skipped") else [])
           lines += ["- %s | %s | %s" % (b["what"], b.get("error") or b.get("status"), b["url"]) for b in d["failures"]]
           open("/tmp/links.md", "w").write("\n".join(lines) + "\n")
           PY
