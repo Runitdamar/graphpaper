@@ -16,7 +16,7 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BBASE = "https://ncert.nic.in/textbook/pdf/"
-BUDGET = int(os.environ.get("LINK_BUDGET", "2700"))   # seconds (45 minutes)
+BUDGET = int(os.environ.get("LINK_BUDGET", "3000"))   # seconds (50 minutes, the workflow stops at 60)
 UA = {"User-Agent": "Mozilla/5.0 (compatible; GraphPaperLinkCheck/1.0)", "Range": "bytes=0-1023"}
 
 
@@ -111,7 +111,10 @@ def main():
     print("checking", len(urls), "links")
     # The weekly run used to hit the workflow's 60 minute limit and get cancelled with no report. Now 16 links are
     # opened at a time, and after BUDGET seconds whatever is still waiting is left out and the report says so.
-    ex = cf.ThreadPoolExecutor(16)
+    # 16 at once was too many: ncert.nic.in refused about 40% of the connections and the report filled with false alarms.
+    # So 8 at a time, and every link that failed to connect (not a real 404) is tried again, 3 at a time.
+    t0 = time.time()
+    ex = cf.ThreadPoolExecutor(8)
     futs = {ex.submit(probe, u): u for u in urls}
     done, waiting = cf.wait(futs, timeout=BUDGET)
     for f in waiting:
@@ -119,6 +122,17 @@ def main():
     ex.shutdown(wait=False, cancel_futures=True)
     res = [f.result() for f in done]
     skipped = len(waiting)
+    again = [r["url"] for r in res if r.get("status") == 0 and not str(r.get("error", "")).startswith("HTTP")]
+    if again:
+        print("trying again:", len(again), "links that did not connect")
+        ex = cf.ThreadPoolExecutor(3)
+        futs2 = {ex.submit(probe, u): u for u in again}
+        done2, waiting2 = cf.wait(futs2, timeout=max(60, BUDGET - (time.time() - t0)))
+        for f in waiting2:
+            f.cancel()
+        ex.shutdown(wait=False, cancel_futures=True)
+        fixed = {f.result()["url"]: f.result() for f in done2}
+        res = [fixed.get(r["url"], r) for r in res]
     bad = []
     for r in res:
         r["what"] = urls[r["url"]]
