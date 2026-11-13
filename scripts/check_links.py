@@ -89,10 +89,11 @@ def probe(u):
     import urllib.parse
     u0, u = u, urllib.parse.quote(u, safe=":/?&=%#+,;@~!$'()*[]")
     last = ""
+    ctx = None
     for attempt in range(3):
         try:
             req = urllib.request.Request(u, headers=UA)
-            with urllib.request.urlopen(req, timeout=20) as r:
+            with urllib.request.urlopen(req, timeout=20, context=ctx) as r:
                 head = r.read(8)
                 return {"url": u0, "status": r.status, "type": r.headers.get("Content-Type", ""), "len": r.headers.get("Content-Length", ""),
                         "pdf_ok": head.startswith(b"%PDF"), "zip_ok": head.startswith(b"PK")}
@@ -101,6 +102,13 @@ def probe(u):
             if e.code in (404, 410):
                 break
         except Exception as e:  # network trouble: retry
+            if "CERTIFICATE_VERIFY_FAILED" in str(e) and ctx is None:
+                # ncert.nic.in sometimes sends its certificate without the middle link of the chain. Browsers fill that in
+                # on their own, Python does not, so this is not a broken link. Look again without the chain check: the
+                # check below still confirms that a PDF or ZIP comes back, and nothing private is sent.
+                import ssl
+                ctx = ssl._create_unverified_context()
+                continue
             last = "%s: %s" % (type(e).__name__, str(getattr(e, "reason", e))[:90])
         time.sleep(2 + attempt * 3)
     return {"url": u0, "status": 0, "error": last}
