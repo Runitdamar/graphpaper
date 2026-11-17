@@ -1,6 +1,6 @@
 # GraphPaper
 
-> GraphPaper is a free study hub for CBSE Classes 9 to 12. It does not host files: it links to NCERT and CBSE official sources (4017 links, 2586 PDFs, 1430 whole-book ZIPs, all re-checked every week) and shows CBSE notices within about 20 minutes of publication. GraphPaper is not an official board website.
+> GraphPaper is a free study hub for CBSE Classes 9 to 12. It does not host files: it links to NCERT and CBSE official sources (4019 links, 2588 PDFs, 1430 whole-book ZIPs, all re-checked every week) and shows CBSE notices within about 20 minutes of publication. GraphPaper is not an official board website.
 
 ## Classes 9 to 12
 
@@ -24,6 +24,8 @@
 
 ## Latest CBSE notices
 
+- [Screening of Sensitization Module on Inclusive Education for School Staff through PRASHAST Portal](https://graphpaper.co.in/notice/screening-of-sensitization-module-on-inclusive-education-for-school-staff): published 2026-11-17
+- [Enrolment of Experienced Teachers as Mentors under the Mentoring Initiative for Teaching, Research and Assessment (MITRA)](https://graphpaper.co.in/notice/enrolment-of-experienced-teachers-as-mentors-under-the-mentoring-initiative-for): published 2026-11-17
 - [Providing OSM Evaluation Data on IPS Spot Evaluation Portal 2026 and Enabling CNSs to Complete and Freeze IPS Data for Processing of Release of Payments](https://graphpaper.co.in/notice/providing-osm-evaluation-data-on-ips-spot-evaluation-portal-2026-and-enabling): published 2026-11-13
 - [Circular regarding Subject-wise Marks Bifurcation of Class X/XII, Examination 2026-27](https://graphpaper.co.in/notice/circular-regarding-subject-wise-marks-bifurcation-of-class-x-xii-examination-2026-11-06): published 2026-11-06
 - [Date Sheet for Class X and Class XII Board Examinations, 2027](https://graphpaper.co.in/notice/date-sheet-for-class-x-and-class-xii-board-examinations-2027): published 2026-11-06
@@ -32,8 +34,6 @@
 - [Conduct of Practical Examination/Project Assessment/Internal Assessment for Classes X and XII, for Winter Bound Schools for session 2026-27 – Regarding](https://graphpaper.co.in/notice/conduct-of-practical-examination-project-assessment-internal-assessment-for): published 2026-11-05
 - [Correction of LOC data 2026-27 - reg.](https://graphpaper.co.in/notice/correction-of-loc-data-2026-27-reg): published 2026-11-02
 - [Visit of Students of CBSE - Affiliated Schools to the CBSE Experience Centre - reg.](https://graphpaper.co.in/notice/visit-of-students-of-cbse-affiliated-schools-to-the-cbse-experience-centre-reg): published 2026-10-30
-- [Scheme of Studies for Class IX 2026-27 – reg.](https://graphpaper.co.in/notice/scheme-of-studies-for-class-ix-2026-27-reg): published 2026-10-29
-- [Reminder 6 : Today is the last date for the submission of LOC - Reg.](https://graphpaper.co.in/notice/reminder-6-today-is-the-last-date-for-the-submission-of-loc-reg): published 2026-10-21
 
 ## Optional
 

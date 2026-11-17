@@ -825,7 +825,8 @@
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/CBSE_PRASHAST_Portal_17112026.pdf",
     "status": "approved",
-    "auto": true
+    "auto": true,
+    "slug": "screening-of-sensitization-module-on-inclusive-education-for-school-staff"
   },
   {
     "id": "cbse-058847ec63",
@@ -835,6 +836,7 @@
     "summary": "",
     "url": "https://www.cbse.gov.in/cbsenew/documents/TRG_MITRA_23_17112026.pdf",
     "status": "approved",
-    "auto": true
+    "auto": true,
+    "slug": "enrolment-of-experienced-teachers-as-mentors-under-the-mentoring-initiative-for"
   }
 ]
