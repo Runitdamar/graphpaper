@@ -476,6 +476,16 @@
       "source": "/notice/cbse-8491b5f7dc",
       "destination": "/notice/providing-osm-evaluation-data-on-ips-spot-evaluation-portal-2026-and-enabling",
       "permanent": true
+    },
+    {
+      "source": "/notice/cbse-77c29e0bbf",
+      "destination": "/notice/screening-of-sensitization-module-on-inclusive-education-for-school-staff",
+      "permanent": true
+    },
+    {
+      "source": "/notice/cbse-058847ec63",
+      "destination": "/notice/enrolment-of-experienced-teachers-as-mentors-under-the-mentoring-initiative-for",
+      "permanent": true
     }
   ],
   "rewrites": [
