@@ -816,5 +816,25 @@
     "status": "approved",
     "auto": true,
     "slug": "providing-osm-evaluation-data-on-ips-spot-evaluation-portal-2026-and-enabling"
+  },
+  {
+    "id": "cbse-77c29e0bbf",
+    "tag": "Circular",
+    "title": "Screening of Sensitization Module on Inclusive Education for School Staff through PRASHAST Portal",
+    "date": "2026-11-17",
+    "summary": "",
+    "url": "https://www.cbse.gov.in/cbsenew/documents/CBSE_PRASHAST_Portal_17112026.pdf",
+    "status": "approved",
+    "auto": true
+  },
+  {
+    "id": "cbse-058847ec63",
+    "tag": "Circular",
+    "title": "Enrolment of Experienced Teachers as Mentors under the Mentoring Initiative for Teaching, Research and Assessment (MITRA)",
+    "date": "2026-11-17",
+    "summary": "",
+    "url": "https://www.cbse.gov.in/cbsenew/documents/TRG_MITRA_23_17112026.pdf",
+    "status": "approved",
+    "auto": true
   }
 ]
