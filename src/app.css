@@ -196,8 +196,8 @@ details.arch>summary{cursor:pointer;font-family:Fredoka,'Fredoka Fallback',sans-
 /* Cutting-mat hero: ruler ticks along the top and left edge, an inner frame, a fine grid every 24px and a bold line every 120px */
 .sx-hero{position:relative;isolation:isolate;overflow:hidden;background-color:var(--mbg);background-image:repeating-linear-gradient(90deg,rgba(var(--ml),.8) 0 2px,transparent 2px 60px),repeating-linear-gradient(90deg,rgba(var(--ml),.55) 0 1px,transparent 1px 12px),repeating-linear-gradient(0deg,rgba(var(--ml),.8) 0 2px,transparent 2px 60px),repeating-linear-gradient(0deg,rgba(var(--ml),.55) 0 1px,transparent 1px 12px);background-size:100% 16px,100% 9px,16px 100%,9px 100%;background-repeat:no-repeat;background-position:0 0,0 0,0 0,0 0}
 .sx-hero:before{content:"";position:absolute;z-index:-1;inset:24px 10px 10px 24px;border:2px solid rgba(var(--ml),.45);border-radius:6px;pointer-events:none;background-image:linear-gradient(rgba(var(--ml),.34) 2px,transparent 2px),linear-gradient(90deg,rgba(var(--ml),.34) 2px,transparent 2px),linear-gradient(rgba(var(--ml),.15) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--ml),.15) 1px,transparent 1px);background-size:120px 120px,120px 120px,24px 24px,24px 24px;background-position:-1px -1px,-1px -1px,-1px -1px,-1px -1px}
-/* Mat colours: green, blue, orange and steel blue, one per class */
-.r[data-c="9"]{--mat:#2F6B49}.r[data-c="10"]{--mat:#1B5F80}.r[data-c="11"]{--mat:#B8491F}.r[data-c="12"]{--mat:#3A5775}
+/* Mat colours: green, blue, orange and violet, one per class */
+.r[data-c="9"]{--mat:#2F6B49}.r[data-c="10"]{--mat:#1B5F80}.r[data-c="11"]{--mat:#B8491F}.r[data-c="12"]{--mat:#4F4396}
 .r .sx-hero{--mbg:var(--mat,#2F6B49);--ml:255,255,255}
 .r[data-s] .sx-hero .sx-tag{background:#fff;color:var(--mat)}
 .r[data-s] .sx-hero .sx-tag svg{color:var(--mat)}
