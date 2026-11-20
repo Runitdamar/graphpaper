@@ -193,7 +193,17 @@ details.arch>summary{cursor:pointer;font-family:Fredoka,'Fredoka Fallback',sans-
 .r[data-s] a[style*="solid var(--ink)"]{border-width:1.5px!important}
 .r[data-s] a:focus-visible,.r[data-s] button:focus-visible,.r[data-s] summary:focus-visible,.r[data-s] input:focus-visible,.r[data-s] select:focus-visible{outline-color:var(--deep)}
 /* class page */
-.sx-hero{background-image:linear-gradient(rgba(var(--dot),.17) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--dot),.17) 1px,transparent 1px),linear-gradient(rgba(var(--dot),.08) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--dot),.08) 1px,transparent 1px);background-size:130px 130px,130px 130px,26px 26px,26px 26px;background-position:-1px -1px,-1px -1px,-1px -1px,-1px -1px}
+/* Cutting-mat hero: ruler ticks along the top and left edge, an inner frame, a fine grid every 24px and a bold line every 120px */
+.sx-hero{position:relative;isolation:isolate;overflow:hidden;background-color:var(--mbg);background-image:repeating-linear-gradient(90deg,rgba(var(--ml),.8) 0 2px,transparent 2px 60px),repeating-linear-gradient(90deg,rgba(var(--ml),.55) 0 1px,transparent 1px 12px),repeating-linear-gradient(0deg,rgba(var(--ml),.8) 0 2px,transparent 2px 60px),repeating-linear-gradient(0deg,rgba(var(--ml),.55) 0 1px,transparent 1px 12px);background-size:100% 16px,100% 9px,16px 100%,9px 100%;background-repeat:no-repeat;background-position:0 0,0 0,0 0,0 0}
+.sx-hero:before{content:"";position:absolute;z-index:-1;inset:24px 10px 10px 24px;border:2px solid rgba(var(--ml),.45);border-radius:6px;pointer-events:none;background-image:linear-gradient(rgba(var(--ml),.34) 2px,transparent 2px),linear-gradient(90deg,rgba(var(--ml),.34) 2px,transparent 2px),linear-gradient(rgba(var(--ml),.15) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--ml),.15) 1px,transparent 1px);background-size:120px 120px,120px 120px,24px 24px,24px 24px;background-position:-1px -1px,-1px -1px,-1px -1px,-1px -1px}
+/* Mat colours: green, blue, orange and steel blue, one per class */
+.r[data-c="9"]{--mat:#2F6B49}.r[data-c="10"]{--mat:#1B5F80}.r[data-c="11"]{--mat:#B8491F}.r[data-c="12"]{--mat:#3A5775}
+.r .sx-hero{--mbg:var(--mat,#2F6B49);--ml:255,255,255}
+.r[data-s] .sx-hero .sx-tag{background:#fff;color:var(--mat)}
+.r[data-s] .sx-hero .sx-tag svg{color:var(--mat)}
+.r[data-s] .sx-hero .btn,.r[data-s] .sx-hero .btn.dark{background:#fff;border-color:#fff;color:var(--mat)}
+.r[data-s] .sx-hero .btn:hover,.r[data-s] .sx-hero .btn.dark:hover{background:rgba(255,255,255,.86);border-color:rgba(255,255,255,.86);color:var(--mat)}
+.sx-hero .sx-art{filter:drop-shadow(0 12px 18px rgba(0,0,0,.28))}
 .sx-hg{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:40px;align-items:center;padding-top:40px;padding-bottom:48px}
 .sx-tag{display:inline-flex;align-items:center;gap:8px;background:var(--soft);color:var(--ink);padding:5px 14px;border-radius:999px;font-weight:700;font-size:15px;margin-bottom:18px}
 .sx-tag svg{width:18px;height:18px;color:var(--deep)}
@@ -460,3 +470,8 @@ a.sx-rc:not(.sm):hover::after{background:var(--deep);color:var(--paper)}
 .gp-sr em small{display:block;font-weight:400;color:var(--mut);font-size:13px}
 .r[data-s] .gp-sb,.r[data-s] .gp-sr{border:1px solid var(--stone);border-radius:14px}
 @media (max-width:520px){.gp-sr{display:grid;grid-template-columns:12px 1fr;gap:4px 14px}.gp-sr i{margin-top:6px}.gp-sr em{grid-column:2;text-align:left}.gp-sr em small{display:inline;margin-left:6px}}
+/* Cutting-mat hero overrides: kept last so they win over the earlier hero rules */
+.r[data-s] .sx-hero .sx-hg{padding:60px 30px 64px 46px}
+@media (max-width:480px){.sx-hero:before{inset:20px 6px 6px 20px}.r[data-s] .sx-hero .sx-hg{padding:52px 22px 56px 38px}}
+.sx-hero h1{color:#fff}
+.sx-hero p.sx-s{color:rgba(255,255,255,.9)}
