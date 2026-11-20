@@ -458,7 +458,7 @@ VIEWS.books = function(r){
    '<p class="note" style="margin-top:24px;color:var(--mut);font-size:15px">' + note + '</p></div>';
 };
 
-var CONTACT_EMAIL = "contact-removed@example.invalid";
+var CONTACT_EMAIL = "";
 var ISSUES = "https://github.com/Runitdamar/graphpaper/issues/new";
 function legal(title, lead, secs, upd){
   return '<div class="wrap sec" style="max-width:860px"><div class="crumb"><a href="#/home">Home</a> / <b>' + title + '</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">' + title + '</h1>' +
@@ -471,7 +471,7 @@ VIEWS.contact = function(){
     '<label for="ctopic" class="fr" style="font-weight:500">Topic</label><select id="ctopic" style="border:2px solid var(--ink);border-radius:16px;padding:12px;font-size:17px;background:var(--bg);color:var(--ink)"><option>General question</option><option>Report a wrong or missing notice</option><option>Suggest a feature</option><option>Something else</option></select>' +
     '<label for="cmsg" class="fr" style="font-weight:500">Message</label><textarea id="cmsg" rows="5" style="border:2px solid var(--ink);border-radius:16px;padding:12px;font-size:17px;background:var(--bg);color:var(--ink);font-family:inherit"></textarea>' +
     '<button class="btn dark" type="submit">Open in my email app</button><div class="meta">Or write to ' + esc(CONTACT_EMAIL) + '</div></form>'
-    : '<section class="card" style="--sh:var(--a4)"><span class="pill" style="background:var(--a4);align-self:flex-start">Coming soon</span><h2 style="font-size:24px;margin:0">Message form</h2><div>The contact form is not switched on yet. For now, use the link on the right to report a wrong or missing notice.</div></section>';
+    : '<section class="card" style="--sh:var(--a4)"><h2 style="font-size:24px;margin:0">Message us on GitHub</h2><div>Questions, ideas and wrong notices all go through GitHub. Use the link on the right (a free GitHub account is needed).</div></section>';
   return '<div class="wrap sec"><div class="crumb"><a href="#/home">Home</a> / <b>Contact</b></div><h1 id="pg" tabindex="-1" style="font-size:clamp(34px,5vw,52px);margin-bottom:10px">Contact us</h1>' +
    '<p style="margin:0 0 28px;color:var(--mut);max-width:560px">Found a wrong notice or have an idea? Tell us.</p><div class="grid g3" style="align-items:start">' + form +
    '<section class="card" style="--sh:var(--a3)"><h2 style="font-size:24px;margin:0">Report a wrong or missing notice</h2><div>Open a report on GitHub (a free GitHub account is needed). Please include the notice title and what looks wrong.</div><a class="btn dark" href="' + ISSUES + '?title=' + encodeURIComponent("Notice problem: ") + '" target="_blank" rel="noopener">Open a report ↗</a></section></div></div>';
