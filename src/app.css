@@ -133,7 +133,7 @@ details.arch>summary{cursor:pointer;font-family:Fredoka,'Fredoka Fallback',sans-
 .r[data-c="9"]{--paper:#F2F0E0;--stone:#E4DEC8;--deep:#2E4A36;--mid:#6E8F5E;--soft:#A9BFA0;--ftx:#DCE6CF;--dot:46,74,54;--bg:#F2F0E0;--card:#FBFAF1;--ink:#1B2A1F;--mut:#4F5B4A;--a1:#A9BFA0;--a2:#D9B65A;--a3:#8FAE82;--a4:#C9C27A;--a5:#B9A98A;--shelf:#E4DEC8;--gl:#E4DEC8}
 .r[data-c="10"]{--paper:#EBF3F5;--stone:#D3E3E9;--deep:#15506C;--mid:#3E8DAB;--soft:#A4CDDD;--ftx:#D4E8F0;--dot:21,80,108;--bg:#EBF3F5;--card:#F6FAFB;--ink:#0E2733;--mut:#3B5766;--a1:#A4CDDD;--a2:#7CC4C8;--a3:#8DBFD4;--a4:#B9D9E6;--a5:#9DBCC8;--shelf:#D3E3E9;--gl:#D3E3E9}
 .r[data-c="11"]{--paper:#F8EFE6;--stone:#EBD9C8;--deep:#6E2A25;--mid:#C8592B;--soft:#EDB27C;--ftx:#F6DFCB;--dot:110,42,37;--bg:#F8EFE6;--card:#FFF8F1;--ink:#2B1712;--mut:#6A4A3C;--a1:#EDB27C;--a2:#E89A3C;--a3:#D9A47C;--a4:#F2B45F;--a5:#E3B79A;--shelf:#EBD9C8;--gl:#EBD9C8}
-.r[data-c="12"]{--paper:#F3F6FA;--stone:#DDE5EE;--deep:#3A5775;--mid:#7C98B4;--soft:#BFD0E2;--ftx:#E4ECF5;--dot:58,87,117;--bg:#F3F6FA;--card:#FAFCFE;--ink:#1D2A3A;--mut:#4D5F73;--a1:#BFD0E2;--a2:#F2DC9A;--a3:#9FB8D2;--a4:#D3DEEA;--a5:#AFBCCB;--shelf:#DDE5EE;--gl:#DDE5EE}
+.r[data-c="12"]{--paper:#EEF0F3;--stone:#D9DDE3;--deep:#2B3442;--mid:#6B778A;--soft:#C3CAD4;--ftx:#E3E7EC;--dot:43,52,66;--bg:#EEF0F3;--card:#F7F8FA;--ink:#171D27;--mut:#4A5565;--a1:#C3CAD4;--a2:#F0D36B;--a3:#9AA6B6;--a4:#D3D8DF;--a5:#A9B1BD;--shelf:#D9DDE3;--gl:#D9DDE3}
 .r[data-s]{background-image:none;font-family:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif}
 .r[data-s] h1,.r[data-s] h2,.r[data-s] h3,.r[data-s] .fr,.r[data-s] .bq b,.r[data-s] .book .bt b,.r[data-s] details.arch>summary{font-family:'Young Serif','Young Serif Fallback',Georgia,serif;font-weight:400!important;line-height:1.15}
 .r[data-s] .wrap{max-width:1120px;padding:0 24px}
@@ -196,8 +196,8 @@ details.arch>summary{cursor:pointer;font-family:Fredoka,'Fredoka Fallback',sans-
 /* Cutting-mat hero: ruler ticks along the top and left edge, an inner frame, a fine grid every 24px and a bold line every 120px */
 .sx-hero{position:relative;isolation:isolate;overflow:hidden;background-color:var(--mbg);background-image:repeating-linear-gradient(90deg,rgba(var(--ml),.8) 0 2px,transparent 2px 60px),repeating-linear-gradient(90deg,rgba(var(--ml),.55) 0 1px,transparent 1px 12px),repeating-linear-gradient(0deg,rgba(var(--ml),.8) 0 2px,transparent 2px 60px),repeating-linear-gradient(0deg,rgba(var(--ml),.55) 0 1px,transparent 1px 12px);background-size:100% 16px,100% 9px,16px 100%,9px 100%;background-repeat:no-repeat;background-position:0 0,0 0,0 0,0 0}
 .sx-hero:before{content:"";position:absolute;z-index:-1;inset:24px 10px 10px 24px;border:2px solid rgba(var(--ml),.45);border-radius:6px;pointer-events:none;background-image:linear-gradient(rgba(var(--ml),.34) 2px,transparent 2px),linear-gradient(90deg,rgba(var(--ml),.34) 2px,transparent 2px),linear-gradient(rgba(var(--ml),.15) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--ml),.15) 1px,transparent 1px);background-size:120px 120px,120px 120px,24px 24px,24px 24px;background-position:-1px -1px,-1px -1px,-1px -1px,-1px -1px}
-/* Mat colours: green, blue, orange and violet, one per class */
-.r[data-c="9"]{--mat:#2F6B49}.r[data-c="10"]{--mat:#1B5F80}.r[data-c="11"]{--mat:#B8491F}.r[data-c="12"]{--mat:#4F4396}
+/* Mat colours: green, blue, orange and storm slate, one per class */
+.r[data-c="9"]{--mat:#2F6B49}.r[data-c="10"]{--mat:#1B5F80}.r[data-c="11"]{--mat:#B8491F}.r[data-c="12"]{--mat:#2E3846}
 .r .sx-hero{--mbg:var(--mat,#2F6B49);--ml:255,255,255}
 .r[data-s] .sx-hero .sx-tag{background:#fff;color:var(--mat)}
 .r[data-s] .sx-hero .sx-tag svg{color:var(--mat)}
@@ -475,3 +475,11 @@ a.sx-rc:not(.sm):hover::after{background:var(--deep);color:var(--paper)}
 @media (max-width:480px){.sx-hero:before{inset:20px 6px 6px 20px}.r[data-s] .sx-hero .sx-hg{padding:52px 22px 56px 38px}}
 .sx-hero h1{color:#fff}
 .sx-hero p.sx-s{color:rgba(255,255,255,.9)}
+/* Class 12 storm scene: falling rain, gusts, a lightning flash every few seconds (all stop with reduced motion) */
+@keyframes sxflash{0%,91%,100%{opacity:0}92%{opacity:1}93%{opacity:.15}94%{opacity:.95}96%{opacity:0}}
+@keyframes sxflash2{0%,91%,100%{opacity:0}92%{opacity:.22}93%{opacity:.05}94%{opacity:.2}96%{opacity:0}}
+@keyframes sxrain{to{transform:translate(-36px,92px)}}
+@keyframes sxgust{0%{transform:translateX(-160px);opacity:0}25%,75%{opacity:.6}100%{transform:translateX(260px);opacity:0}}
+.sx-art .flash{animation:sxflash 9s linear infinite}.sx-art .flash2{animation:sxflash2 9s linear infinite}
+.sx-art .rain{animation:sxrain 1.2s linear infinite}
+.sx-art .g1{animation:sxgust 6s linear infinite}.sx-art .g2{animation:sxgust 8s linear -3s infinite}.sx-art .g3{animation:sxgust 7s linear -5s infinite}
