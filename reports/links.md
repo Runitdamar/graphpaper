@@ -1,2 +1,287 @@
-# Link check: 4017 links, 0 problem(s)
+# Link check: 588 links, 283 problem(s)
 
+3431 links were not checked (out of time).
+
+- हिंदी की पाठ्यपुस्तक (Hindi) 4 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/ihga104.pdf
+- Madhurima: A Textbook of Arts 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr106.pdf
+- Jaan Pahechan (ZIP) | URLError: timed out | https://ncert.nic.in/textbook/pdf/jujp1dd.zip
+- हिंदी की पाठ्यपुस्तक (Hindi) 5 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/ihga105.pdf
+- Madhurima: A Textbook of Arts 7 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr107.pdf
+- Jaan Pahechan Preface and contents | URLError: timed out | https://ncert.nic.in/textbook/pdf/jujp1ps.pdf
+- Madhurima: A Textbook of Arts 8 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr108.pdf
+- Nawa-e-Urdu 1 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/june101.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 7 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/ihga107.pdf
+- Madhurima: A Textbook of Arts 9 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr109.pdf
+- Nawa-e-Urdu 2 | URLError: timed out | https://ncert.nic.in/textbook/pdf/june102.pdf
+- Madhurima: A Textbook of Arts 10 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr110.pdf
+- Nawa-e-Urdu 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/june103.pdf
+- हिंदी की पाठ्यपुस्तक (Hindi) 9 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/ihga109.pdf
+- Madhurima: A Textbook of Arts 11 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr111.pdf
+- Madhurima: A Textbook of Arts 12 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr112.pdf
+- Nawa-e-Urdu 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/june105.pdf
+- Madhurima: A Textbook of Arts 13 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr113.pdf
+- Nawa-e-Urdu 6 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/june106.pdf
+- Madhurima: A Textbook of Arts 14 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr114.pdf
+- Madhurima: A Textbook of Arts 15 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr115.pdf
+- Nawa-e-Urdu 8 | URLError: timed out | https://ncert.nic.in/textbook/pdf/june108.pdf
+- Madhurima: A Textbook of Arts 16 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr116.pdf
+- Nawa-e-Urdu 9 | URLError: timed out | https://ncert.nic.in/textbook/pdf/june109.pdf
+- Ganita Manjari (Part 1) 1 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/iemh101.pdf
+- Madhurima: A Textbook of Arts 17 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr117.pdf
+- Nawa-e-Urdu 10 | URLError: timed out | https://ncert.nic.in/textbook/pdf/june110.pdf
+- Ganita Manjari (Part 1) 2 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iemh102.pdf
+- Madhurima: A Textbook of Arts (ZIP) | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr1dd.zip
+- Ganita Manjari (Part 1) 3 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/iemh103.pdf
+- Madhurima: A Textbook of Arts Preface and contents | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemr1ps.pdf
+- Nawa-e-Urdu 12 | URLError: timed out | https://ncert.nic.in/textbook/pdf/june112.pdf
+- Ganita Manjari (Part 1) 4 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iemh104.pdf
+- Khel Praveen: Physical Education and Well-being 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iehp101.pdf
+- Nawa-e-Urdu 13 | URLError: timed out | https://ncert.nic.in/textbook/pdf/june113.pdf
+- Ganita Manjari (Part 1) 5 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iemh105.pdf
+- Khel Praveen: Physical Education and Well-being 2 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iehp102.pdf
+- Ganita Manjari (Part 1) 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemh106.pdf
+- Khel Praveen: Physical Education and Well-being 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iehp103.pdf
+- Nawa-e-Urdu (ZIP) | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/june1dd.zip
+- Ganita Manjari (Part 1) 7 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iemh107.pdf
+- Khel Praveen: Physical Education and Well-being 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iehp105.pdf
+- Sab Rang 1 | URLError: [Errno 104] Connection reset by peer | https://ncert.nic.in/textbook/pdf/jusr101.pdf
+- Ganita Manjari (Part 1) (ZIP) | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iemh1dd.zip
+- Khel Praveen: Physical Education and Well-being 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iehp106.pdf
+- Sab Rang 2 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/jusr102.pdf
+- Ganita Manjari (Part 1) Preface and contents | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iemh1ps.pdf
+- Khel Praveen: Physical Education and Well-being (ZIP) | URLError: timed out | https://ncert.nic.in/textbook/pdf/iehp1dd.zip
+- Ganita Manjari (Part 2) 9 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/iemh201.pdf
+- Sab Rang 4 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jusr104.pdf
+- Ganita Manjari (Part 2) 10 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iemh202.pdf
+- Sab Rang 5 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jusr105.pdf
+- Kaushal Vikas: Skill Education 2 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iekv102.pdf
+- Sab Rang 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jusr106.pdf
+- Ganita Manjari (Part 2) 12 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemh204.pdf
+- Kaushal Vikas: Skill Education 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iekv103.pdf
+- Sab Rang 7 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jusr107.pdf
+- Ganita Manjari (Part 2) 13 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemh205.pdf
+- Kaushal Vikas: Skill Education 4 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iekv104.pdf
+- Sab Rang 8 | URLError: [Errno 104] Connection reset by peer | https://ncert.nic.in/textbook/pdf/jusr108.pdf
+- Ganita Manjari (Part 2) 14 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemh206.pdf
+- Ganita Manjari (Part 2) (ZIP) | URLError: timed out | https://ncert.nic.in/textbook/pdf/iemh2dd.zip
+- Sab Rang (ZIP) | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jusr1dd.zip
+- Ganita Manjari (Part 2) Preface and contents | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iemh2ps.pdf
+- Sab Rang Preface and contents | URLError: timed out | https://ncert.nic.in/textbook/pdf/jusr1ps.pdf
+- Science 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iesc101.pdf
+- Kaushal Vikas: Skill Education 8 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iekv108.pdf
+- Urdu grammar and composition 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juuq101.pdf
+- Science 2 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iesc102.pdf
+- Urdu grammar and composition 2 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/juuq102.pdf
+- Science 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iesc105.pdf
+- Urdu grammar and composition 5 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juuq105.pdf
+- Science 6 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iesc106.pdf
+- Urdu grammar and composition 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juuq106.pdf
+- Urdu grammar and composition 7 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juuq107.pdf
+- Science 8 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iesc108.pdf
+- Urdu grammar and composition 8 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juuq108.pdf
+- Science 9 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iesc109.pdf
+- Urdu grammar and composition 9 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juuq109.pdf
+- Science 10 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iesc110.pdf
+- Urdu grammar and composition 10 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juuq110.pdf
+- Science 11 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iesc111.pdf
+- Science 12 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iesc112.pdf
+- Urdu grammar and composition 12 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juuq112.pdf
+- Science 13 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iesc113.pdf
+- Science (ZIP) | URLError: timed out | https://ncert.nic.in/textbook/pdf/iesc1dd.zip
+- Urdu grammar and composition 14 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juuq114.pdf
+- Science Preface and contents | URLError: timed out | https://ncert.nic.in/textbook/pdf/iesc1ps.pdf
+- Urdu grammar and composition 15 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juuq115.pdf
+- Understanding Society: India and Beyond (Part 1) 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest101.pdf
+- Urdu grammar and composition 17 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juuq117.pdf
+- Understanding Society: India and Beyond (Part 1) 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest103.pdf
+- Urdu grammar and composition 18 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juuq118.pdf
+- Understanding Society: India and Beyond (Part 1) 4 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest104.pdf
+- Understanding Society: India and Beyond (Part 1) 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest105.pdf
+- Urdu grammar and composition 20 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juuq120.pdf
+- Understanding Society: India and Beyond (Part 1) 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest106.pdf
+- Urdu grammar and composition 21 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/juuq121.pdf
+- Understanding Society: India and Beyond (Part 1) 7 | URLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011) | https://ncert.nic.in/textbook/pdf/iest107.pdf
+- Urdu grammar and composition 22 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juuq122.pdf
+- Urdu grammar and composition (ZIP) | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juuq1dd.zip
+- Understanding Society: India and Beyond (Part 1) 9 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest109.pdf
+- Urdu grammar and composition Preface and contents | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juuq1ps.pdf
+- Understanding Society: India and Beyond (Part 1) (ZIP) | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest1dd.zip
+- Kaveri (English) 1 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iebe101.pdf
+- Understanding Society: India and Beyond (Part 1) Preface and contents | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest1ps.pdf
+- Kaveri (English) 2 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iebe102.pdf
+- Understanding Society: India and Beyond (Part 2) 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest201.pdf
+- Kaveri (English) 3 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iebe103.pdf
+- Understanding Society: India and Beyond (Part 2) 2 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/iest202.pdf
+- Kaveri (English) 4 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iebe104.pdf
+- Understanding Society: India and Beyond (Part 2) 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest203.pdf
+- Kaveri (English) 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iebe105.pdf
+- Understanding Society: India and Beyond (Part 2) 4 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest204.pdf
+- Kaveri (English) 6 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iebe106.pdf
+- Understanding Society: India and Beyond (Part 2) 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest205.pdf
+- Kaveri (English) 7 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/iebe107.pdf
+- Understanding Society: India and Beyond (Part 2) 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest206.pdf
+- Understanding Society: India and Beyond (Part 2) (ZIP) | URLError: timed out | https://ncert.nic.in/textbook/pdf/iest2dd.zip
+- Health and Physical Education 4 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jehp104.pdf
+- Economics: Understanding Economic Development 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess203.pdf
+- Mathematics Preface and contents | URLError: timed out | https://ncert.nic.in/textbook/pdf/jemh1ps.pdf
+- Health and Physical Education 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jehp105.pdf
+- Economics: Understanding Economic Development 4 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess204.pdf
+- Health and Physical Education 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jehp101.pdf
+- Health and Physical Education 6 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jehp106..pdf
+- Economics: Understanding Economic Development 5 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/jess205.pdf
+- Health and Physical Education 2 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/jehp102.pdf
+- Health and Physical Education 7 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jehp107.pdf
+- Economics: Understanding Economic Development (ZIP) | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/jess2dd.zip
+- Health and Physical Education 3 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jehp103.pdf
+- Mathematics (ZIP) | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/jemh1dd.zip
+- Health and Physical Education 8 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jehp108..pdf
+- Health and Physical Education 9 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jehp109.pdf
+- History: India and the Contemporary World II 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess301.pdf
+- Mathematics Appendix A2: Mathematical Modelling | URLError: timed out | https://ncert.nic.in/textbook/pdf/jemh1a2.pdf
+- History: India and the Contemporary World II 2 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess302.pdf
+- First Flight 6 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jeff106.pdf
+- Mathematics Answers and hints | URLError: [Errno 104] Connection reset by peer | https://ncert.nic.in/textbook/pdf/jemh1an.pdf
+- Health and Physical Education 11 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jehp111.pdf
+- History: India and the Contemporary World II 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess303.pdf
+- Mathematics 9 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jemh109.pdf
+- Health and Physical Education 12 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jehp112.pdf
+- History: India and the Contemporary World II 4 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess304.pdf
+- Mathematics 10 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jemh110.pdf
+- Health and Physical Education 13 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jehp113..pdf
+- History: India and the Contemporary World II 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess305.pdf
+- Mathematics 11 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jemh111.pdf
+- Health and Physical Education (ZIP) | URLError: timed out | https://ncert.nic.in/textbook/pdf/jehp1dd.zip
+- Mathematics 12 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jemh112.pdf
+- Health and Physical Education Preface and contents | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jehp1ps.pdf
+- History: India and the Contemporary World II Preface and contents | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess3ps.pdf
+- First Flight 5 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jeff105.pdf
+- Mathematics 13 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jemh113.pdf
+- Shemushi Part 2 (Sanskrit) 1 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsk101.pdf
+- Political Science: Democratic Politics II 1 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jess401.pdf
+- Mathematics 14 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jemh114.pdf
+- Shemushi Part 2 (Sanskrit) 2 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsk102.pdf
+- Political Science: Democratic Politics II 2 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jess402.pdf
+- Mathematics 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jemh105.pdf
+- Political Science: Democratic Politics II 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess403.pdf
+- Mathematics 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jemh106.pdf
+- Political Science: Democratic Politics II 4 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess404.pdf
+- Shemushi Part 2 (Sanskrit) 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhsk105.pdf
+- Political Science: Democratic Politics II 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess405.pdf
+- Mathematics 8 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jemh108.pdf
+- Shemushi Part 2 (Sanskrit) 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhsk106.pdf
+- Political Science: Democratic Politics II (ZIP) | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jess4dd.zip
+- Sanchayan Part 2 (Hindi B) लेखक परिचय (author introductions) | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsy1lp.pdf
+- Political Science: Democratic Politics II Preface and contents | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess4ps.pdf
+- Sanchayan Part 2 (Hindi B) Preface and contents | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhsy1ps.pdf
+- Shemushi Part 2 (Sanskrit) 8 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsk108.pdf
+- Door-Paas (supplementary reader) 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp101.pdf
+- Mathematics 1 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jemh101.pdf
+- First Flight 4 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jeff104.pdf
+- Shemushi Part 2 (Sanskrit) 9 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsk109.pdf
+- Door-Paas (supplementary reader) 2 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/judp102.pdf
+- Shemushi Part 2 (Sanskrit) 10 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsk110.pdf
+- Door-Paas (supplementary reader) 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp103.pdf
+- Mathematics 3 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jemh103.pdf
+- Shemushi Part 2 (Sanskrit) Preface and contents | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsk1ps.pdf
+- Vyakaranvithi (Sanskrit grammar) 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhva101.pdf
+- Door-Paas (supplementary reader) 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp106.pdf
+- Sparsh Part 2 (Hindi B) Preface and contents | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsp1ps.pdf
+- Vyakaranvithi (Sanskrit grammar) 2 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhva102.pdf
+- Door-Paas (supplementary reader) 7 | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp107.pdf
+- Sanchayan Part 2 (Hindi B) 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhsy101.pdf
+- Door-Paas (supplementary reader) 8 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/judp108.pdf
+- Sanchayan Part 2 (Hindi B) 2 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsy102.pdf
+- Vyakaranvithi (Sanskrit grammar) 4 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhva104.pdf
+- Door-Paas (supplementary reader) 9 | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp109.pdf
+- Sanchayan Part 2 (Hindi B) 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhsy103.pdf
+- Vyakaranvithi (Sanskrit grammar) 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhva105.pdf
+- Door-Paas (supplementary reader) 10 | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp110.pdf
+- Vyakaranvithi (Sanskrit grammar) 6 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhva106.pdf
+- Door-Paas (supplementary reader) 11 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/judp111.pdf
+- Sparsh Part 2 (Hindi B) 9 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsp109.pdf
+- Vyakaranvithi (Sanskrit grammar) 7 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhva107.pdf
+- Door-Paas (supplementary reader) 12 | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp112.pdf
+- Sparsh Part 2 (Hindi B) 10 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsp110.pdf
+- Vyakaranvithi (Sanskrit grammar) 8 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhva108.pdf
+- Door-Paas (supplementary reader) 13 | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp113.pdf
+- Vyakaranvithi (Sanskrit grammar) 9 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhva109.pdf
+- Door-Paas (supplementary reader) 15 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/judp115.pdf
+- Sparsh Part 2 (Hindi B) 13 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsp113.pdf
+- Door-Paas (supplementary reader) 16 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/judp116.pdf
+- Sparsh Part 2 (Hindi B) 14 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhsp114.pdf
+- Door-Paas (supplementary reader) 17 | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp117.pdf
+- Sparsh Part 2 (Hindi B) (ZIP) | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsp1dd.zip
+- Sparsh Part 2 (Hindi B) 5 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsp105.pdf
+- Vyakaranvithi (Sanskrit grammar) (ZIP) | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhva1dd.zip
+- Door-Paas (supplementary reader) 18 | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp118.pdf
+- Sparsh Part 2 (Hindi B) 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhsp106.pdf
+- Vyakaranvithi (Sanskrit grammar) Appendix 1: शब्दरूपाणि | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhva1a1.pdf
+- Door-Paas (supplementary reader) 19 | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp119.pdf
+- Vyakaranvithi (Sanskrit grammar) Appendix 2: धातुरूपाणि | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhva1a2.pdf
+- Door-Paas (supplementary reader) (ZIP) | URLError: timed out | https://ncert.nic.in/textbook/pdf/judp1dd.zip
+- Vyakaranvithi (Sanskrit grammar) Preface and contents | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhva1ps.pdf
+- Door-Paas (supplementary reader) Preface and contents | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/judp1ps.pdf
+- First Flight 1 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jeff101.pdf
+- Science 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jesc101.pdf
+- Gulzar-e-Urdu (supplementary reader) 1 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juge101.pdf
+- Kshitij Part 2 (Hindi A) Preface and contents | URLError: [Errno 104] Connection reset by peer | https://ncert.nic.in/textbook/pdf/jhks1ps.pdf
+- Gulzar-e-Urdu (supplementary reader) 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juge103.pdf
+- Science 3 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/jesc103.pdf
+- Gulzar-e-Urdu (supplementary reader) 4 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juge104.pdf
+- Sparsh Part 2 (Hindi B) 2 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhsp102.pdf
+- Science 4 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jesc104.pdf
+- Gulzar-e-Urdu (supplementary reader) 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juge105.pdf
+- Sparsh Part 2 (Hindi B) 3 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhsp103.pdf
+- Science 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jesc105.pdf
+- Gulzar-e-Urdu (supplementary reader) 6 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/juge106.pdf
+- Science 6 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jesc106.pdf
+- Gulzar-e-Urdu (supplementary reader) 7 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juge107.pdf
+- Gulzar-e-Urdu (supplementary reader) 8 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juge108.pdf
+- Kshitij Part 2 (Hindi A) 10 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhks110.pdf
+- Gulzar-e-Urdu (supplementary reader) 9 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juge109.pdf
+- Science 9 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jesc109.pdf
+- Gulzar-e-Urdu (supplementary reader) 10 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juge110.pdf
+- Kshitij Part 2 (Hindi A) 12 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhks112.pdf
+- Kshitij Part 2 (Hindi A) 3 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhks103.pdf
+- Science 10 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jesc110.pdf
+- Gulzar-e-Urdu (supplementary reader) 11 | URLError: timed out | https://ncert.nic.in/textbook/pdf/juge111.pdf
+- Kshitij Part 2 (Hindi A) 4 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhks104.pdf
+- Gulzar-e-Urdu (supplementary reader) 12 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juge112.pdf
+- Kshitij Part 2 (Hindi A) 5 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/jhks105.pdf
+- Gulzar-e-Urdu (supplementary reader) (ZIP) | URLError: timed out | https://ncert.nic.in/textbook/pdf/juge1dd.zip
+- Kshitij Part 2 (Hindi A) 6 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhks106.pdf
+- Science 13 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jesc113.pdf
+- Science (ZIP) | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jesc1dd.zip
+- Gulzar-e-Urdu (supplementary reader) 2 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/juge102.pdf
+- Kshitij Part 2 (Hindi A) 8 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jhks108.pdf
+- Jaan Pahechan 2 | URLError: [Errno 104] Connection reset by peer | https://ncert.nic.in/textbook/pdf/jujp102.pdf
+- Kshitij Part 2 (Hindi A) 9 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhks109.pdf
+- Science Preface and contents | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jesc1ps.pdf
+- Jaan Pahechan 3 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/jujp103.pdf
+- First Flight Preface and contents | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jeff1ps.pdf
+- Geography: Contemporary India II 1 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jess101.pdf
+- Jaan Pahechan 4 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jujp104.pdf
+- Kritika Part 2 (Hindi A) Preface and contents | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhkr1ps.pdf
+- Footprints without Feet 2 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jefp102.pdf
+- Geography: Contemporary India II 3 | URLError: [Errno 104] Connection reset by peer | https://ncert.nic.in/textbook/pdf/jess103.pdf
+- Jaan Pahechan 6 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jujp106.pdf
+- Kshitij Part 2 (Hindi A) 2 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhks102.pdf
+- Geography: Contemporary India II 4 | RemoteDisconnected: Remote end closed connection without response | https://ncert.nic.in/textbook/pdf/jess104.pdf
+- Jaan Pahechan 7 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jujp107.pdf
+- Footprints without Feet 9 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jefp109.pdf
+- Geography: Contemporary India II 5 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess105.pdf
+- Jaan Pahechan 9 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jujp109.pdf
+- Geography: Contemporary India II 7 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess107.pdf
+- Kritika Part 2 (Hindi A) 1 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhkr101.pdf
+- Jaan Pahechan 10 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jujp110.pdf
+- Geography: Contemporary India II (ZIP) | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jess1dd.zip
+- Jaan Pahechan 11 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jujp111.pdf
+- Kritika Part 2 (Hindi A) 3 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhkr103.pdf
+- Geography: Contemporary India II Appendix I: Websites you can visit | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess1a1.pdf
+- Kritika Part 2 (Hindi A) (ZIP) | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jhkr1dd.zip
+- Jaan Pahechan 13 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jujp113.pdf
+- Economics: Understanding Economic Development 1 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jess201.pdf
+- Jaan Pahechan 14 | TimeoutError: The read operation timed out | https://ncert.nic.in/textbook/pdf/jujp114.pdf
+- Footprints without Feet 7 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jefp107.pdf
+- Economics: Understanding Economic Development 2 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jess202.pdf
+- Jaan Pahechan 15 | URLError: timed out | https://ncert.nic.in/textbook/pdf/jujp115.pdf
